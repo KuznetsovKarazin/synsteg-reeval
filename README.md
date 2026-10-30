@@ -1,6 +1,6 @@
 # Re-evaluation of LLM synonym-substitution steganography
 
-Code and results of an independent re-evaluation of SynSteg, a linguistic steganography method in which a large language model writes a cover text and a table of synonyms, and the table serves as the secret key.
+Code and results of an independent re-evaluation of SynSteg, a linguistic steganography method in which a large language model writes a cover text and a table of synonyms, and this table is the secret key.
 
 This repository accompanies the article "Is LLM Synonym-Substitution Steganography Undetectable? A Re-Evaluation of Steganalysis, Decoding and Key Cost" (O. Kuznetsov, K. Chernov, O. Smirnov, I. Ienina; submitted to *Computers*, MDPI). The original method is at https://github.com/po3na4skld/synsteg (commit f7709e6). This repository is a cleaned snapshot of the authors' working repository: working notes and drafts are not included.
 
