@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "Re-evaluation of LLM synonym-substitution steganography: code, data and results"
+authors:
+  - family-names: Kuznetsov
+    given-names: Oleksandr
+    orcid: "https://orcid.org/0000-0003-2331-6326"
+  - family-names: Chernov
+    given-names: Kyrylo
+    orcid: "https://orcid.org/0000-0003-2417-3793"
+  - family-names: Smirnov
+    given-names: Oleksii
+    orcid: "https://orcid.org/0000-0001-9543-874X"
+  - family-names: Ienina
+    given-names: Iryna
+    orcid: "https://orcid.org/0000-0002-2122-7808"
+version: "1.0.0"
+date-released: "2026-10-30"
+repository-code: "https://github.com/KuznetsovKarazin/synsteg-reeval"

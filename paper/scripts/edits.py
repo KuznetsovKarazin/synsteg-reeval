@@ -1,6 +1,6 @@
 import json, glob, difflib, statistics as st
 import os
-REP=os.environ.get("SYNSTEG_REPORTS", "data/reports")
+REP=os.environ.get("SYNSTEG_REPORTS", os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "reports"))
 for s,d in {"luna":"gpt6_luna_missing","qwen3":"qwen_missing_b3","gpt4o":"gpt_omni_reports","ds2023":"json_reports"}.items():
     rates=[]; words=0; changed=0
     for fn in glob.glob(f"{REP}/{d}/*.json"):

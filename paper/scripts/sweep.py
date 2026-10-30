@@ -13,7 +13,7 @@ from sklearn.metrics import accuracy_score, roc_auc_score
 from scipy.sparse import hstack
 from wordfreq import zipf_frequency
 
-REP = os.environ.get("SYNSTEG_REPORTS", "data/reports")
+REP = os.environ.get("SYNSTEG_REPORTS", os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "reports"))
 SERIES = {"luna": "gpt6_luna_missing", "qwen3": "qwen_missing_b3",
           "gpt4o": "gpt_omni_reports", "ds2023": "json_reports"}
 RATES = [0.02, 0.05, 0.10, 0.20, 0.30, 0.40]
