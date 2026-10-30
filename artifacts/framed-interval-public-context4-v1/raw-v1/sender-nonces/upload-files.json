@@ -1,0 +1,30 @@
+{
+  "do_not_upload": [
+    "full.zip"
+  ],
+  "files": [
+    {
+      "bytes": 4439,
+      "encoding": "utf-8",
+      "path": "artifacts/framed-interval-public-context4-v1/raw-v1/sender-nonces/index.json",
+      "sha256": "c4b9058e560c1988a7acb87b85fb226b3952ca48440d200313ef925c083f68c0"
+    },
+    {
+      "bytes": 209,
+      "encoding": "utf-8",
+      "path": "artifacts/framed-interval-public-context4-v1/raw-v1/sender-nonces/fresh-restore.json",
+      "sha256": "2714c906a499985b5c3d481c313a2f60be3548e43a4f52bbb56472b212b8536c"
+    },
+    {
+      "bytes": 4318,
+      "encoding": "binary",
+      "path": "artifacts/framed-interval-public-context4-v1/raw-v1/sender-nonces/full.zip.part000",
+      "sha256": "c3edb92169892a6ce2a6c104fb94177d2d8462584a8064d67d20411c3dcc56da"
+    }
+  ],
+  "full_primary_files": 8,
+  "include_upload_list_itself": true,
+  "maximum_binary_part_bytes": 196608,
+  "model_calls": 0,
+  "schema": "author-candidate-local-native-v3-upload-list"
+}

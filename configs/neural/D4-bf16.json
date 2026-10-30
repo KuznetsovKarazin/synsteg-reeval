@@ -1,0 +1,14 @@
+{
+  "kind": "D4",
+  "model_id": "Qwen/Qwen2.5-1.5B",
+  "model_revision": "8faed761d45a263340a0528343f099c05c9a4323",
+  "tokenizer_id": "Qwen/Qwen2.5-1.5B",
+  "tokenizer_revision": "8faed761d45a263340a0528343f099c05c9a4323",
+  "cpu_threads": 3,
+  "performer_model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+  "performer_model_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "performer_tokenizer_id": "Qwen/Qwen2.5-1.5B-Instruct",
+  "performer_tokenizer_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "dtype": "bfloat16",
+  "precision_protocol": "bf16_independent_recompute"
+}

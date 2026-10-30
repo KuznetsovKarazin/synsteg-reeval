@@ -1,0 +1,68 @@
+{
+  "all_same_public_spec_and_context": true,
+  "attempts_per_endpoint": 1,
+  "max_endpoint_seconds": 1800,
+  "payloads_are_public_test_fixtures": true,
+  "planned_fresh_receivers": 2,
+  "planned_generations": 4,
+  "retry_permitted": false,
+  "runs": [
+    {
+      "arm": "stego",
+      "envelope": {
+        "arm": "stego",
+        "context_sha256": "7ab6206b9f6637abd33349178a66dae578d4a91db412a721863b8e2f5f917a96",
+        "nonce_hex": "87fc8975c5ce485bcb4d81f3",
+        "ordinary_seed_hex": "78b1af2fd247df14b2727df56b69a44137a995bad3e58939bba905985035468e",
+        "schema": "framed-interval-public-v1-envelope",
+        "spec_sha256": "fdd370eb8b83c43bf40b6451d2bc2ae4a08ee476b2d352bb5ffba84264af2e92"
+      },
+      "key_hex": "e2b9435c869d6e6c76a4336065730163f9720a0d5e1928934b9ab7adaf42d12f",
+      "payload_hex": "000102030405060708090a0b0c0d0e0f",
+      "run_id": "station-m00-stego"
+    },
+    {
+      "arm": "ordinary",
+      "envelope": {
+        "arm": "ordinary",
+        "context_sha256": "7ab6206b9f6637abd33349178a66dae578d4a91db412a721863b8e2f5f917a96",
+        "nonce_hex": "5602ed7b6601965cb9aabb48",
+        "ordinary_seed_hex": "78b1af2fd247df14b2727df56b69a44137a995bad3e58939bba905985035468e",
+        "schema": "framed-interval-public-v1-envelope",
+        "spec_sha256": "fdd370eb8b83c43bf40b6451d2bc2ae4a08ee476b2d352bb5ffba84264af2e92"
+      },
+      "key_hex": "e2b9435c869d6e6c76a4336065730163f9720a0d5e1928934b9ab7adaf42d12f",
+      "payload_hex": null,
+      "run_id": "station-m00-ordinary"
+    },
+    {
+      "arm": "stego",
+      "envelope": {
+        "arm": "stego",
+        "context_sha256": "7ab6206b9f6637abd33349178a66dae578d4a91db412a721863b8e2f5f917a96",
+        "nonce_hex": "857392d50964cf4f73e795b1",
+        "ordinary_seed_hex": "78b1af2fd247df14b2727df56b69a44137a995bad3e58939bba905985035468e",
+        "schema": "framed-interval-public-v1-envelope",
+        "spec_sha256": "fdd370eb8b83c43bf40b6451d2bc2ae4a08ee476b2d352bb5ffba84264af2e92"
+      },
+      "key_hex": "e2b9435c869d6e6c76a4336065730163f9720a0d5e1928934b9ab7adaf42d12f",
+      "payload_hex": "101112131415161718191a1b1c1d1e1f",
+      "run_id": "station-m01-stego"
+    },
+    {
+      "arm": "ordinary",
+      "envelope": {
+        "arm": "ordinary",
+        "context_sha256": "7ab6206b9f6637abd33349178a66dae578d4a91db412a721863b8e2f5f917a96",
+        "nonce_hex": "bf52a3be1730ff40c610746e",
+        "ordinary_seed_hex": "78b1af2fd247df14b2727df56b69a44137a995bad3e58939bba905985035468e",
+        "schema": "framed-interval-public-v1-envelope",
+        "spec_sha256": "fdd370eb8b83c43bf40b6451d2bc2ae4a08ee476b2d352bb5ffba84264af2e92"
+      },
+      "key_hex": "e2b9435c869d6e6c76a4336065730163f9720a0d5e1928934b9ab7adaf42d12f",
+      "payload_hex": null,
+      "run_id": "station-m01-ordinary"
+    }
+  ],
+  "schema": "framed-interval-public-v1-native-four-case-fixtures"
+}

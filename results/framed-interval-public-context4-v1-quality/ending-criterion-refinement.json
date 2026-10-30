@@ -1,0 +1,26 @@
+{
+  "schema": "public-context4-quality-ending-criterion-refinement",
+  "reviewer": "public_context_quality",
+  "initial_input_sha256": "44fa9aed910229985dd2a7313bb614e9f1aaee4234c133d472e47bf6e2b1c285",
+  "changes": [
+    {
+      "case_id": "o004-stego",
+      "initial_unfinished_ending": true,
+      "final_unfinished_ending": null,
+      "reason_ru": "Окончание and the development резко и содержательно недостаточно, но development является существительным и допускает контекстное употребление без обязательного дополнения. Отсутствие пунктуации не доказывает синтаксический обрыв; итоговое суждение неоднозначно."
+    },
+    {
+      "case_id": "o004-ordinary",
+      "initial_unfinished_ending": true,
+      "final_unfinished_ending": null,
+      "reason_ru": "Complementary допускает самостоятельное предикативное употребление после is. Отсутствие указания, чему метод комплементарен, делает объяснение неясным, но не доказывает обязательного пропущенного грамматического компонента. Итоговое суждение неоднозначно."
+    }
+  ],
+  "no_raw_text_changes": true,
+  "no_generation_calls": true,
+  "invariant_counts": {
+    "texts_with_no_terminal_punctuation": 8,
+    "texts_with_source_unsupported_additions": 8
+  },
+  "reason": "Apply the same conservative grammatical-constituent criterion to all eight endings; abruptness and absent punctuation alone are insufficient."
+}

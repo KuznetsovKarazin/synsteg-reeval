@@ -1,0 +1,128 @@
+{
+  "schema_version": "0.1",
+  "status": "proposal_not_preregistered_not_executed",
+  "created_date": "2026-10-22",
+  "purpose": "Prospective message-level evaluation after the archived corpus has become development data",
+  "execution_enabled": false,
+  "paid_api_budget_authorized": false,
+  "freeze": {
+    "protocol_commit": null,
+    "configuration_sha256": null,
+    "test_manifest_sha256": null,
+    "must_freeze_before_test_generation": true,
+    "test_open_events_must_be_logged": true,
+    "method_changes_after_test_access_require_new_test": true
+  },
+  "models": [],
+  "model_record_required_fields": [
+    "provider", "model_id", "model_revision_or_null", "tokenizer_id", "tokenizer_revision_or_null",
+    "decoding_parameters", "requested_seed_or_null", "seed_semantics", "device", "dtype"
+  ],
+  "corpus": {
+    "legacy_pairs_are_development": true,
+    "payload_bits": [128, 256, 512],
+    "payload_source": "synthetic_random_bits_only",
+    "proposed_test_pairs_per_generator": 300,
+    "sample_size_status": "planning_target_requires_precision_and_cluster_design_review",
+    "balance_test_by_payload": true,
+    "train_and_development_pairs_additional_to_test": true,
+    "genres": [],
+    "topic_prompt_manifest": null,
+    "split_unit": "document_family_with_all_variants_and_attempts",
+    "split_before_sentence_expansion": true,
+    "topic_and_prompt_families_disjoint": true,
+    "seed_proposal": {"train": 2026102201, "development": 2026102202, "test": 2026102203},
+    "near_duplicate_policy": "freeze_normalization_thresholds_and_collision_quarantine_before_collection"
+  },
+  "generation_record_required_fields": [
+    "document_family_id", "sample_id", "split", "genre_id", "topic_id", "prompt_id",
+    "prompt_text", "prompt_sha256", "payload_bits", "payload_sha256", "model_record",
+    "request_id_or_null", "attempt_number", "start_time", "end_time", "token_usage_or_null",
+    "cover_text", "key_scheme", "key_fixed_before_payload", "key_serialization",
+    "requested_bits", "embedded_bits", "decoded_bits", "full_exact_recovery",
+    "failure_reason_or_null", "retry_policy_id", "software_commit", "config_sha256"
+  ],
+  "reliability": {
+    "primary_endpoint": "full_decoded_payload_exactly_equals_requested_payload",
+    "prefix_match_is_full_success": false,
+    "count_capacity_shortfall_as_failure": true,
+    "report_first_attempt_and_retry_policy_results_separately": true,
+    "retry_policy": null,
+    "maximum_attempts": null,
+    "silent_payload_truncation_allowed": false
+  },
+  "steganalysis": {
+    "primary_task": "matched_generated_cover_vs_stego",
+    "auxiliary_task": "human_vs_generated_text_reported_separately",
+    "primary_model": {
+      "type": "TFIDF_LogisticRegression",
+      "ngram_range": [1, 2],
+      "min_df": 1,
+      "sublinear_tf": true,
+      "lowercase": true,
+      "C": 1.0,
+      "solver": "lbfgs",
+      "max_iter": 2000,
+      "random_state": 0,
+      "decision_threshold": 0.5
+    },
+    "secondary_model": null,
+    "learned_preprocessing_fit_split": "train_only",
+    "hyperparameters_and_score_direction_selected_on": "development_only",
+    "target_fpr": 0.05,
+    "fpr_threshold_calibration_split": "heldout_negative_development",
+    "fpr_achieved_evaluation_split": "independent_matched_test",
+    "required_controls": [
+      "balanced_pair_label_permutation", "length_only", "equal_length_lexical",
+      "document_and_duplicate_groups", "prospective_topic_holdout", "cross_generator"
+    ],
+    "detector_queried_during_optimization_is_heldout": false
+  },
+  "quality": {
+    "optimizing_model": null,
+    "independent_ppl_model": null,
+    "tokenization_context_and_masking_policy": null,
+    "human_assessment": {
+      "status": "not_started",
+      "blinded": true,
+      "randomized": true,
+      "units": "original_documents",
+      "dimensions": ["grammar_and_naturalness", "meaning_preservation"],
+      "annotators_per_item": null,
+      "rubric": null,
+      "adjudication_and_exclusion_rules": null
+    }
+  },
+  "baseline": {
+    "method": null,
+    "candidate_methods": ["Discop", "Neural_Linguistic_Steganography_arithmetic_coding"],
+    "repository_commit": null,
+    "shared_open_backbone_required_for_method_only_claims": true,
+    "match": ["context_and_topic_policy", "payload", "decoded_goodput", "model_access", "split_policy"]
+  },
+  "algorithm_ablation": {
+    "variants": ["historical_codec", "repaired_codec", "quality_selection_message_dependent_mapping"],
+    "proposed_fixed_key_group_variant_status": "not_implemented_or_validated",
+    "message_independent_codebook_required_for_fixed_key_variant": true,
+    "capacity_precheck_required": true,
+    "insufficient_candidate_positions_carry_zero_bits": true
+  },
+  "statistics": {
+    "primary_analysis_unit": "document_family",
+    "topic_clustering_must_be_accounted_for": true,
+    "confidence_level": 0.95,
+    "bootstrap_resamples_proposal": 10000,
+    "bootstrap_seed_proposal": 2026102204,
+    "seed_sd_is_confidence_interval": false,
+    "report_all_planned_variants_and_seeds": true
+  },
+  "remaining_blockers": [
+    "freeze_protocol_and_configuration_commit",
+    "choose_model_access_and_compute_budget",
+    "finish_corrected_full_corpus_D4_D5_and_independent_PPL_runs",
+    "define_new_genres_topics_prompts_and_split_manifest",
+    "choose_final_sample_size_and_retry_policy",
+    "pin_baseline_and_secondary_detector",
+    "define_blinded_human_rating_protocol"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "schema": "author-candidate-schema-v3-activation",
+  "enabled": false,
+  "native_runner_implemented": false,
+  "model_calls_authorized_by_this_file": false
+}

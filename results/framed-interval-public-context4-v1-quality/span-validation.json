@@ -1,0 +1,12 @@
+{
+  "cases_validated": 8,
+  "denominator": 8,
+  "literal_spans_validated": 134,
+  "nn_calls": 0,
+  "review_sha256": "d5f698afe6f21934f59d4df1c45f37ac0811e257a9affdf04df1f2ef4b786df8",
+  "schema": "framed-interval-public-context4-v1-quality-span-validation",
+  "scope": "Identity, counts and exact literal spans only; semantic judgments are not proved by this validator.",
+  "selected_contexts_sha256": "7f7b08426adf23546a2d652fe911c69ad364ea7d4ff0287215d14e923ae12fe2",
+  "status": "passed",
+  "texts_available": 8
+}

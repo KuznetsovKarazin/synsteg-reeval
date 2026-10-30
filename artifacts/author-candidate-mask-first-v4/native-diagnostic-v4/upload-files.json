@@ -1,0 +1,42 @@
+{
+  "do_not_upload": [
+    "full.zip"
+  ],
+  "files": [
+    {
+      "bytes": 21062,
+      "encoding": "utf-8",
+      "path": "artifacts/author-candidate-mask-first-v4/native-diagnostic-v4/index.json",
+      "sha256": "c35400d915c20d5084045762822498483ee226eda8ef801ab4d7524c3fa3a3a5"
+    },
+    {
+      "bytes": 211,
+      "encoding": "utf-8",
+      "path": "artifacts/author-candidate-mask-first-v4/native-diagnostic-v4/fresh-restore.json",
+      "sha256": "5a1bc5cdbf1e51eabd759c0cf2f36a759fd855fdea9cc147d05453020be0fc65"
+    },
+    {
+      "bytes": 196608,
+      "encoding": "binary",
+      "path": "artifacts/author-candidate-mask-first-v4/native-diagnostic-v4/full.zip.part000",
+      "sha256": "ecc6caafb98a3939c2c1ddcaba5b08573412aa871677f9b860f90025dcf2b0e8"
+    },
+    {
+      "bytes": 196608,
+      "encoding": "binary",
+      "path": "artifacts/author-candidate-mask-first-v4/native-diagnostic-v4/full.zip.part001",
+      "sha256": "81a58ced47ee7b57d71a5430e635911f25eedab107ec0d52cb98610db60c6252"
+    },
+    {
+      "bytes": 60425,
+      "encoding": "binary",
+      "path": "artifacts/author-candidate-mask-first-v4/native-diagnostic-v4/full.zip.part002",
+      "sha256": "685273bf40e1245c40ad8a6d4cf6295c6d95e5df539b01ed8b251ac30e40a766"
+    }
+  ],
+  "full_primary_files": 46,
+  "include_upload_list_itself": true,
+  "maximum_binary_part_bytes": 196608,
+  "model_calls": 0,
+  "schema": "author-candidate-local-native-v3-upload-list"
+}

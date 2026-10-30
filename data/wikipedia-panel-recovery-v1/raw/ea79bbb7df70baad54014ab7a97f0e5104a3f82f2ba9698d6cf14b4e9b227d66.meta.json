@@ -1,0 +1,18 @@
+{
+  "bytes": 16900,
+  "params": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "list": "search",
+    "maxlag": "5",
+    "srlimit": "300",
+    "srnamespace": "0",
+    "srprop": "",
+    "srsearch": "geography",
+    "srsort": "relevance"
+  },
+  "retrieved_utc": "2026-10-23T23:38:34.068272+00:00",
+  "sha256": "dc68be96ec47ce348f010ed98b606b251a754fb52e06cb6a5c52f5c3e73e8ad1",
+  "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&list=search&maxlag=5&srlimit=300&srnamespace=0&srprop=&srsearch=geography&srsort=relevance"
+}

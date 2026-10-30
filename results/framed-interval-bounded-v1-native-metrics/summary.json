@@ -1,0 +1,405 @@
+{
+  "causal_comparison_to_fixed512_pilot_permitted": false,
+  "causal_limit": "New keys/nonces, method domains, activation digest and stop rule;8/8 versus earlier1/2 is not an isolated causal improvement estimate.",
+  "decoder_calls": 0,
+  "deployment_binding_limitation": {
+    "activation_binds_sender_fixture_hash": {
+      "path": "experiments/framed-interval-bounded-v1/sender-fixtures.json",
+      "sha256": "c54586084ad39c0fa745202254bb30f8be715b5035d5b49165c55af2ae295ffb"
+    },
+    "activation_sha256": "0a8e182e8e3144cb429acc6eaec638da2c3235e4c608f6facf76ef4fde70fe21",
+    "arbitrary_message_deployment_established": false,
+    "envelope_protocol_digest_is_activation_sha256": true,
+    "message_independent_public_binding": false
+  },
+  "descriptive_statistics": {
+    "all16": {
+      "envelope_canonical_json_bytes": {
+        "max": 2560,
+        "mean": 2533,
+        "median": 2533.0,
+        "min": 2506,
+        "n": 16,
+        "sum": 40528
+      },
+      "envelope_saved_json_bytes": {
+        "max": 4110,
+        "mean": 4020.5,
+        "median": 4020.5,
+        "min": 3931,
+        "n": 16,
+        "sum": 64328
+      },
+      "pending_bits": {
+        "max": 1,
+        "mean": 0.125,
+        "median": 0.0,
+        "min": 0,
+        "n": 16,
+        "sum": 2
+      },
+      "resolved_bits": {
+        "max": 275,
+        "mean": 273.3125,
+        "median": 273.0,
+        "min": 272,
+        "n": 16,
+        "sum": 4373
+      },
+      "sender_tokens": {
+        "max": 418,
+        "mean": 308.875,
+        "median": 296.5,
+        "min": 232,
+        "n": 16,
+        "sum": 4942
+      },
+      "sender_wall_seconds": {
+        "max": 31.79877390799993,
+        "mean": 25.7843387529374,
+        "median": 25.73679167499904,
+        "min": 20.007838023999284,
+        "n": 16,
+        "sum": 412.5494200469984
+      },
+      "sender_whitespace_words": {
+        "max": 244,
+        "mean": 208.625,
+        "median": 212.0,
+        "min": 178,
+        "n": 16,
+        "sum": 3338
+      },
+      "wire_bytes": {
+        "max": 1475,
+        "mean": 1276.125,
+        "median": 1277.5,
+        "min": 1051,
+        "n": 16,
+        "sum": 20418
+      },
+      "wire_plus_canonical_envelope_bytes": {
+        "max": 4035,
+        "mean": 3809.125,
+        "median": 3795.5,
+        "min": 3557,
+        "n": 16,
+        "sum": 60946
+      }
+    },
+    "ordinary8": {
+      "envelope_canonical_json_bytes": {
+        "max": 2560,
+        "mean": 2534.5,
+        "median": 2534.5,
+        "min": 2509,
+        "n": 8,
+        "sum": 20276
+      },
+      "envelope_saved_json_bytes": {
+        "max": 4110,
+        "mean": 4022,
+        "median": 4022.0,
+        "min": 3934,
+        "n": 8,
+        "sum": 32176
+      },
+      "pending_bits": {
+        "max": 1,
+        "mean": 0.125,
+        "median": 0.0,
+        "min": 0,
+        "n": 8,
+        "sum": 1
+      },
+      "resolved_bits": {
+        "max": 275,
+        "mean": 273.625,
+        "median": 273.5,
+        "min": 272,
+        "n": 8,
+        "sum": 2189
+      },
+      "sender_tokens": {
+        "max": 418,
+        "mean": 319.25,
+        "median": 300.5,
+        "min": 263,
+        "n": 8,
+        "sum": 2554
+      },
+      "sender_wall_seconds": {
+        "max": 31.04487669000082,
+        "mean": 26.04621337962476,
+        "median": 25.73679167499904,
+        "min": 22.873161679999612,
+        "n": 8,
+        "sum": 208.36970703699808
+      },
+      "sender_whitespace_words": {
+        "max": 244,
+        "mean": 214.625,
+        "median": 212.5,
+        "min": 185,
+        "n": 8,
+        "sum": 1717
+      },
+      "wire_bytes": {
+        "max": 1475,
+        "mean": 1317.75,
+        "median": 1300.0,
+        "min": 1240,
+        "n": 8,
+        "sum": 10542
+      },
+      "wire_plus_canonical_envelope_bytes": {
+        "max": 4035,
+        "mean": 3852.25,
+        "median": 3839.0,
+        "min": 3768,
+        "n": 8,
+        "sum": 30818
+      }
+    },
+    "stego8": {
+      "envelope_canonical_json_bytes": {
+        "max": 2557,
+        "mean": 2531.5,
+        "median": 2531.5,
+        "min": 2506,
+        "n": 8,
+        "sum": 20252
+      },
+      "envelope_saved_json_bytes": {
+        "max": 4107,
+        "mean": 4019,
+        "median": 4019.0,
+        "min": 3931,
+        "n": 8,
+        "sum": 32152
+      },
+      "pending_bits": {
+        "max": 1,
+        "mean": 0.125,
+        "median": 0.0,
+        "min": 0,
+        "n": 8,
+        "sum": 1
+      },
+      "resolved_bits": {
+        "max": 274,
+        "mean": 273,
+        "median": 273.0,
+        "min": 272,
+        "n": 8,
+        "sum": 2184
+      },
+      "sender_tokens": {
+        "max": 389,
+        "mean": 298.5,
+        "median": 296.5,
+        "min": 232,
+        "n": 8,
+        "sum": 2388
+      },
+      "sender_wall_seconds": {
+        "max": 31.79877390799993,
+        "mean": 25.522464126250043,
+        "median": 25.270853493000686,
+        "min": 20.007838023999284,
+        "n": 8,
+        "sum": 204.17971301000034
+      },
+      "sender_whitespace_words": {
+        "max": 239,
+        "mean": 202.625,
+        "median": 189.0,
+        "min": 178,
+        "n": 8,
+        "sum": 1621
+      },
+      "wire_bytes": {
+        "max": 1458,
+        "mean": 1234.5,
+        "median": 1223.0,
+        "min": 1051,
+        "n": 8,
+        "sum": 9876
+      },
+      "wire_plus_canonical_envelope_bytes": {
+        "max": 4015,
+        "mean": 3766,
+        "median": 3780.0,
+        "min": 3557,
+        "n": 8,
+        "sum": 30128
+      }
+    }
+  },
+  "method": "Deterministic arithmetic over saved audited JSON and exact UTF8 wires. No NN/tokenizer/decoder invocation.",
+  "model_calls": 0,
+  "paired_stego_minus_ordinary": {
+    "envelope_canonical_json_bytes": {
+      "max": -3,
+      "mean": -3,
+      "median": -3.0,
+      "min": -3,
+      "n": 8,
+      "sum": -24
+    },
+    "envelope_saved_json_bytes": {
+      "max": -3,
+      "mean": -3,
+      "median": -3.0,
+      "min": -3,
+      "n": 8,
+      "sum": -24
+    },
+    "sender_tokens": {
+      "max": 23,
+      "mean": -20.75,
+      "median": -28.0,
+      "min": -78,
+      "n": 8,
+      "sum": -166
+    },
+    "sender_whitespace_words": {
+      "max": 27,
+      "mean": -12,
+      "median": -4.0,
+      "min": -65,
+      "n": 8,
+      "sum": -96
+    },
+    "wire_bytes": {
+      "max": 140,
+      "mean": -83.25,
+      "median": -79.5,
+      "min": -322,
+      "n": 8,
+      "sum": -666
+    },
+    "wire_plus_canonical_envelope_bytes": {
+      "max": 137,
+      "mean": -86.25,
+      "median": -82.5,
+      "min": -325,
+      "n": 8,
+      "sum": -690
+    }
+  },
+  "quality": {
+    "human_gold": false,
+    "status": "available_descriptive_agent_review",
+    "summary": {
+      "all_sender_cases_reviewed": 16,
+      "cases_with_explicit_record_conflicts": 6,
+      "cases_with_headings_or_lists": 12,
+      "cases_with_no_obvious_added_source_fidelity_defect_identified": [
+        "library-c03-ordinary"
+      ],
+      "clearly_incomplete_syntactic_endings": 14,
+      "descriptive_case_counts_by_arm": {
+        "ordinary": {
+          "cases": 8,
+          "with_at_least_one_annotated_source_issue_or_hypothesis": 7,
+          "with_explicit_record_conflict": 1
+        },
+        "stego": {
+          "cases": 8,
+          "with_at_least_one_annotated_source_issue_or_hypothesis": 8,
+          "with_explicit_record_conflict": 5
+        }
+      },
+      "format_annotation_kind_counts": {
+        "bullet_lists": 4,
+        "headings_and_bullet_lists": 7,
+        "incomplete_final_sentence": 14,
+        "instruction_metatext": 1,
+        "malformed_occupancy_description": 1,
+        "missing_terminal_punctuation": 2,
+        "numbered_list": 1,
+        "repetition": 1
+      },
+      "generation_repeated": false,
+      "grammatically_possible_unpunctuated_endings": 2,
+      "maximum_committed_tokens": 418,
+      "maximum_whitespace_words": 244,
+      "minimum_committed_tokens": 232,
+      "minimum_whitespace_words": 178,
+      "practical_end_to_end_success_established": false,
+      "quality_assessment_ru": "Сохранены все16 исходов. Восемь transport deliveries не подтверждают смысловую точность: в stego встречаются неверные числа, длительность, занятость столов и выдуманные имена/даты. Ordinary controls также дают неподтверждённые утверждения и гипотезы; library-c03-ordinary сохраняет проверенные основные факты, но имеет список и незавершённое окончание. 14 окончаний явно синтаксически неполны;2 могут быть полными предложениями без завершающей пунктуации. Это описательный posthoc review, не human gold, не частота ошибок и не оценка причинного эффекта embedding.",
+      "source_annotation_label_counts": {
+        "ambiguous_scope": 2,
+        "contradicts_record": 8,
+        "supported_by_record": 32,
+        "supported_derived_description": 3,
+        "unsupported_by_record": 27,
+        "unsupported_hypothesis": 8
+      },
+      "span_checks_passed": 184,
+      "transport_authenticated_deliveries_reported": 8,
+      "transport_denominator": 8,
+      "validated_quality_rate": null
+    },
+    "validated_error_rate": null
+  },
+  "schema": "framed-interval-bounded-v1-native-posthoc-metrics-v1",
+  "status": "passed",
+  "tokenizer_calls": 0,
+  "totals": {
+    "PROMPT_requests": 24,
+    "all_committed_token_STEP_requests": 7330,
+    "all_sender_tokens": 4942,
+    "archive_bundles": 25,
+    "authenticated_exact_payloads": 8,
+    "bytes_per_shared_key": 32,
+    "campaign_wall_seconds": 620.981437714001,
+    "delivered_payload_bits": 1024,
+    "delivered_payload_bytes": 128,
+    "delivery_denominator": 8,
+    "distinct_fixture_key_bytes": 128,
+    "distinct_fixture_keys": 4,
+    "fresh_restore_exact_files": 342,
+    "independent_audit_checks": 89009,
+    "lower_level_graph_forward_invocations": null,
+    "model_file_bytes": 1117320736,
+    "nonce_bytes_all16": 192,
+    "nonce_bytes_per_run": 12,
+    "nonce_cost_note": "Nonce is already represented inside measured JSON envelope; do not add it twice. Shared key setup is separate.",
+    "ordinary_sender_tokens": 2554,
+    "payload_bytes_per_delivery": 16,
+    "planned_senders": 16,
+    "planned_stego_receivers": 8,
+    "primary_files": 342,
+    "process_exit_code": 0,
+    "receiver_token_steps": 2388,
+    "shared_runtime_and_other_resources_bytes": null,
+    "stego_canonical_envelope_bytes": 20252,
+    "stego_saved_envelope_bytes": 32152,
+    "stego_sender_tokens": 2388,
+    "stego_wire_bytes": 9876,
+    "stego_wire_plus_canonical_envelope_bytes": 30128,
+    "useful_bits_per_stego_sender_token": {
+      "denominator": 2388,
+      "numerator": 1024,
+      "value": 0.4288107202680067
+    },
+    "useful_bits_per_stego_wire_byte": {
+      "denominator": 9876,
+      "numerator": 1024,
+      "value": 0.10368570271364926
+    },
+    "useful_payload_byte_fraction_of_stego_wire": {
+      "denominator": 9876,
+      "numerator": 128,
+      "value": 0.012960712839206157
+    },
+    "useful_payload_byte_fraction_of_wire_plus_canonical_envelope": {
+      "denominator": 30128,
+      "numerator": 128,
+      "value": 0.004248539564524694
+    },
+    "worker_exit_zero_count": 24
+  }
+}

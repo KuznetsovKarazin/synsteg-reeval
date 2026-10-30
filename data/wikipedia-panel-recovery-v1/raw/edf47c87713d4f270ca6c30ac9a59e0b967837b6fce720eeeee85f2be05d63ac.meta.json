@@ -1,0 +1,18 @@
+{
+  "bytes": 16247,
+  "params": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "list": "search",
+    "maxlag": "5",
+    "srlimit": "300",
+    "srnamespace": "0",
+    "srprop": "",
+    "srsearch": "visual art",
+    "srsort": "relevance"
+  },
+  "retrieved_utc": "2026-10-23T23:39:00.360461+00:00",
+  "sha256": "73a05be5dd715375253f75c033511666e10336fab291d47ce7674e19ec27c228",
+  "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&list=search&maxlag=5&srlimit=300&srnamespace=0&srprop=&srsearch=visual+art&srsort=relevance"
+}

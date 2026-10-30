@@ -1,0 +1,8 @@
+{
+  "kind": "D5",
+  "model_id": "Qwen/Qwen2.5-1.5B",
+  "model_revision": "8faed761d45a263340a0528343f099c05c9a4323",
+  "tokenizer_id": "Qwen/Qwen2.5-1.5B",
+  "tokenizer_revision": "8faed761d45a263340a0528343f099c05c9a4323",
+  "cpu_threads": 3
+}

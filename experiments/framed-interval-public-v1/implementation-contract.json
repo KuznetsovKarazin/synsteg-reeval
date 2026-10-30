@@ -1,0 +1,33 @@
+{
+  "schema": "framed-interval-public-v1-implementation-contract",
+  "experiment_id": "framed-interval-public-v1",
+  "stage": "pure_implementation_candidate",
+  "native_calls": 0,
+  "native_activation": false,
+  "receiver_inputs": [
+    "wire",
+    "key",
+    "public-envelope",
+    "public-spec",
+    "public-context",
+    "trusted-public-resource-endpoint"
+  ],
+  "excluded_receiver_inputs": [
+    "sender-fixtures",
+    "expected-plaintext",
+    "experimental-activation",
+    "freeze",
+    "readback",
+    "nonce-ledger"
+  ],
+  "payload_bytes": [
+    0,
+    16
+  ],
+  "threshold_bits": 272,
+  "token_cap": 768,
+  "new_domain": "framed-interval-public-v1\u0000",
+  "nonce_rule": "sender must reserve key+nonce before backend; never rollback reservation",
+  "frozen_predecessors_modified": false,
+  "native_results_reused_as_new": false
+}

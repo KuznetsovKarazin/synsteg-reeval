@@ -1,0 +1,671 @@
+{
+  "schema": "development-other-models-single-record-v1-preparation-plan",
+  "status": "disabled_pending_verified_resources_actual_tokenizer_preflight_and_git_activation",
+  "execution_enabled": false,
+  "source_main_commit": "4050291345c43776e9c93528b6afe292c062ba7a",
+  "model_alias": "qwen05",
+  "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+  "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "execution_stratum": "development-other-models-single-record-v1",
+  "source_orders": [
+    1
+  ],
+  "first_record_id": "wikipedia-panel-recovery-v1-astronomy-popular_science-500-development-01",
+  "first_prompt_sha256": "bcb0e1acea165b65cccc9e80077bceeb0037fcb46a525a1b8857d6879a0685e6",
+  "attempt_identity": "0a84e1d786f3086691f0c25a18fb3a3cddd82bbd003e05937ce8e5d2ea777200",
+  "deterministic_record_seed": 1328875867,
+  "full_denominator": 300,
+  "model_denominator": 100,
+  "current_arm_generated_by_this_preparation": 0,
+  "legacy_qwen_imported": 0,
+  "closed_test_opened": false,
+  "paid_calls": 0,
+  "scientific_settings": {
+    "api_version": null,
+    "cpu_threads": 6,
+    "max_output_tokens": 1024,
+    "request_options": null,
+    "seed": 20261024,
+    "system": "Write clear English prose. Return only the requested text, without a heading or commentary.",
+    "temperature": 0.8,
+    "top_k": 50,
+    "top_p": 0.95
+  },
+  "dtype": "float32",
+  "timeout_seconds_including_model_load": 1200,
+  "max_requests": 1,
+  "automatic_retries": 0,
+  "source_prompts_sha256": "3190e9b56e83762c5f47c41fc1605b5668d43426000814b8ffbaef47112393d1",
+  "runtime_strategy": "Reuse exact first-manifest Python/platform and 28 package versions in the existing venv; no duplicate venv. Verify before tokenization and execution.",
+  "config_max_position_embeddings": 32768,
+  "config_value_is_not_actual_context_preflight": true,
+  "actual_full100_context_preflight": null,
+  "actual_model_load_feasibility": null,
+  "actual_peak_ram": null,
+  "actual_first_request_output": null,
+  "runtime_public_resource_manifest": "experiments/development-other-models-single-record-v1/public-resource-manifest.json",
+  "resource_bytes": 999586347,
+  "runtime_context_contract": "results/development-other-models-single-record-v1/qwen05-preflight/model-contract.json",
+  "new_shard": "runs/development-other-models-single-record-v1/qwen05/order001",
+  "root_actual_execution_checkout": "/workspace/scratch/af7adce5db85/baseline92-continuation-v2/checkout",
+  "preparation_activity": {
+    "official_metadata_http_requests": 4,
+    "automatic_retries": 0,
+    "weights_downloaded": false,
+    "actual_tokenizer_loads": 0,
+    "actual_tokenizer_encodes": 0,
+    "actual_model_loads": 0,
+    "generation_calls": 0,
+    "git_writes": 0
+  },
+  "release_gates": [
+    "All seven public assets verified by official size/hash; disk reserve satisfied",
+    "Independent adapter source and offline tests review",
+    "Root-only full100 actual tokenizer preflight with frozen chat template and full output reserve",
+    "Prepare disabled protocol; separately enable; preserve code/resources/preflight/prompt/protocol/intent in private Git",
+    "Fresh all-branches/PR Qwen-current100 reservation census; remote exact-byte readback receipt; canonical NN lease",
+    "Single request; preserve all terminal/unknown evidence; exact Git receipt and independent audit before any later new request"
+  ],
+  "ordered100_metadata": [
+    {
+      "source_order": 1,
+      "record_id": "wikipedia-panel-recovery-v1-astronomy-popular_science-500-development-01",
+      "prompt_sha256": "bcb0e1acea165b65cccc9e80077bceeb0037fcb46a525a1b8857d6879a0685e6",
+      "split": "development"
+    },
+    {
+      "source_order": 2,
+      "record_id": "wikipedia-panel-recovery-v1-astronomy-encyclopedic-250-development-01",
+      "prompt_sha256": "13700d59064bff7445184e1828bc083a727929c0a1053a4090ece9384ff041da",
+      "split": "development"
+    },
+    {
+      "source_order": 3,
+      "record_id": "wikipedia-panel-recovery-v1-astronomy-popular_science-250-development-01",
+      "prompt_sha256": "979fb65cd807dee7891c6e44f0d1de6436daba920b20e039265e68c00abbc020",
+      "split": "development"
+    },
+    {
+      "source_order": 4,
+      "record_id": "wikipedia-panel-recovery-v1-biology-educational-250-development-01",
+      "prompt_sha256": "bec7c47e6d260c7c442a934d9eb00c7174208956527bfa531af054d4afcacf06",
+      "split": "development"
+    },
+    {
+      "source_order": 5,
+      "record_id": "wikipedia-panel-recovery-v1-biology-magazine-500-development-01",
+      "prompt_sha256": "24a80a3762eb8b247dba194901af6e7bee3e659d1dd7285f6a92630a11d2d801",
+      "split": "development"
+    },
+    {
+      "source_order": 6,
+      "record_id": "wikipedia-panel-recovery-v1-biology-museum_label-500-development-01",
+      "prompt_sha256": "05968e8773eb237bebbeb2d21ebe048ede8fe39270f1163caa14b07746202fc8",
+      "split": "development"
+    },
+    {
+      "source_order": 7,
+      "record_id": "wikipedia-panel-recovery-v1-chemistry-popular_science-250-development-01",
+      "prompt_sha256": "114449ea2989802781ef6060c12a4af39a5fd2a7ff35fe2605a2371e9f9b2ac1",
+      "split": "development"
+    },
+    {
+      "source_order": 8,
+      "record_id": "wikipedia-panel-recovery-v1-chemistry-educational-500-development-01",
+      "prompt_sha256": "090dfa7e9946bd6f5f607753f90ee70dd0bb8f1c197bff7566717f008b2c8fa4",
+      "split": "development"
+    },
+    {
+      "source_order": 9,
+      "record_id": "wikipedia-panel-recovery-v1-chemistry-magazine-250-development-01",
+      "prompt_sha256": "715cb785d757509f4fe71fece2b976cde43f275f6019667e14cd8557cf9d3466",
+      "split": "development"
+    },
+    {
+      "source_order": 10,
+      "record_id": "wikipedia-panel-recovery-v1-geography-educational-500-development-01",
+      "prompt_sha256": "d31ee818ce922936192a3a6383592bd6e5ab82afaa8bc5ecb0c4c9fb73b72dd9",
+      "split": "development"
+    },
+    {
+      "source_order": 11,
+      "record_id": "wikipedia-panel-recovery-v1-geography-educational-250-development-01",
+      "prompt_sha256": "2187cbb54d9264e3a9d2cc403a0183555d662682323b9c4307792f6034100275",
+      "split": "development"
+    },
+    {
+      "source_order": 12,
+      "record_id": "wikipedia-panel-recovery-v1-geography-encyclopedic-500-development-01",
+      "prompt_sha256": "d4cbd4b315941ef84afd1678bb7f9148cbc68de9f2ce53e54bc68dcde6afc6a2",
+      "split": "development"
+    },
+    {
+      "source_order": 13,
+      "record_id": "wikipedia-panel-recovery-v1-history-popular_science-500-development-01",
+      "prompt_sha256": "40b758f8d3efc827772a6dadfe5b57491abf698f8f4c0f6fb3d7564c8c3647c1",
+      "split": "development"
+    },
+    {
+      "source_order": 14,
+      "record_id": "wikipedia-panel-recovery-v1-history-museum_label-250-development-01",
+      "prompt_sha256": "ed88bcb8ca23dc4b4a488d00f1a0207af6d7d42ced2234a9b45b8ec5486e4b34",
+      "split": "development"
+    },
+    {
+      "source_order": 15,
+      "record_id": "wikipedia-panel-recovery-v1-history-magazine-250-development-01",
+      "prompt_sha256": "4aa77a4399ec2ea92ba54378b0b4a086815200746c2d8a20347338a3c5d66259",
+      "split": "development"
+    },
+    {
+      "source_order": 16,
+      "record_id": "wikipedia-panel-recovery-v1-literature-popular_science-500-development-01",
+      "prompt_sha256": "ced600aa1aea9fe7d3fa230113045f0dd1ce681634e533977a667c5d54ce1099",
+      "split": "development"
+    },
+    {
+      "source_order": 17,
+      "record_id": "wikipedia-panel-recovery-v1-literature-educational-250-development-01",
+      "prompt_sha256": "a492b1c3f10df0b267dd8ca46dab62c336b60d1ecbba9a16edf4872d9c3f3c73",
+      "split": "development"
+    },
+    {
+      "source_order": 18,
+      "record_id": "wikipedia-panel-recovery-v1-literature-educational-500-development-01",
+      "prompt_sha256": "c1a7186346d03b3668f3200d687ce6f2ba987feb51ec41acaceb010f375ac20c",
+      "split": "development"
+    },
+    {
+      "source_order": 19,
+      "record_id": "wikipedia-panel-recovery-v1-music-educational-250-development-01",
+      "prompt_sha256": "25f1592897e157e50275cc27a2e6e9635ff8dde6823f69809e6dafd0169e7e4a",
+      "split": "development"
+    },
+    {
+      "source_order": 20,
+      "record_id": "wikipedia-panel-recovery-v1-music-magazine-500-development-01",
+      "prompt_sha256": "ec5c24880f68632442a2daa57be6b347ea8679133f54f4abb5dd583714d38f1a",
+      "split": "development"
+    },
+    {
+      "source_order": 21,
+      "record_id": "wikipedia-panel-recovery-v1-music-magazine-250-development-01",
+      "prompt_sha256": "2fadf32915bcfc4752b9026f9ace3237cd5dcd7826013c14a6fb623ee4f009d1",
+      "split": "development"
+    },
+    {
+      "source_order": 22,
+      "record_id": "wikipedia-panel-recovery-v1-physics-museum_label-500-development-01",
+      "prompt_sha256": "a413ab501121527000e46c0d7363e455e7f005dbc110b80f51884d74802eb6e3",
+      "split": "development"
+    },
+    {
+      "source_order": 23,
+      "record_id": "wikipedia-panel-recovery-v1-physics-museum_label-250-development-01",
+      "prompt_sha256": "411e63f15dd3af12ae764aae50ee95fbfc0785b98b9e688cce433370c325f411",
+      "split": "development"
+    },
+    {
+      "source_order": 24,
+      "record_id": "wikipedia-panel-recovery-v1-physics-educational-500-development-01",
+      "prompt_sha256": "8e3f6c34a76a5df2193142c87aa4062942a8559cc380fd6646e9718cd8efb9f5",
+      "split": "development"
+    },
+    {
+      "source_order": 25,
+      "record_id": "wikipedia-panel-recovery-v1-technology-encyclopedic-500-development-01",
+      "prompt_sha256": "d2b573d70bb01023d8a742ab246d5be9797c2f93b8333103b56f7af9c31c3002",
+      "split": "development"
+    },
+    {
+      "source_order": 26,
+      "record_id": "wikipedia-panel-recovery-v1-technology-educational-250-development-01",
+      "prompt_sha256": "979cc087ed04fe70cc1e517b2c4fc543e6ad18137168a0ff1d7bb82dc4235596",
+      "split": "development"
+    },
+    {
+      "source_order": 27,
+      "record_id": "wikipedia-panel-recovery-v1-technology-museum_label-250-development-01",
+      "prompt_sha256": "3efbb76a1688aa9ae90a57ca5eb504cc1673ff0017b3e8bf826e988a4936a698",
+      "split": "development"
+    },
+    {
+      "source_order": 28,
+      "record_id": "wikipedia-panel-recovery-v1-visual_arts-educational-250-development-01",
+      "prompt_sha256": "37e68f74537c888d4981353d87c19ac2c7c73c1a57958933a195326d4f56d27e",
+      "split": "development"
+    },
+    {
+      "source_order": 29,
+      "record_id": "wikipedia-panel-recovery-v1-visual_arts-magazine-500-development-01",
+      "prompt_sha256": "312347abb54531f290ad161126408e9ea5c987cc3d9431f6075c52cd56ae5716",
+      "split": "development"
+    },
+    {
+      "source_order": 30,
+      "record_id": "wikipedia-panel-recovery-v1-visual_arts-museum_label-500-development-01",
+      "prompt_sha256": "09ca3917328a5ca9e48e20f96318837f551e6276952135b00fb5c0045e2fa388",
+      "split": "development"
+    },
+    {
+      "source_order": 31,
+      "record_id": "wikipedia-panel-recovery-v1-visual_arts-museum_label-250-development-01",
+      "prompt_sha256": "67882129a1cd3dc50d0c0ceb2acb310b1c0943116a3c23c40f25453ef88f1d12",
+      "split": "development"
+    },
+    {
+      "source_order": 32,
+      "record_id": "wikipedia-panel-recovery-v1-music-museum_label-500-development-01",
+      "prompt_sha256": "e6183e72b72e7b553e95c2775199497130239921d8861ab0d0df8543aef6511e",
+      "split": "development"
+    },
+    {
+      "source_order": 33,
+      "record_id": "wikipedia-panel-recovery-v1-visual_arts-encyclopedic-250-development-01",
+      "prompt_sha256": "87c325e44a6983c234287e6ea1f2f75edb85c51a8b78c11f5cc4560634d149c9",
+      "split": "development"
+    },
+    {
+      "source_order": 34,
+      "record_id": "wikipedia-panel-recovery-v1-technology-educational-500-development-01",
+      "prompt_sha256": "f50a3d73459215692d6122e27d7fc4742bfcfae532708a8af6bd40f619e5e49f",
+      "split": "development"
+    },
+    {
+      "source_order": 35,
+      "record_id": "wikipedia-panel-recovery-v1-technology-magazine-250-development-01",
+      "prompt_sha256": "a9f6228e6ce21a3ae706183173e982b01367f44cdce69a18806d0ffcacd3d0e3",
+      "split": "development"
+    },
+    {
+      "source_order": 36,
+      "record_id": "wikipedia-panel-recovery-v1-technology-popular_science-500-development-01",
+      "prompt_sha256": "9e849eb2955f028cad569d70810c6db20c0472e9ce05106a165d18ba45e8a908",
+      "split": "development"
+    },
+    {
+      "source_order": 37,
+      "record_id": "wikipedia-panel-recovery-v1-astronomy-encyclopedic-500-development-01",
+      "prompt_sha256": "dfc09e7938446aa82a3ddb4f3a54f647c3790a7e551b545e628240695195bde6",
+      "split": "development"
+    },
+    {
+      "source_order": 38,
+      "record_id": "wikipedia-panel-recovery-v1-physics-popular_science-500-development-01",
+      "prompt_sha256": "5fb30fd7d557c5efd7ec4a7b74b64a4ef4a26847719496774c45a9fe1f14ef5c",
+      "split": "development"
+    },
+    {
+      "source_order": 39,
+      "record_id": "wikipedia-panel-recovery-v1-geography-museum_label-250-development-01",
+      "prompt_sha256": "4044fdeaf5a1fe02ac3b7b4ec76add12afc3bc63d35df195dd2d485292f5bf22",
+      "split": "development"
+    },
+    {
+      "source_order": 40,
+      "record_id": "wikipedia-panel-recovery-v1-technology-encyclopedic-250-development-01",
+      "prompt_sha256": "43599a1c6ede0ea44eb0e22cc3482f3e76f2fbc6020c969c89353312120f2e82",
+      "split": "development"
+    },
+    {
+      "source_order": 41,
+      "record_id": "wikipedia-panel-recovery-v1-technology-museum_label-500-development-01",
+      "prompt_sha256": "e47d5a74eba6c3d3c2919b668d61e05000e9ab253da72d0371eb0a60273ccaa2",
+      "split": "development"
+    },
+    {
+      "source_order": 42,
+      "record_id": "wikipedia-panel-recovery-v1-literature-popular_science-250-development-01",
+      "prompt_sha256": "d2395a4cfa14e9b3d461dd7a732077bf7a61e3114351c810ab120f5b602032d2",
+      "split": "development"
+    },
+    {
+      "source_order": 43,
+      "record_id": "wikipedia-panel-recovery-v1-visual_arts-popular_science-250-development-01",
+      "prompt_sha256": "3cc8861a6273bb1b9c6fb395ed6638de58d83f6d21a4b31dda7d644a3c242dcd",
+      "split": "development"
+    },
+    {
+      "source_order": 44,
+      "record_id": "wikipedia-panel-recovery-v1-technology-popular_science-250-development-01",
+      "prompt_sha256": "3e467915fdd3c81d642069952e503128b8f818ce3408be7b854bfd685f10c5ac",
+      "split": "development"
+    },
+    {
+      "source_order": 45,
+      "record_id": "wikipedia-panel-recovery-v1-literature-magazine-250-development-01",
+      "prompt_sha256": "88cb0f8f990d3a96765dc53c7e49a5a8ccf2ab724774cd695472fba9860fd121",
+      "split": "development"
+    },
+    {
+      "source_order": 46,
+      "record_id": "wikipedia-panel-recovery-v1-biology-magazine-250-development-01",
+      "prompt_sha256": "5a111b23fa53688d90dd35099de899c0403d70ef6dcd4f1b386edbd080147629",
+      "split": "development"
+    },
+    {
+      "source_order": 47,
+      "record_id": "wikipedia-panel-recovery-v1-physics-magazine-250-development-01",
+      "prompt_sha256": "8dfaf42a07a9b74f29ee30892ab46c8cc2efa391e61dc8e9807f8e1cd686f4a5",
+      "split": "development"
+    },
+    {
+      "source_order": 48,
+      "record_id": "wikipedia-panel-recovery-v1-chemistry-encyclopedic-500-development-01",
+      "prompt_sha256": "e04f5c33682c4516f743d9d71987db8c337af651112b36983276d73f663604d3",
+      "split": "development"
+    },
+    {
+      "source_order": 49,
+      "record_id": "wikipedia-panel-recovery-v1-chemistry-museum_label-500-development-01",
+      "prompt_sha256": "746d0833e32288596d2a8e0d7e95bcfca58a958e1b51f50a9f55da919b9f6053",
+      "split": "development"
+    },
+    {
+      "source_order": 50,
+      "record_id": "wikipedia-panel-recovery-v1-astronomy-museum_label-500-development-01",
+      "prompt_sha256": "5fbe6e5dc17c18c3e2e9bd6e60de0c62ea645eaa968ae08e5d5ab97d7d99e51d",
+      "split": "development"
+    },
+    {
+      "source_order": 51,
+      "record_id": "wikipedia-panel-recovery-v1-visual_arts-educational-500-development-01",
+      "prompt_sha256": "1b8cf23b8b0df3a3fd4fd8381afe1fe85cdf2c6d6d844ced1c0be06ad1c2b6da",
+      "split": "development"
+    },
+    {
+      "source_order": 52,
+      "record_id": "wikipedia-panel-recovery-v1-history-encyclopedic-500-development-01",
+      "prompt_sha256": "ef8f0491735507c69dd3f8bbceeeb7ee0ba03ef00e4e9158366ba34e0ef255c2",
+      "split": "development"
+    },
+    {
+      "source_order": 53,
+      "record_id": "wikipedia-panel-recovery-v1-physics-magazine-500-development-01",
+      "prompt_sha256": "ed10e529789e32bbc8b9ed66fb428d833d8c9e52a564e233f1e68ea5ae81c365",
+      "split": "development"
+    },
+    {
+      "source_order": 54,
+      "record_id": "wikipedia-panel-recovery-v1-biology-popular_science-250-development-01",
+      "prompt_sha256": "e1a428751de9e346e836d3e0235ad192e776a18532f5b707c0636dcd23e15ccc",
+      "split": "development"
+    },
+    {
+      "source_order": 55,
+      "record_id": "wikipedia-panel-recovery-v1-biology-popular_science-500-development-01",
+      "prompt_sha256": "11b2412a29043cc7cdeec402cf519c5a95680d66d3428b9b4b1857ce2869f084",
+      "split": "development"
+    },
+    {
+      "source_order": 56,
+      "record_id": "wikipedia-panel-recovery-v1-literature-magazine-500-development-01",
+      "prompt_sha256": "b1d8ffb6e45d5771c1023d03ac11125472298157ed463082bfae5b7fc42aa89c",
+      "split": "development"
+    },
+    {
+      "source_order": 57,
+      "record_id": "wikipedia-panel-recovery-v1-biology-museum_label-250-development-01",
+      "prompt_sha256": "c5ebc791aacf4d3f39741ad8b13f27feda7c0757af165588e3ad4a322abe250b",
+      "split": "development"
+    },
+    {
+      "source_order": 58,
+      "record_id": "wikipedia-panel-recovery-v1-history-magazine-500-development-01",
+      "prompt_sha256": "919e06ca01715c08aa6e3bf44e43e7f14b50a269e091e603592be97ce3b273d2",
+      "split": "development"
+    },
+    {
+      "source_order": 59,
+      "record_id": "wikipedia-panel-recovery-v1-history-educational-250-development-01",
+      "prompt_sha256": "ebcc67aa1ecc96c828ec3d83ea3b4d499d42c5364c865e9b5ec0d27b6aaecc0c",
+      "split": "development"
+    },
+    {
+      "source_order": 60,
+      "record_id": "wikipedia-panel-recovery-v1-chemistry-museum_label-250-development-01",
+      "prompt_sha256": "220b233d174a5e405b5f6bf24d60a9de038f175f61b522ae9da2ab8243724c89",
+      "split": "development"
+    },
+    {
+      "source_order": 61,
+      "record_id": "wikipedia-panel-recovery-v1-music-educational-500-development-01",
+      "prompt_sha256": "09a8e68570a5ff7ac07b5d21f4c7e71ebe87810ed90bf0418f2ba2296d6706f9",
+      "split": "development"
+    },
+    {
+      "source_order": 62,
+      "record_id": "wikipedia-panel-recovery-v1-astronomy-magazine-500-development-01",
+      "prompt_sha256": "3e420cd4193ecd687e331466e28401576f192b21cd7f2fa97fa86612f9d807b3",
+      "split": "development"
+    },
+    {
+      "source_order": 63,
+      "record_id": "wikipedia-panel-recovery-v1-history-encyclopedic-250-development-01",
+      "prompt_sha256": "219d151ceaf72b2827f29a920277006ac1391b17eb057f623a2358a3e6dedb09",
+      "split": "development"
+    },
+    {
+      "source_order": 64,
+      "record_id": "wikipedia-panel-recovery-v1-astronomy-magazine-250-development-01",
+      "prompt_sha256": "b178fbdfda7a2f3dd6cc631795f017472d7afc066f5f414136574e870a8f6567",
+      "split": "development"
+    },
+    {
+      "source_order": 65,
+      "record_id": "wikipedia-panel-recovery-v1-geography-popular_science-500-development-01",
+      "prompt_sha256": "db86f9c7be80458896c4015e593853f07669227fc6abce2ad82c6720842b2e5f",
+      "split": "development"
+    },
+    {
+      "source_order": 66,
+      "record_id": "wikipedia-panel-recovery-v1-physics-encyclopedic-500-development-01",
+      "prompt_sha256": "de0669351c894ff9d18f5c8e32d3f6a79b5786c89611a65cc48dd0aa77931a01",
+      "split": "development"
+    },
+    {
+      "source_order": 67,
+      "record_id": "wikipedia-panel-recovery-v1-history-popular_science-250-development-01",
+      "prompt_sha256": "3c0c9c980c0c842966c8ff5b06884a22cf39f940d139bd41dc06145ce8b71fd6",
+      "split": "development"
+    },
+    {
+      "source_order": 68,
+      "record_id": "wikipedia-panel-recovery-v1-music-encyclopedic-250-development-01",
+      "prompt_sha256": "1e75e38717cbee290a726e6b0e7a3bca0af07a3012b04845e0d820b32be08793",
+      "split": "development"
+    },
+    {
+      "source_order": 69,
+      "record_id": "wikipedia-panel-recovery-v1-biology-educational-500-development-01",
+      "prompt_sha256": "2046dd4f86857c35c4845fb99ca2c071551cdcf4ab69beedd9fbd914816135c8",
+      "split": "development"
+    },
+    {
+      "source_order": 70,
+      "record_id": "wikipedia-panel-recovery-v1-chemistry-educational-250-development-01",
+      "prompt_sha256": "0717d6618dec437e98c01bc7a80efcccc2f6c906012cc47bc9e4e86bb37a29e4",
+      "split": "development"
+    },
+    {
+      "source_order": 71,
+      "record_id": "wikipedia-panel-recovery-v1-physics-encyclopedic-250-development-01",
+      "prompt_sha256": "df2df84d2530735071af4093e3d8e917aa672cc6f4cb62de107224b9b7bb8f9d",
+      "split": "development"
+    },
+    {
+      "source_order": 72,
+      "record_id": "wikipedia-panel-recovery-v1-physics-educational-250-development-01",
+      "prompt_sha256": "329006fe284bfcd8000e37b4d33800d635633af71c022edd47716323cc5015d1",
+      "split": "development"
+    },
+    {
+      "source_order": 73,
+      "record_id": "wikipedia-panel-recovery-v1-geography-magazine-250-development-01",
+      "prompt_sha256": "73902236a7c9a4ed9b0d35c45385b06db19429dbdd1559703c5670e419f80c24",
+      "split": "development"
+    },
+    {
+      "source_order": 74,
+      "record_id": "wikipedia-panel-recovery-v1-music-popular_science-250-development-01",
+      "prompt_sha256": "9d09e7f64eda34777c9fced397efcb47b59a951c5f3b8d894fb740ee22528ad5",
+      "split": "development"
+    },
+    {
+      "source_order": 75,
+      "record_id": "wikipedia-panel-recovery-v1-geography-encyclopedic-250-development-01",
+      "prompt_sha256": "6b649b57d7f18c928b0a600ebe779fc4492b1c6dee0437ab7c495d8dd910f796",
+      "split": "development"
+    },
+    {
+      "source_order": 76,
+      "record_id": "wikipedia-panel-recovery-v1-literature-museum_label-250-development-01",
+      "prompt_sha256": "714d6957eccd0dc822fd3f68b295c9cb41e3c24ec7fab8e0ffb55f56cb0d1043",
+      "split": "development"
+    },
+    {
+      "source_order": 77,
+      "record_id": "wikipedia-panel-recovery-v1-visual_arts-encyclopedic-500-development-01",
+      "prompt_sha256": "75d07716186e880e9f41f11a4232dfe50db875222c47eb86364fbceee54956ba",
+      "split": "development"
+    },
+    {
+      "source_order": 78,
+      "record_id": "wikipedia-panel-recovery-v1-music-encyclopedic-500-development-01",
+      "prompt_sha256": "0016d7d10f928af95ea83e2ce776c07f32b4d7eb105f59d8877835147c9be44c",
+      "split": "development"
+    },
+    {
+      "source_order": 79,
+      "record_id": "wikipedia-panel-recovery-v1-geography-magazine-500-development-01",
+      "prompt_sha256": "69040187ff807bed6301fb562f2d4394bdcc3d79b75639b9073f3bf3b2e2ac7b",
+      "split": "development"
+    },
+    {
+      "source_order": 80,
+      "record_id": "wikipedia-panel-recovery-v1-physics-popular_science-250-development-01",
+      "prompt_sha256": "6a4407a29b11d936d5aa8e4f7ad101d5873bb6615a143089636f723298a4338b",
+      "split": "development"
+    },
+    {
+      "source_order": 81,
+      "record_id": "wikipedia-panel-recovery-v1-music-popular_science-500-development-01",
+      "prompt_sha256": "78bbabe1c8e52166c3370e71c52d52c58ac4e8b674996931864eec77fd59fd70",
+      "split": "development"
+    },
+    {
+      "source_order": 82,
+      "record_id": "wikipedia-panel-recovery-v1-literature-encyclopedic-500-development-01",
+      "prompt_sha256": "b9dccd1b8530112750ebd8214100dd5355c1942972c7609afc9b5da1fa95f02b",
+      "split": "development"
+    },
+    {
+      "source_order": 83,
+      "record_id": "wikipedia-panel-recovery-v1-history-museum_label-500-development-01",
+      "prompt_sha256": "dd9e7f6d893765dbadb7cff1b6e3e1bc18aee9be0c428938b5b3f98553825c10",
+      "split": "development"
+    },
+    {
+      "source_order": 84,
+      "record_id": "wikipedia-panel-recovery-v1-chemistry-popular_science-500-development-01",
+      "prompt_sha256": "b4cc749633ab0d9a8aaced6196b601d085fdb5636c00a94610fbb3567c6bbbb4",
+      "split": "development"
+    },
+    {
+      "source_order": 85,
+      "record_id": "wikipedia-panel-recovery-v1-literature-encyclopedic-250-development-01",
+      "prompt_sha256": "337085280dc639530885e03fefe803e29be9ccd221114d0c67553f2e3297c366",
+      "split": "development"
+    },
+    {
+      "source_order": 86,
+      "record_id": "wikipedia-panel-recovery-v1-astronomy-museum_label-250-development-01",
+      "prompt_sha256": "584fe655aee5d2fb051b59ac5c7a2f9744c23e974e8ef7256b2c30a7d77a89ba",
+      "split": "development"
+    },
+    {
+      "source_order": 87,
+      "record_id": "wikipedia-panel-recovery-v1-chemistry-encyclopedic-250-development-01",
+      "prompt_sha256": "9bbd93b3c4f0cf16b14f725473199c68eee9238875d95d1b8f98145fd218f023",
+      "split": "development"
+    },
+    {
+      "source_order": 88,
+      "record_id": "wikipedia-panel-recovery-v1-technology-magazine-500-development-01",
+      "prompt_sha256": "6f045c29360b66d2af11fe06c1a4e3f6dde9d6780e1376973474650a6469c371",
+      "split": "development"
+    },
+    {
+      "source_order": 89,
+      "record_id": "wikipedia-panel-recovery-v1-astronomy-educational-250-development-01",
+      "prompt_sha256": "7a64bff5304166c1349e8b23edadd4343fa0a41c3a794f1ebdd26224c1074d3f",
+      "split": "development"
+    },
+    {
+      "source_order": 90,
+      "record_id": "wikipedia-panel-recovery-v1-history-educational-500-development-01",
+      "prompt_sha256": "f91711a07401388239a5c5faf7fcbb5f892585fc60c2b42a099ff0d18bfdd1ef",
+      "split": "development"
+    },
+    {
+      "source_order": 91,
+      "record_id": "wikipedia-panel-recovery-v1-literature-museum_label-500-development-01",
+      "prompt_sha256": "2d2f26b7600ca08c808f793e7aaf1bebafe92c8da8921fb683e3197e458ba467",
+      "split": "development"
+    },
+    {
+      "source_order": 92,
+      "record_id": "wikipedia-panel-recovery-v1-astronomy-educational-500-development-01",
+      "prompt_sha256": "e7c33c4b2caabbc6d397e46935bb724e3095b05b2741f80e482af1b9a9b9ddfe",
+      "split": "development"
+    },
+    {
+      "source_order": 93,
+      "record_id": "wikipedia-panel-recovery-v1-visual_arts-magazine-250-development-01",
+      "prompt_sha256": "6d875e7c6cc2474a8ac3bf64248c2d29d2c2acf45728faf5d5ea47e18b1b4165",
+      "split": "development"
+    },
+    {
+      "source_order": 94,
+      "record_id": "wikipedia-panel-recovery-v1-geography-popular_science-250-development-01",
+      "prompt_sha256": "dffd3501c30a2238804eac9cec7051291575358c9eaf57e93c8a5c64bbbb9827",
+      "split": "development"
+    },
+    {
+      "source_order": 95,
+      "record_id": "wikipedia-panel-recovery-v1-biology-encyclopedic-250-development-01",
+      "prompt_sha256": "aa8e8d315bf32aef8abb30e66abccfe37fe867f53cf42cb8b476021b02887d07",
+      "split": "development"
+    },
+    {
+      "source_order": 96,
+      "record_id": "wikipedia-panel-recovery-v1-visual_arts-popular_science-500-development-01",
+      "prompt_sha256": "84c3b881471a954cf25358e38ac46e90f41ae7a5401946b065ba543760b46d91",
+      "split": "development"
+    },
+    {
+      "source_order": 97,
+      "record_id": "wikipedia-panel-recovery-v1-music-museum_label-250-development-01",
+      "prompt_sha256": "568246132d43f7590b9ccc4a39b0aaf33d139ca31d0a94fc52c6a6e988a41476",
+      "split": "development"
+    },
+    {
+      "source_order": 98,
+      "record_id": "wikipedia-panel-recovery-v1-biology-encyclopedic-500-development-01",
+      "prompt_sha256": "9d101256867b1ed4e3d300c8e94c579dd8acc7d1e33aca65caeb6726b49c1ada",
+      "split": "development"
+    },
+    {
+      "source_order": 99,
+      "record_id": "wikipedia-panel-recovery-v1-geography-museum_label-500-development-01",
+      "prompt_sha256": "b6afeea08de589672602df246e5e1b2aeb74debf75ecdd517f2584a704896dd0",
+      "split": "development"
+    },
+    {
+      "source_order": 100,
+      "record_id": "wikipedia-panel-recovery-v1-chemistry-magazine-500-development-01",
+      "prompt_sha256": "d0f9216a323f03d7da1a3430839ab56caf0e23e509d26e2736cfc57508a6bd0f",
+      "split": "development"
+    }
+  ]
+}

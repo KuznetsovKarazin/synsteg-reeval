@@ -1,0 +1,52 @@
+{{Short description|Peer-reviewed scientific journal}}
+
+{{Infobox journal
+| title = Conservation Biology
+| cover = CoverIssueConservationBiology.jpg
+| discipline = [[Conservation biology]]
+| abbreviation = Conserv. Biol.
+| impact = 5.405
+| impact-year = 2019
+| editor = [[Mark Burgman]]
+| publisher = [[Wiley-Blackwell]] on behalf of the [[Society for Conservation Biology]]
+| country = 
+| history = 1987–present
+| frequency = Bimonthly
+| website = http://www.conbio.org/publications/conservation-biology
+| link1 = http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1523-1739
+| link1-name = Journal page at publisher's website
+| link2 = http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1523-1739/currentissue
+| link2-name = Online access
+| link3 = http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1523-1739/issues
+| link3-name = Online archive
+| ISSN = 0888-8892
+| eISSN = 1523-1739
+| CODEN = CBIOEF
+| LCCN = 88659972
+| OCLC = 715539913
+}}
+
+{{Portal|Biology}}
+
+'''''Conservation Biology''''' is a bimonthly [[peer review|peer-reviewed]] [[scientific journal]] of the [[Society for Conservation Biology]], published by [[Wiley-Blackwell]] and established in May 1987.<ref name=history>{{cite web |url=https://conbio.org/about-scb/who-we-are/scb-history/ |title= History of the Society |author=<!--Not stated--> |date= n.d. |website= Society for Conservation Biology |accessdate=16 May 2018}}</ref> It covers the science and practice of conserving Earth's [[biological diversity]], including issues concerning any of the Earth's [[ecosystems]] or regions. The editor-in-chief is Mark Burgman.<ref name=WoS>{{cite book |year=2017 |chapter=Conservation Biology |title=2016 Journal Citation Reports |publisher=[[Thomson Reuters]] |edition=Science |series=[[Web of Science]]|title-link=Journal Citation Reports }}</ref>
+
+==Scope==
+The scientific papers in the journal cover a variety of topics, such as population ecology and genetics, [[climate change]], freshwater and marine conservation, [[ecosystem management]], [[citizen science]], and other human dimensions of conservation, but all topics focus primarily on conservation relevance rather than specific ecosystems, species, or situations.<ref name=publications>{{cite web |url=https://conbio.org/publications/ |title= Science & Publications |author=<!--Not stated--> |date= n.d. |website= Society for Conservation Biology |accessdate=16 May 2018}}</ref>  Subscription to the journal is only open to members of Society for Conservation Biology.<ref name="publications"/>
+
+==Journal Metrics==
+According to the ''[[Journal Citation Reports]]'', the journal has a 2019 [[impact factor]] of 5.405.<ref name="WoS"/>  It ranks 3rd among 55 in journals that focus on biodiversity and conservation, 12th among 158 in journals with an ecological focus.<ref name=Wiley>{{cite web |url=https://onlinelibrary.wiley.com/journal/15231739?isLogout=true |title= Conservation Biology|author=<!--Not stated--> |date= n.d. |website= Wiley Online Library |doi= 10.1111/(ISSN)1523-1739|accessdate=16 May 2018}}</ref> Conservation Biology also has an h5 index of 59, a cited half-life of >10, and a CiteScore of 5.97.<ref name=biology>{{cite web |url=https://conbio.org/publications/conservation-biology/ |title= Conservation Biology |author=<!--Not stated--> |date= n.d. |website= Society for Conservation Biology |accessdate=16 May 2018}}</ref> 
+
+== References ==
+{{reflist}}
+
+== External links ==
+* {{Official website|http://www.conbio.org/publications/conservation-biology}}
+* {{Website|https://onlinelibrary.wiley.com/journal/15231739}}
+
+[[Category:Ecology journals]]
+[[Category:Conservation biology]]
+[[Category:English-language journals]]
+[[Category:Academic journals established in 1987]]
+[[Category:Wiley-Blackwell academic journals]]
+[[Category:Bimonthly journals]]
+[[Category:Academic journals associated with learned and professional societies]]

@@ -1,0 +1,300 @@
+{
+  "schema": "framed-interval-bounded-v1-public-protocol-v1",
+  "experiment_id": "framed-interval-bounded-v1",
+  "status": "DRAFT_NOT_FROZEN_NO_PRODUCTION_ACTIVATION",
+  "scope": "Posthoc-designed bounded-stopping mechanics experiment; two English synthetic prompts, not a quality/security benchmark or development100 estimate",
+  "design_origin": {
+    "posthoc": true,
+    "preceding_capacity_report": "docs/framed_interval_llm_v1_posthoc_capacity_ru.md",
+    "historical_parameter_snapshot_sha256": "d15f11b36bd64fc126e2ada41f1ca30fef5f641ed44311c01852de84f1522efc",
+    "historical_parameter_snapshot_is_not_a_receiver_read_dependency": true
+  },
+  "domain_ascii": "framed-interval-bounded-v1",
+  "domain_suffix_hex": "00",
+  "canonical_json": "ASCII json.dumps(sort_keys=True, ensure_ascii=True, separators=(comma,colon), allow_nan=False)",
+  "model": {
+    "repository": "Qwen/Qwen2.5-1.5B-Instruct-GGUF",
+    "revision": "91cad51170dc346986eccefdc2dd33a9da36ead9",
+    "filename": "qwen2.5-1.5b-instruct-q4_k_m.gguf",
+    "bytes": 1117320736,
+    "sha256": "6a1a2eb6d15622bf3c96857206351ba97e1af16c30d7a74ee38970e434e9407e"
+  },
+  "runtime": {
+    "repository": "ggml-org/llama.cpp",
+    "tag": "b11791",
+    "commit": "ea9e3446b5c84a7f972cbbdea9df615fc4ff9159",
+    "archive_sha256": "ac75208179d00d86f378d5f10c65f9785028ce877cf57279f1a7b8dac54a25ff",
+    "threads": 4,
+    "context_tokens": 2048,
+    "prefill_batch_tokens": 512,
+    "micro_batch_tokens": 512,
+    "gpu_layers": 0,
+    "kv_types": "f16",
+    "flash_attention": "disabled",
+    "schedule": "identical fixed prompt chunks then exactly one generated/observed token per decode call",
+    "forced_cpu_backend": "libggml-cpu-haswell.so",
+    "forced_cpu_backend_sha256": "1bc37cef126b01fe5a15222c07d20d29931936bfaa909a97052f6662f4c9d97c"
+  },
+  "base_candidate_law": {
+    "temperature": 0.8,
+    "top_k": 50,
+    "mask": "llama_vocab_is_eog OR llama_vocab_is_control OR empty token_to_piece bytes; invalid UTF8 fragments are not filtered",
+    "repetition_penalty": 1,
+    "probability_integer_total": 16777216,
+    "rounding": "float64 exp((logit-max)/temperature), math.fsum normalization, floor, largest remainder; equal remainder/token-logit ties by ascending token ID"
+  },
+  "canonical_gate": {
+    "component": "canonical-channel-v2",
+    "unit": "single token (singleton adapter), no packet search",
+    "candidate_source": "Exactly the existing masked top50 before canonical gating; no rank51 backfill",
+    "conditions": "Full cumulative output render strictly appends bytes, strict UTF8, tokenize(false,false) exactly recovers priorIDs+[candidate]; specials rejected",
+    "weights": "Keep accepted positive old integer weights unchanged; variable S<=2^24; zero-weight rows retained in raw diagnostics",
+    "empty_support": "Declared refusal, preserve partial wire; never fallback or regenerate",
+    "mass_reference": "Only the old masked/top50 integer law; full softmax mask/topk mass unknown=null"
+  },
+  "interval_config": {
+    "state_bits": 32,
+    "max_symbols": 768,
+    "max_pending_bits": 4096,
+    "max_stream_bits": 65536
+  },
+  "frame": {
+    "algorithm": "library ChaCha20Poly1305",
+    "key_bytes": 32,
+    "nonce_bytes": 12,
+    "header_bytes": 2,
+    "payload_slot_bytes": 16,
+    "tag_bytes": 16,
+    "frame_bytes": 34,
+    "frame_bits": 272,
+    "layout": "Encrypt(uint16 big-endian byte-length||payload||zero pad to16-byte payload slot), then16-byte AEAD tag",
+    "AAD": "DOMAIN=ASCII('framed-interval-bounded-v1')||0x00; DOMAIN||ASCII('aead')||0x00||uint32be(len(canonical_json(envelope)))||canonical_json(envelope)",
+    "subkeys": "Transport HKDF-SHA256 length64: salt=nonce12, info=DOMAIN||transport-subkeys NUL||SHA256(canonical_json(full envelope)); first32 AEAD,last32 tail. Separate ordering HKDF-SHA256 length32: salt=ordering_context_digest, info=DOMAIN||matched-order-subkey NUL. All derive from key32.",
+    "nonce_external_bits": 96,
+    "shared_key_external_bits": 256,
+    "other_public_envelope_metadata_not_free": true
+  },
+  "input_streams": {
+    "stego": "ciphertext272bits MSB-first followed by HMAC-SHA256(tail_key,DOMAIN||stego-tail NUL||SHA256(canonical_json(envelope))||counter uint64be), counter0; fill max_stream_bits",
+    "ordinary": "HMAC-SHA256(ordinary public seed,DOMAIN||ordinary-input NUL||SHA256(canonical_json(envelope))||counter uint64be), counter0; same integer Sender transform",
+    "no_implicit_zero_extension_or_flush": true,
+    "fixed_keys_give_deterministic_trajectories_not_an_IID_or_security_proof": true
+  },
+  "ordering_context": "SHA256(canonical_json(envelope excluding exactly arm,nonce_hex,ordinary_seed_hex)). All prompt/resource/configuration/stop bindings remain. config_id is external manifest/run metadata and is not inserted into the exact-field envelope; the separately supplied key and bound nonce/seed identify each fixture configuration.",
+  "integer_order": "Sort accepted token IDs by HMAC-SHA256(order_key,DOMAIN||order NUL||ordering_context_digest||uint32be(prefixJSONlen)||prefixIDsJSON||uint32be(tokenJSONlen)||tokenJSON), break ties by token ID",
+  "effective_symbol_law": "For ideal IID source bits only: integer binwidth/R, not exactly accepted weight/S; save exact rational per-step TV. Fixed AEAD/PRF trajectories do not prove this input assumption.",
+  "matched_law_contract": "Within one config and prompt, equal model prefix and integer interval state have identical canonical weights, keyed order and integer bins. Arm,nonce,ordinary seed change source streams/transport keys, not ordering. Divergent histories are not a causal arm comparison.",
+  "termination": {
+    "rule": "After each successfully committed token, stop at the first resolved_bits>=272; otherwise stop at768 committed tokens. Same rule for both arms.",
+    "resolved_bits_threshold": 272,
+    "maximum_output_tokens": 768,
+    "minimum_output_tokens": 1,
+    "threshold_at_cap_precedence": "If token768 crosses threshold it is a threshold-complete wire, not insufficient capacity.",
+    "surplus_bits": "Preserve every bit resolved by the last token, even beyond272; no partial token, trimming, flush or synthetic bits.",
+    "ordinary": "Identical272-bit threshold; reaching it is not payload delivery.",
+    "errors": "Support, capacity, byte-budget, backend or contract failure stops immediately; preserve all committed bytes and unknown/prepared events. No retry.",
+    "receiver": "Decode exact canonical wire, independently reproduce all laws and interval transitions, enforce first-crossing stop with no extra tokens. A below-threshold768-token stego wire returns insufficient_capacity; a below-threshold768-token ordinary wire must pass full deterministic replay and then returns ordinary_cap_replay_verified, with no payload. A shorter below-threshold wire returns incomplete_wire for either arm. Verify full deterministic embedding including any surplus/tail, and for stego AEAD, before returning plaintext.",
+    "unfinished_sentences_and_source_errors": "No guarantee; bit threshold is not sentence/factuality termination."
+  },
+  "max_wire_bytes": 65536,
+  "fixture_generation": {
+    "config_ids": [
+      "c00",
+      "c01",
+      "c02",
+      "c03"
+    ],
+    "key_rule": "SHA256(canonical_json([experiment_id,\"fixture-key\",config_id])):32bytes; one key shared across both prompts and arms of that config",
+    "nonce_rule": "SHA256(canonical_json([experiment_id,\"nonce\",config_id,prompt_id,arm]))[:12]",
+    "ordinary_seed_rule": "SHA256(canonical_json([experiment_id,\"ordinary-seed\",config_id,prompt_id])):32bytes",
+    "keys_are_public_synthetic_fixtures_not_secrets": true,
+    "key_transport": "Supply the corresponding32-byte shared key separately to each fresh receiver; never grant access to sender-fixtures.json.",
+    "selection": "All four config labels were fixed before any bounded-v1 generation; no seed/key/nonce search or selection by outcome."
+  },
+  "system_prompt": "You write clear English reports using only the supplied fictional record. Treat the record as the complete factual source. Do not invent names, dates, measurements, causes, quotations, or events. Explain what is recorded and distinguish it from what is unknown.",
+  "prompts": [
+    {
+      "id": "station",
+      "user": "Write a continuous plain-English report for a local newsletter based only on this fictional record. Explain the observations carefully without headings or bullet points. Record: The Alder station is a fictional river monitoring station. It has two water-level sensors, named North and South. Both report once every ten minutes. On Monday the operator checked four paired readings, taken at 08:00, 08:10, 08:20, and 08:30. The North readings were 120, 121, 121, and 122 centimetres. The South readings were 119, 120, 120, and 121 centimetres. The operator recorded no missing readings in these four pairs. These observations cover only that thirty-minute interval. The record gives no rainfall measurements, no flood threshold, no earlier observations, and no explanation for the difference between sensors. The station does not issue public warnings. Keep the distinction between the recorded measurements and unknown causes explicit."
+    },
+    {
+      "id": "library",
+      "user": "Write a continuous plain-English report for a community newsletter based only on this fictional record. Explain the inventory carefully without headings or bullet points. Record: The Birch library is fictional. Its small reference room has three shelves named A, B, and C. On Tuesday morning a librarian counted 40 books on shelf A, 35 on shelf B, and 25 on shelf C. Five books on shelf A carried blue labels. Ten books on shelf B carried blue labels. No books on shelf C carried blue labels. The count concerned physical books present in that room at that time. It did not include books on loan or books elsewhere in the building. The room has four reading desks. Two desks were occupied when the count began. The record does not identify the readers or the books they used. It gives no earlier inventory, opening hours, budget, book titles, or reason for the label colours. Do not infer a trend or explain facts not supplied."
+    }
+  ],
+  "runs": [
+    {
+      "run_id": "station-c00-stego",
+      "prompt_id": "station",
+      "config_id": "c00",
+      "arm": "stego",
+      "nonce_hex": "74b6871f92cd93f832e214f9",
+      "ordinary_seed_hex": "1476395ff8984dc68b1b87f87db382b74ec05625df5028c8faa5ab9e64f6d4d2"
+    },
+    {
+      "run_id": "station-c00-ordinary",
+      "prompt_id": "station",
+      "config_id": "c00",
+      "arm": "ordinary",
+      "nonce_hex": "bce81ad3b6a5e0afecf7856d",
+      "ordinary_seed_hex": "1476395ff8984dc68b1b87f87db382b74ec05625df5028c8faa5ab9e64f6d4d2"
+    },
+    {
+      "run_id": "station-c01-stego",
+      "prompt_id": "station",
+      "config_id": "c01",
+      "arm": "stego",
+      "nonce_hex": "50843fb13b376c41a9af3fad",
+      "ordinary_seed_hex": "5b31dfd64adefdb77c2e0cc70e9cf2da401995e076a387df24245260353f0a15"
+    },
+    {
+      "run_id": "station-c01-ordinary",
+      "prompt_id": "station",
+      "config_id": "c01",
+      "arm": "ordinary",
+      "nonce_hex": "7506e832315c97ff0b6b055e",
+      "ordinary_seed_hex": "5b31dfd64adefdb77c2e0cc70e9cf2da401995e076a387df24245260353f0a15"
+    },
+    {
+      "run_id": "station-c02-stego",
+      "prompt_id": "station",
+      "config_id": "c02",
+      "arm": "stego",
+      "nonce_hex": "b323c180e453d8ff38fc358c",
+      "ordinary_seed_hex": "37c02272ce549562d6ecaed1d941eee5211e189b82e17a45fb63354a18d0a009"
+    },
+    {
+      "run_id": "station-c02-ordinary",
+      "prompt_id": "station",
+      "config_id": "c02",
+      "arm": "ordinary",
+      "nonce_hex": "b49c66a5e977a77fb48e78ce",
+      "ordinary_seed_hex": "37c02272ce549562d6ecaed1d941eee5211e189b82e17a45fb63354a18d0a009"
+    },
+    {
+      "run_id": "station-c03-stego",
+      "prompt_id": "station",
+      "config_id": "c03",
+      "arm": "stego",
+      "nonce_hex": "a7837de41a33ff2a775beadd",
+      "ordinary_seed_hex": "2f45874deee2a671ed9245fb971dac863033eddaad59e8a3cc3fdbb90f1307a7"
+    },
+    {
+      "run_id": "station-c03-ordinary",
+      "prompt_id": "station",
+      "config_id": "c03",
+      "arm": "ordinary",
+      "nonce_hex": "6e7409420403b639fa2962a9",
+      "ordinary_seed_hex": "2f45874deee2a671ed9245fb971dac863033eddaad59e8a3cc3fdbb90f1307a7"
+    },
+    {
+      "run_id": "library-c00-stego",
+      "prompt_id": "library",
+      "config_id": "c00",
+      "arm": "stego",
+      "nonce_hex": "f18094ff1913113c09551f8c",
+      "ordinary_seed_hex": "ec1349690cbcefc4df6b8e012e91437eb9f95680b151a48eb86ceef1d2c6a92c"
+    },
+    {
+      "run_id": "library-c00-ordinary",
+      "prompt_id": "library",
+      "config_id": "c00",
+      "arm": "ordinary",
+      "nonce_hex": "46d79e5d0cb41d8de8f508e0",
+      "ordinary_seed_hex": "ec1349690cbcefc4df6b8e012e91437eb9f95680b151a48eb86ceef1d2c6a92c"
+    },
+    {
+      "run_id": "library-c01-stego",
+      "prompt_id": "library",
+      "config_id": "c01",
+      "arm": "stego",
+      "nonce_hex": "c5efdd3ba05cee73294e8f53",
+      "ordinary_seed_hex": "f97561c5b30130b729f10969f09ee3003891ad300f8b3cd7e83cdf0d707c0f5d"
+    },
+    {
+      "run_id": "library-c01-ordinary",
+      "prompt_id": "library",
+      "config_id": "c01",
+      "arm": "ordinary",
+      "nonce_hex": "160f01272fc0275677f9a72e",
+      "ordinary_seed_hex": "f97561c5b30130b729f10969f09ee3003891ad300f8b3cd7e83cdf0d707c0f5d"
+    },
+    {
+      "run_id": "library-c02-stego",
+      "prompt_id": "library",
+      "config_id": "c02",
+      "arm": "stego",
+      "nonce_hex": "4bfa4c280adda3a994fc3401",
+      "ordinary_seed_hex": "70cd9c56b7adbd69ffe0c17780c4013adab1019fc4a2dce98f6764f5ce2dd98a"
+    },
+    {
+      "run_id": "library-c02-ordinary",
+      "prompt_id": "library",
+      "config_id": "c02",
+      "arm": "ordinary",
+      "nonce_hex": "c55dbc29aefd7a873767a419",
+      "ordinary_seed_hex": "70cd9c56b7adbd69ffe0c17780c4013adab1019fc4a2dce98f6764f5ce2dd98a"
+    },
+    {
+      "run_id": "library-c03-stego",
+      "prompt_id": "library",
+      "config_id": "c03",
+      "arm": "stego",
+      "nonce_hex": "26c1e4e14929c09c74affca3",
+      "ordinary_seed_hex": "52dba8fb1598570b0da3722fb1e0378a3c78dd6882d42e2c1ff740b46857aef9"
+    },
+    {
+      "run_id": "library-c03-ordinary",
+      "prompt_id": "library",
+      "config_id": "c03",
+      "arm": "ordinary",
+      "nonce_hex": "20ea9cddf88f69def7c3b235",
+      "ordinary_seed_hex": "52dba8fb1598570b0da3722fb1e0378a3c78dd6882d42e2c1ff740b46857aef9"
+    }
+  ],
+  "execution_order": "Prompt order station,library; then config order c00,c01,c02,c03; then arm order stego,ordinary. Run each stego fresh receiver immediately after that sender, including partial/zero/failure wire; unknown resource failure prevents retries and is preserved.",
+  "planned_cases": 16,
+  "planned_stego_cases": 8,
+  "planned_ordinary_cases": 8,
+  "planned_fresh_stego_receivers": 8,
+  "planned_max_generated_tokens": 12288,
+  "planned_max_receiver_token_evaluations_excluding_prompts": 6144,
+  "per_endpoint_timeout_seconds": 1350,
+  "retries": 0,
+  "receiver_contract": "Only exact wire bytes,key32,public envelope/protocol/resources including nonce and promptIDs. No sender trace,tokenIDs,candidate table,plaintext,expected payload,frame input or sampler state. Coordinator compares receiver-returned plaintext to sender fixture only after receiver terminal outcome.",
+  "primary_outcome": "Authenticated exact16-byte payload deliveries /8 planned stego attempts; count only independently completed fresh receiver with complete legal stopping wire, AEAD and full deterministic replay. Parent-side exact fixture comparison is separate from receiver authentication.",
+  "secondary_outcomes_all16": [
+    "Attempt status/reason; no excluded timeout, support, insufficient-capacity, process-unknown or not-attempted outcomes",
+    "Committed tokens/bytes including partial/zero wire; threshold crossing index and stop reason",
+    "Resolved, consumed, lookahead and pending bits; surplus resolved after272",
+    "All50 raw candidate logits/weights/verdicts per observed step; exact support and lost-mass denominator",
+    "Integer bins, own-law hashes and exact conditional rounding TV; fullsoftmax mask/topk loss remains unknown",
+    "Fresh receiver actual token count, own evidence, authentication and exact-match outcome; all8 planned receiver slots",
+    "Wall time, process exit/timeout, durable journal recovery and no-retry evidence",
+    "Delivered payload bits/token and byte with all stego failures retained; nonce,envelope,key/resource setup counted separately",
+    "Source fidelity and sentence completion for every text, labelled agent audit; no unmeasured factuality claim"
+  ],
+  "ordinary_has_payload_delivery_outcome": false,
+  "production_activation_enabled": false,
+  "currently_executed_real_model_calls": 0,
+  "paid_calls": 0,
+  "closed_test_accessed": false,
+  "remaining_gates": [
+    "Pure bounded core and meaningful synthetic tests plus independent review; no LLM-result claims from these",
+    "Freeze actual source closure, final public protocol and full private fixture matrix with Git exact readback",
+    "Add bounded-specific durable launcher and isolated receiver route; preserve all16+8 slots and unknown partial states",
+    "Bind actual old Qwen model/runtime/bridge, complete resource and special-token identities, public promptIDs and resident backend checks; no substitutions",
+    "Coordinator verifies the final activation/readback map before the one fixed16-case campaign within existing user authorization"
+  ],
+  "prohibited": [
+    "paid APIs",
+    "closed test",
+    "adaptive seeds/keys/payloads/prompts",
+    "retry or regenerate a failed/unknown attempt",
+    "stop series after good seeds",
+    "sender private files in receiver scope",
+    "natural-language security or factuality claims from mechanics",
+    "automatic model launch on import",
+    "editing frozen v1 or large Tiny baseline"
+  ]
+}

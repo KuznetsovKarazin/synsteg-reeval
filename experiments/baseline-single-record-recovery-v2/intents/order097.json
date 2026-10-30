@@ -1,0 +1,16 @@
+{
+  "schema": "baseline-single-record-recovery-v2-intent",
+  "experiment_id": "baseline-single-record-recovery-v2",
+  "status": "reserved_intent_no_execution_claim",
+  "source_order": 97,
+  "record_id": "wikipedia-panel-recovery-v1-music-museum_label-250-development-01",
+  "identity": "0ea3d93dd10890f02935f5921c07bdde466be3370d56ab5cba514374a8c5166b",
+  "source_snapshot_commit": "4050291345c43776e9c93528b6afe292c062ba7a",
+  "protocol_sha256": "3f09df7d100527135deba9bdc3f308ce3aa8bb9ebb276183c66413a3e2ab7c62",
+  "helper_sha256": "89e94639fae9fef70e1b2662fccb92c73319234db55b237b246b6ba89fafd8bf",
+  "guard_request_sha256": "945fbf0bd3047905f7e40adaac7a31a1ef07639c22d070446d8031597df71648",
+  "predecessor_receipt_commit": "c7f2648f27646a61fc058a8c20283e519a5aad98",
+  "max_new_requests": 1,
+  "automatic_retries": 0,
+  "lost_execution_identity_policy": "Do not replay this saved intent after loss of execution identity; preserve unknown and use a new recovery decision."
+}

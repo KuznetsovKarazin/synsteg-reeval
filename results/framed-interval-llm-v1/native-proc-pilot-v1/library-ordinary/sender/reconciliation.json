@@ -1,0 +1,14 @@
+{
+  "committed_trace_sha256": "9958769e5222f4b160d18f932e6d6fab32975dd5d3e3040ea113991e82336f9f",
+  "convenience_raw_matches": true,
+  "core_process_outcome_preserved": "returned",
+  "core_returned_wire_matches": true,
+  "known_committed_tokens": 512,
+  "last_event_sha256": "4814ebfd617034f7269451fff4474f58a0448b384119a0290e137f9c612d0e8f",
+  "retry_permitted": false,
+  "torn_last_record": false,
+  "unknown_native_step": false,
+  "wire_available": true,
+  "wire_bytes": 2563,
+  "wire_sha256": "94d746075f1cacc2d9fb40dad9118cfa2662dd46d59f938097d46ceaac0d5b41"
+}

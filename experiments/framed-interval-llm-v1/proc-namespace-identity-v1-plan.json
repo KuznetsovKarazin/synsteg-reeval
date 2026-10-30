@@ -1,0 +1,44 @@
+{
+  "schema": "proc-namespace-identity-v1-preflight-plan",
+  "experiment_id": "proc-namespace-identity-v1",
+  "purpose": "Resolve only the actual owned immediate native child across a mounted outer-PID procfs; no scientific fixture or tokenizer selection changes",
+  "baseline_failed_attempt": {
+    "path": "results/framed-interval-llm-v1-tokenizer-preflight/native-v1/status-final.json",
+    "sha256": "20d587adb11207ccd0adb5c2e3ae682718db54a8f380205a337fa7d51df3e1fc",
+    "preserve_unchanged": true
+  },
+  "activation": {
+    "path": "experiments/framed-interval-llm-v1/vocab-activation-after-build-v1.json",
+    "sha256": "3a559f3787af0042ece2be6b7186f2712d707e3948ca91c982115d9c1be49223"
+  },
+  "tokenizer_plan": {
+    "path": "experiments/framed-interval-llm-v1/tokenizer-preflight-proposal.json",
+    "sha256": "86d3c68c44a6ed35e3a9e39b05b4ec4047262bb549bf7934de98a969a026c9a5"
+  },
+  "output": "results/framed-interval-llm-v1-tokenizer-preflight/native-proc-namespace-v1",
+  "intent": "collect-frozen-qwen-vocabulary-proc-namespace-identity-v1",
+  "attempts": 1,
+  "planned_fixtures": 15,
+  "planned_prompts": 2,
+  "native_deadline_seconds": 120,
+  "forward_calls_allowed": 0,
+  "model_contexts_allowed": 0,
+  "selection_or_retry_allowed": false,
+  "ownership_checks": [
+    "actual Popen object captured immediately after creation before consuming READY",
+    "only current parent task children enumerate candidates",
+    "parent NSpid last equals os.getpid",
+    "unique child NSpid last equals Popen.pid",
+    "proc PID first, PPid, namespace inode and namespace depth agree",
+    "starttime and expected executable path/hash captured before READY",
+    "pinned proc-directory descriptor retained until transport close",
+    "Popen.poll is live and parent/child/starttime/exe rechecked before and after maps",
+    "unchanged frozen resident verification consumes exact checked maps text",
+    "identity rechecked again after resident hashes"
+  ],
+  "scope_limitations": [
+    "Procfs/kernel and pinned native child are trusted; this is not a sandbox against a malicious kernel",
+    "PID binding is current-process evidence; no historical system memory attestation",
+    "Original failed15+2 remain separate; this is one explicitly frozen new engineering attempt"
+  ]
+}

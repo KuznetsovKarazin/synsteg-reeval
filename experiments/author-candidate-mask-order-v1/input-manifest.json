@@ -1,0 +1,74 @@
+{
+  "schema": "author-candidate-mask-order-v1-input-manifest",
+  "experiment_id": "author-candidate-mask-order-v1",
+  "source_primary_commit": "4f116ed040ad9811af05401b60f5a7317dadde9f",
+  "source_freeze_commit": "307143a7816788eb8f50b84d3f223511e0d01af5",
+  "prior_known_denominator_probes": 361,
+  "prior_known_denominator_top50_rows": 18050,
+  "expected_attempts": [
+    {
+      "chunk_order": 0,
+      "probes": 345,
+      "steps": 345
+    },
+    {
+      "chunk_order": 1,
+      "probes": 16,
+      "steps": 15
+    }
+  ],
+  "selection_rule": "all recorded probes from both fixed native-v3 attempts, including terminal refusal",
+  "preanalysis_scope": "Known native-v3 outcomes motivated this study; hashes collected without new trace-law measurement. Freeze source and this manifest in Git before new computation.",
+  "inputs": [
+    {
+      "path": "src/synsteg_audit/author_candidate_schema_v3.py",
+      "bytes": 18459,
+      "sha256": "cb17dd1780f5ee737e6b53454c0c7a911eb7867a9c2d2779f82790201d0b695f"
+    },
+    {
+      "path": "experiments/author-candidate-format-v2/requests.json",
+      "bytes": 5079,
+      "sha256": "0cc5750f8251cb7b10bb29d00ec858d5b005d0df42fb7d2781152c807a4ae421"
+    },
+    {
+      "path": "results/author-candidate-local-native-v3/native-diagnostic-v3/chunk0-attempt0/sealed/binding.json",
+      "bytes": 353,
+      "sha256": "c00041af3d11c219e4366d40d1448cc93b1c3820e0f7368878cd3a29ddd7dc5b"
+    },
+    {
+      "path": "results/author-candidate-local-native-v3/native-diagnostic-v3/chunk0-attempt0/sealed/terminal.json",
+      "bytes": 781,
+      "sha256": "0cddc89f9831e07c3112d0d805712f910874325138fe4cccb0416415dc71c889"
+    },
+    {
+      "path": "results/author-candidate-local-native-v3/native-diagnostic-v3/chunk0-attempt0/sealed/journal.jsonl",
+      "bytes": 8506901,
+      "sha256": "541dcab6a354b884f4c3c2452ecbf72cfe4667a32a38a078f9d177f076b4bf02"
+    },
+    {
+      "path": "results/author-candidate-local-native-v3/native-diagnostic-v3/chunk0-attempt0/sealed/response.raw",
+      "bytes": 1372,
+      "sha256": "92b503c0d5b27a5e4cd04f0ced63beac91622e4187565b14b1ccb4b46e6b57f7"
+    },
+    {
+      "path": "results/author-candidate-local-native-v3/native-diagnostic-v3/chunk1-attempt0/sealed/binding.json",
+      "bytes": 353,
+      "sha256": "cf883dc9b084762d53345a59d0b6368773573249ed080ea9734275b4719d6689"
+    },
+    {
+      "path": "results/author-candidate-local-native-v3/native-diagnostic-v3/chunk1-attempt0/sealed/terminal.json",
+      "bytes": 775,
+      "sha256": "96b9318ff926e1fa6cf288a96869979eef49f7cce2648c83137b156847064fe8"
+    },
+    {
+      "path": "results/author-candidate-local-native-v3/native-diagnostic-v3/chunk1-attempt0/sealed/journal.jsonl",
+      "bytes": 244714,
+      "sha256": "ba2686481fc10b1591ac459b7f4f913fde2b6da727f03977a05944c8d61d27f8"
+    },
+    {
+      "path": "results/author-candidate-local-native-v3/native-diagnostic-v3/chunk1-attempt0/sealed/response.raw",
+      "bytes": 42,
+      "sha256": "777c5132cae2234832fc99f588e65e667eab395af9d9ec1e2fc5698a42f7fd3c"
+    }
+  ]
+}

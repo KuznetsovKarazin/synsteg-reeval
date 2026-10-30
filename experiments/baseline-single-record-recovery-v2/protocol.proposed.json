@@ -1,0 +1,117 @@
+{
+  "schema": "baseline-single-record-recovery-v2-protocol",
+  "experiment_id": "baseline-single-record-recovery-v2",
+  "execution_enabled": false,
+  "source_commit": "4050291345c43776e9c93528b6afe292c062ba7a",
+  "execution_root": "/workspace/scratch/af7adce5db85/baseline92-continuation-v2/checkout",
+  "new_source_orders": [
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100
+  ],
+  "full_denominator": 300,
+  "tinyllama_denominator": 100,
+  "permanently_unknown_source_orders": [
+    82
+  ],
+  "blocked_intent_source_orders": [
+    91
+  ],
+  "base_projection": "results/baseline-single-record-recovery-v1-root/full300-after090.json",
+  "base_projection_sha256": "b25f56576ec2c47898b80cb95a59e1d70a15e99037a78b6b96a3f430ca4aaac7",
+  "input_manifest_sha256": "d222fd9e69ad2f7ce70731a5500847e9591b7fec1d8b7d8577fb9b36bd189b8d",
+  "helper_sha256": "89e94639fae9fef70e1b2662fccb92c73319234db55b237b246b6ba89fafd8bf",
+  "max_new_requests_per_shard": 1,
+  "timeout_seconds_per_shard_including_model_load": 1200,
+  "automatic_retries": 0,
+  "continue_after_new_failure": false,
+  "stop_after_each_shard_pending_remote_preservation": true,
+  "canonical_nn_lock": "/workspace/scratch/af7adce5db85/baseline92-continuation-v2/checkout/results/project-nn.lock",
+  "output_relative": "runs/baseline-single-record-recovery-v2",
+  "historical_ledger_rewritten": false,
+  "first_successor_predecessor": "runs/baseline-single-record-recovery-v1/order090",
+  "skip91_requires_new_id": true,
+  "execution_stratum": "same frozen scientific runner and runtime;1200seconds per fresh one-record process; no bitwise-equivalence claim",
+  "paid_calls_allowed": false,
+  "closed_test_allowed": false,
+  "jobs": [
+    {
+      "source_order": 92,
+      "record_id": "wikipedia-panel-recovery-v1-astronomy-educational-500-development-01",
+      "identity": "f7560c27fbe389bd70d3e6dd4e0a9b897735fe178605b0d7f052a6157082a518",
+      "prompt_path": "experiments/baseline-single-record-recovery-v2/inputs/prompts/order092.jsonl",
+      "prompt_file_sha256": "59654e953f023fbea93112980180990680c3bec9dd7530b5ad6c90874a9dd5b3",
+      "original_prompt_sha256": "e7c33c4b2caabbc6d397e46935bb724e3095b05b2741f80e482af1b9a9b9ddfe"
+    },
+    {
+      "source_order": 93,
+      "record_id": "wikipedia-panel-recovery-v1-visual_arts-magazine-250-development-01",
+      "identity": "50f07bb7ad0f786181923ebce931a6e55e819d40e951dfe0887a15d9765dc15c",
+      "prompt_path": "experiments/baseline-single-record-recovery-v2/inputs/prompts/order093.jsonl",
+      "prompt_file_sha256": "7cd7d71d35759630d0644fa88d244604b0a6e7a6ad7c5de3bf00412f8acc1533",
+      "original_prompt_sha256": "6d875e7c6cc2474a8ac3bf64248c2d29d2c2acf45728faf5d5ea47e18b1b4165"
+    },
+    {
+      "source_order": 94,
+      "record_id": "wikipedia-panel-recovery-v1-geography-popular_science-250-development-01",
+      "identity": "22017b11f3b7eea255029e03f34c6b10af7e2496738db254f446819d54c295cf",
+      "prompt_path": "experiments/baseline-single-record-recovery-v2/inputs/prompts/order094.jsonl",
+      "prompt_file_sha256": "c5790cd6e2d8402ff7f03538db5d07a80bcba41e4139560cb1a60457f1d0f0e1",
+      "original_prompt_sha256": "dffd3501c30a2238804eac9cec7051291575358c9eaf57e93c8a5c64bbbb9827"
+    },
+    {
+      "source_order": 95,
+      "record_id": "wikipedia-panel-recovery-v1-biology-encyclopedic-250-development-01",
+      "identity": "3edf37373161968c4a8ea18e59a737109f0c8e13c397a10e9fc0f7e1dfe5aa31",
+      "prompt_path": "experiments/baseline-single-record-recovery-v2/inputs/prompts/order095.jsonl",
+      "prompt_file_sha256": "62e4c16d619eb4749a3aa9fbdc2e92077b5ac1e0515ceb148748621a79b06bfa",
+      "original_prompt_sha256": "aa8e8d315bf32aef8abb30e66abccfe37fe867f53cf42cb8b476021b02887d07"
+    },
+    {
+      "source_order": 96,
+      "record_id": "wikipedia-panel-recovery-v1-visual_arts-popular_science-500-development-01",
+      "identity": "b793ef1ee9be8b8edeccea848745ec9a114312c0ac1f8bb8e3c312ed979a45f0",
+      "prompt_path": "experiments/baseline-single-record-recovery-v2/inputs/prompts/order096.jsonl",
+      "prompt_file_sha256": "916004dac0023bf8cddde04b6ac222e55f04992c94b450724fa7ebff068d7e07",
+      "original_prompt_sha256": "84c3b881471a954cf25358e38ac46e90f41ae7a5401946b065ba543760b46d91"
+    },
+    {
+      "source_order": 97,
+      "record_id": "wikipedia-panel-recovery-v1-music-museum_label-250-development-01",
+      "identity": "0ea3d93dd10890f02935f5921c07bdde466be3370d56ab5cba514374a8c5166b",
+      "prompt_path": "experiments/baseline-single-record-recovery-v2/inputs/prompts/order097.jsonl",
+      "prompt_file_sha256": "5404c7916ca2bccdaaca165eb5f7635046a96478ee654e8f7ccd6314d5b5220b",
+      "original_prompt_sha256": "568246132d43f7590b9ccc4a39b0aaf33d139ca31d0a94fc52c6a6e988a41476"
+    },
+    {
+      "source_order": 98,
+      "record_id": "wikipedia-panel-recovery-v1-biology-encyclopedic-500-development-01",
+      "identity": "1627e32e430110a051f1edca6d84fcb64c6ee9c706e15853d604ddc4859677a4",
+      "prompt_path": "experiments/baseline-single-record-recovery-v2/inputs/prompts/order098.jsonl",
+      "prompt_file_sha256": "1ec9477460ee3700e53b3197663f844efd097124bdd71fd9150a5dfb063f324d",
+      "original_prompt_sha256": "9d101256867b1ed4e3d300c8e94c579dd8acc7d1e33aca65caeb6726b49c1ada"
+    },
+    {
+      "source_order": 99,
+      "record_id": "wikipedia-panel-recovery-v1-geography-museum_label-500-development-01",
+      "identity": "b5359938d01d4ae9f7d23ba9ef1444588e61a5302ea8b1511e344b7104786bf7",
+      "prompt_path": "experiments/baseline-single-record-recovery-v2/inputs/prompts/order099.jsonl",
+      "prompt_file_sha256": "5939703fb7a49c61e01a8924a891d60e40d0392fac1c0ec87a3dcf4c39162fbf",
+      "original_prompt_sha256": "b6afeea08de589672602df246e5e1b2aeb74debf75ecdd517f2584a704896dd0"
+    },
+    {
+      "source_order": 100,
+      "record_id": "wikipedia-panel-recovery-v1-chemistry-magazine-500-development-01",
+      "identity": "0b35fcc92405624c5967d043a42bfee9d54c8ff2b0d9580fa51139b6172cc02a",
+      "prompt_path": "experiments/baseline-single-record-recovery-v2/inputs/prompts/order100.jsonl",
+      "prompt_file_sha256": "2d17557288d404f55c43894fa96ea0118dccabef1390d764340060f75414bdee",
+      "original_prompt_sha256": "d0f9216a323f03d7da1a3430839ab56caf0e23e509d26e2736cfc57508a6bd0f"
+    }
+  ]
+}

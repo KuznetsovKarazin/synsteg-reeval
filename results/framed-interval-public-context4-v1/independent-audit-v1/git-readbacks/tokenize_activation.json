@@ -1,0 +1,7 @@
+{
+  "tag": "tokenize_activation",
+  "ref": "0f102e73409fa25a4e58843c9baf3549ac640805",
+  "path": "experiments/framed-interval-public-context4-v1/tokenize-activation.json",
+  "git_blob_sha": "92230acfd21b57482c0be425b6af330c347fa044",
+  "content": "{\"automatic_retries\":0,\"closure_sha256\":\"caf435fdb1c84e4515be84beaa2ecdf742a92b4799364255501601236da1f9b2\",\"enabled\":true,\"proposal_sha256\":\"82cad2312c9eb43988a14a312bc3c5df574ec891866eaa5f8a7289825f6bde63\",\"schema\":\"framed-interval-public-context4-v1-activation\",\"stage\":\"tokenize\"}"
+}

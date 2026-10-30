@@ -1,0 +1,35 @@
+{
+  "adapter_readback": {
+    "path": "results/framed-interval-llm-v1-run-activation-after-preflight-v1/service-readback.json",
+    "sha256": "2f8b3b573c3f9d45a29fbe60671e97468758c3af2a313ab5683369327c162fa7"
+  },
+  "child": {
+    "namespace_pids": [
+      7103,
+      34
+    ],
+    "pid_namespace": "pid:[4026532277]",
+    "proc_pid": 7103,
+    "proc_ppid": 7100,
+    "starttime_ticks": 280119
+  },
+  "executable": {
+    "bytes": 50976,
+    "device": 27,
+    "inode": 546424,
+    "path": "/workspace/scratch/af7adce5db85/synsteg/resources/seeded-pair-llm-v1/seeded_pair_llama_bridge",
+    "sha256": "7b37da550a10d8f0c457e838e574bcf8c97159e9717ba88bd536e7e208eefe77"
+  },
+  "parent": {
+    "namespace_pids": [
+      7100,
+      32
+    ],
+    "pid_namespace": "pid:[4026532277]",
+    "proc_pid": 7100,
+    "proc_ppid": 6595,
+    "starttime_ticks": 279989
+  },
+  "popen_pid": 34,
+  "schema": "framed-interval-llm-proc-service-v1-capture"
+}

@@ -1,0 +1,66 @@
+{
+  "schema": "qwen-vocab-official-headers-v1",
+  "upstream_repository": "ggml-org/llama.cpp",
+  "upstream_commit": "ea9e3446b5c84a7f972cbbdea9df615fc4ff9159",
+  "release": "b11791",
+  "files": [
+    {
+      "upstream_path": "include/llama.h",
+      "git_blob_sha1": "3af6e22233efe53bff96ee5857af26fb886c9a04",
+      "path": "resources/framed-interval-llm-v1-vocab-headers/include/llama.h",
+      "bytes": 90731,
+      "sha256": "961430f89e2553dbcd99e3e6c59826af9ec143f05911520c74f804d986ff3cd2"
+    },
+    {
+      "upstream_path": "ggml/include/ggml.h",
+      "git_blob_sha1": "c37ba947140e1b84c67440632691323b05e96329",
+      "path": "resources/framed-interval-llm-v1-vocab-headers/ggml/include/ggml.h",
+      "bytes": 116594,
+      "sha256": "475beaa7e959be8c383279d9ce9d5191f37426e6b338270cfb12b26a798129d3"
+    },
+    {
+      "upstream_path": "ggml/include/ggml-cpu.h",
+      "git_blob_sha1": "dc6453c6eaa16667f720f987659ad42d03a403a2",
+      "path": "resources/framed-interval-llm-v1-vocab-headers/ggml/include/ggml-cpu.h",
+      "bytes": 7753,
+      "sha256": "316279e004cdeb8e6ef78599acb602bf79a8abdf897fed9fd1914808c1518c6e"
+    },
+    {
+      "upstream_path": "ggml/include/ggml-backend.h",
+      "git_blob_sha1": "7a65d8121b1c1f135bef3586058b83c07ce0cb73",
+      "path": "resources/framed-interval-llm-v1-vocab-headers/ggml/include/ggml-backend.h",
+      "bytes": 27570,
+      "sha256": "0e5e8e1f16d11ebbf501e38bc6705d79eee819b5f0b17476533f2100ed9674e2"
+    },
+    {
+      "upstream_path": "ggml/include/ggml-opt.h",
+      "git_blob_sha1": "1c2ed79b77420e74fd3b81b83367109164380853",
+      "path": "resources/framed-interval-llm-v1-vocab-headers/ggml/include/ggml-opt.h",
+      "bytes": 14040,
+      "sha256": "3586de1bc8a934b5c72339e2b6937b0641e8f149b512231e666f67de0736eea2"
+    },
+    {
+      "upstream_path": "ggml/include/gguf.h",
+      "git_blob_sha1": "b3a1e1230a06110a0a5f04469d849ac2000b467c",
+      "path": "resources/framed-interval-llm-v1-vocab-headers/ggml/include/gguf.h",
+      "bytes": 11355,
+      "sha256": "e56714aab702e5ce62ee587a409643c08f7e93e8fbb77f48ef7cc85075f96fa4"
+    },
+    {
+      "upstream_path": "LICENSE",
+      "git_blob_sha1": "e7dca554bcb802f98408383a864404e3aa4eacca",
+      "path": "resources/framed-interval-llm-v1-vocab-headers/LICENSE",
+      "bytes": 1078,
+      "sha256": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d"
+    },
+    {
+      "upstream_path": "ggml/include/ggml-alloc.h",
+      "git_blob_sha1": "81cce2e2a60778f5fe6d923a74b38f7fa47d7dcc",
+      "path": "resources/framed-interval-llm-v1-vocab-headers/ggml/include/ggml-alloc.h",
+      "bytes": 3689,
+      "sha256": "d114067f9099c4a0e2bbc0625c676d4894d9cf0ea27168ee072c7de0e71bb51d"
+    }
+  ],
+  "dependency_closure": "All quoted includes in llama.h and its recursively included ggml headers; system standard-library headers provided by pinned compiler.",
+  "native_or_compiler_executions": 0
+}

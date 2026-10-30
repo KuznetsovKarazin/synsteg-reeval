@@ -1,0 +1,27 @@
+{
+  "activation_sha256": "1978302778134592a7835c63be363932cc8b9c353500873b9e7c7aaadc57911b",
+  "core": {
+    "arm": "ordinary",
+    "authenticated_delivery": false,
+    "committed_trace_matches_returned_prefix": true,
+    "consumed_bits": 611,
+    "emitted_tokens": 512,
+    "first_frame_resolved_token": null,
+    "frame_sha256": null,
+    "noncommitted_trace_suffix": [],
+    "pending_bits": 0,
+    "reason": null,
+    "required_frame_bits": null,
+    "resolved_bits": 579,
+    "status": "ordinary_generated",
+    "trace_sha256": "8e69f4da984689f0eb1276427334bca506f5b243024cbd1f98b2e97eb1ae5ef6",
+    "wire_bytes": 2337,
+    "wire_sha256": "f34528b0465ced67b23b2d9548a6ab6763b9b268ee29312b99ab53ff243e4d1c"
+  },
+  "execution_kind": "native",
+  "retry_permitted": false,
+  "role": "generate",
+  "run_id": "station-ordinary",
+  "schema": "framed-interval-llm-v1-worker-result-v1",
+  "status": "returned"
+}

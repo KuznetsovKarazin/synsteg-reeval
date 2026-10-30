@@ -1,0 +1,32 @@
+{
+  "schema": "source-indexed-candidate-probe-v1-metadata-summary",
+  "sources": 100,
+  "pilot_source_denominator": 10,
+  "planned_slot_opportunities": 30,
+  "materialized_future_probe_jobs": 30,
+  "absent_slot_opportunities": 0,
+  "source_words_min_median_max": [
+    40,
+    63.0,
+    147
+  ],
+  "original_expansion_min_median_max": [
+    2.4271844660194173,
+    5.263741134751773,
+    12.5
+  ],
+  "original_expansion_over2": 100,
+  "original_expansion_over4": 73,
+  "pilot_template_text_utf8_bytes_sum": 4148,
+  "planned_max_raw_bits_per_pilot_text": 9,
+  "framed_plain8_min_required_bits": 24,
+  "authenticated128_min_required_bits": 272,
+  "codec_launch_enabled": false,
+  "candidate_generation_executed": false,
+  "model_calls": 0,
+  "tokenizer_calls": 0,
+  "encode_calls": 0,
+  "decode_calls": 0,
+  "word_count_method": "Python str.split on exact excerpt; matches pinned restored length rows",
+  "selection_semantics": "ASCII/lowercase/length/stoplist and no adjacent Unicodealnum, apostrophe, underscore or dash are only proposal-target shape rules; no semantic eligibility claim"
+}

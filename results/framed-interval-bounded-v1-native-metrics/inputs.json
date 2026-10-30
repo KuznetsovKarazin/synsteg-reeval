@@ -1,0 +1,429 @@
+{
+  "files": {
+    "experiments/framed-interval-bounded-v1/activation-v1.json": {
+      "bytes": 1257,
+      "sha256": "0a8e182e8e3144cb429acc6eaec638da2c3235e4c608f6facf76ef4fde70fe21"
+    },
+    "experiments/framed-interval-bounded-v1/public-protocol.json": {
+      "bytes": 18044,
+      "sha256": "e6fa062b75c9bdc5f8a9887b97bf968493c96858735f11e8f05187ef8751eec2"
+    },
+    "results/framed-interval-bounded-v1-artifacts/fresh-restore.json": {
+      "bytes": 7388,
+      "sha256": "7c8ae2e0c75bfaa0575e15a50c5c8cbde349f46fbbde7bb9c6c78c5fe02af603"
+    },
+    "results/framed-interval-bounded-v1-artifacts/index.json": {
+      "bytes": 106991,
+      "sha256": "57b28aa192865bc2c1c7807ff61d36da8f391e0c0d42ed60c5a73135d5ae3354"
+    },
+    "results/framed-interval-bounded-v1-native-audit/independent-audit.json": {
+      "bytes": 107202,
+      "sha256": "97d4864a2d449eab6c967d2506c14f973e490103b604e5f7e015d8dd7dba56ed"
+    },
+    "results/framed-interval-bounded-v1-native-audit/process-completion-check.json": {
+      "bytes": 13088,
+      "sha256": "43ea48cdd6ab73477ccb3ef0c1b96c91db062bd9dba9ef3e8a992db5eb2ca596"
+    },
+    "results/framed-interval-bounded-v1-process/native-pilot-v1/process.json": {
+      "bytes": 211,
+      "sha256": "d63b82e68c65b9b6e95dbd8f96ac856f5fe2362523f5d5f0db998bc503128713"
+    },
+    "results/framed-interval-bounded-v1-quality-review/native-pilot-v1.json": {
+      "bytes": 133761,
+      "sha256": "fd1bdba9bc6d4c3922e3af9b90214d4a5ef6327fd458481cbb62b99cd5704b1a"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/campaign-manifest.json": {
+      "bytes": 4685,
+      "sha256": "16c9d50d5632d6933142e88e054c5406a25b34debddb5aa5003f3fd0b6075e31"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/campaign-status.json": {
+      "bytes": 50938,
+      "sha256": "122765122f7288bf9e0f21a183592f8d76b27df11e8923695c95a8169e71a480"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c00-ordinary/sender/committed-wire.bin": {
+      "bytes": 1273,
+      "sha256": "6e3778a6c11084a039b924ae7fe83235797f20408159998ae736dc004fbc300b"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c00-ordinary/sender/envelope.json": {
+      "bytes": 3934,
+      "sha256": "5cd364b1aa7e05d648a771ef514431433e425eed9c17ee4609fb2e39b1800b33"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c00-ordinary/sender/reconciliation.json": {
+      "bytes": 566,
+      "sha256": "1ddeef3e278a431111a9343ca97248af5933585dd3bbcfdecc5d83c554c35490"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c00-ordinary/sender/request.json": {
+      "bytes": 414,
+      "sha256": "e85f8712e8f117d9878c099eae80ab592d97f2eda776a35fd27bda62d53daba6"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c00-ordinary/sender/worker-result.json": {
+      "bytes": 886,
+      "sha256": "58d284a42b4ef6aef589b5f36625261a0eff286b417584c36ac45769f1bdf4fc"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c00-stego/receiver/reconciliation.json": {
+      "bytes": 566,
+      "sha256": "ec42701b0a62ff02b82b5ddfb757ac0337c5d461bdf915e0fc0bd828168f0b37"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c00-stego/receiver/worker-result.json": {
+      "bytes": 770,
+      "sha256": "1ee94629404691377d0ef1d355f1ce1617bdce2ec464c9189d70c0f973726469"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c00-stego/sender/committed-wire.bin": {
+      "bytes": 1360,
+      "sha256": "1abbd372d648f576d37c966dabb64496bdf2c81d7cf3e5fb93b2402e45ae8156"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c00-stego/sender/envelope.json": {
+      "bytes": 3931,
+      "sha256": "eee3d4f9a9732d2c70efd98904a7eb5d0b2c78bc5f09a5f108201beb69dd6313"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c00-stego/sender/reconciliation.json": {
+      "bytes": 566,
+      "sha256": "c72d9ddc3c71b9869f8659222bf28786a9a374373e7851f2810982a5354189a3"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c00-stego/sender/request.json": {
+      "bytes": 441,
+      "sha256": "008dd05f3371ab34053420518619aeb179cf61b2401ee1385d2eeaff184ba927"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c00-stego/sender/worker-result.json": {
+      "bytes": 940,
+      "sha256": "2987d385066b7cc492f95bec0d1b566135de5515afd155eb9556b5b037d00fc0"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c01-ordinary/sender/committed-wire.bin": {
+      "bytes": 1259,
+      "sha256": "e38ad4d70aa00e99b6bbda88a81ad24cbc4e6bfe1859618caf218cdf31c9f0be"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c01-ordinary/sender/envelope.json": {
+      "bytes": 3934,
+      "sha256": "bcaeebf7b628a94c6ff21eb5526693730999490e932b967c8b8b67cba023b6b2"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c01-ordinary/sender/reconciliation.json": {
+      "bytes": 566,
+      "sha256": "ccd3794894f8850c1bbf0b419e50aa9f33cb34d88d8b3a943fb59d4aa563943f"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c01-ordinary/sender/request.json": {
+      "bytes": 414,
+      "sha256": "eec0bb0d138fb2532c559ebc553b459c871f415a9ad96197673e62cde40c0d74"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c01-ordinary/sender/worker-result.json": {
+      "bytes": 886,
+      "sha256": "0c3361dbd325ef66b48ebc05fdd26e2c09a42567774c223d85056756eeff4d78"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c01-stego/receiver/reconciliation.json": {
+      "bytes": 566,
+      "sha256": "a439e1058aa8b024b327bec0743b47c8d3e57e002a02602b4d756a5d17b5fe9a"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c01-stego/receiver/worker-result.json": {
+      "bytes": 770,
+      "sha256": "c2db93c81ca00b6ce5a56302460f9045669db1f51fff382c6fd724cf86bde961"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c01-stego/sender/committed-wire.bin": {
+      "bytes": 1324,
+      "sha256": "0b02c10ddcdf3990b3e5ca13483e2c4a2aa2431c36028b7de39df2d09dc5d06c"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c01-stego/sender/envelope.json": {
+      "bytes": 3931,
+      "sha256": "7d5a29a7d3586234f53b51eed9fb6cbd14423dc7990aeb6fbe40d91be8afc743"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c01-stego/sender/reconciliation.json": {
+      "bytes": 566,
+      "sha256": "46ca095ddd7509e1d7e5ef2a5bf6dfe4d04553fd2b068babb02e7616c06c2730"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c01-stego/sender/request.json": {
+      "bytes": 441,
+      "sha256": "12a64e1b6285089727970e63b1f9eb255d8fe3b9f70eb222fe543c962338278b"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c01-stego/sender/worker-result.json": {
+      "bytes": 940,
+      "sha256": "9cb3a32d9282c2e2b64996acf585c205a9723365650b89c4a59dd0cb3eca37f8"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c02-ordinary/sender/committed-wire.bin": {
+      "bytes": 1282,
+      "sha256": "364ab26949bd97be526807fd57d6454b6a0c3ae42d3fad422bef27d4415230b3"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c02-ordinary/sender/envelope.json": {
+      "bytes": 3934,
+      "sha256": "2836dea15428756bd257b2516e590606db1ec6ddfdc6359d02b859c22d6749c0"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c02-ordinary/sender/reconciliation.json": {
+      "bytes": 566,
+      "sha256": "573b07b63bc098be0b2923faa2bbdca7bf83c3ba64db3dbcabfdd0eb6e54131d"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c02-ordinary/sender/request.json": {
+      "bytes": 414,
+      "sha256": "da9e124a24ba57c9eae423fa3f903805fd672639498c00b22e4a48492de7f246"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c02-ordinary/sender/worker-result.json": {
+      "bytes": 886,
+      "sha256": "1fdacf1fc5cbabf18fa7e8a7cf392ba32a747a988c64b5327d4fdc15b1803270"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c02-stego/receiver/reconciliation.json": {
+      "bytes": 566,
+      "sha256": "db507b462d9f3eb963268c9fd5e4e15867925bee713b11925c81f8c30b426e2f"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c02-stego/receiver/worker-result.json": {
+      "bytes": 770,
+      "sha256": "86c4d1e029b0ea31bb6b856be36dc8d54e116fff55c65f6e40b537576cdbd37c"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c02-stego/sender/committed-wire.bin": {
+      "bytes": 1064,
+      "sha256": "be8d28cd9c96fdc4735c3e13eaa0307849c062a5056c8259db5b480f4d228db7"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c02-stego/sender/envelope.json": {
+      "bytes": 3931,
+      "sha256": "4e371c87a29270c40f51f0a6d1ba3b9268043119505cee1d63897522156cb2bd"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c02-stego/sender/reconciliation.json": {
+      "bytes": 566,
+      "sha256": "84d081304abaa89bc9d45e5f6358eadad9e557eb7dfd9693cbc42cf4c7c05601"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c02-stego/sender/request.json": {
+      "bytes": 441,
+      "sha256": "a6bf3d83b1a11cc5548c4963e2953f31ff7d63f7f1578d83831c94762993d727"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c02-stego/sender/worker-result.json": {
+      "bytes": 940,
+      "sha256": "83a7ea2b3e6f647752f5e8dfb34350b766db90c9c37e1a0032208f1222dd2771"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c03-ordinary/sender/committed-wire.bin": {
+      "bytes": 1373,
+      "sha256": "38f59e8f2c6bdbb2be89c454ebaf5b0d01161304b5e5fe6787c78b519371157b"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c03-ordinary/sender/envelope.json": {
+      "bytes": 3934,
+      "sha256": "2b42ef82762638548b54fd3f7fadde134d83391a64bb830b3b77999ff31a1418"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c03-ordinary/sender/reconciliation.json": {
+      "bytes": 566,
+      "sha256": "ce9988710251bff39a897ad59deb63c5326593d4f38b536098113ecdc89f86f5"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c03-ordinary/sender/request.json": {
+      "bytes": 414,
+      "sha256": "e9a22812038b25d887da4005bfba1ec0b06efc697cdb20e42702dd92f0060a36"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c03-ordinary/sender/worker-result.json": {
+      "bytes": 886,
+      "sha256": "b50e74e5aae54af2fb3cb712397b787dd055fe0dc47dd6a01d36630ddce8ea80"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c03-stego/receiver/reconciliation.json": {
+      "bytes": 566,
+      "sha256": "cb71b700db38eec4a43a818ea2dd18caa075cbfafb1268d3a1bd71b4ceae48d9"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c03-stego/receiver/worker-result.json": {
+      "bytes": 770,
+      "sha256": "72da132bcabe30845a545e36cdbd6a6c02a1a1486c020f4007ca3bd43a475103"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c03-stego/sender/committed-wire.bin": {
+      "bytes": 1051,
+      "sha256": "50c1831f085eab9a59e485c113121f394abdc17d436b5c94d2d1b0ef133400aa"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c03-stego/sender/envelope.json": {
+      "bytes": 3931,
+      "sha256": "b9fc90229f78c1a1d285d94f404094c7f12270529b85abca3d6173ab0499703c"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c03-stego/sender/reconciliation.json": {
+      "bytes": 566,
+      "sha256": "03710c6eb1dea3e695de086ce772aed2754a7cac69b29f52564c3029be2734f6"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c03-stego/sender/request.json": {
+      "bytes": 441,
+      "sha256": "d98b21c96ec6f0f9b6875ccd2c7f64fd2879a916e1e82eccc8c1caf1bb384b1f"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/library-c03-stego/sender/worker-result.json": {
+      "bytes": 940,
+      "sha256": "a15862f07006ba2e7973efdec4ec2c2ff3b4b7d4a4844420db6e885192d230ca"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c00-ordinary/sender/committed-wire.bin": {
+      "bytes": 1318,
+      "sha256": "a6985c72c2a17cd7cacf36f36edc0912ff879282cb3723ac6cd38cbf39ee1ac1"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c00-ordinary/sender/envelope.json": {
+      "bytes": 4110,
+      "sha256": "0344145425001c0289ba217605b1423772ff6f09a768d32e9af0b53d59f748a5"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c00-ordinary/sender/reconciliation.json": {
+      "bytes": 566,
+      "sha256": "66e7a13a434976932be6c8e6eeb6d3a43b1bd455e76797a37d5dad1857146edd"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c00-ordinary/sender/request.json": {
+      "bytes": 414,
+      "sha256": "945827dd724ded7f76528fe0b71824f3424a19ac3c81a092eadb05959bda8f35"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c00-ordinary/sender/worker-result.json": {
+      "bytes": 886,
+      "sha256": "dcd15205bb7e17e8dcd3212e980413e5b9a1e2dbde8439af02de2d7cbf7a9b57"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c00-stego/receiver/reconciliation.json": {
+      "bytes": 566,
+      "sha256": "0c87e6fe767330d6092b2b0b443bb6bc917fe1a558463d64f8d102a521cf8de0"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c00-stego/receiver/worker-result.json": {
+      "bytes": 770,
+      "sha256": "c1e43605f6dabf6791609d9874f50497cc6c742652751e79c0a1a5ee79399613"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c00-stego/sender/committed-wire.bin": {
+      "bytes": 1458,
+      "sha256": "e41eead9288b84ef7a6afec7b3e0df0585bb42fa6951e2aa7858e4edb39c5119"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c00-stego/sender/envelope.json": {
+      "bytes": 4107,
+      "sha256": "bdad5c612c4d784ab83bbef4d0b0249265f8f5ff5601a0812434a491b5921994"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c00-stego/sender/reconciliation.json": {
+      "bytes": 566,
+      "sha256": "40d7bdf3d32965cdf44b0111da6848508e1b9dc3e032c3f3b94d697596d62dd3"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c00-stego/sender/request.json": {
+      "bytes": 441,
+      "sha256": "1458a59feb6f3eeda7507fd4e763ba6cd9ab4101a99dc46557cc4e43df5b5feb"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c00-stego/sender/worker-result.json": {
+      "bytes": 940,
+      "sha256": "c7c6978b9d3cdb11acb0cea38f332f0457304b50254271158a1266b19d6865ed"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c01-ordinary/sender/committed-wire.bin": {
+      "bytes": 1322,
+      "sha256": "4f3075a46d47d4b4ec86dcc2342b3934f6dd25b054e410c7dfe7cd694b706203"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c01-ordinary/sender/envelope.json": {
+      "bytes": 4110,
+      "sha256": "eaff0cad9722fab91b70416086aa8dcff20b3786f0822b6e31972def9834d440"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c01-ordinary/sender/reconciliation.json": {
+      "bytes": 566,
+      "sha256": "8aac6b8ea69db71cd3e5c4fb619af064065dc51c236c9e9209163b1defb308bf"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c01-ordinary/sender/request.json": {
+      "bytes": 414,
+      "sha256": "3de26b1e2fad64e2a1f57ecd4acc66ab8ee058a29c87c35a2de02754ee6e2425"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c01-ordinary/sender/worker-result.json": {
+      "bytes": 886,
+      "sha256": "1b55f8cb23fc5c2d9f055a7223dfd91ee444c60cf7cd50b89e174a864a123b3e"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c01-stego/receiver/reconciliation.json": {
+      "bytes": 566,
+      "sha256": "bf53b71cb2f964627066d572ee93453573880990226ad100d4c11d8e3f4a60c1"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c01-stego/receiver/worker-result.json": {
+      "bytes": 770,
+      "sha256": "58257645a859f50e3cdfc6715e83a95f038559af15716522d9a79c198a9d75c6"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c01-stego/sender/committed-wire.bin": {
+      "bytes": 1230,
+      "sha256": "7a47a0b090e89294e7c8aa4c2cc9f7cd15957225edea79e3b8690d1fd105cd0f"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c01-stego/sender/envelope.json": {
+      "bytes": 4107,
+      "sha256": "f0d9f9a37ba503560a47a6ea18ca5f9084bfa644873be256a514657f8f159f70"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c01-stego/sender/reconciliation.json": {
+      "bytes": 566,
+      "sha256": "88942c68070f6625853c6e5791fa6f85640ec0846468b84da4f9b3570bc8bcd1"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c01-stego/sender/request.json": {
+      "bytes": 441,
+      "sha256": "0cd52805f54d7d68fcb3446394dc1cd51e2a9950ed42d49b84010ccb7c1e4602"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c01-stego/sender/worker-result.json": {
+      "bytes": 940,
+      "sha256": "ef6654690e3b520bdad1a534ddb5275adc7b80cbc3cf48cf9a1a7ea2ff02d784"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c02-ordinary/sender/committed-wire.bin": {
+      "bytes": 1240,
+      "sha256": "f157bd5803b465da7312c7164503c141d0e0f3fdf9a1d54d6f99960f34e81192"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c02-ordinary/sender/envelope.json": {
+      "bytes": 4110,
+      "sha256": "4a0b4b910bda3200f286659129bedfb444736a896c2ba2ce8dbee49573264fb2"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c02-ordinary/sender/reconciliation.json": {
+      "bytes": 566,
+      "sha256": "bea8c5b20b4bb4971f3df23fc5bd3b27bf2f50f10ca1af4c33d9726d60521473"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c02-ordinary/sender/request.json": {
+      "bytes": 414,
+      "sha256": "ce7f1340890a28f55ee7f708235ea73e88f8304142ed975d7c977d9715f36e84"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c02-ordinary/sender/worker-result.json": {
+      "bytes": 886,
+      "sha256": "430125298b41eef202225ebd667409ca2ef1dcf09c41a45f3a2d8c45a2fadc8f"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c02-stego/receiver/reconciliation.json": {
+      "bytes": 566,
+      "sha256": "4ab2c1658fc8c41ad2cb767911329116cc994002be25229beb24493c7db62661"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c02-stego/receiver/worker-result.json": {
+      "bytes": 770,
+      "sha256": "4c562d225d32554446bd87a1cd91f21f97152ad8755f7ef3da498bb598f817fc"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c02-stego/sender/committed-wire.bin": {
+      "bytes": 1173,
+      "sha256": "62a513e22cec79b7edebe45b6bab5976ba6b773859dfd8f3cb2bbee39d557d7b"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c02-stego/sender/envelope.json": {
+      "bytes": 4107,
+      "sha256": "83a6677cd9cea0478d846afa99d33d15bf27391e3b14e11808cce7162c5106a4"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c02-stego/sender/reconciliation.json": {
+      "bytes": 566,
+      "sha256": "63a82fc6919e305878f1a9c797dd0a66a431e149ce4bc4f4130f5a06985a3a71"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c02-stego/sender/request.json": {
+      "bytes": 441,
+      "sha256": "d2837efcdcee62ac950c7045ccd87b81131e6d5c37726c6925fcfb78dc92dbb2"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c02-stego/sender/worker-result.json": {
+      "bytes": 940,
+      "sha256": "228694d77883fb8ba6f34045c8407f9689d7fd600782ff46afd66342540db32f"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c03-ordinary/sender/committed-wire.bin": {
+      "bytes": 1475,
+      "sha256": "4ed0aa106e353a7709224662e7054709fc729d9c534a91e68cabc5601325136c"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c03-ordinary/sender/envelope.json": {
+      "bytes": 4110,
+      "sha256": "39b0276d192afd5f3554fde17d6bab1469fa5299fca5e707dd7e0bf15476bcbc"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c03-ordinary/sender/reconciliation.json": {
+      "bytes": 566,
+      "sha256": "9e2aa7644bf198bf87f97812abdb7c76c78422b934153afaa3f9f53ef6a9851f"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c03-ordinary/sender/request.json": {
+      "bytes": 414,
+      "sha256": "6afce2f55a63370bb9746e97db685d09ae4176466a532e7fadb6b0fd50dafee5"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c03-ordinary/sender/worker-result.json": {
+      "bytes": 886,
+      "sha256": "ac08ea62736f82a1837680ad85b3275f65b000a72a098599c8f66d086b57f6a9"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c03-stego/receiver/reconciliation.json": {
+      "bytes": 566,
+      "sha256": "87eb323442ad34b8a401134df09857b49fced24bf46e97fa3e58ec6dbbdecc27"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c03-stego/receiver/worker-result.json": {
+      "bytes": 770,
+      "sha256": "337d67408c018256cab7c61209d7a75355d86460d2ba88c5acff7c1b07bbe5aa"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c03-stego/sender/committed-wire.bin": {
+      "bytes": 1216,
+      "sha256": "b575549f9fe42a28196fd1d683c79a3b8977c149a73aa1b0091bb8e05462f866"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c03-stego/sender/envelope.json": {
+      "bytes": 4107,
+      "sha256": "4c89f32a38f1c94f074cee62a38f8e3e08257177969da0e120ee94155addc73a"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c03-stego/sender/reconciliation.json": {
+      "bytes": 566,
+      "sha256": "f5510c654340ce0af413f7ce991535909c77582a4b3735de38d4657ad133b89c"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c03-stego/sender/request.json": {
+      "bytes": 441,
+      "sha256": "b8c31263e88e521c3c897edf40f602890abe31f4bebb376c9223682f81497e48"
+    },
+    "results/framed-interval-bounded-v1/native-pilot-v1/station-c03-stego/sender/worker-result.json": {
+      "bytes": 940,
+      "sha256": "70e478e2a17310547da046047ed22296de979a601e4334f03a9c6069f082dd55"
+    }
+  },
+  "schema": "bounded-native-metrics-inputs-v1"
+}

@@ -1,0 +1,39 @@
+{
+  "gpt6_luna_missing": {
+    "education": 21,
+    "space": 4,
+    "technology_general_divide": 11,
+    "environment_energy": 16,
+    "media_expression": 33,
+    "bioethics_nanotechnology": 29,
+    "social_media_friendship": 20,
+    "family_happiness": 11,
+    "economy_corporate_consumption": 25,
+    "culture_arts_identity": 38,
+    "health": 28,
+    "vr_games": 17,
+    "security_privacy": 7,
+    "ai_work_gig": 13,
+    "politics_justice_equality": 16,
+    "urban_population": 11
+  },
+  "qwen_missing_b3": {
+    "media_expression": 8,
+    "health": 6,
+    "social_media_friendship": 5,
+    "urban_population": 1,
+    "economy_corporate_consumption": 4,
+    "technology_general_divide": 7,
+    "environment_energy": 7,
+    "bioethics_nanotechnology": 4,
+    "politics_justice_equality": 5,
+    "culture_arts_identity": 12,
+    "ai_work_gig": 1,
+    "education": 3,
+    "family_happiness": 6,
+    "security_privacy": 2,
+    "space": 2,
+    "vr_games": 2
+  }
+}
+CHECK e1de7bcd-cd78-40b0-b052-5f4d2df9cbb4 media_expression 108 Mass media shapes what people notice, believe, and discuss. Through repeated images and confident messages, propaganda can turn uncertainty into certainty and neighbors into enemies. Yet audiences are not powerless. Comp

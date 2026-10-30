@@ -1,0 +1,91 @@
+{{Short description|Production of light due to absorption of high-energy photons or particles}}
+{{Other uses|Scintillation (disambiguation)}}
+[[File:Kristall-CsI(Tl) mit Skala.jpg|thumb|Scintillating Caesium iodide crystal. It is often used as the input phosphor of an X-ray image intensifier tube found in fluoroscopy equipment. Caesium iodide photocathodes are highly efficient at extreme ultraviolet wavelengths.]]
+In [[condensed matter physics]], '''scintillation''' ({{IPAc-en|'|s|ɪ|n|t|ɪ|l|eɪ|ʃ|ən}} {{respell|SIN|til|ay|shun}})—also termed '''[[radioluminescence]]'''<ref name="ILV">{{cite encyclopedia |date=2020 |edition=2 |title=scintillator |at=§17-24-044 |encyclopedia=e-ILV, online version of CIE S 017:2020, International Lighting Vocabulary |url=https://cie.co.at/e-ilv |location=Vienna |publisher=[[International Commission on Illumination]] |access-date=27 Jan 2026}}</ref><ref name="IUPAC">{{cite encyclopedia |date=2019 |title= scintillators |at=§S05507 |encyclopedia=IUPAC Compendium of Chemical Terminology (Gold Book) |url=https://goldbook.iupac.org |doi=10.1351/goldbook |location=Research Triangle Park, NC |publisher=[[International Union of Pure and Applied Chemistry]] |access-date=27 Jan 2026}}</ref>—is the physical process where a material, called a [[scintillator]], emits [[ultraviolet]] or [[Light|visible light]] under [[Electron excitation|excitation]] from high energy [[photon]]s ([[X-ray]]s or [[gamma ray]]s) or energetic particles (such as [[electron]]s, [[alpha particle]]s, [[neutron]]s, or [[ion]]s).<ref name=":0">{{Cite book |title=Scintillation dosimetry |date=2016 |others=Sam Beddar, Luc Beaulieu |isbn=978-1-4822-0900-6 |location=Boca Raton, FL |oclc=945552892}}</ref><ref name=":1">{{Cite journal |last1=Maddalena |first1=Francesco |last2=Tjahjana |first2=Liliana |last3=Xie |first3=Aozhen |last4=Arramel |last5=Zeng |first5=Shuwen |last6=Wang |first6=Hong |last7=Coquet |first7=Philippe |last8=Drozdowski |first8=Winicjusz |last9=Dujardin |first9=Christophe |last10=Dang |first10=Cuong |last11=Birowosuto |first11=Muhammad Danang |date=February 2019 |title=Inorganic, Organic, and Perovskite Halides with Nanotechnology for High–Light Yield X- and γ-ray Scintillators |journal=Crystals |language=en |volume=9 |issue=2 |pages=88 |doi=10.3390/cryst9020088 |issn=2073-4352|doi-access=free |bibcode=2019Cryst...9...88M |hdl=10356/107027 |hdl-access=free }}</ref> 
+
+==Overview==
+Scintillation is an example of [[luminescence]], whereby light of a characteristic spectrum is emitted following the absorption of [[radiation]]. The scintillation process can be summarized in three main stages: conversion, transport and energy transfer to the luminescence center, and luminescence.<ref name=":0" /><ref name=":1" /><ref name=":2">{{Cite journal |last=Nikl |first=Martin |date=2006-02-10 |title=Scintillation detectors for x-rays |url=https://doi.org/10.1088/0957-0233/17/4/R01 |journal=Measurement Science and Technology |language=en |volume=17 |issue=4 |pages=R37–R54 |doi=10.1088/0957-0233/17/4/r01 |s2cid=41368686 |issn=0957-0233|url-access=subscription }}</ref> The emitted radiation is usually less energetic than the absorbed radiation, hence scintillation is generally a down-conversion process.
+
+== Conversion processes ==
+The first stage of scintillation, conversion, is the process where the energy from the incident radiation is absorbed by the scintillator and highly energetic electrons and [[Electron hole|holes]] are created in the material. The energy absorption mechanism by the scintillator depends on the type and energy of radiation involved. For highly energetic photons such as X-rays (0.1 keV < <math>E_{\gamma}</math> < 100 keV) and γ-rays (<math>E_{\gamma}</math> > 100 keV), three types of interactions are responsible for the energy conversion process in scintillation: [[Photoelectric effect|photoelectric absorption]],<ref name=":3">{{Cite journal |last=Hall |first=Harvey |date=1936-10-01 |title=The Theory of Photoelectric Absorption for X-Rays and $\ensuremath{\gamma}$-Rays |url=https://link.aps.org/doi/10.1103/RevModPhys.8.358 |journal=Reviews of Modern Physics |volume=8 |issue=4 |pages=358–397 |doi=10.1103/RevModPhys.8.358|url-access=subscription }}</ref> [[Compton scattering]],<ref name=":4">{{Cite journal |last1=Eisenberger |first1=P. |last2=Platzman |first2=P. M. |date=1970-08-01 |title=Compton Scattering of X Rays from Bound Electrons |url=https://link.aps.org/doi/10.1103/PhysRevA.2.415 |journal=Physical Review A |volume=2 |issue=2 |pages=415–423 |doi=10.1103/PhysRevA.2.415|bibcode=1970PhRvA...2..415E |url-access=subscription }}</ref> and [[pair production]],<ref name=":5">{{Cite journal |last=Hubbell |first=J. H. |date=2006-06-01 |title=Electron–positron pair production by photons: A historical overview |url=https://www.sciencedirect.com/science/article/pii/S0969806X0500263X |journal=Radiation Physics and Chemistry |language=en |volume=75 |issue=6 |pages=614–623 |doi=10.1016/j.radphyschem.2005.10.008 |bibcode=2006RaPC...75..614H |issn=0969-806X|url-access=subscription }}</ref> which only occurs when <math>E_{\gamma}</math> > 1022 keV, i.e. the photon has enough energy to create an electron-positron pair.
+
+These processes have different [[attenuation coefficient]]s, which depend mainly on the energy of the incident radiation, the average [[atomic number]] of the material and the [[density]] of the material. Generally the absorption of high energy radiation is described by:
+
+:<math>I= I_0\cdot e^{-\mu d}</math>
+
+where <math>I_0</math> is the intensity of the incident radiation, <math>d</math> is the thickness of the material, and <math>\mu</math> is the linear attenuation coefficient, which is the sum of the attenuation coefficients of the various contributions:
+
+:<math>\mu = \mu_{pe} + \mu_{cs} + \mu_{pp} + \mu_{oc}</math>
+
+At lower X-ray energies (<math>E_{\gamma} \lesssim</math> 60 keV), the most dominant process is the photoelectric effect, where the photons are fully absorbed by bound electrons in the material, usually core electrons in the [[Electron shell|K- or L-shell]] of the atom, and then ejected, leading to the ionization of the host atom. The linear attenuation coefficient contribution for the photoelectric effect is given by:<ref name=":3" /><ref name=":6">{{Cite book |last=Rodnyi |first=Piotr A. |title=Physical processes in inorganic scintillators |date=1997 |publisher=CRC Press |isbn=0-8493-3788-7 |location=Boca Raton |oclc=36240945}}</ref>
+
+:<math>\mu_{pe} \propto {\rho Z^n \over E_{\gamma}^{3.5}}</math>
+
+where <math>\rho</math> is the density of the scintillator, <math>Z</math> is the average atomic number, <math>n</math> is a constant that varies between 3 and 4, and <math>E_{\gamma}</math> is the energy of the photon. At low X-ray energies, scintillator materials with atoms with high atomic numbers and densities are favored for more efficient absorption of the incident radiation.
+
+At higher energies (<math>E_{\gamma}</math> <math>\gtrsim</math> 60 keV) Compton scattering, the inelastic scattering of photons by bound electrons, often also leading to ionization of the host atom, becomes the more dominant conversion process. The linear attenuation coefficient contribution for Compton scattering is given by:<ref name=":4" /><ref name=":6" />
+
+:<math>\mu_{cs} \propto {\rho \over \sqrt{E_{\gamma}}}</math>
+
+Unlike the photoelectric effect, the absorption resulting from Compton scattering is independent of the atomic number of the atoms present in the crystal, but linearly on their density.
+
+At γ-ray energies higher than <math>E_{\gamma}</math> > 1022 keV, i.e. energies higher than twice the rest-mass energy of the electron, pair production starts to occur. Pair production is the relativistic phenomenon where the energy of a photon is converted into an electron-positron pair. The created electron and positron will then further interact with the scintillating material to generate energetic electron and holes. The attenuation coefficient contribution for pair production is given by:<ref name=":5" /><ref name=":6" />
+
+:<math>\mu_{pp} \propto \rho Z \ln \Bigl( {2 E_{\gamma} \over m_e c^2}\Bigr)</math>
+
+where <math>m_e</math> is the [[Rest Mass|rest mass]] of the electron and <math>c </math> is the [[speed of light]]. Hence, at high γ-ray energies, the energy absorption depends both on the density and average atomic number of the scintillator. In addition, unlike for the photoelectric effect and Compton scattering, pair production becomes more probable as the energy of the incident photons increases, and pair production becomes the most dominant conversion process above <math>E_{\gamma}</math>~ 8 MeV.
+
+The <math>\mu_{oc}</math> term includes other (minor) contributions, such as [[Rayleigh scattering|Rayleigh (coherent) scattering]] at low energies and [[Photodisintegration|photonuclear reactions]] at very high energies, which also contribute to the conversion, however the contribution from Rayleigh scattering is almost negligible and photonuclear reactions become relevant only at very high energies.
+
+After the energy of the incident radiation is absorbed and converted into so-called hot electrons and holes in the material, these energetic charge carriers will interact with other particles and quasi-particles in the scintillator (electrons, [[plasmon]]s, [[phonon]]s), leading to an "avalanche event", where a great number of secondary electron–hole pairs are produced until the hot electrons and holes have lost sufficient energy. 
+
+The large number of energetic [[charge carrier]]s that result from this process will then undergo [[Thermalisation|thermalization]] (i.e., dissipation of part of their energy) through interaction with phonons (for electrons) and [[Auger effect|Auger processes]] (for holes).
+
+The average timescale for conversion, including energy absorption and thermalization has been estimated to be in the order of 1 ps,<ref name=":2" /><ref>{{Cite journal |last1=Lempicki |first1=A. |last2=Wojtowicz |first2=A. J. |last3=Berman |first3=E. |date=1993-09-01 |title=Fundamental limits of scintillator performance |url=https://dx.doi.org/10.1016/0168-9002%2893%2991170-R |journal=Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment |language=en |volume=333 |issue=2 |pages=304–311 |doi=10.1016/0168-9002(93)91170-R |bibcode=1993NIMPA.333..304L |issn=0168-9002|url-access=subscription }}</ref> which is much faster than the average [[decay time]] in [[photoluminescence]].
+
+== Charge transport of excited carriers ==
+The second stage of scintillation is the charge transport of thermalized electrons and holes towards luminescence centers and the energy transfer to the atoms involved in the luminescence process. In this stage, the large number of electrons and holes that have been generated during the conversion process, migrate inside the material. This is probably one of the most critical phases of scintillation, since it is generally in this stage where most loss of efficiency occur due to effects such as trapping or [[non-radiative recombination]]. These are mainly caused by the presence of defects in the scintillator crystal, such as impurities, ionic vacancies, and [[Grain boundary|grain boundaries]]. The charge transport can also become a bottleneck for the timing of the scintillation process. The charge transport phase is also one of the least understood parts of scintillation and depends strongly on the type material involved and its intrinsic charge conduction properties.
+
+==Luminescence==
+[[File:Pistates.svg|thumb|350px|right|π-electronic energy levels of an organic molecule. S<sub>0</sub> is the ground state. S<sub>1</sub>, S<sub>2</sub>, S<sub>3</sub> are excited singlet states. T<sub>1</sub>, T<sub>2</sub>, T<sub>3</sub> are excited triplet states. S<sub>00</sub>, S<sub>01</sub>, S<sub>10</sub>, S<sub>11</sub> etc. are vibrational sublevels.]]Once the electrons and holes reach the luminescence centers, the third and final stage of scintillation occurs: luminescence. In this stage the electrons and holes are captured potential paths by the luminescent center, and then the electrons and hole [[Radiative recombination|recombine radiatively]].<ref>{{Cite journal |last=Blasse |first=G. |date=1989-05-01 |title=New luminescent materials |url=https://pubs.acs.org/doi/abs/10.1021/cm00003a005 |journal=Chemistry of Materials |language=en |volume=1 |issue=3 |pages=294–301 |doi=10.1021/cm00003a005 |issn=0897-4756|url-access=subscription }}</ref> The exact details of the luminescence phase also depend on the type of material used for scintillation.
+
+=== Inorganic crystals ===
+{{further|Scintillation counter#Detection materials}}For photons such as gamma rays, thallium activated [[NaI]] crystals (NaI(Tl)) are often used. For a faster response (but only 5% of the output) [[CsF]] crystals can be used.<ref>Introductory Nuclear Physics. Krane. 1987.</ref>{{rp|211}}
+
+=== Organic scintillators ===
+In organic molecules scintillation is a product of [[pi bond|π-orbitals]]. Organic materials form molecular crystals where the molecules are loosely bound by [[Van der Waals force]]s. The ground state of <sup>12</sup>C is 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>2</sup>. In valence bond theory, when carbon forms compounds, one of the 2s electrons is excited into the 2p state resulting in a configuration of 1s<sup>2</sup> 2s<sup>1</sup> 2p<sup>3</sup>. To describe the different valencies of carbon, the four valence electron orbitals, one 2s and three 2p, are considered to be mixed or hybridized in several alternative configurations. For example, in a tetrahedral configuration the s and p<sup>3</sup> orbitals combine to produce four hybrid orbitals. In another configuration, known as trigonal configuration, one of the p-orbitals (say p<sub>z</sub>) remains unchanged and three hybrid orbitals are produced by mixing the s, p<sub>x</sub> and p<sub>y</sub> orbitals. The orbitals that are symmetrical about the bonding axes and plane of the molecule (sp<sup>2</sup>) are known as σ-electrons and the bonds are called σ-bonds. The p<sub>z</sub> orbital is called a π-orbital. A π-bond occurs when two π-orbitals interact. This occurs when their nodal planes are coplanar.
+
+In certain organic molecules π-orbitals interact to produce a common nodal plane. These form delocalized π-electrons that can be excited by radiation. The de-excitation of the delocalized π-electrons results in luminescence.
+
+The excited states of π-electron systems can be explained by the perimeter free-electron model (Platt 1949). This model is used for describing polycyclic hydrocarbons consisting of condensed systems of benzenoid rings in which no C atom belongs to more than two rings and every C atom is on the periphery.
+
+The ring can be approximated as a circle with circumference l. The wave-function of the electron orbital must satisfy the condition of a plane rotator:
+
+:<math>\psi(x)=\psi(x+l) \,</math>
+
+The corresponding solutions to the [[Schrödinger equation|Schrödinger wave equation]] are:
+
+:<math>\begin{align}
+ \psi_0    &= \left( \frac{1}{l} \right)^{\frac{1}{2}} \\
+ \psi_{q1} &= \left( \frac{2}{l} \right)^{\frac{1}{2}} \cos{\left( \frac{2\pi\ qx}{l} \right)} \\
+ \psi_{q2} &= \left( \frac{2}{l} \right)^{\frac{1}{2}} \sin{\left( \frac{2\pi\ qx}{l} \right)} \\
+ E_q       &= \frac{q^2\hbar^2}{2m_0l^2}
+\end{align}</math>
+
+where q is the orbital ring quantum number; the number of nodes of the wave-function. Since the electron can have spin up and spin down and can rotate about the circle in both directions all of the energy levels except the lowest are doubly degenerate.
+
+The above shows the π-electronic energy levels of an organic molecule. The process of absorption of radiation followed by molecular vibration to the excited [[singlet state]] ''S<sub>1</sub>'' and subsequent de-excitation to the ground state ''S<sub>0</sub>'' (an [[Selection rule|"allowed" transition]] resulting in photon emission) is called the "fast component" or ''[[fluorescence]]''. [[Triplet state]]s decay with a much longer decay time than singlet states; this "slow component" can arise from either ''delayed fluorescence'' (e.g., [[thermally activated delayed fluorescence]], [[triplet-triplet annihilation]]) or ''[[phosphorescence]]'' (if the decay from triplet state to ground state involves a [[Selection rule|"forbidden" transition]] with a change in [[Intersystem crossing|spin multiplicity]]).
+
+Depending on the particular energy loss of a certain particle (dE/dx), the "fast" and "slow" components are occupied in different proportions. The relative intensities in the light output of these components thus differs for different dE/dx. This property of scintillators allows for pulse shape discrimination: it is possible to identify which particle was detected by looking at the pulse shape. Of course, the difference in shape is visible in the trailing side of the pulse, since it is due to the decay of the excited states.
+
+==See also==
+* {{annotated link|Cathodoluminescence}}
+* {{annotated link|Positron emission tomography}}
+
+==References==
+{{reflist}}
+
+{{Authority control}}
+
+[[Category:Condensed matter physics]]
+[[Category:Scattering, absorption and radiative transfer (optics)]]

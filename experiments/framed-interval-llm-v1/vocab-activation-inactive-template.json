@@ -1,0 +1,18 @@
+{
+  "freeze_commit": null,
+  "coordinator_readback": null,
+  "sources_sha256": null,
+  "plan": null,
+  "binary": null,
+  "build_receipt": null,
+  "resource_identity_sha256": null,
+  "runtime": null,
+  "native_system_libraries_sha256": null,
+  "schema": "framed-interval-llm-v1-vocab-activation-v1",
+  "enabled": false,
+  "timeout_seconds": 120,
+  "public_protocol": {
+    "path": "experiments/framed-interval-llm-v1/receiver-public-protocol.json",
+    "sha256": "4cab7dd3035ac1ad298952814c12b12ecbe2d021f4b9cd14b35692a2c300d6ff"
+  }
+}

@@ -1,0 +1,10 @@
+test_changed_source_after_readback_rejected (__main__.GateTests.test_changed_source_after_readback_rejected) ... ok
+test_context_source_mapping_rejected_even_with_consistent_hashes (__main__.GateTests.test_context_source_mapping_rejected_even_with_consistent_hashes) ... ok
+test_execute_gate_accepts_complete_synthetic_contract (__main__.GateTests.test_execute_gate_accepts_complete_synthetic_contract) ... ok
+test_missing_closure_path_rejected (__main__.GateTests.test_missing_closure_path_rejected) ... ok
+test_tokenization_gate_accepts_complete_synthetic_contract (__main__.GateTests.test_tokenization_gate_accepts_complete_synthetic_contract) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.424s
+
+OK

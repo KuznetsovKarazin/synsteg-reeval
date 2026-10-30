@@ -1,0 +1,46 @@
+{
+  "schema": "framed-interval-packet-v1-freeze-manifest",
+  "freeze_rule": "The coordinator must commit and exactly read back all git_files before running the fixed matrix; actual commit is supplied to the runner.",
+  "dependency_commits": {
+    "canonical_packet_v3": "a24a7603e079d14fa72655554c0099f66c0a0f19",
+    "integer_interval_channel_v1": "7b18bbf802a1b3d88a1b94dd1e71d2ae1099e010"
+  },
+  "git_files": [
+    "docs/framed_interval_packet_v1_ru.md",
+    "experiments/framed-interval-packet-v1/proposed-protocol.json",
+    "experiments/framed-interval-packet-v1/receiver.py",
+    "experiments/framed-interval-packet-v1/requirements.lock",
+    "experiments/framed-interval-packet-v1/run_synthetic.py",
+    "results/framed-interval-packet-v1-audit/independent-contract-review.json",
+    "results/framed-interval-packet-v1-audit/independent_composition_review.py",
+    "results/framed-interval-packet-v1-audit/review_runner_static.py",
+    "results/framed-interval-packet-v1-audit/runner-static-review.json",
+    "results/framed-interval-packet-v1-development/status.json",
+    "results/framed-interval-packet-v1-development/tests.json",
+    "src/synsteg_audit/framed_interval_packet_v1.py",
+    "src/synsteg_audit/framed_interval_packet_v1_fixtures.py",
+    "tests/test_framed_interval_packet_v1.py",
+    "experiments/framed-interval-packet-v1/freeze-manifest.json"
+  ],
+  "files_sha256": {
+    "docs/framed_interval_packet_v1_ru.md": "0c0dfbc8366055d4292aac4d3661614d4f48d62fcf51e7a6c4773e4a752abe89",
+    "experiments/framed-interval-packet-v1/proposed-protocol.json": "5e87b743f0e73aa844633e985749c031ab76274e228c6c9841e23ab18ce6d86d",
+    "experiments/framed-interval-packet-v1/receiver.py": "be41d6ae0ddf3c1217fbe11bd3a74eca53d3bf2fa4fc0beba23271264e225d55",
+    "experiments/framed-interval-packet-v1/requirements.lock": "d66a7237051eab778196473c326b9418033501ee60b647b6f6194dd6c97f1772",
+    "experiments/framed-interval-packet-v1/run_synthetic.py": "fe73df880323b0ed868883374022b619e9e9bcff9ad8cc48679f0dc15dc49794",
+    "results/framed-interval-packet-v1-audit/independent-contract-review.json": "116b578f4742f8d50bbe3ffce991891bd44a5da6437036d17e16488a2481f89e",
+    "results/framed-interval-packet-v1-audit/independent_composition_review.py": "e3a5e78e9b9aace41514520115719eb63596d2e475f6dbd4dc2f2b935a1fecdc",
+    "results/framed-interval-packet-v1-audit/review_runner_static.py": "4fe55703f5e7b5dabbfe310c3a4b9beb3f1cd34353f3ae40374599386796c81a",
+    "results/framed-interval-packet-v1-audit/runner-static-review.json": "2a2f9c8226f9db18e0992d87d973b3ec17ce2a91f9adb434feada679fe9ab362",
+    "results/framed-interval-packet-v1-development/status.json": "f1d38af67b69ef058925780a0f334e10aacd214d563b02afba6c1556452acd02",
+    "results/framed-interval-packet-v1-development/tests.json": "6150ea85f59388d04fa80849e1d7b2886e92b84a2ed5d4f05931309d549c1f00",
+    "src/synsteg_audit/__init__.py": "18ab6e0e8c68a1394d26158039f3a4f647fe701f5f5062b628a359a2c4c96ef8",
+    "src/synsteg_audit/canonical_channel_v2.py": "ae50caf00e0240e48f5fe53a67bd22a49a5f878a057c93c24c4950438741baa4",
+    "src/synsteg_audit/canonical_packet_v3.py": "efb1436d5cf0e50fdf06a1203185798954d6446536f325920eb0a38602390572",
+    "src/synsteg_audit/framed_interval_packet_v1.py": "2433426326b5c744275ad7e1781e56e5fba63b663b78bd7712c43d7782753cc8",
+    "src/synsteg_audit/framed_interval_packet_v1_fixtures.py": "887adecb2139ba78bb1eebef32e06da30602e51a82a6eedf939527df2eddd695",
+    "src/synsteg_audit/integer_interval_channel_v1.py": "9c056724563069db3690e3b5df6fef0c639d528d2dd5e0df44ecd2ff80ba71df",
+    "tests/test_framed_interval_packet_v1.py": "83460470fae4376c36f8a40ce6563877e77ab21585613c2e31fbc5a81b392894"
+  },
+  "self_hash_note": "This manifest does not contain its own hash; its exact bytes are bound by the Git freeze commit."
+}

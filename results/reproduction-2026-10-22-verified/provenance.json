@@ -1,0 +1,126 @@
+{
+  "status": "completed",
+  "started_utc": "2026-10-22T18:17:36.860963+00:00",
+  "experiment": "offline_saved_corpus_recomputation",
+  "fresh_model_generation": false,
+  "fresh_neural_detector_inference": false,
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "joblib": "1.5.3",
+    "threadpoolctl": "3.6.0"
+  },
+  "git_commit": null,
+  "invocation": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/scripts/reproduce.py",
+    "--output",
+    "results/reproduction-2026-10-22-verified"
+  ],
+  "source_directory": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/data/source/synsteg_reproduction",
+  "source_file_count": 2406,
+  "source_manifest_sha256": "4a3c4459c5a65ba9c030ad023c44e99666ad2b71f5bb937aa5c12ddcd538b409",
+  "source_archive_sha256": "793c419e19b09a038af439fceb0c8727f2d809e2e855444d66839fd8132ef790",
+  "source_verified_against_original_archive": true,
+  "scripts_sha256": {
+    "_paths.py": "5ed4902ff9aee4f04a81aa41a24e1d787b7e711f480955783930b97451deb9d1",
+    "additional_controls.py": "a33d75df08b0b61a810ddc29fda4a40af22a9cffba61a85befdf397338274e1a",
+    "assign_topics.py": "0d235802a8e110c87a1ca9459bb6b117b0fc8934c988b571cb457c7ab14a4ce4",
+    "clean_detection.py": "7397ccc5f4f472d1c8b75ef5c415cb904ce472da02f1a127849e5e2d0d4b3155",
+    "codec_confirmation.py": "36c8afe17f48a10727e4d2e053ffe3daf36e737688daf5fde37924273ec7c872",
+    "split_audit.py": "59a066e97ba90c7743e2f598e84fb6ba4d7c1105a64971ccb38ba2e8f2705879"
+  },
+  "reproduce_script_sha256": "dac3c18b524f51d46dfb8597ca6d4c83b68a3e73b5761153142b537d5d1d6f13",
+  "thread_settings": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "steps": [
+    {
+      "step": "codec_confirmation",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/scripts/audit_steps/codec_confirmation.py",
+        "--source",
+        "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/data/source/synsteg_reproduction",
+        "--output",
+        "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/reproduction-2026-10-22-verified/codec_confirmation",
+        "--source-archive",
+        "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/data/source/synsteg_reproduction.zip"
+      ],
+      "returncode": 0,
+      "runtime_seconds": 20.677716127996973,
+      "log": "logs/codec_confirmation.log"
+    },
+    {
+      "step": "split_audit",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/scripts/audit_steps/split_audit.py",
+        "--source",
+        "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/data/source/synsteg_reproduction",
+        "--output",
+        "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/reproduction-2026-10-22-verified/split_audit",
+        "--source-archive",
+        "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/data/source/synsteg_reproduction.zip"
+      ],
+      "returncode": 0,
+      "runtime_seconds": 2.233609549999528,
+      "log": "logs/split_audit.log"
+    },
+    {
+      "step": "clean_detection",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/scripts/audit_steps/clean_detection.py",
+        "--source",
+        "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/data/source/synsteg_reproduction",
+        "--output",
+        "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/reproduction-2026-10-22-verified/clean_detection",
+        "--source-archive",
+        "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/data/source/synsteg_reproduction.zip"
+      ],
+      "returncode": 0,
+      "runtime_seconds": 11.712015132994566,
+      "log": "logs/clean_detection.log"
+    },
+    {
+      "step": "assign_topics",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/scripts/audit_steps/assign_topics.py",
+        "--source",
+        "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/data/source/synsteg_reproduction",
+        "--output",
+        "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/reproduction-2026-10-22-verified/clean_detection",
+        "--source-archive",
+        "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/data/source/synsteg_reproduction.zip"
+      ],
+      "returncode": 0,
+      "runtime_seconds": 0.23882736900122836,
+      "log": "logs/assign_topics.log"
+    },
+    {
+      "step": "additional_controls",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/scripts/audit_steps/additional_controls.py",
+        "--source",
+        "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/data/source/synsteg_reproduction",
+        "--output",
+        "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/reproduction-2026-10-22-verified/clean_detection",
+        "--source-archive",
+        "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/data/source/synsteg_reproduction.zip"
+      ],
+      "returncode": 0,
+      "runtime_seconds": 8.079044705998967,
+      "log": "logs/additional_controls.log"
+    }
+  ],
+  "runtime_seconds": 44.17872327000077,
+  "finished_utc": "2026-10-22T18:18:21.064314+00:00"
+}

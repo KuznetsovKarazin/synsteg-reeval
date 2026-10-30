@@ -1,0 +1,54 @@
+{
+  "schema": "author-candidate-schema-v3-cohort",
+  "native_enabled": false,
+  "source_path": "experiments/author-candidate-format-v2/requests.json",
+  "source_sha256": "0cc5750f8251cb7b10bb29d00ec858d5b005d0df42fb7d2781152c807a4ae421",
+  "source_git_commit": "3495354ac9b6951cd259b3d325b007d649e51772",
+  "cover_sha256": "a2a51f6f45afb664e8f06d5ebc160b189785b781e80de3c8d01939a9ec5f3a95",
+  "full_cover_chunks": 109,
+  "diagnostic_chunks": 2,
+  "outside_diagnostic_chunks": 107,
+  "selection": "same first two chunks; no new selection or response-dependent expansion",
+  "frozen_v2_requests_unchanged": [
+    {
+      "schema": "author-candidate-format-v2-request",
+      "chunk_order": 0,
+      "word_start": 0,
+      "words": [
+        "Popular",
+        "Knowledge",
+        "Article:",
+        "Understanding",
+        "Chinese"
+      ],
+      "source_author_request_sha256": "2a510a01e1b7ee830f393c97bce447889f28ff24e251f9c6ee82231259bc2247",
+      "system": "Return one JSON object and nothing else. Its only top-level key must be \"words\".\nThe value of \"words\" must be a list with one entry for each input token, in exactly the input order.\nEach entry must be an object with exactly one key: the corresponding input token copied exactly, including capitalization and punctuation.\nFor b=3 and a=0, each value must be either an array of exactly 8 distinct candidate strings or an empty array [].\nThe empty array is an explicit abstention: use it whenever you cannot supply all 8 defensible alternatives. Never fill a list with weak alternatives just to reach 8.\nFor a nonempty list, do not include the input token itself, duplicates, case-only duplicates, or whitespace-only variants of another candidate.\nUse only substitutions that preserve the intended meaning, reference, part of speech, inflection, capitalization, punctuation and grammatical role in the supplied five-token context.\nPreserve proper names, named entities and technical terms. Abstain if substitution would change them, or if the intended sense or morphology cannot be determined from the limited context.\nDo not invent facts, names, explanations or extra keys. Do not return placeholders, Markdown fences, comments, introductory text or text after the JSON object.\nCandidate strings must not contain control characters, invisible format characters, or line/paragraph separators.\nAn empty array is allowed for every token. Do not claim that a proposed alternative is semantically certified.",
+      "user": "{\"additional_bits\":0,\"bits_per_word\":3,\"context_scope\":\"Only these five tokens are supplied; abstain when ambiguous.\",\"tokens\":[\"Popular\",\"Knowledge\",\"Article:\",\"Understanding\",\"Chinese\"]}",
+      "bits_per_word": 3,
+      "additional_bits": 0,
+      "temperature_argument": 0.7,
+      "json_shape_attempt_limit": 3,
+      "request_sha256": "15f413e60449231fe505a45091d838f36155d15307bcdf16b27d1215ffa05104"
+    },
+    {
+      "schema": "author-candidate-format-v2-request",
+      "chunk_order": 1,
+      "word_start": 5,
+      "words": [
+        "Astronomy",
+        "For",
+        "a",
+        "general",
+        "audience,"
+      ],
+      "source_author_request_sha256": "ec61d91995330841f842969e930c996004214e8822b6511c8f81383ae860d328",
+      "system": "Return one JSON object and nothing else. Its only top-level key must be \"words\".\nThe value of \"words\" must be a list with one entry for each input token, in exactly the input order.\nEach entry must be an object with exactly one key: the corresponding input token copied exactly, including capitalization and punctuation.\nFor b=3 and a=0, each value must be either an array of exactly 8 distinct candidate strings or an empty array [].\nThe empty array is an explicit abstention: use it whenever you cannot supply all 8 defensible alternatives. Never fill a list with weak alternatives just to reach 8.\nFor a nonempty list, do not include the input token itself, duplicates, case-only duplicates, or whitespace-only variants of another candidate.\nUse only substitutions that preserve the intended meaning, reference, part of speech, inflection, capitalization, punctuation and grammatical role in the supplied five-token context.\nPreserve proper names, named entities and technical terms. Abstain if substitution would change them, or if the intended sense or morphology cannot be determined from the limited context.\nDo not invent facts, names, explanations or extra keys. Do not return placeholders, Markdown fences, comments, introductory text or text after the JSON object.\nCandidate strings must not contain control characters, invisible format characters, or line/paragraph separators.\nAn empty array is allowed for every token. Do not claim that a proposed alternative is semantically certified.",
+      "user": "{\"additional_bits\":0,\"bits_per_word\":3,\"context_scope\":\"Only these five tokens are supplied; abstain when ambiguous.\",\"tokens\":[\"Astronomy\",\"For\",\"a\",\"general\",\"audience,\"]}",
+      "bits_per_word": 3,
+      "additional_bits": 0,
+      "temperature_argument": 0.7,
+      "json_shape_attempt_limit": 3,
+      "request_sha256": "d9f3597b716fb4fbb888a83ceccd881f94635537132ac5dc00c0748ddd14b4f4"
+    }
+  ]
+}

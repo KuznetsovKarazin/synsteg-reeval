@@ -1,0 +1,39 @@
+{
+  "schema": "public-context4-independent-post-git-audit-plan-v1",
+  "stage": "plan_before_result_access",
+  "experiment_id": "framed-interval-public-context4-v1",
+  "model_calls": 0,
+  "tokenizer_calls": 0,
+  "result_or_fidelity_reads": 0,
+  "payload_delivery_denominator": 4,
+  "planned_senders": 8,
+  "planned_fresh_receivers": 4,
+  "planned_endpoints": 12,
+  "scope_excludes": [
+    "model-probability reevaluation",
+    "semantic/factual fidelity review",
+    "cross-host claim"
+  ],
+  "required_commit_ids": [
+    "source_and_tokenization_activation",
+    "prompt_ids_and_execute_activation",
+    "full_results"
+  ],
+  "required_trees": [
+    "experiments/framed-interval-public-context4-v1",
+    "results/framed-interval-public-context4-v1/tokenization",
+    "results/framed-interval-public-context4-v1/generation",
+    "runtime/framed-interval-public-context4-v1/sender-nonces"
+  ],
+  "required_additional": [
+    "all30sourceclosurefiles",
+    "explicitactivationandreadbackpaths",
+    "preparation/resource-restore-map.json and referenced provenance manifests",
+    "exact Git tree listing"
+  ],
+  "report_markdown_sha256": "7038e6fc079a356558a822677c40cdbe4ea3225a0c841230bbc17e18528c8049",
+  "artifact_paths": [
+    "results/framed-interval-public-context4-v1/preparation/independent/post_git_audit_plan_ru.md",
+    "results/framed-interval-public-context4-v1/preparation/independent/post_git_audit_plan.json"
+  ]
+}

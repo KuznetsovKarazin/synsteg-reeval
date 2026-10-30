@@ -1,0 +1,15 @@
+{
+  "argv": [
+    "python",
+    "/workspace/scratch/af7adce5db85/public-codec-generalization-v1-prepare/checkout/scripts/run_public_context4_v1.py",
+    "tokenize",
+    "--root",
+    "/workspace/scratch/af7adce5db85/public-codec-generalization-v1-prepare/checkout",
+    "--activation",
+    "/workspace/scratch/af7adce5db85/public-codec-generalization-v1-prepare/checkout/experiments/framed-interval-public-context4-v1/tokenize-activation.json",
+    "--readback",
+    "/workspace/scratch/af7adce5db85/public-codec-generalization-v1-prepare/checkout/results/framed-interval-public-context4-v1/tokenize-source-readback.json"
+  ],
+  "started_at_unix": 1793038207.3331738,
+  "automatic_retries": 0
+}

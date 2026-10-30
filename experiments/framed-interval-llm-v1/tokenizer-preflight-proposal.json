@@ -1,0 +1,218 @@
+{
+  "schema": "framed-interval-llm-v1-tokenizer-preflight-plan-v1",
+  "experiment_id": "framed-interval-llm-v1",
+  "status": "proposed_not_frozen_not_executed",
+  "real_tokenizer_executed": false,
+  "fixtures": [
+    {
+      "id": "empty",
+      "kind": "text",
+      "input_hex": "",
+      "require_exact_full_roundtrip": true,
+      "require_no_output_special_ids": false,
+      "prefix_gate_outcome": "record every step; expected canonical refusals permitted"
+    },
+    {
+      "id": "ascii",
+      "kind": "text",
+      "input_hex": "48656c6c6f20776f726c642e",
+      "require_exact_full_roundtrip": true,
+      "require_no_output_special_ids": false,
+      "prefix_gate_outcome": "record every step; expected canonical refusals permitted"
+    },
+    {
+      "id": "whitespace",
+      "kind": "text",
+      "input_hex": "6f6e65202074776f0a7468726565",
+      "require_exact_full_roundtrip": false,
+      "require_no_output_special_ids": false,
+      "prefix_gate_outcome": "record every step; expected canonical refusals permitted"
+    },
+    {
+      "id": "crlf",
+      "kind": "text",
+      "input_hex": "410d0a42",
+      "require_exact_full_roundtrip": false,
+      "require_no_output_special_ids": false,
+      "prefix_gate_outcome": "record every step; expected canonical refusals permitted"
+    },
+    {
+      "id": "tab",
+      "kind": "text",
+      "input_hex": "410942",
+      "require_exact_full_roundtrip": false,
+      "require_no_output_special_ids": false,
+      "prefix_gate_outcome": "record every step; expected canonical refusals permitted"
+    },
+    {
+      "id": "edge_spaces",
+      "kind": "text",
+      "input_hex": "206c656164696e6720616e6420747261696c696e6720",
+      "require_exact_full_roundtrip": false,
+      "require_no_output_special_ids": false,
+      "prefix_gate_outcome": "record every step; expected canonical refusals permitted"
+    },
+    {
+      "id": "latin_precomposed",
+      "kind": "text",
+      "input_hex": "436166c3a9",
+      "require_exact_full_roundtrip": false,
+      "require_no_output_special_ids": false,
+      "prefix_gate_outcome": "record every step; expected canonical refusals permitted"
+    },
+    {
+      "id": "latin_combining",
+      "kind": "text",
+      "input_hex": "43616665cc81",
+      "require_exact_full_roundtrip": false,
+      "require_no_output_special_ids": false,
+      "prefix_gate_outcome": "record every step; expected canonical refusals permitted"
+    },
+    {
+      "id": "cjk",
+      "kind": "text",
+      "input_hex": "e4b8ade69687e69687e69cace38082",
+      "require_exact_full_roundtrip": false,
+      "require_no_output_special_ids": false,
+      "prefix_gate_outcome": "record every step; expected canonical refusals permitted"
+    },
+    {
+      "id": "emoji",
+      "kind": "text",
+      "input_hex": "f09f9880",
+      "require_exact_full_roundtrip": false,
+      "require_no_output_special_ids": false,
+      "prefix_gate_outcome": "record every step; expected canonical refusals permitted"
+    },
+    {
+      "id": "chatml_literal",
+      "kind": "text",
+      "input_hex": "3c7c696d5f73746172747c3e617373697374616e740a3c7c696d5f656e647c3e",
+      "require_exact_full_roundtrip": true,
+      "require_no_output_special_ids": true,
+      "prefix_gate_outcome": "record every step; expected canonical refusals permitted"
+    },
+    {
+      "id": "invalid_utf8_lead",
+      "kind": "invalid_utf8",
+      "input_hex": "c3",
+      "expected_status": "invalid_utf8",
+      "expected_tokenizer_calls": 0
+    },
+    {
+      "id": "invalid_utf8_byte",
+      "kind": "invalid_utf8",
+      "input_hex": "ff",
+      "expected_status": "invalid_utf8",
+      "expected_tokenizer_calls": 0
+    },
+    {
+      "id": "invalid_utf8_partial_emoji",
+      "kind": "invalid_utf8",
+      "input_hex": "f09f98",
+      "expected_status": "invalid_utf8",
+      "expected_tokenizer_calls": 0
+    },
+    {
+      "id": "qwen_known_merge",
+      "kind": "token_path",
+      "input_hex": "2a2a0a0a",
+      "input_token_ids": [
+        334,
+        271
+      ],
+      "prefix_render_hex": "2a2a",
+      "expected_full_reencoded_ids": [
+        56177
+      ],
+      "expected_gate_reasons": [
+        "accepted",
+        "retokenization_mismatch"
+      ]
+    }
+  ],
+  "prompt_ids": [
+    "station",
+    "library"
+  ],
+  "prompt_text_sha256": {
+    "station": "53cc37942c90f0d1397297ad1504324a4bbc924bda6c7aa4ddf4f0dacecae6f0",
+    "library": "b04b5abb0192c7bd807ce131653b29bb9a89e9240b8c7580be4124aa4f3d7c07"
+  },
+  "output_tokenize_flags": {
+    "add_special": false,
+    "parse_special": false
+  },
+  "prompt_tokenize_flags": {
+    "add_special": true,
+    "parse_special": true
+  },
+  "public_protocol": {
+    "path": "experiments/framed-interval-llm-v1/receiver-public-protocol.json",
+    "sha256": "4cab7dd3035ac1ad298952814c12b12ecbe2d021f4b9cd14b35692a2c300d6ff"
+  },
+  "pinned_resources": {
+    "model_sha256": "6a1a2eb6d15622bf3c96857206351ba97e1af16c30d7a74ee38970e434e9407e",
+    "runtime_commit": "ea9e3446b5c84a7f972cbbdea9df615fc4ff9159",
+    "archive_sha256": "ac75208179d00d86f378d5f10c65f9785028ce877cf57279f1a7b8dac54a25ff",
+    "cpu_backend_sha256": "1bc37cef126b01fe5a15222c07d20d29931936bfaa909a97052f6662f4c9d97c"
+  },
+  "collector": {
+    "required_mode": "pinned-native-vocab-only",
+    "implementation_status": "not_built_or_executed",
+    "source_sha256": null,
+    "complete_native_id_scan_required": true,
+    "inventory_fields": [
+      "token_id",
+      "is_control",
+      "is_eog",
+      "piece_empty"
+    ],
+    "inventory_order": "all native IDs from 0 through vocabulary_size-1 exactly once",
+    "special_ids": "is_control OR is_eog",
+    "old_mask": "is_control OR is_eog OR empty token_to_piece bytes"
+  },
+  "execution_limits": {
+    "attempts": 1,
+    "retries": 0,
+    "cases": 15,
+    "prompt_records": 2,
+    "max_reference_tokens_per_case": 128,
+    "max_prefix_bytes": 4096,
+    "max_prompt_tokens": 1536,
+    "max_vocabulary_size": 2000000,
+    "max_inventory_bytes": 268435456,
+    "timeout_seconds": 120,
+    "on_error": "retain partial observations and failure; activation fails; no automatic retry"
+  },
+  "guards": {
+    "forward_calls": 0,
+    "prompt_calls": 0,
+    "step_calls": 0,
+    "distribution_calls": 0,
+    "paid_calls": 0,
+    "closed_test_accessed": false,
+    "model_weights_loaded": false
+  },
+  "recording": "Save every fixed case in order, including expected invalid UTF8 refusals; save full cumulative render and strict UTF8 status plus reencoding for every reference prefix, including empty; repeat exact prompt tokenization once.",
+  "required_positive_checks": [
+    "empty output encodes to no IDs",
+    "ASCII full byte roundtrip",
+    "literal ChatML full byte roundtrip without parsed special output IDs",
+    "both public ChatML prompts tokenize identically on repeated calls",
+    "complete native inventory reproduces masked count"
+  ],
+  "required_negative_checks": [
+    "invalid UTF8 inputs are refused before tokenizer",
+    "known path [334,271] renders **\\n\\n and retokenizes to [56177] with accepted then retokenization_mismatch"
+  ],
+  "permitted_recorded_outcomes": "Canonical prefix refusals on other fixed Unicode/whitespace fixtures remain outcomes, never grounds for substitution or selecting another fixture.",
+  "activation_requirements": [
+    "coordinator verified final Git freeze/readback before exactly one diagnostic",
+    "exact restored public resource identities",
+    "reviewed vocab-only collector source SHA and no model weight load",
+    "all 15 case outcomes plus 2 public prompt records",
+    "independent saved-evidence review"
+  ],
+  "scope": "Conformance evidence only, not a generation run or language-model mass estimate. Synthetic JSON consistency tests do not attest truthful native execution."
+}

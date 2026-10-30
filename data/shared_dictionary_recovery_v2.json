@@ -1,0 +1,1716 @@
+{
+  "classes": [
+    {
+      "id": "wn30-a-00062367",
+      "words": [
+        "dexterous",
+        "dextrous"
+      ]
+    },
+    {
+      "id": "wn30-a-00126830",
+      "words": [
+        "preparative",
+        "preparatory"
+      ]
+    },
+    {
+      "id": "wn30-a-00148078",
+      "words": [
+        "crafty",
+        "sly",
+        "wily"
+      ]
+    },
+    {
+      "id": "wn30-a-00186193",
+      "words": [
+        "unobtainable",
+        "unprocurable"
+      ]
+    },
+    {
+      "id": "wn30-a-00195684",
+      "words": [
+        "gruesome",
+        "macabre"
+      ]
+    },
+    {
+      "id": "wn30-a-00222449",
+      "words": [
+        "unlovely",
+        "unpicturesque"
+      ]
+    },
+    {
+      "id": "wn30-a-00245458",
+      "words": [
+        "swart",
+        "swarthy"
+      ]
+    },
+    {
+      "id": "wn30-a-00301951",
+      "words": [
+        "countless",
+        "innumerable",
+        "multitudinous",
+        "unnumbered"
+      ]
+    },
+    {
+      "id": "wn30-a-00343360",
+      "words": [
+        "inescapable",
+        "unavoidable"
+      ]
+    },
+    {
+      "id": "wn30-a-00363938",
+      "words": [
+        "cheery",
+        "sunny"
+      ]
+    },
+    {
+      "id": "wn30-a-00435872",
+      "words": [
+        "addlebrained",
+        "muddleheaded"
+      ]
+    },
+    {
+      "id": "wn30-a-00643863",
+      "words": [
+        "imaginative",
+        "inventive"
+      ]
+    },
+    {
+      "id": "wn30-a-00944111",
+      "words": [
+        "indescribable",
+        "untellable"
+      ]
+    },
+    {
+      "id": "wn30-a-01002377",
+      "words": [
+        "infertile",
+        "unfertile"
+      ]
+    },
+    {
+      "id": "wn30-a-01007657",
+      "words": [
+        "boundless",
+        "unbounded"
+      ]
+    },
+    {
+      "id": "wn30-a-01045963",
+      "words": [
+        "colloquial",
+        "conversational"
+      ]
+    },
+    {
+      "id": "wn30-a-01050890",
+      "words": [
+        "hapless",
+        "piteous"
+      ]
+    },
+    {
+      "id": "wn30-a-01135673",
+      "words": [
+        "crotchety",
+        "ornery"
+      ]
+    },
+    {
+      "id": "wn30-a-01214606",
+      "words": [
+        "screechy",
+        "squeaky"
+      ]
+    },
+    {
+      "id": "wn30-a-01345307",
+      "words": [
+        "irksome",
+        "tiresome",
+        "wearisome"
+      ]
+    },
+    {
+      "id": "wn30-a-01375831",
+      "words": [
+        "famed",
+        "famous"
+      ]
+    },
+    {
+      "id": "wn30-a-01384730",
+      "words": [
+        "colossal",
+        "stupendous"
+      ]
+    },
+    {
+      "id": "wn30-a-01387319",
+      "words": [
+        "huge",
+        "immense",
+        "vast"
+      ]
+    },
+    {
+      "id": "wn30-a-01397674",
+      "words": [
+        "drafty",
+        "draughty"
+      ]
+    },
+    {
+      "id": "wn30-a-01508086",
+      "words": [
+        "remorseless",
+        "ruthless"
+      ]
+    },
+    {
+      "id": "wn30-a-01574925",
+      "words": [
+        "ghostlike",
+        "ghostly"
+      ]
+    },
+    {
+      "id": "wn30-a-01581115",
+      "words": [
+        "unnecessary",
+        "unneeded"
+      ]
+    },
+    {
+      "id": "wn30-a-01648698",
+      "words": [
+        "girlish",
+        "schoolgirlish"
+      ]
+    },
+    {
+      "id": "wn30-a-01667729",
+      "words": [
+        "sequential",
+        "successive"
+      ]
+    },
+    {
+      "id": "wn30-a-01688757",
+      "words": [
+        "hackneyed",
+        "timeworn",
+        "trite"
+      ]
+    },
+    {
+      "id": "wn30-a-01706465",
+      "words": [
+        "clandestine",
+        "undercover"
+      ]
+    },
+    {
+      "id": "wn30-a-01822563",
+      "words": [
+        "feasible",
+        "workable"
+      ]
+    },
+    {
+      "id": "wn30-a-01920367",
+      "words": [
+        "clamorous",
+        "vociferous"
+      ]
+    },
+    {
+      "id": "wn30-a-01923720",
+      "words": [
+        "disruptive",
+        "tumultuous"
+      ]
+    },
+    {
+      "id": "wn30-a-01947127",
+      "words": [
+        "unanswered",
+        "unrequited"
+      ]
+    },
+    {
+      "id": "wn30-a-01984411",
+      "words": [
+        "infamous",
+        "notorious"
+      ]
+    },
+    {
+      "id": "wn30-a-01995288",
+      "words": [
+        "contemptuous",
+        "scornful"
+      ]
+    },
+    {
+      "id": "wn30-a-01995596",
+      "words": [
+        "derisive",
+        "gibelike"
+      ]
+    },
+    {
+      "id": "wn30-a-02004176",
+      "words": [
+        "inhibitory",
+        "repressive"
+      ]
+    },
+    {
+      "id": "wn30-a-02019021",
+      "words": [
+        "rhythmic",
+        "rhythmical"
+      ]
+    },
+    {
+      "id": "wn30-a-02024928",
+      "words": [
+        "opulent",
+        "sumptuous"
+      ]
+    },
+    {
+      "id": "wn30-a-02038126",
+      "words": [
+        "beefy",
+        "burly"
+      ]
+    },
+    {
+      "id": "wn30-a-02080110",
+      "words": [
+        "satiric",
+        "satirical"
+      ]
+    },
+    {
+      "id": "wn30-a-02122715",
+      "words": [
+        "implike",
+        "puckish"
+      ]
+    },
+    {
+      "id": "wn30-a-02153817",
+      "words": [
+        "unshaved",
+        "unshaven"
+      ]
+    },
+    {
+      "id": "wn30-a-02378496",
+      "words": [
+        "concurrent",
+        "cooccurring",
+        "simultaneous"
+      ]
+    },
+    {
+      "id": "wn30-a-02418692",
+      "words": [
+        "inconceivable",
+        "unimaginable"
+      ]
+    },
+    {
+      "id": "wn30-a-02501367",
+      "words": [
+        "invaluable",
+        "priceless"
+      ]
+    },
+    {
+      "id": "wn30-a-02548619",
+      "words": [
+        "clammy",
+        "dank"
+      ]
+    },
+    {
+      "id": "wn30-a-02847894",
+      "words": [
+        "financial",
+        "fiscal"
+      ]
+    },
+    {
+      "id": "wn30-n-00123783",
+      "words": [
+        "gunfire",
+        "gunshot"
+      ]
+    },
+    {
+      "id": "wn30-n-00735936",
+      "words": [
+        "misbehavior",
+        "misdeed"
+      ]
+    },
+    {
+      "id": "wn30-n-00746587",
+      "words": [
+        "desecration",
+        "sacrilege"
+      ]
+    },
+    {
+      "id": "wn30-n-02391994",
+      "words": [
+        "rhino",
+        "rhinoceros"
+      ]
+    },
+    {
+      "id": "wn30-n-02729965",
+      "words": [
+        "contraption",
+        "gadget"
+      ]
+    },
+    {
+      "id": "wn30-n-02769748",
+      "words": [
+        "haversack",
+        "knapsack"
+      ]
+    },
+    {
+      "id": "wn30-n-02788148",
+      "words": [
+        "balustrade",
+        "banister"
+      ]
+    },
+    {
+      "id": "wn30-n-02935658",
+      "words": [
+        "cafe",
+        "coffeehouse"
+      ]
+    },
+    {
+      "id": "wn30-n-02958343",
+      "words": [
+        "auto",
+        "motorcar"
+      ]
+    },
+    {
+      "id": "wn30-n-03038685",
+      "words": [
+        "classroom",
+        "schoolroom"
+      ]
+    },
+    {
+      "id": "wn30-n-03159640",
+      "words": [
+        "dais",
+        "pulpit"
+      ]
+    },
+    {
+      "id": "wn30-n-03222959",
+      "words": [
+        "doorhandle",
+        "doorknob"
+      ]
+    },
+    {
+      "id": "wn30-n-03306610",
+      "words": [
+        "freeway",
+        "thruway"
+      ]
+    },
+    {
+      "id": "wn30-n-03336459",
+      "words": [
+        "figurine",
+        "statuette"
+      ]
+    },
+    {
+      "id": "wn30-n-03541696",
+      "words": [
+        "hostelry",
+        "inn"
+      ]
+    },
+    {
+      "id": "wn30-n-03594945",
+      "words": [
+        "jeep",
+        "landrover"
+      ]
+    },
+    {
+      "id": "wn30-n-03759954",
+      "words": [
+        "microphone",
+        "mike"
+      ]
+    },
+    {
+      "id": "wn30-n-04070727",
+      "words": [
+        "icebox",
+        "refrigerator"
+      ]
+    },
+    {
+      "id": "wn30-n-04298308",
+      "words": [
+        "staircase",
+        "stairway"
+      ]
+    },
+    {
+      "id": "wn30-n-04312432",
+      "words": [
+        "spire",
+        "steeple"
+      ]
+    },
+    {
+      "id": "wn30-n-04527648",
+      "words": [
+        "veranda",
+        "verandah"
+      ]
+    },
+    {
+      "id": "wn30-n-04565233",
+      "words": [
+        "roadside",
+        "wayside"
+      ]
+    },
+    {
+      "id": "wn30-n-04581595",
+      "words": [
+        "bawdyhouse",
+        "brothel"
+      ]
+    },
+    {
+      "id": "wn30-n-04626280",
+      "words": [
+        "emotionalism",
+        "emotionality"
+      ]
+    },
+    {
+      "id": "wn30-n-04760771",
+      "words": [
+        "corporeality",
+        "physicalness"
+      ]
+    },
+    {
+      "id": "wn30-n-04857738",
+      "words": [
+        "heroism",
+        "valor"
+      ]
+    },
+    {
+      "id": "wn30-n-04864515",
+      "words": [
+        "persistency",
+        "tenacity"
+      ]
+    },
+    {
+      "id": "wn30-n-04889337",
+      "words": [
+        "clannishness",
+        "exclusiveness"
+      ]
+    },
+    {
+      "id": "wn30-n-04903813",
+      "words": [
+        "composure",
+        "equanimity"
+      ]
+    },
+    {
+      "id": "wn30-n-04910377",
+      "words": [
+        "comportment",
+        "mien"
+      ]
+    },
+    {
+      "id": "wn30-n-04989657",
+      "words": [
+        "sonority",
+        "vibrancy"
+      ]
+    },
+    {
+      "id": "wn30-n-05037813",
+      "words": [
+        "ferocity",
+        "fierceness"
+      ]
+    },
+    {
+      "id": "wn30-n-05059132",
+      "words": [
+        "celerity",
+        "rapidity"
+      ]
+    },
+    {
+      "id": "wn30-n-05218119",
+      "words": [
+        "cadaver",
+        "corpse"
+      ]
+    },
+    {
+      "id": "wn30-n-05459953",
+      "words": [
+        "myofibril",
+        "myofibrilla"
+      ]
+    },
+    {
+      "id": "wn30-n-05551711",
+      "words": [
+        "pecs",
+        "pectoralis"
+      ]
+    },
+    {
+      "id": "wn30-n-05624700",
+      "words": [
+        "creativeness",
+        "creativity"
+      ]
+    },
+    {
+      "id": "wn30-n-05638987",
+      "words": [
+        "artistry",
+        "prowess"
+      ]
+    },
+    {
+      "id": "wn30-n-05685030",
+      "words": [
+        "bewilderment",
+        "puzzlement"
+      ]
+    },
+    {
+      "id": "wn30-n-05943300",
+      "words": [
+        "doctrine",
+        "ism"
+      ]
+    },
+    {
+      "id": "wn30-n-06000644",
+      "words": [
+        "math",
+        "mathematics"
+      ]
+    },
+    {
+      "id": "wn30-n-06177450",
+      "words": [
+        "phonemics",
+        "phonology"
+      ]
+    },
+    {
+      "id": "wn30-n-06629610",
+      "words": [
+        "adieu",
+        "adios"
+      ]
+    },
+    {
+      "id": "wn30-n-06632097",
+      "words": [
+        "handclasp",
+        "handshaking"
+      ]
+    },
+    {
+      "id": "wn30-n-06773434",
+      "words": [
+        "pact",
+        "treaty"
+      ]
+    },
+    {
+      "id": "wn30-n-06777164",
+      "words": [
+        "sarcasm",
+        "satire"
+      ]
+    },
+    {
+      "id": "wn30-n-07152259",
+      "words": [
+        "motto",
+        "slogan"
+      ]
+    },
+    {
+      "id": "wn30-n-07184545",
+      "words": [
+        "altercation",
+        "fracas"
+      ]
+    },
+    {
+      "id": "wn30-n-07509572",
+      "words": [
+        "amazement",
+        "astonishment"
+      ]
+    },
+    {
+      "id": "wn30-n-07536074",
+      "words": [
+        "compunction",
+        "remorse"
+      ]
+    },
+    {
+      "id": "wn30-n-07548978",
+      "words": [
+        "rancor",
+        "resentment"
+      ]
+    },
+    {
+      "id": "wn30-n-07591330",
+      "words": [
+        "lobscouse",
+        "lobscuse"
+      ]
+    },
+    {
+      "id": "wn30-n-07906284",
+      "words": [
+        "whiskey",
+        "whisky"
+      ]
+    },
+    {
+      "id": "wn30-n-08240633",
+      "words": [
+        "clique",
+        "ingroup"
+      ]
+    },
+    {
+      "id": "wn30-n-08506641",
+      "words": [
+        "battlefield",
+        "battleground"
+      ]
+    },
+    {
+      "id": "wn30-n-08510169",
+      "words": [
+        "homeland",
+        "motherland"
+      ]
+    },
+    {
+      "id": "wn30-n-08521623",
+      "words": [
+        "cemetery",
+        "graveyard"
+      ]
+    },
+    {
+      "id": "wn30-n-08570634",
+      "words": [
+        "hayfield",
+        "meadow"
+      ]
+    },
+    {
+      "id": "wn30-n-08641113",
+      "words": [
+        "locality",
+        "vicinity"
+      ]
+    },
+    {
+      "id": "wn30-n-09326662",
+      "words": [
+        "hillock",
+        "knoll"
+      ]
+    },
+    {
+      "id": "wn30-n-09620078",
+      "words": [
+        "dweller",
+        "inhabitant"
+      ]
+    },
+    {
+      "id": "wn30-n-09629752",
+      "words": [
+        "traveler",
+        "traveller"
+      ]
+    },
+    {
+      "id": "wn30-n-09638009",
+      "words": [
+        "nigger",
+        "nigra"
+      ]
+    },
+    {
+      "id": "wn30-n-09774266",
+      "words": [
+        "advisor",
+        "consultant"
+      ]
+    },
+    {
+      "id": "wn30-n-09811852",
+      "words": [
+        "artilleryman",
+        "gunner"
+      ]
+    },
+    {
+      "id": "wn30-n-09841188",
+      "words": [
+        "barkeep",
+        "bartender"
+      ]
+    },
+    {
+      "id": "wn30-n-09877951",
+      "words": [
+        "buddy",
+        "crony"
+      ]
+    },
+    {
+      "id": "wn30-n-09879297",
+      "words": [
+        "roughneck",
+        "ruffian"
+      ]
+    },
+    {
+      "id": "wn30-n-09908025",
+      "words": [
+        "bloke",
+        "fella"
+      ]
+    },
+    {
+      "id": "wn30-n-09928136",
+      "words": [
+        "churchman",
+        "cleric"
+      ]
+    },
+    {
+      "id": "wn30-n-09972661",
+      "words": [
+        "cowhand",
+        "cowpuncher"
+      ]
+    },
+    {
+      "id": "wn30-n-09988063",
+      "words": [
+        "dad",
+        "daddy",
+        "papa"
+      ]
+    },
+    {
+      "id": "wn30-n-10011074",
+      "words": [
+        "diagnostician",
+        "pathologist"
+      ]
+    },
+    {
+      "id": "wn30-n-10030277",
+      "words": [
+        "dramatist",
+        "playwright"
+      ]
+    },
+    {
+      "id": "wn30-n-10061656",
+      "words": [
+        "epicure",
+        "gourmet"
+      ]
+    },
+    {
+      "id": "wn30-n-10093818",
+      "words": [
+        "fishmonger",
+        "fishwife"
+      ]
+    },
+    {
+      "id": "wn30-n-10142747",
+      "words": [
+        "grandma",
+        "grandmother"
+      ]
+    },
+    {
+      "id": "wn30-n-10165448",
+      "words": [
+        "hearer",
+        "listener"
+      ]
+    },
+    {
+      "id": "wn30-n-10249950",
+      "words": [
+        "attorney",
+        "lawyer"
+      ]
+    },
+    {
+      "id": "wn30-n-10271216",
+      "words": [
+        "sentinel",
+        "sentry"
+      ]
+    },
+    {
+      "id": "wn30-n-10311021",
+      "words": [
+        "courier",
+        "messenger"
+      ]
+    },
+    {
+      "id": "wn30-n-10331841",
+      "words": [
+        "mortician",
+        "undertaker"
+      ]
+    },
+    {
+      "id": "wn30-n-10380672",
+      "words": [
+        "orator",
+        "rhetorician"
+      ]
+    },
+    {
+      "id": "wn30-n-10421470",
+      "words": [
+        "apothecary",
+        "pharmacist"
+      ]
+    },
+    {
+      "id": "wn30-n-10521662",
+      "words": [
+        "newsman",
+        "reporter"
+      ]
+    },
+    {
+      "id": "wn30-n-10548419",
+      "words": [
+        "salesgirl",
+        "saleslady"
+      ]
+    },
+    {
+      "id": "wn30-n-10559840",
+      "words": [
+        "schoolmarm",
+        "schoolmistress"
+      ]
+    },
+    {
+      "id": "wn30-n-10560106",
+      "words": [
+        "classmate",
+        "schoolmate"
+      ]
+    },
+    {
+      "id": "wn30-n-10592152",
+      "words": [
+        "shopkeeper",
+        "storekeeper",
+        "tradesman"
+      ]
+    },
+    {
+      "id": "wn30-n-10601078",
+      "words": [
+        "evildoer",
+        "sinner"
+      ]
+    },
+    {
+      "id": "wn30-n-10638922",
+      "words": [
+        "sportsman",
+        "sportswoman"
+      ]
+    },
+    {
+      "id": "wn30-n-10707233",
+      "words": [
+        "healer",
+        "therapist"
+      ]
+    },
+    {
+      "id": "wn30-n-11502102",
+      "words": [
+        "cloudburst",
+        "downpour"
+      ]
+    },
+    {
+      "id": "wn30-n-11512818",
+      "words": [
+        "conduction",
+        "conductivity"
+      ]
+    },
+    {
+      "id": "wn30-n-13263779",
+      "words": [
+        "bequest",
+        "legacy"
+      ]
+    },
+    {
+      "id": "wn30-n-13499782",
+      "words": [
+        "inflow",
+        "influx"
+      ]
+    },
+    {
+      "id": "wn30-n-13623636",
+      "words": [
+        "milliliter",
+        "ml"
+      ]
+    },
+    {
+      "id": "wn30-n-13658657",
+      "words": [
+        "millimeter",
+        "mm"
+      ]
+    },
+    {
+      "id": "wn30-n-13659760",
+      "words": [
+        "kilometer",
+        "km"
+      ]
+    },
+    {
+      "id": "wn30-n-13794417",
+      "words": [
+        "relevance",
+        "relevancy"
+      ]
+    },
+    {
+      "id": "wn30-n-13795180",
+      "words": [
+        "applicability",
+        "pertinence"
+      ]
+    },
+    {
+      "id": "wn30-n-13844212",
+      "words": [
+        "interrelation",
+        "interrelationship"
+      ]
+    },
+    {
+      "id": "wn30-n-13845239",
+      "words": [
+        "synchronism",
+        "synchrony"
+      ]
+    },
+    {
+      "id": "wn30-n-14235200",
+      "words": [
+        "tumor",
+        "tumour"
+      ]
+    },
+    {
+      "id": "wn30-n-14267205",
+      "words": [
+        "acetonemia",
+        "ketosis"
+      ]
+    },
+    {
+      "id": "wn30-n-14371913",
+      "words": [
+        "diarrhea",
+        "diarrhoea"
+      ]
+    },
+    {
+      "id": "wn30-n-14547643",
+      "words": [
+        "debility",
+        "infirmity"
+      ]
+    },
+    {
+      "id": "wn30-n-14857897",
+      "words": [
+        "debris",
+        "rubble"
+      ]
+    },
+    {
+      "id": "wn30-n-14885684",
+      "words": [
+        "glycerine",
+        "glycerol"
+      ]
+    },
+    {
+      "id": "wn30-n-14999106",
+      "words": [
+        "peptidase",
+        "protease"
+      ]
+    },
+    {
+      "id": "wn30-n-15008847",
+      "words": [
+        "saltwater",
+        "seawater"
+      ]
+    },
+    {
+      "id": "wn30-n-15143012",
+      "words": [
+        "incipience",
+        "incipiency"
+      ]
+    },
+    {
+      "id": "wn30-n-15165490",
+      "words": [
+        "midday",
+        "noon"
+      ]
+    },
+    {
+      "id": "wn30-r-00003483",
+      "words": [
+        "basically",
+        "essentially",
+        "fundamentally"
+      ]
+    },
+    {
+      "id": "wn30-r-00005779",
+      "words": [
+        "immensely",
+        "vastly"
+      ]
+    },
+    {
+      "id": "wn30-r-00007703",
+      "words": [
+        "partially",
+        "partly"
+      ]
+    },
+    {
+      "id": "wn30-r-00008007",
+      "words": [
+        "totally",
+        "wholly"
+      ]
+    },
+    {
+      "id": "wn30-r-00008600",
+      "words": [
+        "exclusively",
+        "solely"
+      ]
+    },
+    {
+      "id": "wn30-r-00027384",
+      "words": [
+        "nevertheless",
+        "nonetheless",
+        "notwithstanding"
+      ]
+    },
+    {
+      "id": "wn30-r-00027918",
+      "words": [
+        "heretofore",
+        "hitherto"
+      ]
+    },
+    {
+      "id": "wn30-r-00029367",
+      "words": [
+        "furthermore",
+        "moreover"
+      ]
+    },
+    {
+      "id": "wn30-r-00035058",
+      "words": [
+        "frequently",
+        "oftentimes"
+      ]
+    },
+    {
+      "id": "wn30-r-00035385",
+      "words": [
+        "rarely",
+        "seldom"
+      ]
+    },
+    {
+      "id": "wn30-r-00036935",
+      "words": [
+        "decidedly",
+        "definitely",
+        "emphatically"
+      ]
+    },
+    {
+      "id": "wn30-r-00039318",
+      "words": [
+        "evidently",
+        "manifestly",
+        "obviously"
+      ]
+    },
+    {
+      "id": "wn30-r-00039941",
+      "words": [
+        "ostensibly",
+        "seemingly"
+      ]
+    },
+    {
+      "id": "wn30-r-00042254",
+      "words": [
+        "fortunately",
+        "luckily"
+      ]
+    },
+    {
+      "id": "wn30-r-00042769",
+      "words": [
+        "unfortunately",
+        "unluckily"
+      ]
+    },
+    {
+      "id": "wn30-r-00050297",
+      "words": [
+        "blithely",
+        "gayly",
+        "jubilantly",
+        "merrily"
+      ]
+    },
+    {
+      "id": "wn30-r-00059854",
+      "words": [
+        "increasingly",
+        "progressively"
+      ]
+    },
+    {
+      "id": "wn30-r-00061203",
+      "words": [
+        "afterward",
+        "afterwards",
+        "subsequently"
+      ]
+    },
+    {
+      "id": "wn30-r-00062330",
+      "words": [
+        "advisedly",
+        "intentionally",
+        "purposely"
+      ]
+    },
+    {
+      "id": "wn30-r-00066190",
+      "words": [
+        "absently",
+        "absentmindedly"
+      ]
+    },
+    {
+      "id": "wn30-r-00070765",
+      "words": [
+        "arbitrarily",
+        "randomly"
+      ]
+    },
+    {
+      "id": "wn30-r-00073897",
+      "words": [
+        "chiefly",
+        "mainly",
+        "principally"
+      ]
+    },
+    {
+      "id": "wn30-r-00079107",
+      "words": [
+        "doubtless",
+        "undoubtedly"
+      ]
+    },
+    {
+      "id": "wn30-r-00080534",
+      "words": [
+        "contemptuously",
+        "scornfully"
+      ]
+    },
+    {
+      "id": "wn30-r-00085811",
+      "words": [
+        "rapidly",
+        "speedily"
+      ]
+    },
+    {
+      "id": "wn30-r-00087542",
+      "words": [
+        "eternally",
+        "everlastingly"
+      ]
+    },
+    {
+      "id": "wn30-r-00090228",
+      "words": [
+        "dangerously",
+        "perilously"
+      ]
+    },
+    {
+      "id": "wn30-r-00090424",
+      "words": [
+        "tiredly",
+        "wearily"
+      ]
+    },
+    {
+      "id": "wn30-r-00093270",
+      "words": [
+        "deplorably",
+        "woefully"
+      ]
+    },
+    {
+      "id": "wn30-r-00106921",
+      "words": [
+        "commonly",
+        "normally",
+        "ordinarily",
+        "usually"
+      ]
+    },
+    {
+      "id": "wn30-r-00107416",
+      "words": [
+        "lately",
+        "recently"
+      ]
+    },
+    {
+      "id": "wn30-r-00107722",
+      "words": [
+        "erratically",
+        "unpredictably"
+      ]
+    },
+    {
+      "id": "wn30-r-00112090",
+      "words": [
+        "mutely",
+        "silently",
+        "wordlessly"
+      ]
+    },
+    {
+      "id": "wn30-r-00118531",
+      "words": [
+        "disregardless",
+        "irrespective"
+      ]
+    },
+    {
+      "id": "wn30-r-00120474",
+      "words": [
+        "consistently",
+        "systematically"
+      ]
+    },
+    {
+      "id": "wn30-r-00137770",
+      "words": [
+        "transversally",
+        "transversely"
+      ]
+    },
+    {
+      "id": "wn30-r-00139508",
+      "words": [
+        "appropriately",
+        "suitably"
+      ]
+    },
+    {
+      "id": "wn30-r-00144722",
+      "words": [
+        "certainly",
+        "surely"
+      ]
+    },
+    {
+      "id": "wn30-r-00146281",
+      "words": [
+        "thenceforth",
+        "thereafter"
+      ]
+    },
+    {
+      "id": "wn30-r-00154449",
+      "words": [
+        "purportedly",
+        "supposedly"
+      ]
+    },
+    {
+      "id": "wn30-r-00160834",
+      "words": [
+        "comparatively",
+        "relatively"
+      ]
+    },
+    {
+      "id": "wn30-r-00183090",
+      "words": [
+        "marvelously",
+        "superbly",
+        "wonderfully",
+        "wondrously"
+      ]
+    },
+    {
+      "id": "wn30-r-00185172",
+      "words": [
+        "ably",
+        "competently"
+      ]
+    },
+    {
+      "id": "wn30-r-00185970",
+      "words": [
+        "anxiously",
+        "uneasily"
+      ]
+    },
+    {
+      "id": "wn30-r-00189615",
+      "words": [
+        "agilely",
+        "nimbly"
+      ]
+    },
+    {
+      "id": "wn30-r-00196540",
+      "words": [
+        "enormously",
+        "staggeringly",
+        "tremendously"
+      ]
+    },
+    {
+      "id": "wn30-r-00198845",
+      "words": [
+        "obstinately",
+        "stubbornly"
+      ]
+    },
+    {
+      "id": "wn30-r-00206479",
+      "words": [
+        "hastily",
+        "hurriedly"
+      ]
+    },
+    {
+      "id": "wn30-r-00207668",
+      "words": [
+        "individually",
+        "separately"
+      ]
+    },
+    {
+      "id": "wn30-r-00208557",
+      "words": [
+        "inescapably",
+        "unavoidably"
+      ]
+    },
+    {
+      "id": "wn30-r-00216592",
+      "words": [
+        "petulantly",
+        "testily"
+      ]
+    },
+    {
+      "id": "wn30-r-00223395",
+      "words": [
+        "faithfully",
+        "reliably"
+      ]
+    },
+    {
+      "id": "wn30-r-00228910",
+      "words": [
+        "shyly",
+        "timidly"
+      ]
+    },
+    {
+      "id": "wn30-r-00229074",
+      "words": [
+        "fondly",
+        "lovingly"
+      ]
+    },
+    {
+      "id": "wn30-r-00235701",
+      "words": [
+        "doggedly",
+        "tenaciously"
+      ]
+    },
+    {
+      "id": "wn30-r-00237833",
+      "words": [
+        "inadvertently",
+        "unwittingly"
+      ]
+    },
+    {
+      "id": "wn30-r-00238281",
+      "words": [
+        "compassionately",
+        "pityingly"
+      ]
+    },
+    {
+      "id": "wn30-r-00242321",
+      "words": [
+        "dourly",
+        "sullenly"
+      ]
+    },
+    {
+      "id": "wn30-r-00300247",
+      "words": [
+        "maybe",
+        "perhaps"
+      ]
+    },
+    {
+      "id": "wn30-r-00314835",
+      "words": [
+        "candidly",
+        "frankly"
+      ]
+    },
+    {
+      "id": "wn30-v-00619869",
+      "words": [
+        "misconstrue",
+        "misunderstand"
+      ]
+    },
+    {
+      "id": "wn30-v-00724832",
+      "words": [
+        "astonish",
+        "astound"
+      ]
+    },
+    {
+      "id": "wn30-v-00760956",
+      "words": [
+        "arbitrate",
+        "intercede"
+      ]
+    },
+    {
+      "id": "wn30-v-00795863",
+      "words": [
+        "disallow",
+        "prohibit",
+        "proscribe"
+      ]
+    },
+    {
+      "id": "wn30-v-00824767",
+      "words": [
+        "berate",
+        "chide"
+      ]
+    },
+    {
+      "id": "wn30-v-00871942",
+      "words": [
+        "bode",
+        "portend"
+      ]
+    },
+    {
+      "id": "wn30-v-00911350",
+      "words": [
+        "bemoan",
+        "bewail"
+      ]
+    },
+    {
+      "id": "wn30-v-00958334",
+      "words": [
+        "reiterate",
+        "restate"
+      ]
+    },
+    {
+      "id": "wn30-v-01072262",
+      "words": [
+        "compete",
+        "vie"
+      ]
+    },
+    {
+      "id": "wn30-v-01193099",
+      "words": [
+        "overeat",
+        "overindulge"
+      ]
+    },
+    {
+      "id": "wn30-v-01774426",
+      "words": [
+        "abhor",
+        "loathe"
+      ]
+    },
+    {
+      "id": "wn30-v-02276866",
+      "words": [
+        "pilfer",
+        "purloin"
+      ]
+    },
+    {
+      "id": "wn30-v-02405390",
+      "words": [
+        "supersede",
+        "supplant"
+      ]
+    },
+    {
+      "id": "wn30-v-02456493",
+      "words": [
+        "entomb",
+        "inter"
+      ]
+    },
+    {
+      "id": "wn30-v-02471327",
+      "words": [
+        "enrol",
+        "enroll"
+      ]
+    },
+    {
+      "id": "wn30-v-02499629",
+      "words": [
+        "penalize",
+        "punish"
+      ]
+    }
+  ],
+  "license": {
+    "name": "Princeton WordNet 3.0 license",
+    "text": "WordNet Release 3.0\n\nThis software and database is being provided to you, the LICENSEE, by  \nPrinceton University under the following license.  By obtaining, using  \nand/or copying this software and database, you agree that you have  \nread, understood, and will comply with these terms and conditions.:  \n  \nPermission to use, copy, modify and distribute this software and  \ndatabase and its documentation for any purpose and without fee or  \nroyalty is hereby granted, provided that you agree to comply with  \nthe following copyright notice and statements, including the disclaimer,  \nand that the same appear on ALL copies of the software, database and  \ndocumentation, including modifications that you make for internal  \nuse or for distribution.  \n  \nWordNet 3.0 Copyright 2006 by Princeton University.  All rights reserved.  \n  \nTHIS SOFTWARE AND DATABASE IS PROVIDED \"AS IS\" AND PRINCETON  \nUNIVERSITY MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR  \nIMPLIED.  BY WAY OF EXAMPLE, BUT NOT LIMITATION, PRINCETON  \nUNIVERSITY MAKES NO REPRESENTATIONS OR WARRANTIES OF MERCHANT-  \nABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE  \nOF THE LICENSED SOFTWARE, DATABASE OR DOCUMENTATION WILL NOT  \nINFRINGE ANY THIRD PARTY PATENTS, COPYRIGHTS, TRADEMARKS OR  \nOTHER RIGHTS.  \n  \nThe name of Princeton University or Princeton may not be used in  \nadvertising or publicity pertaining to distribution of the software  \nand/or database.  Title to copyright in this software, database and  \nany associated documentation shall at all times remain with  \nPrinceton University and LICENSEE agrees to preserve same.  \n"
+  },
+  "provenance": {
+    "recovery_status": "new strict source-only baseline; not recovery v1 or the lost shared_dictionary_ai_v2.json; no AI review",
+    "rules_sha256": "fdea25be885e531aff84f1feef2fed634f3dd28356991227cf3d0040f76d5469",
+    "semantic_scope": "WordNet monosemy and no detected alternate inflection base do not guarantee contextual substitutability",
+    "source": "Princeton WordNet 3.0, NLTK wordnet.zip distribution",
+    "source_archive_sha256": "cbda5ea6eef7f36a97a43d4a75f85e07fccbb4f23657d27b4ccbc93e2646ab59",
+    "source_url": "https://raw.githubusercontent.com/nltk/nltk_data/gh-pages/packages/corpora/wordnet.zip"
+  },
+  "schema": "synsteg-public-dictionary-v1",
+  "version": "wordnet-recovery-v2"
+}

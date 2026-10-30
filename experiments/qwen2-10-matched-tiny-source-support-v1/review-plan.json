@@ -1,0 +1,115 @@
+{
+  "schema": "qwen2-10-matched-tiny-source-support-v1-review-plan",
+  "created_at_utc": "2026-10-28T21:37:54.441912+00:00",
+  "registration_scope": "Secondary matched TinyLlama2–10 selection fixed before viewing those outputs; Qwen2 has already been reviewed nonblind. Not preregistration before original model generation.",
+  "reviewer_tiny2_10_output_access_before_plan": false,
+  "source_orders": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "fixed_pair_denominator": 9,
+  "fixed_cover_denominator": 18,
+  "primary_qwen_plan_sha256": "fbc41bbd354833c410e049192523e127677b53a2962b31ec2821352cc7de1336",
+  "criterion_policy": "Identical source-support criterion to frozen primary review plan; retain all9 pairs and all18 cover slots, pending outcomes null.",
+  "source_commit": "82c04bd880be3cdd6a05f502fbd21c453b745e02",
+  "tiny_attempts": [
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 2,
+      "record_id": "wikipedia-panel-recovery-v1-astronomy-encyclopedic-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/e76a12bf7b47dc2ed7e410834df56291a6b8d630bf2012e920d0ec93b99dcbb3.json",
+      "attempt_sha256": "16f5d4f16bc476925b01ee8c535760f0cb42544795cf4f70b4933775dcc5a719"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 3,
+      "record_id": "wikipedia-panel-recovery-v1-astronomy-popular_science-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/2686f0ef805959cf7f02e61c51993a172e510e5727ef0469dcdf9f2db7de7ead.json",
+      "attempt_sha256": "d123ae3881443be64689852d253422b00533370da30a6451bb27c05f82d30206"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 4,
+      "record_id": "wikipedia-panel-recovery-v1-biology-educational-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/4acedab58f92772557e90be14b3772be8b902a9bcd248da4e13e60fb78056df5.json",
+      "attempt_sha256": "861b094913a35c067874ac2ce27f48c7deda207b7045ced6934a07d3dbc9c756"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 5,
+      "record_id": "wikipedia-panel-recovery-v1-biology-magazine-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/357d40b14bf9b522a3f68108a99a219fe4b5e47fce00200af99b1d43a46563de.json",
+      "attempt_sha256": "9a47c0f0c6ba0f0cee5a1b4424e194a3efec4028d3a5734c3bf2628b77e12a19"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 6,
+      "record_id": "wikipedia-panel-recovery-v1-biology-museum_label-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/40227a6199bc3acdab29b85d30b8fd6f009f26e0a61801937ec1f2e9c5ba5537.json",
+      "attempt_sha256": "3630e10e885e31d4e7c849bdc29d13cc62271f81d63a5c597465a14325a98049"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 7,
+      "record_id": "wikipedia-panel-recovery-v1-chemistry-popular_science-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/06f099c3492d4c02ebca8c4e903ecd6fd117b32c22120350eaf38caf8cf2f34b.json",
+      "attempt_sha256": "e1f30d6b46e601de0e4e7eef3e65ab52b39f22dfcde382869b5c1a77452fb22f"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 8,
+      "record_id": "wikipedia-panel-recovery-v1-chemistry-educational-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/1d2ea1bc2fe5783bccdc17d249f0b271b1da3afa4418274b7d6144f95a4cec8f.json",
+      "attempt_sha256": "bd4d1317edd7abc04ddfa76bc87a5bbe7545db463b4650444720afd22440f902"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 9,
+      "record_id": "wikipedia-panel-recovery-v1-chemistry-magazine-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/71da495eedd164c2a06458d1ca5eb989208c46dafff97aa35caa06c6ea910146.json",
+      "attempt_sha256": "b1e3600208d8051794e78f411c8e3a9d09670fbcc09484a78784e18371017e40"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 10,
+      "record_id": "wikipedia-panel-recovery-v1-geography-educational-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/5207d41f1abee8e39ea42082390827ada6aa433282e5969be34885a51c761121.json",
+      "attempt_sha256": "3c565692aaddca3174fe113f72c96736fbe3cb0e078f23a6f44555aaaff2be60"
+    }
+  ],
+  "comparability_to_verify": [
+    "record_id",
+    "prompt_sha256",
+    "source_excerpt_sha256",
+    "target_words",
+    "generation settings/runtime where already pinned"
+  ],
+  "comparison_limitations": [
+    "Same9 sources, not a random sample of all100 development.",
+    "One nonblind LLM reviewer, no inter-rater reliability or external truth check.",
+    "No model ranking, causal inference or significance claim.",
+    "Different tokenizers and model-dependent request seeds; do not interpret output token counts as word-length-equivalent.",
+    "Historical Tiny raw attempts are read from Git; historical process ledgers are not re-audited here."
+  ],
+  "new_model_calls": 0,
+  "new_tokenizer_calls": 0,
+  "paid_calls": 0,
+  "closed_test_opened": false,
+  "experiment_id": "qwen2-10-matched-tiny-source-support-v1"
+}

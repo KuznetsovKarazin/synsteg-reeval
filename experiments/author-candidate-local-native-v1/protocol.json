@@ -1,0 +1,48 @@
+{
+  "schema": "author-candidate-local-native-v1-protocol",
+  "id": "author-candidate-local-native-v1",
+  "new_provider_condition": "Qwen2.5-1.5B-InstructQ4_K_M EOS-masked bounded JSON diagnostic; not authorGPT4o API or historical683e8cb.",
+  "profile": {
+    "path": "experiments/framed-interval-public-v1/native-public-profile.json",
+    "sha256": "f32097750dc898fce418a29146587a4229eae1dcb76e3cbcd374b692846adc8a",
+    "scope": "Exact resources/runtime/READY/resident identities only; inheritedqwen_binding temperature0.8 is NOT this diagnostic sampler."
+  },
+  "requests": {
+    "path": "experiments/author-candidate-local-native-v1/requests.json",
+    "sha256": "e5256075993526101114f63ea37161d1d82369183e1758054ea924c74b522864"
+  },
+  "fixed_request_sha256": [
+    "2a510a01e1b7ee830f393c97bce447889f28ff24e251f9c6ee82231259bc2247",
+    "ec61d91995330841f842969e930c996004214e8822b6511c8f81383ae860d328"
+  ],
+  "logical_chunks": 2,
+  "max_shape_attempts": 3,
+  "maximum_physical_attempts": 6,
+  "token_cap": 512,
+  "attempt_deadline_seconds": 600,
+  "temperature": 0.7,
+  "top_k": 50,
+  "integer_total": 16777216,
+  "sampler": "Pinned float32 top50 logits, old quantize at0.7 to2^24; request/attempt-bound HMAC-SHA256 uint24 draw.",
+  "seed": "SHA256 canonical[ID,fixed-public-diagnostic-seed,request_sha256,attempt_order]; noseedsearch.",
+  "reset": "Fresh owned native process for every physical attempt; no context carried between replies.",
+  "chat_template": "Exact author system+user wrapped in QwenChatML with assistant generation prefix; TOKENIZE add_special1 parse_special1.",
+  "support": "Existing292-token mask including EOS/specials/byte/control tokens; no new canonical path gate.",
+  "EOS_policy": "EOS masked and cannot be sampled; no claim of EOS-terminated vanillaQwen generation.",
+  "stopping": "First complete entire committed UTF8 prefix parseable as JSON, or512 committed tokens. Entire lasttoken kept; trailingjunk prevents parseableprefix stop.",
+  "special_JSON": "NaN/Infinity may trigger parser completion but strict adapter rejects them. RecursionError triggers known parser-resource refusal, raw retained.",
+  "text_policy": "No leadingtext scan, fence stripping, repair, truncation or lossyUTF8 decode; invalidUTF8 atcap is knownshape_rejected withrawbytes/textnull.",
+  "retry_policy": "Only known shape_rejected permits next fixed attempt≤3. Accepted stopschunk. UNKNOWN or transport/process failure stopswholecampaign; no retry/resume.",
+  "semantic_policy": "Shape success is accepted even if words/candidates linguisticallywrong; no semantic retry/filter.",
+  "journal": "Durable request+PROMPT intent; exact50rawlogits/weights/draw/intendedraw beforeSTEP; committedack before stopping/shapeaccept; everyraw preserved.",
+  "usage": "Provider usage null; exact tokenizer lengths and commandinvoked/committed counters separate; no fake345tokenoffset.",
+  "source_freeze_readback_required": true,
+  "exclusive_heavy_NN_lease": "root coordinator",
+  "output": "results/author-candidate-local-native-v1/native-diagnostic-v1",
+  "full_cover_candidate_resource_complete": false,
+  "full_cover_required_chunks": 109,
+  "original_fixed_transport_outcomes": 0,
+  "paid_calls_allowed": false,
+  "closed_test_allowed": false,
+  "native_calls_before_source_freeze": 0
+}

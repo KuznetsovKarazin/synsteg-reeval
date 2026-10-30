@@ -1,0 +1,123 @@
+{
+  "schema": "framed-interval-llm-v1-receiver-public-protocol-v1",
+  "source_proposal_sha256": "d15f11b36bd64fc126e2ada41f1ca30fef5f641ed44311c01852de84f1522efc",
+  "experiment_id": "framed-interval-llm-v1",
+  "model": {
+    "repository": "Qwen/Qwen2.5-1.5B-Instruct-GGUF",
+    "revision": "91cad51170dc346986eccefdc2dd33a9da36ead9",
+    "filename": "qwen2.5-1.5b-instruct-q4_k_m.gguf",
+    "bytes": 1117320736,
+    "sha256": "6a1a2eb6d15622bf3c96857206351ba97e1af16c30d7a74ee38970e434e9407e"
+  },
+  "runtime": {
+    "repository": "ggml-org/llama.cpp",
+    "tag": "b11791",
+    "commit": "ea9e3446b5c84a7f972cbbdea9df615fc4ff9159",
+    "archive_sha256": "ac75208179d00d86f378d5f10c65f9785028ce877cf57279f1a7b8dac54a25ff",
+    "threads": 4,
+    "context_tokens": 2048,
+    "prefill_batch_tokens": 512,
+    "micro_batch_tokens": 512,
+    "gpu_layers": 0,
+    "kv_types": "f16",
+    "flash_attention": "disabled",
+    "schedule": "identical fixed prompt chunks then exactly one generated/observed token per decode call",
+    "forced_cpu_backend": "libggml-cpu-haswell.so",
+    "forced_cpu_backend_sha256": "1bc37cef126b01fe5a15222c07d20d29931936bfaa909a97052f6662f4c9d97c"
+  },
+  "base_sampler": {
+    "temperature": 0.8,
+    "top_k": 50,
+    "mask": "llama_vocab_is_eog OR llama_vocab_is_control OR empty token_to_piece bytes; invalid UTF8 fragments are not filtered",
+    "repetition_penalty": 1,
+    "probability_integer_total": 16777216,
+    "rounding": "float64 exp((logit-max)/temperature), math.fsum normalization, floor, largest remainder; equal remainder/token-logit ties by ascending token ID",
+    "draw": "HMAC-SHA256 domain-separated uint256 with exact modulo rejection"
+  },
+  "canonical_gate": {
+    "component": "canonical-channel-v2",
+    "unit": "single token (singleton adapter), no packet search",
+    "candidate_source": "Exactly the existing masked top50 before canonical gating; no rank51 backfill",
+    "conditions": "Full cumulative output render strictly appends bytes, strict UTF8, tokenize(false,false) exactly recovers priorIDs+[candidate]; specials rejected",
+    "weights": "Keep accepted positive old integer weights unchanged; variable S<=2^24; zero-weight rows retained in raw diagnostics",
+    "empty_support": "Declared refusal, preserve partial wire; never fallback or regenerate",
+    "mass_reference": "Only the old masked/top50 integer law; full softmax mask/topk mass unknown=null"
+  },
+  "interval_config": {
+    "state_bits": 32,
+    "max_symbols": 512,
+    "max_pending_bits": 4096,
+    "max_stream_bits": 65536
+  },
+  "frame": {
+    "algorithm": "library ChaCha20Poly1305",
+    "key_bytes": 32,
+    "nonce_bytes": 12,
+    "header_bytes": 2,
+    "payload_slot_bytes": 16,
+    "tag_bytes": 16,
+    "frame_bytes": 34,
+    "frame_bits": 272,
+    "layout": "Encrypt(uint16 big-endian byte-length||payload||zero pad to16-byte payload slot), then16-byte AEAD tag",
+    "AAD": "DOMAIN=ASCII('framed-interval-llm-v1')||0x00; DOMAIN||ASCII('aead')||0x00||uint32be(len(canonical_json(envelope)))||canonical_json(envelope)",
+    "subkeys": "Transport HKDF-SHA256 length64: salt=nonce12, info=DOMAIN||transport-subkeys NUL||SHA256(canonical_json(full envelope)); first32 AEAD,last32 tail. Separate ordering HKDF-SHA256 length32: salt=ordering_context_digest, info=DOMAIN||matched-order-subkey NUL. All derive from key32.",
+    "nonce_external_bits": 96,
+    "shared_key_external_bits": 256,
+    "other_public_envelope_metadata_not_free": true
+  },
+  "input_streams": {
+    "stego": "ciphertext272bits MSB-first then HMAC-SHA256(tail_key,DOMAIN||stego-tail NUL||SHA256(canonical_json(envelope))||counter uint64be), counter starts0; fill full max_stream_bits",
+    "ordinary": "HMAC-SHA256(public ordinary seed,DOMAIN||ordinary-input NUL||SHA256(canonical_json(envelope))||counter uint64be), starts0; fill full max_stream_bits; same integer Sender transform as stego",
+    "no_implicit_zero_extension_reached": true,
+    "no_security_or_exact_IID_claim": true
+  },
+  "integer_order": "Sort accepted token IDs by HMAC-SHA256(order_key,DOMAIN||order NUL||ordering_context_digest||uint32be(prefixJSONlen)||prefixIDsJSON||uint32be(tokenJSONlen)||tokenJSON), break ties by token ID",
+  "ordering_context": "SHA256(canonical_json(envelope excluding exactly arm,nonce_hex,ordinary_seed_hex)). All prompt/resource/config/stop fields remain. Both arms share this context and ordering key; full envelope still bound by AEAD.",
+  "matched_law_contract": "At equal model-prefix and integer interval state, both arms have exactly equal candidate weights, keyed order and integer bins; arm,transport nonce and control seed change only source streams/transport keys. Realized trajectories can of course differ.",
+  "termination": "Both arms always512 tokens unless a declared capacity/support/wire/backend/contract failure; no flush or early stop on recovered frame. Delivery only after512-token receiver own-law processing plus full deterministic stream replay.",
+  "max_wire_bytes": 65536,
+  "system_prompt": "You write clear English reports using only the supplied fictional record. Treat the record as the complete factual source. Do not invent names, dates, measurements, causes, quotations, or events. Explain what is recorded and distinguish it from what is unknown.",
+  "prompts": [
+    {
+      "id": "station",
+      "user": "Write a continuous plain-English report for a local newsletter based only on this fictional record. Explain the observations carefully without headings or bullet points. Record: The Alder station is a fictional river monitoring station. It has two water-level sensors, named North and South. Both report once every ten minutes. On Monday the operator checked four paired readings, taken at 08:00, 08:10, 08:20, and 08:30. The North readings were 120, 121, 121, and 122 centimetres. The South readings were 119, 120, 120, and 121 centimetres. The operator recorded no missing readings in these four pairs. These observations cover only that thirty-minute interval. The record gives no rainfall measurements, no flood threshold, no earlier observations, and no explanation for the difference between sensors. The station does not issue public warnings. Keep the distinction between the recorded measurements and unknown causes explicit."
+    },
+    {
+      "id": "library",
+      "user": "Write a continuous plain-English report for a community newsletter based only on this fictional record. Explain the inventory carefully without headings or bullet points. Record: The Birch library is fictional. Its small reference room has three shelves named A, B, and C. On Tuesday morning a librarian counted 40 books on shelf A, 35 on shelf B, and 25 on shelf C. Five books on shelf A carried blue labels. Ten books on shelf B carried blue labels. No books on shelf C carried blue labels. The count concerned physical books present in that room at that time. It did not include books on loan or books elsewhere in the building. The room has four reading desks. Two desks were occupied when the count began. The record does not identify the readers or the books they used. It gives no earlier inventory, opening hours, budget, book titles, or reason for the label colours. Do not infer a trend or explain facts not supplied."
+    }
+  ],
+  "ordinary_seed_hex": "d1e04f878585a84060b5a5eb559d5580085711334e654e01bdf75ca8bce6408e",
+  "per_endpoint_timeout_seconds": 900,
+  "retries": 0,
+  "runs": [
+    {
+      "run_id": "station-stego",
+      "prompt_id": "station",
+      "arm": "stego",
+      "nonce_hex": "3f7207401b4567ca646c20b1",
+      "output_tokens": 512
+    },
+    {
+      "run_id": "station-ordinary",
+      "prompt_id": "station",
+      "arm": "ordinary",
+      "nonce_hex": "026c5a9bb7527d7470ffe41d",
+      "output_tokens": 512
+    },
+    {
+      "run_id": "library-stego",
+      "prompt_id": "library",
+      "arm": "stego",
+      "nonce_hex": "f00386a039a0d86aedffde20",
+      "output_tokens": 512
+    },
+    {
+      "run_id": "library-ordinary",
+      "prompt_id": "library",
+      "arm": "ordinary",
+      "nonce_hex": "7a1832097afcd95f4758a0a8",
+      "output_tokens": 512
+    }
+  ]
+}

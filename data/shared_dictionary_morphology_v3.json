@@ -1,0 +1,1744 @@
+{
+  "classes": [
+    {
+      "id": "morph3-wn30-a-00062367-jj",
+      "words": [
+        "dexterous",
+        "dextrous"
+      ]
+    },
+    {
+      "id": "morph3-wn30-a-00148078-jj",
+      "words": [
+        "crafty",
+        "sly",
+        "wily"
+      ]
+    },
+    {
+      "id": "morph3-wn30-a-00148078-jjr",
+      "words": [
+        "craftier",
+        "slier",
+        "wilier"
+      ]
+    },
+    {
+      "id": "morph3-wn30-a-00148078-jjs",
+      "words": [
+        "craftiest",
+        "sliest",
+        "wiliest"
+      ]
+    },
+    {
+      "id": "morph3-wn30-a-00195684-jj",
+      "words": [
+        "gruesome",
+        "macabre"
+      ]
+    },
+    {
+      "id": "morph3-wn30-a-00301951-jj",
+      "words": [
+        "countless",
+        "innumerable",
+        "multitudinous",
+        "unnumbered"
+      ]
+    },
+    {
+      "id": "morph3-wn30-a-00343360-jj",
+      "words": [
+        "inescapable",
+        "unavoidable"
+      ]
+    },
+    {
+      "id": "morph3-wn30-a-00363938-jj",
+      "words": [
+        "cheery",
+        "sunny"
+      ]
+    },
+    {
+      "id": "morph3-wn30-a-00643863-jj",
+      "words": [
+        "imaginative",
+        "inventive"
+      ]
+    },
+    {
+      "id": "morph3-wn30-a-01007657-jj",
+      "words": [
+        "boundless",
+        "unbounded"
+      ]
+    },
+    {
+      "id": "morph3-wn30-a-01045963-jj",
+      "words": [
+        "colloquial",
+        "conversational"
+      ]
+    },
+    {
+      "id": "morph3-wn30-a-01050890-jj",
+      "words": [
+        "hapless",
+        "piteous"
+      ]
+    },
+    {
+      "id": "morph3-wn30-a-01135673-jj",
+      "words": [
+        "crotchety",
+        "ornery"
+      ]
+    },
+    {
+      "id": "morph3-wn30-a-01345307-jj",
+      "words": [
+        "irksome",
+        "tiresome",
+        "wearisome"
+      ]
+    },
+    {
+      "id": "morph3-wn30-a-01384730-jj",
+      "words": [
+        "colossal",
+        "stupendous"
+      ]
+    },
+    {
+      "id": "morph3-wn30-a-01387319-jj",
+      "words": [
+        "huge",
+        "immense",
+        "vast"
+      ]
+    },
+    {
+      "id": "morph3-wn30-a-01397674-jj",
+      "words": [
+        "drafty",
+        "draughty"
+      ]
+    },
+    {
+      "id": "morph3-wn30-a-01397674-jjr",
+      "words": [
+        "draftier",
+        "draughtier"
+      ]
+    },
+    {
+      "id": "morph3-wn30-a-01397674-jjs",
+      "words": [
+        "draftiest",
+        "draughtiest"
+      ]
+    },
+    {
+      "id": "morph3-wn30-a-01508086-jj",
+      "words": [
+        "remorseless",
+        "ruthless"
+      ]
+    },
+    {
+      "id": "morph3-wn30-a-01581115-jj",
+      "words": [
+        "unnecessary",
+        "unneeded"
+      ]
+    },
+    {
+      "id": "morph3-wn30-a-01667729-jj",
+      "words": [
+        "sequential",
+        "successive"
+      ]
+    },
+    {
+      "id": "morph3-wn30-a-01706465-jj",
+      "words": [
+        "clandestine",
+        "undercover"
+      ]
+    },
+    {
+      "id": "morph3-wn30-a-01920367-jj",
+      "words": [
+        "clamorous",
+        "vociferous"
+      ]
+    },
+    {
+      "id": "morph3-wn30-a-01923720-jj",
+      "words": [
+        "disruptive",
+        "tumultuous"
+      ]
+    },
+    {
+      "id": "morph3-wn30-a-01947127-jj",
+      "words": [
+        "unanswered",
+        "unrequited"
+      ]
+    },
+    {
+      "id": "morph3-wn30-a-01984411-jj",
+      "words": [
+        "infamous",
+        "notorious"
+      ]
+    },
+    {
+      "id": "morph3-wn30-a-01995288-jj",
+      "words": [
+        "contemptuous",
+        "scornful"
+      ]
+    },
+    {
+      "id": "morph3-wn30-a-02019021-jj",
+      "words": [
+        "rhythmic",
+        "rhythmical"
+      ]
+    },
+    {
+      "id": "morph3-wn30-a-02024928-jj",
+      "words": [
+        "opulent",
+        "sumptuous"
+      ]
+    },
+    {
+      "id": "morph3-wn30-a-02038126-jj",
+      "words": [
+        "beefy",
+        "burly"
+      ]
+    },
+    {
+      "id": "morph3-wn30-a-02038126-jjr",
+      "words": [
+        "beefier",
+        "burlier"
+      ]
+    },
+    {
+      "id": "morph3-wn30-a-02038126-jjs",
+      "words": [
+        "beefiest",
+        "burliest"
+      ]
+    },
+    {
+      "id": "morph3-wn30-a-02418692-jj",
+      "words": [
+        "inconceivable",
+        "unimaginable"
+      ]
+    },
+    {
+      "id": "morph3-wn30-a-02501367-jj",
+      "words": [
+        "invaluable",
+        "priceless"
+      ]
+    },
+    {
+      "id": "morph3-wn30-a-02548619-jj",
+      "words": [
+        "clammy",
+        "dank"
+      ]
+    },
+    {
+      "id": "morph3-wn30-a-02548619-jjr",
+      "words": [
+        "clammier",
+        "danker"
+      ]
+    },
+    {
+      "id": "morph3-wn30-a-02548619-jjs",
+      "words": [
+        "clammiest",
+        "dankest"
+      ]
+    },
+    {
+      "id": "morph3-wn30-a-02847894-jj",
+      "words": [
+        "financial",
+        "fiscal"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-00123783-nn-nns",
+      "words": [
+        "gunfire",
+        "gunshot"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-00735936-nns",
+      "words": [
+        "misbehaviors",
+        "misdeeds"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-00746587-nn-nns",
+      "words": [
+        "desecration",
+        "sacrilege"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-00746587-nns",
+      "words": [
+        "desecrations",
+        "sacrileges"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-02391994-nns",
+      "words": [
+        "rhinoceroses",
+        "rhinos"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-02769748-nn",
+      "words": [
+        "haversack",
+        "knapsack"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-02769748-nns",
+      "words": [
+        "haversacks",
+        "knapsacks"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-02788148-nn",
+      "words": [
+        "balustrade",
+        "banister"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-02788148-nns",
+      "words": [
+        "balustrades",
+        "banisters"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-02958343-nns",
+      "words": [
+        "autos",
+        "motorcars"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-03038685-nn",
+      "words": [
+        "classroom",
+        "schoolroom"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-03038685-nns",
+      "words": [
+        "classrooms",
+        "schoolrooms"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-03159640-nn",
+      "words": [
+        "dais",
+        "pulpit"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-03159640-nns",
+      "words": [
+        "daises",
+        "pulpits"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-04070727-nn",
+      "words": [
+        "icebox",
+        "refrigerator"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-04070727-nns",
+      "words": [
+        "iceboxes",
+        "refrigerators"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-04298308-nn",
+      "words": [
+        "staircase",
+        "stairway"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-04298308-nns",
+      "words": [
+        "staircases",
+        "stairways"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-04312432-nn",
+      "words": [
+        "spire",
+        "steeple"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-04312432-nns",
+      "words": [
+        "spires",
+        "steeples"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-04857738-nn-nns",
+      "words": [
+        "heroism",
+        "valor"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-04903813-nn-nns",
+      "words": [
+        "composure",
+        "equanimity"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-04989657-nn-nns",
+      "words": [
+        "sonority",
+        "vibrancy"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-05037813-nn-nns",
+      "words": [
+        "ferocity",
+        "fierceness"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-05059132-nn-nns",
+      "words": [
+        "celerity",
+        "rapidity"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-05218119-nn",
+      "words": [
+        "cadaver",
+        "corpse"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-05624700-nn-nns",
+      "words": [
+        "creativeness",
+        "creativity"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-05638987-nn-nns",
+      "words": [
+        "artistry",
+        "prowess"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-05685030-nn-nns",
+      "words": [
+        "bewilderment",
+        "puzzlement"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-06000644-nn-nns",
+      "words": [
+        "math",
+        "mathematics"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-06773434-nns",
+      "words": [
+        "pacts",
+        "treaties"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-06777164-nn-nns",
+      "words": [
+        "sarcasm",
+        "satire"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-07152259-nn",
+      "words": [
+        "motto",
+        "slogan"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-07184545-nn-nns",
+      "words": [
+        "altercation",
+        "fracas"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-07184545-nns",
+      "words": [
+        "altercations",
+        "fracases"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-07509572-nn-nns",
+      "words": [
+        "amazement",
+        "astonishment"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-07536074-nn-nns",
+      "words": [
+        "compunction",
+        "remorse"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-07548978-nn-nns",
+      "words": [
+        "rancor",
+        "resentment"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-07906284-nn-nns",
+      "words": [
+        "whiskey",
+        "whisky"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-07906284-nns",
+      "words": [
+        "whiskeys",
+        "whiskies"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-08506641-nn",
+      "words": [
+        "battlefield",
+        "battleground"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-08506641-nns",
+      "words": [
+        "battlefields",
+        "battlegrounds"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-08510169-nn",
+      "words": [
+        "homeland",
+        "motherland"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-08510169-nns",
+      "words": [
+        "homelands",
+        "motherlands"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-08521623-nn",
+      "words": [
+        "cemetery",
+        "graveyard"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-08521623-nns",
+      "words": [
+        "cemeteries",
+        "graveyards"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-08641113-nn-nns",
+      "words": [
+        "locality",
+        "vicinity"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-08641113-nns",
+      "words": [
+        "localities",
+        "vicinities"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-09326662-nn",
+      "words": [
+        "hillock",
+        "knoll"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-09326662-nns",
+      "words": [
+        "hillocks",
+        "knolls"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-09620078-nn",
+      "words": [
+        "dweller",
+        "inhabitant"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-09620078-nns",
+      "words": [
+        "dwellers",
+        "inhabitants"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-09629752-nn",
+      "words": [
+        "traveler",
+        "traveller"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-09629752-nns",
+      "words": [
+        "travelers",
+        "travellers"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-09774266-nn",
+      "words": [
+        "advisor",
+        "consultant"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-09774266-nns",
+      "words": [
+        "advisors",
+        "consultants"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-09928136-nn",
+      "words": [
+        "churchman",
+        "cleric"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-09928136-nns",
+      "words": [
+        "churchmen",
+        "clerics"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-09988063-nns",
+      "words": [
+        "daddies",
+        "dads",
+        "papas"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-10011074-nn",
+      "words": [
+        "diagnostician",
+        "pathologist"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-10011074-nns",
+      "words": [
+        "diagnosticians",
+        "pathologists"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-10030277-nn",
+      "words": [
+        "dramatist",
+        "playwright"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-10030277-nns",
+      "words": [
+        "dramatists",
+        "playwrights"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-10142747-nn",
+      "words": [
+        "grandma",
+        "grandmother"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-10142747-nns",
+      "words": [
+        "grandmas",
+        "grandmothers"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-10165448-nn",
+      "words": [
+        "hearer",
+        "listener"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-10165448-nns",
+      "words": [
+        "hearers",
+        "listeners"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-10249950-nn",
+      "words": [
+        "attorney",
+        "lawyer"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-10249950-nns",
+      "words": [
+        "attorneys",
+        "lawyers"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-10271216-nn",
+      "words": [
+        "sentinel",
+        "sentry"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-10271216-nns",
+      "words": [
+        "sentinels",
+        "sentries"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-10311021-nn",
+      "words": [
+        "courier",
+        "messenger"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-10311021-nns",
+      "words": [
+        "couriers",
+        "messengers"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-10331841-nn",
+      "words": [
+        "mortician",
+        "undertaker"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-10331841-nns",
+      "words": [
+        "morticians",
+        "undertakers"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-10380672-nn",
+      "words": [
+        "orator",
+        "rhetorician"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-10380672-nns",
+      "words": [
+        "orators",
+        "rhetoricians"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-10421470-nn",
+      "words": [
+        "apothecary",
+        "pharmacist"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-10421470-nns",
+      "words": [
+        "apothecaries",
+        "pharmacists"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-10521662-nn",
+      "words": [
+        "newsman",
+        "reporter"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-10521662-nns",
+      "words": [
+        "newsmen",
+        "reporters"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-10560106-nn",
+      "words": [
+        "classmate",
+        "schoolmate"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-10560106-nns",
+      "words": [
+        "classmates",
+        "schoolmates"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-10592152-nn",
+      "words": [
+        "shopkeeper",
+        "storekeeper",
+        "tradesman"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-10592152-nns",
+      "words": [
+        "shopkeepers",
+        "storekeepers",
+        "tradesmen"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-10601078-nn",
+      "words": [
+        "evildoer",
+        "sinner"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-10601078-nns",
+      "words": [
+        "evildoers",
+        "sinners"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-10638922-nn",
+      "words": [
+        "sportsman",
+        "sportswoman"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-10638922-nns",
+      "words": [
+        "sportsmen",
+        "sportswomen"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-10707233-nn",
+      "words": [
+        "healer",
+        "therapist"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-10707233-nns",
+      "words": [
+        "healers",
+        "therapists"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-11512818-nn-nns",
+      "words": [
+        "conduction",
+        "conductivity"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-11512818-nns",
+      "words": [
+        "conductions",
+        "conductivities"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-13263779-nns",
+      "words": [
+        "bequests",
+        "legacies"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-13794417-nn-nns",
+      "words": [
+        "relevance",
+        "relevancy"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-13795180-nn-nns",
+      "words": [
+        "applicability",
+        "pertinence"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-13844212-nn-nns",
+      "words": [
+        "interrelation",
+        "interrelationship"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-13844212-nns",
+      "words": [
+        "interrelations",
+        "interrelationships"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-14235200-nn",
+      "words": [
+        "tumor",
+        "tumour"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-14235200-nns",
+      "words": [
+        "tumors",
+        "tumours"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-14371913-nn-nns",
+      "words": [
+        "diarrhea",
+        "diarrhoea"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-14371913-nns",
+      "words": [
+        "diarrheas",
+        "diarrhoeas"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-14547643-nn-nns",
+      "words": [
+        "debility",
+        "infirmity"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-14547643-nns",
+      "words": [
+        "debilities",
+        "infirmities"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-14857897-nn-nns",
+      "words": [
+        "debris",
+        "rubble"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-14885684-nn-nns",
+      "words": [
+        "glycerine",
+        "glycerol"
+      ]
+    },
+    {
+      "id": "morph3-wn30-n-15165490-nn-nns",
+      "words": [
+        "midday",
+        "noon"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00003483-rb",
+      "words": [
+        "basically",
+        "essentially",
+        "fundamentally"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00005779-rb",
+      "words": [
+        "immensely",
+        "vastly"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00007703-rb",
+      "words": [
+        "partially",
+        "partly"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00008007-rb",
+      "words": [
+        "totally",
+        "wholly"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00008600-rb",
+      "words": [
+        "exclusively",
+        "solely"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00027384-rb",
+      "words": [
+        "nevertheless",
+        "nonetheless",
+        "notwithstanding"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00027918-rb",
+      "words": [
+        "heretofore",
+        "hitherto"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00029367-rb",
+      "words": [
+        "furthermore",
+        "moreover"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00035058-rb",
+      "words": [
+        "frequently",
+        "oftentimes"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00035385-rb",
+      "words": [
+        "rarely",
+        "seldom"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00036935-rb",
+      "words": [
+        "decidedly",
+        "definitely",
+        "emphatically"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00039318-rb",
+      "words": [
+        "evidently",
+        "manifestly",
+        "obviously"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00039941-rb",
+      "words": [
+        "ostensibly",
+        "seemingly"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00042254-rb",
+      "words": [
+        "fortunately",
+        "luckily"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00042769-rb",
+      "words": [
+        "unfortunately",
+        "unluckily"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00059854-rb",
+      "words": [
+        "increasingly",
+        "progressively"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00061203-rb",
+      "words": [
+        "afterward",
+        "afterwards",
+        "subsequently"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00062330-rb",
+      "words": [
+        "advisedly",
+        "intentionally",
+        "purposely"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00070765-rb",
+      "words": [
+        "arbitrarily",
+        "randomly"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00073897-rb",
+      "words": [
+        "chiefly",
+        "mainly",
+        "principally"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00080534-rb",
+      "words": [
+        "contemptuously",
+        "scornfully"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00085811-rb",
+      "words": [
+        "rapidly",
+        "speedily"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00090228-rb",
+      "words": [
+        "dangerously",
+        "perilously"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00093270-rb",
+      "words": [
+        "deplorably",
+        "woefully"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00106921-rb",
+      "words": [
+        "commonly",
+        "normally",
+        "ordinarily",
+        "usually"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00107416-rb",
+      "words": [
+        "lately",
+        "recently"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00120474-rb",
+      "words": [
+        "consistently",
+        "systematically"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00139508-rb",
+      "words": [
+        "appropriately",
+        "suitably"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00144722-rb",
+      "words": [
+        "certainly",
+        "surely"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00154449-rb",
+      "words": [
+        "purportedly",
+        "supposedly"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00160834-rb",
+      "words": [
+        "comparatively",
+        "relatively"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00183090-rb",
+      "words": [
+        "marvelously",
+        "superbly",
+        "wonderfully",
+        "wondrously"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00185172-rb",
+      "words": [
+        "ably",
+        "competently"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00185970-rb",
+      "words": [
+        "anxiously",
+        "uneasily"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00196540-rb",
+      "words": [
+        "enormously",
+        "staggeringly",
+        "tremendously"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00198845-rb",
+      "words": [
+        "obstinately",
+        "stubbornly"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00206479-rb",
+      "words": [
+        "hastily",
+        "hurriedly"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00207668-rb",
+      "words": [
+        "individually",
+        "separately"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00208557-rb",
+      "words": [
+        "inescapably",
+        "unavoidably"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00223395-rb",
+      "words": [
+        "faithfully",
+        "reliably"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00229074-rb",
+      "words": [
+        "fondly",
+        "lovingly"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00235701-rb",
+      "words": [
+        "doggedly",
+        "tenaciously"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00237833-rb",
+      "words": [
+        "inadvertently",
+        "unwittingly"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00300247-rb",
+      "words": [
+        "maybe",
+        "perhaps"
+      ]
+    },
+    {
+      "id": "morph3-wn30-r-00314835-rb",
+      "words": [
+        "candidly",
+        "frankly"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-00619869-vb-vbp",
+      "words": [
+        "misconstrue",
+        "misunderstand"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-00619869-vbz",
+      "words": [
+        "misconstrues",
+        "misunderstands"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-00724832-vb-vbp",
+      "words": [
+        "astonish",
+        "astound"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-00724832-vbd",
+      "words": [
+        "astonished",
+        "astounded"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-00724832-vbz",
+      "words": [
+        "astonishes",
+        "astounds"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-00760956-vb-vbp",
+      "words": [
+        "arbitrate",
+        "intercede"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-00760956-vbd",
+      "words": [
+        "arbitrated",
+        "interceded"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-00760956-vbg",
+      "words": [
+        "arbitrating",
+        "interceding"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-00760956-vbz",
+      "words": [
+        "arbitrates",
+        "intercedes"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-00795863-vb-vbp",
+      "words": [
+        "disallow",
+        "prohibit",
+        "proscribe"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-00795863-vbd",
+      "words": [
+        "disallowed",
+        "prohibited",
+        "proscribed"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-00795863-vbg",
+      "words": [
+        "disallowing",
+        "prohibiting",
+        "proscribing"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-00795863-vbz",
+      "words": [
+        "disallows",
+        "prohibits",
+        "proscribes"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-00824767-vb-vbp",
+      "words": [
+        "berate",
+        "chide"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-00824767-vbd",
+      "words": [
+        "berated",
+        "chidded"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-00824767-vbg",
+      "words": [
+        "berating",
+        "chiding"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-00824767-vbz",
+      "words": [
+        "berates",
+        "chides"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-00871942-vb-vbp",
+      "words": [
+        "bode",
+        "portend"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-00871942-vbg",
+      "words": [
+        "boding",
+        "portending"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-00871942-vbz",
+      "words": [
+        "bodes",
+        "portends"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-00911350-vb-vbp",
+      "words": [
+        "bemoan",
+        "bewail"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-00911350-vbd",
+      "words": [
+        "bemoaned",
+        "bewailed"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-00911350-vbg",
+      "words": [
+        "bemoaning",
+        "bewailing"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-00911350-vbz",
+      "words": [
+        "bemoans",
+        "bewails"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-00958334-vb-vbp",
+      "words": [
+        "reiterate",
+        "restate"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-00958334-vbd",
+      "words": [
+        "reiterated",
+        "restated"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-00958334-vbg",
+      "words": [
+        "reiterating",
+        "restating"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-00958334-vbz",
+      "words": [
+        "reiterates",
+        "restates"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-01072262-vb-vbp",
+      "words": [
+        "compete",
+        "vie"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-01072262-vbd",
+      "words": [
+        "competed",
+        "vied"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-01072262-vbg",
+      "words": [
+        "competing",
+        "vying"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-01072262-vbz",
+      "words": [
+        "competes",
+        "vies"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-01774426-vb-vbp",
+      "words": [
+        "abhor",
+        "loathe"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-01774426-vbd",
+      "words": [
+        "abhorred",
+        "loathed"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-01774426-vbg",
+      "words": [
+        "abhorring",
+        "loathing"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-01774426-vbz",
+      "words": [
+        "abhors",
+        "loathes"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-02276866-vb-vbp",
+      "words": [
+        "pilfer",
+        "purloin"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-02276866-vbd",
+      "words": [
+        "pilfered",
+        "purloined"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-02276866-vbg",
+      "words": [
+        "pilfering",
+        "purloining"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-02276866-vbz",
+      "words": [
+        "pilfers",
+        "purloins"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-02456493-vb-vbp",
+      "words": [
+        "entomb",
+        "inter"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-02456493-vbd",
+      "words": [
+        "entombed",
+        "interred"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-02456493-vbz",
+      "words": [
+        "entombs",
+        "inters"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-02471327-vb-vbp",
+      "words": [
+        "enrol",
+        "enroll"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-02471327-vbd",
+      "words": [
+        "enroled",
+        "enrolled"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-02471327-vbg",
+      "words": [
+        "enroling",
+        "enrolling"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-02471327-vbz",
+      "words": [
+        "enrolls",
+        "enrols"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-02499629-vb-vbp",
+      "words": [
+        "penalize",
+        "punish"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-02499629-vbd",
+      "words": [
+        "penalized",
+        "punished"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-02499629-vbg",
+      "words": [
+        "penalizing",
+        "punishing"
+      ]
+    },
+    {
+      "id": "morph3-wn30-v-02499629-vbz",
+      "words": [
+        "penalizes",
+        "punishes"
+      ]
+    }
+  ],
+  "licenses": {
+    "lemminflect": {
+      "name": "MIT",
+      "text": "The MIT License (MIT)\n\nCopyright (C) 2019 Brad Jascob\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n"
+    },
+    "nih_specialist_terms_url": "https://lhncbc.nlm.nih.gov/LSG/Projects/lexicon/current/web/termsAndConditions.html",
+    "wordnet": {
+      "name": "Princeton WordNet 3.0 license",
+      "text": "WordNet Release 3.0\n\nThis software and database is being provided to you, the LICENSEE, by  \nPrinceton University under the following license.  By obtaining, using  \nand/or copying this software and database, you agree that you have  \nread, understood, and will comply with these terms and conditions.:  \n  \nPermission to use, copy, modify and distribute this software and  \ndatabase and its documentation for any purpose and without fee or  \nroyalty is hereby granted, provided that you agree to comply with  \nthe following copyright notice and statements, including the disclaimer,  \nand that the same appear on ALL copies of the software, database and  \ndocumentation, including modifications that you make for internal  \nuse or for distribution.  \n  \nWordNet 3.0 Copyright 2006 by Princeton University.  All rights reserved.  \n  \nTHIS SOFTWARE AND DATABASE IS PROVIDED \"AS IS\" AND PRINCETON  \nUNIVERSITY MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR  \nIMPLIED.  BY WAY OF EXAMPLE, BUT NOT LIMITATION, PRINCETON  \nUNIVERSITY MAKES NO REPRESENTATIONS OR WARRANTIES OF MERCHANT-  \nABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE  \nOF THE LICENSED SOFTWARE, DATABASE OR DOCUMENTATION WILL NOT  \nINFRINGE ANY THIRD PARTY PATENTS, COPYRIGHTS, TRADEMARKS OR  \nOTHER RIGHTS.  \n  \nThe name of Princeton University or Princeton may not be used in  \nadvertising or publicity pertaining to distribution of the software  \nand/or database.  Title to copyright in this software, database and  \nany associated documentation shall at all times remain with  \nPrinceton University and LICENSEE agrees to preserve same.  \n"
+    }
+  },
+  "provenance": {
+    "interpretation": "Source-only morphology ablation; not a semantic or contextual grammatical certificate",
+    "parent_dictionary_sha256": "5dafba7b2179b40be560bacfd9ffa783ef98350d07e8d4ac7919c3a0865e6aa6",
+    "parent_provenance_sha256": "fd57abbb28c910513aa194b827cbe4daa923b0d0da7e5baf81f675679f07b36d",
+    "rules_sha256": "435cd073b581b2c4ea4406192f5e5e3d6d3dcfe620e343d55dfa103071233078",
+    "source_wheel_sha256": "1cf470efa783733ca5654cc1a6ee1de774e59031e61bf6210467625e84a8cf1c"
+  },
+  "schema": "synsteg-public-dictionary-v1",
+  "version": "morph-recovery-v3"
+}

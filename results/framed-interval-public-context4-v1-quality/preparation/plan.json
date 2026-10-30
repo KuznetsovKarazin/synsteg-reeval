@@ -1,0 +1,128 @@
+{
+  "annotation_unit": "assistant-segmented factual proposition or inseparable claim group; no claim-level error-rate/generalization claim",
+  "cases": [
+    {
+      "arm": "stego",
+      "case_id": "o001-stego",
+      "context_order": 0,
+      "quality": null,
+      "text_available": null
+    },
+    {
+      "arm": "ordinary",
+      "case_id": "o001-ordinary",
+      "context_order": 0,
+      "quality": null,
+      "text_available": null
+    },
+    {
+      "arm": "stego",
+      "case_id": "o004-stego",
+      "context_order": 1,
+      "quality": null,
+      "text_available": null
+    },
+    {
+      "arm": "ordinary",
+      "case_id": "o004-ordinary",
+      "context_order": 1,
+      "quality": null,
+      "text_available": null
+    },
+    {
+      "arm": "stego",
+      "case_id": "o007-stego",
+      "context_order": 2,
+      "quality": null,
+      "text_available": null
+    },
+    {
+      "arm": "ordinary",
+      "case_id": "o007-ordinary",
+      "context_order": 2,
+      "quality": null,
+      "text_available": null
+    },
+    {
+      "arm": "stego",
+      "case_id": "o010-stego",
+      "context_order": 3,
+      "quality": null,
+      "text_available": null
+    },
+    {
+      "arm": "ordinary",
+      "case_id": "o010-ordinary",
+      "context_order": 3,
+      "quality": null,
+      "text_available": null
+    }
+  ],
+  "claims_excluded": [
+    "statistical generalization",
+    "cross-host reproducibility",
+    "steganographic security",
+    "method improvement from selected examples",
+    "external factual truth"
+  ],
+  "comparison_policy": "Describe four fixed paired contexts, no significance or detector/security claim. Ordinary arm uses independent public bits through the same keyed integer transform, not standard free LM sampling.",
+  "completion_policy": "Judge raw first-272-bit-threshold output. A grammatical ending is separate from terminal punctuation. No append, prose repair, filtering or seed/context change.",
+  "denominators": {
+    "contexts": 4,
+    "ordinary_texts": 4,
+    "payload_deliveries": 4,
+    "planned_raw_texts": 8,
+    "stego_texts": 4
+  },
+  "experiment_id": "framed-interval-public-context4-v1",
+  "label_definitions": {
+    "nonfactual_or_evaluative": "Rhetorical, evaluative or metatextual language; distinguish from factual support.",
+    "source_conflict": "A proposition incompatible with an explicit statement in the frozen excerpt; cite both exact text and source spans.",
+    "source_supported": "A factual proposition directly stated by the frozen excerpt or a conservative paraphrase/inference; record supporting source spans and explain any inference.",
+    "source_unsupported": "A factual proposition not justified by this excerpt, even if it might be true elsewhere. This is not an external falsehood verdict.",
+    "unclear_or_incomplete": "The text does not supply enough complete content for a reliable proposition judgment; do not repair it."
+  },
+  "literal_evidence": {
+    "every_span": "exact quote, start/end, quote SHA256 and bound document SHA256",
+    "offsets": "zero-based Python Unicode code-point [start,end); UTF8 byte offsets also recorded",
+    "source_and_text_identity": "SHA256 over original UTF8 bytes, no whitespace normalization or completion",
+    "validator": "recompute offsets and hashes; fail closed on mismatched quotes"
+  },
+  "missing_policy": "Preserve all eight case IDs. If no committed wire, text-based quality fields remain null; retain refusal/unknown/not-attempted status. Do not use successful-only denominator.",
+  "parent_gate": "Do not read generation outputs until root supplies actual Git primary and restored artifact path.",
+  "per_case_fields": [
+    "terminal_sender_status",
+    "text_available",
+    "text_sha256",
+    "utf8_bytes",
+    "words_by_whitespace",
+    "target_words",
+    "source_words_registered",
+    "source_target_ratio",
+    "annotation_groups",
+    "source_omission_groups",
+    "ends_with_terminal_punctuation",
+    "unfinished_ending_assistant_judgment",
+    "ending_exact_span",
+    "format_violations",
+    "limitations"
+  ],
+  "preparation_scope": "source and frozen protocol only; no generated outputs read before parent actual Git primary signal",
+  "prohibited": [
+    "NN calls",
+    "tokenizer calls",
+    "paid APIs",
+    "closed test",
+    "output repair",
+    "selecting cases after outputs",
+    "writing Git"
+  ],
+  "review_identity": {
+    "external_factcheck": false,
+    "human_gold": false,
+    "independent_of_generator_code_author": true,
+    "kind": "nonblind assistant review"
+  },
+  "schema": "framed-interval-public-context4-v1-quality-plan",
+  "short_source_limitation": "Sources contain 52–76 registered words but target instructions request 250–500. This mismatch is disclosed separately from forced frame stopping; no assumption that full-length output would remain supported."
+}

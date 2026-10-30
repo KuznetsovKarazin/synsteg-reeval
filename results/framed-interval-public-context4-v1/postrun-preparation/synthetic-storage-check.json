@@ -1,0 +1,26 @@
+{
+  "duplicate_output_refused": true,
+  "empty_directory_preserved": true,
+  "frozen_storage_sha256": "7a791b2685220f58c6b637b3642bf6e46c5f5d08269592e31739914d1193ffa6",
+  "model_calls": 0,
+  "nonce_ledger_preserved": true,
+  "resources_excluded": true,
+  "schema": "framed-interval-public-context4-v1-storage-wrapper-synthetic-check",
+  "status": "passed",
+  "subtrees": [
+    {
+      "exact_source_match": true,
+      "files": 3,
+      "label": "results",
+      "restore": "passed"
+    },
+    {
+      "exact_source_match": true,
+      "files": 1,
+      "label": "sender-nonces",
+      "restore": "passed"
+    }
+  ],
+  "synthetic_data_only": true,
+  "tokenizer_calls": 0
+}

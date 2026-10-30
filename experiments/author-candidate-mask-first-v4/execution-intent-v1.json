@@ -1,0 +1,13 @@
+{
+  "automatic_retry": false,
+  "closed_test_allowed": false,
+  "experiment_id": "author-candidate-mask-first-v4",
+  "logical_requests": 2,
+  "maximum_physical_attempts": 2,
+  "outcomes_known": false,
+  "output": "results/author-candidate-mask-first-v4/native-diagnostic-v4",
+  "paid_calls_allowed": false,
+  "proposal_sha256": "b12ff46ff99e6d8038afc4f924b395e5807b831ba110f095142bc9f74e652b1a",
+  "schema": "author-candidate-mask-first-v4-execution-intent-v1",
+  "source_closure_sha256": "2dd32e5767eb0d3d4b9bdf567619aa042c0c2e30591459a67cb4b79ab71c4887"
+}

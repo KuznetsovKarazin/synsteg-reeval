@@ -1,0 +1,30 @@
+{
+  "schema": "large-campaign-cloud-continuation-v3",
+  "scientific_arm": "large-campaign-development-v2",
+  "utility_id": "large-campaign-resume-v3",
+  "base_commit": "c24ecdeb3e019b70c4d520b2f9c19748dad36389",
+  "starting_completed_tinyllama": 2,
+  "fixed_tinyllama_denominator": 100,
+  "all_model_record_denominator": 300,
+  "next_checkpoint_milestone": 30,
+  "maximum_tinyllama_completed": 100,
+  "max_new_attempts_per_invocation": 2,
+  "fixed_order": true,
+  "generation_parameters_changed": false,
+  "old_completed_attempts_repeated": false,
+  "remote_readback_required_before_each_batch": true,
+  "retain_all_failures_and_not_attempted": true,
+  "stopping_conditions": [
+    "all100TinyLlama completed",
+    "unknown or failed attempt",
+    "runtime/resource/ledger integrity error",
+    "remote persistence conflict or failure",
+    "execution interruption or new user instruction"
+  ],
+  "stop_by_quality_or_capacity_allowed": false,
+  "closed_test_enabled": false,
+  "paid_calls_enabled": false,
+  "other_model_arms": "remain not_attempted; require separate verified launch",
+  "nonce_or_key_search": false,
+  "canonical_channel_v2": "separate method-development ID; no new model generation in that branch by this plan"
+}

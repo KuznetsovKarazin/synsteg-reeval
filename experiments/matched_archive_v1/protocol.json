@@ -1,0 +1,32 @@
+{
+  "experiment_id": "matched-archive-v1",
+  "scope": "retrospective_same_cover_same_payload_resource_comparison",
+  "base_main": "2a0a83f8c0a08d4e032d1c8a4920ac04dbd7e093",
+  "archive_sha256": "793c419e19b09a038af439fceb0c8727f2d809e2e855444d66839fd8132ef790",
+  "cohorts": {"reports/gpt6_luna_missing": 300, "reports/qwen_missing_b3": 75},
+  "primary_payload": "complete_original_record_message_128_256_512_bits",
+  "secondary_payload": "first_16_bits_of_each_original_message_no_original_arm",
+  "fixed_seed": "matched-archive-v1",
+  "fixed_configurations": [
+    {"id": "strict_b1_g2", "max_bits_per_position": 1, "min_group_size": 2},
+    {"id": "strict_b2_g2", "max_bits_per_position": 2, "min_group_size": 2},
+    {"id": "lowrate_b1_g1", "max_bits_per_position": 1, "min_group_size": 1},
+    {"id": "ceiling_b5_g1", "max_bits_per_position": 5, "min_group_size": 1}
+  ],
+  "fixed_common": {"protect_capitalized": true, "candidate_filter_id": "none", "scorer_id": "none", "selection": "canonical", "framing": "external_length", "external_metadata_bits": 32},
+  "public_dictionaries": ["data/shared_dictionary_recovery_v1.json", "data/shared_dictionary_recovery_v2.json"],
+  "public_common": {"min_group_size": 1, "max_bits_per_slot": 2, "selector": "canonical", "framings": ["plain_length16", "aes_siv"], "fixture_key_hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f"},
+  "denominators": {"independent_new_cover_generations": 0, "archived_records": 375, "primary_rows": 3375, "secondary_rows": 3000, "total_rows": 6375},
+  "primary_metrics": ["complete_exact_delivery_on_all_requested_records", "capacity_refusals_and_other_errors", "requested_and_delivered_bits", "source_and_stego_words", "codebook_utf8_and_zlib9_bytes", "external_metadata_bits", "public_resource_bytes_once", "frame_overhead_bits"],
+  "checks": ["archive_and_member_identity", "original_exact_reencode_and_decode", "fresh_process_receiver_with_only_receiver_inputs", "independent_output_and_denominator_audit", "deterministic_replay_without_new_generation"],
+  "preserve": "all_rows_all_refusals_and_zero_capacities_complete_successful_outputs_and_codebooks",
+  "prohibited": ["new_generation", "paid_API", "closed_Wikipedia_test", "post_result_parameter_selection", "semantic_or_security_claim_from_codec_success"],
+  "limitations": [
+    "Historical cover acceptance was conditioned on fitting the payload; final stored mapping is shortened after embedding. No raw pre-embed candidate tables exist for the final used slot.",
+    "New fixed mapping ignores old bit labels but inherits archived candidate-set provenance; this is not prospective payload independence or the prior neural-quality v3 arm.",
+    "Native framing differs: archived structural length, fixed external32, public plain intext16 or authenticated intext144. Report separately, including grosscapacity>=payload as diagnostic.",
+    "Public raw v1/v2 are not semantic certificates; morphology/context variants are excluded from this focused comparison because previous independent evidence already describes their capacity limits.",
+    "The b5g1 ceiling is a prespecified diagnostic with no quality choice in singleton groups, not a tuned recommendation.",
+    "No new PPL, human ratings or classifier training in this stage; archived steganalysis must not be transferred to newly encoded outputs."
+  ]
+}

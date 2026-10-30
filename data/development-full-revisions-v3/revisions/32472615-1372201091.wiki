@@ -1,0 +1,219 @@
+{{Short description|Constellation in Chinese astronomy}}
+According to traditional [[Traditional Chinese star names#Categories of Chinese traditional uranography|Chinese uranography]], the modern constellation '''[[Perseus (constellation)|Perseus]]''' is located within the western quadrant of the sky, which is symbolized as the '''[[White Tiger (Chinese astronomy)|White Tiger of the West]]''' (西方白虎, ''Xī Fāng Bái Hǔ'').
+
+The name of the western constellation in modern Chinese is 英仙座 (''yīng xiān zuò''), which means "the brave god constellation".
+
+==Stars==
+The map of Chinese constellation in constellation '''Perseus''' area consists of:
+{| class="wikitable"
+|-
+!'''Four Symbols'''
+ !'''Mansion (Chinese name)'''
+ !'''Romanization'''
+ !'''Translation'''
+ !'''Asterisms (Chinese name)'''
+ !'''Romanization'''
+ !'''Translation'''
+ !'''Western star name'''
+ !'''Proper Name'''
+ !'''Chinese star name'''
+ !'''Romanization'''
+ !'''Translation'''
+
+|-
+| rowspan="74" | '''[[White Tiger (Chinese astronomy)|White Tiger of the West (西方白虎)]]'''
+| rowspan="5" |婁
+| rowspan="5"|''Lóu''
+| rowspan="5"|[[Bond (Chinese constellation)|Bond]]
+| rowspan="5" |天大將軍
+| rowspan="5"|''Tiāndàjiāngjūn''
+| rowspan="5"|Heaven's Great General
+|-
+|[[Phi Persei|φ Per]]<ref name=sb0>{{in lang|zh}} [http://aeea.nmns.edu.tw/2006/0607/ap060710.html AEEA (Activities of Exhibition and Education in Astronomy) 天文教育資訊網 2006 年 7 月 10 日] {{Webarchive|url=https://web.archive.org/web/20110716123113/http://aeea.nmns.edu.tw/2006/0607/ap060710.html |date=2011-07-16 }}</ref>||Dajiangjunbei|||天大將軍二||Tiāndàjiāngjūnèr||2nd star
+|-
+|[[3 Persei|3 Per]]|||||天大將軍增十五||Tiāndàjiāngjūnzēngshíwǔ||15th additional star
+|-
+|[[2 Persei|2 Per]]|||||天大將軍增十六||Tiāndàjiāngjūnzēngshíliù||16th additional star
+|-
+|[[14 Persei|14 Per]]|||||天大将军增十七||Tiāndàjiāngjūnzēngshíqī||17th additional star
+|-
+| rowspan="46" |胃
+| rowspan="46"|''Wèi''
+| rowspan="46"|[[Stomach (Chinese constellation)|Stomach]]
+|-
+||胃<ref name=sb100>this is not original mansion for this constellation and listing is only for additional stars</ref>||''Wèi''||Stomach||[[21 Persei|21 Per]]|||||胃宿增三||Wèisùzēngsān||3rd additional star
+|-
+| rowspan="24" |大陵
+| rowspan="24"|''Dàlíng''
+| rowspan="24"|Mausoleum
+|-
+|[[9 Persei|9 Per]]<ref name="ridpathperseus">[http://www.ianridpath.com/startales/perseus.html#chinese Ian Ridpath's Star Tales - Perseus]</ref>|||||大陵一||Dàlíngyī||1st star
+|-
+|[[Tau Persei|τ Per]]<ref name=sb1>{{in lang|zh}} [http://aeea.nmns.edu.tw/2006/0607/ap060711.html AEEA (Activities of Exhibition and Education in Astronomy) 天文教育資訊網 2006 年 7 月 11 日]</ref>|||||大陵二 ||Dàlíngèr||2nd star
+|-
+|[[Iota Persei|ι Per]]<ref name=sb1/>|||||大陵三||Dàlíngsān||3rd star
+|-
+|[[Kappa Persei|κ Per]]<ref name=sb1/>||Misam (for component Aa)|||大陵四||Dàlíngsì||4th star
+|-
+|  rowspan="3" | [[Algol|β Per]]<ref name=sb1/>
+|  rowspan="3" |Algol
+|-
+||大陵五||Dàlíngwu||5th star
+|-
+||天仓北第三星||Tiāncāngběidìsānxīng||Third star in the north of [[Bond (Chinese constellation)|Square Celestial Granary]] constellation
+|-
+|[[Rho Persei|ρ Per]]<ref name=sb1/>|||||大陵六||Dàlíngliù||6th star
+|-
+|[[16 Persei|16 Per]]<ref name="ridpathperseus"/>|||||大陵七||Dàlíngqī||7th star
+|-
+|[[12 Persei|12 Per]]<ref name="ridpathperseus"/>|||||大陵八||Dàlíngbā||8th star
+|-
+|[[Chi Persei|χ Per]]|||||大陵增一||Dàlíngzēngyī||1st additional star
+|-
+|[[8 Persei|8 Per]]|||||大陵增二||Dàlíngzēngèr||2nd additional star
+|-
+|[[5 Persei|5 Per]]|||||大陵增三||Dàlíngzēngsān||3rd additional star
+|-
+|[[1 Persei|1 Per]]|||||大陵增四||Dàlíngzēngsì||4th additional star
+|-
+|[[4 Persei|4 Per]]|||||大陵增五||Dàlíngzēngwǔ||5th additional star
+|-
+|[[Theta Persei|θ Per]]|||||大陵增十三||Dàlíngzēngshísān||13th additional star
+|-
+|[[14 Persei|14 Per]]|||||大陵增十四||Dàlíngzēngshísì||14th additional star
+|-
+|[[20 Persei|20 Per]]|||||大陵增十五||Dàlíngzēngshíwǔ||15th additional star
+|-
+|[[17 Persei|17 Per]]|||||大陵增十六||Dàlíngzēngshíliù||16th additional star
+|-
+|[[HD 18665]]|||||大陵增十七||Dàlíngzēngshíqī||17th additional star
+|-
+|[[Omega Persei|ω Per]]|||||大陵增十八||Dàlíngzēngshíbā||18th additional star
+|-
+|[[32 Persei|32 Per]]|||||大陵增十九||Dàlíngzēngshíjiǔ||19th additional star
+|-
+|[[30 Persei|30 Per]]|||||大陵增二十||Dàlíngzēngèrshí||20th additional star
+|-
+| rowspan="16" |天船
+| rowspan="16"|''Tiānchuán''
+| rowspan="16"|Celestial Boat
+|-
+|[[Eta Persei|η Per]]<ref name=sb1/>||Miram (for component A)|||天船一||Tiānchuányī||1st star
+|-
+|[[Gamma Persei|γ Per]]<ref name=sb1/>|||||天船二 ||Tiānchuánèr||2nd star
+|-
+|[[Alpha Persei|α Per]]<ref name=sb1/>||Mirfak|||天船三||Tiānchuánsān||3rd star
+|-
+|[[Psi Persei|ψ Per]]<ref name=sb1/>|||||天船四||Tiānchuánsì||4th star
+|-
+|[[Delta Persei|δ Per]]<ref name=sb1/>||Sarvvis|||天船五||Tiānchuánwu||5th star
+|-
+|[[48 Persei|48 Per]]<ref name=sb10>{{in lang|zh}} [http://wbbs.cc.ncku.edu.tw/ccns/index.php/8/179/485635  夢之大地 @ 國立成功大學 WebBBS DreamLand @ National Cheng Kung University WebBBS System] {{webarchive|url=https://web.archive.org/web/20110902003808/http://wbbs.cc.ncku.edu.tw/ccns/index.php/8/179/485635 |date=2011-09-02 }}</ref>|||||天船六||Tiānchuánliù||6th star
+|-
+|[[Mu Persei|μ Per]]<ref name=sb1/>|||||天船七||Tiānchuánqī||7th star
+|-
+|[[HD 27084]]|||||天船八||Tiānchuánbā||8th star
+|-
+|[[29 Persei|29 Per]]|||||天船增一||Tiānchuánzēngyī||1st additional star
+|-
+|[[31 Persei|31 Per]]|||||天船增二||Tiānchuánzēngèr||2nd additional star
+|-
+|[[34 Persei|34 Per]]|||||天船增三||Tiānchuánzēngsān||3rd additional star
+|-
+|[[Sigma Persei|σ Per]]|||||天船增四||Tiānchuánzēngsì||4th additional star
+|-
+|[[36 Persei|36 Per]]|||||天船增五||Tiānchuánzēngwǔ||5th additional star
+|-
+|[[53 Persei|53 Per]]|||||天船增六||Tiānchuánzēngliù||6th additional star
+|-
+|[[HD 26961]]<ref name=sb10/>|||||天船增十||Tiānchuánzēngshí||10th additional star
+|-
+||積屍||''Jīshī''||Heap of Corpses||[[Pi Persei|π Per]]<ref name=sb1/>|||||積屍||Jīshī||(One star of)
+|-
+| rowspan="3" |積水
+| rowspan="3"|''Jīshuǐ''
+| rowspan="3"|Stored Water
+|-
+|[[Lambda Persei|λ Per]]<ref name=sb1/>|||||積水||Jīshuǐ||(One star of)
+|-
+|[[43 Persei|43 Per]]|||||積水增一||Jīshuǐzēngyī||1st additional star
+|-
+| rowspan="18" |昴
+| rowspan="18"|''Mǎo''
+| rowspan="18"|[[Hairy Head (Chinese constellation)|Hairy Head]]
+| rowspan="17" |卷舌
+| rowspan="17"|''Juǎnshé''
+| rowspan="17"|Rolled Tongue
+|-
+|[[Nu Persei|ν Per]]<ref name=sb2>{{in lang|zh}} [http://aeea.nmns.edu.tw/2006/0607/ap060712.html AEEA (Activities of Exhibition and Education in Astronomy) 天文教育資訊網 2006 年 7 月 12 日] {{Webarchive|url=https://web.archive.org/web/20110522001503/http://aeea.nmns.edu.tw/2006/0607/ap060712.html |date=2011-05-22 }}</ref>|||||卷舌一||Juǎnshéyī||1st star
+|-
+|  rowspan="3" | [[Epsilon Persei|ε Per]]<ref name=sb2/>
+|  rowspan="3" |Áldu
+|-
+||卷舌二||Juǎnshéèr||2nd star
+|-
+||卷舌东第二星||Juǎnshédōngdìèrxīng||Second eastern star
+|-
+|[[Xi Persei|ξ Per]]<ref name=sb2/>||Menkib|||卷舌三||Juǎnshésān||3rd star
+|-
+|  rowspan="3" | [[Zeta Persei|ζ Per]]<ref name=sb2/>
+|  rowspan="3" |
+|-
+||卷舌四||Juǎnshésì||4th star
+|-
+||卷舌东第四星||Juǎnshédōngdìsìxīng||Fourth eastern star
+|-
+|[[Omicron Persei|ο Per]]<ref name=sb2/>||Atik (for component Aa)|||卷舌五||Juǎnshéwu||5th star
+|-
+|[[40 Persei|40 Per]]<ref name="ridpathperseus"/>|||||卷舌六||Juǎnshéliù||6th star
+|-
+|[[HD 22124]]|||||卷舌增一||Juǎnshézēngyī||1st additional star
+|-
+|[[55 Persei|55 Per]]|||||卷舌增二||Juǎnshézēngèr||2nd additional star
+|-
+|[[54 Persei|54 Per]]|||||卷舌增三||Juǎnshézēngsān||3rd additional star
+|-
+|[[49 Persei|49 Per]]|||||卷舌增四||Juǎnshézēngsì||4th additional star
+|-
+|[[50 Persei|50 Per]]|||||卷舌增五||Juǎnshézēngwǔ||5th additional star
+|-
+|[[52 Persei|52 Per]]|||||卷舌增六||Juǎnshézēngliù||6th additional star
+|-
+| |天讒||''Tiānchán''||Celestial Slander||[[42 Persei|42 Per]]<ref name="ridpathperseus"/>|||||天讒||Tiānchán||(One star of)
+|-
+| rowspan="5" |畢<ref name=sb100/>
+| rowspan="5"|''Bì''
+| rowspan="5"|[[Net (Chinese constellation)|Net]]
+| rowspan="5" |五車<ref name=sb100/>
+| rowspan="5"|''Wǔchē''
+| rowspan="5"|Five Chariots
+|-
+|[[59 Persei|59 Per]]|||||五車增一||Wǔchēzēngyī||1st additional star
+|-
+|[[57 Persei|57 Per]]|||||五車增二||Wǔchēzēngèr||2nd additional star
+|-
+|[[58 Persei|58 Per]]|||||五車增三||Wǔchēzēngsān||3rd additional star
+|-
+|[[HD 28693]]|||||五车增十九||Wǔchēzēngshíjiǔ||19th additional star
+|-
+|}
+
+==See also==
+*[[Chinese astronomy]]
+*[[Traditional Chinese star names]]
+*[[Chinese constellations]]
+
+==References==
+{{reflist}}
+
+==External links==
+*[http://www.ianridpath.com/startales/perseus.html#chinese Perseus – Chinese associations]
+* [http://www.lcsd.gov.hk/CE/Museum/Space/ 香港太空館][https://web.archive.org/web/20120813070951/http://www.lcsd.gov.hk/CE/Museum/Space/Research/c_index.htm 研究資源]
+** [https://web.archive.org/web/20120712132630/http://www.lcsd.gov.hk/CE/Museum/Space/Research/StarName/c_research_chinengstarzone_b.htm 中國星區、星官及星名英譯表]
+** [https://web.archive.org/web/20121002051949/http://www.lcsd.gov.hk/CE/Museum/Space/Research/Literature/c_research_literature.htm 天象文學]
+* [http://www.nmns.edu.tw/ 台灣自然科學博物館][http://aeea.nmns.edu.tw/ 天文教育資訊網]
+** [https://web.archive.org/web/20090120043712/http://aeea.nmns.edu.tw/aeea/contents_list/ancient_chinese_astronomy.html 中國古天文]
+** [https://web.archive.org/web/20120116230802/http://aeea.nmns.edu.tw/aeea/contents_list/star_sign.html 中國古代的星象系統]
+
+[[Category:Astronomy in China]]
+[[Category:Perseus (constellation)]]

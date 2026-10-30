@@ -1,0 +1,81 @@
+{
+  "cover_text": "Public protocol fixture:\nSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?",
+  "dictionary": {
+    "classes": [
+      {
+        "id": "calm",
+        "words": [
+          "calm",
+          "placid",
+          "serene",
+          "tranquil"
+        ]
+      },
+      {
+        "id": "pace",
+        "words": [
+          "fast",
+          "quick",
+          "rapid",
+          "swift"
+        ]
+      },
+      {
+        "id": "size",
+        "words": [
+          "compact",
+          "dinky",
+          "little",
+          "miniature",
+          "petite",
+          "small",
+          "tiny",
+          "wee"
+        ]
+      }
+    ],
+    "schema": "synsteg-public-dictionary-v1",
+    "version": "reference-fixture-v1"
+  },
+  "dictionary_sha256": "038eb9a3680d200b8c09b18c468bf306f1bcca727280218189c6609fdb446a9e",
+  "key_hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+  "payload_hex": "00ff",
+  "schema": "synsteg-shared-dictionary-reference-vectors-v1",
+  "vectors": [
+    {
+      "capacity_bits": 160,
+      "changed_slots": 81,
+      "consumed_slots": 120,
+      "frame_bits": 160,
+      "frame_hex": "0002446c5f83669545a56a04c6dab52b0c5a1735",
+      "normalization_sha256": "8ac861a5f95c59a956ec68bd596f27dfb540a003ef7848282cdf51fd64b0d231",
+      "padding_bits": 0,
+      "protocol": {
+        "framing": "aes_siv",
+        "max_bits_per_slot": 2,
+        "min_group_size": 2,
+        "version": "synsteg-shared-dictionary-aes-siv-v1"
+      },
+      "protocol_sha256": "62b7db97be59150d3b3b28aea5f3979549cc83be182b6ed3bec2f088c0bc5489",
+      "stego_text": "Public protocol fixture:\nDinky,\tQUICK!\tcalm?\tPetite,\tFAST!\tplacid?\tDinky,\tQUICK!\tcalm?\tSmall,\tQUICK!\tcalm?\tDinky,\tQUICK!\tcalm?\tPetite,\tQUICK!\tcalm?\tDinky,\tFAST!\tserene?\tMiniature,\tFAST!\tplacid?\tDinky,\tFAST!\tcalm?\tMiniature,\tFAST!\tserene?\tCompact,\tFAST!\tcalm?\tCompact,\tFAST!\tcalm?\tDinky,\tRAPID!\tplacid?\tLittle,\tRAPID!\tplacid?\tCompact,\tFAST!\tplacid?\tSmall,\tQUICK!\tplacid?\tLittle,\tRAPID!\tserene?\tMiniature,\tFAST!\tcalm?\tLittle,\tQUICK!\tserene?\tLittle,\tFAST!\tplacid?\tCompact,\tRAPID!\tcalm?\tMiniature,\tRAPID!\tcalm?\tCompact,\tFAST!\tcalm?\tMiniature,\tQUICK!\tcalm?\tLittle,\tQUICK!\tcalm?\tCompact,\tFAST!\tplacid?\tDinky,\tRAPID!\tplacid?\tPetite,\tQUICK!\tcalm?\tMiniature,\tFAST!\tplacid?\tCompact,\tQUICK!\tcalm?\tLittle,\tRAPID!\tcalm?\tCompact,\tFAST!\tplacid?\tDinky,\tRAPID!\tplacid?\tDinky,\tFAST!\tcalm?\tLittle,\tFAST!\tserene?\tTiny,\tQUICK!\tcalm?\tDinky,\tQUICK!\tserene?\tSmall,\tRAPID!\tplacid?\tDinky,\tQUICK!\tcalm?\tPetite,\tRAPID!\tserene?"
+    },
+    {
+      "capacity_bits": 160,
+      "changed_slots": 12,
+      "consumed_slots": 24,
+      "frame_bits": 32,
+      "frame_hex": "000200ff",
+      "normalization_sha256": "8ac861a5f95c59a956ec68bd596f27dfb540a003ef7848282cdf51fd64b0d231",
+      "padding_bits": 0,
+      "protocol": {
+        "framing": "plain_length16",
+        "max_bits_per_slot": 2,
+        "min_group_size": 2,
+        "version": "synsteg-shared-dictionary-aes-siv-v1"
+      },
+      "protocol_sha256": "4898013727860a814cbefa06b1bd4198e8845eca0b120f42a001ba68c3866fa0",
+      "stego_text": "Public protocol fixture:\nMiniature,\tFAST!\tcalm?\tMiniature,\tRAPID!\tcalm?\tCompact,\tFAST!\tcalm?\tPetite,\tQUICK!\tserene?\tCompact,\tFAST!\tcalm?\tSmall,\tQUICK!\tcalm?\tDinky,\tFAST!\tcalm?\tLittle,\tFAST!\tserene?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?\tSmall,\tFAST!\tcalm?"
+    }
+  ],
+  "warning": "Public deterministic unit fixtures only. Never use this key in production."
+}

@@ -1,0 +1,133 @@
+{
+  "schema": "framed-interval-llm-v1-vocab-concrete-build-plan-v1",
+  "state": "planned_not_compiled",
+  "runtime_commit": "ea9e3446b5c84a7f972cbbdea9df615fc4ff9159",
+  "source_cpp": "scripts/framed_interval_llm_vocab_bridge.cpp",
+  "sources_sha256": {
+    "src/synsteg_audit/__init__.py": "18ab6e0e8c68a1394d26158039f3a4f647fe701f5f5062b628a359a2c4c96ef8",
+    "src/synsteg_audit/framed_interval_llm_v1.py": "64ebbfe07b526d62789ae27a4f55feb717e83abf9e0a2ca72bb593ff9f30ff00",
+    "src/synsteg_audit/framed_interval_llm_v1_qwen.py": "5ced911eb6929785d2602bebf19d1be298b8faaa6aec5f4900ee102f98fd364d",
+    "src/synsteg_audit/canonical_channel_v2.py": "ae50caf00e0240e48f5fe53a67bd22a49a5f878a057c93c24c4950438741baa4",
+    "src/synsteg_audit/integer_interval_channel_v1.py": "9c056724563069db3690e3b5df6fef0c639d528d2dd5e0df44ecd2ff80ba71df",
+    "src/synsteg_audit/seeded_pair_llm.py": "687e5c74b7b3f6675e2d057d13146f3ffa716a58fbf77522830b58b023ba89f0",
+    "scripts/restore_framed_interval_llm_v1_resources.py": "284904969e2663472bfcb8caa19b776801771120b4156911b8dafb77c01c97f9",
+    "scripts/framed_interval_llm_vocab_bridge.cpp": "1103814e20296f2cdc9136028a36261ba0be428fb62ca9bb8c855568d24aa8a1",
+    "src/synsteg_audit/framed_interval_llm_v1_vocab_collect.py": "0ee0aa5b4631cb6750f7a9084cba81234626d9de42be9d3a14efe66814863ab4",
+    "src/synsteg_audit/framed_interval_llm_v1_preflight.py": "e4a316cf42048e0ec2ea3799c9fa8f465883564c729e0ccefc102f3d7bef87a8",
+    "src/synsteg_audit/framed_interval_llm_v1_activation.py": "262f9aff1f12e421031ef5e9c961229df986bf6bb4c69f96e0557129d830340d",
+    "src/synsteg_audit/framed_interval_llm_v1_journal.py": "c80518a5838c6be9b0de10eb103ef70270a6826194708a566439fc99e7828e00",
+    "src/synsteg_audit/framed_interval_llm_v1_orchestration.py": "c17f0c1b537a562a4187192a8d7785489afdd17a7f17d97cbd9eb40c9ad0779c",
+    "experiments/framed-interval-llm-v1/collect_vocab_preflight.py": "20d049280d5bc4f63d76785ebed44b124405cd44a139999eb5c3eabc59f77fd0"
+  },
+  "source_bundle_sha256": "474d08b1e71b2a22d172a2d8d997d88925f57ab58273777e3c0a7cb49fe4ef0e",
+  "preparation_script": {
+    "path": "scripts/prepare_framed_interval_llm_vocab_activation.py",
+    "sha256": "b4d92d91acaf29b8a7d150739cad232d3b0e5c7f8d3cc0d540de382951706fdb"
+  },
+  "compiler": {
+    "path": "/usr/bin/x86_64-linux-gnu-g++-13",
+    "sha256": "52f1ddb33fe78b9441e0f42e9cd22c571f1101938e046c8a26582494e041cc73"
+  },
+  "compiler_subtools": {
+    "cc1plus": {
+      "path": "/usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus",
+      "sha256": "0c471c0d6f729fb4ce5fb0a6e4af2af10ac9c4639040f3c956e7d9dd328a5e8f"
+    },
+    "collect2": {
+      "path": "/usr/libexec/gcc/x86_64-linux-gnu/13/collect2",
+      "sha256": "da5668577f3e081e5010726ea5605871e6d8e717495344ddbdfdf46859e64ef2"
+    },
+    "assembler": {
+      "path": "/usr/bin/x86_64-linux-gnu-as",
+      "sha256": "d0b9315551af88dba9e4f141f270278ff7326d4ed0996b4317067e4fd062cd5e"
+    },
+    "linker": {
+      "path": "/usr/bin/x86_64-linux-gnu-ld.bfd",
+      "sha256": "5b674ea1d7017c2929f3c52c43487478bb240ecdd7197a25cce3813a70329a5c"
+    }
+  },
+  "build_command": [
+    "/usr/bin/x86_64-linux-gnu-g++-13",
+    "-std=c++17",
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-fno-fast-math",
+    "-ffp-contract=off",
+    "-Iresources/framed-interval-llm-v1-vocab-headers/include",
+    "-Iresources/framed-interval-llm-v1-vocab-headers/ggml/include",
+    "scripts/framed_interval_llm_vocab_bridge.cpp",
+    "resources/seeded-pair-llm-v1/runtime/llama-b11791/libllama.so.0.7.0",
+    "-Wl,-rpath-link,resources/seeded-pair-llm-v1/runtime/llama-b11791",
+    "-o",
+    "resources/framed-interval-llm-v1-vocab/framed_interval_llm_vocab_bridge"
+  ],
+  "build_environment": {
+    "PATH": "/usr/bin:/bin",
+    "LANG": "C",
+    "LC_ALL": "C"
+  },
+  "working_directory": "repository_root",
+  "compile_timeout_seconds": 120,
+  "compile_attempts": 1,
+  "binary_path": "resources/framed-interval-llm-v1-vocab/framed_interval_llm_vocab_bridge",
+  "binary_exists_at_planning": false,
+  "headers": {
+    "resources/framed-interval-llm-v1-vocab-headers/include/llama.h": "961430f89e2553dbcd99e3e6c59826af9ec143f05911520c74f804d986ff3cd2",
+    "resources/framed-interval-llm-v1-vocab-headers/ggml/include/ggml.h": "475beaa7e959be8c383279d9ce9d5191f37426e6b338270cfb12b26a798129d3",
+    "resources/framed-interval-llm-v1-vocab-headers/ggml/include/ggml-cpu.h": "316279e004cdeb8e6ef78599acb602bf79a8abdf897fed9fd1914808c1518c6e",
+    "resources/framed-interval-llm-v1-vocab-headers/ggml/include/ggml-backend.h": "0e5e8e1f16d11ebbf501e38bc6705d79eee819b5f0b17476533f2100ed9674e2",
+    "resources/framed-interval-llm-v1-vocab-headers/ggml/include/ggml-opt.h": "3586de1bc8a934b5c72339e2b6937b0641e8f149b512231e666f67de0736eea2",
+    "resources/framed-interval-llm-v1-vocab-headers/ggml/include/gguf.h": "e56714aab702e5ce62ee587a409643c08f7e93e8fbb77f48ef7cc85075f96fa4",
+    "resources/framed-interval-llm-v1-vocab-headers/ggml/include/ggml-alloc.h": "d114067f9099c4a0e2bbc0625c676d4894d9cf0ea27168ee072c7de0e71bb51d"
+  },
+  "header_provenance": {
+    "path": "resources/framed-interval-llm-v1-vocab-headers/provenance.json",
+    "sha256": "be82a7e3da98ce2f5fbfa89edad3185b95467a3ffeba294f77188f95159af5b7"
+  },
+  "upstream_license": {
+    "path": "resources/framed-interval-llm-v1-vocab-headers/LICENSE",
+    "sha256": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d"
+  },
+  "resource_root": "resources/seeded-pair-llm-v1",
+  "resource_restore_receipt": {
+    "path": "results/framed-interval-llm-v1-resource-restore/download-and-verify.json",
+    "sha256": "307edb2667ce05b21a56116357a94edebb0a83e7457948616e47bf24193a8dee"
+  },
+  "resource_identity_sha256": "a5a389e25ba057b7d965f8bc6dffb0988b2290fb38562bd3958d3ac37d02a4f5",
+  "link_resource_files_sha256": {
+    "resources/seeded-pair-llm-v1/runtime/llama-b11791/libllama.so.0.7.0": "4c054daf65e763f4563b1dc702141e6937ba2d4636a80ac13eb1f9f31a1c6731",
+    "resources/seeded-pair-llm-v1/runtime/llama-b11791/libggml.so.0.27.0": "8643a58bb37af6fb153e2ea98b48efa227855725ee51c05f4ca76b9867956463",
+    "resources/seeded-pair-llm-v1/runtime/llama-b11791/libggml-base.so.0.27.0": "34ae7cd0afb50808e867d44f2cced9b68aa01c176ff23cd602c468e97f9d4f7c"
+  },
+  "tokenizer_plan": {
+    "path": "experiments/framed-interval-llm-v1/tokenizer-preflight-proposal.json",
+    "sha256": "86d3c68c44a6ed35e3a9e39b05b4ec4047262bb549bf7934de98a969a026c9a5"
+  },
+  "static_dependency_review": {
+    "path": "results/framed-interval-llm-v1-audit/vocab-build-dependency-review-v1.json",
+    "sha256": "e62aadc12b6c89df8ab85defee01911642e2baa072cfd43b7e238c3c6f704dec"
+  },
+  "future_build_evidence_path": "results/framed-interval-llm-v1-vocab-build/execution.json",
+  "future_build_receipt_path": "results/framed-interval-llm-v1-vocab-build/build-receipt.json",
+  "future_activation_path": "experiments/framed-interval-llm-v1/vocab-activation-after-build-v1.json",
+  "guards": {
+    "compiler_executions": 0,
+    "linker_executions": 0,
+    "binary_executions": 0,
+    "real_tokenizer_calls": 0,
+    "neural_forward_calls": 0,
+    "enabled_activation_created": false
+  },
+  "limitations": [
+    "Compiler driver and four subtools pinned; current standard C++/system headers are system dependencies, not the upstream7-header closure.",
+    "Build hashes bind actual compiler output after compilation; a plan does not prove ABI or vocabulary-only native semantics.",
+    "LD_LIBRARY_PATH is set by the frozen collector to the old runtime directory; no rpath or direct CPU backend link is requested.",
+    "Static system-library closure is an expected allowlist, not resident-process attestation."
+  ],
+  "system_library_manifest": {
+    "path": "experiments/framed-interval-llm-v1/vocab-static-system-libraries-v1.json",
+    "sha256": "d49c3bf0dedea119bafdec7e81415449fe5c637bc94560eeac9b0a90a8974464"
+  }
+}

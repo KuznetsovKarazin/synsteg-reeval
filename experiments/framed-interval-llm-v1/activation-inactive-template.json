@@ -1,0 +1,22 @@
+{
+  "final_freeze_commit": null,
+  "coordinator_readback": null,
+  "freeze_manifest": null,
+  "resource_receipt": null,
+  "runtime": null,
+  "qwen_binding_manifest": null,
+  "ready": null,
+  "preflight_plan": null,
+  "preflight_receipt": null,
+  "preflight_inventory": null,
+  "collector_source_sha256": null,
+  "native_system_libraries_sha256": null,
+  "schema": "framed-interval-llm-v1-activation-v1",
+  "experiment_id": "framed-interval-llm-v1",
+  "enabled": false,
+  "public_protocol": {
+    "path": "experiments/framed-interval-llm-v1/receiver-public-protocol.json",
+    "sha256": "4cab7dd3035ac1ad298952814c12b12ecbe2d021f4b9cd14b35692a2c300d6ff"
+  },
+  "expected_public_runs_sha256": "7273f20fdff6d781b7b9e3bedfd8e3680374ec565e349fa71ecc79a2c9cac24a"
+}

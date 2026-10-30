@@ -1,0 +1,27 @@
+{
+  "enabled": true,
+  "expected_public_runs_sha256": "4e388d355e149c1af92b94d93e0625edf9571d6aa5dc6b2e74b420a32ebd6765",
+  "experiment_id": "framed-interval-bounded-v1",
+  "final_freeze_commit": "f5cdfba1c6a65f449057d19138b125f5ea2ccc6f",
+  "freeze_manifest": {
+    "path": "results/framed-interval-bounded-v1-preparation/freeze-manifest.json",
+    "sha256": "11bf6fa714ee9a41c81aa9f584f260f62d0069ac5aafb838ae01a3776778e103"
+  },
+  "prior_runtime_activation": {
+    "path": "experiments/framed-interval-llm-v1/activation-after-preflight-proc-v1.json",
+    "sha256": "1978302778134592a7835c63be363932cc8b9c353500873b9e7c7aaadc57911b"
+  },
+  "public_protocol": {
+    "path": "experiments/framed-interval-bounded-v1/public-protocol.json",
+    "sha256": "e6fa062b75c9bdc5f8a9887b97bf968493c96858735f11e8f05187ef8751eec2"
+  },
+  "schema": "framed-interval-bounded-v1-activation-v1",
+  "sender_fixtures": {
+    "path": "experiments/framed-interval-bounded-v1/sender-fixtures.json",
+    "sha256": "c54586084ad39c0fa745202254bb30f8be715b5035d5b49165c55af2ae295ffb"
+  },
+  "source_readback": {
+    "path": "results/framed-interval-bounded-v1-preparation/source-readback.json",
+    "sha256": "4c3a1a2c09b9e412d902ee18109bb5dcbf5a96a5c8619bac9cb0413da64436fa"
+  }
+}

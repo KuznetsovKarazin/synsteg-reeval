@@ -1,0 +1,112 @@
+{
+  "schema": "prospective-development-transport-first80-activation-v1",
+  "experiment_id": "prospective-development-transport-first80-v1",
+  "execution_enabled": true,
+  "status": "enabled_pending_external_git_receipt_and_root_launch_gate",
+  "feasibility_protocol_sha256": "1220950e061801e1aebeaf0c6773ef103618c2aa3c5689122b59daa3dde3f09b",
+  "feasibility_protocol_is_unchanged_and_execution_disabled": true,
+  "activation_scope": "Only allnewTinyLlama61–80 publicconditions; exactprior1440reuse; nohistoricalreceiver/model/candidatecalls.",
+  "observed_completed_covers_at_implementation_freeze": 80,
+  "prior_information": {
+    "first60_transport_results_known": true,
+    "prior_public_encoder_attempts": 1440,
+    "prior_exact_deliveries": 150,
+    "prior_capacity_refusals": 1290,
+    "prior_zero_capacity_conditions": 300,
+    "ordinary_covers_completed_before_transport_input_freeze": 80,
+    "not_pure_pre_data_preregistration": true,
+    "no_new_data_claim_for_reused_rows": true
+  },
+  "prior": {
+    "milestone": "results/prospective-development-transport-first60-v1/milestones/tinyllama-first60",
+    "output_manifest_sha256": "d7b57d5d961090d26d36dc63bf6e4e20170bbaaf26542f13925cbd51c42f4da2",
+    "archive_sha256": "67dc28f6da2b238a2c32905e054c00bb26baa279406d11e49800a7b956bf48ae",
+    "source_commit": "b8bc59d8646d1a0a8c85bd08dee62107413f2f27",
+    "independent_audit": "results/prospective-development-transport-first60-v1/audits/tinyllama-first60.json",
+    "independent_audit_sha256": "b3fd6ba51c169d5cf4e3cf7ae6df6de914f93a14f3dbcee9fa48b3ee79886a3a",
+    "cumulative_receiver_jobs": 150,
+    "new_only_recipient_jobs_not_to_use_as_prior": 24
+  },
+  "target": {
+    "milestone_id": "tinyllama-first80",
+    "batch": "batch40",
+    "checkpoint": "results/large-campaign-development-v2/batches/batch40/after-checkpoint.json",
+    "output": "results/prospective-development-transport-first80-v1/milestones/tinyllama-first80",
+    "completed_covers": 80,
+    "cover_counts": {
+      "completed": 80,
+      "not_attempted": 220
+    },
+    "model_counts": {
+      "qwen05": 0,
+      "tinyllama11": 80,
+      "falcon3_1b": 0
+    },
+    "full_model_record_denominator": 300,
+    "total_cells": 15300,
+    "primary_cells": 8100,
+    "secondary16_cells": 7200,
+    "public_cells": 7200,
+    "original_fixed_resource_blocked_cells": 8100,
+    "cumulative_available_public_conditions": 1920,
+    "planned_new_public_conditions": 480,
+    "reused_public_conditions": 1440,
+    "new_source_orders": [
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80
+    ],
+    "selection": "Allfixedfirst80 TinyLlama; only61–80 newencode; noqualityselection.",
+    "prior_receiver_replay": false,
+    "input_binding": "results/prospective-development-transport-first80-v1/input-binding",
+    "unchanged_cell_rows": 14280,
+    "updated_cell_rows": 1020,
+    "planned_cells_per_record": 51,
+    "missing_cover_cells": 11220,
+    "available_resource_blocked_cells": 2160
+  },
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "python_implementation": "CPython",
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+    "cryptography": "50.0.2",
+    "cryptography_openssl": "OpenSSL 4.0.3 29 Sep 2026"
+  },
+  "implementation_files_sha256": {
+    "scripts/run_prospective_development_transport_first80_v1.py": "c5ca43aabda6907d64a820bf0c470244e451c603d782a8a2373f63ec80a5eec0",
+    "scripts/audit_prospective_development_transport_first80_v1.py": "af91d46e4de94886184cce1029ab3ae3577d87eda24fb293f819293559c24c77",
+    "tests/test_prospective_transport_first80_v1.py": "363f8799950cdbbbcd992b13669133257c72f58538330d626419aca80d6f3ee0",
+    "docs/prospective_development_transport_first80_v1_ru.md": "8ad9d4a556f275e613fe2f825e3441144affed9a61880c16e507bd617c34ce78"
+  },
+  "inherited_implementation_files_sha256": {
+    "scripts/run_prospective_development_transport_v1.py": "2a927b07f0a375a77725b7b87a1a05fef7c87485b710e0bc3ffc44bf2b599f03",
+    "scripts/audit_prospective_development_transport_v1.py": "f3919bfb86ff8063c722506c21e5fcc952a2c720c36fe1ee804f14e3b9020fab"
+  },
+  "input_binding_files_sha256": {
+    "results/prospective-development-transport-first80-v1/input-binding/input_bound_grid.jsonl.gz": "7e7af32afae68f315de80e20d47a652badae1fb06ba5d38ccddbcdf0b74f33b5",
+    "results/prospective-development-transport-first80-v1/input-binding/manifest.json": "f21b4fa6aa8c371928d9267733996d5b5fff50cb9730c1d2e6bc3e9c5146ce9a",
+    "results/prospective-development-transport-first80-v1/input-binding/records.jsonl.gz": "1be62eca3ac0f0427765fd8bd8c69fe2c220d466cd8ea1d069e9840f64dbe98e"
+  },
+  "checkpoint_sha256": "eaf43a88d833868b337bc17003a6ef9b80fec59156edfd0667bedd2e7fa0b2dd",
+  "baseline_primary_commit": "ac6fe45b0adf3585a6bbb9fab9976c59f1321ee1",
+  "new_transport_outcomes_known": false,
+  "coordinator_actual_git_baseline_verified_by_helper": false,
+  "git_origin_limitation": "Coordinator verifies remoteorigin; helperchecks suppliedimmutablebytes and recordscommit, notnetworkorigin."
+}

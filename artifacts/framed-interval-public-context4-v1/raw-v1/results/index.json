@@ -1,0 +1,3629 @@
+{
+  "all_regular_files_and_empty_directories_preserved": true,
+  "allow_incomplete_requested": true,
+  "archive": {
+    "bytes": 9767910,
+    "compression": "ZIP_LZMA",
+    "full_zip_local_only_upload_parts": true,
+    "name": "full.zip",
+    "sha256": "16514e1741d5b70d265ea789ebc067e18948abb8b6c8d8f16511f5c69e533d51"
+  },
+  "campaign_files": {
+    "execute-source-readback.json": {
+      "bytes": 10170,
+      "sha256": "8ba38136c1105dae708fb955688e2633f40051185c9c4ddedafc48dbe60e0105"
+    },
+    "generation/after-o001-ordinary-sender.json": {
+      "bytes": 6521,
+      "sha256": "9e11b7b74547b71b049781aa5d2f3ff9b6527ad73582bb05c9104c0f821911c6"
+    },
+    "generation/after-o001-stego-receiver.json": {
+      "bytes": 4715,
+      "sha256": "f93dc73761768bf7240d44e0d2ad8f8a31973cadc171756f6a10ff40d277e9b9"
+    },
+    "generation/after-o001-stego-sender.json": {
+      "bytes": 3009,
+      "sha256": "f30db9751e8027ab5b1d8659090d386c651e7c627700a0a376d42d3979fcaf2b"
+    },
+    "generation/after-o004-ordinary-sender.json": {
+      "bytes": 11897,
+      "sha256": "f87f3b616f1d2e282f67d2ecd69d8936145aff09a7319dd04dd0ba16b550f7ac"
+    },
+    "generation/after-o004-stego-receiver.json": {
+      "bytes": 10090,
+      "sha256": "dd06ecbec1892d732ffe878414d2271cd2122895cbbdf30ce3eaa0c9f8d4294e"
+    },
+    "generation/after-o004-stego-sender.json": {
+      "bytes": 8383,
+      "sha256": "9da2f561411115f5371dbde5ee4573c6c93671e51d0a2dc521433f0ad50716ac"
+    },
+    "generation/after-o007-ordinary-sender.json": {
+      "bytes": 17271,
+      "sha256": "d7c08ab7bc304de01326ef447813c27261964d9d4927d46a97276351213dd062"
+    },
+    "generation/after-o007-stego-receiver.json": {
+      "bytes": 15464,
+      "sha256": "f8781c5b44d386a7df8a39bbed1839746dcedca0730b9cb1f1e70c50471eb885"
+    },
+    "generation/after-o007-stego-sender.json": {
+      "bytes": 13758,
+      "sha256": "96d88428204ac3499c4ef3f8f895de9574c1a606973932ed89b5e505e1f567ce"
+    },
+    "generation/after-o010-ordinary-sender.json": {
+      "bytes": 22648,
+      "sha256": "a26b61070a09f22688702e887ec79ba5b838cca1e6b173f06558cfb9b2b6e2f7"
+    },
+    "generation/after-o010-stego-receiver.json": {
+      "bytes": 20841,
+      "sha256": "5dfc457795b03510b45f306a74ef49d977833a1f32e8ce5977453de471155982"
+    },
+    "generation/after-o010-stego-sender.json": {
+      "bytes": 19134,
+      "sha256": "026d59c77a334269c5d10a1302212fa9bf02597a4075ceeec336e9b7d2eaa6b2"
+    },
+    "generation/initial-denominator.json": {
+      "bytes": 1192,
+      "sha256": "e63b5faa92ed44d854eac3693924050efe44f5477567715b00723b94e1cd9b0c"
+    },
+    "generation/o001-ordinary/sender-inputs/envelope.json": {
+      "bytes": 355,
+      "sha256": "e0912f294d936afef140ce6f881f13b3759911693eeed407b8959d3f83ee9246"
+    },
+    "generation/o001-ordinary/sender-inputs/key.bin": {
+      "bytes": 32,
+      "sha256": "8f2389678fc9823c71af12be6e7506a83795cd4db950a9fb9f50dbc987610181"
+    },
+    "generation/o001-ordinary/sender-inputs/public-context.json": {
+      "bytes": 1126,
+      "sha256": "26074fcc123d71ad8605238553e1ae162612fb621c89809b219e6a7402eda3f2"
+    },
+    "generation/o001-ordinary/sender-process/command.json": {
+      "bytes": 1556,
+      "sha256": "82ba00e20cb29b1fb059e10c8125da85622d09661303de40ac4945b066af48f1"
+    },
+    "generation/o001-ordinary/sender-process/reservation.json": {
+      "bytes": 77,
+      "sha256": "2d13c303c6d3ab4bd0b013ec6f88459f8cf4c2f941bb7f9aeb7f2fb67894214a"
+    },
+    "generation/o001-ordinary/sender-process/stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "generation/o001-ordinary/sender-process/stdout.log": {
+      "bytes": 70,
+      "sha256": "19668bfc6317588f043e7d8aeb34b5b03e60271f4aec7a1ea2d6bd281cce0026"
+    },
+    "generation/o001-ordinary/sender-process/supervisor-child.json": {
+      "bytes": 63,
+      "sha256": "bc18c5e06c2cb159e7bfd566d33d40ba1180f6b30247701381c9355156d1829f"
+    },
+    "generation/o001-ordinary/sender-process/supervisor-result.json": {
+      "bytes": 401,
+      "sha256": "cec692ce75e777be4bf62e45493238981abced32d47a8d3f1dfd932a6e222781"
+    },
+    "generation/o001-ordinary/sender/committed-wire.bin": {
+      "bytes": 1203,
+      "sha256": "ca48e92ef8d9c10ba22b43abebf14d5ccb46acfc5e84c8c239cd8103bc842cd9"
+    },
+    "generation/o001-ordinary/sender/envelope.json": {
+      "bytes": 381,
+      "sha256": "19f5622d2de8256832e4ee09f87dbcb5b080fdcc7e6430ededa229d9e43a6691"
+    },
+    "generation/o001-ordinary/sender/execution-started.json": {
+      "bytes": 405,
+      "sha256": "352a2907d7dccaa526848278c9583b6689276362ede3b4a3bcd1f438e7c130da"
+    },
+    "generation/o001-ordinary/sender/native-preprompt-verification.json": {
+      "bytes": 6997,
+      "sha256": "d79c11fa8c988d8b43e0883e5da131647e7e12a2659824595718920c3a48bc48"
+    },
+    "generation/o001-ordinary/sender/native-resource-verification.json": {
+      "bytes": 309,
+      "sha256": "fdcda3b20f74689405824b04e923aa13e130bbaae7eadfcadf6819b4dfc5d535"
+    },
+    "generation/o001-ordinary/sender/native.stderr.log": {
+      "bytes": 211740,
+      "sha256": "0083e679e8d726fa95e6efaf02f3f00c39d132f325d8e5f2693ab0ea8ecc9f6d"
+    },
+    "generation/o001-ordinary/sender/nonce-reservation.json": {
+      "bytes": 254,
+      "sha256": "2efeda7fe2dea0b3f34f71b91c4a5310ccf773b1d9414729c80839fb9b638d60"
+    },
+    "generation/o001-ordinary/sender/proc-identity-capture.json": {
+      "bytes": 872,
+      "sha256": "7d51eb79f8bb80e5f7b11707d08634442382cf3d8b6c6f282d7ea5f5e17e5f95"
+    },
+    "generation/o001-ordinary/sender/public-context.json": {
+      "bytes": 2198,
+      "sha256": "70d42e470c892488e028340dee60291aaa4f880116f815e297c4386f169f4586"
+    },
+    "generation/o001-ordinary/sender/public-profile.json": {
+      "bytes": 14747,
+      "sha256": "f32097750dc898fce418a29146587a4229eae1dcb76e3cbcd374b692846adc8a"
+    },
+    "generation/o001-ordinary/sender/public-spec.json": {
+      "bytes": 1388,
+      "sha256": "2bac5bd3dc43c8ca68d5f5f702ca047b081f47acdbd390a3abdddfaab6d76c85"
+    },
+    "generation/o001-ordinary/sender/reconciliation.json": {
+      "bytes": 566,
+      "sha256": "eb5c7e66017ed3b0847bce2543f3ae3b72db568513134d45652536788b4a0e2d"
+    },
+    "generation/o001-ordinary/sender/recovered-status.json": {
+      "bytes": 566,
+      "sha256": "eb5c7e66017ed3b0847bce2543f3ae3b72db568513134d45652536788b4a0e2d"
+    },
+    "generation/o001-ordinary/sender/token-journal.jsonl": {
+      "bytes": 3050589,
+      "sha256": "30cb35896ed92510516e4282c4a7adff6739aabff9f529d2e90ba79e1f73f681"
+    },
+    "generation/o001-ordinary/sender/traces.json": {
+      "bytes": 5965557,
+      "sha256": "2af94f23f322848e5afd7949986ad7671187e69dfff6ed2141eb81700722c2fc"
+    },
+    "generation/o001-ordinary/sender/wire.raw": {
+      "bytes": 1203,
+      "sha256": "ca48e92ef8d9c10ba22b43abebf14d5ccb46acfc5e84c8c239cd8103bc842cd9"
+    },
+    "generation/o001-ordinary/sender/worker-result.json": {
+      "bytes": 833,
+      "sha256": "821cf859c0d1c12bcd3090e99c17e7c16bf832d23252e721f4e349833810722b"
+    },
+    "generation/o001-stego/receiver-inputs/envelope.json": {
+      "bytes": 352,
+      "sha256": "42bba4887be048329980d63846f0680a95e90ea4285bcd31376cdffa632d7ab1"
+    },
+    "generation/o001-stego/receiver-inputs/key.bin": {
+      "bytes": 32,
+      "sha256": "8f2389678fc9823c71af12be6e7506a83795cd4db950a9fb9f50dbc987610181"
+    },
+    "generation/o001-stego/receiver-inputs/public-context.json": {
+      "bytes": 1126,
+      "sha256": "26074fcc123d71ad8605238553e1ae162612fb621c89809b219e6a7402eda3f2"
+    },
+    "generation/o001-stego/receiver-inputs/wire.bin": {
+      "bytes": 986,
+      "sha256": "d1cb0c2ce5e4e1a7f34313bec571032774bea7561856caec0fa1c8e519983ef1"
+    },
+    "generation/o001-stego/receiver-process/command.json": {
+      "bytes": 1821,
+      "sha256": "748bd42c2b1960e85228e930c5e97a46b62a56c53da74f049fc20889662afbde"
+    },
+    "generation/o001-stego/receiver-process/reservation.json": {
+      "bytes": 76,
+      "sha256": "a9235ce720f0541360f7f701f4bdd17dde1e1b99cd03b3a785202f487e2a6ea1"
+    },
+    "generation/o001-stego/receiver-process/stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "generation/o001-stego/receiver-process/stdout.log": {
+      "bytes": 64,
+      "sha256": "e0427e7c0da837571799d6c9bd6d4918ff33ba9f4435ef2ea52ad2a00dc8a6a8"
+    },
+    "generation/o001-stego/receiver-process/supervisor-child.json": {
+      "bytes": 63,
+      "sha256": "37a14f044232b0025e26fe081e7528231227bf9b874272708dada3d4f66fae98"
+    },
+    "generation/o001-stego/receiver-process/supervisor-result.json": {
+      "bytes": 401,
+      "sha256": "7f83ea3f6a3139270b481248e88bf56202eb1f599ebb1f13408eff7f181c92f3"
+    },
+    "generation/o001-stego/receiver/committed-wire.bin": {
+      "bytes": 986,
+      "sha256": "d1cb0c2ce5e4e1a7f34313bec571032774bea7561856caec0fa1c8e519983ef1"
+    },
+    "generation/o001-stego/receiver/envelope.json": {
+      "bytes": 378,
+      "sha256": "2ce269acd798d4d4dfafae43a963fd8255307b8fe32858e5dca273da7cc2898b"
+    },
+    "generation/o001-stego/receiver/execution-started.json": {
+      "bytes": 404,
+      "sha256": "329830fd6eef0836d9d558529e559d8df9d010ffcf82c6569c3bc9cf6389e84d"
+    },
+    "generation/o001-stego/receiver/native-preprompt-verification.json": {
+      "bytes": 7477,
+      "sha256": "1c393ffea3dd93b55fde3e51fe9167061cbfe75eeaa54279682e440ef2e6d074"
+    },
+    "generation/o001-stego/receiver/native-resource-verification.json": {
+      "bytes": 309,
+      "sha256": "fdcda3b20f74689405824b04e923aa13e130bbaae7eadfcadf6819b4dfc5d535"
+    },
+    "generation/o001-stego/receiver/native.stderr.log": {
+      "bytes": 211860,
+      "sha256": "3773ea93826216623c4d731cd0877461cf88c7b37838675c208ff149b39e0467"
+    },
+    "generation/o001-stego/receiver/proc-identity-capture.json": {
+      "bytes": 932,
+      "sha256": "44642c2e6dc227100439691bfb9cb7c24dcd2ad5deeefd44bda738a07eda4b39"
+    },
+    "generation/o001-stego/receiver/public-context.json": {
+      "bytes": 2198,
+      "sha256": "70d42e470c892488e028340dee60291aaa4f880116f815e297c4386f169f4586"
+    },
+    "generation/o001-stego/receiver/public-profile.json": {
+      "bytes": 14747,
+      "sha256": "f32097750dc898fce418a29146587a4229eae1dcb76e3cbcd374b692846adc8a"
+    },
+    "generation/o001-stego/receiver/public-spec.json": {
+      "bytes": 1388,
+      "sha256": "2bac5bd3dc43c8ca68d5f5f702ca047b081f47acdbd390a3abdddfaab6d76c85"
+    },
+    "generation/o001-stego/receiver/received-payload.bin": {
+      "bytes": 16,
+      "sha256": "be45cb2605bf36bebde684841a28f0fd43c69850a3dce5fedba69928ee3a8991"
+    },
+    "generation/o001-stego/receiver/reconciliation.json": {
+      "bytes": 565,
+      "sha256": "51cd2e20aa9ca5b939990a1aeb840bf9e6a9355b56a03bf10005c36a5c25b6e8"
+    },
+    "generation/o001-stego/receiver/recovered-status.json": {
+      "bytes": 565,
+      "sha256": "51cd2e20aa9ca5b939990a1aeb840bf9e6a9355b56a03bf10005c36a5c25b6e8"
+    },
+    "generation/o001-stego/receiver/token-journal.jsonl": {
+      "bytes": 2570642,
+      "sha256": "979a7901aacb0f40d088c5a8338d1f9541342fdc4abd87df9c0ea89724c3f126"
+    },
+    "generation/o001-stego/receiver/traces.json": {
+      "bytes": 5010225,
+      "sha256": "d8f2f85074dc36d90e0e9a6799c3ad67165969fc9869374f42708a1c62de8eee"
+    },
+    "generation/o001-stego/receiver/wire.raw": {
+      "bytes": 986,
+      "sha256": "d1cb0c2ce5e4e1a7f34313bec571032774bea7561856caec0fa1c8e519983ef1"
+    },
+    "generation/o001-stego/receiver/worker-result.json": {
+      "bytes": 721,
+      "sha256": "e94f493cb887aae323e838563004bdf5996e7a97892da1384934757b3cf101a5"
+    },
+    "generation/o001-stego/sender-inputs/envelope.json": {
+      "bytes": 352,
+      "sha256": "42bba4887be048329980d63846f0680a95e90ea4285bcd31376cdffa632d7ab1"
+    },
+    "generation/o001-stego/sender-inputs/key.bin": {
+      "bytes": 32,
+      "sha256": "8f2389678fc9823c71af12be6e7506a83795cd4db950a9fb9f50dbc987610181"
+    },
+    "generation/o001-stego/sender-inputs/payload.bin": {
+      "bytes": 16,
+      "sha256": "be45cb2605bf36bebde684841a28f0fd43c69850a3dce5fedba69928ee3a8991"
+    },
+    "generation/o001-stego/sender-inputs/public-context.json": {
+      "bytes": 1126,
+      "sha256": "26074fcc123d71ad8605238553e1ae162612fb621c89809b219e6a7402eda3f2"
+    },
+    "generation/o001-stego/sender-process/command.json": {
+      "bytes": 1734,
+      "sha256": "722da6199ef906c1278c78eedcf42995f889aaf456977c9d7c78462e4097e9c6"
+    },
+    "generation/o001-stego/sender-process/reservation.json": {
+      "bytes": 77,
+      "sha256": "2d13c303c6d3ab4bd0b013ec6f88459f8cf4c2f941bb7f9aeb7f2fb67894214a"
+    },
+    "generation/o001-stego/sender-process/stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "generation/o001-stego/sender-process/stdout.log": {
+      "bytes": 68,
+      "sha256": "0cb6360dd8760e23c8c742f0d6b0645f6f4a3deec610ef54c9b3b99fa8231a00"
+    },
+    "generation/o001-stego/sender-process/supervisor-child.json": {
+      "bytes": 61,
+      "sha256": "be4ccb5911f7904e73010c414fcded1a62227a9cde2f6dcf4ca8d4805f764ab7"
+    },
+    "generation/o001-stego/sender-process/supervisor-result.json": {
+      "bytes": 400,
+      "sha256": "5f0446b1357afdf619ab166bb564eb61d642719d84b3172300fa1ce872a794d3"
+    },
+    "generation/o001-stego/sender/committed-wire.bin": {
+      "bytes": 986,
+      "sha256": "d1cb0c2ce5e4e1a7f34313bec571032774bea7561856caec0fa1c8e519983ef1"
+    },
+    "generation/o001-stego/sender/envelope.json": {
+      "bytes": 378,
+      "sha256": "2ce269acd798d4d4dfafae43a963fd8255307b8fe32858e5dca273da7cc2898b"
+    },
+    "generation/o001-stego/sender/execution-started.json": {
+      "bytes": 405,
+      "sha256": "352a2907d7dccaa526848278c9583b6689276362ede3b4a3bcd1f438e7c130da"
+    },
+    "generation/o001-stego/sender/native-preprompt-verification.json": {
+      "bytes": 6991,
+      "sha256": "0d22fab4de7448a49dbc7d28b23185736f8f305c2babb51a4d30a39a79f3b70b"
+    },
+    "generation/o001-stego/sender/native-resource-verification.json": {
+      "bytes": 309,
+      "sha256": "fdcda3b20f74689405824b04e923aa13e130bbaae7eadfcadf6819b4dfc5d535"
+    },
+    "generation/o001-stego/sender/native.stderr.log": {
+      "bytes": 211740,
+      "sha256": "e405f7eb1cb144395f24180871bcb998b3b4587206fc2ae8cdfdbd083ae75d23"
+    },
+    "generation/o001-stego/sender/nonce-reservation.json": {
+      "bytes": 254,
+      "sha256": "669a8f47f2526d2eb5c3643de31f99ac43a79c166e6e3447e85036ebbee5de37"
+    },
+    "generation/o001-stego/sender/proc-identity-capture.json": {
+      "bytes": 869,
+      "sha256": "7baa3f381b929506441046f707b42a838d276c54db85ca06ffbe14f9a573e068"
+    },
+    "generation/o001-stego/sender/public-context.json": {
+      "bytes": 2198,
+      "sha256": "70d42e470c892488e028340dee60291aaa4f880116f815e297c4386f169f4586"
+    },
+    "generation/o001-stego/sender/public-profile.json": {
+      "bytes": 14747,
+      "sha256": "f32097750dc898fce418a29146587a4229eae1dcb76e3cbcd374b692846adc8a"
+    },
+    "generation/o001-stego/sender/public-spec.json": {
+      "bytes": 1388,
+      "sha256": "2bac5bd3dc43c8ca68d5f5f702ca047b081f47acdbd390a3abdddfaab6d76c85"
+    },
+    "generation/o001-stego/sender/reconciliation.json": {
+      "bytes": 565,
+      "sha256": "500aa18550285c9d9e546174e992fde3e3e4baf13ef43f8bbb752fd46197a7c6"
+    },
+    "generation/o001-stego/sender/recovered-status.json": {
+      "bytes": 565,
+      "sha256": "500aa18550285c9d9e546174e992fde3e3e4baf13ef43f8bbb752fd46197a7c6"
+    },
+    "generation/o001-stego/sender/token-journal.jsonl": {
+      "bytes": 2570642,
+      "sha256": "979a7901aacb0f40d088c5a8338d1f9541342fdc4abd87df9c0ea89724c3f126"
+    },
+    "generation/o001-stego/sender/traces.json": {
+      "bytes": 5010225,
+      "sha256": "d8f2f85074dc36d90e0e9a6799c3ad67165969fc9869374f42708a1c62de8eee"
+    },
+    "generation/o001-stego/sender/wire.raw": {
+      "bytes": 986,
+      "sha256": "d1cb0c2ce5e4e1a7f34313bec571032774bea7561856caec0fa1c8e519983ef1"
+    },
+    "generation/o001-stego/sender/worker-result.json": {
+      "bytes": 890,
+      "sha256": "f4391809cbca048ef62d27a8e0b9ccb0d39fb1ce3cdbe1aae56abcf646d86405"
+    },
+    "generation/o004-ordinary/sender-inputs/envelope.json": {
+      "bytes": 355,
+      "sha256": "b81db10b225be630d1a4924298a9ea99b425f1636c7537d17003f3ddf11a40e8"
+    },
+    "generation/o004-ordinary/sender-inputs/key.bin": {
+      "bytes": 32,
+      "sha256": "8f2389678fc9823c71af12be6e7506a83795cd4db950a9fb9f50dbc987610181"
+    },
+    "generation/o004-ordinary/sender-inputs/public-context.json": {
+      "bytes": 1069,
+      "sha256": "f3d11c84557985a7d058362442a4a3bffae125a0c28509d9e79f1be8ca98c0dd"
+    },
+    "generation/o004-ordinary/sender-process/command.json": {
+      "bytes": 1556,
+      "sha256": "f006317071bdb1246f30559e38a27d1fca455da4000e11225055e7af16bb5dad"
+    },
+    "generation/o004-ordinary/sender-process/reservation.json": {
+      "bytes": 77,
+      "sha256": "2d13c303c6d3ab4bd0b013ec6f88459f8cf4c2f941bb7f9aeb7f2fb67894214a"
+    },
+    "generation/o004-ordinary/sender-process/stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "generation/o004-ordinary/sender-process/stdout.log": {
+      "bytes": 70,
+      "sha256": "19668bfc6317588f043e7d8aeb34b5b03e60271f4aec7a1ea2d6bd281cce0026"
+    },
+    "generation/o004-ordinary/sender-process/supervisor-child.json": {
+      "bytes": 63,
+      "sha256": "7eecfadd5676d85570e15ff621c676475ec1ff4790c9f9cb2e75af745663fba1"
+    },
+    "generation/o004-ordinary/sender-process/supervisor-result.json": {
+      "bytes": 401,
+      "sha256": "3b634edd7bab3289843e435bf1ba295c33bca694a555ba58a6f0b3d51831f605"
+    },
+    "generation/o004-ordinary/sender/committed-wire.bin": {
+      "bytes": 1306,
+      "sha256": "148e67082885a20a8b5a4ada0b7c5b322f305dc6d61dd791d780077b9cf51732"
+    },
+    "generation/o004-ordinary/sender/envelope.json": {
+      "bytes": 381,
+      "sha256": "b4787bce19a7752ac1ff60d59740f71958a7371721c5f1815e436ec6714c84c1"
+    },
+    "generation/o004-ordinary/sender/execution-started.json": {
+      "bytes": 405,
+      "sha256": "cdf14ed6baecf6af1d9faed7e12aded3fc0549bf85f06a4d89c71558665fe545"
+    },
+    "generation/o004-ordinary/sender/native-preprompt-verification.json": {
+      "bytes": 6895,
+      "sha256": "43edbfd5b171221012a03b2adac28bd804b7c2cc95f1a289dc698dd9efe54230"
+    },
+    "generation/o004-ordinary/sender/native-resource-verification.json": {
+      "bytes": 309,
+      "sha256": "fdcda3b20f74689405824b04e923aa13e130bbaae7eadfcadf6819b4dfc5d535"
+    },
+    "generation/o004-ordinary/sender/native.stderr.log": {
+      "bytes": 211740,
+      "sha256": "403d57c8c3cff7961299b5c2f6482414440cf44f1d71dc985a17406cd640a89e"
+    },
+    "generation/o004-ordinary/sender/nonce-reservation.json": {
+      "bytes": 254,
+      "sha256": "8f4a3ffa28353a9e62e5a358f7a211ddc67f7a22380d9d1f2d46ffc5bf933a98"
+    },
+    "generation/o004-ordinary/sender/proc-identity-capture.json": {
+      "bytes": 872,
+      "sha256": "0b9cfcb0f6bb8a73ba74c121b4fe3431410be854b7f687cbdcf3764234039eeb"
+    },
+    "generation/o004-ordinary/sender/public-context.json": {
+      "bytes": 2096,
+      "sha256": "889da6d9d7c083c07d2ac03dd23d347e471b556f39127b953cc50be3f540618c"
+    },
+    "generation/o004-ordinary/sender/public-profile.json": {
+      "bytes": 14747,
+      "sha256": "f32097750dc898fce418a29146587a4229eae1dcb76e3cbcd374b692846adc8a"
+    },
+    "generation/o004-ordinary/sender/public-spec.json": {
+      "bytes": 1388,
+      "sha256": "2bac5bd3dc43c8ca68d5f5f702ca047b081f47acdbd390a3abdddfaab6d76c85"
+    },
+    "generation/o004-ordinary/sender/reconciliation.json": {
+      "bytes": 566,
+      "sha256": "05e159d58bd3477f3f3bff5f23354aaa46e61a9c67fd079ae11d1cb5718ae885"
+    },
+    "generation/o004-ordinary/sender/recovered-status.json": {
+      "bytes": 566,
+      "sha256": "05e159d58bd3477f3f3bff5f23354aaa46e61a9c67fd079ae11d1cb5718ae885"
+    },
+    "generation/o004-ordinary/sender/token-journal.jsonl": {
+      "bytes": 3031326,
+      "sha256": "50fe278d04b40f01187408816f0fa51996412497aca865af52986fe88ce28b66"
+    },
+    "generation/o004-ordinary/sender/traces.json": {
+      "bytes": 5915262,
+      "sha256": "a57fa4e9059873bccdef7fdfe50c5a3cddf3f5d449fa0a719067468fa8292d60"
+    },
+    "generation/o004-ordinary/sender/wire.raw": {
+      "bytes": 1306,
+      "sha256": "148e67082885a20a8b5a4ada0b7c5b322f305dc6d61dd791d780077b9cf51732"
+    },
+    "generation/o004-ordinary/sender/worker-result.json": {
+      "bytes": 834,
+      "sha256": "4ed64a7aed5eee17dd08e376e5436f7ead027c2ceecbd087f1fc79f423fe8e3e"
+    },
+    "generation/o004-stego/receiver-inputs/envelope.json": {
+      "bytes": 352,
+      "sha256": "d4c00d29803e537488405151479f9d9872114f3b260f4520c83de280fb8daf28"
+    },
+    "generation/o004-stego/receiver-inputs/key.bin": {
+      "bytes": 32,
+      "sha256": "8f2389678fc9823c71af12be6e7506a83795cd4db950a9fb9f50dbc987610181"
+    },
+    "generation/o004-stego/receiver-inputs/public-context.json": {
+      "bytes": 1069,
+      "sha256": "f3d11c84557985a7d058362442a4a3bffae125a0c28509d9e79f1be8ca98c0dd"
+    },
+    "generation/o004-stego/receiver-inputs/wire.bin": {
+      "bytes": 1181,
+      "sha256": "9489cfaed19e9f324245adb14c36683375fa1c43add1476151d44db7d9defa28"
+    },
+    "generation/o004-stego/receiver-process/command.json": {
+      "bytes": 1821,
+      "sha256": "710398345adfb02444ae110ae2d69b7523f05cc48ccdba20055b98283c1ee77c"
+    },
+    "generation/o004-stego/receiver-process/reservation.json": {
+      "bytes": 76,
+      "sha256": "a9235ce720f0541360f7f701f4bdd17dde1e1b99cd03b3a785202f487e2a6ea1"
+    },
+    "generation/o004-stego/receiver-process/stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "generation/o004-stego/receiver-process/stdout.log": {
+      "bytes": 64,
+      "sha256": "e0427e7c0da837571799d6c9bd6d4918ff33ba9f4435ef2ea52ad2a00dc8a6a8"
+    },
+    "generation/o004-stego/receiver-process/supervisor-child.json": {
+      "bytes": 63,
+      "sha256": "d9183c2730e6634ee0bfd66e7ad7256356e6c6330303d624f2c0b839bd32a9f0"
+    },
+    "generation/o004-stego/receiver-process/supervisor-result.json": {
+      "bytes": 402,
+      "sha256": "257f48b24b38935cb9d723fd63a766a9919f16165f652240ec2b43c4be04e121"
+    },
+    "generation/o004-stego/receiver/committed-wire.bin": {
+      "bytes": 1181,
+      "sha256": "9489cfaed19e9f324245adb14c36683375fa1c43add1476151d44db7d9defa28"
+    },
+    "generation/o004-stego/receiver/envelope.json": {
+      "bytes": 378,
+      "sha256": "9f5d8685a927a66f4a0046289e6f8bd1c3b82cbdfdac7616370ac22d1ef6fa23"
+    },
+    "generation/o004-stego/receiver/execution-started.json": {
+      "bytes": 404,
+      "sha256": "27522838e475a75bb07ba6e00cc13b92a2c2202666ca63402b4d034ca786cd07"
+    },
+    "generation/o004-stego/receiver/native-preprompt-verification.json": {
+      "bytes": 7375,
+      "sha256": "5aa4c8210897f0d6a9dff48caf60ecf1e6fad7030a074461913b163d54b48889"
+    },
+    "generation/o004-stego/receiver/native-resource-verification.json": {
+      "bytes": 309,
+      "sha256": "fdcda3b20f74689405824b04e923aa13e130bbaae7eadfcadf6819b4dfc5d535"
+    },
+    "generation/o004-stego/receiver/native.stderr.log": {
+      "bytes": 211860,
+      "sha256": "d1c98f7315eaae4f8966e8b05ce1be91c501d401eb2f46694e201b74e9e0f8ba"
+    },
+    "generation/o004-stego/receiver/proc-identity-capture.json": {
+      "bytes": 932,
+      "sha256": "22199fea18bdc2ab6c46c62418fa39ba237ac29e68b81588aeebb128b0a2b304"
+    },
+    "generation/o004-stego/receiver/public-context.json": {
+      "bytes": 2096,
+      "sha256": "889da6d9d7c083c07d2ac03dd23d347e471b556f39127b953cc50be3f540618c"
+    },
+    "generation/o004-stego/receiver/public-profile.json": {
+      "bytes": 14747,
+      "sha256": "f32097750dc898fce418a29146587a4229eae1dcb76e3cbcd374b692846adc8a"
+    },
+    "generation/o004-stego/receiver/public-spec.json": {
+      "bytes": 1388,
+      "sha256": "2bac5bd3dc43c8ca68d5f5f702ca047b081f47acdbd390a3abdddfaab6d76c85"
+    },
+    "generation/o004-stego/receiver/received-payload.bin": {
+      "bytes": 16,
+      "sha256": "be45cb2605bf36bebde684841a28f0fd43c69850a3dce5fedba69928ee3a8991"
+    },
+    "generation/o004-stego/receiver/reconciliation.json": {
+      "bytes": 566,
+      "sha256": "50b212939f84108a0de0898ae600a921357e81f10f2e283fafa549c3f6a10862"
+    },
+    "generation/o004-stego/receiver/recovered-status.json": {
+      "bytes": 566,
+      "sha256": "50b212939f84108a0de0898ae600a921357e81f10f2e283fafa549c3f6a10862"
+    },
+    "generation/o004-stego/receiver/token-journal.jsonl": {
+      "bytes": 2774397,
+      "sha256": "0e60fd5e504d64ace6c6a0635614260c9f572e1c81daef094ca790a6eb0f24e9"
+    },
+    "generation/o004-stego/receiver/traces.json": {
+      "bytes": 5396498,
+      "sha256": "105e20c073ec5ef4ef1dc0f1fb9453cf638c4c3308eda026bd8d22f28cbdd21f"
+    },
+    "generation/o004-stego/receiver/wire.raw": {
+      "bytes": 1181,
+      "sha256": "9489cfaed19e9f324245adb14c36683375fa1c43add1476151d44db7d9defa28"
+    },
+    "generation/o004-stego/receiver/worker-result.json": {
+      "bytes": 720,
+      "sha256": "1a42afa847cc54c49442893ee9e5f31bcb425bd2fe6c1342155cedc701a851d0"
+    },
+    "generation/o004-stego/sender-inputs/envelope.json": {
+      "bytes": 352,
+      "sha256": "d4c00d29803e537488405151479f9d9872114f3b260f4520c83de280fb8daf28"
+    },
+    "generation/o004-stego/sender-inputs/key.bin": {
+      "bytes": 32,
+      "sha256": "8f2389678fc9823c71af12be6e7506a83795cd4db950a9fb9f50dbc987610181"
+    },
+    "generation/o004-stego/sender-inputs/payload.bin": {
+      "bytes": 16,
+      "sha256": "be45cb2605bf36bebde684841a28f0fd43c69850a3dce5fedba69928ee3a8991"
+    },
+    "generation/o004-stego/sender-inputs/public-context.json": {
+      "bytes": 1069,
+      "sha256": "f3d11c84557985a7d058362442a4a3bffae125a0c28509d9e79f1be8ca98c0dd"
+    },
+    "generation/o004-stego/sender-process/command.json": {
+      "bytes": 1734,
+      "sha256": "e78597ea60ceffdcdaf5dd7f72f826c5a00b73041dce3584c209f2602b8be5f0"
+    },
+    "generation/o004-stego/sender-process/reservation.json": {
+      "bytes": 77,
+      "sha256": "2d13c303c6d3ab4bd0b013ec6f88459f8cf4c2f941bb7f9aeb7f2fb67894214a"
+    },
+    "generation/o004-stego/sender-process/stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "generation/o004-stego/sender-process/stdout.log": {
+      "bytes": 68,
+      "sha256": "0cb6360dd8760e23c8c742f0d6b0645f6f4a3deec610ef54c9b3b99fa8231a00"
+    },
+    "generation/o004-stego/sender-process/supervisor-child.json": {
+      "bytes": 63,
+      "sha256": "f6b160c9b269789cd4b68f44ce45488b42687038311070d8a5fd15aa1ffcdcaf"
+    },
+    "generation/o004-stego/sender-process/supervisor-result.json": {
+      "bytes": 401,
+      "sha256": "c71b521234f1ef9fdf2bfc07449e906f89726f61945b68a2c20daa56f65b52a7"
+    },
+    "generation/o004-stego/sender/committed-wire.bin": {
+      "bytes": 1181,
+      "sha256": "9489cfaed19e9f324245adb14c36683375fa1c43add1476151d44db7d9defa28"
+    },
+    "generation/o004-stego/sender/envelope.json": {
+      "bytes": 378,
+      "sha256": "9f5d8685a927a66f4a0046289e6f8bd1c3b82cbdfdac7616370ac22d1ef6fa23"
+    },
+    "generation/o004-stego/sender/execution-started.json": {
+      "bytes": 405,
+      "sha256": "cdf14ed6baecf6af1d9faed7e12aded3fc0549bf85f06a4d89c71558665fe545"
+    },
+    "generation/o004-stego/sender/native-preprompt-verification.json": {
+      "bytes": 6895,
+      "sha256": "6c1f7ebd3007ba1d2dfda5b52cfa99ae1f7de15a793e82b822a8da42aec0bddc"
+    },
+    "generation/o004-stego/sender/native-resource-verification.json": {
+      "bytes": 309,
+      "sha256": "fdcda3b20f74689405824b04e923aa13e130bbaae7eadfcadf6819b4dfc5d535"
+    },
+    "generation/o004-stego/sender/native.stderr.log": {
+      "bytes": 211740,
+      "sha256": "0a8848a0f93963add8bb4dbfada48265e8f16afb33609d91b0faf0d5f9e48109"
+    },
+    "generation/o004-stego/sender/nonce-reservation.json": {
+      "bytes": 254,
+      "sha256": "5d1a5ba8e5fa311b22228f3acdb853e27df9db17d0f394f08ec3e5556addeddb"
+    },
+    "generation/o004-stego/sender/proc-identity-capture.json": {
+      "bytes": 872,
+      "sha256": "0dc051745794f392d32c33d1297331b1570e0c3715800fc18939567d1fd6f99a"
+    },
+    "generation/o004-stego/sender/public-context.json": {
+      "bytes": 2096,
+      "sha256": "889da6d9d7c083c07d2ac03dd23d347e471b556f39127b953cc50be3f540618c"
+    },
+    "generation/o004-stego/sender/public-profile.json": {
+      "bytes": 14747,
+      "sha256": "f32097750dc898fce418a29146587a4229eae1dcb76e3cbcd374b692846adc8a"
+    },
+    "generation/o004-stego/sender/public-spec.json": {
+      "bytes": 1388,
+      "sha256": "2bac5bd3dc43c8ca68d5f5f702ca047b081f47acdbd390a3abdddfaab6d76c85"
+    },
+    "generation/o004-stego/sender/reconciliation.json": {
+      "bytes": 566,
+      "sha256": "efee3caff06c1f0209d8982c2a62517ddc2d75be24d20412b860017120f23200"
+    },
+    "generation/o004-stego/sender/recovered-status.json": {
+      "bytes": 566,
+      "sha256": "efee3caff06c1f0209d8982c2a62517ddc2d75be24d20412b860017120f23200"
+    },
+    "generation/o004-stego/sender/token-journal.jsonl": {
+      "bytes": 2774397,
+      "sha256": "0e60fd5e504d64ace6c6a0635614260c9f572e1c81daef094ca790a6eb0f24e9"
+    },
+    "generation/o004-stego/sender/traces.json": {
+      "bytes": 5396498,
+      "sha256": "105e20c073ec5ef4ef1dc0f1fb9453cf638c4c3308eda026bd8d22f28cbdd21f"
+    },
+    "generation/o004-stego/sender/wire.raw": {
+      "bytes": 1181,
+      "sha256": "9489cfaed19e9f324245adb14c36683375fa1c43add1476151d44db7d9defa28"
+    },
+    "generation/o004-stego/sender/worker-result.json": {
+      "bytes": 891,
+      "sha256": "0aa9d403d3e409882923e7061ca6c8d0c2b5e5acd92cbc2af313139edf2f8939"
+    },
+    "generation/o007-ordinary/sender-inputs/envelope.json": {
+      "bytes": 355,
+      "sha256": "4dc8edf13d7d01c0e9a58de93bba9dab9b5fdd201ca54d4eae37bbb563e31c2e"
+    },
+    "generation/o007-ordinary/sender-inputs/key.bin": {
+      "bytes": 32,
+      "sha256": "8f2389678fc9823c71af12be6e7506a83795cd4db950a9fb9f50dbc987610181"
+    },
+    "generation/o007-ordinary/sender-inputs/public-context.json": {
+      "bytes": 1082,
+      "sha256": "c78c2017d5ec7d65707bd2d82a890d80542205869a4bdc7c786baa1f218f7429"
+    },
+    "generation/o007-ordinary/sender-process/command.json": {
+      "bytes": 1556,
+      "sha256": "fe97e1046cb8d2d07fdea38148bed31c1748de9e664b7ebd62baee9557988a0e"
+    },
+    "generation/o007-ordinary/sender-process/reservation.json": {
+      "bytes": 77,
+      "sha256": "2d13c303c6d3ab4bd0b013ec6f88459f8cf4c2f941bb7f9aeb7f2fb67894214a"
+    },
+    "generation/o007-ordinary/sender-process/stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "generation/o007-ordinary/sender-process/stdout.log": {
+      "bytes": 70,
+      "sha256": "19668bfc6317588f043e7d8aeb34b5b03e60271f4aec7a1ea2d6bd281cce0026"
+    },
+    "generation/o007-ordinary/sender-process/supervisor-child.json": {
+      "bytes": 63,
+      "sha256": "24ab75952655edb5ae52a54d9599cfa0f67d00df8d973ebda4fd5db626e516aa"
+    },
+    "generation/o007-ordinary/sender-process/supervisor-result.json": {
+      "bytes": 401,
+      "sha256": "d72b95c6f3f1c2d3344929c1771a3966efe42eee0f4ad069a8e8fa722baef331"
+    },
+    "generation/o007-ordinary/sender/committed-wire.bin": {
+      "bytes": 1192,
+      "sha256": "66a2b95a98e3af2df3e5f75bba09ef69b69626f644cd23ac8062405701d1d0af"
+    },
+    "generation/o007-ordinary/sender/envelope.json": {
+      "bytes": 381,
+      "sha256": "a459700e1320624ad42f82a1d471747823d5a4126a88396f696cbf7eaebf96eb"
+    },
+    "generation/o007-ordinary/sender/execution-started.json": {
+      "bytes": 405,
+      "sha256": "69306058e066f11872e03fbdb42d324ffb39eb96d882fcd41ceebe34ec41bcab"
+    },
+    "generation/o007-ordinary/sender/native-preprompt-verification.json": {
+      "bytes": 6913,
+      "sha256": "64f25bef07a087d9f5649fa08898c0be36c139430015b560a67fca50db3cc33e"
+    },
+    "generation/o007-ordinary/sender/native-resource-verification.json": {
+      "bytes": 309,
+      "sha256": "fdcda3b20f74689405824b04e923aa13e130bbaae7eadfcadf6819b4dfc5d535"
+    },
+    "generation/o007-ordinary/sender/native.stderr.log": {
+      "bytes": 211740,
+      "sha256": "00276b061b3a1d20f32aa416a94d2b7679c52f29358d4b09c04ba4025fe95a35"
+    },
+    "generation/o007-ordinary/sender/nonce-reservation.json": {
+      "bytes": 254,
+      "sha256": "fbcf0f4bf48bb08012281b76c1ebaa9aacffcd2d8eff39a73ddc3739adedbe8c"
+    },
+    "generation/o007-ordinary/sender/proc-identity-capture.json": {
+      "bytes": 872,
+      "sha256": "da66c9d06b0c130e397a92188ee6f6b1842bf71eff460cde15159416163deb34"
+    },
+    "generation/o007-ordinary/sender/public-context.json": {
+      "bytes": 2114,
+      "sha256": "38c1d22c9caf294349f1b5a2d8a2b7bb263ae4ff975be963793f3da27d6f4372"
+    },
+    "generation/o007-ordinary/sender/public-profile.json": {
+      "bytes": 14747,
+      "sha256": "f32097750dc898fce418a29146587a4229eae1dcb76e3cbcd374b692846adc8a"
+    },
+    "generation/o007-ordinary/sender/public-spec.json": {
+      "bytes": 1388,
+      "sha256": "2bac5bd3dc43c8ca68d5f5f702ca047b081f47acdbd390a3abdddfaab6d76c85"
+    },
+    "generation/o007-ordinary/sender/reconciliation.json": {
+      "bytes": 566,
+      "sha256": "0dec50853ec86dba5c5e5682e22fc711d0bea267fe2e889fb2b6d486454cd8b4"
+    },
+    "generation/o007-ordinary/sender/recovered-status.json": {
+      "bytes": 566,
+      "sha256": "0dec50853ec86dba5c5e5682e22fc711d0bea267fe2e889fb2b6d486454cd8b4"
+    },
+    "generation/o007-ordinary/sender/token-journal.jsonl": {
+      "bytes": 3184596,
+      "sha256": "fb9c240cf1a78bec519d36f5138198f8b24c70270b6835b7edb8dfa30db53772"
+    },
+    "generation/o007-ordinary/sender/traces.json": {
+      "bytes": 6278506,
+      "sha256": "5fdedbeb3fc20140a99560fdbc9fbc632effa4b8c3dd592a80d1068db03467a8"
+    },
+    "generation/o007-ordinary/sender/wire.raw": {
+      "bytes": 1192,
+      "sha256": "66a2b95a98e3af2df3e5f75bba09ef69b69626f644cd23ac8062405701d1d0af"
+    },
+    "generation/o007-ordinary/sender/worker-result.json": {
+      "bytes": 834,
+      "sha256": "e50c3a900f692b375dfbdb847f755c64c90ad061c396dc217962846f4bf0e709"
+    },
+    "generation/o007-stego/receiver-inputs/envelope.json": {
+      "bytes": 352,
+      "sha256": "41f4d4f839bdeae089ad53c762b72a8e2b3b94050cdbed401fbcee8e55eed09d"
+    },
+    "generation/o007-stego/receiver-inputs/key.bin": {
+      "bytes": 32,
+      "sha256": "8f2389678fc9823c71af12be6e7506a83795cd4db950a9fb9f50dbc987610181"
+    },
+    "generation/o007-stego/receiver-inputs/public-context.json": {
+      "bytes": 1082,
+      "sha256": "c78c2017d5ec7d65707bd2d82a890d80542205869a4bdc7c786baa1f218f7429"
+    },
+    "generation/o007-stego/receiver-inputs/wire.bin": {
+      "bytes": 768,
+      "sha256": "c093c2a3cdd3ff7a7661155f9c5c5f8220b2d7acde95e6b42a7d282421fbddbc"
+    },
+    "generation/o007-stego/receiver-process/command.json": {
+      "bytes": 1821,
+      "sha256": "62c6020dfb254ac9a2e1768af9c7f9c2c726cc6da7867b185ef36829d8883e3e"
+    },
+    "generation/o007-stego/receiver-process/reservation.json": {
+      "bytes": 76,
+      "sha256": "a9235ce720f0541360f7f701f4bdd17dde1e1b99cd03b3a785202f487e2a6ea1"
+    },
+    "generation/o007-stego/receiver-process/stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "generation/o007-stego/receiver-process/stdout.log": {
+      "bytes": 64,
+      "sha256": "e0427e7c0da837571799d6c9bd6d4918ff33ba9f4435ef2ea52ad2a00dc8a6a8"
+    },
+    "generation/o007-stego/receiver-process/supervisor-child.json": {
+      "bytes": 63,
+      "sha256": "f00d8614b7db3ff0684c406d30bbee198dc7ca3ac278bd8cb30c7eca1aa75ddc"
+    },
+    "generation/o007-stego/receiver-process/supervisor-result.json": {
+      "bytes": 401,
+      "sha256": "ffe9d52a0c2bd3c9959cb9ad058aadcf61d8898c6bd9d110e9def101299e6172"
+    },
+    "generation/o007-stego/receiver/committed-wire.bin": {
+      "bytes": 768,
+      "sha256": "c093c2a3cdd3ff7a7661155f9c5c5f8220b2d7acde95e6b42a7d282421fbddbc"
+    },
+    "generation/o007-stego/receiver/envelope.json": {
+      "bytes": 378,
+      "sha256": "763060a74452c8271ba9a58d7c58ae9b16682f60b9f665e38a649f32cd3ebd00"
+    },
+    "generation/o007-stego/receiver/execution-started.json": {
+      "bytes": 404,
+      "sha256": "824dc06206165cb2ee9283d3f6ad11abd229c4bcefabfc3a28f9b5880011e326"
+    },
+    "generation/o007-stego/receiver/native-preprompt-verification.json": {
+      "bytes": 7393,
+      "sha256": "a7133db317daf3c3f3e040b95f5ce45abf8e69990b132cd433b358082538383d"
+    },
+    "generation/o007-stego/receiver/native-resource-verification.json": {
+      "bytes": 309,
+      "sha256": "fdcda3b20f74689405824b04e923aa13e130bbaae7eadfcadf6819b4dfc5d535"
+    },
+    "generation/o007-stego/receiver/native.stderr.log": {
+      "bytes": 211860,
+      "sha256": "f19f4a72b629ed5a17ea352d44727ecbb2451eea2374b26a6d7f496d0937e013"
+    },
+    "generation/o007-stego/receiver/proc-identity-capture.json": {
+      "bytes": 932,
+      "sha256": "a438f42eb3a72b6bd69d7bbe0733f0de8bdb66b71f610e2fabe68f8a62fcf549"
+    },
+    "generation/o007-stego/receiver/public-context.json": {
+      "bytes": 2114,
+      "sha256": "38c1d22c9caf294349f1b5a2d8a2b7bb263ae4ff975be963793f3da27d6f4372"
+    },
+    "generation/o007-stego/receiver/public-profile.json": {
+      "bytes": 14747,
+      "sha256": "f32097750dc898fce418a29146587a4229eae1dcb76e3cbcd374b692846adc8a"
+    },
+    "generation/o007-stego/receiver/public-spec.json": {
+      "bytes": 1388,
+      "sha256": "2bac5bd3dc43c8ca68d5f5f702ca047b081f47acdbd390a3abdddfaab6d76c85"
+    },
+    "generation/o007-stego/receiver/received-payload.bin": {
+      "bytes": 16,
+      "sha256": "be45cb2605bf36bebde684841a28f0fd43c69850a3dce5fedba69928ee3a8991"
+    },
+    "generation/o007-stego/receiver/reconciliation.json": {
+      "bytes": 565,
+      "sha256": "b8287c2acc9b2bfdbec7a1b2cda5c9c54fd2cd4c71dc5ab8f559e75e7aa0113b"
+    },
+    "generation/o007-stego/receiver/recovered-status.json": {
+      "bytes": 565,
+      "sha256": "b8287c2acc9b2bfdbec7a1b2cda5c9c54fd2cd4c71dc5ab8f559e75e7aa0113b"
+    },
+    "generation/o007-stego/receiver/token-journal.jsonl": {
+      "bytes": 2074850,
+      "sha256": "7d982001f19a62c2258911647adb7d504f5f04b0764bbf3dc1d2ef67b91877a6"
+    },
+    "generation/o007-stego/receiver/traces.json": {
+      "bytes": 4033024,
+      "sha256": "8aaf1faf5a89cc989e90e873ab2864d8346eceda2cc6146853e8967bbfd1a3ca"
+    },
+    "generation/o007-stego/receiver/wire.raw": {
+      "bytes": 768,
+      "sha256": "c093c2a3cdd3ff7a7661155f9c5c5f8220b2d7acde95e6b42a7d282421fbddbc"
+    },
+    "generation/o007-stego/receiver/worker-result.json": {
+      "bytes": 721,
+      "sha256": "caa9078893e81808f0a8ac3d837a7addd0af391191629c5e5640b9a9579be6cf"
+    },
+    "generation/o007-stego/sender-inputs/envelope.json": {
+      "bytes": 352,
+      "sha256": "41f4d4f839bdeae089ad53c762b72a8e2b3b94050cdbed401fbcee8e55eed09d"
+    },
+    "generation/o007-stego/sender-inputs/key.bin": {
+      "bytes": 32,
+      "sha256": "8f2389678fc9823c71af12be6e7506a83795cd4db950a9fb9f50dbc987610181"
+    },
+    "generation/o007-stego/sender-inputs/payload.bin": {
+      "bytes": 16,
+      "sha256": "be45cb2605bf36bebde684841a28f0fd43c69850a3dce5fedba69928ee3a8991"
+    },
+    "generation/o007-stego/sender-inputs/public-context.json": {
+      "bytes": 1082,
+      "sha256": "c78c2017d5ec7d65707bd2d82a890d80542205869a4bdc7c786baa1f218f7429"
+    },
+    "generation/o007-stego/sender-process/command.json": {
+      "bytes": 1734,
+      "sha256": "38ceea42b89dd5d85e4b5f1a9cd51a143f156fb0c0b6c70844c271b75a24b23c"
+    },
+    "generation/o007-stego/sender-process/reservation.json": {
+      "bytes": 77,
+      "sha256": "2d13c303c6d3ab4bd0b013ec6f88459f8cf4c2f941bb7f9aeb7f2fb67894214a"
+    },
+    "generation/o007-stego/sender-process/stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "generation/o007-stego/sender-process/stdout.log": {
+      "bytes": 68,
+      "sha256": "0cb6360dd8760e23c8c742f0d6b0645f6f4a3deec610ef54c9b3b99fa8231a00"
+    },
+    "generation/o007-stego/sender-process/supervisor-child.json": {
+      "bytes": 63,
+      "sha256": "e203ae235b42644d1b42feba9a2895a55b6cebfe62da3139c8fe2bee1d73d5f8"
+    },
+    "generation/o007-stego/sender-process/supervisor-result.json": {
+      "bytes": 401,
+      "sha256": "48d3fe4a182357238385c4e89fb297c207bbca30eb60a9ae5945b83da81ca665"
+    },
+    "generation/o007-stego/sender/committed-wire.bin": {
+      "bytes": 768,
+      "sha256": "c093c2a3cdd3ff7a7661155f9c5c5f8220b2d7acde95e6b42a7d282421fbddbc"
+    },
+    "generation/o007-stego/sender/envelope.json": {
+      "bytes": 378,
+      "sha256": "763060a74452c8271ba9a58d7c58ae9b16682f60b9f665e38a649f32cd3ebd00"
+    },
+    "generation/o007-stego/sender/execution-started.json": {
+      "bytes": 405,
+      "sha256": "69306058e066f11872e03fbdb42d324ffb39eb96d882fcd41ceebe34ec41bcab"
+    },
+    "generation/o007-stego/sender/native-preprompt-verification.json": {
+      "bytes": 6913,
+      "sha256": "43542b3b421c70f6e248396c3685580d01b8c1b3295353096be1b49a231b1158"
+    },
+    "generation/o007-stego/sender/native-resource-verification.json": {
+      "bytes": 309,
+      "sha256": "fdcda3b20f74689405824b04e923aa13e130bbaae7eadfcadf6819b4dfc5d535"
+    },
+    "generation/o007-stego/sender/native.stderr.log": {
+      "bytes": 211740,
+      "sha256": "b2e2c04ca8da9d91d3c7c61298555daeb3fb13dd90738f7e6239fb3e14f2357d"
+    },
+    "generation/o007-stego/sender/nonce-reservation.json": {
+      "bytes": 254,
+      "sha256": "b93072fbdf8ce1e09c0a9063b8b0535a9b53226e39164a92cee44ff6f617e50e"
+    },
+    "generation/o007-stego/sender/proc-identity-capture.json": {
+      "bytes": 872,
+      "sha256": "41bf66ec73694fd20ece34e5208c86aeca3345d5e23bc85de320141883c9ff0f"
+    },
+    "generation/o007-stego/sender/public-context.json": {
+      "bytes": 2114,
+      "sha256": "38c1d22c9caf294349f1b5a2d8a2b7bb263ae4ff975be963793f3da27d6f4372"
+    },
+    "generation/o007-stego/sender/public-profile.json": {
+      "bytes": 14747,
+      "sha256": "f32097750dc898fce418a29146587a4229eae1dcb76e3cbcd374b692846adc8a"
+    },
+    "generation/o007-stego/sender/public-spec.json": {
+      "bytes": 1388,
+      "sha256": "2bac5bd3dc43c8ca68d5f5f702ca047b081f47acdbd390a3abdddfaab6d76c85"
+    },
+    "generation/o007-stego/sender/reconciliation.json": {
+      "bytes": 565,
+      "sha256": "6d7a380ac8a9fd59706ff53845d8c8f08d3d0c0fb004b55fec697f02a8bc78bd"
+    },
+    "generation/o007-stego/sender/recovered-status.json": {
+      "bytes": 565,
+      "sha256": "6d7a380ac8a9fd59706ff53845d8c8f08d3d0c0fb004b55fec697f02a8bc78bd"
+    },
+    "generation/o007-stego/sender/token-journal.jsonl": {
+      "bytes": 2074850,
+      "sha256": "7d982001f19a62c2258911647adb7d504f5f04b0764bbf3dc1d2ef67b91877a6"
+    },
+    "generation/o007-stego/sender/traces.json": {
+      "bytes": 4033024,
+      "sha256": "8aaf1faf5a89cc989e90e873ab2864d8346eceda2cc6146853e8967bbfd1a3ca"
+    },
+    "generation/o007-stego/sender/wire.raw": {
+      "bytes": 768,
+      "sha256": "c093c2a3cdd3ff7a7661155f9c5c5f8220b2d7acde95e6b42a7d282421fbddbc"
+    },
+    "generation/o007-stego/sender/worker-result.json": {
+      "bytes": 891,
+      "sha256": "35a18c68bdc885141a5dd4a8fb71cf7ad6ff6ad71d896c8fa186566c8fa620a0"
+    },
+    "generation/o010-ordinary/sender-inputs/envelope.json": {
+      "bytes": 355,
+      "sha256": "e13178417f19ef51671437d342d6c1f6c0fe29e21ca4254625104e7d88f674b6"
+    },
+    "generation/o010-ordinary/sender-inputs/key.bin": {
+      "bytes": 32,
+      "sha256": "8f2389678fc9823c71af12be6e7506a83795cd4db950a9fb9f50dbc987610181"
+    },
+    "generation/o010-ordinary/sender-inputs/public-context.json": {
+      "bytes": 1240,
+      "sha256": "3168b7555cc6634aa4036f87fbf752d93a7ab9e8860fd2f7b87ce9b9d388353f"
+    },
+    "generation/o010-ordinary/sender-process/command.json": {
+      "bytes": 1556,
+      "sha256": "eff73e896f88f623031f247c4718e0a5185ecd5fda0720d1ec66306ad1e94255"
+    },
+    "generation/o010-ordinary/sender-process/reservation.json": {
+      "bytes": 77,
+      "sha256": "2d13c303c6d3ab4bd0b013ec6f88459f8cf4c2f941bb7f9aeb7f2fb67894214a"
+    },
+    "generation/o010-ordinary/sender-process/stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "generation/o010-ordinary/sender-process/stdout.log": {
+      "bytes": 70,
+      "sha256": "19668bfc6317588f043e7d8aeb34b5b03e60271f4aec7a1ea2d6bd281cce0026"
+    },
+    "generation/o010-ordinary/sender-process/supervisor-child.json": {
+      "bytes": 63,
+      "sha256": "530dacfca102fe322dbcace339ae10dfd8e460968c4c1d9c111c144876b79622"
+    },
+    "generation/o010-ordinary/sender-process/supervisor-result.json": {
+      "bytes": 401,
+      "sha256": "209ef13652c9e4c4c77ae7355d11027e750c018b75a9ec651273e5f2182d449f"
+    },
+    "generation/o010-ordinary/sender/committed-wire.bin": {
+      "bytes": 1360,
+      "sha256": "216d2f308713da84aa62661bfbc250308d8526075eb49ab40ff617946064ea2a"
+    },
+    "generation/o010-ordinary/sender/envelope.json": {
+      "bytes": 381,
+      "sha256": "4939e3259fb40c983981d59afba4d54537d9abfb209d5947fc70ab829e8fe7a6"
+    },
+    "generation/o010-ordinary/sender/execution-started.json": {
+      "bytes": 405,
+      "sha256": "6308d2fc0b51095f7db2af90518cf0087ef94bd0e1ec1746822dc8489731b6ab"
+    },
+    "generation/o010-ordinary/sender/native-preprompt-verification.json": {
+      "bytes": 7286,
+      "sha256": "43247d00b3b6492f8a7b341eaa59f0b0e45c785307b6734b09e295287dc47476"
+    },
+    "generation/o010-ordinary/sender/native-resource-verification.json": {
+      "bytes": 309,
+      "sha256": "fdcda3b20f74689405824b04e923aa13e130bbaae7eadfcadf6819b4dfc5d535"
+    },
+    "generation/o010-ordinary/sender/native.stderr.log": {
+      "bytes": 211740,
+      "sha256": "07632b8b3b2e32243b90258c71f300646062d5a46fa0755ff47c06b943db9f95"
+    },
+    "generation/o010-ordinary/sender/nonce-reservation.json": {
+      "bytes": 254,
+      "sha256": "2f55fc44b9407dd9ae33c5a94d90cab5ada474cf61561c9850e24dc5886a727c"
+    },
+    "generation/o010-ordinary/sender/proc-identity-capture.json": {
+      "bytes": 872,
+      "sha256": "169f23ebcc96cc3f69f5150c6ffa3eeb62e7eee7d65399dde813bd9aec7ad19a"
+    },
+    "generation/o010-ordinary/sender/public-context.json": {
+      "bytes": 2487,
+      "sha256": "91fdeb5fe1c26251bfb63b82acbc7d0b8a585e3d9344b5678212ce1b8dc87494"
+    },
+    "generation/o010-ordinary/sender/public-profile.json": {
+      "bytes": 14747,
+      "sha256": "f32097750dc898fce418a29146587a4229eae1dcb76e3cbcd374b692846adc8a"
+    },
+    "generation/o010-ordinary/sender/public-spec.json": {
+      "bytes": 1388,
+      "sha256": "2bac5bd3dc43c8ca68d5f5f702ca047b081f47acdbd390a3abdddfaab6d76c85"
+    },
+    "generation/o010-ordinary/sender/reconciliation.json": {
+      "bytes": 566,
+      "sha256": "6a511c62525cad1459c165b0c40c88dd4818c8bc9d5ca401b6f2a9f83429335d"
+    },
+    "generation/o010-ordinary/sender/recovered-status.json": {
+      "bytes": 566,
+      "sha256": "6a511c62525cad1459c165b0c40c88dd4818c8bc9d5ca401b6f2a9f83429335d"
+    },
+    "generation/o010-ordinary/sender/token-journal.jsonl": {
+      "bytes": 3623972,
+      "sha256": "a8e29f657dfd641691089af9a8743e528c1fe3e70610890abac55e8533c03114"
+    },
+    "generation/o010-ordinary/sender/traces.json": {
+      "bytes": 7131653,
+      "sha256": "59e753f234bf69323a4f8262760f276f43a5c61e44759ca73de4f89fa45a128b"
+    },
+    "generation/o010-ordinary/sender/wire.raw": {
+      "bytes": 1360,
+      "sha256": "216d2f308713da84aa62661bfbc250308d8526075eb49ab40ff617946064ea2a"
+    },
+    "generation/o010-ordinary/sender/worker-result.json": {
+      "bytes": 834,
+      "sha256": "51379ff1cee346828d1e5c2b56f5733709d43e84f87c7f040cfa64be9edf34ef"
+    },
+    "generation/o010-stego/receiver-inputs/envelope.json": {
+      "bytes": 352,
+      "sha256": "bb1d82c449b87b3cd61be30b3cec9d9f122992ed1e6522b8f6a8481bebefa3d3"
+    },
+    "generation/o010-stego/receiver-inputs/key.bin": {
+      "bytes": 32,
+      "sha256": "8f2389678fc9823c71af12be6e7506a83795cd4db950a9fb9f50dbc987610181"
+    },
+    "generation/o010-stego/receiver-inputs/public-context.json": {
+      "bytes": 1240,
+      "sha256": "3168b7555cc6634aa4036f87fbf752d93a7ab9e8860fd2f7b87ce9b9d388353f"
+    },
+    "generation/o010-stego/receiver-inputs/wire.bin": {
+      "bytes": 1283,
+      "sha256": "a4cc530c1331d083d894cb3dbfe11d58ca4d9f1a3dcfeac076a0c9c297d86391"
+    },
+    "generation/o010-stego/receiver-process/command.json": {
+      "bytes": 1821,
+      "sha256": "5a806d11ab2335ad03d4fd457c834f35b5dd335b45b15618676ff96033ec8a99"
+    },
+    "generation/o010-stego/receiver-process/reservation.json": {
+      "bytes": 76,
+      "sha256": "a9235ce720f0541360f7f701f4bdd17dde1e1b99cd03b3a785202f487e2a6ea1"
+    },
+    "generation/o010-stego/receiver-process/stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "generation/o010-stego/receiver-process/stdout.log": {
+      "bytes": 64,
+      "sha256": "e0427e7c0da837571799d6c9bd6d4918ff33ba9f4435ef2ea52ad2a00dc8a6a8"
+    },
+    "generation/o010-stego/receiver-process/supervisor-child.json": {
+      "bytes": 63,
+      "sha256": "52e5a59f83345b5cfb1e97b80a031476695a20d23b8754f38bd2129f3a7db4d0"
+    },
+    "generation/o010-stego/receiver-process/supervisor-result.json": {
+      "bytes": 402,
+      "sha256": "1223bf34f08e863a50ae8c7e841536725c2dd00fe196c8e09617a0450c8ab072"
+    },
+    "generation/o010-stego/receiver/committed-wire.bin": {
+      "bytes": 1283,
+      "sha256": "a4cc530c1331d083d894cb3dbfe11d58ca4d9f1a3dcfeac076a0c9c297d86391"
+    },
+    "generation/o010-stego/receiver/envelope.json": {
+      "bytes": 378,
+      "sha256": "cbf5bc0991ab469a8c5e2144a978aea9cce45d9c3186c51e0cc673c9cc32dc4a"
+    },
+    "generation/o010-stego/receiver/execution-started.json": {
+      "bytes": 404,
+      "sha256": "9f22183798125d832e1158fa441b554230baa1e1d74d82ebb21a1d567e2cb3dd"
+    },
+    "generation/o010-stego/receiver/native-preprompt-verification.json": {
+      "bytes": 7766,
+      "sha256": "5ec8170320e1b7ffcc170fde4c50544fcbc83821569f91a6fbb8100ed96dfc35"
+    },
+    "generation/o010-stego/receiver/native-resource-verification.json": {
+      "bytes": 309,
+      "sha256": "fdcda3b20f74689405824b04e923aa13e130bbaae7eadfcadf6819b4dfc5d535"
+    },
+    "generation/o010-stego/receiver/native.stderr.log": {
+      "bytes": 211860,
+      "sha256": "9d3b3c8edbf3665f6659e29d2d69db22673d2570e333f54cffc0e28188f380e0"
+    },
+    "generation/o010-stego/receiver/proc-identity-capture.json": {
+      "bytes": 932,
+      "sha256": "892a57206322ae3f6910e4ed3293090fa2a83f0850fe4dc9c2b2060c9d206925"
+    },
+    "generation/o010-stego/receiver/public-context.json": {
+      "bytes": 2487,
+      "sha256": "91fdeb5fe1c26251bfb63b82acbc7d0b8a585e3d9344b5678212ce1b8dc87494"
+    },
+    "generation/o010-stego/receiver/public-profile.json": {
+      "bytes": 14747,
+      "sha256": "f32097750dc898fce418a29146587a4229eae1dcb76e3cbcd374b692846adc8a"
+    },
+    "generation/o010-stego/receiver/public-spec.json": {
+      "bytes": 1388,
+      "sha256": "2bac5bd3dc43c8ca68d5f5f702ca047b081f47acdbd390a3abdddfaab6d76c85"
+    },
+    "generation/o010-stego/receiver/received-payload.bin": {
+      "bytes": 16,
+      "sha256": "be45cb2605bf36bebde684841a28f0fd43c69850a3dce5fedba69928ee3a8991"
+    },
+    "generation/o010-stego/receiver/reconciliation.json": {
+      "bytes": 566,
+      "sha256": "878590621ee4e4f7c4047a8e0e8b9ab547d3c5f7321ba9ed523993dec5d30c56"
+    },
+    "generation/o010-stego/receiver/recovered-status.json": {
+      "bytes": 566,
+      "sha256": "878590621ee4e4f7c4047a8e0e8b9ab547d3c5f7321ba9ed523993dec5d30c56"
+    },
+    "generation/o010-stego/receiver/token-journal.jsonl": {
+      "bytes": 3511204,
+      "sha256": "3d4fbdbd8324bdb8c9924827197babbffdd2696ee02d1dce0e6748d7cf162dbe"
+    },
+    "generation/o010-stego/receiver/traces.json": {
+      "bytes": 6909223,
+      "sha256": "d94a2513c451118fdcf9fec259444eff26f571160f9921a9c946cbc5b88708df"
+    },
+    "generation/o010-stego/receiver/wire.raw": {
+      "bytes": 1283,
+      "sha256": "a4cc530c1331d083d894cb3dbfe11d58ca4d9f1a3dcfeac076a0c9c297d86391"
+    },
+    "generation/o010-stego/receiver/worker-result.json": {
+      "bytes": 720,
+      "sha256": "bc734d397dfa0ffc150450ffd5e5016f83b3e8e0520870aa1d92f00ecbaf9995"
+    },
+    "generation/o010-stego/sender-inputs/envelope.json": {
+      "bytes": 352,
+      "sha256": "bb1d82c449b87b3cd61be30b3cec9d9f122992ed1e6522b8f6a8481bebefa3d3"
+    },
+    "generation/o010-stego/sender-inputs/key.bin": {
+      "bytes": 32,
+      "sha256": "8f2389678fc9823c71af12be6e7506a83795cd4db950a9fb9f50dbc987610181"
+    },
+    "generation/o010-stego/sender-inputs/payload.bin": {
+      "bytes": 16,
+      "sha256": "be45cb2605bf36bebde684841a28f0fd43c69850a3dce5fedba69928ee3a8991"
+    },
+    "generation/o010-stego/sender-inputs/public-context.json": {
+      "bytes": 1240,
+      "sha256": "3168b7555cc6634aa4036f87fbf752d93a7ab9e8860fd2f7b87ce9b9d388353f"
+    },
+    "generation/o010-stego/sender-process/command.json": {
+      "bytes": 1734,
+      "sha256": "d7e618f354142da6bc981ab406bbaf98cd0377d40f9bfe0e75d987417a7f7166"
+    },
+    "generation/o010-stego/sender-process/reservation.json": {
+      "bytes": 77,
+      "sha256": "2d13c303c6d3ab4bd0b013ec6f88459f8cf4c2f941bb7f9aeb7f2fb67894214a"
+    },
+    "generation/o010-stego/sender-process/stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "generation/o010-stego/sender-process/stdout.log": {
+      "bytes": 68,
+      "sha256": "0cb6360dd8760e23c8c742f0d6b0645f6f4a3deec610ef54c9b3b99fa8231a00"
+    },
+    "generation/o010-stego/sender-process/supervisor-child.json": {
+      "bytes": 63,
+      "sha256": "c178c60f0b16d0ad642f4f0d46e7b7ed1a5865913cc777cfda555b3c47b40b88"
+    },
+    "generation/o010-stego/sender-process/supervisor-result.json": {
+      "bytes": 401,
+      "sha256": "4e975f5e91abcfc371ae1ac782aae9357aea138b2135901e63924ebe84cb5693"
+    },
+    "generation/o010-stego/sender/committed-wire.bin": {
+      "bytes": 1283,
+      "sha256": "a4cc530c1331d083d894cb3dbfe11d58ca4d9f1a3dcfeac076a0c9c297d86391"
+    },
+    "generation/o010-stego/sender/envelope.json": {
+      "bytes": 378,
+      "sha256": "cbf5bc0991ab469a8c5e2144a978aea9cce45d9c3186c51e0cc673c9cc32dc4a"
+    },
+    "generation/o010-stego/sender/execution-started.json": {
+      "bytes": 405,
+      "sha256": "6308d2fc0b51095f7db2af90518cf0087ef94bd0e1ec1746822dc8489731b6ab"
+    },
+    "generation/o010-stego/sender/native-preprompt-verification.json": {
+      "bytes": 7286,
+      "sha256": "68789d37529fafb9150c273378ceb37d0879bd4f1219e7cf3990a22ad2a58cd4"
+    },
+    "generation/o010-stego/sender/native-resource-verification.json": {
+      "bytes": 309,
+      "sha256": "fdcda3b20f74689405824b04e923aa13e130bbaae7eadfcadf6819b4dfc5d535"
+    },
+    "generation/o010-stego/sender/native.stderr.log": {
+      "bytes": 211740,
+      "sha256": "1f3fbfab70d298f58df5b21d9678ad4fee7a5f92255d5a9e23963c5953832e9e"
+    },
+    "generation/o010-stego/sender/nonce-reservation.json": {
+      "bytes": 254,
+      "sha256": "3f455a409354ff11b05e12aa0d68b50f391b0708e45be14764942072e57cc830"
+    },
+    "generation/o010-stego/sender/proc-identity-capture.json": {
+      "bytes": 872,
+      "sha256": "8eeaeb5ca42a1dbbecabf4c383ae3fd5cfc7f35fac6aa126cb73b449d9e8a463"
+    },
+    "generation/o010-stego/sender/public-context.json": {
+      "bytes": 2487,
+      "sha256": "91fdeb5fe1c26251bfb63b82acbc7d0b8a585e3d9344b5678212ce1b8dc87494"
+    },
+    "generation/o010-stego/sender/public-profile.json": {
+      "bytes": 14747,
+      "sha256": "f32097750dc898fce418a29146587a4229eae1dcb76e3cbcd374b692846adc8a"
+    },
+    "generation/o010-stego/sender/public-spec.json": {
+      "bytes": 1388,
+      "sha256": "2bac5bd3dc43c8ca68d5f5f702ca047b081f47acdbd390a3abdddfaab6d76c85"
+    },
+    "generation/o010-stego/sender/reconciliation.json": {
+      "bytes": 566,
+      "sha256": "a5abe33f23f87570363375d6029f44de8e1d703b13a1be54f9df1d22ff0ad693"
+    },
+    "generation/o010-stego/sender/recovered-status.json": {
+      "bytes": 566,
+      "sha256": "a5abe33f23f87570363375d6029f44de8e1d703b13a1be54f9df1d22ff0ad693"
+    },
+    "generation/o010-stego/sender/token-journal.jsonl": {
+      "bytes": 3511204,
+      "sha256": "3d4fbdbd8324bdb8c9924827197babbffdd2696ee02d1dce0e6748d7cf162dbe"
+    },
+    "generation/o010-stego/sender/traces.json": {
+      "bytes": 6909223,
+      "sha256": "d94a2513c451118fdcf9fec259444eff26f571160f9921a9c946cbc5b88708df"
+    },
+    "generation/o010-stego/sender/wire.raw": {
+      "bytes": 1283,
+      "sha256": "a4cc530c1331d083d894cb3dbfe11d58ca4d9f1a3dcfeac076a0c9c297d86391"
+    },
+    "generation/o010-stego/sender/worker-result.json": {
+      "bytes": 891,
+      "sha256": "f94d8d8dbc632976f4045e0e255d9fa697c941c4a539b218734e9d8888f88bc8"
+    },
+    "generation/receiver-install-inventory.json": {
+      "bytes": 8177,
+      "sha256": "de75b742a08dbd306cbe79bc55c4b9c588a86dc3e15d77361a1168b3641d179c"
+    },
+    "generation/result.json": {
+      "bytes": 23205,
+      "sha256": "ead8ad9719d7976d9b3d3cdc1bfb32cca6bfe01824420be93a79f59bbd1a3166"
+    },
+    "preparation/independent/check_campaign.py": {
+      "bytes": 5124,
+      "sha256": "963c93548341aba69c4955bb86891f6677e69a431f1748e43a63605dcfd43e31"
+    },
+    "preparation/independent/check_campaign_initial.py": {
+      "bytes": 4269,
+      "sha256": "2be83f27370e136d417811180f37f042367b3d06f01a875b007de02a6e0bf827"
+    },
+    "preparation/independent/check_gate.py": {
+      "bytes": 3798,
+      "sha256": "299423fb0b12f8feb2379eb84f1e54455c1a4c871b2deac36a30f2895fb3612b"
+    },
+    "preparation/independent/closure-check.json": {
+      "bytes": 356,
+      "sha256": "c1b38d3cffba835f74964b69dd293b427f65fa8e2712252d861bad5de903c794"
+    },
+    "preparation/independent/final-campaign-relocatable.stderr.log": {
+      "bytes": 786,
+      "sha256": "d9592ddaf53b84cceb6d976c7a56be3cf96e5eedc1b27ddc3950fb61ed2e5209"
+    },
+    "preparation/independent/final-campaign-relocatable.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "preparation/independent/final-campaign.stderr.log": {
+      "bytes": 592,
+      "sha256": "c1729042db8e72152cd2bbacca2cf3451ec91f94248749ffe93a51060a257cbb"
+    },
+    "preparation/independent/final-campaign.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "preparation/independent/final-gate-relocatable.stderr.log": {
+      "bytes": 752,
+      "sha256": "0ef412e5bfa81d3823dba675de09b8574e0dd602537d24cec33d11da61f61d92"
+    },
+    "preparation/independent/final-gate-relocatable.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "preparation/independent/final-v2-campaign.stderr.log": {
+      "bytes": 786,
+      "sha256": "c7894e1f02b5ab868c112be70220f0fa038d54374e1ffb7f47bb1901b1b076b7"
+    },
+    "preparation/independent/final-v2-campaign.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "preparation/independent/final-v2-gate.stderr.log": {
+      "bytes": 752,
+      "sha256": "ea6159f98a7fa4b29f035d3d0b7a53c1f12ef04f37a3cb71b3893d5e12d81eeb"
+    },
+    "preparation/independent/final-v2-gate.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "preparation/independent/gate.stderr.log": {
+      "bytes": 752,
+      "sha256": "067c5f8bc1c7a4eff4d80a504bbba5ddd700c12b2988b76d011e5373b92a3153"
+    },
+    "preparation/independent/gate.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "preparation/independent/initial-campaign.stderr.log": {
+      "bytes": 1660,
+      "sha256": "91c648be4ae7df6e40c61606e93024f1ff4a4c9e0e9239c280f7a49173f1fd36"
+    },
+    "preparation/independent/initial-campaign.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "preparation/independent/review.json": {
+      "bytes": 3510,
+      "sha256": "149a65c0523f848f54f1fd77304ad5bfc7873c2e06755c5d52dc424c0f8eef31"
+    },
+    "preparation/independent/review_ru.md": {
+      "bytes": 4089,
+      "sha256": "7c82e2c00e6ec7166dd9d2d72daf39f56e5d16ac09815e0a1065f82470b1a85d"
+    },
+    "preparation/independent/selection-check.json": {
+      "bytes": 1733,
+      "sha256": "fbc69a74bee6e5972193681aef3ae361cc42058e324d967d7baecaf0c25e7242"
+    },
+    "preparation/independent/selection-exact-comparison.json": {
+      "bytes": 214,
+      "sha256": "4a243139a0ba48713a8b2ce4af1dd5abf7951fc900059f6c5d54152293551ec9"
+    },
+    "preparation/independent/source-git-inputs.json": {
+      "bytes": 743,
+      "sha256": "10d33424fc84bc4315b21264edd9d2a8df840a9f0596b2fd45cd65629c754ab0"
+    },
+    "preparation/independent/verified-source-readback.json": {
+      "bytes": 1370,
+      "sha256": "b5f296612aedb53d5cd8efd8c53984ce7187e0eb64d0d60e0d6a2057819db278"
+    },
+    "preparation/resource-restore-map.json": {
+      "bytes": 7359,
+      "sha256": "3f3cc3a0832d1776223fb26329d5598dc8adb32cee23740c5f152f68101ff7f8"
+    },
+    "preparation/root-resource-check.json": {
+      "bytes": 777,
+      "sha256": "9122bab642c4d2dba0948f6dd6dc35d7d334a37396117f659ddd48a73ed80f51"
+    },
+    "preparation/source-check.json": {
+      "bytes": 7599,
+      "sha256": "8f45398c04579b930b037912e2e5bfaae456c2293120acdbf2a7fb665a113217"
+    },
+    "root-execute-process/child.json": {
+      "bytes": 40,
+      "sha256": "349925936ed705b405e3e6981dfd1db39b39df99ad10cf7592d07c85fb6be4bd"
+    },
+    "root-execute-process/launch.json": {
+      "bytes": 692,
+      "sha256": "f9e8aeb05569b44e39de2f8c334dbeab03ca2166fbd09a0dd4c6e86336f3191a"
+    },
+    "root-execute-process/process.json": {
+      "bytes": 87,
+      "sha256": "e46c4e27c02c2353d38cbb3cb530c29f03c487fd1940332f0ba769211e67046f"
+    },
+    "root-execute-process/stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "root-execute-process/stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "root-tokenize-process/child.json": {
+      "bytes": 15,
+      "sha256": "a69ff3be60663a2f07a8ad4e3aa8913c94acfb7067d970b4496e299dd415395f"
+    },
+    "root-tokenize-process/launch.json": {
+      "bytes": 695,
+      "sha256": "4f645ebc6750821c6959ec4e89456e90bb65835f45a7a413c6a526be06472b9e"
+    },
+    "root-tokenize-process/process.json": {
+      "bytes": 88,
+      "sha256": "ed3f9b5ba873bf1d6025bdc6e7821186e7e7c8d641075c864a9a7984cd147e4d"
+    },
+    "root-tokenize-process/stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "root-tokenize-process/stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "tokenization/c00/native.stderr.log": {
+      "bytes": 211741,
+      "sha256": "555a105597431a6ee1c16e160c35ba76f4b635e3b99304ad3516b4bf734a132c"
+    },
+    "tokenization/c00/proc-identity-capture.json": {
+      "bytes": 869,
+      "sha256": "50e1ac77ec37585ab92e029feffcecbe8e39f271a68f89d86818ab0d4c91bcb4"
+    },
+    "tokenization/c00/public-context.json": {
+      "bytes": 1126,
+      "sha256": "26074fcc123d71ad8605238553e1ae162612fb621c89809b219e6a7402eda3f2"
+    },
+    "tokenization/c00/reservation.json": {
+      "bytes": 59,
+      "sha256": "48ad18915426d202678375a4c446e4f07e51a8043cf1e1055aac69ea86e86611"
+    },
+    "tokenization/c00/resident.json": {
+      "bytes": 3458,
+      "sha256": "d47253278658a20a019605aa80717478c40a75b08f2b9b738027515c134b7cf4"
+    },
+    "tokenization/c00/resource-check.json": {
+      "bytes": 283,
+      "sha256": "e0ae00e283598b0e6ac2b1f386b0ca3260feab8b84427972c035f2303c6cdfa0"
+    },
+    "tokenization/c00/supervisor-child.json": {
+      "bytes": 61,
+      "sha256": "3410304c4b963a027759143964920eb2203fed5ab2c234a6bd6aa2a14546bbe1"
+    },
+    "tokenization/c00/supervisor-result.json": {
+      "bytes": 399,
+      "sha256": "4dbf6a926cf7016deea16270572bad92edde9be26297131e80d5ad54771dd3e2"
+    },
+    "tokenization/c00/tokenization.json": {
+      "bytes": 1351,
+      "sha256": "b748cc1ecce7ff681a9a336aaefcfbf22b3c3e543a163a6327fdd8848abb7fcf"
+    },
+    "tokenization/c01/native.stderr.log": {
+      "bytes": 211740,
+      "sha256": "a5eb7e7970b25ce6d2683f90f9f39b8c2b6cf9ebccec8a6727fb0c8f5696b01b"
+    },
+    "tokenization/c01/proc-identity-capture.json": {
+      "bytes": 872,
+      "sha256": "b84857ba470abe92f4df223c58f6de489bc573b98d25afd956499ccf981df3ee"
+    },
+    "tokenization/c01/public-context.json": {
+      "bytes": 1069,
+      "sha256": "f3d11c84557985a7d058362442a4a3bffae125a0c28509d9e79f1be8ca98c0dd"
+    },
+    "tokenization/c01/reservation.json": {
+      "bytes": 59,
+      "sha256": "48ad18915426d202678375a4c446e4f07e51a8043cf1e1055aac69ea86e86611"
+    },
+    "tokenization/c01/resident.json": {
+      "bytes": 3464,
+      "sha256": "2feaee7f84a4a9b165afe4b9dc0b0d503094d7afc95c103ee9d38a3d55cd72a5"
+    },
+    "tokenization/c01/resource-check.json": {
+      "bytes": 283,
+      "sha256": "e0ae00e283598b0e6ac2b1f386b0ca3260feab8b84427972c035f2303c6cdfa0"
+    },
+    "tokenization/c01/supervisor-child.json": {
+      "bytes": 63,
+      "sha256": "1ad2aad2ddd16d918a04c0cec161fe2fbe39cdc3b28f01bed643faf58da5eae8"
+    },
+    "tokenization/c01/supervisor-result.json": {
+      "bytes": 400,
+      "sha256": "42964af4200ff63803f7b2b1f63b431d2b065edf3623175d8b03d0c1d86200f1"
+    },
+    "tokenization/c01/tokenization.json": {
+      "bytes": 1294,
+      "sha256": "3ca0df1f514cc0b1ec363966b43380f7afea5742b0a0f72f890807f0f439567e"
+    },
+    "tokenization/c02/native.stderr.log": {
+      "bytes": 211740,
+      "sha256": "1a2eef0861a558f0f622a23cafd475df08bf9a86db09751507e5917088caa3dc"
+    },
+    "tokenization/c02/proc-identity-capture.json": {
+      "bytes": 872,
+      "sha256": "a224f97f129a100526fd9ec7f2d59f8fbc55e89a01d7ecfd36bf4bbb38389f30"
+    },
+    "tokenization/c02/public-context.json": {
+      "bytes": 1082,
+      "sha256": "c78c2017d5ec7d65707bd2d82a890d80542205869a4bdc7c786baa1f218f7429"
+    },
+    "tokenization/c02/reservation.json": {
+      "bytes": 59,
+      "sha256": "48ad18915426d202678375a4c446e4f07e51a8043cf1e1055aac69ea86e86611"
+    },
+    "tokenization/c02/resident.json": {
+      "bytes": 3464,
+      "sha256": "fc73cacae68592f58c6878b7a87567e4a2ce3b0296e2aa4be2f5f66ef3087288"
+    },
+    "tokenization/c02/resource-check.json": {
+      "bytes": 283,
+      "sha256": "e0ae00e283598b0e6ac2b1f386b0ca3260feab8b84427972c035f2303c6cdfa0"
+    },
+    "tokenization/c02/supervisor-child.json": {
+      "bytes": 63,
+      "sha256": "2f1256ab07873cb98bd7e9292bada8a97d3009227f4e3e74dcb53772b68bbd9d"
+    },
+    "tokenization/c02/supervisor-result.json": {
+      "bytes": 401,
+      "sha256": "5a5ddedc762837c5bc717d6fd8c668eb891cac2add922c2b925e0f3d2c388649"
+    },
+    "tokenization/c02/tokenization.json": {
+      "bytes": 1307,
+      "sha256": "62abe6e5bc5cc44a6297aa68c6d3eff2b864e95daefe02b7b53bcec352f5dc0a"
+    },
+    "tokenization/c03/native.stderr.log": {
+      "bytes": 211740,
+      "sha256": "744b560d9e89ba0bd3ae634bdd9626f1d057a737907865a7000e0ec16c7a3ad6"
+    },
+    "tokenization/c03/proc-identity-capture.json": {
+      "bytes": 872,
+      "sha256": "609c0ce95ad1a06d2736780a77eaa2fe74cce1f9ee2af98f63d40a5deb108b0c"
+    },
+    "tokenization/c03/public-context.json": {
+      "bytes": 1240,
+      "sha256": "3168b7555cc6634aa4036f87fbf752d93a7ab9e8860fd2f7b87ce9b9d388353f"
+    },
+    "tokenization/c03/reservation.json": {
+      "bytes": 59,
+      "sha256": "48ad18915426d202678375a4c446e4f07e51a8043cf1e1055aac69ea86e86611"
+    },
+    "tokenization/c03/resident.json": {
+      "bytes": 3464,
+      "sha256": "234c5baa625da93b747dd6e00b88182bafbf05e939d5e3773f3475d4f3d44af8"
+    },
+    "tokenization/c03/resource-check.json": {
+      "bytes": 283,
+      "sha256": "e0ae00e283598b0e6ac2b1f386b0ca3260feab8b84427972c035f2303c6cdfa0"
+    },
+    "tokenization/c03/supervisor-child.json": {
+      "bytes": 63,
+      "sha256": "7b4a650396f1a7e515cb84f9d261ea39cddff099718349dcb01df39150c9b83e"
+    },
+    "tokenization/c03/supervisor-result.json": {
+      "bytes": 401,
+      "sha256": "edb94917ed1de698789ad7e6619701c537a4b26cdf46fa2762b2501411830767"
+    },
+    "tokenization/c03/tokenization.json": {
+      "bytes": 1465,
+      "sha256": "fa5ceba9aff655f4839b64ca01761616f138389b0e58f0bf84fa59f84a838169"
+    },
+    "tokenization/contexts.json": {
+      "bytes": 4607,
+      "sha256": "45693581cf6e506d1d70f14a8bb0ef49532a979df89ef812e7907ede9c3c2f35"
+    },
+    "tokenization/initial-denominator.json": {
+      "bytes": 45,
+      "sha256": "c254aaf1c1fd90ece85186a71b2e2e36e1cdee8bd2c8b8d2ccc42ead14779657"
+    },
+    "tokenize-source-readback.json": {
+      "bytes": 4295,
+      "sha256": "36111bab21b244d5901d75b557f3d51fc1da0e1485989b416273420511cb1969"
+    }
+  },
+  "directories": [
+    "results/framed-interval-public-context4-v1",
+    "results/framed-interval-public-context4-v1/generation",
+    "results/framed-interval-public-context4-v1/generation/o001-ordinary",
+    "results/framed-interval-public-context4-v1/generation/o001-ordinary/sender",
+    "results/framed-interval-public-context4-v1/generation/o001-ordinary/sender-inputs",
+    "results/framed-interval-public-context4-v1/generation/o001-ordinary/sender-process",
+    "results/framed-interval-public-context4-v1/generation/o001-stego",
+    "results/framed-interval-public-context4-v1/generation/o001-stego/receiver",
+    "results/framed-interval-public-context4-v1/generation/o001-stego/receiver-inputs",
+    "results/framed-interval-public-context4-v1/generation/o001-stego/receiver-process",
+    "results/framed-interval-public-context4-v1/generation/o001-stego/sender",
+    "results/framed-interval-public-context4-v1/generation/o001-stego/sender-inputs",
+    "results/framed-interval-public-context4-v1/generation/o001-stego/sender-process",
+    "results/framed-interval-public-context4-v1/generation/o004-ordinary",
+    "results/framed-interval-public-context4-v1/generation/o004-ordinary/sender",
+    "results/framed-interval-public-context4-v1/generation/o004-ordinary/sender-inputs",
+    "results/framed-interval-public-context4-v1/generation/o004-ordinary/sender-process",
+    "results/framed-interval-public-context4-v1/generation/o004-stego",
+    "results/framed-interval-public-context4-v1/generation/o004-stego/receiver",
+    "results/framed-interval-public-context4-v1/generation/o004-stego/receiver-inputs",
+    "results/framed-interval-public-context4-v1/generation/o004-stego/receiver-process",
+    "results/framed-interval-public-context4-v1/generation/o004-stego/sender",
+    "results/framed-interval-public-context4-v1/generation/o004-stego/sender-inputs",
+    "results/framed-interval-public-context4-v1/generation/o004-stego/sender-process",
+    "results/framed-interval-public-context4-v1/generation/o007-ordinary",
+    "results/framed-interval-public-context4-v1/generation/o007-ordinary/sender",
+    "results/framed-interval-public-context4-v1/generation/o007-ordinary/sender-inputs",
+    "results/framed-interval-public-context4-v1/generation/o007-ordinary/sender-process",
+    "results/framed-interval-public-context4-v1/generation/o007-stego",
+    "results/framed-interval-public-context4-v1/generation/o007-stego/receiver",
+    "results/framed-interval-public-context4-v1/generation/o007-stego/receiver-inputs",
+    "results/framed-interval-public-context4-v1/generation/o007-stego/receiver-process",
+    "results/framed-interval-public-context4-v1/generation/o007-stego/sender",
+    "results/framed-interval-public-context4-v1/generation/o007-stego/sender-inputs",
+    "results/framed-interval-public-context4-v1/generation/o007-stego/sender-process",
+    "results/framed-interval-public-context4-v1/generation/o010-ordinary",
+    "results/framed-interval-public-context4-v1/generation/o010-ordinary/sender",
+    "results/framed-interval-public-context4-v1/generation/o010-ordinary/sender-inputs",
+    "results/framed-interval-public-context4-v1/generation/o010-ordinary/sender-process",
+    "results/framed-interval-public-context4-v1/generation/o010-stego",
+    "results/framed-interval-public-context4-v1/generation/o010-stego/receiver",
+    "results/framed-interval-public-context4-v1/generation/o010-stego/receiver-inputs",
+    "results/framed-interval-public-context4-v1/generation/o010-stego/receiver-process",
+    "results/framed-interval-public-context4-v1/generation/o010-stego/sender",
+    "results/framed-interval-public-context4-v1/generation/o010-stego/sender-inputs",
+    "results/framed-interval-public-context4-v1/generation/o010-stego/sender-process",
+    "results/framed-interval-public-context4-v1/preparation",
+    "results/framed-interval-public-context4-v1/preparation/independent",
+    "results/framed-interval-public-context4-v1/root-execute-process",
+    "results/framed-interval-public-context4-v1/root-tokenize-process",
+    "results/framed-interval-public-context4-v1/tokenization",
+    "results/framed-interval-public-context4-v1/tokenization/c00",
+    "results/framed-interval-public-context4-v1/tokenization/c01",
+    "results/framed-interval-public-context4-v1/tokenization/c02",
+    "results/framed-interval-public-context4-v1/tokenization/c03"
+  ],
+  "files": {
+    "results/framed-interval-public-context4-v1/execute-source-readback.json": {
+      "bytes": 10170,
+      "sha256": "8ba38136c1105dae708fb955688e2633f40051185c9c4ddedafc48dbe60e0105"
+    },
+    "results/framed-interval-public-context4-v1/generation/after-o001-ordinary-sender.json": {
+      "bytes": 6521,
+      "sha256": "9e11b7b74547b71b049781aa5d2f3ff9b6527ad73582bb05c9104c0f821911c6"
+    },
+    "results/framed-interval-public-context4-v1/generation/after-o001-stego-receiver.json": {
+      "bytes": 4715,
+      "sha256": "f93dc73761768bf7240d44e0d2ad8f8a31973cadc171756f6a10ff40d277e9b9"
+    },
+    "results/framed-interval-public-context4-v1/generation/after-o001-stego-sender.json": {
+      "bytes": 3009,
+      "sha256": "f30db9751e8027ab5b1d8659090d386c651e7c627700a0a376d42d3979fcaf2b"
+    },
+    "results/framed-interval-public-context4-v1/generation/after-o004-ordinary-sender.json": {
+      "bytes": 11897,
+      "sha256": "f87f3b616f1d2e282f67d2ecd69d8936145aff09a7319dd04dd0ba16b550f7ac"
+    },
+    "results/framed-interval-public-context4-v1/generation/after-o004-stego-receiver.json": {
+      "bytes": 10090,
+      "sha256": "dd06ecbec1892d732ffe878414d2271cd2122895cbbdf30ce3eaa0c9f8d4294e"
+    },
+    "results/framed-interval-public-context4-v1/generation/after-o004-stego-sender.json": {
+      "bytes": 8383,
+      "sha256": "9da2f561411115f5371dbde5ee4573c6c93671e51d0a2dc521433f0ad50716ac"
+    },
+    "results/framed-interval-public-context4-v1/generation/after-o007-ordinary-sender.json": {
+      "bytes": 17271,
+      "sha256": "d7c08ab7bc304de01326ef447813c27261964d9d4927d46a97276351213dd062"
+    },
+    "results/framed-interval-public-context4-v1/generation/after-o007-stego-receiver.json": {
+      "bytes": 15464,
+      "sha256": "f8781c5b44d386a7df8a39bbed1839746dcedca0730b9cb1f1e70c50471eb885"
+    },
+    "results/framed-interval-public-context4-v1/generation/after-o007-stego-sender.json": {
+      "bytes": 13758,
+      "sha256": "96d88428204ac3499c4ef3f8f895de9574c1a606973932ed89b5e505e1f567ce"
+    },
+    "results/framed-interval-public-context4-v1/generation/after-o010-ordinary-sender.json": {
+      "bytes": 22648,
+      "sha256": "a26b61070a09f22688702e887ec79ba5b838cca1e6b173f06558cfb9b2b6e2f7"
+    },
+    "results/framed-interval-public-context4-v1/generation/after-o010-stego-receiver.json": {
+      "bytes": 20841,
+      "sha256": "5dfc457795b03510b45f306a74ef49d977833a1f32e8ce5977453de471155982"
+    },
+    "results/framed-interval-public-context4-v1/generation/after-o010-stego-sender.json": {
+      "bytes": 19134,
+      "sha256": "026d59c77a334269c5d10a1302212fa9bf02597a4075ceeec336e9b7d2eaa6b2"
+    },
+    "results/framed-interval-public-context4-v1/generation/initial-denominator.json": {
+      "bytes": 1192,
+      "sha256": "e63b5faa92ed44d854eac3693924050efe44f5477567715b00723b94e1cd9b0c"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-ordinary/sender-inputs/envelope.json": {
+      "bytes": 355,
+      "sha256": "e0912f294d936afef140ce6f881f13b3759911693eeed407b8959d3f83ee9246"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-ordinary/sender-inputs/key.bin": {
+      "bytes": 32,
+      "sha256": "8f2389678fc9823c71af12be6e7506a83795cd4db950a9fb9f50dbc987610181"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-ordinary/sender-inputs/public-context.json": {
+      "bytes": 1126,
+      "sha256": "26074fcc123d71ad8605238553e1ae162612fb621c89809b219e6a7402eda3f2"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-ordinary/sender-process/command.json": {
+      "bytes": 1556,
+      "sha256": "82ba00e20cb29b1fb059e10c8125da85622d09661303de40ac4945b066af48f1"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-ordinary/sender-process/reservation.json": {
+      "bytes": 77,
+      "sha256": "2d13c303c6d3ab4bd0b013ec6f88459f8cf4c2f941bb7f9aeb7f2fb67894214a"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-ordinary/sender-process/stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-ordinary/sender-process/stdout.log": {
+      "bytes": 70,
+      "sha256": "19668bfc6317588f043e7d8aeb34b5b03e60271f4aec7a1ea2d6bd281cce0026"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-ordinary/sender-process/supervisor-child.json": {
+      "bytes": 63,
+      "sha256": "bc18c5e06c2cb159e7bfd566d33d40ba1180f6b30247701381c9355156d1829f"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-ordinary/sender-process/supervisor-result.json": {
+      "bytes": 401,
+      "sha256": "cec692ce75e777be4bf62e45493238981abced32d47a8d3f1dfd932a6e222781"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-ordinary/sender/committed-wire.bin": {
+      "bytes": 1203,
+      "sha256": "ca48e92ef8d9c10ba22b43abebf14d5ccb46acfc5e84c8c239cd8103bc842cd9"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-ordinary/sender/envelope.json": {
+      "bytes": 381,
+      "sha256": "19f5622d2de8256832e4ee09f87dbcb5b080fdcc7e6430ededa229d9e43a6691"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-ordinary/sender/execution-started.json": {
+      "bytes": 405,
+      "sha256": "352a2907d7dccaa526848278c9583b6689276362ede3b4a3bcd1f438e7c130da"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-ordinary/sender/native-preprompt-verification.json": {
+      "bytes": 6997,
+      "sha256": "d79c11fa8c988d8b43e0883e5da131647e7e12a2659824595718920c3a48bc48"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-ordinary/sender/native-resource-verification.json": {
+      "bytes": 309,
+      "sha256": "fdcda3b20f74689405824b04e923aa13e130bbaae7eadfcadf6819b4dfc5d535"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-ordinary/sender/native.stderr.log": {
+      "bytes": 211740,
+      "sha256": "0083e679e8d726fa95e6efaf02f3f00c39d132f325d8e5f2693ab0ea8ecc9f6d"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-ordinary/sender/nonce-reservation.json": {
+      "bytes": 254,
+      "sha256": "2efeda7fe2dea0b3f34f71b91c4a5310ccf773b1d9414729c80839fb9b638d60"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-ordinary/sender/proc-identity-capture.json": {
+      "bytes": 872,
+      "sha256": "7d51eb79f8bb80e5f7b11707d08634442382cf3d8b6c6f282d7ea5f5e17e5f95"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-ordinary/sender/public-context.json": {
+      "bytes": 2198,
+      "sha256": "70d42e470c892488e028340dee60291aaa4f880116f815e297c4386f169f4586"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-ordinary/sender/public-profile.json": {
+      "bytes": 14747,
+      "sha256": "f32097750dc898fce418a29146587a4229eae1dcb76e3cbcd374b692846adc8a"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-ordinary/sender/public-spec.json": {
+      "bytes": 1388,
+      "sha256": "2bac5bd3dc43c8ca68d5f5f702ca047b081f47acdbd390a3abdddfaab6d76c85"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-ordinary/sender/reconciliation.json": {
+      "bytes": 566,
+      "sha256": "eb5c7e66017ed3b0847bce2543f3ae3b72db568513134d45652536788b4a0e2d"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-ordinary/sender/recovered-status.json": {
+      "bytes": 566,
+      "sha256": "eb5c7e66017ed3b0847bce2543f3ae3b72db568513134d45652536788b4a0e2d"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-ordinary/sender/token-journal.jsonl": {
+      "bytes": 3050589,
+      "sha256": "30cb35896ed92510516e4282c4a7adff6739aabff9f529d2e90ba79e1f73f681"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-ordinary/sender/traces.json": {
+      "bytes": 5965557,
+      "sha256": "2af94f23f322848e5afd7949986ad7671187e69dfff6ed2141eb81700722c2fc"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-ordinary/sender/wire.raw": {
+      "bytes": 1203,
+      "sha256": "ca48e92ef8d9c10ba22b43abebf14d5ccb46acfc5e84c8c239cd8103bc842cd9"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-ordinary/sender/worker-result.json": {
+      "bytes": 833,
+      "sha256": "821cf859c0d1c12bcd3090e99c17e7c16bf832d23252e721f4e349833810722b"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/receiver-inputs/envelope.json": {
+      "bytes": 352,
+      "sha256": "42bba4887be048329980d63846f0680a95e90ea4285bcd31376cdffa632d7ab1"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/receiver-inputs/key.bin": {
+      "bytes": 32,
+      "sha256": "8f2389678fc9823c71af12be6e7506a83795cd4db950a9fb9f50dbc987610181"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/receiver-inputs/public-context.json": {
+      "bytes": 1126,
+      "sha256": "26074fcc123d71ad8605238553e1ae162612fb621c89809b219e6a7402eda3f2"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/receiver-inputs/wire.bin": {
+      "bytes": 986,
+      "sha256": "d1cb0c2ce5e4e1a7f34313bec571032774bea7561856caec0fa1c8e519983ef1"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/receiver-process/command.json": {
+      "bytes": 1821,
+      "sha256": "748bd42c2b1960e85228e930c5e97a46b62a56c53da74f049fc20889662afbde"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/receiver-process/reservation.json": {
+      "bytes": 76,
+      "sha256": "a9235ce720f0541360f7f701f4bdd17dde1e1b99cd03b3a785202f487e2a6ea1"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/receiver-process/stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/receiver-process/stdout.log": {
+      "bytes": 64,
+      "sha256": "e0427e7c0da837571799d6c9bd6d4918ff33ba9f4435ef2ea52ad2a00dc8a6a8"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/receiver-process/supervisor-child.json": {
+      "bytes": 63,
+      "sha256": "37a14f044232b0025e26fe081e7528231227bf9b874272708dada3d4f66fae98"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/receiver-process/supervisor-result.json": {
+      "bytes": 401,
+      "sha256": "7f83ea3f6a3139270b481248e88bf56202eb1f599ebb1f13408eff7f181c92f3"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/receiver/committed-wire.bin": {
+      "bytes": 986,
+      "sha256": "d1cb0c2ce5e4e1a7f34313bec571032774bea7561856caec0fa1c8e519983ef1"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/receiver/envelope.json": {
+      "bytes": 378,
+      "sha256": "2ce269acd798d4d4dfafae43a963fd8255307b8fe32858e5dca273da7cc2898b"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/receiver/execution-started.json": {
+      "bytes": 404,
+      "sha256": "329830fd6eef0836d9d558529e559d8df9d010ffcf82c6569c3bc9cf6389e84d"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/receiver/native-preprompt-verification.json": {
+      "bytes": 7477,
+      "sha256": "1c393ffea3dd93b55fde3e51fe9167061cbfe75eeaa54279682e440ef2e6d074"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/receiver/native-resource-verification.json": {
+      "bytes": 309,
+      "sha256": "fdcda3b20f74689405824b04e923aa13e130bbaae7eadfcadf6819b4dfc5d535"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/receiver/native.stderr.log": {
+      "bytes": 211860,
+      "sha256": "3773ea93826216623c4d731cd0877461cf88c7b37838675c208ff149b39e0467"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/receiver/proc-identity-capture.json": {
+      "bytes": 932,
+      "sha256": "44642c2e6dc227100439691bfb9cb7c24dcd2ad5deeefd44bda738a07eda4b39"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/receiver/public-context.json": {
+      "bytes": 2198,
+      "sha256": "70d42e470c892488e028340dee60291aaa4f880116f815e297c4386f169f4586"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/receiver/public-profile.json": {
+      "bytes": 14747,
+      "sha256": "f32097750dc898fce418a29146587a4229eae1dcb76e3cbcd374b692846adc8a"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/receiver/public-spec.json": {
+      "bytes": 1388,
+      "sha256": "2bac5bd3dc43c8ca68d5f5f702ca047b081f47acdbd390a3abdddfaab6d76c85"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/receiver/received-payload.bin": {
+      "bytes": 16,
+      "sha256": "be45cb2605bf36bebde684841a28f0fd43c69850a3dce5fedba69928ee3a8991"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/receiver/reconciliation.json": {
+      "bytes": 565,
+      "sha256": "51cd2e20aa9ca5b939990a1aeb840bf9e6a9355b56a03bf10005c36a5c25b6e8"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/receiver/recovered-status.json": {
+      "bytes": 565,
+      "sha256": "51cd2e20aa9ca5b939990a1aeb840bf9e6a9355b56a03bf10005c36a5c25b6e8"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/receiver/token-journal.jsonl": {
+      "bytes": 2570642,
+      "sha256": "979a7901aacb0f40d088c5a8338d1f9541342fdc4abd87df9c0ea89724c3f126"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/receiver/traces.json": {
+      "bytes": 5010225,
+      "sha256": "d8f2f85074dc36d90e0e9a6799c3ad67165969fc9869374f42708a1c62de8eee"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/receiver/wire.raw": {
+      "bytes": 986,
+      "sha256": "d1cb0c2ce5e4e1a7f34313bec571032774bea7561856caec0fa1c8e519983ef1"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/receiver/worker-result.json": {
+      "bytes": 721,
+      "sha256": "e94f493cb887aae323e838563004bdf5996e7a97892da1384934757b3cf101a5"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/sender-inputs/envelope.json": {
+      "bytes": 352,
+      "sha256": "42bba4887be048329980d63846f0680a95e90ea4285bcd31376cdffa632d7ab1"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/sender-inputs/key.bin": {
+      "bytes": 32,
+      "sha256": "8f2389678fc9823c71af12be6e7506a83795cd4db950a9fb9f50dbc987610181"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/sender-inputs/payload.bin": {
+      "bytes": 16,
+      "sha256": "be45cb2605bf36bebde684841a28f0fd43c69850a3dce5fedba69928ee3a8991"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/sender-inputs/public-context.json": {
+      "bytes": 1126,
+      "sha256": "26074fcc123d71ad8605238553e1ae162612fb621c89809b219e6a7402eda3f2"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/sender-process/command.json": {
+      "bytes": 1734,
+      "sha256": "722da6199ef906c1278c78eedcf42995f889aaf456977c9d7c78462e4097e9c6"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/sender-process/reservation.json": {
+      "bytes": 77,
+      "sha256": "2d13c303c6d3ab4bd0b013ec6f88459f8cf4c2f941bb7f9aeb7f2fb67894214a"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/sender-process/stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/sender-process/stdout.log": {
+      "bytes": 68,
+      "sha256": "0cb6360dd8760e23c8c742f0d6b0645f6f4a3deec610ef54c9b3b99fa8231a00"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/sender-process/supervisor-child.json": {
+      "bytes": 61,
+      "sha256": "be4ccb5911f7904e73010c414fcded1a62227a9cde2f6dcf4ca8d4805f764ab7"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/sender-process/supervisor-result.json": {
+      "bytes": 400,
+      "sha256": "5f0446b1357afdf619ab166bb564eb61d642719d84b3172300fa1ce872a794d3"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/sender/committed-wire.bin": {
+      "bytes": 986,
+      "sha256": "d1cb0c2ce5e4e1a7f34313bec571032774bea7561856caec0fa1c8e519983ef1"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/sender/envelope.json": {
+      "bytes": 378,
+      "sha256": "2ce269acd798d4d4dfafae43a963fd8255307b8fe32858e5dca273da7cc2898b"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/sender/execution-started.json": {
+      "bytes": 405,
+      "sha256": "352a2907d7dccaa526848278c9583b6689276362ede3b4a3bcd1f438e7c130da"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/sender/native-preprompt-verification.json": {
+      "bytes": 6991,
+      "sha256": "0d22fab4de7448a49dbc7d28b23185736f8f305c2babb51a4d30a39a79f3b70b"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/sender/native-resource-verification.json": {
+      "bytes": 309,
+      "sha256": "fdcda3b20f74689405824b04e923aa13e130bbaae7eadfcadf6819b4dfc5d535"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/sender/native.stderr.log": {
+      "bytes": 211740,
+      "sha256": "e405f7eb1cb144395f24180871bcb998b3b4587206fc2ae8cdfdbd083ae75d23"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/sender/nonce-reservation.json": {
+      "bytes": 254,
+      "sha256": "669a8f47f2526d2eb5c3643de31f99ac43a79c166e6e3447e85036ebbee5de37"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/sender/proc-identity-capture.json": {
+      "bytes": 869,
+      "sha256": "7baa3f381b929506441046f707b42a838d276c54db85ca06ffbe14f9a573e068"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/sender/public-context.json": {
+      "bytes": 2198,
+      "sha256": "70d42e470c892488e028340dee60291aaa4f880116f815e297c4386f169f4586"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/sender/public-profile.json": {
+      "bytes": 14747,
+      "sha256": "f32097750dc898fce418a29146587a4229eae1dcb76e3cbcd374b692846adc8a"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/sender/public-spec.json": {
+      "bytes": 1388,
+      "sha256": "2bac5bd3dc43c8ca68d5f5f702ca047b081f47acdbd390a3abdddfaab6d76c85"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/sender/reconciliation.json": {
+      "bytes": 565,
+      "sha256": "500aa18550285c9d9e546174e992fde3e3e4baf13ef43f8bbb752fd46197a7c6"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/sender/recovered-status.json": {
+      "bytes": 565,
+      "sha256": "500aa18550285c9d9e546174e992fde3e3e4baf13ef43f8bbb752fd46197a7c6"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/sender/token-journal.jsonl": {
+      "bytes": 2570642,
+      "sha256": "979a7901aacb0f40d088c5a8338d1f9541342fdc4abd87df9c0ea89724c3f126"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/sender/traces.json": {
+      "bytes": 5010225,
+      "sha256": "d8f2f85074dc36d90e0e9a6799c3ad67165969fc9869374f42708a1c62de8eee"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/sender/wire.raw": {
+      "bytes": 986,
+      "sha256": "d1cb0c2ce5e4e1a7f34313bec571032774bea7561856caec0fa1c8e519983ef1"
+    },
+    "results/framed-interval-public-context4-v1/generation/o001-stego/sender/worker-result.json": {
+      "bytes": 890,
+      "sha256": "f4391809cbca048ef62d27a8e0b9ccb0d39fb1ce3cdbe1aae56abcf646d86405"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-ordinary/sender-inputs/envelope.json": {
+      "bytes": 355,
+      "sha256": "b81db10b225be630d1a4924298a9ea99b425f1636c7537d17003f3ddf11a40e8"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-ordinary/sender-inputs/key.bin": {
+      "bytes": 32,
+      "sha256": "8f2389678fc9823c71af12be6e7506a83795cd4db950a9fb9f50dbc987610181"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-ordinary/sender-inputs/public-context.json": {
+      "bytes": 1069,
+      "sha256": "f3d11c84557985a7d058362442a4a3bffae125a0c28509d9e79f1be8ca98c0dd"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-ordinary/sender-process/command.json": {
+      "bytes": 1556,
+      "sha256": "f006317071bdb1246f30559e38a27d1fca455da4000e11225055e7af16bb5dad"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-ordinary/sender-process/reservation.json": {
+      "bytes": 77,
+      "sha256": "2d13c303c6d3ab4bd0b013ec6f88459f8cf4c2f941bb7f9aeb7f2fb67894214a"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-ordinary/sender-process/stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-ordinary/sender-process/stdout.log": {
+      "bytes": 70,
+      "sha256": "19668bfc6317588f043e7d8aeb34b5b03e60271f4aec7a1ea2d6bd281cce0026"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-ordinary/sender-process/supervisor-child.json": {
+      "bytes": 63,
+      "sha256": "7eecfadd5676d85570e15ff621c676475ec1ff4790c9f9cb2e75af745663fba1"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-ordinary/sender-process/supervisor-result.json": {
+      "bytes": 401,
+      "sha256": "3b634edd7bab3289843e435bf1ba295c33bca694a555ba58a6f0b3d51831f605"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-ordinary/sender/committed-wire.bin": {
+      "bytes": 1306,
+      "sha256": "148e67082885a20a8b5a4ada0b7c5b322f305dc6d61dd791d780077b9cf51732"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-ordinary/sender/envelope.json": {
+      "bytes": 381,
+      "sha256": "b4787bce19a7752ac1ff60d59740f71958a7371721c5f1815e436ec6714c84c1"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-ordinary/sender/execution-started.json": {
+      "bytes": 405,
+      "sha256": "cdf14ed6baecf6af1d9faed7e12aded3fc0549bf85f06a4d89c71558665fe545"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-ordinary/sender/native-preprompt-verification.json": {
+      "bytes": 6895,
+      "sha256": "43edbfd5b171221012a03b2adac28bd804b7c2cc95f1a289dc698dd9efe54230"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-ordinary/sender/native-resource-verification.json": {
+      "bytes": 309,
+      "sha256": "fdcda3b20f74689405824b04e923aa13e130bbaae7eadfcadf6819b4dfc5d535"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-ordinary/sender/native.stderr.log": {
+      "bytes": 211740,
+      "sha256": "403d57c8c3cff7961299b5c2f6482414440cf44f1d71dc985a17406cd640a89e"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-ordinary/sender/nonce-reservation.json": {
+      "bytes": 254,
+      "sha256": "8f4a3ffa28353a9e62e5a358f7a211ddc67f7a22380d9d1f2d46ffc5bf933a98"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-ordinary/sender/proc-identity-capture.json": {
+      "bytes": 872,
+      "sha256": "0b9cfcb0f6bb8a73ba74c121b4fe3431410be854b7f687cbdcf3764234039eeb"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-ordinary/sender/public-context.json": {
+      "bytes": 2096,
+      "sha256": "889da6d9d7c083c07d2ac03dd23d347e471b556f39127b953cc50be3f540618c"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-ordinary/sender/public-profile.json": {
+      "bytes": 14747,
+      "sha256": "f32097750dc898fce418a29146587a4229eae1dcb76e3cbcd374b692846adc8a"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-ordinary/sender/public-spec.json": {
+      "bytes": 1388,
+      "sha256": "2bac5bd3dc43c8ca68d5f5f702ca047b081f47acdbd390a3abdddfaab6d76c85"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-ordinary/sender/reconciliation.json": {
+      "bytes": 566,
+      "sha256": "05e159d58bd3477f3f3bff5f23354aaa46e61a9c67fd079ae11d1cb5718ae885"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-ordinary/sender/recovered-status.json": {
+      "bytes": 566,
+      "sha256": "05e159d58bd3477f3f3bff5f23354aaa46e61a9c67fd079ae11d1cb5718ae885"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-ordinary/sender/token-journal.jsonl": {
+      "bytes": 3031326,
+      "sha256": "50fe278d04b40f01187408816f0fa51996412497aca865af52986fe88ce28b66"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-ordinary/sender/traces.json": {
+      "bytes": 5915262,
+      "sha256": "a57fa4e9059873bccdef7fdfe50c5a3cddf3f5d449fa0a719067468fa8292d60"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-ordinary/sender/wire.raw": {
+      "bytes": 1306,
+      "sha256": "148e67082885a20a8b5a4ada0b7c5b322f305dc6d61dd791d780077b9cf51732"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-ordinary/sender/worker-result.json": {
+      "bytes": 834,
+      "sha256": "4ed64a7aed5eee17dd08e376e5436f7ead027c2ceecbd087f1fc79f423fe8e3e"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/receiver-inputs/envelope.json": {
+      "bytes": 352,
+      "sha256": "d4c00d29803e537488405151479f9d9872114f3b260f4520c83de280fb8daf28"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/receiver-inputs/key.bin": {
+      "bytes": 32,
+      "sha256": "8f2389678fc9823c71af12be6e7506a83795cd4db950a9fb9f50dbc987610181"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/receiver-inputs/public-context.json": {
+      "bytes": 1069,
+      "sha256": "f3d11c84557985a7d058362442a4a3bffae125a0c28509d9e79f1be8ca98c0dd"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/receiver-inputs/wire.bin": {
+      "bytes": 1181,
+      "sha256": "9489cfaed19e9f324245adb14c36683375fa1c43add1476151d44db7d9defa28"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/receiver-process/command.json": {
+      "bytes": 1821,
+      "sha256": "710398345adfb02444ae110ae2d69b7523f05cc48ccdba20055b98283c1ee77c"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/receiver-process/reservation.json": {
+      "bytes": 76,
+      "sha256": "a9235ce720f0541360f7f701f4bdd17dde1e1b99cd03b3a785202f487e2a6ea1"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/receiver-process/stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/receiver-process/stdout.log": {
+      "bytes": 64,
+      "sha256": "e0427e7c0da837571799d6c9bd6d4918ff33ba9f4435ef2ea52ad2a00dc8a6a8"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/receiver-process/supervisor-child.json": {
+      "bytes": 63,
+      "sha256": "d9183c2730e6634ee0bfd66e7ad7256356e6c6330303d624f2c0b839bd32a9f0"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/receiver-process/supervisor-result.json": {
+      "bytes": 402,
+      "sha256": "257f48b24b38935cb9d723fd63a766a9919f16165f652240ec2b43c4be04e121"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/receiver/committed-wire.bin": {
+      "bytes": 1181,
+      "sha256": "9489cfaed19e9f324245adb14c36683375fa1c43add1476151d44db7d9defa28"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/receiver/envelope.json": {
+      "bytes": 378,
+      "sha256": "9f5d8685a927a66f4a0046289e6f8bd1c3b82cbdfdac7616370ac22d1ef6fa23"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/receiver/execution-started.json": {
+      "bytes": 404,
+      "sha256": "27522838e475a75bb07ba6e00cc13b92a2c2202666ca63402b4d034ca786cd07"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/receiver/native-preprompt-verification.json": {
+      "bytes": 7375,
+      "sha256": "5aa4c8210897f0d6a9dff48caf60ecf1e6fad7030a074461913b163d54b48889"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/receiver/native-resource-verification.json": {
+      "bytes": 309,
+      "sha256": "fdcda3b20f74689405824b04e923aa13e130bbaae7eadfcadf6819b4dfc5d535"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/receiver/native.stderr.log": {
+      "bytes": 211860,
+      "sha256": "d1c98f7315eaae4f8966e8b05ce1be91c501d401eb2f46694e201b74e9e0f8ba"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/receiver/proc-identity-capture.json": {
+      "bytes": 932,
+      "sha256": "22199fea18bdc2ab6c46c62418fa39ba237ac29e68b81588aeebb128b0a2b304"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/receiver/public-context.json": {
+      "bytes": 2096,
+      "sha256": "889da6d9d7c083c07d2ac03dd23d347e471b556f39127b953cc50be3f540618c"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/receiver/public-profile.json": {
+      "bytes": 14747,
+      "sha256": "f32097750dc898fce418a29146587a4229eae1dcb76e3cbcd374b692846adc8a"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/receiver/public-spec.json": {
+      "bytes": 1388,
+      "sha256": "2bac5bd3dc43c8ca68d5f5f702ca047b081f47acdbd390a3abdddfaab6d76c85"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/receiver/received-payload.bin": {
+      "bytes": 16,
+      "sha256": "be45cb2605bf36bebde684841a28f0fd43c69850a3dce5fedba69928ee3a8991"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/receiver/reconciliation.json": {
+      "bytes": 566,
+      "sha256": "50b212939f84108a0de0898ae600a921357e81f10f2e283fafa549c3f6a10862"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/receiver/recovered-status.json": {
+      "bytes": 566,
+      "sha256": "50b212939f84108a0de0898ae600a921357e81f10f2e283fafa549c3f6a10862"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/receiver/token-journal.jsonl": {
+      "bytes": 2774397,
+      "sha256": "0e60fd5e504d64ace6c6a0635614260c9f572e1c81daef094ca790a6eb0f24e9"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/receiver/traces.json": {
+      "bytes": 5396498,
+      "sha256": "105e20c073ec5ef4ef1dc0f1fb9453cf638c4c3308eda026bd8d22f28cbdd21f"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/receiver/wire.raw": {
+      "bytes": 1181,
+      "sha256": "9489cfaed19e9f324245adb14c36683375fa1c43add1476151d44db7d9defa28"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/receiver/worker-result.json": {
+      "bytes": 720,
+      "sha256": "1a42afa847cc54c49442893ee9e5f31bcb425bd2fe6c1342155cedc701a851d0"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/sender-inputs/envelope.json": {
+      "bytes": 352,
+      "sha256": "d4c00d29803e537488405151479f9d9872114f3b260f4520c83de280fb8daf28"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/sender-inputs/key.bin": {
+      "bytes": 32,
+      "sha256": "8f2389678fc9823c71af12be6e7506a83795cd4db950a9fb9f50dbc987610181"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/sender-inputs/payload.bin": {
+      "bytes": 16,
+      "sha256": "be45cb2605bf36bebde684841a28f0fd43c69850a3dce5fedba69928ee3a8991"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/sender-inputs/public-context.json": {
+      "bytes": 1069,
+      "sha256": "f3d11c84557985a7d058362442a4a3bffae125a0c28509d9e79f1be8ca98c0dd"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/sender-process/command.json": {
+      "bytes": 1734,
+      "sha256": "e78597ea60ceffdcdaf5dd7f72f826c5a00b73041dce3584c209f2602b8be5f0"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/sender-process/reservation.json": {
+      "bytes": 77,
+      "sha256": "2d13c303c6d3ab4bd0b013ec6f88459f8cf4c2f941bb7f9aeb7f2fb67894214a"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/sender-process/stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/sender-process/stdout.log": {
+      "bytes": 68,
+      "sha256": "0cb6360dd8760e23c8c742f0d6b0645f6f4a3deec610ef54c9b3b99fa8231a00"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/sender-process/supervisor-child.json": {
+      "bytes": 63,
+      "sha256": "f6b160c9b269789cd4b68f44ce45488b42687038311070d8a5fd15aa1ffcdcaf"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/sender-process/supervisor-result.json": {
+      "bytes": 401,
+      "sha256": "c71b521234f1ef9fdf2bfc07449e906f89726f61945b68a2c20daa56f65b52a7"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/sender/committed-wire.bin": {
+      "bytes": 1181,
+      "sha256": "9489cfaed19e9f324245adb14c36683375fa1c43add1476151d44db7d9defa28"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/sender/envelope.json": {
+      "bytes": 378,
+      "sha256": "9f5d8685a927a66f4a0046289e6f8bd1c3b82cbdfdac7616370ac22d1ef6fa23"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/sender/execution-started.json": {
+      "bytes": 405,
+      "sha256": "cdf14ed6baecf6af1d9faed7e12aded3fc0549bf85f06a4d89c71558665fe545"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/sender/native-preprompt-verification.json": {
+      "bytes": 6895,
+      "sha256": "6c1f7ebd3007ba1d2dfda5b52cfa99ae1f7de15a793e82b822a8da42aec0bddc"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/sender/native-resource-verification.json": {
+      "bytes": 309,
+      "sha256": "fdcda3b20f74689405824b04e923aa13e130bbaae7eadfcadf6819b4dfc5d535"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/sender/native.stderr.log": {
+      "bytes": 211740,
+      "sha256": "0a8848a0f93963add8bb4dbfada48265e8f16afb33609d91b0faf0d5f9e48109"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/sender/nonce-reservation.json": {
+      "bytes": 254,
+      "sha256": "5d1a5ba8e5fa311b22228f3acdb853e27df9db17d0f394f08ec3e5556addeddb"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/sender/proc-identity-capture.json": {
+      "bytes": 872,
+      "sha256": "0dc051745794f392d32c33d1297331b1570e0c3715800fc18939567d1fd6f99a"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/sender/public-context.json": {
+      "bytes": 2096,
+      "sha256": "889da6d9d7c083c07d2ac03dd23d347e471b556f39127b953cc50be3f540618c"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/sender/public-profile.json": {
+      "bytes": 14747,
+      "sha256": "f32097750dc898fce418a29146587a4229eae1dcb76e3cbcd374b692846adc8a"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/sender/public-spec.json": {
+      "bytes": 1388,
+      "sha256": "2bac5bd3dc43c8ca68d5f5f702ca047b081f47acdbd390a3abdddfaab6d76c85"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/sender/reconciliation.json": {
+      "bytes": 566,
+      "sha256": "efee3caff06c1f0209d8982c2a62517ddc2d75be24d20412b860017120f23200"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/sender/recovered-status.json": {
+      "bytes": 566,
+      "sha256": "efee3caff06c1f0209d8982c2a62517ddc2d75be24d20412b860017120f23200"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/sender/token-journal.jsonl": {
+      "bytes": 2774397,
+      "sha256": "0e60fd5e504d64ace6c6a0635614260c9f572e1c81daef094ca790a6eb0f24e9"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/sender/traces.json": {
+      "bytes": 5396498,
+      "sha256": "105e20c073ec5ef4ef1dc0f1fb9453cf638c4c3308eda026bd8d22f28cbdd21f"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/sender/wire.raw": {
+      "bytes": 1181,
+      "sha256": "9489cfaed19e9f324245adb14c36683375fa1c43add1476151d44db7d9defa28"
+    },
+    "results/framed-interval-public-context4-v1/generation/o004-stego/sender/worker-result.json": {
+      "bytes": 891,
+      "sha256": "0aa9d403d3e409882923e7061ca6c8d0c2b5e5acd92cbc2af313139edf2f8939"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-ordinary/sender-inputs/envelope.json": {
+      "bytes": 355,
+      "sha256": "4dc8edf13d7d01c0e9a58de93bba9dab9b5fdd201ca54d4eae37bbb563e31c2e"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-ordinary/sender-inputs/key.bin": {
+      "bytes": 32,
+      "sha256": "8f2389678fc9823c71af12be6e7506a83795cd4db950a9fb9f50dbc987610181"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-ordinary/sender-inputs/public-context.json": {
+      "bytes": 1082,
+      "sha256": "c78c2017d5ec7d65707bd2d82a890d80542205869a4bdc7c786baa1f218f7429"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-ordinary/sender-process/command.json": {
+      "bytes": 1556,
+      "sha256": "fe97e1046cb8d2d07fdea38148bed31c1748de9e664b7ebd62baee9557988a0e"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-ordinary/sender-process/reservation.json": {
+      "bytes": 77,
+      "sha256": "2d13c303c6d3ab4bd0b013ec6f88459f8cf4c2f941bb7f9aeb7f2fb67894214a"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-ordinary/sender-process/stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-ordinary/sender-process/stdout.log": {
+      "bytes": 70,
+      "sha256": "19668bfc6317588f043e7d8aeb34b5b03e60271f4aec7a1ea2d6bd281cce0026"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-ordinary/sender-process/supervisor-child.json": {
+      "bytes": 63,
+      "sha256": "24ab75952655edb5ae52a54d9599cfa0f67d00df8d973ebda4fd5db626e516aa"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-ordinary/sender-process/supervisor-result.json": {
+      "bytes": 401,
+      "sha256": "d72b95c6f3f1c2d3344929c1771a3966efe42eee0f4ad069a8e8fa722baef331"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-ordinary/sender/committed-wire.bin": {
+      "bytes": 1192,
+      "sha256": "66a2b95a98e3af2df3e5f75bba09ef69b69626f644cd23ac8062405701d1d0af"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-ordinary/sender/envelope.json": {
+      "bytes": 381,
+      "sha256": "a459700e1320624ad42f82a1d471747823d5a4126a88396f696cbf7eaebf96eb"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-ordinary/sender/execution-started.json": {
+      "bytes": 405,
+      "sha256": "69306058e066f11872e03fbdb42d324ffb39eb96d882fcd41ceebe34ec41bcab"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-ordinary/sender/native-preprompt-verification.json": {
+      "bytes": 6913,
+      "sha256": "64f25bef07a087d9f5649fa08898c0be36c139430015b560a67fca50db3cc33e"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-ordinary/sender/native-resource-verification.json": {
+      "bytes": 309,
+      "sha256": "fdcda3b20f74689405824b04e923aa13e130bbaae7eadfcadf6819b4dfc5d535"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-ordinary/sender/native.stderr.log": {
+      "bytes": 211740,
+      "sha256": "00276b061b3a1d20f32aa416a94d2b7679c52f29358d4b09c04ba4025fe95a35"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-ordinary/sender/nonce-reservation.json": {
+      "bytes": 254,
+      "sha256": "fbcf0f4bf48bb08012281b76c1ebaa9aacffcd2d8eff39a73ddc3739adedbe8c"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-ordinary/sender/proc-identity-capture.json": {
+      "bytes": 872,
+      "sha256": "da66c9d06b0c130e397a92188ee6f6b1842bf71eff460cde15159416163deb34"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-ordinary/sender/public-context.json": {
+      "bytes": 2114,
+      "sha256": "38c1d22c9caf294349f1b5a2d8a2b7bb263ae4ff975be963793f3da27d6f4372"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-ordinary/sender/public-profile.json": {
+      "bytes": 14747,
+      "sha256": "f32097750dc898fce418a29146587a4229eae1dcb76e3cbcd374b692846adc8a"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-ordinary/sender/public-spec.json": {
+      "bytes": 1388,
+      "sha256": "2bac5bd3dc43c8ca68d5f5f702ca047b081f47acdbd390a3abdddfaab6d76c85"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-ordinary/sender/reconciliation.json": {
+      "bytes": 566,
+      "sha256": "0dec50853ec86dba5c5e5682e22fc711d0bea267fe2e889fb2b6d486454cd8b4"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-ordinary/sender/recovered-status.json": {
+      "bytes": 566,
+      "sha256": "0dec50853ec86dba5c5e5682e22fc711d0bea267fe2e889fb2b6d486454cd8b4"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-ordinary/sender/token-journal.jsonl": {
+      "bytes": 3184596,
+      "sha256": "fb9c240cf1a78bec519d36f5138198f8b24c70270b6835b7edb8dfa30db53772"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-ordinary/sender/traces.json": {
+      "bytes": 6278506,
+      "sha256": "5fdedbeb3fc20140a99560fdbc9fbc632effa4b8c3dd592a80d1068db03467a8"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-ordinary/sender/wire.raw": {
+      "bytes": 1192,
+      "sha256": "66a2b95a98e3af2df3e5f75bba09ef69b69626f644cd23ac8062405701d1d0af"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-ordinary/sender/worker-result.json": {
+      "bytes": 834,
+      "sha256": "e50c3a900f692b375dfbdb847f755c64c90ad061c396dc217962846f4bf0e709"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/receiver-inputs/envelope.json": {
+      "bytes": 352,
+      "sha256": "41f4d4f839bdeae089ad53c762b72a8e2b3b94050cdbed401fbcee8e55eed09d"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/receiver-inputs/key.bin": {
+      "bytes": 32,
+      "sha256": "8f2389678fc9823c71af12be6e7506a83795cd4db950a9fb9f50dbc987610181"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/receiver-inputs/public-context.json": {
+      "bytes": 1082,
+      "sha256": "c78c2017d5ec7d65707bd2d82a890d80542205869a4bdc7c786baa1f218f7429"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/receiver-inputs/wire.bin": {
+      "bytes": 768,
+      "sha256": "c093c2a3cdd3ff7a7661155f9c5c5f8220b2d7acde95e6b42a7d282421fbddbc"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/receiver-process/command.json": {
+      "bytes": 1821,
+      "sha256": "62c6020dfb254ac9a2e1768af9c7f9c2c726cc6da7867b185ef36829d8883e3e"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/receiver-process/reservation.json": {
+      "bytes": 76,
+      "sha256": "a9235ce720f0541360f7f701f4bdd17dde1e1b99cd03b3a785202f487e2a6ea1"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/receiver-process/stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/receiver-process/stdout.log": {
+      "bytes": 64,
+      "sha256": "e0427e7c0da837571799d6c9bd6d4918ff33ba9f4435ef2ea52ad2a00dc8a6a8"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/receiver-process/supervisor-child.json": {
+      "bytes": 63,
+      "sha256": "f00d8614b7db3ff0684c406d30bbee198dc7ca3ac278bd8cb30c7eca1aa75ddc"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/receiver-process/supervisor-result.json": {
+      "bytes": 401,
+      "sha256": "ffe9d52a0c2bd3c9959cb9ad058aadcf61d8898c6bd9d110e9def101299e6172"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/receiver/committed-wire.bin": {
+      "bytes": 768,
+      "sha256": "c093c2a3cdd3ff7a7661155f9c5c5f8220b2d7acde95e6b42a7d282421fbddbc"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/receiver/envelope.json": {
+      "bytes": 378,
+      "sha256": "763060a74452c8271ba9a58d7c58ae9b16682f60b9f665e38a649f32cd3ebd00"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/receiver/execution-started.json": {
+      "bytes": 404,
+      "sha256": "824dc06206165cb2ee9283d3f6ad11abd229c4bcefabfc3a28f9b5880011e326"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/receiver/native-preprompt-verification.json": {
+      "bytes": 7393,
+      "sha256": "a7133db317daf3c3f3e040b95f5ce45abf8e69990b132cd433b358082538383d"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/receiver/native-resource-verification.json": {
+      "bytes": 309,
+      "sha256": "fdcda3b20f74689405824b04e923aa13e130bbaae7eadfcadf6819b4dfc5d535"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/receiver/native.stderr.log": {
+      "bytes": 211860,
+      "sha256": "f19f4a72b629ed5a17ea352d44727ecbb2451eea2374b26a6d7f496d0937e013"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/receiver/proc-identity-capture.json": {
+      "bytes": 932,
+      "sha256": "a438f42eb3a72b6bd69d7bbe0733f0de8bdb66b71f610e2fabe68f8a62fcf549"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/receiver/public-context.json": {
+      "bytes": 2114,
+      "sha256": "38c1d22c9caf294349f1b5a2d8a2b7bb263ae4ff975be963793f3da27d6f4372"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/receiver/public-profile.json": {
+      "bytes": 14747,
+      "sha256": "f32097750dc898fce418a29146587a4229eae1dcb76e3cbcd374b692846adc8a"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/receiver/public-spec.json": {
+      "bytes": 1388,
+      "sha256": "2bac5bd3dc43c8ca68d5f5f702ca047b081f47acdbd390a3abdddfaab6d76c85"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/receiver/received-payload.bin": {
+      "bytes": 16,
+      "sha256": "be45cb2605bf36bebde684841a28f0fd43c69850a3dce5fedba69928ee3a8991"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/receiver/reconciliation.json": {
+      "bytes": 565,
+      "sha256": "b8287c2acc9b2bfdbec7a1b2cda5c9c54fd2cd4c71dc5ab8f559e75e7aa0113b"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/receiver/recovered-status.json": {
+      "bytes": 565,
+      "sha256": "b8287c2acc9b2bfdbec7a1b2cda5c9c54fd2cd4c71dc5ab8f559e75e7aa0113b"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/receiver/token-journal.jsonl": {
+      "bytes": 2074850,
+      "sha256": "7d982001f19a62c2258911647adb7d504f5f04b0764bbf3dc1d2ef67b91877a6"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/receiver/traces.json": {
+      "bytes": 4033024,
+      "sha256": "8aaf1faf5a89cc989e90e873ab2864d8346eceda2cc6146853e8967bbfd1a3ca"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/receiver/wire.raw": {
+      "bytes": 768,
+      "sha256": "c093c2a3cdd3ff7a7661155f9c5c5f8220b2d7acde95e6b42a7d282421fbddbc"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/receiver/worker-result.json": {
+      "bytes": 721,
+      "sha256": "caa9078893e81808f0a8ac3d837a7addd0af391191629c5e5640b9a9579be6cf"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/sender-inputs/envelope.json": {
+      "bytes": 352,
+      "sha256": "41f4d4f839bdeae089ad53c762b72a8e2b3b94050cdbed401fbcee8e55eed09d"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/sender-inputs/key.bin": {
+      "bytes": 32,
+      "sha256": "8f2389678fc9823c71af12be6e7506a83795cd4db950a9fb9f50dbc987610181"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/sender-inputs/payload.bin": {
+      "bytes": 16,
+      "sha256": "be45cb2605bf36bebde684841a28f0fd43c69850a3dce5fedba69928ee3a8991"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/sender-inputs/public-context.json": {
+      "bytes": 1082,
+      "sha256": "c78c2017d5ec7d65707bd2d82a890d80542205869a4bdc7c786baa1f218f7429"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/sender-process/command.json": {
+      "bytes": 1734,
+      "sha256": "38ceea42b89dd5d85e4b5f1a9cd51a143f156fb0c0b6c70844c271b75a24b23c"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/sender-process/reservation.json": {
+      "bytes": 77,
+      "sha256": "2d13c303c6d3ab4bd0b013ec6f88459f8cf4c2f941bb7f9aeb7f2fb67894214a"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/sender-process/stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/sender-process/stdout.log": {
+      "bytes": 68,
+      "sha256": "0cb6360dd8760e23c8c742f0d6b0645f6f4a3deec610ef54c9b3b99fa8231a00"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/sender-process/supervisor-child.json": {
+      "bytes": 63,
+      "sha256": "e203ae235b42644d1b42feba9a2895a55b6cebfe62da3139c8fe2bee1d73d5f8"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/sender-process/supervisor-result.json": {
+      "bytes": 401,
+      "sha256": "48d3fe4a182357238385c4e89fb297c207bbca30eb60a9ae5945b83da81ca665"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/sender/committed-wire.bin": {
+      "bytes": 768,
+      "sha256": "c093c2a3cdd3ff7a7661155f9c5c5f8220b2d7acde95e6b42a7d282421fbddbc"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/sender/envelope.json": {
+      "bytes": 378,
+      "sha256": "763060a74452c8271ba9a58d7c58ae9b16682f60b9f665e38a649f32cd3ebd00"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/sender/execution-started.json": {
+      "bytes": 405,
+      "sha256": "69306058e066f11872e03fbdb42d324ffb39eb96d882fcd41ceebe34ec41bcab"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/sender/native-preprompt-verification.json": {
+      "bytes": 6913,
+      "sha256": "43542b3b421c70f6e248396c3685580d01b8c1b3295353096be1b49a231b1158"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/sender/native-resource-verification.json": {
+      "bytes": 309,
+      "sha256": "fdcda3b20f74689405824b04e923aa13e130bbaae7eadfcadf6819b4dfc5d535"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/sender/native.stderr.log": {
+      "bytes": 211740,
+      "sha256": "b2e2c04ca8da9d91d3c7c61298555daeb3fb13dd90738f7e6239fb3e14f2357d"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/sender/nonce-reservation.json": {
+      "bytes": 254,
+      "sha256": "b93072fbdf8ce1e09c0a9063b8b0535a9b53226e39164a92cee44ff6f617e50e"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/sender/proc-identity-capture.json": {
+      "bytes": 872,
+      "sha256": "41bf66ec73694fd20ece34e5208c86aeca3345d5e23bc85de320141883c9ff0f"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/sender/public-context.json": {
+      "bytes": 2114,
+      "sha256": "38c1d22c9caf294349f1b5a2d8a2b7bb263ae4ff975be963793f3da27d6f4372"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/sender/public-profile.json": {
+      "bytes": 14747,
+      "sha256": "f32097750dc898fce418a29146587a4229eae1dcb76e3cbcd374b692846adc8a"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/sender/public-spec.json": {
+      "bytes": 1388,
+      "sha256": "2bac5bd3dc43c8ca68d5f5f702ca047b081f47acdbd390a3abdddfaab6d76c85"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/sender/reconciliation.json": {
+      "bytes": 565,
+      "sha256": "6d7a380ac8a9fd59706ff53845d8c8f08d3d0c0fb004b55fec697f02a8bc78bd"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/sender/recovered-status.json": {
+      "bytes": 565,
+      "sha256": "6d7a380ac8a9fd59706ff53845d8c8f08d3d0c0fb004b55fec697f02a8bc78bd"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/sender/token-journal.jsonl": {
+      "bytes": 2074850,
+      "sha256": "7d982001f19a62c2258911647adb7d504f5f04b0764bbf3dc1d2ef67b91877a6"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/sender/traces.json": {
+      "bytes": 4033024,
+      "sha256": "8aaf1faf5a89cc989e90e873ab2864d8346eceda2cc6146853e8967bbfd1a3ca"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/sender/wire.raw": {
+      "bytes": 768,
+      "sha256": "c093c2a3cdd3ff7a7661155f9c5c5f8220b2d7acde95e6b42a7d282421fbddbc"
+    },
+    "results/framed-interval-public-context4-v1/generation/o007-stego/sender/worker-result.json": {
+      "bytes": 891,
+      "sha256": "35a18c68bdc885141a5dd4a8fb71cf7ad6ff6ad71d896c8fa186566c8fa620a0"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-ordinary/sender-inputs/envelope.json": {
+      "bytes": 355,
+      "sha256": "e13178417f19ef51671437d342d6c1f6c0fe29e21ca4254625104e7d88f674b6"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-ordinary/sender-inputs/key.bin": {
+      "bytes": 32,
+      "sha256": "8f2389678fc9823c71af12be6e7506a83795cd4db950a9fb9f50dbc987610181"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-ordinary/sender-inputs/public-context.json": {
+      "bytes": 1240,
+      "sha256": "3168b7555cc6634aa4036f87fbf752d93a7ab9e8860fd2f7b87ce9b9d388353f"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-ordinary/sender-process/command.json": {
+      "bytes": 1556,
+      "sha256": "eff73e896f88f623031f247c4718e0a5185ecd5fda0720d1ec66306ad1e94255"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-ordinary/sender-process/reservation.json": {
+      "bytes": 77,
+      "sha256": "2d13c303c6d3ab4bd0b013ec6f88459f8cf4c2f941bb7f9aeb7f2fb67894214a"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-ordinary/sender-process/stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-ordinary/sender-process/stdout.log": {
+      "bytes": 70,
+      "sha256": "19668bfc6317588f043e7d8aeb34b5b03e60271f4aec7a1ea2d6bd281cce0026"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-ordinary/sender-process/supervisor-child.json": {
+      "bytes": 63,
+      "sha256": "530dacfca102fe322dbcace339ae10dfd8e460968c4c1d9c111c144876b79622"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-ordinary/sender-process/supervisor-result.json": {
+      "bytes": 401,
+      "sha256": "209ef13652c9e4c4c77ae7355d11027e750c018b75a9ec651273e5f2182d449f"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-ordinary/sender/committed-wire.bin": {
+      "bytes": 1360,
+      "sha256": "216d2f308713da84aa62661bfbc250308d8526075eb49ab40ff617946064ea2a"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-ordinary/sender/envelope.json": {
+      "bytes": 381,
+      "sha256": "4939e3259fb40c983981d59afba4d54537d9abfb209d5947fc70ab829e8fe7a6"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-ordinary/sender/execution-started.json": {
+      "bytes": 405,
+      "sha256": "6308d2fc0b51095f7db2af90518cf0087ef94bd0e1ec1746822dc8489731b6ab"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-ordinary/sender/native-preprompt-verification.json": {
+      "bytes": 7286,
+      "sha256": "43247d00b3b6492f8a7b341eaa59f0b0e45c785307b6734b09e295287dc47476"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-ordinary/sender/native-resource-verification.json": {
+      "bytes": 309,
+      "sha256": "fdcda3b20f74689405824b04e923aa13e130bbaae7eadfcadf6819b4dfc5d535"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-ordinary/sender/native.stderr.log": {
+      "bytes": 211740,
+      "sha256": "07632b8b3b2e32243b90258c71f300646062d5a46fa0755ff47c06b943db9f95"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-ordinary/sender/nonce-reservation.json": {
+      "bytes": 254,
+      "sha256": "2f55fc44b9407dd9ae33c5a94d90cab5ada474cf61561c9850e24dc5886a727c"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-ordinary/sender/proc-identity-capture.json": {
+      "bytes": 872,
+      "sha256": "169f23ebcc96cc3f69f5150c6ffa3eeb62e7eee7d65399dde813bd9aec7ad19a"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-ordinary/sender/public-context.json": {
+      "bytes": 2487,
+      "sha256": "91fdeb5fe1c26251bfb63b82acbc7d0b8a585e3d9344b5678212ce1b8dc87494"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-ordinary/sender/public-profile.json": {
+      "bytes": 14747,
+      "sha256": "f32097750dc898fce418a29146587a4229eae1dcb76e3cbcd374b692846adc8a"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-ordinary/sender/public-spec.json": {
+      "bytes": 1388,
+      "sha256": "2bac5bd3dc43c8ca68d5f5f702ca047b081f47acdbd390a3abdddfaab6d76c85"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-ordinary/sender/reconciliation.json": {
+      "bytes": 566,
+      "sha256": "6a511c62525cad1459c165b0c40c88dd4818c8bc9d5ca401b6f2a9f83429335d"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-ordinary/sender/recovered-status.json": {
+      "bytes": 566,
+      "sha256": "6a511c62525cad1459c165b0c40c88dd4818c8bc9d5ca401b6f2a9f83429335d"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-ordinary/sender/token-journal.jsonl": {
+      "bytes": 3623972,
+      "sha256": "a8e29f657dfd641691089af9a8743e528c1fe3e70610890abac55e8533c03114"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-ordinary/sender/traces.json": {
+      "bytes": 7131653,
+      "sha256": "59e753f234bf69323a4f8262760f276f43a5c61e44759ca73de4f89fa45a128b"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-ordinary/sender/wire.raw": {
+      "bytes": 1360,
+      "sha256": "216d2f308713da84aa62661bfbc250308d8526075eb49ab40ff617946064ea2a"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-ordinary/sender/worker-result.json": {
+      "bytes": 834,
+      "sha256": "51379ff1cee346828d1e5c2b56f5733709d43e84f87c7f040cfa64be9edf34ef"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/receiver-inputs/envelope.json": {
+      "bytes": 352,
+      "sha256": "bb1d82c449b87b3cd61be30b3cec9d9f122992ed1e6522b8f6a8481bebefa3d3"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/receiver-inputs/key.bin": {
+      "bytes": 32,
+      "sha256": "8f2389678fc9823c71af12be6e7506a83795cd4db950a9fb9f50dbc987610181"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/receiver-inputs/public-context.json": {
+      "bytes": 1240,
+      "sha256": "3168b7555cc6634aa4036f87fbf752d93a7ab9e8860fd2f7b87ce9b9d388353f"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/receiver-inputs/wire.bin": {
+      "bytes": 1283,
+      "sha256": "a4cc530c1331d083d894cb3dbfe11d58ca4d9f1a3dcfeac076a0c9c297d86391"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/receiver-process/command.json": {
+      "bytes": 1821,
+      "sha256": "5a806d11ab2335ad03d4fd457c834f35b5dd335b45b15618676ff96033ec8a99"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/receiver-process/reservation.json": {
+      "bytes": 76,
+      "sha256": "a9235ce720f0541360f7f701f4bdd17dde1e1b99cd03b3a785202f487e2a6ea1"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/receiver-process/stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/receiver-process/stdout.log": {
+      "bytes": 64,
+      "sha256": "e0427e7c0da837571799d6c9bd6d4918ff33ba9f4435ef2ea52ad2a00dc8a6a8"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/receiver-process/supervisor-child.json": {
+      "bytes": 63,
+      "sha256": "52e5a59f83345b5cfb1e97b80a031476695a20d23b8754f38bd2129f3a7db4d0"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/receiver-process/supervisor-result.json": {
+      "bytes": 402,
+      "sha256": "1223bf34f08e863a50ae8c7e841536725c2dd00fe196c8e09617a0450c8ab072"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/receiver/committed-wire.bin": {
+      "bytes": 1283,
+      "sha256": "a4cc530c1331d083d894cb3dbfe11d58ca4d9f1a3dcfeac076a0c9c297d86391"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/receiver/envelope.json": {
+      "bytes": 378,
+      "sha256": "cbf5bc0991ab469a8c5e2144a978aea9cce45d9c3186c51e0cc673c9cc32dc4a"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/receiver/execution-started.json": {
+      "bytes": 404,
+      "sha256": "9f22183798125d832e1158fa441b554230baa1e1d74d82ebb21a1d567e2cb3dd"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/receiver/native-preprompt-verification.json": {
+      "bytes": 7766,
+      "sha256": "5ec8170320e1b7ffcc170fde4c50544fcbc83821569f91a6fbb8100ed96dfc35"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/receiver/native-resource-verification.json": {
+      "bytes": 309,
+      "sha256": "fdcda3b20f74689405824b04e923aa13e130bbaae7eadfcadf6819b4dfc5d535"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/receiver/native.stderr.log": {
+      "bytes": 211860,
+      "sha256": "9d3b3c8edbf3665f6659e29d2d69db22673d2570e333f54cffc0e28188f380e0"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/receiver/proc-identity-capture.json": {
+      "bytes": 932,
+      "sha256": "892a57206322ae3f6910e4ed3293090fa2a83f0850fe4dc9c2b2060c9d206925"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/receiver/public-context.json": {
+      "bytes": 2487,
+      "sha256": "91fdeb5fe1c26251bfb63b82acbc7d0b8a585e3d9344b5678212ce1b8dc87494"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/receiver/public-profile.json": {
+      "bytes": 14747,
+      "sha256": "f32097750dc898fce418a29146587a4229eae1dcb76e3cbcd374b692846adc8a"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/receiver/public-spec.json": {
+      "bytes": 1388,
+      "sha256": "2bac5bd3dc43c8ca68d5f5f702ca047b081f47acdbd390a3abdddfaab6d76c85"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/receiver/received-payload.bin": {
+      "bytes": 16,
+      "sha256": "be45cb2605bf36bebde684841a28f0fd43c69850a3dce5fedba69928ee3a8991"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/receiver/reconciliation.json": {
+      "bytes": 566,
+      "sha256": "878590621ee4e4f7c4047a8e0e8b9ab547d3c5f7321ba9ed523993dec5d30c56"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/receiver/recovered-status.json": {
+      "bytes": 566,
+      "sha256": "878590621ee4e4f7c4047a8e0e8b9ab547d3c5f7321ba9ed523993dec5d30c56"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/receiver/token-journal.jsonl": {
+      "bytes": 3511204,
+      "sha256": "3d4fbdbd8324bdb8c9924827197babbffdd2696ee02d1dce0e6748d7cf162dbe"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/receiver/traces.json": {
+      "bytes": 6909223,
+      "sha256": "d94a2513c451118fdcf9fec259444eff26f571160f9921a9c946cbc5b88708df"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/receiver/wire.raw": {
+      "bytes": 1283,
+      "sha256": "a4cc530c1331d083d894cb3dbfe11d58ca4d9f1a3dcfeac076a0c9c297d86391"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/receiver/worker-result.json": {
+      "bytes": 720,
+      "sha256": "bc734d397dfa0ffc150450ffd5e5016f83b3e8e0520870aa1d92f00ecbaf9995"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/sender-inputs/envelope.json": {
+      "bytes": 352,
+      "sha256": "bb1d82c449b87b3cd61be30b3cec9d9f122992ed1e6522b8f6a8481bebefa3d3"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/sender-inputs/key.bin": {
+      "bytes": 32,
+      "sha256": "8f2389678fc9823c71af12be6e7506a83795cd4db950a9fb9f50dbc987610181"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/sender-inputs/payload.bin": {
+      "bytes": 16,
+      "sha256": "be45cb2605bf36bebde684841a28f0fd43c69850a3dce5fedba69928ee3a8991"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/sender-inputs/public-context.json": {
+      "bytes": 1240,
+      "sha256": "3168b7555cc6634aa4036f87fbf752d93a7ab9e8860fd2f7b87ce9b9d388353f"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/sender-process/command.json": {
+      "bytes": 1734,
+      "sha256": "d7e618f354142da6bc981ab406bbaf98cd0377d40f9bfe0e75d987417a7f7166"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/sender-process/reservation.json": {
+      "bytes": 77,
+      "sha256": "2d13c303c6d3ab4bd0b013ec6f88459f8cf4c2f941bb7f9aeb7f2fb67894214a"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/sender-process/stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/sender-process/stdout.log": {
+      "bytes": 68,
+      "sha256": "0cb6360dd8760e23c8c742f0d6b0645f6f4a3deec610ef54c9b3b99fa8231a00"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/sender-process/supervisor-child.json": {
+      "bytes": 63,
+      "sha256": "c178c60f0b16d0ad642f4f0d46e7b7ed1a5865913cc777cfda555b3c47b40b88"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/sender-process/supervisor-result.json": {
+      "bytes": 401,
+      "sha256": "4e975f5e91abcfc371ae1ac782aae9357aea138b2135901e63924ebe84cb5693"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/sender/committed-wire.bin": {
+      "bytes": 1283,
+      "sha256": "a4cc530c1331d083d894cb3dbfe11d58ca4d9f1a3dcfeac076a0c9c297d86391"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/sender/envelope.json": {
+      "bytes": 378,
+      "sha256": "cbf5bc0991ab469a8c5e2144a978aea9cce45d9c3186c51e0cc673c9cc32dc4a"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/sender/execution-started.json": {
+      "bytes": 405,
+      "sha256": "6308d2fc0b51095f7db2af90518cf0087ef94bd0e1ec1746822dc8489731b6ab"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/sender/native-preprompt-verification.json": {
+      "bytes": 7286,
+      "sha256": "68789d37529fafb9150c273378ceb37d0879bd4f1219e7cf3990a22ad2a58cd4"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/sender/native-resource-verification.json": {
+      "bytes": 309,
+      "sha256": "fdcda3b20f74689405824b04e923aa13e130bbaae7eadfcadf6819b4dfc5d535"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/sender/native.stderr.log": {
+      "bytes": 211740,
+      "sha256": "1f3fbfab70d298f58df5b21d9678ad4fee7a5f92255d5a9e23963c5953832e9e"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/sender/nonce-reservation.json": {
+      "bytes": 254,
+      "sha256": "3f455a409354ff11b05e12aa0d68b50f391b0708e45be14764942072e57cc830"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/sender/proc-identity-capture.json": {
+      "bytes": 872,
+      "sha256": "8eeaeb5ca42a1dbbecabf4c383ae3fd5cfc7f35fac6aa126cb73b449d9e8a463"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/sender/public-context.json": {
+      "bytes": 2487,
+      "sha256": "91fdeb5fe1c26251bfb63b82acbc7d0b8a585e3d9344b5678212ce1b8dc87494"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/sender/public-profile.json": {
+      "bytes": 14747,
+      "sha256": "f32097750dc898fce418a29146587a4229eae1dcb76e3cbcd374b692846adc8a"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/sender/public-spec.json": {
+      "bytes": 1388,
+      "sha256": "2bac5bd3dc43c8ca68d5f5f702ca047b081f47acdbd390a3abdddfaab6d76c85"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/sender/reconciliation.json": {
+      "bytes": 566,
+      "sha256": "a5abe33f23f87570363375d6029f44de8e1d703b13a1be54f9df1d22ff0ad693"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/sender/recovered-status.json": {
+      "bytes": 566,
+      "sha256": "a5abe33f23f87570363375d6029f44de8e1d703b13a1be54f9df1d22ff0ad693"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/sender/token-journal.jsonl": {
+      "bytes": 3511204,
+      "sha256": "3d4fbdbd8324bdb8c9924827197babbffdd2696ee02d1dce0e6748d7cf162dbe"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/sender/traces.json": {
+      "bytes": 6909223,
+      "sha256": "d94a2513c451118fdcf9fec259444eff26f571160f9921a9c946cbc5b88708df"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/sender/wire.raw": {
+      "bytes": 1283,
+      "sha256": "a4cc530c1331d083d894cb3dbfe11d58ca4d9f1a3dcfeac076a0c9c297d86391"
+    },
+    "results/framed-interval-public-context4-v1/generation/o010-stego/sender/worker-result.json": {
+      "bytes": 891,
+      "sha256": "f94d8d8dbc632976f4045e0e255d9fa697c941c4a539b218734e9d8888f88bc8"
+    },
+    "results/framed-interval-public-context4-v1/generation/receiver-install-inventory.json": {
+      "bytes": 8177,
+      "sha256": "de75b742a08dbd306cbe79bc55c4b9c588a86dc3e15d77361a1168b3641d179c"
+    },
+    "results/framed-interval-public-context4-v1/generation/result.json": {
+      "bytes": 23205,
+      "sha256": "ead8ad9719d7976d9b3d3cdc1bfb32cca6bfe01824420be93a79f59bbd1a3166"
+    },
+    "results/framed-interval-public-context4-v1/preparation/independent/check_campaign.py": {
+      "bytes": 5124,
+      "sha256": "963c93548341aba69c4955bb86891f6677e69a431f1748e43a63605dcfd43e31"
+    },
+    "results/framed-interval-public-context4-v1/preparation/independent/check_campaign_initial.py": {
+      "bytes": 4269,
+      "sha256": "2be83f27370e136d417811180f37f042367b3d06f01a875b007de02a6e0bf827"
+    },
+    "results/framed-interval-public-context4-v1/preparation/independent/check_gate.py": {
+      "bytes": 3798,
+      "sha256": "299423fb0b12f8feb2379eb84f1e54455c1a4c871b2deac36a30f2895fb3612b"
+    },
+    "results/framed-interval-public-context4-v1/preparation/independent/closure-check.json": {
+      "bytes": 356,
+      "sha256": "c1b38d3cffba835f74964b69dd293b427f65fa8e2712252d861bad5de903c794"
+    },
+    "results/framed-interval-public-context4-v1/preparation/independent/final-campaign-relocatable.stderr.log": {
+      "bytes": 786,
+      "sha256": "d9592ddaf53b84cceb6d976c7a56be3cf96e5eedc1b27ddc3950fb61ed2e5209"
+    },
+    "results/framed-interval-public-context4-v1/preparation/independent/final-campaign-relocatable.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "results/framed-interval-public-context4-v1/preparation/independent/final-campaign.stderr.log": {
+      "bytes": 592,
+      "sha256": "c1729042db8e72152cd2bbacca2cf3451ec91f94248749ffe93a51060a257cbb"
+    },
+    "results/framed-interval-public-context4-v1/preparation/independent/final-campaign.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "results/framed-interval-public-context4-v1/preparation/independent/final-gate-relocatable.stderr.log": {
+      "bytes": 752,
+      "sha256": "0ef412e5bfa81d3823dba675de09b8574e0dd602537d24cec33d11da61f61d92"
+    },
+    "results/framed-interval-public-context4-v1/preparation/independent/final-gate-relocatable.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "results/framed-interval-public-context4-v1/preparation/independent/final-v2-campaign.stderr.log": {
+      "bytes": 786,
+      "sha256": "c7894e1f02b5ab868c112be70220f0fa038d54374e1ffb7f47bb1901b1b076b7"
+    },
+    "results/framed-interval-public-context4-v1/preparation/independent/final-v2-campaign.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "results/framed-interval-public-context4-v1/preparation/independent/final-v2-gate.stderr.log": {
+      "bytes": 752,
+      "sha256": "ea6159f98a7fa4b29f035d3d0b7a53c1f12ef04f37a3cb71b3893d5e12d81eeb"
+    },
+    "results/framed-interval-public-context4-v1/preparation/independent/final-v2-gate.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "results/framed-interval-public-context4-v1/preparation/independent/gate.stderr.log": {
+      "bytes": 752,
+      "sha256": "067c5f8bc1c7a4eff4d80a504bbba5ddd700c12b2988b76d011e5373b92a3153"
+    },
+    "results/framed-interval-public-context4-v1/preparation/independent/gate.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "results/framed-interval-public-context4-v1/preparation/independent/initial-campaign.stderr.log": {
+      "bytes": 1660,
+      "sha256": "91c648be4ae7df6e40c61606e93024f1ff4a4c9e0e9239c280f7a49173f1fd36"
+    },
+    "results/framed-interval-public-context4-v1/preparation/independent/initial-campaign.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "results/framed-interval-public-context4-v1/preparation/independent/review.json": {
+      "bytes": 3510,
+      "sha256": "149a65c0523f848f54f1fd77304ad5bfc7873c2e06755c5d52dc424c0f8eef31"
+    },
+    "results/framed-interval-public-context4-v1/preparation/independent/review_ru.md": {
+      "bytes": 4089,
+      "sha256": "7c82e2c00e6ec7166dd9d2d72daf39f56e5d16ac09815e0a1065f82470b1a85d"
+    },
+    "results/framed-interval-public-context4-v1/preparation/independent/selection-check.json": {
+      "bytes": 1733,
+      "sha256": "fbc69a74bee6e5972193681aef3ae361cc42058e324d967d7baecaf0c25e7242"
+    },
+    "results/framed-interval-public-context4-v1/preparation/independent/selection-exact-comparison.json": {
+      "bytes": 214,
+      "sha256": "4a243139a0ba48713a8b2ce4af1dd5abf7951fc900059f6c5d54152293551ec9"
+    },
+    "results/framed-interval-public-context4-v1/preparation/independent/source-git-inputs.json": {
+      "bytes": 743,
+      "sha256": "10d33424fc84bc4315b21264edd9d2a8df840a9f0596b2fd45cd65629c754ab0"
+    },
+    "results/framed-interval-public-context4-v1/preparation/independent/verified-source-readback.json": {
+      "bytes": 1370,
+      "sha256": "b5f296612aedb53d5cd8efd8c53984ce7187e0eb64d0d60e0d6a2057819db278"
+    },
+    "results/framed-interval-public-context4-v1/preparation/resource-restore-map.json": {
+      "bytes": 7359,
+      "sha256": "3f3cc3a0832d1776223fb26329d5598dc8adb32cee23740c5f152f68101ff7f8"
+    },
+    "results/framed-interval-public-context4-v1/preparation/root-resource-check.json": {
+      "bytes": 777,
+      "sha256": "9122bab642c4d2dba0948f6dd6dc35d7d334a37396117f659ddd48a73ed80f51"
+    },
+    "results/framed-interval-public-context4-v1/preparation/source-check.json": {
+      "bytes": 7599,
+      "sha256": "8f45398c04579b930b037912e2e5bfaae456c2293120acdbf2a7fb665a113217"
+    },
+    "results/framed-interval-public-context4-v1/root-execute-process/child.json": {
+      "bytes": 40,
+      "sha256": "349925936ed705b405e3e6981dfd1db39b39df99ad10cf7592d07c85fb6be4bd"
+    },
+    "results/framed-interval-public-context4-v1/root-execute-process/launch.json": {
+      "bytes": 692,
+      "sha256": "f9e8aeb05569b44e39de2f8c334dbeab03ca2166fbd09a0dd4c6e86336f3191a"
+    },
+    "results/framed-interval-public-context4-v1/root-execute-process/process.json": {
+      "bytes": 87,
+      "sha256": "e46c4e27c02c2353d38cbb3cb530c29f03c487fd1940332f0ba769211e67046f"
+    },
+    "results/framed-interval-public-context4-v1/root-execute-process/stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "results/framed-interval-public-context4-v1/root-execute-process/stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "results/framed-interval-public-context4-v1/root-tokenize-process/child.json": {
+      "bytes": 15,
+      "sha256": "a69ff3be60663a2f07a8ad4e3aa8913c94acfb7067d970b4496e299dd415395f"
+    },
+    "results/framed-interval-public-context4-v1/root-tokenize-process/launch.json": {
+      "bytes": 695,
+      "sha256": "4f645ebc6750821c6959ec4e89456e90bb65835f45a7a413c6a526be06472b9e"
+    },
+    "results/framed-interval-public-context4-v1/root-tokenize-process/process.json": {
+      "bytes": 88,
+      "sha256": "ed3f9b5ba873bf1d6025bdc6e7821186e7e7c8d641075c864a9a7984cd147e4d"
+    },
+    "results/framed-interval-public-context4-v1/root-tokenize-process/stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "results/framed-interval-public-context4-v1/root-tokenize-process/stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "results/framed-interval-public-context4-v1/tokenization/c00/native.stderr.log": {
+      "bytes": 211741,
+      "sha256": "555a105597431a6ee1c16e160c35ba76f4b635e3b99304ad3516b4bf734a132c"
+    },
+    "results/framed-interval-public-context4-v1/tokenization/c00/proc-identity-capture.json": {
+      "bytes": 869,
+      "sha256": "50e1ac77ec37585ab92e029feffcecbe8e39f271a68f89d86818ab0d4c91bcb4"
+    },
+    "results/framed-interval-public-context4-v1/tokenization/c00/public-context.json": {
+      "bytes": 1126,
+      "sha256": "26074fcc123d71ad8605238553e1ae162612fb621c89809b219e6a7402eda3f2"
+    },
+    "results/framed-interval-public-context4-v1/tokenization/c00/reservation.json": {
+      "bytes": 59,
+      "sha256": "48ad18915426d202678375a4c446e4f07e51a8043cf1e1055aac69ea86e86611"
+    },
+    "results/framed-interval-public-context4-v1/tokenization/c00/resident.json": {
+      "bytes": 3458,
+      "sha256": "d47253278658a20a019605aa80717478c40a75b08f2b9b738027515c134b7cf4"
+    },
+    "results/framed-interval-public-context4-v1/tokenization/c00/resource-check.json": {
+      "bytes": 283,
+      "sha256": "e0ae00e283598b0e6ac2b1f386b0ca3260feab8b84427972c035f2303c6cdfa0"
+    },
+    "results/framed-interval-public-context4-v1/tokenization/c00/supervisor-child.json": {
+      "bytes": 61,
+      "sha256": "3410304c4b963a027759143964920eb2203fed5ab2c234a6bd6aa2a14546bbe1"
+    },
+    "results/framed-interval-public-context4-v1/tokenization/c00/supervisor-result.json": {
+      "bytes": 399,
+      "sha256": "4dbf6a926cf7016deea16270572bad92edde9be26297131e80d5ad54771dd3e2"
+    },
+    "results/framed-interval-public-context4-v1/tokenization/c00/tokenization.json": {
+      "bytes": 1351,
+      "sha256": "b748cc1ecce7ff681a9a336aaefcfbf22b3c3e543a163a6327fdd8848abb7fcf"
+    },
+    "results/framed-interval-public-context4-v1/tokenization/c01/native.stderr.log": {
+      "bytes": 211740,
+      "sha256": "a5eb7e7970b25ce6d2683f90f9f39b8c2b6cf9ebccec8a6727fb0c8f5696b01b"
+    },
+    "results/framed-interval-public-context4-v1/tokenization/c01/proc-identity-capture.json": {
+      "bytes": 872,
+      "sha256": "b84857ba470abe92f4df223c58f6de489bc573b98d25afd956499ccf981df3ee"
+    },
+    "results/framed-interval-public-context4-v1/tokenization/c01/public-context.json": {
+      "bytes": 1069,
+      "sha256": "f3d11c84557985a7d058362442a4a3bffae125a0c28509d9e79f1be8ca98c0dd"
+    },
+    "results/framed-interval-public-context4-v1/tokenization/c01/reservation.json": {
+      "bytes": 59,
+      "sha256": "48ad18915426d202678375a4c446e4f07e51a8043cf1e1055aac69ea86e86611"
+    },
+    "results/framed-interval-public-context4-v1/tokenization/c01/resident.json": {
+      "bytes": 3464,
+      "sha256": "2feaee7f84a4a9b165afe4b9dc0b0d503094d7afc95c103ee9d38a3d55cd72a5"
+    },
+    "results/framed-interval-public-context4-v1/tokenization/c01/resource-check.json": {
+      "bytes": 283,
+      "sha256": "e0ae00e283598b0e6ac2b1f386b0ca3260feab8b84427972c035f2303c6cdfa0"
+    },
+    "results/framed-interval-public-context4-v1/tokenization/c01/supervisor-child.json": {
+      "bytes": 63,
+      "sha256": "1ad2aad2ddd16d918a04c0cec161fe2fbe39cdc3b28f01bed643faf58da5eae8"
+    },
+    "results/framed-interval-public-context4-v1/tokenization/c01/supervisor-result.json": {
+      "bytes": 400,
+      "sha256": "42964af4200ff63803f7b2b1f63b431d2b065edf3623175d8b03d0c1d86200f1"
+    },
+    "results/framed-interval-public-context4-v1/tokenization/c01/tokenization.json": {
+      "bytes": 1294,
+      "sha256": "3ca0df1f514cc0b1ec363966b43380f7afea5742b0a0f72f890807f0f439567e"
+    },
+    "results/framed-interval-public-context4-v1/tokenization/c02/native.stderr.log": {
+      "bytes": 211740,
+      "sha256": "1a2eef0861a558f0f622a23cafd475df08bf9a86db09751507e5917088caa3dc"
+    },
+    "results/framed-interval-public-context4-v1/tokenization/c02/proc-identity-capture.json": {
+      "bytes": 872,
+      "sha256": "a224f97f129a100526fd9ec7f2d59f8fbc55e89a01d7ecfd36bf4bbb38389f30"
+    },
+    "results/framed-interval-public-context4-v1/tokenization/c02/public-context.json": {
+      "bytes": 1082,
+      "sha256": "c78c2017d5ec7d65707bd2d82a890d80542205869a4bdc7c786baa1f218f7429"
+    },
+    "results/framed-interval-public-context4-v1/tokenization/c02/reservation.json": {
+      "bytes": 59,
+      "sha256": "48ad18915426d202678375a4c446e4f07e51a8043cf1e1055aac69ea86e86611"
+    },
+    "results/framed-interval-public-context4-v1/tokenization/c02/resident.json": {
+      "bytes": 3464,
+      "sha256": "fc73cacae68592f58c6878b7a87567e4a2ce3b0296e2aa4be2f5f66ef3087288"
+    },
+    "results/framed-interval-public-context4-v1/tokenization/c02/resource-check.json": {
+      "bytes": 283,
+      "sha256": "e0ae00e283598b0e6ac2b1f386b0ca3260feab8b84427972c035f2303c6cdfa0"
+    },
+    "results/framed-interval-public-context4-v1/tokenization/c02/supervisor-child.json": {
+      "bytes": 63,
+      "sha256": "2f1256ab07873cb98bd7e9292bada8a97d3009227f4e3e74dcb53772b68bbd9d"
+    },
+    "results/framed-interval-public-context4-v1/tokenization/c02/supervisor-result.json": {
+      "bytes": 401,
+      "sha256": "5a5ddedc762837c5bc717d6fd8c668eb891cac2add922c2b925e0f3d2c388649"
+    },
+    "results/framed-interval-public-context4-v1/tokenization/c02/tokenization.json": {
+      "bytes": 1307,
+      "sha256": "62abe6e5bc5cc44a6297aa68c6d3eff2b864e95daefe02b7b53bcec352f5dc0a"
+    },
+    "results/framed-interval-public-context4-v1/tokenization/c03/native.stderr.log": {
+      "bytes": 211740,
+      "sha256": "744b560d9e89ba0bd3ae634bdd9626f1d057a737907865a7000e0ec16c7a3ad6"
+    },
+    "results/framed-interval-public-context4-v1/tokenization/c03/proc-identity-capture.json": {
+      "bytes": 872,
+      "sha256": "609c0ce95ad1a06d2736780a77eaa2fe74cce1f9ee2af98f63d40a5deb108b0c"
+    },
+    "results/framed-interval-public-context4-v1/tokenization/c03/public-context.json": {
+      "bytes": 1240,
+      "sha256": "3168b7555cc6634aa4036f87fbf752d93a7ab9e8860fd2f7b87ce9b9d388353f"
+    },
+    "results/framed-interval-public-context4-v1/tokenization/c03/reservation.json": {
+      "bytes": 59,
+      "sha256": "48ad18915426d202678375a4c446e4f07e51a8043cf1e1055aac69ea86e86611"
+    },
+    "results/framed-interval-public-context4-v1/tokenization/c03/resident.json": {
+      "bytes": 3464,
+      "sha256": "234c5baa625da93b747dd6e00b88182bafbf05e939d5e3773f3475d4f3d44af8"
+    },
+    "results/framed-interval-public-context4-v1/tokenization/c03/resource-check.json": {
+      "bytes": 283,
+      "sha256": "e0ae00e283598b0e6ac2b1f386b0ca3260feab8b84427972c035f2303c6cdfa0"
+    },
+    "results/framed-interval-public-context4-v1/tokenization/c03/supervisor-child.json": {
+      "bytes": 63,
+      "sha256": "7b4a650396f1a7e515cb84f9d261ea39cddff099718349dcb01df39150c9b83e"
+    },
+    "results/framed-interval-public-context4-v1/tokenization/c03/supervisor-result.json": {
+      "bytes": 401,
+      "sha256": "edb94917ed1de698789ad7e6619701c537a4b26cdf46fa2762b2501411830767"
+    },
+    "results/framed-interval-public-context4-v1/tokenization/c03/tokenization.json": {
+      "bytes": 1465,
+      "sha256": "fa5ceba9aff655f4839b64ca01761616f138389b0e58f0bf84fa59f84a838169"
+    },
+    "results/framed-interval-public-context4-v1/tokenization/contexts.json": {
+      "bytes": 4607,
+      "sha256": "45693581cf6e506d1d70f14a8bb0ef49532a979df89ef812e7907ede9c3c2f35"
+    },
+    "results/framed-interval-public-context4-v1/tokenization/initial-denominator.json": {
+      "bytes": 45,
+      "sha256": "c254aaf1c1fd90ece85186a71b2e2e36e1cdee8bd2c8b8d2ccc42ead14779657"
+    },
+    "results/framed-interval-public-context4-v1/tokenize-source-readback.json": {
+      "bytes": 4295,
+      "sha256": "36111bab21b244d5901d75b557f3d51fc1da0e1485989b416273420511cb1969"
+    }
+  },
+  "model_calls": 0,
+  "part_bytes": 196608,
+  "parts": [
+    {
+      "bytes": 196608,
+      "name": "full.zip.part000",
+      "sha256": "861298e578371be5d7ba63a4ae7ad8e253b0dea86a808ee042a5702029df4f4e"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part001",
+      "sha256": "db20f4401fe06b36f127fd69fc35eb03c12693d289f1c3d726c9be3efe016286"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part002",
+      "sha256": "f680a6a61d7a3c69c4147ff4aa5091546d163240085b418b3ccd68fd3a970aac"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part003",
+      "sha256": "63c5fadd74476a22f13f540df02a04a05a1f29622c8d5c92445bd2552ccfe526"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part004",
+      "sha256": "a2cf49c064921884538927eaa8e5db869c9a3fa141e93da8725f749f93489bd0"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part005",
+      "sha256": "9cab3318834a94a27480c0ed814d8d1c0e6fe30bb716847eab17c20f4a77f974"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part006",
+      "sha256": "448e298ccb9514a489b1b2a6d6f8e514e2a1cee0fa8e6906f053628d557504c0"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part007",
+      "sha256": "5d8ba348de17c5f9993b07c4140d62c9543809282a072aa3ee3fd6d0c8c45ecf"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part008",
+      "sha256": "996dbc5aaaf3556bb3e951ee7322f120a5ae982932b3e8c893b095b1148ff1db"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part009",
+      "sha256": "6bc5f1d295d6738de4172386f540c2edc57c251103e8a7cf25a7f9ec1616a5dd"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part010",
+      "sha256": "01787ab4254c0f82c7824d005417a861377d51268fa23375321e6b1d681e020d"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part011",
+      "sha256": "b1de5158f9bfc889f10494a565c6ad09f64cb1be24bb3dec43facd90a60bdf7e"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part012",
+      "sha256": "6628a4ec215f34a1f6c015122441296bb06e96c627ddf0afbf2ec07ab2c352a9"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part013",
+      "sha256": "ae99c52091c4903b4a4a832543646146c97ea211a98108f57da2ee6c8528fdee"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part014",
+      "sha256": "030097bd8eb0ba5f20dbe717d7d827f0ddf8f8f2ec17de7d8516c77a654b5e12"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part015",
+      "sha256": "16185580fb4085ea6402308ee4c00057fb8dd15c629561830fa2040cd13578e0"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part016",
+      "sha256": "f328a7f6c582f29c59c6441a447e07411941b95679fc41c7c5a4c7bd9b0e6ea9"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part017",
+      "sha256": "cbfbae3773c8fa5c7f2b0146b2bae19ed5a44f56b97d7c9034cd75b67b8c7403"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part018",
+      "sha256": "4c12e72a0156fb5acd52459adf37a263f01a2c58d29576168dbf8ed884f036c0"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part019",
+      "sha256": "37e53b81203805fc54d9d00cb6d46ef1856b188c82f6767ddbf47b823c9cc196"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part020",
+      "sha256": "41c1599fbd217b16e67d840a4437a2cef3ca90eff4f1833a34c84d78d1fe8aa8"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part021",
+      "sha256": "beab9db595f38687682331bbfbf75a1f763a7b8777e928b1bf590f2e913f2869"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part022",
+      "sha256": "2d2713950e931b2ae4b5067c7a654e186338f45c0484f6b33b93547f4a57b06e"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part023",
+      "sha256": "889e806f18188900706566138f6fd17363787ec25baeae82e696f0ab6caea152"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part024",
+      "sha256": "4397510db3635d581f1f3bc3b014ec622a002b5c16debce4060b3f3d13f0059b"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part025",
+      "sha256": "0963c411712274ed9ddbc8fa48e3dbf72964b44980973d907e2e8393270c685c"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part026",
+      "sha256": "075196c82c6c97e6a413e18e064ccf21ad5332e7c6ff1123397f6f5f1df5a2fc"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part027",
+      "sha256": "d232a163c61803360f8d338cb6005371ab096ff274fded9b6ca7cbe795c5cb4c"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part028",
+      "sha256": "a8f5721c366838c28e494cf3ac09453cb82c87bd331c2e0c598d33d77e28c3ab"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part029",
+      "sha256": "79b4740bce652ac4a3b607ee90cf6187775851a737cb7e7d420b82f9277d8242"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part030",
+      "sha256": "fb1774465a283c510636cffbad6835450c2ff393e98f88a32bd3c9505516b350"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part031",
+      "sha256": "cb59b797f7de4ffac70c80657084dfb1c209db946fc60efdde872729bf053ae1"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part032",
+      "sha256": "5d4e51a04d901c56bde5b4dbe3a46eeb05e50cb2f000485d4d70ca02f0867723"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part033",
+      "sha256": "48e81aa1f45b5fb2fe9a5c8b725f1cb76bf30200a0fa9c2a436127f18d94e392"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part034",
+      "sha256": "a921087809cd6d8e5d04ff9c5da9e93cbce9b6abdb7b001b3c3a483c48879c86"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part035",
+      "sha256": "02514c2a547726e82587bca1fe37d50b224211c0fb1ad6f8f8894ced1639abaf"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part036",
+      "sha256": "8aefd89e3c08ac535c3bd470d2e2c0a308e2bbdc92567c791e23c04df47a2bac"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part037",
+      "sha256": "f6b09feee22eb7d9ff915cff37671359e0478d6dca8b8729ac1ff52aa5d53429"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part038",
+      "sha256": "dfe653b2a4016b2828f2eefd73fc3036d7320fcb59688e1976e1c03bf02cf344"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part039",
+      "sha256": "f7378747c71e32a1106b5fdc82126a63d9ee1421c86904c92f4875750c4c4722"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part040",
+      "sha256": "f2482f874e7c4c373d1c1000276244e5e94038f31c92f4c6ae6c8a5fd024a51f"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part041",
+      "sha256": "b3ca0f4abd4fca7f93993171c2a994c878b2051287dde5a1852452140fea746d"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part042",
+      "sha256": "ade5183bb2b5f8fbe5b1f2e86b166c340522f350d885d3b07c531f8841e643d3"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part043",
+      "sha256": "d97c5818371f70de03246ac098b4898914382393c6bc84717d1657858b8002f4"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part044",
+      "sha256": "d669984432922b8d7887e858600ef0b8da1e57aa9a740ed567c18190e4cfdce5"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part045",
+      "sha256": "0f6244fefa59160fe2dc21a07342fbb116371d6974a5ad557e331e4a45b2a0c1"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part046",
+      "sha256": "e55d7b81e55ab3cb196b2988615e22cc035770d09f44a2a9de25863ae7105c75"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part047",
+      "sha256": "ae2901bb194cf3a1d84e97e0c1add582c658bc83f656c7510d7821dcfb3ea2cd"
+    },
+    {
+      "bytes": 196608,
+      "name": "full.zip.part048",
+      "sha256": "eacb829cc60c328bf73ee001965597da68f6ec75c72caff40d9dc4db97ea870d"
+    },
+    {
+      "bytes": 134118,
+      "name": "full.zip.part049",
+      "sha256": "d518adcd75bbb3d056bc3ccef97530762a805fa3e2a3e6d7b3f4d7fad8f018af"
+    }
+  ],
+  "primary_bytes": 106847399,
+  "primary_files": 412,
+  "schema": "framed-interval-public-context4-v1-raw-artifacts-v1",
+  "scientific_acceptance_inferred": false,
+  "source_base": "results/framed-interval-public-context4-v1",
+  "terminal_result_present": false,
+  "tokenizer_calls": 0
+}

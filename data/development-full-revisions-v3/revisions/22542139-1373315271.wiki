@@ -1,0 +1,32 @@
+{{Short description|Explanation of the meaning of a work of art}}
+{{About|Artistic interpretation|other types of interpretation|Interpretation (disambiguation){{!}}Interpretation}}
+{{one source|date=May 2026}}
+In the [[philosophy of art]], an '''interpretation''' is an [[explanation]] of the meaning of a [[work of art]].{{efn|In ''[[Our Mutual Friend]]'' (1864–1865), Book 3, Chapter 10, [[Charles Dickens]] gives as examples "[a}n actress's Reading of a chambermaid, a dancer's Reading of a hornpipe, a singer's Reading of a song, a marine painter's Reading of the sea, the kettle-drum's Reading of an instrumental passage".}} An '''aesthetic interpretation''' expresses a particular emotional or experiential [[understanding]] most often used in reference to a poem or piece of literature, and may also apply to a work of visual art or performance.<ref>{{cite web|url=https://generaleducation.fas.harvard.edu/aesthetic-interpretive-understanding|title=Aesthetic and Interpretive Understanding|access-date=10 May 2017|archive-date=1 June 2017|archive-url=https://web.archive.org/web/20170601171005/https://generaleducation.fas.harvard.edu/aesthetic-interpretive-understanding|url-status=dead}}</ref>
+
+In the early 20th century, the German philosopher [[Martin Heidegger]] explored questions of formal philosophical analysis versus personal interpretations of aesthetic experience, favoring the direct subjective experience of a work of art as essential to an individual's aesthetic interpretation.<ref>{{cite web|url=https://plato.stanford.edu/entries/heidegger-aesthetics/#SymSub|title=Heidegger's Aesthetics|access-date=9 May 2017}}</ref>
+
+==Notes==
+{{Notelist}}
+
+== See also ==
+*''[[Against Interpretation]]''
+*[[Representation (arts)]]
+
+== References ==
+{{reflist}}
+
+== External links ==
+*[[E. D. Hirsch, Jr.]], ''Validity in Interpretation (1967)''
+*[[E. D. Hirsch, Jr.]], ''Aims of Interpretation'' (1976)
+*[[Michael Krausz]], ''Is there a single right interpretation?''
+*[http://www.ericdigests.org/pre-926/theory.htm Louise Rosenblatt on efferent and aesthetic reading.]
+*{{InPho|taxonomy|2272}}
+*{{PhilPapers|category|aesthetic-interpretation}}
+
+{{Aesthetics}}
+{{Mental processes}}
+
+[[Category:Hermeneutics]]
+[[Category:Concepts in aesthetics]]
+[[Category:Perception]]
+[[Category:Interpretation (philosophy)]]

@@ -1,0 +1,332 @@
+{
+  "activation_sha256": "1978302778134592a7835c63be363932cc8b9c353500873b9e7c7aaadc57911b",
+  "authenticated_delivery_denominator": 2,
+  "authenticated_payload_deliveries": 1,
+  "cases": [
+    {
+      "arm": "stego",
+      "receiver": {
+        "authenticated_delivery": false,
+        "process": {
+          "exit_code": 0,
+          "pid": 14,
+          "status": "exited",
+          "wall_seconds": 38.14405056600026
+        },
+        "reconciliation": {
+          "committed_trace_sha256": "1d5cb33363b510349e6393df976e0aa3947152e2c046bad8c8c4d880d13d7df2",
+          "convenience_raw_matches": true,
+          "core_process_outcome_preserved": "returned",
+          "core_returned_wire_matches": null,
+          "known_committed_tokens": 512,
+          "last_event_sha256": "488f29a754f552beb200eb583c6a2c05993e4578abfb7f78dead744e8e1f8859",
+          "retry_permitted": false,
+          "torn_last_record": false,
+          "unknown_native_step": false,
+          "wire_available": true,
+          "wire_bytes": 1702,
+          "wire_sha256": "ab127e3dc72cc8da804f2b0ce6649e8d4ac36bae05fafc36310b3a5da18c1a81"
+        },
+        "worker": {
+          "activation_sha256": "1978302778134592a7835c63be363932cc8b9c353500873b9e7c7aaadc57911b",
+          "core": {
+            "authenticated_delivery": false,
+            "committed_trace_matches_returned_prefix": true,
+            "first_frame_resolved_token": null,
+            "noncommitted_trace_suffix": [],
+            "payload_hex": null,
+            "pending_bits": 0,
+            "processed_tokens": 512,
+            "reason": "fixed512_without_complete_frame",
+            "resolved_bits": 265,
+            "status": "insufficient_capacity",
+            "trace_sha256": "1d5cb33363b510349e6393df976e0aa3947152e2c046bad8c8c4d880d13d7df2",
+            "wire_tokens": 512
+          },
+          "execution_kind": "native",
+          "retry_permitted": false,
+          "role": "receive",
+          "run_id": "station-stego",
+          "schema": "framed-interval-llm-v1-worker-result-v1",
+          "status": "returned"
+        },
+        "worker_status": "returned"
+      },
+      "run_id": "station-stego",
+      "sender": {
+        "authenticated_delivery": false,
+        "process": {
+          "exit_code": 0,
+          "pid": 8,
+          "status": "exited",
+          "wall_seconds": 38.88300445899995
+        },
+        "reconciliation": {
+          "committed_trace_sha256": "1d5cb33363b510349e6393df976e0aa3947152e2c046bad8c8c4d880d13d7df2",
+          "convenience_raw_matches": true,
+          "core_process_outcome_preserved": "returned",
+          "core_returned_wire_matches": true,
+          "known_committed_tokens": 512,
+          "last_event_sha256": "488f29a754f552beb200eb583c6a2c05993e4578abfb7f78dead744e8e1f8859",
+          "retry_permitted": false,
+          "torn_last_record": false,
+          "unknown_native_step": false,
+          "wire_available": true,
+          "wire_bytes": 1702,
+          "wire_sha256": "ab127e3dc72cc8da804f2b0ce6649e8d4ac36bae05fafc36310b3a5da18c1a81"
+        },
+        "worker": {
+          "activation_sha256": "1978302778134592a7835c63be363932cc8b9c353500873b9e7c7aaadc57911b",
+          "core": {
+            "arm": "stego",
+            "authenticated_delivery": false,
+            "committed_trace_matches_returned_prefix": true,
+            "consumed_bits": 297,
+            "emitted_tokens": 512,
+            "first_frame_resolved_token": null,
+            "frame_sha256": "9937e2b6134ff6cdf99e1211bda93992912026e70f7a0615a4d84684266dc3c6",
+            "noncommitted_trace_suffix": [],
+            "pending_bits": 0,
+            "reason": "fixed512_without_complete_frame",
+            "required_frame_bits": 272,
+            "resolved_bits": 265,
+            "status": "insufficient_capacity",
+            "trace_sha256": "1d5cb33363b510349e6393df976e0aa3947152e2c046bad8c8c4d880d13d7df2",
+            "wire_bytes": 1702,
+            "wire_sha256": "ab127e3dc72cc8da804f2b0ce6649e8d4ac36bae05fafc36310b3a5da18c1a81"
+          },
+          "execution_kind": "native",
+          "retry_permitted": false,
+          "role": "generate",
+          "run_id": "station-stego",
+          "schema": "framed-interval-llm-v1-worker-result-v1",
+          "status": "returned"
+        },
+        "worker_status": "returned"
+      }
+    },
+    {
+      "arm": "ordinary",
+      "receiver": null,
+      "run_id": "station-ordinary",
+      "sender": {
+        "authenticated_delivery": false,
+        "process": {
+          "exit_code": 0,
+          "pid": 20,
+          "status": "exited",
+          "wall_seconds": 47.154321614999844
+        },
+        "reconciliation": {
+          "committed_trace_sha256": "8e69f4da984689f0eb1276427334bca506f5b243024cbd1f98b2e97eb1ae5ef6",
+          "convenience_raw_matches": true,
+          "core_process_outcome_preserved": "returned",
+          "core_returned_wire_matches": true,
+          "known_committed_tokens": 512,
+          "last_event_sha256": "4bce0864a0ed473c4c10b81df91272fe6e8f89bcd0e2765812b345842d99b68a",
+          "retry_permitted": false,
+          "torn_last_record": false,
+          "unknown_native_step": false,
+          "wire_available": true,
+          "wire_bytes": 2337,
+          "wire_sha256": "f34528b0465ced67b23b2d9548a6ab6763b9b268ee29312b99ab53ff243e4d1c"
+        },
+        "worker": {
+          "activation_sha256": "1978302778134592a7835c63be363932cc8b9c353500873b9e7c7aaadc57911b",
+          "core": {
+            "arm": "ordinary",
+            "authenticated_delivery": false,
+            "committed_trace_matches_returned_prefix": true,
+            "consumed_bits": 611,
+            "emitted_tokens": 512,
+            "first_frame_resolved_token": null,
+            "frame_sha256": null,
+            "noncommitted_trace_suffix": [],
+            "pending_bits": 0,
+            "reason": null,
+            "required_frame_bits": null,
+            "resolved_bits": 579,
+            "status": "ordinary_generated",
+            "trace_sha256": "8e69f4da984689f0eb1276427334bca506f5b243024cbd1f98b2e97eb1ae5ef6",
+            "wire_bytes": 2337,
+            "wire_sha256": "f34528b0465ced67b23b2d9548a6ab6763b9b268ee29312b99ab53ff243e4d1c"
+          },
+          "execution_kind": "native",
+          "retry_permitted": false,
+          "role": "generate",
+          "run_id": "station-ordinary",
+          "schema": "framed-interval-llm-v1-worker-result-v1",
+          "status": "returned"
+        },
+        "worker_status": "returned"
+      }
+    },
+    {
+      "arm": "stego",
+      "receiver": {
+        "authenticated_delivery": true,
+        "exact_expected_payload": true,
+        "process": {
+          "exit_code": 0,
+          "pid": 32,
+          "status": "exited",
+          "wall_seconds": 43.97841757800006
+        },
+        "reconciliation": {
+          "committed_trace_sha256": "dcbe5a4c58f8c6cfae23a2fffeb1669eeaaa5554e7d24fa9e7fd9a873426b4da",
+          "convenience_raw_matches": true,
+          "core_process_outcome_preserved": "returned",
+          "core_returned_wire_matches": null,
+          "known_committed_tokens": 512,
+          "last_event_sha256": "ce8c169e55d4a872f49b01ceb8cd06660851b63f94cea20ec73b0a9af6cc4e1b",
+          "retry_permitted": false,
+          "torn_last_record": false,
+          "unknown_native_step": false,
+          "wire_available": true,
+          "wire_bytes": 2193,
+          "wire_sha256": "1e03c4ad153e6bfbd1b085bb4b913c12928d57cd2e4206c95dfb3fe464aa3e02"
+        },
+        "worker": {
+          "activation_sha256": "1978302778134592a7835c63be363932cc8b9c353500873b9e7c7aaadc57911b",
+          "core": {
+            "authenticated_delivery": true,
+            "committed_trace_matches_returned_prefix": true,
+            "first_frame_resolved_token": 333,
+            "noncommitted_trace_suffix": [],
+            "payload_hex": "ef2a62068b221aa1cf0f945264b52e73",
+            "pending_bits": 0,
+            "processed_tokens": 512,
+            "reason": null,
+            "resolved_bits": 541,
+            "status": "authenticated_delivery",
+            "trace_sha256": "dcbe5a4c58f8c6cfae23a2fffeb1669eeaaa5554e7d24fa9e7fd9a873426b4da",
+            "wire_tokens": 512
+          },
+          "execution_kind": "native",
+          "retry_permitted": false,
+          "role": "receive",
+          "run_id": "library-stego",
+          "schema": "framed-interval-llm-v1-worker-result-v1",
+          "status": "returned"
+        },
+        "worker_status": "returned"
+      },
+      "run_id": "library-stego",
+      "sender": {
+        "authenticated_delivery": false,
+        "process": {
+          "exit_code": 0,
+          "pid": 26,
+          "status": "exited",
+          "wall_seconds": 45.20232827500013
+        },
+        "reconciliation": {
+          "committed_trace_sha256": "dcbe5a4c58f8c6cfae23a2fffeb1669eeaaa5554e7d24fa9e7fd9a873426b4da",
+          "convenience_raw_matches": true,
+          "core_process_outcome_preserved": "returned",
+          "core_returned_wire_matches": true,
+          "known_committed_tokens": 512,
+          "last_event_sha256": "ce8c169e55d4a872f49b01ceb8cd06660851b63f94cea20ec73b0a9af6cc4e1b",
+          "retry_permitted": false,
+          "torn_last_record": false,
+          "unknown_native_step": false,
+          "wire_available": true,
+          "wire_bytes": 2193,
+          "wire_sha256": "1e03c4ad153e6bfbd1b085bb4b913c12928d57cd2e4206c95dfb3fe464aa3e02"
+        },
+        "worker": {
+          "activation_sha256": "1978302778134592a7835c63be363932cc8b9c353500873b9e7c7aaadc57911b",
+          "core": {
+            "arm": "stego",
+            "authenticated_delivery": false,
+            "committed_trace_matches_returned_prefix": true,
+            "consumed_bits": 573,
+            "emitted_tokens": 512,
+            "first_frame_resolved_token": 333,
+            "frame_sha256": "1c48ec6c14a5e29f56ff5d2aaeb09e2fc40bb7a8e12709ccdb60e709cdd4ba8b",
+            "noncommitted_trace_suffix": [],
+            "pending_bits": 0,
+            "reason": null,
+            "required_frame_bits": 272,
+            "resolved_bits": 541,
+            "status": "fixed512_pending_receiver",
+            "trace_sha256": "dcbe5a4c58f8c6cfae23a2fffeb1669eeaaa5554e7d24fa9e7fd9a873426b4da",
+            "wire_bytes": 2193,
+            "wire_sha256": "1e03c4ad153e6bfbd1b085bb4b913c12928d57cd2e4206c95dfb3fe464aa3e02"
+          },
+          "execution_kind": "native",
+          "retry_permitted": false,
+          "role": "generate",
+          "run_id": "library-stego",
+          "schema": "framed-interval-llm-v1-worker-result-v1",
+          "status": "returned"
+        },
+        "worker_status": "returned"
+      }
+    },
+    {
+      "arm": "ordinary",
+      "receiver": null,
+      "run_id": "library-ordinary",
+      "sender": {
+        "authenticated_delivery": false,
+        "process": {
+          "exit_code": 0,
+          "pid": 38,
+          "status": "exited",
+          "wall_seconds": 50.88652421400002
+        },
+        "reconciliation": {
+          "committed_trace_sha256": "9958769e5222f4b160d18f932e6d6fab32975dd5d3e3040ea113991e82336f9f",
+          "convenience_raw_matches": true,
+          "core_process_outcome_preserved": "returned",
+          "core_returned_wire_matches": true,
+          "known_committed_tokens": 512,
+          "last_event_sha256": "4814ebfd617034f7269451fff4474f58a0448b384119a0290e137f9c612d0e8f",
+          "retry_permitted": false,
+          "torn_last_record": false,
+          "unknown_native_step": false,
+          "wire_available": true,
+          "wire_bytes": 2563,
+          "wire_sha256": "94d746075f1cacc2d9fb40dad9118cfa2662dd46d59f938097d46ceaac0d5b41"
+        },
+        "worker": {
+          "activation_sha256": "1978302778134592a7835c63be363932cc8b9c353500873b9e7c7aaadc57911b",
+          "core": {
+            "arm": "ordinary",
+            "authenticated_delivery": false,
+            "committed_trace_matches_returned_prefix": true,
+            "consumed_bits": 692,
+            "emitted_tokens": 512,
+            "first_frame_resolved_token": null,
+            "frame_sha256": null,
+            "noncommitted_trace_suffix": [],
+            "pending_bits": 1,
+            "reason": null,
+            "required_frame_bits": null,
+            "resolved_bits": 659,
+            "status": "ordinary_generated",
+            "trace_sha256": "9958769e5222f4b160d18f932e6d6fab32975dd5d3e3040ea113991e82336f9f",
+            "wire_bytes": 2563,
+            "wire_sha256": "94d746075f1cacc2d9fb40dad9118cfa2662dd46d59f938097d46ceaac0d5b41"
+          },
+          "execution_kind": "native",
+          "retry_permitted": false,
+          "role": "generate",
+          "run_id": "library-ordinary",
+          "schema": "framed-interval-llm-v1-worker-result-v1",
+          "status": "returned"
+        },
+        "worker_status": "returned"
+      }
+    }
+  ],
+  "execution_kind": "native",
+  "planned_cases": 4,
+  "planned_fresh_stego_receivers": 2,
+  "real_model_success_claimed": true,
+  "retry_permitted": false,
+  "schema": "framed-interval-llm-v1-campaign-status-v1",
+  "state": "finished_all_planned_outcomes",
+  "wall_seconds": 267.99249382900007
+}

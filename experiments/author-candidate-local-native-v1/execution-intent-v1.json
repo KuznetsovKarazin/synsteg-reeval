@@ -1,0 +1,21 @@
+{
+  "schema": "author-candidate-local-native-v1-execution-intent",
+  "phase": "prepared_requires_independent_review_actual_Git_readback_and_exclusive_NN_lease",
+  "protocol_path": "experiments/author-candidate-local-native-v1/protocol.json",
+  "protocol_sha256": "f9d82ec9b07caf4aa7fdb82f2e05e226016986771c04b21939d2b84343715e21",
+  "logical_requests": 2,
+  "maximum_physical_attempts": 6,
+  "maximum_output_tokens_per_attempt": 512,
+  "maximum_committed_output_tokens": 3072,
+  "per_attempt_seconds": 600,
+  "outcomes_known": false,
+  "paid_calls_allowed": false,
+  "closed_test_allowed": false,
+  "source_freeze_required": true,
+  "actual_Git_readback_required": true,
+  "ordering_gate": "root must preserve and close current native/baseline stage before this diagnostic",
+  "output": "results/author-candidate-local-native-v1/native-diagnostic-v1",
+  "incomplete_run_policy": "reserved missing result or UNKNOWN retained; no automatic retry/resume",
+  "full_cover_required_chunks": 109,
+  "full_cover_candidate_resource_complete": false
+}

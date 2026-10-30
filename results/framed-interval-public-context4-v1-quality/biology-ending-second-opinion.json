@@ -1,0 +1,25 @@
+{
+  "assessment_criterion": "No clear syntactic truncation claim unless a mandatory grammatical constituent is missing. Semantic vagueness and absent punctuation are recorded separately.",
+  "input_scope": "Only exact strings supplied by parent; full biology output documents were not read by this reviewer. Parent must bind these quotes to full text hashes and offsets.",
+  "nn_or_tokenizer_calls": 0,
+  "observations": [
+    {
+      "no_terminal_punctuation": true,
+      "provided_label": "ending_a",
+      "quote": "Through this innovative method, combinatorial biology has significantly advanced our ability to explore and manipulate biological systems, leading to the discovery of new pharmaceuticals and the development",
+      "quote_sha256": "165d79e6d52dc8d4b6412b64598f08bf6f0a72752721678e68af5036ba383c39",
+      "reason_ru": "development может употребляться без of-complement; координация двух noun phrases формально завершена. Неясный референт и резкая мысль не доказывают отсутствия обязательного компонента.",
+      "unfinished_ending": null
+    },
+    {
+      "no_terminal_punctuation": true,
+      "provided_label": "ending_b",
+      "quote": "Despite the significant advantages of combinatorial biology, it is often complementary",
+      "quote_sha256": "59c7d0955bd5a9e0180bb4c3eba77a4761497897ee09370b24200b868bffe5b1",
+      "reason_ru": "complementary допускает предикативное употребление без явно выраженного to-complement. Предложение синтаксически возможно как полное; контекстная недосказанность остаётся.",
+      "unfinished_ending": null
+    }
+  ],
+  "other_outputs_read": false,
+  "schema": "public-context4-biology-ending-second-opinion-v1"
+}

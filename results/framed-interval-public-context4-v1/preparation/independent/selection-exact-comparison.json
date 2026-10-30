@@ -1,0 +1,1 @@
+{"status":"passed","four_rows_all_fields_equal_actual_Git":true,"comparison":"Parsed full JSON values compared after fresh Git readback and local read; not merely matching IDs","model_calls":0,"tokenizer_calls":0}

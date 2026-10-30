@@ -1,0 +1,18 @@
+{
+  "bytes": 17388,
+  "params": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "list": "search",
+    "maxlag": "5",
+    "srlimit": "300",
+    "srnamespace": "0",
+    "srprop": "",
+    "srsearch": "history",
+    "srsort": "relevance"
+  },
+  "retrieved_utc": "2026-10-23T23:38:40.620601+00:00",
+  "sha256": "09f09d35a47d0829ab4bed7a5ec4244ac749e55509b86054e57c20fa071d1868",
+  "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&list=search&maxlag=5&srlimit=300&srnamespace=0&srprop=&srsearch=history&srsort=relevance"
+}

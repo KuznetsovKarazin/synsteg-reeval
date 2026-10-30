@@ -1,0 +1,9 @@
+{
+  "schema": "synsteg-public-dictionary-v1",
+  "version": "synthetic-pilot-test-fixture-v1",
+  "provenance": "Synthetic test-only classes. Not the missing experimental dictionary and not evidence of natural-text capacity or semantic interchangeability.",
+  "classes": [
+    {"id": "bright", "words": ["bright", "clear", "vivid"]},
+    {"id": "calm", "words": ["calm", "still", "tranquil"]}
+  ]
+}

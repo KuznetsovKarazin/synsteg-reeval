@@ -1,0 +1,54 @@
+{
+  "schema": "canonical-channel-v2-tokenizer-conformance-plan-v1",
+  "experiment_id": "canonical-channel-v2",
+  "scope": "Tokenizer-only conformance on public synthetic fixtures; no language-model forward pass, generation, payload delivery or security evaluation",
+  "model_repository_for_tokenizer_only": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+  "revision": "fe8a4ea1ffedaf415f4da2f062534de366a451e6",
+  "tokenizer_relative_path": "runtime/large-campaign-development-v2/hf/hub/models--TinyLlama--TinyLlama-1.1B-Chat-v1.0/snapshots/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer.json",
+  "tokenizer_sha256": "bcd04f0eadf90287bd26e1a183ac487d8a141b09b06aecb7725bbdd343640f2e",
+  "tokenizers_version": "0.22.2",
+  "adapter": {
+    "encode": "Tokenizer.encode(text, add_special_tokens=False).ids",
+    "render": "Tokenizer.decode(full_output_ids, skip_special_tokens=False).encode('utf-8', errors='strict')",
+    "special_token_ids": "Every added_tokens row with special=true in the pinned tokenizer JSON",
+    "cleanup_or_other_transformations_added_by_adapter": false,
+    "transformers_frontend_equivalence_claimed": false
+  },
+  "candidate_law": {
+    "selection": "Sorted union of IDs 0..258 inclusive, all special IDs, and all IDs in encodings of the twelve fixed public fixture texts",
+    "weight": 1,
+    "prefix_dependence": "None; constant public fixture-derived finite support at every tested prefix",
+    "interpretation": "Artificial uniform diagnostic weights, not observed language-model probabilities or full-vocabulary support"
+  },
+  "gate": {
+    "candidate_order": "ascending integer token ID",
+    "render_mode": "full output prefix, separated from model prompt IDs",
+    "require_append_only_nonempty_extension": true,
+    "require_strict_utf8_after_every_token": true,
+    "require_encode_render_identity": true,
+    "special_ids_allowed_as_output": false,
+    "weight_policy": "Retain accepted positive integer weights unchanged; conditional denominator is their sum S",
+    "empty_support": "Preserve refusal; never fallback or regenerate",
+    "receiver_contract": "Only received bytes and public codec/provider resources; no sender token IDs or traces"
+  },
+  "fixtures": [
+    {"id": "empty", "text": ""},
+    {"id": "ascii", "text": "Hello world."},
+    {"id": "internal_spacing", "text": "one  two\nthree"},
+    {"id": "markdown_merge", "text": "**\n\n"},
+    {"id": "latin_precomposed", "text": "Café"},
+    {"id": "latin_combining", "text": "Café"},
+    {"id": "cyrillic", "text": "Привет, мир."},
+    {"id": "cjk", "text": "中文文本。"},
+    {"id": "emoji", "text": "😀"},
+    {"id": "crlf", "text": "A\r\nB"},
+    {"id": "tab", "text": "A\tB"},
+    {"id": "edge_spaces", "text": " leading and trailing "}
+  ],
+  "planned_fixture_count": 12,
+  "planned_neural_forward_calls": 0,
+  "planned_generated_texts": 0,
+  "retention": "All twelve fixtures, all examined prefix candidate verdicts and all refusals; no success-only subset",
+  "no_adaptation_after_results": true,
+  "qwen_failure_note": "The Qwen IDs 334+271->56177 are covered only by a minimal synthetic merge fixture in unit tests; this TinyLlama diagnostic is not a Qwen-tokenizer replay"
+}

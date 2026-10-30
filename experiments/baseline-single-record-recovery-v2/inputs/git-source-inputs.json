@@ -1,0 +1,348 @@
+{
+  "source_commit": "4050291345c43776e9c93528b6afe292c062ba7a",
+  "actual_git_readback": true,
+  "files": [
+    {
+      "path": "docs/continuation_current_ru.md",
+      "bytes": 7470,
+      "sha256": "0bc82dbe978812ab8f22fe61f01d7dbece121c81365e22649cb45cecb45af76d",
+      "git_blob_sha1": "4f9ef8d783aaeb094e6c2ef03c67c0924ab4c511"
+    },
+    {
+      "path": "results/continuation-20261028-reconciliation-v1/status.json",
+      "bytes": 6273,
+      "sha256": "f34d1a380385d570e6f7336f73ef41d2822ccf9733e324a7f8f9dc188f43d686",
+      "git_blob_sha1": "3bf1fb205f07810413ae948cd4174b4fd71dc517"
+    },
+    {
+      "path": "scripts/baseline_single_record_recovery_v1.py",
+      "bytes": 26741,
+      "sha256": "12e7356d990242f7f09eaea88d045b16019f734956025ec86cfb5005bdf96294",
+      "git_blob_sha1": "73bad03c28257c76948f4d44f2257d7a7870def7"
+    },
+    {
+      "path": "scripts/run_budget_generation.py",
+      "bytes": 27468,
+      "sha256": "4d5ab74c78c58214c1b5e11a346b4339eb0c6d08e713e8909d0d5fd9947c7e02",
+      "git_blob_sha1": "35bad71e3bf062fc365782dc7d25d169256bbffe"
+    },
+    {
+      "path": "experiments/large-campaign-development-v2/execution-manifest.json",
+      "bytes": 9311,
+      "sha256": "7b23df64b875799cc592640a9aadf7ea6bcd870b525335141169cf93a6003ff1",
+      "git_blob_sha1": "6d3c53f905aecf0cd8f1f737eb5fe972415c5993"
+    },
+    {
+      "path": "scripts/continuation_replay_guard_v1.py",
+      "bytes": 10913,
+      "sha256": "fae8a6f191582dcf0d64a36ce6784cfe38495b3e3da38946723ea0fbebf8584c",
+      "git_blob_sha1": "b4266634909d2fd42c242964590673eb807a0f68"
+    },
+    {
+      "path": "results/current-git-status-audit-20261028-v1/no-replay-guard.json",
+      "bytes": 3167,
+      "sha256": "ed7c17d68df5cc524ec8e441f3febb2a96e6d8108eda6f22f2ac154fae74db0c",
+      "git_blob_sha1": "2cd4af70ae5fb4d258e44d4c889511a1c0db8bb1"
+    },
+    {
+      "path": "results/baseline-single-record-recovery-v1-root/full300-after090.json",
+      "bytes": 94583,
+      "sha256": "b25f56576ec2c47898b80cb95a59e1d70a15e99037a78b6b96a3f430ca4aaac7",
+      "git_blob_sha1": "35562366b4c524fe496794cfc0112a40507c1e65"
+    },
+    {
+      "path": "results/large-campaign-development-v2/preflight/download-receipt.json",
+      "bytes": 4910,
+      "sha256": "8d72f0b2280d68c9cd1c41f7482ebda6b5a8ea48a221c43ede51448ce83f5477",
+      "git_blob_sha1": "17d7b014aadd98a8a792f13efd7db71a92493415"
+    },
+    {
+      "path": "experiments/baseline-single-record-recovery-v1/inputs/protocol.enabled.json",
+      "bytes": 23406,
+      "sha256": "8f484dbdd25f91c214ef04c26804a85d38883bbfce6b823b5d7e15db490c0bf9",
+      "git_blob_sha1": "3c0a1205f3d6fb7be516b6fae2c178a5f5447c1f"
+    },
+    {
+      "path": "results/recovery-development-v1/linux_snapshot/development-prompts.jsonl",
+      "bytes": 277780,
+      "sha256": "3190e9b56e83762c5f47c41fc1605b5668d43426000814b8ffbaef47112393d1",
+      "git_blob_sha1": "dc9167020a7c0bba66e4a16163f9feecfa91e58f"
+    },
+    {
+      "path": "configs/large_campaign_resume_v2.json",
+      "bytes": 52764,
+      "sha256": "3712de70551637f9d973d7e5fe507b30478de2472e1db87596b7fd8c0a4680b0",
+      "git_blob_sha1": "4641729e2e38263892b33bc04377475eeadf29c9"
+    },
+    {
+      "path": "docs/large_campaign_development_v2_launch_ru.md",
+      "bytes": 9856,
+      "sha256": "2165b3e016299eb368ad60b8d9c42ec1a9e43be3faf54a4407e6dc3f7b696300",
+      "git_blob_sha1": "e0276a86e99f0f0cc31448de34563ec38b5ae2a1"
+    },
+    {
+      "path": "experiments/large-campaign-development-v2/execute_first_batch.py",
+      "bytes": 4734,
+      "sha256": "fdf69985dc46b4300656472095d84447ee3be9c15e4fe396fa66d6713788a301",
+      "git_blob_sha1": "3572a07d2f571b439f9b77b5d42130f8c7087b09"
+    },
+    {
+      "path": "experiments/large-campaign-development-v2/preflight.py",
+      "bytes": 11254,
+      "sha256": "ba0e79dea8c7b62dd230a158d942930f277da42df69f7c73b8162146525b3ebf",
+      "git_blob_sha1": "ba05c3a980d3f181addb4633b12f1f529e29317f"
+    },
+    {
+      "path": "results/large-campaign-development-v2/preflight/all-100-context-checks.json",
+      "bytes": 58181,
+      "sha256": "6788c9bb54df452b9f6cc1788b6de7d653a4c81577965ebc59a11f3976eef4fd",
+      "git_blob_sha1": "a87ffcacfe23d943ea9364781e61309b01554931"
+    },
+    {
+      "path": "results/large-campaign-development-v2/preflight/artifact-manifest.json",
+      "bytes": 3590,
+      "sha256": "5ed2aad70750191d32a7daf93b30ec7d99c00e358418d8c5c7c5ae33cffa7fd2",
+      "git_blob_sha1": "39ad5455091ae6f79ba8bd7f37c48bb09c77705f"
+    },
+    {
+      "path": "results/large-campaign-development-v2/preflight/checkpoint-tests.json",
+      "bytes": 234,
+      "sha256": "b7586385dad7fa5eb2e2b6ecec4d5aaeebc28ccb765ad3456701ec28385ee3f7",
+      "git_blob_sha1": "d0fea4dfd4a5c7dc127afce068ac5f3d9fede85f"
+    },
+    {
+      "path": "results/large-campaign-development-v2/preflight/download.log",
+      "bytes": 1020,
+      "sha256": "83bd41038f5a8f64ad18b692c5520e75be0c92d5a540fb73683649b8d7d86bd0",
+      "git_blob_sha1": "ee97ae7ec5a216289d60322e6e175812ba4d5931"
+    },
+    {
+      "path": "results/large-campaign-development-v2/preflight/execution-environment.json",
+      "bytes": 1171,
+      "sha256": "6660ddae734d02121a1640ae2da79fe565af89df9ba116afa6cb1e4ac44e137e",
+      "git_blob_sha1": "ac5c50d2c073801afe279ed3c671584b1ad64467"
+    },
+    {
+      "path": "results/large-campaign-development-v2/preflight/full-denominator-before-generation.json",
+      "bytes": 212018,
+      "sha256": "f227ee1ab706efea7cee786a101cd0e5f9bde98501f3b2c681a3e67b06582add",
+      "git_blob_sha1": "57ddd300273331db8a5d428f45826cb83e638527"
+    },
+    {
+      "path": "results/large-campaign-development-v2/preflight/network-probe.json",
+      "bytes": 532,
+      "sha256": "1a34e30fbf2a7925de676df49bd08b25c9446d8f906b107cd934e8e3b4599a9a",
+      "git_blob_sha1": "b44031c0b338687df2b665745f90ad9f6d6a6e80"
+    },
+    {
+      "path": "results/large-campaign-development-v2/preflight/pip-check.txt",
+      "bytes": 30,
+      "sha256": "9261363b733079a641c2e4cc9bc46ffa1d8336945a87f807b6cf68847dbc9b09",
+      "git_blob_sha1": "c688d8ccdad82420475fc31cb40020cccfeeef2b"
+    },
+    {
+      "path": "results/large-campaign-development-v2/preflight/pip-freeze.txt",
+      "bytes": 616,
+      "sha256": "3d500050fe75ed94a13ae7381ba41bcd1041aab5d69ba7f683eb1b33c5199dcc",
+      "git_blob_sha1": "a1debceb7009ee9acfe483669046af1ebb31cee5"
+    },
+    {
+      "path": "results/large-campaign-development-v2/preflight/pip-install-report.json",
+      "bytes": 378212,
+      "sha256": "732ad043ed7f904257f86e00b65ac2dfd4490e92eeacee2421e41be74fcb4136",
+      "git_blob_sha1": "883671d5bf83f6836ef74cfa361cd557af39939b"
+    },
+    {
+      "path": "results/large-campaign-development-v2/preflight/pip-install.log",
+      "bytes": 11857,
+      "sha256": "ffe6485e008e9bc2772ed8e128ac3d5173c1ccde3370bba1ba4aa14c9962394b",
+      "git_blob_sha1": "d7f579a7d81aebfe909ce58d1949b4bac5076b31"
+    },
+    {
+      "path": "results/large-campaign-development-v2/preflight/preflight-receipt.json",
+      "bytes": 2537,
+      "sha256": "cc60a7c2432b4a93e8fb135661fedec1bc9a57e8f8f0827171f2b418f9bd63cf",
+      "git_blob_sha1": "ce333e53e2c7ca6b7e3201db6a26772d5fdd3f1f"
+    },
+    {
+      "path": "results/large-campaign-development-v2/preflight/preflight.log",
+      "bytes": 2587,
+      "sha256": "2c770174005c1fd7c9d1b31c02b0dabb534eed7d46804e4bc5071bb3431c37f9",
+      "git_blob_sha1": "3f224786f4e5593708e9bdb4344017e97fb1d61c"
+    },
+    {
+      "path": "results/large-campaign-development-v2/preflight/requirements-input.txt",
+      "bytes": 288,
+      "sha256": "c2e9ec052b5094b547f611199a1cfdfb88db0d6aa6f21de33201c6d7041f6eaa",
+      "git_blob_sha1": "ea65853e2c801f708f8d73ebd9cee85d5789739a"
+    },
+    {
+      "path": "results/large-campaign-development-v2/preflight/requirements-lock.txt",
+      "bytes": 6656,
+      "sha256": "a621c2463a3e87284bd8ddf3bbe7d5bec59715d2a57b366adaa8c61a499139bc",
+      "git_blob_sha1": "0570028837d8db66118669e06af761ef60105462"
+    },
+    {
+      "path": "results/large-campaign-development-v2/preflight/runtime-wheel-manifest.json",
+      "bytes": 10366,
+      "sha256": "3d31edef875f365e1beba0977c85399e465a567a375cacbab7d1c2b7162d9628",
+      "git_blob_sha1": "7d2ee64974fc37f7d6eb6552816952aed95bc845"
+    },
+    {
+      "path": "results/large-campaign-development-v2/preflight/upstream-model-info.json",
+      "bytes": 7982,
+      "sha256": "25adf591c4e2b23516c4bb571b5cc0e1cfdcb0449e8c848982836348782bb260",
+      "git_blob_sha1": "4299fd559bf04d73fe5296ef9f2102e35e98ecd0"
+    },
+    {
+      "path": "results/large-campaign-development-v2-preflight/independent-readiness-addendum.json",
+      "bytes": 11952,
+      "sha256": "8715eb26ea4322c32ad3e01006ff543ea2676d7375c3a202d1feb3b7767d2304",
+      "git_blob_sha1": "a6a96e6db3099ef99056eca3057cba2bb1c80774"
+    },
+    {
+      "path": "results/large-campaign-development-v2-preflight/independent-runner-audit.json",
+      "bytes": 11562,
+      "sha256": "b8d45c395eb98420facf4c31f77b6fb07d2a80803c5f6ff762fba2668af014db",
+      "git_blob_sha1": "8a77e4078ac2d17ca62b8cd2bfb48c7bdd161092"
+    },
+    {
+      "path": "scripts/check_claude_access.py",
+      "bytes": 9840,
+      "sha256": "1161cc279f126f2305fafc18cdd451d9a84eb1c9e925c768ecdec90bda6c0843",
+      "git_blob_sha1": "d536655f110208ca13543f4c2a0171f7f4eab762"
+    },
+    {
+      "path": "scripts/checkpoint_large_campaign_development_v2.py",
+      "bytes": 9906,
+      "sha256": "f47e99feb3c6b3aef4a415337405888fe6f598ce60f7e3395bd30781a5053945",
+      "git_blob_sha1": "7fbeab5f06e31ce2db0ed63338506a4867e1a318"
+    },
+    {
+      "path": "scripts/run_claude_smoke.py",
+      "bytes": 14373,
+      "sha256": "98411ed6af23a4fce6693c978e44617e3a6f6904cc5d7cd8547da2eb73bd6655",
+      "git_blob_sha1": "527077c7a2e9433589864696500925e63e18ff7e"
+    },
+    {
+      "path": "src/synsteg_audit/budget_ledger.py",
+      "bytes": 8339,
+      "sha256": "c04ca4e3141a9b9873054ab71c38545705353c8609c12ec0536eaabcd2e0b19b",
+      "git_blob_sha1": "343d5041279bb6e1b36cdc7a4943e14e10909524"
+    },
+    {
+      "path": "tests/test_large_campaign_checkpoint_v2.py",
+      "bytes": 3149,
+      "sha256": "f694ad85673b31050a76ec85281612b62c5e1182506dd8ffab152df876b48b7c",
+      "git_blob_sha1": "d23b574d624cbf304cb042d11d3d538da6220fd7"
+    },
+    {
+      "path": "results/large-campaign-development-v2-preflight/independent-supervisor-audit.json",
+      "bytes": 9342,
+      "sha256": "69f725b7f6b7ba9fef522d03141e8f6b1c2319509ea6977590676a5f52e4a1cb",
+      "git_blob_sha1": "170a963882b625b159137e6eba82161bd312a9d6"
+    },
+    {
+      "path": "runs/large-campaign-development-v2/models/tinyllama11/run.json",
+      "bytes": 37654,
+      "sha256": "66bc2504b6c50a59a05b78aeb5da029047b0d981ad95eb63f99925e1fe34d82a",
+      "git_blob_sha1": "8d3e84ac61ed85501d4cb2a627a182e339c503d5"
+    },
+    {
+      "path": "runs/large-campaign-development-v2/models/tinyllama11/runtime.json",
+      "bytes": 425,
+      "sha256": "b9902f9a50d45933b0797788814ce9793347197c2c4b52bd517a0e0d8427f03a",
+      "git_blob_sha1": "b9f0b8a1253d0d94563bc1957f11d4badac10b01"
+    },
+    {
+      "path": "runs/baseline-single-record-recovery-v1/order090/git-preservation-receipt.json",
+      "bytes": 1762,
+      "sha256": "b71941df73d2598a78f870d183e31810c5ac5e80f2b56788e635b4997f3cc46b",
+      "git_blob_sha1": "fc8fada5f29a5af356be36f46ca8bb9e7b8f3ad9"
+    },
+    {
+      "path": "runs/baseline-single-record-recovery-v1/order090/activation-receipt.json",
+      "bytes": 763,
+      "sha256": "68efaaa814a3570118b0b0327fcc0405d17d8ab35ba443d9826bf1f5a399310c",
+      "git_blob_sha1": "7bcec3587e23e2caea9aa1938cb105791feae966"
+    },
+    {
+      "path": "runs/baseline-single-record-recovery-v1/order090/artifact-manifest.json",
+      "bytes": 1307,
+      "sha256": "9ebb8897d45fd22ed61852fd033e34fe8f49e9a3c1a56136825439b104bde72b",
+      "git_blob_sha1": "9d18101d533e3a17659534d09dd6e0d501f56aed"
+    },
+    {
+      "path": "runs/baseline-single-record-recovery-v1/order090/child.json",
+      "bytes": 28,
+      "sha256": "c5ca59cf675fc9fd0dbd0e49f819ece8f9b5591961662859807f187be6f803b3",
+      "git_blob_sha1": "552ec755dd13b2864bbca864dfd26494732891c0"
+    },
+    {
+      "path": "runs/baseline-single-record-recovery-v1/order090/process.json",
+      "bytes": 1236,
+      "sha256": "255322d7fc0663183c672aa57c47f0220ab31f2f51413b654a39ba0d807be536",
+      "git_blob_sha1": "0f3b86757260b77508e38c7d8cf65232b99b6140"
+    },
+    {
+      "path": "runs/baseline-single-record-recovery-v1/order090/reservation.json",
+      "bytes": 424,
+      "sha256": "d2922dfacbce6dc030189511f73fe9231bc668fcde68b95fa33ea659010568b2",
+      "git_blob_sha1": "0c1bb772ee893a9a7f101214ac7330b9e63a8e7f"
+    },
+    {
+      "path": "runs/baseline-single-record-recovery-v1/order090/run/attempts/095a83f555da294ed631a41214386ea6352c9ac592307e274b6a0f8545c83879.json",
+      "bytes": 3098,
+      "sha256": "0c3f2ea130ee0aaaac961df8faa38fd26e3438507e0f42677e379ae178315e89",
+      "git_blob_sha1": "7560c5d3bf1cb27ed4b42a222b328c30a5a3652c"
+    },
+    {
+      "path": "runs/baseline-single-record-recovery-v1/order090/run/local_ledger/campaign.lock",
+      "bytes": 1,
+      "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "git_blob_sha1": "c227083464fb9af8955c90d2924774ee50abb547"
+    },
+    {
+      "path": "runs/baseline-single-record-recovery-v1/order090/run/local_ledger/ledger.json",
+      "bytes": 3631,
+      "sha256": "b9607813a47a61e4c4f3a4dcf1649c4b9ab0aae497dc6f24dfa35a55bf1dce84",
+      "git_blob_sha1": "ed5c0f3ba821fe497469fea29eb3964edba5ad13"
+    },
+    {
+      "path": "runs/baseline-single-record-recovery-v1/order090/run/run.json",
+      "bytes": 1513,
+      "sha256": "8a6cd75473a9ec61d2f2c82da46e60b45f379361269b5e335923470c16f5ab16",
+      "git_blob_sha1": "a5263173495245379453ccf90610f7727cdf758b"
+    },
+    {
+      "path": "runs/baseline-single-record-recovery-v1/order090/run/run_guard/campaign.lock",
+      "bytes": 1,
+      "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "git_blob_sha1": "c227083464fb9af8955c90d2924774ee50abb547"
+    },
+    {
+      "path": "runs/baseline-single-record-recovery-v1/order090/run/runtime.json",
+      "bytes": 425,
+      "sha256": "b9902f9a50d45933b0797788814ce9793347197c2c4b52bd517a0e0d8427f03a",
+      "git_blob_sha1": "b9f0b8a1253d0d94563bc1957f11d4badac10b01"
+    },
+    {
+      "path": "runs/baseline-single-record-recovery-v1/order090/run/summary.json",
+      "bytes": 828,
+      "sha256": "022eb2f493093b0cebdd0d428dc3cf8b247a4880a1c4fd941aca2112cd490dad",
+      "git_blob_sha1": "5e947f504939db57968b0ccbaa430dca5b89aa13"
+    },
+    {
+      "path": "runs/baseline-single-record-recovery-v1/order090/stderr.log",
+      "bytes": 50,
+      "sha256": "aaa09aab886de1f83917ae74ece127a8014d80045ef3ee7b773ad46683d03832",
+      "git_blob_sha1": "994c585de57dc526b249738c47e55b6c339149b4"
+    },
+    {
+      "path": "runs/baseline-single-record-recovery-v1/order090/stdout.log",
+      "bytes": 828,
+      "sha256": "4311385eaf9cd41d0bfbbc6b0641ef75659392f9089dfad39170fcc87ae00354",
+      "git_blob_sha1": "b6e0c5390304c380f7fd0c33bcb675508e7420e4"
+    }
+  ]
+}

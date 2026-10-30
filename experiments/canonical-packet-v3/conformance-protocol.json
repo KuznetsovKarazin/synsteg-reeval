@@ -1,0 +1,99 @@
+{
+  "schema": "canonical-packet-v3-tokenizer-conformance-plan-v1",
+  "experiment_id": "canonical-packet-v3",
+  "scope": "Tokenizer-only regression diagnostic on twelve public fixtures known from v2; not independent language-coverage validation, LLM generation, payload or security evaluation",
+  "prior_design_information": "Known v2 first-token29871 empty_extension refusals motivated this new method. Same fixtures are intentionally reused without claiming held-out evaluation.",
+  "model_repository_for_tokenizer_only": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+  "revision": "fe8a4ea1ffedaf415f4da2f062534de366a451e6",
+  "tokenizer_relative_path": "runtime/large-campaign-development-v2/hf/hub/models--TinyLlama--TinyLlama-1.1B-Chat-v1.0/snapshots/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer.json",
+  "tokenizer_sha256": "bcd04f0eadf90287bd26e1a183ac487d8a141b09b06aecb7725bbdd343640f2e",
+  "tokenizers_version": "0.22.2",
+  "adapter": {
+    "encode": "Tokenizer.encode(text, add_special_tokens=False).ids",
+    "render": "Tokenizer.decode(full_output_ids, skip_special_tokens=False).encode('utf-8', errors='strict')",
+    "special_token_ids": "Every added_tokens row with special=true in the pinned tokenizer JSON",
+    "cleanup_or_other_transformations_added_by_adapter": false,
+    "transformers_frontend_equivalence_claimed": false
+  },
+  "packet_policy": {
+    "max_packet_tokens": 5,
+    "node_budget": 4096,
+    "max_reference_tokens_per_fixture": 64,
+    "max_reference_packet_steps_per_fixture": 64,
+    "public_path_pool": "Sorted unique union of singleton IDs0..258 inclusive, special IDs, and every nonempty contiguous token-ID span of length<=5 from encodings of ALL twelve predefined public fixture strings.",
+    "construction": "At each canonical boundary, fixed lexicographic traversal of the complete public finite trie. Stop a branch on first accepted canonical endpoint, any forbidden-special endpoint, or terminal trie leaf. Expand other intermediate failures. All terminal frontier leaves, accepted and rejected, receive weight1.",
+    "node_budget_policy": "Before any trie inspection, count all possible non-root trie nodes. If count>4096 refuse the entire fixture construction with no partial successful subset.",
+    "path_mass_outside_public_trie": "Unknown; never interpreted as zero and never estimated as LLM mass.",
+    "boundary_gate": "Full-prefix cumulative render must strictly append prior bytes, be strict UTF8, contain no output specials, and encode to exactly previousIDs+packet. Internal renders may be silent/noncanonical/incompleteUTF8; they are never transmitted.",
+    "segmentation": "Require raw frontier tuples prefix-free including rejected/zero rows; receiver reconstructs full IDs from bytes then uniquely parses at boundary states.",
+    "candidate_order": "lexicographic token-ID tuple order",
+    "weights": "Artificial integer1 for every frontier leaf before admission; unchanged after admission; conditional denominator sum S.",
+    "empty_or_refused": "Retain full case and stop at first reference-path refusal; no fallback, resampling, adding paths or raising limits."
+  },
+  "fixtures": [
+    {
+      "id": "empty",
+      "text": ""
+    },
+    {
+      "id": "ascii",
+      "text": "Hello world."
+    },
+    {
+      "id": "internal_spacing",
+      "text": "one  two\nthree"
+    },
+    {
+      "id": "markdown_merge",
+      "text": "**\n\n"
+    },
+    {
+      "id": "latin_precomposed",
+      "text": "Café"
+    },
+    {
+      "id": "latin_combining",
+      "text": "Café"
+    },
+    {
+      "id": "cyrillic",
+      "text": "Привет, мир."
+    },
+    {
+      "id": "cjk",
+      "text": "中文文本。"
+    },
+    {
+      "id": "emoji",
+      "text": "😀"
+    },
+    {
+      "id": "crlf",
+      "text": "A\r\nB"
+    },
+    {
+      "id": "tab",
+      "text": "A\tB"
+    },
+    {
+      "id": "edge_spaces",
+      "text": " leading and trailing "
+    }
+  ],
+  "planned_fixture_count": 12,
+  "planned_neural_forward_calls": 0,
+  "planned_generated_texts": 0,
+  "receiver_contract": "Received bytes and pinned public codec/provider/prompt/policy only, no sender path/trace. Token count from same public fixture plan allowed for this diagnostic, not a payload framing claim.",
+  "comparison": "Fresh sender and receiver tokenizer objects; independently reconstruct provider at each boundary; all recorded construction inspections and packet admission summaries must agree. Same backend implementation is not independent tokenizer verification.",
+  "retention": "All twelve cases including empty and every refusal; full source IDs, attempted packets, construction terminal/partial diagnostics, raw frontier denominator, receiver result and hashes. Separate nonempty denominator.",
+  "no_adaptation_after_results": true,
+  "paid_calls": 0,
+  "closed_test_accessed": false,
+  "not_claimed": [
+    "Original LM distribution preservation",
+    "LLM capacity or generated-text quality",
+    "Secret payload delivery or authentication",
+    "Cross-platform model-forward reproducibility",
+    "General recovery for all Unicode or all token paths"
+  ]
+}

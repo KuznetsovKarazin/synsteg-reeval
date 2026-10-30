@@ -1,0 +1,12 @@
+{
+  "kind": "ppl",
+  "model_id": "openai-community/gpt2",
+  "model_revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+  "tokenizer_id": "openai-community/gpt2",
+  "tokenizer_revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+  "cpu_threads": 3,
+  "ppl_policy": "prefix",
+  "prefix_tokens": 512,
+  "context_length": 1024,
+  "stride": 512
+}

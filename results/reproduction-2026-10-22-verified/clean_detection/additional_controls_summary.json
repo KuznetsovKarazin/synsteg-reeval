@@ -1,0 +1,278 @@
+{
+  "luna_equal_pair_length_normalized": {
+    "n_runs": 5,
+    "accuracy_mean": 0.9883333333333333,
+    "accuracy_sd_population": 0.0040824829046386705,
+    "AUC_mean": 0.9887222222222223,
+    "accuracy_per_seed": [
+      0.9833333333333333,
+      0.9916666666666667,
+      0.9833333333333333,
+      0.9916666666666667,
+      0.9916666666666667
+    ]
+  },
+  "luna_leave_one_inferred_theme_out": {
+    "n_heldout_themes": 16,
+    "accuracy_all_unique_texts": 0.96,
+    "n_unique_texts": 600,
+    "n_unique_pairs": 300,
+    "accuracy_macro_theme": 0.9604292111791761,
+    "AUC_mean_by_theme": 0.9878548435842427,
+    "accuracy_min_theme": 0.8636363636363636,
+    "accuracy_max_theme": 1.0,
+    "errors": 24,
+    "per_theme": [
+      {
+        "heldout_inferred_theme": "ai_work_gig",
+        "accuracy": 0.9615384615384616,
+        "AUC": 0.9289940828402368,
+        "n_test_pairs": 13,
+        "errors": 1
+      },
+      {
+        "heldout_inferred_theme": "bioethics_nanotechnology",
+        "accuracy": 0.8793103448275862,
+        "AUC": 1.0,
+        "n_test_pairs": 29,
+        "errors": 7
+      },
+      {
+        "heldout_inferred_theme": "culture_arts_identity",
+        "accuracy": 0.9210526315789473,
+        "AUC": 0.9986149584487535,
+        "n_test_pairs": 38,
+        "errors": 6
+      },
+      {
+        "heldout_inferred_theme": "economy_corporate_consumption",
+        "accuracy": 0.96,
+        "AUC": 0.976,
+        "n_test_pairs": 25,
+        "errors": 2
+      },
+      {
+        "heldout_inferred_theme": "education",
+        "accuracy": 1.0,
+        "AUC": 1.0,
+        "n_test_pairs": 21,
+        "errors": 0
+      },
+      {
+        "heldout_inferred_theme": "environment_energy",
+        "accuracy": 0.96875,
+        "AUC": 0.94140625,
+        "n_test_pairs": 16,
+        "errors": 1
+      },
+      {
+        "heldout_inferred_theme": "family_happiness",
+        "accuracy": 0.8636363636363636,
+        "AUC": 1.0,
+        "n_test_pairs": 11,
+        "errors": 3
+      },
+      {
+        "heldout_inferred_theme": "health",
+        "accuracy": 0.9821428571428571,
+        "AUC": 0.9987244897959184,
+        "n_test_pairs": 28,
+        "errors": 1
+      },
+      {
+        "heldout_inferred_theme": "media_expression",
+        "accuracy": 0.9848484848484849,
+        "AUC": 1.0,
+        "n_test_pairs": 33,
+        "errors": 1
+      },
+      {
+        "heldout_inferred_theme": "politics_justice_equality",
+        "accuracy": 1.0,
+        "AUC": 1.0,
+        "n_test_pairs": 16,
+        "errors": 0
+      },
+      {
+        "heldout_inferred_theme": "security_privacy",
+        "accuracy": 1.0,
+        "AUC": 1.0,
+        "n_test_pairs": 7,
+        "errors": 0
+      },
+      {
+        "heldout_inferred_theme": "social_media_friendship",
+        "accuracy": 1.0,
+        "AUC": 1.0,
+        "n_test_pairs": 20,
+        "errors": 0
+      },
+      {
+        "heldout_inferred_theme": "space",
+        "accuracy": 0.875,
+        "AUC": 1.0,
+        "n_test_pairs": 4,
+        "errors": 1
+      },
+      {
+        "heldout_inferred_theme": "technology_general_divide",
+        "accuracy": 1.0,
+        "AUC": 1.0,
+        "n_test_pairs": 11,
+        "errors": 0
+      },
+      {
+        "heldout_inferred_theme": "urban_population",
+        "accuracy": 1.0,
+        "AUC": 1.0,
+        "n_test_pairs": 11,
+        "errors": 0
+      },
+      {
+        "heldout_inferred_theme": "vr_games",
+        "accuracy": 0.9705882352941176,
+        "AUC": 0.9619377162629758,
+        "n_test_pairs": 17,
+        "errors": 1
+      }
+    ]
+  },
+  "qwen_equal_pair_length_normalized": {
+    "n_runs": 5,
+    "accuracy_mean": 0.96,
+    "accuracy_sd_population": 0.024944382578492935,
+    "AUC_mean": 0.9875555555555555,
+    "accuracy_per_seed": [
+      0.9333333333333333,
+      0.9333333333333333,
+      1.0,
+      0.9666666666666667,
+      0.9666666666666667
+    ]
+  },
+  "qwen_leave_one_inferred_theme_out": {
+    "n_heldout_themes": 16,
+    "accuracy_all_unique_texts": 0.96,
+    "n_unique_texts": 150,
+    "n_unique_pairs": 75,
+    "accuracy_macro_theme": 0.960639880952381,
+    "AUC_mean_by_theme": 0.9930555555555556,
+    "accuracy_min_theme": 0.8333333333333334,
+    "accuracy_max_theme": 1.0,
+    "errors": 6,
+    "per_theme": [
+      {
+        "heldout_inferred_theme": "ai_work_gig",
+        "accuracy": 1.0,
+        "AUC": 1.0,
+        "n_test_pairs": 1,
+        "errors": 0
+      },
+      {
+        "heldout_inferred_theme": "bioethics_nanotechnology",
+        "accuracy": 0.875,
+        "AUC": 1.0,
+        "n_test_pairs": 4,
+        "errors": 1
+      },
+      {
+        "heldout_inferred_theme": "culture_arts_identity",
+        "accuracy": 1.0,
+        "AUC": 1.0,
+        "n_test_pairs": 12,
+        "errors": 0
+      },
+      {
+        "heldout_inferred_theme": "economy_corporate_consumption",
+        "accuracy": 1.0,
+        "AUC": 1.0,
+        "n_test_pairs": 4,
+        "errors": 0
+      },
+      {
+        "heldout_inferred_theme": "education",
+        "accuracy": 0.8333333333333334,
+        "AUC": 0.888888888888889,
+        "n_test_pairs": 3,
+        "errors": 1
+      },
+      {
+        "heldout_inferred_theme": "environment_energy",
+        "accuracy": 1.0,
+        "AUC": 1.0,
+        "n_test_pairs": 7,
+        "errors": 0
+      },
+      {
+        "heldout_inferred_theme": "family_happiness",
+        "accuracy": 0.8333333333333334,
+        "AUC": 1.0,
+        "n_test_pairs": 6,
+        "errors": 2
+      },
+      {
+        "heldout_inferred_theme": "health",
+        "accuracy": 1.0,
+        "AUC": 1.0,
+        "n_test_pairs": 6,
+        "errors": 0
+      },
+      {
+        "heldout_inferred_theme": "media_expression",
+        "accuracy": 1.0,
+        "AUC": 1.0,
+        "n_test_pairs": 8,
+        "errors": 0
+      },
+      {
+        "heldout_inferred_theme": "politics_justice_equality",
+        "accuracy": 0.9,
+        "AUC": 1.0,
+        "n_test_pairs": 5,
+        "errors": 1
+      },
+      {
+        "heldout_inferred_theme": "security_privacy",
+        "accuracy": 1.0,
+        "AUC": 1.0,
+        "n_test_pairs": 2,
+        "errors": 0
+      },
+      {
+        "heldout_inferred_theme": "social_media_friendship",
+        "accuracy": 1.0,
+        "AUC": 1.0,
+        "n_test_pairs": 5,
+        "errors": 0
+      },
+      {
+        "heldout_inferred_theme": "space",
+        "accuracy": 1.0,
+        "AUC": 1.0,
+        "n_test_pairs": 2,
+        "errors": 0
+      },
+      {
+        "heldout_inferred_theme": "technology_general_divide",
+        "accuracy": 0.9285714285714286,
+        "AUC": 1.0,
+        "n_test_pairs": 7,
+        "errors": 1
+      },
+      {
+        "heldout_inferred_theme": "urban_population",
+        "accuracy": 1.0,
+        "AUC": 1.0,
+        "n_test_pairs": 1,
+        "errors": 0
+      },
+      {
+        "heldout_inferred_theme": "vr_games",
+        "accuracy": 1.0,
+        "AUC": 1.0,
+        "n_test_pairs": 2,
+        "errors": 0
+      }
+    ]
+  }
+}

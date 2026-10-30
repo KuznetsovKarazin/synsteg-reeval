@@ -1,0 +1,171 @@
+{
+  "builder_sha256": "91b98931a86a4a074d9f70f1529788590d5ccf3f8b2cefa1b3b3bb79b962adc4",
+  "exact_revision_api_batches": 2,
+  "factual_adequacy_certified": false,
+  "files": [
+    {
+      "bytes": 11737,
+      "path": "attribution.json",
+      "sha256": "b0cc6a39bfce6d0b057c8437b6d8bbca50861c96082ea1981ef05802bd58a810"
+    },
+    {
+      "bytes": 1045122,
+      "path": "passages.jsonl",
+      "sha256": "641e2d117b5a278a70c394381faf6577fbf4010e1b4ad96f5e2b3e7bf19afd77"
+    },
+    {
+      "bytes": 3898,
+      "path": "revisions/10777001-1314724698.wiki",
+      "sha256": "40743f06de108291f9cb65bf2121118e118a7c200ef9a58202df234fb84f0723"
+    },
+    {
+      "bytes": 98369,
+      "path": "revisions/10902-1379228655.wiki",
+      "sha256": "669646e142e1fa23496c4c9c2dfc2b385670a13a692f911f6ab48aed5c4fb295"
+    },
+    {
+      "bytes": 20660,
+      "path": "revisions/17351446-1354306005.wiki",
+      "sha256": "2f898a4fc5b82d96772551bc8795f279cbdc786f32fb8e81310daa54e3a99788"
+    },
+    {
+      "bytes": 70571,
+      "path": "revisions/175216-1380202365.wiki",
+      "sha256": "50e1a809eebf8b5437368fcf7b51bcd4ff77ec2ad3ea8f626428d520bdcd8b2d"
+    },
+    {
+      "bytes": 2603,
+      "path": "revisions/18259841-1169848924.wiki",
+      "sha256": "ef4d306cf20051b0b4f6411bdbe78ec236e59996a5b1ca971599d353e9aa94c1"
+    },
+    {
+      "bytes": 2323,
+      "path": "revisions/22542139-1373315271.wiki",
+      "sha256": "0f2773f2824221b2a867961d7e0a333d323dedb5526559dd22dd481f4dd4cf7d"
+    },
+    {
+      "bytes": 16330,
+      "path": "revisions/28761104-1376458536.wiki",
+      "sha256": "7c7ce0e86fa5afc929bcb838fcc204de6ac6f987be5a9f910dda4a67cf79bf7b"
+    },
+    {
+      "bytes": 12939,
+      "path": "revisions/32186253-1334693839.wiki",
+      "sha256": "6d6440510c6b62a7be36fc5ab28af1f8225cc4def92090a4d4bcc358d5420296"
+    },
+    {
+      "bytes": 10241,
+      "path": "revisions/32472615-1372201091.wiki",
+      "sha256": "f25cfaa709393d7f7bd4b8ad2465e76907c96e100e79757b487637b63e947798"
+    },
+    {
+      "bytes": 20981,
+      "path": "revisions/4200974-1367576544.wiki",
+      "sha256": "72d1833f86fa0fff7ba15e943f3c88b18f0971ffbbaf4b94b9612a54f8db7c06"
+    },
+    {
+      "bytes": 16508,
+      "path": "revisions/51135-1378433482.wiki",
+      "sha256": "01ee07de2af1fe30ab6c7147bb03b04c856c4b65499903cc82781f66f25327b8"
+    },
+    {
+      "bytes": 10271,
+      "path": "revisions/51550855-1343654906.wiki",
+      "sha256": "2eab972462523c2ccaa23832144f43f37a3ffbb78708e31fe3589d0f9c78f708"
+    },
+    {
+      "bytes": 24532,
+      "path": "revisions/5261-1350013479.wiki",
+      "sha256": "b09f956a83869a0a70ae7a7e21f65464cac012f45f260651babcf24cc294ad8b"
+    },
+    {
+      "bytes": 57318,
+      "path": "revisions/567097-1380871476.wiki",
+      "sha256": "60e1614bf52e7dfa6005d1c35b8af3bb86d2c467b6c0dc864474b27d1614c572"
+    },
+    {
+      "bytes": 75928,
+      "path": "revisions/58634020-1377361334.wiki",
+      "sha256": "686216a20b910178f3f37348680780597d58f432cbd6b6d7b6a2925ab8eafd7e"
+    },
+    {
+      "bytes": 27934,
+      "path": "revisions/5928682-1317208322.wiki",
+      "sha256": "4646a055b1cd93645b2f38bf451d0b7d6f11f7857cc5d49ef0d789be89b2eaee"
+    },
+    {
+      "bytes": 70750,
+      "path": "revisions/62849901-1379858185.wiki",
+      "sha256": "1fcd5a348fb4d387ba065dca86754464041a8f77d218df57002c75fe207196a8"
+    },
+    {
+      "bytes": 25228,
+      "path": "revisions/6428267-1380845966.wiki",
+      "sha256": "67d85c81021fbea3b365755adb802722eb063b47a45679e42f6f19627d8fc1ab"
+    },
+    {
+      "bytes": 17352,
+      "path": "revisions/826258-1335155276.wiki",
+      "sha256": "49696204a1e7e006176fc8673b67b40157861b129854f9163340f12bebc47661"
+    },
+    {
+      "bytes": 12589,
+      "path": "revisions/905-1375248634.wiki",
+      "sha256": "ef2811ca24bfdba57c76d9f0fe59756424ab38e5307fcf7007e4915c06caa216"
+    },
+    {
+      "bytes": 127038,
+      "path": "source-windows.jsonl",
+      "sha256": "0917500f53eefff3e984fb358158bd5853fddecd339b748ced70b5978e06e6b5"
+    },
+    {
+      "bytes": 26448,
+      "path": "sources.jsonl",
+      "sha256": "51aedb3ccdd16dde0f2c9e08285afe48342fc68b744d30e2434c11a90d30806c"
+    }
+  ],
+  "frozen_v1_cleaner_sha256": "f06e6282962c7f085bc64c95f83829e5053117c53ba9d8b2ce2d4833630555b4",
+  "limitations": [
+    "Search strata remain operational labels, not semantic gold labels.",
+    "Longer source material changes the generation condition; these are reused development groups, not a new independent sample.",
+    "Only declared supported prose is retained; insufficient selected material does not prove the complete article has too few facts.",
+    "Word sufficiency is a heuristic, not a count or validation of factual claims.",
+    "The window is an ordered prose prefix after exclusions, not a contiguous verbatim raw-article extract.",
+    "No live rendering of transcluded templates is used. Further factual/content review is needed before a long-summary experiment."
+  ],
+  "new_model_generations": 0,
+  "paid_requests": 0,
+  "raw_inventory_sha256": "35448d1b4278a442d4184383d7c612b1c79ca32740e6773c938e3971dfb72b34",
+  "raw_responses": [
+    {
+      "meta_path": "raw/59fb924c8af95cf8e82d49be43cb3765ae0787e9ad98212863d9e3d4c7f45772.meta.json",
+      "meta_sha256": "51af7c234d9c67c76e95ce1ff82cf8fce83cdb63d49f548a75c0871353a1145e",
+      "path": "raw/59fb924c8af95cf8e82d49be43cb3765ae0787e9ad98212863d9e3d4c7f45772.json",
+      "sha256": "4e8b877d5583582f1b01f6cf1ab95ee2b794f38c605c20cad2eb043d14ac8287"
+    },
+    {
+      "meta_path": "raw/71c4821fc80c7e763b0476102f272200afb9158d8c58f66b585d139bf9567b54.meta.json",
+      "meta_sha256": "8051fd5eb57ed638858743ebdc0eab51802e50c7e0645cf4c44a20e176ee8c95",
+      "path": "raw/71c4821fc80c7e763b0476102f272200afb9158d8c58f66b585d139bf9567b54.json",
+      "sha256": "61d1be1ca4c9161f73b095d0ac02d517b2cc6d22111e62769d43226879f2fe0e"
+    }
+  ],
+  "retrieval_statuses": {
+    "exact_revision_verified": 20
+  },
+  "schema": "development-full-revisions-v3",
+  "selection_sha256": "79b9f6c102c6a170e8e5d29c71d549068391bd3d0c2d49d9c74eb1b73d00ed38",
+  "source_count": 20,
+  "source_prompts_sha256": "3af428d75b97b62a3d356b4b5ba897e5ebae53ddef87edd1dad4250025f2c916",
+  "source_replacements": 0,
+  "sources_meeting_word_heuristic": 16,
+  "split": "development",
+  "status": "materialized_development_source_candidates_only",
+  "topic_relabelings": 0,
+  "train_validation_test_sources_used": 0,
+  "window_statuses": {
+    "insufficient_selected_prose_words": 4,
+    "review_required_context_gap": 1,
+    "word_heuristic_met": 15
+  }
+}

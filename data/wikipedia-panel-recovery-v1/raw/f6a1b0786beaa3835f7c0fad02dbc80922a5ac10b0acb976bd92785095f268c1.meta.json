@@ -1,0 +1,18 @@
+{
+  "bytes": 17637,
+  "params": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "list": "search",
+    "maxlag": "5",
+    "srlimit": "300",
+    "srnamespace": "0",
+    "srprop": "",
+    "srsearch": "chemistry",
+    "srsort": "relevance"
+  },
+  "retrieved_utc": "2026-10-23T23:38:15.212419+00:00",
+  "sha256": "9571e1e4056d813bf98e6f7dfa73f1829c6aca1ee1825448daba247beb7b7a96",
+  "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&list=search&maxlag=5&srlimit=300&srnamespace=0&srprop=&srsearch=chemistry&srsort=relevance"
+}

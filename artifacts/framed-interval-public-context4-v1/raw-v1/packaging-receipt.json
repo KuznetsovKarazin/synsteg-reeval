@@ -1,0 +1,43 @@
+{
+  "actual_Git_readback_completed": false,
+  "canonical_cooperative_lease_held": true,
+  "generation_initial_denominator_present": true,
+  "model_calls": 0,
+  "outer_process": {
+    "automatic_retries": 0,
+    "elapsed_seconds": 614.2279775549978,
+    "exit_code": 0
+  },
+  "preserved": [
+    {
+      "archive_bytes": 9767910,
+      "largest_part": 196608,
+      "model_calls": 0,
+      "parts": 50,
+      "primary_files": 412,
+      "status": "passed",
+      "upload_list": "/workspace/scratch/af7adce5db85/public-codec-generalization-v1-prepare/checkout/artifacts/framed-interval-public-context4-v1/raw-v1/results/upload-files.json"
+    },
+    {
+      "archive_bytes": 4318,
+      "largest_part": 4318,
+      "model_calls": 0,
+      "parts": 1,
+      "primary_files": 8,
+      "status": "passed",
+      "upload_list": "/workspace/scratch/af7adce5db85/public-codec-generalization-v1-prepare/checkout/artifacts/framed-interval-public-context4-v1/raw-v1/sender-nonces/upload-files.json"
+    }
+  ],
+  "quiescence_scope": "actual outer process exit and cooperative lease, not independent OS isolation",
+  "receiver_install_inventory_present": true,
+  "receiver_install_preserved_as": "source closure + public profile/spec/contexts + complete file inventory; resource identities restored separately",
+  "resource_bytes_archived": false,
+  "schema": "framed-interval-public-context4-v1-packaging-v1",
+  "scientific_acceptance_inferred": false,
+  "source_bases": [
+    "results/framed-interval-public-context4-v1",
+    "runtime/framed-interval-public-context4-v1/sender-nonces"
+  ],
+  "storage_helper_sha256": "7a791b2685220f58c6b637b3642bf6e46c5f5d08269592e31739914d1193ffa6",
+  "tokenizer_calls": 0
+}

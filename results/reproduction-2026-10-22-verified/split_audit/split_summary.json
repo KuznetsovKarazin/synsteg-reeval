@@ -1,0 +1,302 @@
+{
+  "gpt6_luna_missing": {
+    "documents": {
+      "container": {
+        "n": 300,
+        "exact_unique": 300,
+        "normalized_unique": 300,
+        "duplicate_groups": 0,
+        "duplicate_records": 0,
+        "opening8_unique": 235,
+        "opening8_repeated_groups": 50,
+        "top_openings": [
+          [
+            "education reform in the 21st century must prepare",
+            6
+          ],
+          [
+            "video games can influence behavior and cognition in",
+            3
+          ],
+          [
+            "family plays a central role in shaping individual",
+            3
+          ],
+          [
+            "animal testing remains one of the most difficult",
+            3
+          ],
+          [
+            "mental health awareness helps people understand that emotional",
+            3
+          ]
+        ]
+      },
+      "encoded_message": {
+        "n": 300,
+        "exact_unique": 300,
+        "normalized_unique": 300,
+        "duplicate_groups": 0,
+        "duplicate_records": 0,
+        "opening8_unique": 300,
+        "opening8_repeated_groups": 0,
+        "top_openings": [
+          [
+            "technological thinking has kept renewing education in ways.",
+            1
+          ],
+          [
+            "lunar space surveying builds disciplinary knowledge, stimulates enterprise,",
+            1
+          ],
+          [
+            "cybernetics is likely to have replaced the routine",
+            1
+          ],
+          [
+            "polar transformation constitutes which prolonged decadal fluctuation between",
+            1
+          ],
+          [
+            "publicity and ubiquitous media shape in what way",
+            1
+          ]
+        ]
+      },
+      "cover_stego_identical": 0,
+      "cover_stego_normalized_identical": 0
+    },
+    "sentence_pairs": 2859,
+    "identical_sentence_pairs": 951,
+    "sentence_skipped": 0,
+    "whole_overlap": [
+      {
+        "seed": 0,
+        "train_test": {
+          "n_train": 408,
+          "n_test": 120,
+          "test_parent_in_train": 0,
+          "test_exact_text_in_train": 0,
+          "test_normalized_text_in_train": 0,
+          "test_text_opposite_label_in_train": 0,
+          "train_unique_texts_with_both_labels": 0
+        }
+      },
+      {
+        "seed": 1,
+        "train_test": {
+          "n_train": 408,
+          "n_test": 120,
+          "test_parent_in_train": 0,
+          "test_exact_text_in_train": 0,
+          "test_normalized_text_in_train": 0,
+          "test_text_opposite_label_in_train": 0,
+          "train_unique_texts_with_both_labels": 0
+        }
+      },
+      {
+        "seed": 2,
+        "train_test": {
+          "n_train": 408,
+          "n_test": 120,
+          "test_parent_in_train": 0,
+          "test_exact_text_in_train": 0,
+          "test_normalized_text_in_train": 0,
+          "test_text_opposite_label_in_train": 0,
+          "train_unique_texts_with_both_labels": 0
+        }
+      }
+    ],
+    "sentence_overlap": [
+      {
+        "seed": 0,
+        "train_test": {
+          "n_train": 3887,
+          "n_test": 1144,
+          "test_parent_in_train": 1144,
+          "test_exact_text_in_train": 265,
+          "test_normalized_text_in_train": 265,
+          "test_text_opposite_label_in_train": 261,
+          "train_unique_texts_with_both_labels": 447
+        }
+      },
+      {
+        "seed": 1,
+        "train_test": {
+          "n_train": 3887,
+          "n_test": 1144,
+          "test_parent_in_train": 1139,
+          "test_exact_text_in_train": 281,
+          "test_normalized_text_in_train": 281,
+          "test_text_opposite_label_in_train": 274,
+          "train_unique_texts_with_both_labels": 421
+        }
+      },
+      {
+        "seed": 2,
+        "train_test": {
+          "n_train": 3887,
+          "n_test": 1144,
+          "test_parent_in_train": 1144,
+          "test_exact_text_in_train": 259,
+          "test_normalized_text_in_train": 259,
+          "test_text_opposite_label_in_train": 251,
+          "train_unique_texts_with_both_labels": 451
+        }
+      }
+    ]
+  },
+  "qwen_missing_b3": {
+    "documents": {
+      "container": {
+        "n": 75,
+        "exact_unique": 75,
+        "normalized_unique": 75,
+        "duplicate_groups": 0,
+        "duplicate_records": 0,
+        "opening8_unique": 61,
+        "opening8_repeated_groups": 12,
+        "top_openings": [
+          [
+            "climate change is one of the most pressing",
+            3
+          ],
+          [
+            "the philosophy of happiness and well-being explores what",
+            3
+          ],
+          [
+            "the power of propaganda and mass media is",
+            2
+          ],
+          [
+            "the role of government in promoting healthy lifestyles",
+            2
+          ],
+          [
+            "the ethics of cloning and reproductive technologies raise",
+            2
+          ]
+        ]
+      },
+      "encoded_message": {
+        "n": 75,
+        "exact_unique": 75,
+        "normalized_unique": 75,
+        "duplicate_groups": 0,
+        "duplicate_records": 0,
+        "opening8_unique": 75,
+        "opening8_repeated_groups": 0,
+        "top_openings": [
+          [
+            "news preconception substantially impacts society stance by forming",
+            1
+          ],
+          [
+            "your decaying society exhibits important health barriers transnational.",
+            1
+          ],
+          [
+            "civic forum demonstrates emerge a preeminent influence in",
+            1
+          ],
+          [
+            "one force linked to indoctrination in addition to",
+            1
+          ],
+          [
+            "urban development engages in deeply disturbed group during",
+            1
+          ]
+        ]
+      },
+      "cover_stego_identical": 0,
+      "cover_stego_normalized_identical": 0
+    },
+    "sentence_pairs": 952,
+    "identical_sentence_pairs": 394,
+    "sentence_skipped": 0,
+    "whole_overlap": [
+      {
+        "seed": 0,
+        "train_test": {
+          "n_train": 102,
+          "n_test": 30,
+          "test_parent_in_train": 0,
+          "test_exact_text_in_train": 0,
+          "test_normalized_text_in_train": 0,
+          "test_text_opposite_label_in_train": 0,
+          "train_unique_texts_with_both_labels": 0
+        }
+      },
+      {
+        "seed": 1,
+        "train_test": {
+          "n_train": 102,
+          "n_test": 30,
+          "test_parent_in_train": 0,
+          "test_exact_text_in_train": 0,
+          "test_normalized_text_in_train": 0,
+          "test_text_opposite_label_in_train": 0,
+          "train_unique_texts_with_both_labels": 0
+        }
+      },
+      {
+        "seed": 2,
+        "train_test": {
+          "n_train": 102,
+          "n_test": 30,
+          "test_parent_in_train": 0,
+          "test_exact_text_in_train": 0,
+          "test_normalized_text_in_train": 0,
+          "test_text_opposite_label_in_train": 0,
+          "train_unique_texts_with_both_labels": 0
+        }
+      }
+    ],
+    "sentence_overlap": [
+      {
+        "seed": 0,
+        "train_test": {
+          "n_train": 1294,
+          "n_test": 381,
+          "test_parent_in_train": 381,
+          "test_exact_text_in_train": 110,
+          "test_normalized_text_in_train": 110,
+          "test_text_opposite_label_in_train": 109,
+          "train_unique_texts_with_both_labels": 184
+        }
+      },
+      {
+        "seed": 1,
+        "train_test": {
+          "n_train": 1294,
+          "n_test": 381,
+          "test_parent_in_train": 381,
+          "test_exact_text_in_train": 113,
+          "test_normalized_text_in_train": 113,
+          "test_text_opposite_label_in_train": 110,
+          "train_unique_texts_with_both_labels": 185
+        }
+      },
+      {
+        "seed": 2,
+        "train_test": {
+          "n_train": 1294,
+          "n_test": 381,
+          "test_parent_in_train": 381,
+          "test_exact_text_in_train": 109,
+          "test_normalized_text_in_train": 109,
+          "test_text_opposite_label_in_train": 108,
+          "train_unique_texts_with_both_labels": 177
+        }
+      }
+    ]
+  },
+  "cross_generator": {
+    "luna_texts": 600,
+    "qwen_texts": 150,
+    "qwen_exact_texts_in_luna": 0,
+    "qwen_normalized_texts_in_luna": 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schema": "public-context4-independent-derived-metrics-v1",
+  "source_audit_sha256": "f05fb713f56ccafc38ab50f07ac5e73103bf07d03af87dc5b8f7f819a315a517",
+  "exact_payload_bytes": 64,
+  "payload_bits_per_stego_token": 0.6305418719211823,
+  "payload_bytes_fraction_wire": 0.015173067804646752,
+  "payload_bytes_fraction_wire_plus_envelope": 0.011375755421258443,
+  "four_distinct_public_context_bytes": 4517,
+  "four_message_transport_with_contexts_and_spec_once": 11331,
+  "sum_four_independent_first_message_costs_spec_charged_four_times": 14895,
+  "all_generation_tokens": 1760,
+  "all_endpoint_replayed_tokens": 2572,
+  "all_endpoint_quantized_candidate_rows": 128600,
+  "all_endpoint_journal_events": 5144,
+  "tokenization_seconds_sum": 19.484472947995528,
+  "stego_sender_seconds_sum": 218.9820999720032,
+  "stego_receiver_seconds_sum": 171.73148180100543,
+  "ordinary_sender_seconds_sum": 205.47375337599806,
+  "all_rates_exclude_shared_setup": true,
+  "extra_model_calls": 0,
+  "extra_tokenizer_calls": 0
+}

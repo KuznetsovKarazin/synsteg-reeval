@@ -1,0 +1,182 @@
+{
+  "schema": "framed-interval-bounded-v1-sender-fixtures-v1",
+  "experiment_id": "framed-interval-bounded-v1",
+  "status": "DRAFT_NOT_FROZEN_NO_PRODUCTION_ACTIVATION",
+  "access_scope": "Sender/coordinator only; fresh receiver must not open or hash this file. Shared key is supplied separately, expected plaintext is never receiver input.",
+  "public_protocol_sha256": "e6fa062b75c9bdc5f8a9887b97bf968493c96858735f11e8f05187ef8751eec2",
+  "all_values_public_synthetic_not_real_secrets": true,
+  "payload_rule": "Retain exactly the16-byte prompt-specific fixtures used in framed-interval-llm-v1; no payload selection under the new method.",
+  "configuration_keys": {
+    "c00": "481985fbe8b0e2c95e008ca2d2e0f884c36986d83af76e18dd5a9a0620b28797",
+    "c01": "1eeceab29286ffd3ef5342de6e878f7115417b2c09fd156967ae5f2c72d3bc34",
+    "c02": "64b82ffde54d844d6e2945fede1616ca5ae0c4b2895e5b2a0fa1216700c8222f",
+    "c03": "d8f1fa8c987a234c46616a7df0de802d82ef10456a2517140ceeff96a522761a"
+  },
+  "runs": [
+    {
+      "run_id": "station-c00-stego",
+      "prompt_id": "station",
+      "config_id": "c00",
+      "arm": "stego",
+      "nonce_hex": "74b6871f92cd93f832e214f9",
+      "ordinary_seed_hex": "1476395ff8984dc68b1b87f87db382b74ec05625df5028c8faa5ab9e64f6d4d2",
+      "key_hex": "481985fbe8b0e2c95e008ca2d2e0f884c36986d83af76e18dd5a9a0620b28797",
+      "payload_hex": "832f8635768e72ccbebb4e690c6ae925"
+    },
+    {
+      "run_id": "station-c00-ordinary",
+      "prompt_id": "station",
+      "config_id": "c00",
+      "arm": "ordinary",
+      "nonce_hex": "bce81ad3b6a5e0afecf7856d",
+      "ordinary_seed_hex": "1476395ff8984dc68b1b87f87db382b74ec05625df5028c8faa5ab9e64f6d4d2",
+      "key_hex": "481985fbe8b0e2c95e008ca2d2e0f884c36986d83af76e18dd5a9a0620b28797",
+      "payload_hex": null
+    },
+    {
+      "run_id": "station-c01-stego",
+      "prompt_id": "station",
+      "config_id": "c01",
+      "arm": "stego",
+      "nonce_hex": "50843fb13b376c41a9af3fad",
+      "ordinary_seed_hex": "5b31dfd64adefdb77c2e0cc70e9cf2da401995e076a387df24245260353f0a15",
+      "key_hex": "1eeceab29286ffd3ef5342de6e878f7115417b2c09fd156967ae5f2c72d3bc34",
+      "payload_hex": "832f8635768e72ccbebb4e690c6ae925"
+    },
+    {
+      "run_id": "station-c01-ordinary",
+      "prompt_id": "station",
+      "config_id": "c01",
+      "arm": "ordinary",
+      "nonce_hex": "7506e832315c97ff0b6b055e",
+      "ordinary_seed_hex": "5b31dfd64adefdb77c2e0cc70e9cf2da401995e076a387df24245260353f0a15",
+      "key_hex": "1eeceab29286ffd3ef5342de6e878f7115417b2c09fd156967ae5f2c72d3bc34",
+      "payload_hex": null
+    },
+    {
+      "run_id": "station-c02-stego",
+      "prompt_id": "station",
+      "config_id": "c02",
+      "arm": "stego",
+      "nonce_hex": "b323c180e453d8ff38fc358c",
+      "ordinary_seed_hex": "37c02272ce549562d6ecaed1d941eee5211e189b82e17a45fb63354a18d0a009",
+      "key_hex": "64b82ffde54d844d6e2945fede1616ca5ae0c4b2895e5b2a0fa1216700c8222f",
+      "payload_hex": "832f8635768e72ccbebb4e690c6ae925"
+    },
+    {
+      "run_id": "station-c02-ordinary",
+      "prompt_id": "station",
+      "config_id": "c02",
+      "arm": "ordinary",
+      "nonce_hex": "b49c66a5e977a77fb48e78ce",
+      "ordinary_seed_hex": "37c02272ce549562d6ecaed1d941eee5211e189b82e17a45fb63354a18d0a009",
+      "key_hex": "64b82ffde54d844d6e2945fede1616ca5ae0c4b2895e5b2a0fa1216700c8222f",
+      "payload_hex": null
+    },
+    {
+      "run_id": "station-c03-stego",
+      "prompt_id": "station",
+      "config_id": "c03",
+      "arm": "stego",
+      "nonce_hex": "a7837de41a33ff2a775beadd",
+      "ordinary_seed_hex": "2f45874deee2a671ed9245fb971dac863033eddaad59e8a3cc3fdbb90f1307a7",
+      "key_hex": "d8f1fa8c987a234c46616a7df0de802d82ef10456a2517140ceeff96a522761a",
+      "payload_hex": "832f8635768e72ccbebb4e690c6ae925"
+    },
+    {
+      "run_id": "station-c03-ordinary",
+      "prompt_id": "station",
+      "config_id": "c03",
+      "arm": "ordinary",
+      "nonce_hex": "6e7409420403b639fa2962a9",
+      "ordinary_seed_hex": "2f45874deee2a671ed9245fb971dac863033eddaad59e8a3cc3fdbb90f1307a7",
+      "key_hex": "d8f1fa8c987a234c46616a7df0de802d82ef10456a2517140ceeff96a522761a",
+      "payload_hex": null
+    },
+    {
+      "run_id": "library-c00-stego",
+      "prompt_id": "library",
+      "config_id": "c00",
+      "arm": "stego",
+      "nonce_hex": "f18094ff1913113c09551f8c",
+      "ordinary_seed_hex": "ec1349690cbcefc4df6b8e012e91437eb9f95680b151a48eb86ceef1d2c6a92c",
+      "key_hex": "481985fbe8b0e2c95e008ca2d2e0f884c36986d83af76e18dd5a9a0620b28797",
+      "payload_hex": "ef2a62068b221aa1cf0f945264b52e73"
+    },
+    {
+      "run_id": "library-c00-ordinary",
+      "prompt_id": "library",
+      "config_id": "c00",
+      "arm": "ordinary",
+      "nonce_hex": "46d79e5d0cb41d8de8f508e0",
+      "ordinary_seed_hex": "ec1349690cbcefc4df6b8e012e91437eb9f95680b151a48eb86ceef1d2c6a92c",
+      "key_hex": "481985fbe8b0e2c95e008ca2d2e0f884c36986d83af76e18dd5a9a0620b28797",
+      "payload_hex": null
+    },
+    {
+      "run_id": "library-c01-stego",
+      "prompt_id": "library",
+      "config_id": "c01",
+      "arm": "stego",
+      "nonce_hex": "c5efdd3ba05cee73294e8f53",
+      "ordinary_seed_hex": "f97561c5b30130b729f10969f09ee3003891ad300f8b3cd7e83cdf0d707c0f5d",
+      "key_hex": "1eeceab29286ffd3ef5342de6e878f7115417b2c09fd156967ae5f2c72d3bc34",
+      "payload_hex": "ef2a62068b221aa1cf0f945264b52e73"
+    },
+    {
+      "run_id": "library-c01-ordinary",
+      "prompt_id": "library",
+      "config_id": "c01",
+      "arm": "ordinary",
+      "nonce_hex": "160f01272fc0275677f9a72e",
+      "ordinary_seed_hex": "f97561c5b30130b729f10969f09ee3003891ad300f8b3cd7e83cdf0d707c0f5d",
+      "key_hex": "1eeceab29286ffd3ef5342de6e878f7115417b2c09fd156967ae5f2c72d3bc34",
+      "payload_hex": null
+    },
+    {
+      "run_id": "library-c02-stego",
+      "prompt_id": "library",
+      "config_id": "c02",
+      "arm": "stego",
+      "nonce_hex": "4bfa4c280adda3a994fc3401",
+      "ordinary_seed_hex": "70cd9c56b7adbd69ffe0c17780c4013adab1019fc4a2dce98f6764f5ce2dd98a",
+      "key_hex": "64b82ffde54d844d6e2945fede1616ca5ae0c4b2895e5b2a0fa1216700c8222f",
+      "payload_hex": "ef2a62068b221aa1cf0f945264b52e73"
+    },
+    {
+      "run_id": "library-c02-ordinary",
+      "prompt_id": "library",
+      "config_id": "c02",
+      "arm": "ordinary",
+      "nonce_hex": "c55dbc29aefd7a873767a419",
+      "ordinary_seed_hex": "70cd9c56b7adbd69ffe0c17780c4013adab1019fc4a2dce98f6764f5ce2dd98a",
+      "key_hex": "64b82ffde54d844d6e2945fede1616ca5ae0c4b2895e5b2a0fa1216700c8222f",
+      "payload_hex": null
+    },
+    {
+      "run_id": "library-c03-stego",
+      "prompt_id": "library",
+      "config_id": "c03",
+      "arm": "stego",
+      "nonce_hex": "26c1e4e14929c09c74affca3",
+      "ordinary_seed_hex": "52dba8fb1598570b0da3722fb1e0378a3c78dd6882d42e2c1ff740b46857aef9",
+      "key_hex": "d8f1fa8c987a234c46616a7df0de802d82ef10456a2517140ceeff96a522761a",
+      "payload_hex": "ef2a62068b221aa1cf0f945264b52e73"
+    },
+    {
+      "run_id": "library-c03-ordinary",
+      "prompt_id": "library",
+      "config_id": "c03",
+      "arm": "ordinary",
+      "nonce_hex": "20ea9cddf88f69def7c3b235",
+      "ordinary_seed_hex": "52dba8fb1598570b0da3722fb1e0378a3c78dd6882d42e2c1ff740b46857aef9",
+      "key_hex": "d8f1fa8c987a234c46616a7df0de802d82ef10456a2517140ceeff96a522761a",
+      "payload_hex": null
+    }
+  ],
+  "case_count": 16,
+  "stego_payload_count": 8,
+  "ordinary_payloads_are_null": true,
+  "retries": 0,
+  "real_model_calls": 0
+}

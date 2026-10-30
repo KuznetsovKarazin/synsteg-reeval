@@ -1,0 +1,24 @@
+{
+  "schema": "framed-interval-llm-v1-vocab-system-libraries-v1",
+  "files_sha256": {
+    "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2": "6222a16be7f2d458d6870efe6e715fc0c8d45766fb79cf7dcc3125538d703e28",
+    "/usr/lib/x86_64-linux-gnu/libc.so.6": "511f825ee075610ac9c0f7f91e2c13de2000d0f7b859f6461137e809a0a009d0",
+    "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1": "d93224d2b0dab4247598be683adca02f5cf00586f99c187579cd7e92058fb7cb",
+    "/usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0": "135f3c8f006d2fe5e68e51281c7974cb991a03de3bfb3593d68d174dfcf854d1",
+    "/usr/lib/x86_64-linux-gnu/libm.so.6": "f06f2ce1f1833df5f41cf13b6447ff07bea993ad9b27297d3428c2f70ab3f0e7",
+    "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33": "1fd75fe70354a416d75aef22bcae68c47bd25d20e2d0568c30b1a9838cf62f11"
+  },
+  "expected_program_interpreter": {
+    "elf_interpreter": "/lib64/ld-linux-x86-64.so.2",
+    "future_binary_must_be_checked_separately": true,
+    "reference": "resources/seeded-pair-llm-v1/seeded_pair_llama_bridge",
+    "reference_sha256": "7b37da550a10d8f0c457e838e574bcf8c97159e9717ba88bd536e7e208eefe77",
+    "resolved_path": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+    "sha256": "6222a16be7f2d458d6870efe6e715fc0c8d45766fb79cf7dcc3125538d703e28"
+  },
+  "source_review": {
+    "path": "results/framed-interval-llm-v1-audit/vocab-build-dependency-review-v1.json",
+    "sha256": "e62aadc12b6c89df8ab85defee01911642e2baa072cfd43b7e238c3c6f704dec"
+  },
+  "scope": "Static dependency closure from verified existing runtime ELF and current host files; future collector ELF interpreter/NEEDED must be checked after build. No process was loaded."
+}

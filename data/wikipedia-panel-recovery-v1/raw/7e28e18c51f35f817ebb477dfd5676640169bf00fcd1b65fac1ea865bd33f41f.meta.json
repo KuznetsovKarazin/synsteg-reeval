@@ -1,0 +1,18 @@
+{
+  "bytes": 16843,
+  "params": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "list": "search",
+    "maxlag": "5",
+    "srlimit": "300",
+    "srnamespace": "0",
+    "srprop": "",
+    "srsearch": "biology",
+    "srsort": "relevance"
+  },
+  "retrieved_utc": "2026-10-23T23:38:21.452335+00:00",
+  "sha256": "4fca24d60166e12bb02af5d82d950dabc1314e322237404bfd48484d134194c8",
+  "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&list=search&maxlag=5&srlimit=300&srnamespace=0&srprop=&srsearch=biology&srsort=relevance"
+}

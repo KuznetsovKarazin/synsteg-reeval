@@ -1,0 +1,282 @@
+{
+  "schema": "framed-interval-public-context4-v1-source-journal-command-counts-v1",
+  "mode": "source_and_complete_audited_journal_reconstruction; not separately instrumented native command telemetry",
+  "extra_model_calls": 0,
+  "extra_tokenizer_calls": 0,
+  "source_sha256": {
+    "src/synsteg_audit/canonical_channel_v2.py": "ae50caf00e0240e48f5fe53a67bd22a49a5f878a057c93c24c4950438741baa4",
+    "src/synsteg_audit/framed_interval_llm_v1_qwen.py": "5ced911eb6929785d2602bebf19d1be298b8faaa6aec5f4900ee102f98fd364d",
+    "src/synsteg_audit/framed_interval_llm_v1.py": "64ebbfe07b526d62789ae27a4f55feb717e83abf9e0a2ca72bb593ff9f30ff00",
+    "src/synsteg_audit/framed_interval_public_v1.py": "baa8d57f164a0f2681a8e584022a21b49b33dd81c1390c712486d5c975315557",
+    "src/synsteg_audit/framed_interval_public_v1_native.py": "5d4d238371e15fc4efc75832916f090005a387ca70287c1fc8abd3cd69e68078",
+    "src/synsteg_audit/framed_interval_public_v1_journal.py": "ad746f5c7e58474247d1fc6ffb80bbc577ebab72d8f1437f6232bff27383c4f7",
+    "src/synsteg_audit/seeded_pair_llm.py": "687e5c74b7b3f6675e2d057d13146f3ffa716a58fbf77522830b58b023ba89f0",
+    "scripts/run_public_context4_v1.py": "b97aa4ac71f6a2c6971ae72460d3b65275eff4db1539b34c05e39fb5c32367af"
+  },
+  "preparation": {
+    "native_process_loads": 4,
+    "TOKENIZE": 4,
+    "PROMPT": 0,
+    "STEP": 0,
+    "DIST": 0,
+    "basis": "four saved tokenization.json plus frozen sole TOKENIZE path"
+  },
+  "endpoints": {
+    "PROMPT": 12,
+    "STEP": 2572,
+    "DIST": 2572,
+    "TOKENIZE_source_derived": 116967,
+    "prompt_input_tokens": 2586
+  },
+  "all_stages": {
+    "PROMPT": 12,
+    "STEP": 2572,
+    "DIST": 2572,
+    "TOKENIZE_source_derived": 116971,
+    "native_process_loads": 16
+  },
+  "rows": [
+    {
+      "case_id": "o001-stego",
+      "role": "sender",
+      "PROMPT": 1,
+      "STEP": 190,
+      "DIST": 190,
+      "TOKENIZE_source_derived": 8884,
+      "TOKENIZE_gate_constructors": 2,
+      "TOKENIZE_prefix_validations": 380,
+      "TOKENIZE_selected_reinspection": 190,
+      "TOKENIZE_candidate_inspections": 8312,
+      "TOKENIZE_receiver_fullwire": 0,
+      "candidate_verdicts": {
+        "accepted": 8309,
+        "zero_weight": 1152,
+        "invalid_utf8": 36,
+        "retokenization_mismatch": 3
+      },
+      "prompt_input_tokens": 211
+    },
+    {
+      "case_id": "o001-stego",
+      "role": "receiver",
+      "PROMPT": 1,
+      "STEP": 190,
+      "DIST": 190,
+      "TOKENIZE_source_derived": 8885,
+      "TOKENIZE_gate_constructors": 2,
+      "TOKENIZE_prefix_validations": 380,
+      "TOKENIZE_selected_reinspection": 190,
+      "TOKENIZE_candidate_inspections": 8312,
+      "TOKENIZE_receiver_fullwire": 1,
+      "candidate_verdicts": {
+        "accepted": 8309,
+        "zero_weight": 1152,
+        "invalid_utf8": 36,
+        "retokenization_mismatch": 3
+      },
+      "prompt_input_tokens": 211
+    },
+    {
+      "case_id": "o001-ordinary",
+      "role": "sender",
+      "PROMPT": 1,
+      "STEP": 224,
+      "DIST": 224,
+      "TOKENIZE_source_derived": 10309,
+      "TOKENIZE_gate_constructors": 2,
+      "TOKENIZE_prefix_validations": 448,
+      "TOKENIZE_selected_reinspection": 224,
+      "TOKENIZE_candidate_inspections": 9635,
+      "TOKENIZE_receiver_fullwire": 0,
+      "candidate_verdicts": {
+        "accepted": 9626,
+        "zero_weight": 1543,
+        "retokenization_mismatch": 9,
+        "invalid_utf8": 22
+      },
+      "prompt_input_tokens": 211
+    },
+    {
+      "case_id": "o004-stego",
+      "role": "sender",
+      "PROMPT": 1,
+      "STEP": 207,
+      "DIST": 207,
+      "TOKENIZE_source_derived": 9180,
+      "TOKENIZE_gate_constructors": 2,
+      "TOKENIZE_prefix_validations": 414,
+      "TOKENIZE_selected_reinspection": 207,
+      "TOKENIZE_candidate_inspections": 8557,
+      "TOKENIZE_receiver_fullwire": 0,
+      "candidate_verdicts": {
+        "accepted": 8550,
+        "zero_weight": 1793,
+        "retokenization_mismatch": 7
+      },
+      "prompt_input_tokens": 202
+    },
+    {
+      "case_id": "o004-stego",
+      "role": "receiver",
+      "PROMPT": 1,
+      "STEP": 207,
+      "DIST": 207,
+      "TOKENIZE_source_derived": 9181,
+      "TOKENIZE_gate_constructors": 2,
+      "TOKENIZE_prefix_validations": 414,
+      "TOKENIZE_selected_reinspection": 207,
+      "TOKENIZE_candidate_inspections": 8557,
+      "TOKENIZE_receiver_fullwire": 1,
+      "candidate_verdicts": {
+        "accepted": 8550,
+        "zero_weight": 1793,
+        "retokenization_mismatch": 7
+      },
+      "prompt_input_tokens": 202
+    },
+    {
+      "case_id": "o004-ordinary",
+      "role": "sender",
+      "PROMPT": 1,
+      "STEP": 227,
+      "DIST": 227,
+      "TOKENIZE_source_derived": 9862,
+      "TOKENIZE_gate_constructors": 2,
+      "TOKENIZE_prefix_validations": 454,
+      "TOKENIZE_selected_reinspection": 227,
+      "TOKENIZE_candidate_inspections": 9179,
+      "TOKENIZE_receiver_fullwire": 0,
+      "candidate_verdicts": {
+        "accepted": 9157,
+        "zero_weight": 2171,
+        "retokenization_mismatch": 22
+      },
+      "prompt_input_tokens": 202
+    },
+    {
+      "case_id": "o007-stego",
+      "role": "sender",
+      "PROMPT": 1,
+      "STEP": 151,
+      "DIST": 151,
+      "TOKENIZE_source_derived": 7598,
+      "TOKENIZE_gate_constructors": 2,
+      "TOKENIZE_prefix_validations": 302,
+      "TOKENIZE_selected_reinspection": 151,
+      "TOKENIZE_candidate_inspections": 7143,
+      "TOKENIZE_receiver_fullwire": 0,
+      "candidate_verdicts": {
+        "accepted": 7128,
+        "zero_weight": 407,
+        "retokenization_mismatch": 15
+      },
+      "prompt_input_tokens": 203
+    },
+    {
+      "case_id": "o007-stego",
+      "role": "receiver",
+      "PROMPT": 1,
+      "STEP": 151,
+      "DIST": 151,
+      "TOKENIZE_source_derived": 7599,
+      "TOKENIZE_gate_constructors": 2,
+      "TOKENIZE_prefix_validations": 302,
+      "TOKENIZE_selected_reinspection": 151,
+      "TOKENIZE_candidate_inspections": 7143,
+      "TOKENIZE_receiver_fullwire": 1,
+      "candidate_verdicts": {
+        "accepted": 7128,
+        "zero_weight": 407,
+        "retokenization_mismatch": 15
+      },
+      "prompt_input_tokens": 203
+    },
+    {
+      "case_id": "o007-ordinary",
+      "role": "sender",
+      "PROMPT": 1,
+      "STEP": 229,
+      "DIST": 229,
+      "TOKENIZE_source_derived": 11367,
+      "TOKENIZE_gate_constructors": 2,
+      "TOKENIZE_prefix_validations": 458,
+      "TOKENIZE_selected_reinspection": 229,
+      "TOKENIZE_candidate_inspections": 10678,
+      "TOKENIZE_receiver_fullwire": 0,
+      "candidate_verdicts": {
+        "accepted": 10672,
+        "zero_weight": 772,
+        "retokenization_mismatch": 6
+      },
+      "prompt_input_tokens": 203
+    },
+    {
+      "case_id": "o010-stego",
+      "role": "sender",
+      "PROMPT": 1,
+      "STEP": 264,
+      "DIST": 264,
+      "TOKENIZE_source_derived": 11182,
+      "TOKENIZE_gate_constructors": 2,
+      "TOKENIZE_prefix_validations": 528,
+      "TOKENIZE_selected_reinspection": 264,
+      "TOKENIZE_candidate_inspections": 10388,
+      "TOKENIZE_receiver_fullwire": 0,
+      "candidate_verdicts": {
+        "accepted": 10378,
+        "zero_weight": 2811,
+        "retokenization_mismatch": 10,
+        "invalid_utf8": 1
+      },
+      "prompt_input_tokens": 246
+    },
+    {
+      "case_id": "o010-stego",
+      "role": "receiver",
+      "PROMPT": 1,
+      "STEP": 264,
+      "DIST": 264,
+      "TOKENIZE_source_derived": 11183,
+      "TOKENIZE_gate_constructors": 2,
+      "TOKENIZE_prefix_validations": 528,
+      "TOKENIZE_selected_reinspection": 264,
+      "TOKENIZE_candidate_inspections": 10388,
+      "TOKENIZE_receiver_fullwire": 1,
+      "candidate_verdicts": {
+        "accepted": 10378,
+        "zero_weight": 2811,
+        "retokenization_mismatch": 10,
+        "invalid_utf8": 1
+      },
+      "prompt_input_tokens": 246
+    },
+    {
+      "case_id": "o010-ordinary",
+      "role": "sender",
+      "PROMPT": 1,
+      "STEP": 268,
+      "DIST": 268,
+      "TOKENIZE_source_derived": 11737,
+      "TOKENIZE_gate_constructors": 2,
+      "TOKENIZE_prefix_validations": 536,
+      "TOKENIZE_selected_reinspection": 268,
+      "TOKENIZE_candidate_inspections": 10931,
+      "TOKENIZE_receiver_fullwire": 0,
+      "candidate_verdicts": {
+        "accepted": 10930,
+        "retokenization_mismatch": 1,
+        "zero_weight": 2467,
+        "invalid_utf8": 2
+      },
+      "prompt_input_tokens": 246
+    }
+  ],
+  "derivation": [
+    "Two CanonicalGate constructors in PublicNativeService.prepare each validate empty prefix and issue one encode/TOKENIZE.",
+    "Each successful committed token: admit.validate one TOKENIZE; take.validate one TOKENIZE; selected token _inspect one TOKENIZE.",
+    "Per candidate _inspect reaches native TOKENIZE exactly for verdict accepted or retokenization_mismatch. invalid_utf8 fails Python decode before callback; zero_weight/special/rewrites/empty return earlier.",
+    "Each receiver does one additional fullwire codec.encode; no sender prompt tokenization because public prompt IDs frozen.",
+    "One Endpoint.begin/PROMPT and one observe/STEP plus distribution/DIST for every fully committed token; no uncommitted suffix or error exists in audited12 endpoints."
+  ],
+  "limitation": "Counts infer execution from pinned source and complete successful journals; native protocol command logs/counters were not independently instrumented. No tokenizer run used for counting."
+}

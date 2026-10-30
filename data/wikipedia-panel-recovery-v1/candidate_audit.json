@@ -1,0 +1,188 @@
+{
+  "candidate_pages": 2984,
+  "components": 2093,
+  "duplicate_edges": [
+    [
+      8449,
+      2915159,
+      "title"
+    ],
+    [
+      15169,
+      1859165,
+      "title"
+    ],
+    [
+      19694,
+      18617142,
+      "title"
+    ],
+    [
+      21285,
+      22571802,
+      "title"
+    ],
+    [
+      22939,
+      1692795,
+      "title"
+    ],
+    [
+      22939,
+      25645698,
+      "title"
+    ],
+    [
+      22949,
+      81067467,
+      "title"
+    ],
+    [
+      24144,
+      8753282,
+      "title"
+    ],
+    [
+      30019,
+      4836239,
+      "title"
+    ],
+    [
+      40651,
+      45413683,
+      "title"
+    ],
+    [
+      50650,
+      6549258,
+      "title"
+    ],
+    [
+      53027,
+      72453859,
+      "title"
+    ],
+    [
+      65622,
+      21355397,
+      "title"
+    ],
+    [
+      152776,
+      152778,
+      "title"
+    ],
+    [
+      202584,
+      48642941,
+      "title"
+    ],
+    [
+      224256,
+      28001404,
+      "title"
+    ],
+    [
+      427087,
+      3569858,
+      "title"
+    ],
+    [
+      629026,
+      629028,
+      "title"
+    ],
+    [
+      656965,
+      31171661,
+      "title"
+    ],
+    [
+      773685,
+      2324104,
+      "title"
+    ],
+    [
+      935530,
+      1403568,
+      "title"
+    ],
+    [
+      1034106,
+      1680145,
+      "title"
+    ],
+    [
+      2231718,
+      22515916,
+      "title"
+    ],
+    [
+      4233700,
+      9127632,
+      "title"
+    ],
+    [
+      7035802,
+      11115626,
+      "title"
+    ],
+    [
+      8327598,
+      8526433,
+      "title"
+    ],
+    [
+      8916194,
+      33734529,
+      "title"
+    ],
+    [
+      10772350,
+      14176684,
+      "title"
+    ],
+    [
+      16189288,
+      28244922,
+      "title"
+    ],
+    [
+      23183652,
+      23183669,
+      "title"
+    ],
+    [
+      24601670,
+      73386162,
+      "title"
+    ],
+    [
+      24601670,
+      75606607,
+      "title"
+    ],
+    [
+      71511381,
+      74478136,
+      "title"
+    ]
+  ],
+  "eligible_before_duplicates": 2126,
+  "event_equivalence_review": "pending; exact/near text duplicate checks do not establish event independence",
+  "excluded": {
+    "disambiguation": 80,
+    "excerpt_length": 668,
+    "leading_fragment": 1,
+    "list_outline_timeline": 81,
+    "unsupported_markup": 28
+  },
+  "schema": "wikipedia-panel-recovery-v1",
+  "selected_counts": {
+    "development": 100,
+    "test": 1000,
+    "train": 400,
+    "validation": 100
+  },
+  "selected_source_groups": 1600
+}

@@ -1,0 +1,69 @@
+{
+  "schema": "prospective-development-transport-public-activation-v1",
+  "experiment_id": "prospective-development-transport-v1",
+  "status": "implementation_prepared_requires_root_Git_freeze_and_first30_checkpoint",
+  "feasibility_protocol_sha256": "1220950e061801e1aebeaf0c6773ef103618c2aa3c5689122b59daa3dde3f09b",
+  "feasibility_protocol_is_unchanged_and_execution_disabled": true,
+  "activation_scope": "Public four arms only; no original/fixed candidate model stage, no generation, no neural metrics.",
+  "observed_completed_covers_at_implementation_freeze": 16,
+  "prior_visibility_rule": "Root must set exact already observed completed cover count immediately before implementation Git freeze; receipt must match. Original feasibility first8 disclosure is unchanged.",
+  "target": {
+    "milestone_id": "tinyllama-first30",
+    "batch": "batch15",
+    "checkpoint": "results/large-campaign-development-v2/batches/batch15/after-checkpoint.json",
+    "output": "results/prospective-development-transport-v1/milestones/tinyllama-first30",
+    "completed_covers": 30,
+    "cover_counts": {
+      "completed": 30,
+      "not_attempted": 270
+    },
+    "model_counts": {
+      "qwen05": 0,
+      "tinyllama11": 30,
+      "falcon3_1b": 0
+    },
+    "full_model_record_denominator": 300,
+    "total_cells": 15300,
+    "primary_cells": 8100,
+    "secondary16_cells": 7200,
+    "public_cells": 7200,
+    "original_fixed_resource_blocked_cells": 8100,
+    "expected_public_encoder_attempts_on_available_covers": 720,
+    "selection": "Exact first30 TinyLlama source-order records; every other pair remains present, no quality or capacity selection."
+  },
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "python_implementation": "CPython",
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+    "cryptography": "50.0.2",
+    "cryptography_openssl": "OpenSSL 4.0.3 29 Sep 2026"
+  },
+  "implementation_files_sha256": {
+    "scripts/run_prospective_development_transport_v1.py": "2a927b07f0a375a77725b7b87a1a05fef7c87485b710e0bc3ffc44bf2b599f03",
+    "scripts/audit_prospective_development_transport_v1.py": "f3919bfb86ff8063c722506c21e5fcc952a2c720c36fe1ee804f14e3b9020fab",
+    "tests/test_prospective_development_transport_v1.py": "fcdaa5a5f58b07ef22d898466d3021e65816e635d97098b6b3418ccca86b3735",
+    "tests/test_prospective_transport_audit_v1.py": "26c2f4569c230c6fdd90fe123073db37dc1d846cd551e056952d5b998d7e262f",
+    "docs/prospective_development_transport_v1_execution_ru.md": "e3d68c21495920a2d7626026863eb4d7aea264496fbf1cd8064f9a6887232bc6"
+  },
+  "external_gate": {
+    "requires_root_remote_Git_readback": true,
+    "receipt_fields": [
+      "remote_readback_verified",
+      "implementation_freeze_commit",
+      "checkpoint_commit",
+      "observed_completed_covers_at_implementation_freeze",
+      "verified_files_sha256"
+    ],
+    "receipt_is_attestation_not_self_proving": true,
+    "sha_coverage": "All implementation files + activation + immutable feasibility protocol + payload map + exact batch15 checkpoint.",
+    "no_real_cover_encoding_before_gate": true
+  },
+  "output_policy": "Exclusive immutable milestone; preserve partial failures, no automatic retry. Audit receipt outside milestone.",
+  "independent_auditor": "scripts/audit_prospective_development_transport_v1.py",
+  "original_fixed_status": "BLOCKED_RESOURCE_OR_STAGE_NOT_RUN",
+  "unmeasured_metric_policy": "null for missing/blocked; executed refusals deliver0 and retain capacity0 when observed.",
+  "real_model_calls": 0,
+  "real_cover_encode_decode_calls": 0,
+  "paid_calls": 0,
+  "closed_test_opened": false
+}

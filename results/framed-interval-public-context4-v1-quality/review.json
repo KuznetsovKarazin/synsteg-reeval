@@ -1,0 +1,2288 @@
+{
+  "cases": [
+    {
+      "arm": "stego",
+      "case_id": "o001-stego",
+      "quality": {
+        "annotation_groups": [
+          {
+            "description_ru": "Положение в западном квадранте и связь этого участка неба с Белым Тигром переданы консервативно.",
+            "label": "source_supported",
+            "source_spans": [
+              {
+                "document": "source",
+                "document_sha256": "7c3c5f6d241f158ac875c50283f3ebe65684aea74ccc0b5d2a9931b6a9a39ca0",
+                "end": 204,
+                "quote": "According to traditional Chinese uranography, the modern constellation Perseus is located within the western quadrant of the sky, which is symbolized as the White Tiger of the West (西方白虎, Xī Fāng Bái Hǔ).",
+                "quote_sha256": "cf61039d99bcdaaf4ca1d06c88bc7c1a0c0e0993652f8d00e9c5d386146d83ff",
+                "start": 0,
+                "utf8_end": 216,
+                "utf8_start": 0
+              }
+            ],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "d1cb0c2ce5e4e1a7f34313bec571032774bea7561856caec0fa1c8e519983ef1",
+                "end": 195,
+                "quote": "is situated in the western quadrant of the sky, where it has been traditionally recognized as part of the White Tiger of the West.",
+                "quote_sha256": "749c45281c78b4f835de14e2962a9a833a2222a3ea5a8b9259b2dad8f3d656d5",
+                "start": 65,
+                "utf8_end": 195,
+                "utf8_start": 65
+              }
+            ]
+          },
+          {
+            "description_ru": "Английское значение современного китайского названия сохранено.",
+            "label": "source_supported",
+            "source_spans": [
+              {
+                "document": "source",
+                "document_sha256": "7c3c5f6d241f158ac875c50283f3ebe65684aea74ccc0b5d2a9931b6a9a39ca0",
+                "end": 327,
+                "quote": "The name of the western constellation in modern Chinese is 英仙座 (yīng xiān zuò), which means \"the brave god constellation\".",
+                "quote_sha256": "3f743628bb5bf3d84533a38b9f264787903da3dada1a2434daabb3ab3ce5ed53",
+                "start": 205,
+                "utf8_end": 348,
+                "utf8_start": 217
+              }
+            ],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "d1cb0c2ce5e4e1a7f34313bec571032774bea7561856caec0fa1c8e519983ef1",
+                "end": 292,
+                "quote": "In modern Chinese astronomy, this constellation is referred to as the \"brave god constellation,\"",
+                "quote_sha256": "41b5d1a195e7cfa3a9eabed8109201f4103079da9b1f8270cc277884bbb9a831",
+                "start": 196,
+                "utf8_end": 292,
+                "utf8_start": 196
+              }
+            ]
+          },
+          {
+            "description_ru": "Оценочные усиления iconic, historical significance и rich historical context не являются фактами, установленными источником.",
+            "label": "nonfactual_or_evaluative",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "d1cb0c2ce5e4e1a7f34313bec571032774bea7561856caec0fa1c8e519983ef1",
+                "end": 63,
+                "quote": "one of the most iconic constellations in the night sky",
+                "quote_sha256": "7ee91d77237f30cd8612fde430bd112c37784769430878f322b12653917fa8a7",
+                "start": 9,
+                "utf8_end": 63,
+                "utf8_start": 9
+              },
+              {
+                "document": "text",
+                "document_sha256": "d1cb0c2ce5e4e1a7f34313bec571032774bea7561856caec0fa1c8e519983ef1",
+                "end": 402,
+                "quote": "which succinctly captures the historical significance attributed to Perseus in traditional Chinese astronomy.",
+                "quote_sha256": "7a740cf71aca356320778cbb08f81288096eb4964fed70a05f11f13223dd5533",
+                "start": 293,
+                "utf8_end": 402,
+                "utf8_start": 293
+              },
+              {
+                "document": "text",
+                "document_sha256": "d1cb0c2ce5e4e1a7f34313bec571032774bea7561856caec0fa1c8e519983ef1",
+                "end": 979,
+                "quote": "with its location and name reflecting the rich historical context",
+                "quote_sha256": "5b5902402746e5912145ed5f5fc2e1096d4a0f1c71b29fc73e3b1ae41a2c6851",
+                "start": 914,
+                "utf8_end": 979,
+                "utf8_start": 914
+              }
+            ]
+          },
+          {
+            "description_ru": "Яркость звёзд, видимость с северных широт и причинная связь этих свойств с ролью в древней китайской карте неба отсутствуют в выдержке.",
+            "label": "source_unsupported",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "d1cb0c2ce5e4e1a7f34313bec571032774bea7561856caec0fa1c8e519983ef1",
+                "end": 564,
+                "quote": "Perseus is known for its bright stars that can be seen even from the northern latitudes, making it an important figure in the ancient Chinese sky-mapping system.",
+                "quote_sha256": "c233aff19db4de17bcabfcfd863f7a1c8c08619e84bc9b11628fa1f70995c6a9",
+                "start": 403,
+                "utf8_end": 564,
+                "utf8_start": 403
+              }
+            ]
+          },
+          {
+            "description_ru": "Связь с героем греческой мифологии и его pivotal role не приводятся в источнике; внешняя истинность здесь не проверяется.",
+            "label": "source_unsupported",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "d1cb0c2ce5e4e1a7f34313bec571032774bea7561856caec0fa1c8e519983ef1",
+                "end": 683,
+                "quote": "This constellation is often associated with the hero Perseus, who is a pivotal figure in Greek mythology and folklore.",
+                "quote_sha256": "33a3ed4d87d93fba91af227115b7d0a6be89679f9915e7b2813038ce39405268",
+                "start": 565,
+                "utf8_end": 683,
+                "utf8_start": 565
+              }
+            ]
+          },
+          {
+            "description_ru": "Западная иерархия созвездий, важность в китайской мифологии и почитание в обеих культурах расширяют исходные сведения о положении и названии.",
+            "label": "source_unsupported",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "d1cb0c2ce5e4e1a7f34313bec571032774bea7561856caec0fa1c8e519983ef1",
+                "end": 816,
+                "quote": "The inclusion of Perseus in the Western constellation hierarchy is a testament to its importance in Chinese astronomy and mythology.",
+                "quote_sha256": "39cce39c7ba9014d12c0a64656de6de2194ec8b590d94740f9a33dd051633175",
+                "start": 684,
+                "utf8_end": 816,
+                "utf8_start": 684
+              },
+              {
+                "document": "text",
+                "document_sha256": "d1cb0c2ce5e4e1a7f34313bec571032774bea7561856caec0fa1c8e519983ef1",
+                "end": 912,
+                "quote": "In summary, Perseus is a constellation that has been revered in both Greek and Chinese cultures",
+                "quote_sha256": "3de2ad7918670a08815e43a229732164b789ce43035ab3ed2c5355d653bd6478",
+                "start": 817,
+                "utf8_end": 912,
+                "utf8_start": 817
+              }
+            ]
+          }
+        ],
+        "ending_exact_span": {
+          "document": "text",
+          "document_sha256": "d1cb0c2ce5e4e1a7f34313bec571032774bea7561856caec0fa1c8e519983ef1",
+          "end": 986,
+          "quote": "y, Perseus is a constellation that has been revered in both Greek and Chinese cultures, with its location and name reflecting the rich historical context in its",
+          "quote_sha256": "9791efe1d8ab47e22ff7e212b9752da4219b3b29f9e83630f3d8235725631756",
+          "start": 826,
+          "utf8_end": 986,
+          "utf8_start": 826
+        },
+        "ending_reason_ru": "Последняя фраза обрывается после in its: не завершены именная группа и предложение.",
+        "ending_reconciliation_applied": false,
+        "ends_with_terminal_punctuation": false,
+        "format_violations": [
+          {
+            "kind": "unfinished_final_sentence",
+            "text_spans": []
+          }
+        ],
+        "limitations": [
+          "nonblind assistant judgment; no external factcheck or human gold",
+          "group boundaries are reviewer-defined and may overlap; no claim-level error rate",
+          "source_unsupported does not mean externally false",
+          "quotations anchor the described proposition; a mixed sentence may contain supported core and unsupported detail"
+        ],
+        "source_omission_groups": [
+          {
+            "description_ru": "Не переданы китайское написание и транскрипции двух имён; значение названия и основное положение сохранены.",
+            "source_spans": [
+              {
+                "document": "source",
+                "document_sha256": "7c3c5f6d241f158ac875c50283f3ebe65684aea74ccc0b5d2a9931b6a9a39ca0",
+                "end": 202,
+                "quote": "西方白虎, Xī Fāng Bái Hǔ",
+                "quote_sha256": "ba87fcb6c7a50d83666e340135b6db66c42b14c2cbc97be7c5b509ef4de86d1b",
+                "start": 182,
+                "utf8_end": 214,
+                "utf8_start": 182
+              },
+              {
+                "document": "source",
+                "document_sha256": "7c3c5f6d241f158ac875c50283f3ebe65684aea74ccc0b5d2a9931b6a9a39ca0",
+                "end": 283,
+                "quote": "英仙座 (yīng xiān zuò)",
+                "quote_sha256": "b851efe814ad357ddedf26e374afc4e1a52591a3a95ea4c43667d1c72247059e",
+                "start": 264,
+                "utf8_end": 304,
+                "utf8_start": 276
+              }
+            ]
+          }
+        ],
+        "unfinished_ending_assistant_judgment": true
+      },
+      "source_order": 1,
+      "source_sha256": "7c3c5f6d241f158ac875c50283f3ebe65684aea74ccc0b5d2a9931b6a9a39ca0",
+      "source_target_ratio": 0.106,
+      "source_title": "Perseus in Chinese astronomy",
+      "source_words_registered": 53,
+      "target_words": 500,
+      "terminal_sender_status": "threshold_pending_receiver",
+      "text_available": true,
+      "text_path": "results/framed-interval-public-context4-v1/generation/o001-stego/sender/committed-wire.bin",
+      "text_sha256": "d1cb0c2ce5e4e1a7f34313bec571032774bea7561856caec0fa1c8e519983ef1",
+      "utf8_bytes": 986,
+      "words_by_whitespace": 156
+    },
+    {
+      "arm": "ordinary",
+      "case_id": "o001-ordinary",
+      "quality": {
+        "annotation_groups": [
+          {
+            "description_ru": "Первое предложение сохраняет положение в западном квадранте в традиционной китайской астрономии.",
+            "label": "source_supported",
+            "source_spans": [
+              {
+                "document": "source",
+                "document_sha256": "7c3c5f6d241f158ac875c50283f3ebe65684aea74ccc0b5d2a9931b6a9a39ca0",
+                "end": 128,
+                "quote": "According to traditional Chinese uranography, the modern constellation Perseus is located within the western quadrant of the sky",
+                "quote_sha256": "3bcdda9287b26e1d4ae0210ce3fd8b9954422764e0e67359dcbe4ccca8169ab9",
+                "start": 0,
+                "utf8_end": 128,
+                "utf8_start": 0
+              }
+            ],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "ca48e92ef8d9c10ba22b43abebf14d5ccb46acfc5e84c8c239cd8103bc842cd9",
+                "end": 119,
+                "quote": "In traditional Chinese astronomy, the constellation Perseus is positioned within the western quadrant of the night sky.",
+                "quote_sha256": "9fa1bca5d87b57236ce179afb37272276611fbdb19bb684161fb0dd79559f1b6",
+                "start": 0,
+                "utf8_end": 119,
+                "utf8_start": 0
+              }
+            ]
+          },
+          {
+            "description_ru": "Символ Белого Тигра перенесён с западного квадранта на само созвездие и помещён в modern astronomy. Источник поддерживает иную область отнесения; строгая внешняя ложность не заявляется.",
+            "label": "source_unsupported",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "ca48e92ef8d9c10ba22b43abebf14d5ccb46acfc5e84c8c239cd8103bc842cd9",
+                "end": 212,
+                "quote": "This constellation is symbolized as the White Tiger of the West in modern Chinese astronomy.",
+                "quote_sha256": "d3d5871d72429cc0d754ec83e753c025afeaa5a6efb5aaf950bcfce51003d769",
+                "start": 120,
+                "utf8_end": 212,
+                "utf8_start": 120
+              }
+            ]
+          },
+          {
+            "description_ru": "Современное китайское имя, транскрипция и английский перевод сохранены.",
+            "label": "source_supported",
+            "source_spans": [
+              {
+                "document": "source",
+                "document_sha256": "7c3c5f6d241f158ac875c50283f3ebe65684aea74ccc0b5d2a9931b6a9a39ca0",
+                "end": 327,
+                "quote": "The name of the western constellation in modern Chinese is 英仙座 (yīng xiān zuò), which means \"the brave god constellation\".",
+                "quote_sha256": "3f743628bb5bf3d84533a38b9f264787903da3dada1a2434daabb3ab3ce5ed53",
+                "start": 205,
+                "utf8_end": 348,
+                "utf8_start": 217
+              }
+            ],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "ca48e92ef8d9c10ba22b43abebf14d5ccb46acfc5e84c8c239cd8103bc842cd9",
+                "end": 329,
+                "quote": "The Chinese name for this constellation is \"英仙座\" (yīng xiān zuò), which translates to \"the brave god constellation.\"",
+                "quote_sha256": "4efa92163bd7a83a571abe884a4e29931820ed2933ab423177ce5c38c76f6785",
+                "start": 213,
+                "utf8_end": 338,
+                "utf8_start": 213
+              }
+            ]
+          },
+          {
+            "description_ru": "Древние китайские представления о герое Персее, его воинских подвигах и храбрости не описаны в выдержке.",
+            "label": "source_unsupported",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "ca48e92ef8d9c10ba22b43abebf14d5ccb46acfc5e84c8c239cd8103bc842cd9",
+                "end": 487,
+                "quote": "This naming reflects the ancient Chinese cultural belief in the role and attributes of Perseus, a legendary hero known for his military exploits and bravery.",
+                "quote_sha256": "2a89805982cfe13cab2ab057f664702640082d5b585959bc5d9b8f77f01fae87",
+                "start": 330,
+                "utf8_end": 496,
+                "utf8_start": 339
+              }
+            ]
+          },
+          {
+            "description_ru": "Значение Белого Тигра как символа силы и воина не объясняется исходным текстом.",
+            "label": "source_unsupported",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "ca48e92ef8d9c10ba22b43abebf14d5ccb46acfc5e84c8c239cd8103bc842cd9",
+                "end": 629,
+                "quote": "The White Tiger of the West is considered a symbol of power and strength in Chinese culture, embodying the strength and might of the warrior.",
+                "quote_sha256": "455a41e992fb950afa1c10523125707bbd9ab90a450f0e20194da04daacc200a",
+                "start": 488,
+                "utf8_end": 638,
+                "utf8_start": 497
+              }
+            ]
+          },
+          {
+            "description_ru": "Продолжающееся современное использование представления и глубокая мифологическая значимость добавлены к источнику.",
+            "label": "source_unsupported",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "ca48e92ef8d9c10ba22b43abebf14d5ccb46acfc5e84c8c239cd8103bc842cd9",
+                "end": 808,
+                "quote": "This traditional representation continues to be used in modern Chinese astronomy and reflects the deep cultural significance of the constellation in Chinese mythology and legend.",
+                "quote_sha256": "18833eeb599d12452911a04854b77c4faf50ebfed564a6cccd15ea9b0ba13668",
+                "start": 630,
+                "utf8_end": 817,
+                "utf8_start": 639
+              }
+            ]
+          },
+          {
+            "description_ru": "Символические ассоциации имени с китайскими героями и военной мощью представлены как факты без опоры в выдержке.",
+            "label": "source_unsupported",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "ca48e92ef8d9c10ba22b43abebf14d5ccb46acfc5e84c8c239cd8103bc842cd9",
+                "end": 952,
+                "quote": "The name \"英仙座\" also carries symbolic value, as it is associated with the courage and bravery of the heroic figures depicted in Chinese culture.",
+                "quote_sha256": "f001cc65adbf293bc42196b039b28b6b167e165efe74bf26953ef50a483ab53d",
+                "start": 809,
+                "utf8_end": 967,
+                "utf8_start": 818
+              },
+              {
+                "document": "text",
+                "document_sha256": "ca48e92ef8d9c10ba22b43abebf14d5ccb46acfc5e84c8c239cd8103bc842cd9",
+                "end": 1092,
+                "quote": "This name emphasizes the heroic qualities associated with Perseus, reinforcing his role as a symbol of great strength and military prowess.",
+                "quote_sha256": "3c292e10c7bb58ce60377103e2c269f7e00da5329f27e02a0db15c98b3176ea7",
+                "start": 953,
+                "utf8_end": 1107,
+                "utf8_start": 968
+              }
+            ]
+          },
+          {
+            "description_ru": "Финальное утверждение обрывается внутри astronom и не даёт законченной дополнительной пропозиции.",
+            "label": "unclear_or_incomplete",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "ca48e92ef8d9c10ba22b43abebf14d5ccb46acfc5e84c8c239cd8103bc842cd9",
+                "end": 1188,
+                "quote": "In the context of Chinese astronomy, the constellation Perseus is not only significant astronom",
+                "quote_sha256": "fad4c77a28bbb78b8152cdd35f56e1371ada121efb3cd948c2b6495881bc75fe",
+                "start": 1093,
+                "utf8_end": 1203,
+                "utf8_start": 1108
+              }
+            ]
+          }
+        ],
+        "ending_exact_span": {
+          "document": "text",
+          "document_sha256": "ca48e92ef8d9c10ba22b43abebf14d5ccb46acfc5e84c8c239cd8103bc842cd9",
+          "end": 1188,
+          "quote": "ing his role as a symbol of great strength and military prowess. In the context of Chinese astronomy, the constellation Perseus is not only significant astronom",
+          "quote_sha256": "c82035e6043c27e2d7bd689eb042117ea5d173025dd8f4f6ace917ca3e521edb",
+          "start": 1028,
+          "utf8_end": 1203,
+          "utf8_start": 1043
+        },
+        "ending_reason_ru": "Последнее слово обрывается на astronom, конструкция not only также не завершена.",
+        "ending_reconciliation_applied": false,
+        "ends_with_terminal_punctuation": false,
+        "format_violations": [
+          {
+            "kind": "unfinished_final_word",
+            "text_spans": []
+          },
+          {
+            "kind": "unfinished_final_sentence",
+            "text_spans": []
+          }
+        ],
+        "limitations": [
+          "nonblind assistant judgment; no external factcheck or human gold",
+          "group boundaries are reviewer-defined and may overlap; no claim-level error rate",
+          "source_unsupported does not mean externally false",
+          "quotations anchor the described proposition; a mixed sentence may contain supported core and unsupported detail"
+        ],
+        "source_omission_groups": [
+          {
+            "description_ru": "Не сохранены китайское написание и транскрипция Белого Тигра; английское имя присутствует, но его референт изменён.",
+            "source_spans": [
+              {
+                "document": "source",
+                "document_sha256": "7c3c5f6d241f158ac875c50283f3ebe65684aea74ccc0b5d2a9931b6a9a39ca0",
+                "end": 202,
+                "quote": "西方白虎, Xī Fāng Bái Hǔ",
+                "quote_sha256": "ba87fcb6c7a50d83666e340135b6db66c42b14c2cbc97be7c5b509ef4de86d1b",
+                "start": 182,
+                "utf8_end": 214,
+                "utf8_start": 182
+              }
+            ]
+          }
+        ],
+        "unfinished_ending_assistant_judgment": true
+      },
+      "source_order": 1,
+      "source_sha256": "7c3c5f6d241f158ac875c50283f3ebe65684aea74ccc0b5d2a9931b6a9a39ca0",
+      "source_target_ratio": 0.106,
+      "source_title": "Perseus in Chinese astronomy",
+      "source_words_registered": 53,
+      "target_words": 500,
+      "terminal_sender_status": "ordinary_threshold_generated",
+      "text_available": true,
+      "text_path": "results/framed-interval-public-context4-v1/generation/o001-ordinary/sender/committed-wire.bin",
+      "text_sha256": "ca48e92ef8d9c10ba22b43abebf14d5ccb46acfc5e84c8c239cd8103bc842cd9",
+      "utf8_bytes": 1203,
+      "words_by_whitespace": 184
+    },
+    {
+      "arm": "stego",
+      "case_id": "o004-stego",
+      "quality": {
+        "annotation_groups": [
+          {
+            "description_ru": "Область biotechnology, множество соединений и преимущественно белки/пептиды переданы из источника.",
+            "label": "source_supported",
+            "source_spans": [
+              {
+                "document": "source",
+                "document_sha256": "71daf2290d5b176175c24abfd2ad3fc9308e6e715feb96af78dc4a3a90aca4b4",
+                "end": 161,
+                "quote": "In biotechnology, combinatorial biology is the creation of a large number of compounds (usually proteins or peptides) through technologies such as phage display.",
+                "quote_sha256": "2fdeb34f63d49bd9e20f11ceef4fdb883ecc8f4aa669ab01513e8f57c88b01fb",
+                "start": 0,
+                "utf8_end": 161,
+                "utf8_start": 0
+              }
+            ],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "9489cfaed19e9f324245adb14c36683375fa1c43add1476151d44db7d9defa28",
+                "end": 161,
+                "quote": "Combinatorial biology, a field in biotechnology, involves the development of numerous compounds, primarily proteins or peptides, through innovative technologies.",
+                "quote_sha256": "1a75241bd89d902240742da2e212bcb4efb7aefe7308d5031ae91bd297885273",
+                "start": 0,
+                "utf8_end": 161,
+                "utf8_start": 0
+              }
+            ]
+          },
+          {
+            "description_ru": "Сопоставление с комбинаторной химией и биосинтез вместо органической химии сохранены.",
+            "label": "source_supported",
+            "source_spans": [
+              {
+                "document": "source",
+                "document_sha256": "71daf2290d5b176175c24abfd2ad3fc9308e6e715feb96af78dc4a3a90aca4b4",
+                "end": 267,
+                "quote": "Similar to combinatorial chemistry, compounds are produced by biosynthesis rather than organic chemistry.",
+                "quote_sha256": "a434ab1f7f687e4f7ad29cd7db312609c935d8227afb2a3070971fc3bac8cf31",
+                "start": 162,
+                "utf8_end": 267,
+                "utf8_start": 162
+              }
+            ],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "9489cfaed19e9f324245adb14c36683375fa1c43add1476151d44db7d9defa28",
+                "end": 284,
+                "quote": "This method, akin to combinatorial chemistry, is distinguished by the use of biosynthesis as opposed to organic chemistry.",
+                "quote_sha256": "0ca32dabe2eaae9d7206031ac3fb308cd6c6dd031ca9ab75d295efebb80cfa54",
+                "start": 162,
+                "utf8_end": 284,
+                "utf8_start": 162
+              }
+            ]
+          },
+          {
+            "description_ru": "Оба имени, независимая разработка и 1980-е переданы точно по выдержке.",
+            "label": "source_supported",
+            "source_spans": [
+              {
+                "document": "source",
+                "document_sha256": "71daf2290d5b176175c24abfd2ad3fc9308e6e715feb96af78dc4a3a90aca4b4",
+                "end": 365,
+                "quote": "This process was developed independently by Richard A. Houghten and H. Mario Geysen in the 1980s.",
+                "quote_sha256": "b75f1a57fdae7ee0cf5b717c40ea494abab46e2e2d3c1fbf816e06798bfbed09",
+                "start": 268,
+                "utf8_end": 365,
+                "utf8_start": 268
+              }
+            ],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "9489cfaed19e9f324245adb14c36683375fa1c43add1476151d44db7d9defa28",
+                "end": 386,
+                "quote": "This technique was independently created by Richard A. Houghten and H. Mario Geysen during the 1980s.",
+                "quote_sha256": "58cdbf16258691e4d77cd73259af1e5ecf0df9a686078fdb7b789b7301848b8b",
+                "start": 285,
+                "utf8_end": 386,
+                "utf8_start": 285
+              }
+            ]
+          },
+          {
+            "description_ru": "Повышение versatility соединений и unique approach — оценочное расширение; исходник сообщает о множестве соединений, но не подтверждает эти свойства.",
+            "label": "source_unsupported",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "9489cfaed19e9f324245adb14c36683375fa1c43add1476151d44db7d9defa28",
+                "end": 564,
+                "quote": "The process of creating new compounds through biosynthesis rather than organic chemistry offers a unique approach to increasing the diversity and versatility of these compounds.",
+                "quote_sha256": "1610fe48fe0bcdfb8f45e588cfe8423ed90098daee08decb7b808b506a7a3c6c",
+                "start": 387,
+                "utf8_end": 564,
+                "utf8_start": 387
+              }
+            ]
+          },
+          {
+            "description_ru": "Возможности для поиска лекарств и понимания биологических систем не указаны в источнике.",
+            "label": "source_unsupported",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "9489cfaed19e9f324245adb14c36683375fa1c43add1476151d44db7d9defa28",
+                "end": 737,
+                "quote": "By employing this method, researchers can develop a vast array of novel molecules, opening new possibilities for drug discovery and the understanding of biological systems.",
+                "quote_sha256": "14d55fcff933cfd864f36d2b55d8be68eaf919c48401a5f444e217649c1b0c66",
+                "start": 565,
+                "utf8_end": 737,
+                "utf8_start": 565
+              }
+            ]
+          },
+          {
+            "description_ru": "Расширение генетического репертуара организмов и значимый вклад в развитие молекулярной биологии не установлены выдержкой.",
+            "label": "source_unsupported",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "9489cfaed19e9f324245adb14c36683375fa1c43add1476151d44db7d9defa28",
+                "end": 974,
+                "quote": "This approach not only expands the genetic repertoire of organisms but also provides a powerful tool for the creation of new proteins and peptides, offering a robust means for furthering the field of molecular biology and biotechnology.",
+                "quote_sha256": "7a971504b8bdf14e12b354eb1d77d21377378fa13f7f949f5bf4993fa4d557e5",
+                "start": 738,
+                "utf8_end": 974,
+                "utf8_start": 738
+              }
+            ]
+          },
+          {
+            "description_ru": "Заявления о существенном прогрессе в манипуляции системами и фактическом открытии новых препаратов отсутствуют в источнике; текст резко заканчивается на and the development.",
+            "label": "source_unsupported",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "9489cfaed19e9f324245adb14c36683375fa1c43add1476151d44db7d9defa28",
+                "end": 1181,
+                "quote": "Through this innovative method, combinatorial biology has significantly advanced our ability to explore and manipulate biological systems, leading to the discovery of new pharmaceuticals and the development",
+                "quote_sha256": "165d79e6d52dc8d4b6412b64598f08bf6f0a72752721678e68af5036ba383c39",
+                "start": 975,
+                "utf8_end": 1181,
+                "utf8_start": 975
+              }
+            ]
+          }
+        ],
+        "ending_exact_span": {
+          "document": "text",
+          "document_sha256": "9489cfaed19e9f324245adb14c36683375fa1c43add1476151d44db7d9defa28",
+          "end": 1181,
+          "quote": "biology has significantly advanced our ability to explore and manipulate biological systems, leading to the discovery of new pharmaceuticals and the development",
+          "quote_sha256": "8d02837051fd65b8eec360094aa343df0de9b5ca120322cef27a7f4560ad31d7",
+          "start": 1021,
+          "utf8_end": 1181,
+          "utf8_start": 1021
+        },
+        "ending_reason_ru": "Окончание and the development резко и содержательно недостаточно, но development является существительным и допускает контекстное употребление без обязательного дополнения. Отсутствие пунктуации не доказывает синтаксический обрыв; итоговое суждение неоднозначно.",
+        "ending_reconciliation_applied": false,
+        "ends_with_terminal_punctuation": false,
+        "format_violations": [],
+        "limitations": [
+          "nonblind assistant judgment; no external factcheck or human gold",
+          "group boundaries are reviewer-defined and may overlap; no claim-level error rate",
+          "source_unsupported does not mean externally false",
+          "quotations anchor the described proposition; a mixed sentence may contain supported core and unsupported detail"
+        ],
+        "source_omission_groups": [
+          {
+            "description_ru": "Единственный приведённый в источнике конкретный пример технологии phage display опущен.",
+            "source_spans": [
+              {
+                "document": "source",
+                "document_sha256": "71daf2290d5b176175c24abfd2ad3fc9308e6e715feb96af78dc4a3a90aca4b4",
+                "end": 160,
+                "quote": "through technologies such as phage display",
+                "quote_sha256": "110399c3d1db9ddbeffdc5e824374961b00538446e7314b5a56d7a18ddbdcfbc",
+                "start": 118,
+                "utf8_end": 160,
+                "utf8_start": 118
+              }
+            ]
+          }
+        ],
+        "unfinished_ending_assistant_judgment": null
+      },
+      "source_order": 4,
+      "source_sha256": "71daf2290d5b176175c24abfd2ad3fc9308e6e715feb96af78dc4a3a90aca4b4",
+      "source_target_ratio": 0.208,
+      "source_title": "Combinatorial biology",
+      "source_words_registered": 52,
+      "target_words": 250,
+      "terminal_sender_status": "threshold_pending_receiver",
+      "text_available": true,
+      "text_path": "results/framed-interval-public-context4-v1/generation/o004-stego/sender/committed-wire.bin",
+      "text_sha256": "9489cfaed19e9f324245adb14c36683375fa1c43add1476151d44db7d9defa28",
+      "utf8_bytes": 1181,
+      "words_by_whitespace": 167
+    },
+    {
+      "arm": "ordinary",
+      "case_id": "o004-ordinary",
+      "quality": {
+        "annotation_groups": [
+          {
+            "description_ru": "Определение, белки/пептиды и phage display сохранены.",
+            "label": "source_supported",
+            "source_spans": [
+              {
+                "document": "source",
+                "document_sha256": "71daf2290d5b176175c24abfd2ad3fc9308e6e715feb96af78dc4a3a90aca4b4",
+                "end": 161,
+                "quote": "In biotechnology, combinatorial biology is the creation of a large number of compounds (usually proteins or peptides) through technologies such as phage display.",
+                "quote_sha256": "2fdeb34f63d49bd9e20f11ceef4fdb883ecc8f4aa669ab01513e8f57c88b01fb",
+                "start": 0,
+                "utf8_end": 161,
+                "utf8_start": 0
+              }
+            ],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "148e67082885a20a8b5a4ada0b7c5b322f305dc6d61dd791d780077b9cf51732",
+                "end": 191,
+                "quote": "In the realm of biotechnology, combinatorial biology is a process used to generate a vast array of compounds, such as proteins or peptides, through innovative technologies like phage display.",
+                "quote_sha256": "3e329dd06538f80d60df0bf674771c47f81e1b8190a61431c037333e6706672f",
+                "start": 0,
+                "utf8_end": 191,
+                "utf8_start": 0
+              }
+            ]
+          },
+          {
+            "description_ru": "Различие по способу получения compounds — biosynthesis вместо organic chemistry — соответствует источнику; significantly является оценочным усилением.",
+            "label": "source_supported",
+            "source_spans": [
+              {
+                "document": "source",
+                "document_sha256": "71daf2290d5b176175c24abfd2ad3fc9308e6e715feb96af78dc4a3a90aca4b4",
+                "end": 267,
+                "quote": "Similar to combinatorial chemistry, compounds are produced by biosynthesis rather than organic chemistry.",
+                "quote_sha256": "a434ab1f7f687e4f7ad29cd7db312609c935d8227afb2a3070971fc3bac8cf31",
+                "start": 162,
+                "utf8_end": 267,
+                "utf8_start": 162
+              }
+            ],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "148e67082885a20a8b5a4ada0b7c5b322f305dc6d61dd791d780077b9cf51732",
+                "end": 312,
+                "quote": "This method differs significantly from traditional combinatorial chemistry, which relies on organic chemistry processes.",
+                "quote_sha256": "9a4850a230733597690f177327552b9edbd73b0d473af25cbe7886de179c78bf",
+                "start": 192,
+                "utf8_end": 312,
+                "utf8_start": 192
+              },
+              {
+                "document": "text",
+                "document_sha256": "148e67082885a20a8b5a4ada0b7c5b322f305dc6d61dd791d780077b9cf51732",
+                "end": 868,
+                "quote": "combinatorial biology uses biosynthesis to create compounds",
+                "quote_sha256": "907f2473c575144dba0f13928b67f6f61c0364f2ee74407ccfc97d19602e9f04",
+                "start": 809,
+                "utf8_end": 868,
+                "utf8_start": 809
+              }
+            ]
+          },
+          {
+            "description_ru": "Независимая разработка двумя названными исследователями в 1980-е сохранена.",
+            "label": "source_supported",
+            "source_spans": [
+              {
+                "document": "source",
+                "document_sha256": "71daf2290d5b176175c24abfd2ad3fc9308e6e715feb96af78dc4a3a90aca4b4",
+                "end": 365,
+                "quote": "This process was developed independently by Richard A. Houghten and H. Mario Geysen in the 1980s.",
+                "quote_sha256": "b75f1a57fdae7ee0cf5b717c40ea494abab46e2e2d3c1fbf816e06798bfbed09",
+                "start": 268,
+                "utf8_end": 365,
+                "utf8_start": 268
+              }
+            ],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "148e67082885a20a8b5a4ada0b7c5b322f305dc6d61dd791d780077b9cf51732",
+                "end": 400,
+                "quote": "It was independently developed by Richard A. Houghten and H. Mario Geysen in the 1980s.",
+                "quote_sha256": "418d24f4910d466ac4e56b2cbd97c0288cf51ad07ed5fd489d522288ee5c3f1d",
+                "start": 313,
+                "utf8_end": 400,
+                "utf8_start": 313
+              }
+            ]
+          },
+          {
+            "description_ru": "Цель быстрого поиска новых биоматериалов и терапевтических средств не сформулирована в источнике.",
+            "label": "source_unsupported",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "148e67082885a20a8b5a4ada0b7c5b322f305dc6d61dd791d780077b9cf51732",
+                "end": 531,
+                "quote": "The aim of combinatorial biology is to facilitate the rapid discovery and development of new biological materials or therapeutics.",
+                "quote_sha256": "26b7a01f9611ae80846c1110e93af799338a0dcd764e059540668f59a7226ada",
+                "start": 401,
+                "utf8_end": 531,
+                "utf8_start": 401
+              }
+            ]
+          },
+          {
+            "description_ru": "Применение фармкомпаниями и повышение эффективности research and development добавлены без опоры в выдержке.",
+            "label": "source_unsupported",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "148e67082885a20a8b5a4ada0b7c5b322f305dc6d61dd791d780077b9cf51732",
+                "end": 710,
+                "quote": "This approach allows researchers and pharmaceutical companies to explore a wide range of compound possibilities, enhancing the efficiency of the research and development process.",
+                "quote_sha256": "8348b5896d66aeeda02dddcaea5ff0646ab3bf907663586d5c7c5b177f83de5e",
+                "start": 532,
+                "utf8_end": 710,
+                "utf8_start": 532
+              }
+            ]
+          },
+          {
+            "description_ru": "Обобщение о complex reactions органической химии не содержится в исходнике; highly diverse and versatile — дополнительная характеристика.",
+            "label": "source_unsupported",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "148e67082885a20a8b5a4ada0b7c5b322f305dc6d61dd791d780077b9cf51732",
+                "end": 807,
+                "quote": "Unlike organic chemistry, which often relies on synthesizing molecules through complex reactions",
+                "quote_sha256": "77a13e6fd25af630c1c2fe06db2ec5ed1961e6b0cc06e724ceb740307791a3e1",
+                "start": 711,
+                "utf8_end": 807,
+                "utf8_start": 711
+              },
+              {
+                "document": "text",
+                "document_sha256": "148e67082885a20a8b5a4ada0b7c5b322f305dc6d61dd791d780077b9cf51732",
+                "end": 954,
+                "quote": "making it a highly diverse and versatile methodology for biotechnology applications.",
+                "quote_sha256": "cddde7c8897aa72e2598f37045189a4c981f7217aefafb6bb98615472ecb892e",
+                "start": 870,
+                "utf8_end": 954,
+                "utf8_start": 870
+              }
+            ]
+          },
+          {
+            "description_ru": "Фактический вклад в понимание процессов, разработку препаратов и ускорение практического применения не подтверждён выдержкой.",
+            "label": "source_unsupported",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "148e67082885a20a8b5a4ada0b7c5b322f305dc6d61dd791d780077b9cf51732",
+                "end": 1095,
+                "quote": "This method has been instrumental in advancing our understanding of biological processes and in the development of novel therapeutic agents.",
+                "quote_sha256": "2759577af648fb95484c1c2dd5d47ee0a1b66cfc30cd24953b6746cb4e58610d",
+                "start": 955,
+                "utf8_end": 1095,
+                "utf8_start": 955
+              },
+              {
+                "document": "text",
+                "document_sha256": "148e67082885a20a8b5a4ada0b7c5b322f305dc6d61dd791d780077b9cf51732",
+                "end": 1219,
+                "quote": "Through this process, scientists can expedite the path from concept to practical application in the field of biotechnology.",
+                "quote_sha256": "8b616de7849a4355afda2febc65824db25d064136e4bd87f29a083dd93881a3f",
+                "start": 1096,
+                "utf8_end": 1219,
+                "utf8_start": 1096
+              }
+            ]
+          },
+          {
+            "description_ru": "Финальный тезис о complementary остаётся без указания того, чему метод комплементарен.",
+            "label": "unclear_or_incomplete",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "148e67082885a20a8b5a4ada0b7c5b322f305dc6d61dd791d780077b9cf51732",
+                "end": 1306,
+                "quote": "Despite the significant advantages of combinatorial biology, it is often complementary",
+                "quote_sha256": "59c7d0955bd5a9e0180bb4c3eba77a4761497897ee09370b24200b868bffe5b1",
+                "start": 1220,
+                "utf8_end": 1306,
+                "utf8_start": 1220
+              }
+            ]
+          }
+        ],
+        "ending_exact_span": {
+          "document": "text",
+          "document_sha256": "148e67082885a20a8b5a4ada0b7c5b322f305dc6d61dd791d780077b9cf51732",
+          "end": 1306,
+          "quote": "path from concept to practical application in the field of biotechnology. Despite the significant advantages of combinatorial biology, it is often complementary",
+          "quote_sha256": "ff9b2ef227249ec97baea8004c64eabde34e1b3bf6031ed55a5dde402a21289b",
+          "start": 1146,
+          "utf8_end": 1306,
+          "utf8_start": 1146
+        },
+        "ending_reason_ru": "Complementary допускает самостоятельное предикативное употребление после is. Отсутствие указания, чему метод комплементарен, делает объяснение неясным, но не доказывает обязательного пропущенного грамматического компонента. Итоговое суждение неоднозначно.",
+        "ending_reconciliation_applied": false,
+        "ends_with_terminal_punctuation": false,
+        "format_violations": [],
+        "limitations": [
+          "nonblind assistant judgment; no external factcheck or human gold",
+          "group boundaries are reviewer-defined and may overlap; no claim-level error rate",
+          "source_unsupported does not mean externally false",
+          "quotations anchor the described proposition; a mixed sentence may contain supported core and unsupported detail"
+        ],
+        "source_omission_groups": [],
+        "unfinished_ending_assistant_judgment": null
+      },
+      "source_order": 4,
+      "source_sha256": "71daf2290d5b176175c24abfd2ad3fc9308e6e715feb96af78dc4a3a90aca4b4",
+      "source_target_ratio": 0.208,
+      "source_title": "Combinatorial biology",
+      "source_words_registered": 52,
+      "target_words": 250,
+      "terminal_sender_status": "ordinary_threshold_generated",
+      "text_available": true,
+      "text_path": "results/framed-interval-public-context4-v1/generation/o004-ordinary/sender/committed-wire.bin",
+      "text_sha256": "148e67082885a20a8b5a4ada0b7c5b322f305dc6d61dd791d780077b9cf51732",
+      "utf8_bytes": 1306,
+      "words_by_whitespace": 180
+    },
+    {
+      "arm": "stego",
+      "case_id": "o007-stego",
+      "quality": {
+        "annotation_groups": [
+          {
+            "description_ru": "Характеристика вина как natural product отсутствует в данном источнике; это не утверждение о её внешней ложности.",
+            "label": "source_unsupported",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "c093c2a3cdd3ff7a7661155f9c5c5f8220b2d7acde95e6b42a7d282421fbddbc",
+                "end": 25,
+                "quote": "Wine is a natural product",
+                "quote_sha256": "9094a4ca2c107e027144c4c37754340fa8bd988847b439149493c3e710ebaf37",
+                "start": 0,
+                "utf8_end": 25,
+                "utf8_start": 0
+              }
+            ]
+          },
+          {
+            "description_ru": "Сахар и кислоты связаны с виноградом; консервативное обобщение сведений о ягодах и виноградных лозах.",
+            "label": "source_supported",
+            "source_spans": [
+              {
+                "document": "source",
+                "document_sha256": "298ad726bf087bd676b5a9dd4ce51573deec0569a2d16e5f67838f8a1ea570e1",
+                "end": 305,
+                "quote": "The chemistry of wine and its resultant quality depend on achieving a balance between three aspects of the berries used to make the wine: their sugar content, acidity and the presence of secondary compounds.",
+                "quote_sha256": "2fd6e76c2fbed002b3a7e910dde71772103f765af26177ef5fbbad908eea1b04",
+                "start": 98,
+                "utf8_end": 305,
+                "utf8_start": 98
+              },
+              {
+                "document": "source",
+                "document_sha256": "298ad726bf087bd676b5a9dd4ce51573deec0569a2d16e5f67838f8a1ea570e1",
+                "end": 395,
+                "quote": "Vines store sugar in grapes through photosynthesis, and acids break down as grapes ripen.",
+                "quote_sha256": "06b41aad129fa3113d969739d4de38c7e65abf17dd9c103ef6440e6d7b8b7788",
+                "start": 306,
+                "utf8_end": 395,
+                "utf8_start": 306
+              }
+            ],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "c093c2a3cdd3ff7a7661155f9c5c5f8220b2d7acde95e6b42a7d282421fbddbc",
+                "end": 74,
+                "quote": "combining sugar and acid derived from the grape.",
+                "quote_sha256": "0772ad2602ddb6ea109554443bdcf7bba8abe26032f3b0aac8c059f5204300bc",
+                "start": 26,
+                "utf8_end": 74,
+                "utf8_start": 26
+              }
+            ]
+          },
+          {
+            "description_ru": "Ферментация, дрожжи и получение алкоголя не описаны в данном отрывке.",
+            "label": "source_unsupported",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "c093c2a3cdd3ff7a7661155f9c5c5f8220b2d7acde95e6b42a7d282421fbddbc",
+                "end": 141,
+                "quote": "The mixture is then fermented, aided by yeasts, to create alcohol.",
+                "quote_sha256": "bf5504254e55264f9ed25124a935b18e4c42b3a974af542f0d55899e7418c3e8",
+                "start": 75,
+                "utf8_end": 141,
+                "utf8_start": 75
+              }
+            ]
+          },
+          {
+            "description_ru": "Сахар и кислотность как факторы качества соответствуют источнику.",
+            "label": "source_supported",
+            "source_spans": [
+              {
+                "document": "source",
+                "document_sha256": "298ad726bf087bd676b5a9dd4ce51573deec0569a2d16e5f67838f8a1ea570e1",
+                "end": 305,
+                "quote": "The chemistry of wine and its resultant quality depend on achieving a balance between three aspects of the berries used to make the wine: their sugar content, acidity and the presence of secondary compounds.",
+                "quote_sha256": "2fd6e76c2fbed002b3a7e910dde71772103f765af26177ef5fbbad908eea1b04",
+                "start": 98,
+                "utf8_end": 305,
+                "utf8_start": 98
+              }
+            ],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "c093c2a3cdd3ff7a7661155f9c5c5f8220b2d7acde95e6b42a7d282421fbddbc",
+                "end": 214,
+                "quote": "The acidity and sugar content play critical roles in the wine's quality.",
+                "quote_sha256": "0eddc567b3e0282abf96ea8cd0957ed71e366b606f1598ffa690267962d6f76f",
+                "start": 142,
+                "utf8_end": 214,
+                "utf8_start": 142
+              }
+            ]
+          },
+          {
+            "description_ru": "Связь уровня сахара со сладостью/сухостью и кислоты с терпкостью добавлена сверх источника.",
+            "label": "source_unsupported",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "c093c2a3cdd3ff7a7661155f9c5c5f8220b2d7acde95e6b42a7d282421fbddbc",
+                "end": 331,
+                "quote": "The sugar level determines the wine's sweetness or dryness, while the acid level determines its acidity or tartness.",
+                "quote_sha256": "1358a7be2926fb4c9c921c07efc7ca9dfc89f8f55805b8e8802531f1f8b937e7",
+                "start": 215,
+                "utf8_end": 331,
+                "utf8_start": 215
+              }
+            ]
+          },
+          {
+            "description_ru": "Влияние вторичных соединений на качество соответствует источнику, без поддержки конкретных примеров.",
+            "label": "source_supported",
+            "source_spans": [
+              {
+                "document": "source",
+                "document_sha256": "298ad726bf087bd676b5a9dd4ce51573deec0569a2d16e5f67838f8a1ea570e1",
+                "end": 305,
+                "quote": "The chemistry of wine and its resultant quality depend on achieving a balance between three aspects of the berries used to make the wine: their sugar content, acidity and the presence of secondary compounds.",
+                "quote_sha256": "2fd6e76c2fbed002b3a7e910dde71772103f765af26177ef5fbbad908eea1b04",
+                "start": 98,
+                "utf8_end": 305,
+                "utf8_start": 98
+              }
+            ],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "c093c2a3cdd3ff7a7661155f9c5c5f8220b2d7acde95e6b42a7d282421fbddbc",
+                "end": 352,
+                "quote": "Secondary compounds,",
+                "quote_sha256": "2d149ea883c56538bbf21345067abb2e042528fa54f71199f6a976dfbd187758",
+                "start": 332,
+                "utf8_end": 352,
+                "utf8_start": 332
+              },
+              {
+                "document": "text",
+                "document_sha256": "c093c2a3cdd3ff7a7661155f9c5c5f8220b2d7acde95e6b42a7d282421fbddbc",
+                "end": 422,
+                "quote": "also influence the wine's quality.",
+                "quote_sha256": "9c0075ccb55fc0ee2b00b0ec019ef0c6fa2ec97eab910a2803a2eeb543985860",
+                "start": 388,
+                "utf8_end": 422,
+                "utf8_start": 388
+              }
+            ]
+          },
+          {
+            "description_ru": "Названия tannins и resveratrol не встречаются в исходном отрывке.",
+            "label": "source_unsupported",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "c093c2a3cdd3ff7a7661155f9c5c5f8220b2d7acde95e6b42a7d282421fbddbc",
+                "end": 386,
+                "quote": "including tannins and resveratrol",
+                "quote_sha256": "17dc6c1ae97b82ab2ad207b95a0456a264af5fcdd98e9880954c371ee7596e8e",
+                "start": 353,
+                "utf8_end": 386,
+                "utf8_start": 353
+              }
+            ]
+          },
+          {
+            "description_ru": "Фотосинтез как источник сахара и снижение кислотности при созревании являются консервативным пересказом.",
+            "label": "source_supported",
+            "source_spans": [
+              {
+                "document": "source",
+                "document_sha256": "298ad726bf087bd676b5a9dd4ce51573deec0569a2d16e5f67838f8a1ea570e1",
+                "end": 395,
+                "quote": "Vines store sugar in grapes through photosynthesis, and acids break down as grapes ripen.",
+                "quote_sha256": "06b41aad129fa3113d969739d4de38c7e65abf17dd9c103ef6440e6d7b8b7788",
+                "start": 306,
+                "utf8_end": 395,
+                "utf8_start": 306
+              }
+            ],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "c093c2a3cdd3ff7a7661155f9c5c5f8220b2d7acde95e6b42a7d282421fbddbc",
+                "end": 534,
+                "quote": "Vines provide the sugar through photosynthesis during growth, and the acidity naturally drops as grapes mature.",
+                "quote_sha256": "c6da9b356258d426ed9b0b8a0c3987364b60d189bcaa84fabf0f2163ff41a68f",
+                "start": 423,
+                "utf8_end": 534,
+                "utf8_start": 423
+              }
+            ]
+          },
+          {
+            "description_ru": "Три указанных фактора связаны с химией вина; эта часть вывода поддержана источником.",
+            "label": "source_supported",
+            "source_spans": [
+              {
+                "document": "source",
+                "document_sha256": "298ad726bf087bd676b5a9dd4ce51573deec0569a2d16e5f67838f8a1ea570e1",
+                "end": 305,
+                "quote": "The chemistry of wine and its resultant quality depend on achieving a balance between three aspects of the berries used to make the wine: their sugar content, acidity and the presence of secondary compounds.",
+                "quote_sha256": "2fd6e76c2fbed002b3a7e910dde71772103f765af26177ef5fbbad908eea1b04",
+                "start": 98,
+                "utf8_end": 305,
+                "utf8_start": 98
+              }
+            ],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "c093c2a3cdd3ff7a7661155f9c5c5f8220b2d7acde95e6b42a7d282421fbddbc",
+                "end": 555,
+                "quote": "These three factors,",
+                "quote_sha256": "6d17c31e08797223cae732161ce27610603d5d0655bfecbf8c1ee26cce0be218",
+                "start": 535,
+                "utf8_end": 555,
+                "utf8_start": 535
+              },
+              {
+                "document": "text",
+                "document_sha256": "c093c2a3cdd3ff7a7661155f9c5c5f8220b2d7acde95e6b42a7d282421fbddbc",
+                "end": 655,
+                "quote": "all contribute to the final chemical makeup of the wine.",
+                "quote_sha256": "96303ce40db7d469f34b0d35bd79735edfbab678437d1b2fa515ce00a1fdba67",
+                "start": 599,
+                "utf8_end": 655,
+                "utf8_start": 599
+              }
+            ]
+          },
+          {
+            "description_ru": "Добавленная роль дрожжей в этом выводе не установлена источником.",
+            "label": "source_unsupported",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "c093c2a3cdd3ff7a7661155f9c5c5f8220b2d7acde95e6b42a7d282421fbddbc",
+                "end": 598,
+                "quote": "along with the yeast used in fermentation,",
+                "quote_sha256": "e7b15714e1dcfbbd84908f8de75ee7bedf38144e37ef7c6ebd8985e7d53c80a3",
+                "start": 556,
+                "utf8_end": 598,
+                "utf8_start": 556
+              }
+            ]
+          },
+          {
+            "description_ru": "Последнее предложение оборвано после between acidity: второй член требуемой пары не дан. Не достраивать смысл за модель.",
+            "label": "unclear_or_incomplete",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "c093c2a3cdd3ff7a7661155f9c5c5f8220b2d7acde95e6b42a7d282421fbddbc",
+                "end": 768,
+                "quote": "Through the careful balance of these factors, winemakers can brew a wine with an optimal balance between acidity",
+                "quote_sha256": "fe78879ccdb518e1d44a16e6f6b442b95c20b955a5fc23607394989a12f2a583",
+                "start": 656,
+                "utf8_end": 768,
+                "utf8_start": 656
+              }
+            ]
+          }
+        ],
+        "ending_exact_span": {
+          "document": "text",
+          "document_sha256": "c093c2a3cdd3ff7a7661155f9c5c5f8220b2d7acde95e6b42a7d282421fbddbc",
+          "end": 768,
+          "quote": "Through the careful balance of these factors, winemakers can brew a wine with an optimal balance between acidity",
+          "quote_sha256": "fe78879ccdb518e1d44a16e6f6b442b95c20b955a5fc23607394989a12f2a583",
+          "start": 656,
+          "utf8_end": 768,
+          "utf8_start": 656
+        },
+        "ending_reason_ru": "Последнее предложение оборвано после between acidity: второй член требуемой пары не дан. Не достраивать смысл за модель.",
+        "ending_reconciliation_applied": false,
+        "ends_with_terminal_punctuation": false,
+        "format_violations": [
+          {
+            "kind": "unfinished_final_sentence",
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "c093c2a3cdd3ff7a7661155f9c5c5f8220b2d7acde95e6b42a7d282421fbddbc",
+                "end": 768,
+                "quote": "Through the careful balance of these factors, winemakers can brew a wine with an optimal balance between acidity",
+                "quote_sha256": "fe78879ccdb518e1d44a16e6f6b442b95c20b955a5fc23607394989a12f2a583",
+                "start": 656,
+                "utf8_end": 768,
+                "utf8_start": 656
+              }
+            ]
+          }
+        ],
+        "limitations": [
+          "nonblind assistant judgment; no external factcheck or human gold",
+          "group boundaries are reviewer-defined and may overlap; no claim-level error rate",
+          "source_unsupported does not mean externally false",
+          "quotations anchor the described proposition; a mixed sentence may contain supported core and unsupported detail"
+        ],
+        "source_omission_groups": [
+          {
+            "description_ru": "Не сохранены pH около4 и явная характеристика hydro-alcoholic solution. Отсутствие не равно противоречию.",
+            "source_spans": [
+              {
+                "document": "source",
+                "document_sha256": "298ad726bf087bd676b5a9dd4ce51573deec0569a2d16e5f67838f8a1ea570e1",
+                "end": 97,
+                "quote": "Wine is a complex mixture of chemical compounds in a hydro-alcoholic solution with a pH around 4.",
+                "quote_sha256": "7a56292b00ce77356140f80c4139546da29ea9def0132ae9c99e36bac17c364c",
+                "start": 0,
+                "utf8_end": 97,
+                "utf8_start": 0
+              }
+            ]
+          }
+        ],
+        "unfinished_ending_assistant_judgment": true
+      },
+      "source_order": 7,
+      "source_sha256": "298ad726bf087bd676b5a9dd4ce51573deec0569a2d16e5f67838f8a1ea570e1",
+      "source_target_ratio": 0.26,
+      "source_title": "Wine chemistry",
+      "source_words_registered": 65,
+      "target_words": 250,
+      "terminal_sender_status": "threshold_pending_receiver",
+      "text_available": true,
+      "text_path": "results/framed-interval-public-context4-v1/generation/o007-stego/sender/committed-wire.bin",
+      "text_sha256": "c093c2a3cdd3ff7a7661155f9c5c5f8220b2d7acde95e6b42a7d282421fbddbc",
+      "utf8_bytes": 768,
+      "words_by_whitespace": 119
+    },
+    {
+      "arm": "ordinary",
+      "case_id": "o007-ordinary",
+      "quality": {
+        "annotation_groups": [
+          {
+            "description_ru": "Комплексный раствор соединений в воде/алкоголе и pH около4 соответствуют hydro-alcoholic solution и исходному pH.",
+            "label": "source_supported",
+            "source_spans": [
+              {
+                "document": "source",
+                "document_sha256": "298ad726bf087bd676b5a9dd4ce51573deec0569a2d16e5f67838f8a1ea570e1",
+                "end": 97,
+                "quote": "Wine is a complex mixture of chemical compounds in a hydro-alcoholic solution with a pH around 4.",
+                "quote_sha256": "7a56292b00ce77356140f80c4139546da29ea9def0132ae9c99e36bac17c364c",
+                "start": 0,
+                "utf8_end": 97,
+                "utf8_start": 0
+              }
+            ],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "66a2b95a98e3af2df3e5f75bba09ef69b69626f644cd23ac8062405701d1d0af",
+                "end": 114,
+                "quote": "Wine is a complex mixture of chemical compounds dissolved in water and alcohol. It typically has a pH of around 4.",
+                "quote_sha256": "648a9825c73925045c9ea5f11cd124002d9349787b83f5c6dd184515f0ec198b",
+                "start": 0,
+                "utf8_end": 114,
+                "utf8_start": 0
+              }
+            ]
+          },
+          {
+            "description_ru": "Три фактора качества — сахар, кислотность, вторичные соединения — сохранены.",
+            "label": "source_supported",
+            "source_spans": [
+              {
+                "document": "source",
+                "document_sha256": "298ad726bf087bd676b5a9dd4ce51573deec0569a2d16e5f67838f8a1ea570e1",
+                "end": 305,
+                "quote": "The chemistry of wine and its resultant quality depend on achieving a balance between three aspects of the berries used to make the wine: their sugar content, acidity and the presence of secondary compounds.",
+                "quote_sha256": "2fd6e76c2fbed002b3a7e910dde71772103f765af26177ef5fbbad908eea1b04",
+                "start": 98,
+                "utf8_end": 305,
+                "utf8_start": 98
+              }
+            ],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "66a2b95a98e3af2df3e5f75bba09ef69b69626f644cd23ac8062405701d1d0af",
+                "end": 310,
+                "quote": "The quality of wine is influenced by the balance between three main factors from the fruits used to make it: the sugar content in the grapes, the acidity, and the presence of secondary compounds.",
+                "quote_sha256": "729f50b9d5440db59d53198ea46ddc060d3265168f251595469b81c9aa2b9e57",
+                "start": 115,
+                "utf8_end": 310,
+                "utf8_start": 115
+              }
+            ]
+          },
+          {
+            "description_ru": "Связь сахара с фотосинтезом поддержана, но фрагмент не подтверждает буквальное превращение sunlight into sugar.",
+            "label": "source_supported",
+            "source_spans": [
+              {
+                "document": "source",
+                "document_sha256": "298ad726bf087bd676b5a9dd4ce51573deec0569a2d16e5f67838f8a1ea570e1",
+                "end": 395,
+                "quote": "Vines store sugar in grapes through photosynthesis, and acids break down as grapes ripen.",
+                "quote_sha256": "06b41aad129fa3113d969739d4de38c7e65abf17dd9c103ef6440e6d7b8b7788",
+                "start": 306,
+                "utf8_end": 395,
+                "utf8_start": 306
+              }
+            ],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "66a2b95a98e3af2df3e5f75bba09ef69b69626f644cd23ac8062405701d1d0af",
+                "end": 367,
+                "quote": "through photosynthesis",
+                "quote_sha256": "8d51269a44a92c9566affb45e87e783036c775697e737d61c3654add2e542521",
+                "start": 345,
+                "utf8_end": 367,
+                "utf8_start": 345
+              }
+            ]
+          },
+          {
+            "description_ru": "Буквальная формулировка превращения солнечного света в сахар не следует из store sugar ... through photosynthesis. Внешняя биохимическая корректность не проверяется.",
+            "label": "source_unsupported",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "66a2b95a98e3af2df3e5f75bba09ef69b69626f644cd23ac8062405701d1d0af",
+                "end": 344,
+                "quote": "Vines convert sunlight into sugar",
+                "quote_sha256": "eb41704ecb66045255cdd374eed91389e3247e91293dcd15ba87877cb9088765",
+                "start": 311,
+                "utf8_end": 344,
+                "utf8_start": 311
+              }
+            ]
+          },
+          {
+            "description_ru": "Sunlight/water/carbon dioxide как подробный механизм не изложены в замороженном отрывке.",
+            "label": "source_unsupported",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "66a2b95a98e3af2df3e5f75bba09ef69b69626f644cd23ac8062405701d1d0af",
+                "end": 413,
+                "quote": "by using sunlight, water, and carbon dioxide.",
+                "quote_sha256": "ccf1147cce4f5afd61c2b6f9e837d015dbc095d0e17c189b26e1f7d51f8c9fc6",
+                "start": 368,
+                "utf8_end": 413,
+                "utf8_start": 368
+              }
+            ]
+          },
+          {
+            "description_ru": "Уменьшение кислотности при созревании и зависимость качества от соотношения трёх факторов повторяют источник.",
+            "label": "source_supported",
+            "source_spans": [
+              {
+                "document": "source",
+                "document_sha256": "298ad726bf087bd676b5a9dd4ce51573deec0569a2d16e5f67838f8a1ea570e1",
+                "end": 305,
+                "quote": "The chemistry of wine and its resultant quality depend on achieving a balance between three aspects of the berries used to make the wine: their sugar content, acidity and the presence of secondary compounds.",
+                "quote_sha256": "2fd6e76c2fbed002b3a7e910dde71772103f765af26177ef5fbbad908eea1b04",
+                "start": 98,
+                "utf8_end": 305,
+                "utf8_start": 98
+              },
+              {
+                "document": "source",
+                "document_sha256": "298ad726bf087bd676b5a9dd4ce51573deec0569a2d16e5f67838f8a1ea570e1",
+                "end": 395,
+                "quote": "Vines store sugar in grapes through photosynthesis, and acids break down as grapes ripen.",
+                "quote_sha256": "06b41aad129fa3113d969739d4de38c7e65abf17dd9c103ef6440e6d7b8b7788",
+                "start": 306,
+                "utf8_end": 395,
+                "utf8_start": 306
+              }
+            ],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "66a2b95a98e3af2df3e5f75bba09ef69b69626f644cd23ac8062405701d1d0af",
+                "end": 579,
+                "quote": "As the grapes ripen, the acidity in them decreases. The final quality of wine is determined by the proportion of sugar, acid, and secondary compounds in the mixture.",
+                "quote_sha256": "976ba1b50808105f1938b6a81b48d5c83e0c8e8797d6cc83ad4ce7da0d5ee663",
+                "start": 414,
+                "utf8_end": 579,
+                "utf8_start": 414
+              }
+            ]
+          },
+          {
+            "description_ru": "Сепарация жидкости от семян/кожицы/стеблей и последующее добавление сахара/кислот не указаны в источнике. Внешняя корректность процесса не проверялась.",
+            "label": "source_unsupported",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "66a2b95a98e3af2df3e5f75bba09ef69b69626f644cd23ac8062405701d1d0af",
+                "end": 730,
+                "quote": "The process of making wine involves separating the liquid from the solids, which can include seeds, skins, and stems, and then adding sugar and acids.",
+                "quote_sha256": "6f0c423c1c952e2cf481699be94d03e9006e9e13e85f67e126ea44b11973147d",
+                "start": 580,
+                "utf8_end": 730,
+                "utf8_start": 580
+              }
+            ]
+          },
+          {
+            "description_ru": "Примеры tannins/polyphenols, взаимодействие с кислотностью и усложнение процесса добавлены сверх источника.",
+            "label": "source_unsupported",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "66a2b95a98e3af2df3e5f75bba09ef69b69626f644cd23ac8062405701d1d0af",
+                "end": 883,
+                "quote": "The process is further complicated by the presence of secondary compounds, such as tannins and polyphenols, which interact with the acidity of the wine.",
+                "quote_sha256": "c91a41161b2fee4bdaaeb6a70c0101b2a8c2bb391c3474d00ffb071fb2ac32eb",
+                "start": 731,
+                "utf8_end": 883,
+                "utf8_start": 731
+              }
+            ]
+          },
+          {
+            "description_ru": "Влияние концентрации вторичных соединений и их взаимодействия с кислотами на вкус не описано в отрывке.",
+            "label": "source_unsupported",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "66a2b95a98e3af2df3e5f75bba09ef69b69626f644cd23ac8062405701d1d0af",
+                "end": 1048,
+                "quote": "These secondary compounds can either enhance or detract from the flavor of the final product, depending on their concentration and how they interact with the acids.",
+                "quote_sha256": "2e64dc5a8c658478e731f36f94fd8eb67b3645f13594fcc02412be0c65312035",
+                "start": 884,
+                "utf8_end": 1048,
+                "utf8_start": 884
+              }
+            ]
+          },
+          {
+            "description_ru": "Повтор зависимости качества от баланса факторов поддержан.",
+            "label": "source_supported",
+            "source_spans": [
+              {
+                "document": "source",
+                "document_sha256": "298ad726bf087bd676b5a9dd4ce51573deec0569a2d16e5f67838f8a1ea570e1",
+                "end": 305,
+                "quote": "The chemistry of wine and its resultant quality depend on achieving a balance between three aspects of the berries used to make the wine: their sugar content, acidity and the presence of secondary compounds.",
+                "quote_sha256": "2fd6e76c2fbed002b3a7e910dde71772103f765af26177ef5fbbad908eea1b04",
+                "start": 98,
+                "utf8_end": 305,
+                "utf8_start": 98
+              }
+            ],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "66a2b95a98e3af2df3e5f75bba09ef69b69626f644cd23ac8062405701d1d0af",
+                "end": 1119,
+                "quote": "The balance between these factors determines the final quality of wine",
+                "quote_sha256": "ff1f35c84e307165d4e6a2f6eec54995d2fe1156b59a1e1102327574a0bcb43e",
+                "start": 1049,
+                "utf8_end": 1119,
+                "utf8_start": 1049
+              }
+            ]
+          },
+          {
+            "description_ru": "Distinctive taste — добавленное сенсорное следствие, не сформулированное в отрывке.",
+            "label": "source_unsupported",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "66a2b95a98e3af2df3e5f75bba09ef69b69626f644cd23ac8062405701d1d0af",
+                "end": 1161,
+                "quote": "and contributes to its distinctive taste.",
+                "quote_sha256": "41a52f5b1f57093d4c22cd8430947cb5eaf844b9155bc7a2a9b21f2559a5adca",
+                "start": 1120,
+                "utf8_end": 1161,
+                "utf8_start": 1120
+              }
+            ]
+          },
+          {
+            "description_ru": "Окончание не имеет терминальной пунктуации и обрывает развитие объяснения. Однако develops допускает непереходное употребление: фраза может быть синтаксически самостоятельной. Однозначный синтаксический обрыв не заявляется.",
+            "label": "unclear_or_incomplete",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "66a2b95a98e3af2df3e5f75bba09ef69b69626f644cd23ac8062405701d1d0af",
+                "end": 1192,
+                "quote": "The acidity in grapes develops",
+                "quote_sha256": "9f1ddedd0761a9777c6ccfdb062801ea10c92d79b00ce361aeacb4ccc2857198",
+                "start": 1162,
+                "utf8_end": 1192,
+                "utf8_start": 1162
+              }
+            ]
+          }
+        ],
+        "ending_exact_span": {
+          "document": "text",
+          "document_sha256": "66a2b95a98e3af2df3e5f75bba09ef69b69626f644cd23ac8062405701d1d0af",
+          "end": 1192,
+          "quote": "The acidity in grapes develops",
+          "quote_sha256": "9f1ddedd0761a9777c6ccfdb062801ea10c92d79b00ce361aeacb4ccc2857198",
+          "start": 1162,
+          "utf8_end": 1192,
+          "utf8_start": 1162
+        },
+        "ending_reason_ru": "Окончание не имеет терминальной пунктуации и обрывает развитие объяснения. Однако develops допускает непереходное употребление: фраза может быть синтаксически самостоятельной. Однозначный синтаксический обрыв не заявляется.",
+        "ending_reconciliation_applied": false,
+        "ends_with_terminal_punctuation": false,
+        "format_violations": [],
+        "limitations": [
+          "nonblind assistant judgment; no external factcheck or human gold",
+          "group boundaries are reviewer-defined and may overlap; no claim-level error rate",
+          "source_unsupported does not mean externally false",
+          "quotations anchor the described proposition; a mixed sentence may contain supported core and unsupported detail"
+        ],
+        "source_omission_groups": [],
+        "unfinished_ending_assistant_judgment": null
+      },
+      "source_order": 7,
+      "source_sha256": "298ad726bf087bd676b5a9dd4ce51573deec0569a2d16e5f67838f8a1ea570e1",
+      "source_target_ratio": 0.26,
+      "source_title": "Wine chemistry",
+      "source_words_registered": 65,
+      "target_words": 250,
+      "terminal_sender_status": "ordinary_threshold_generated",
+      "text_available": true,
+      "text_path": "results/framed-interval-public-context4-v1/generation/o007-ordinary/sender/committed-wire.bin",
+      "text_sha256": "66a2b95a98e3af2df3e5f75bba09ef69b69626f644cd23ac8062405701d1d0af",
+      "utf8_bytes": 1192,
+      "words_by_whitespace": 194
+    },
+    {
+      "arm": "stego",
+      "case_id": "o010-stego",
+      "quality": {
+        "annotation_groups": [
+          {
+            "description_ru": "Статус самого населённого города юга США поддержан.",
+            "label": "source_supported",
+            "source_spans": [
+              {
+                "document": "source",
+                "document_sha256": "811595029af52cf02a5c2e606edf43715141705a420090c8b47c3ec8471a29da",
+                "end": 173,
+                "quote": "Houston, the most populous city in the Southern United States, is located along the upper Texas Gulf Coast, approximately 50 mi northwest of the Gulf of Mexico at Galveston.",
+                "quote_sha256": "62139e7e867f89a480c60486b74e5eb75ebe23ed76d39a8f945611e7072d3de5",
+                "start": 0,
+                "utf8_end": 173,
+                "utf8_start": 0
+              }
+            ],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "a4cc530c1331d083d894cb3dbfe11d58ca4d9f1a3dcfeac076a0c9c297d86391",
+                "end": 64,
+                "quote": "Houston is the most populous city in the Southern United States,",
+                "quote_sha256": "28fcf23c02720a0920193323efe165db0b7b279ce784a6b4fb53c743e349f3f7",
+                "start": 0,
+                "utf8_end": 64,
+                "utf8_start": 0
+              }
+            ]
+          },
+          {
+            "description_ru": "Численность примерно2.3миллиона отсутствует в отрывке; дата оценки также не дана. Это не внешняя проверка числа.",
+            "label": "source_unsupported",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "a4cc530c1331d083d894cb3dbfe11d58ca4d9f1a3dcfeac076a0c9c297d86391",
+                "end": 112,
+                "quote": "with a population of approximately 2.3 million.",
+                "quote_sha256": "ea4626ac7a204573fa94e0019a3564e746d9471ffa53d07c290fe0b68b612523",
+                "start": 65,
+                "utf8_end": 112,
+                "utf8_start": 65
+              }
+            ]
+          },
+          {
+            "description_ru": "Побережье, направление/расстояние и площади/проценты воды и суши точно передают источник.",
+            "label": "source_supported",
+            "source_spans": [
+              {
+                "document": "source",
+                "document_sha256": "811595029af52cf02a5c2e606edf43715141705a420090c8b47c3ec8471a29da",
+                "end": 173,
+                "quote": "Houston, the most populous city in the Southern United States, is located along the upper Texas Gulf Coast, approximately 50 mi northwest of the Gulf of Mexico at Galveston.",
+                "quote_sha256": "62139e7e867f89a480c60486b74e5eb75ebe23ed76d39a8f945611e7072d3de5",
+                "start": 0,
+                "utf8_end": 173,
+                "utf8_start": 0
+              },
+              {
+                "document": "source",
+                "document_sha256": "811595029af52cf02a5c2e606edf43715141705a420090c8b47c3ec8471a29da",
+                "end": 332,
+                "quote": "The city, which is the ninth-largest in the United States by area, covers 601.7 sqmi, of which 579.4 sqmi, or 96.3%, is land and 22.3 sqmi, or 3.7%, is water.",
+                "quote_sha256": "33068dff4b79b81c920ee71bfd490276939102e063367fa846ba5e2fa53d43d0",
+                "start": 174,
+                "utf8_end": 332,
+                "utf8_start": 174
+              }
+            ],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "a4cc530c1331d083d894cb3dbfe11d58ca4d9f1a3dcfeac076a0c9c297d86391",
+                "end": 327,
+                "quote": "The city is located along the upper Texas Gulf Coast, approximately 50 mi northwest of the Gulf of Mexico at Galveston. It covers 601.7 sqmi, of which 579.4 sqmi, or 96.3%, is land and 22.3 sqmi, or 3.7%, is water.",
+                "quote_sha256": "78d7b1011d6d63ccd0a875a61bc69f83aac76f8522dd04ed61e060f4f9ddf334",
+                "start": 113,
+                "utf8_end": 327,
+                "utf8_start": 113
+              }
+            ]
+          },
+          {
+            "description_ru": "Принадлежность Gulf Coastal Plain biome сохранена.",
+            "label": "source_supported",
+            "source_spans": [
+              {
+                "document": "source",
+                "document_sha256": "811595029af52cf02a5c2e606edf43715141705a420090c8b47c3ec8471a29da",
+                "end": 441,
+                "quote": "Houston is located in the Gulf Coastal Plain biome, and its vegetation is classified as temperate grassland.",
+                "quote_sha256": "e70de94dd348917d6d8b9c2d8bd0887ed3347e2c8108c7756d592766c5de348e",
+                "start": 333,
+                "utf8_end": 441,
+                "utf8_start": 333
+              }
+            ],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "a4cc530c1331d083d894cb3dbfe11d58ca4d9f1a3dcfeac076a0c9c297d86391",
+                "end": 384,
+                "quote": "Houston is situated within the Gulf Coastal Plain biome,",
+                "quote_sha256": "4545f5409861a14a81e02e32c267cd36a9ee04be675d3821f3cf39cc8e2cd5b6",
+                "start": 328,
+                "utf8_end": 384,
+                "utf8_start": 328
+              }
+            ]
+          },
+          {
+            "description_ru": "Классификация biome как climate region, мягкие зимы и жаркое лето не заданы отрывком.",
+            "label": "source_unsupported",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "a4cc530c1331d083d894cb3dbfe11d58ca4d9f1a3dcfeac076a0c9c297d86391",
+                "end": 448,
+                "quote": "a climate region characterized by mild winters and hot summers.",
+                "quote_sha256": "e7a21d09a62904f198a63f070916ace4608e09bbf1560c28dfa1993fb9144016",
+                "start": 385,
+                "utf8_end": 448,
+                "utf8_start": 385
+              }
+            ]
+          },
+          {
+            "description_ru": "Классификация растительности как temperate grassland сохранена.",
+            "label": "source_supported",
+            "source_spans": [
+              {
+                "document": "source",
+                "document_sha256": "811595029af52cf02a5c2e606edf43715141705a420090c8b47c3ec8471a29da",
+                "end": 441,
+                "quote": "Houston is located in the Gulf Coastal Plain biome, and its vegetation is classified as temperate grassland.",
+                "quote_sha256": "e70de94dd348917d6d8b9c2d8bd0887ed3347e2c8108c7756d592766c5de348e",
+                "start": 333,
+                "utf8_end": 441,
+                "utf8_start": 333
+              }
+            ],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "a4cc530c1331d083d894cb3dbfe11d58ca4d9f1a3dcfeac076a0c9c297d86391",
+                "end": 513,
+                "quote": "The vegetation in the area is classified as temperate grassland,",
+                "quote_sha256": "da3813be187c9b4fee3a06482a24a68ea8c32e830147576f655ab7306c10b5c8",
+                "start": 449,
+                "utf8_end": 513,
+                "utf8_start": 449
+              }
+            ]
+          },
+          {
+            "description_ru": "Типичность мягкого климата и хорошо дренированных почв не следует из доступного отрывка.",
+            "label": "source_unsupported",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "a4cc530c1331d083d894cb3dbfe11d58ca4d9f1a3dcfeac076a0c9c297d86391",
+                "end": 584,
+                "quote": "typically found in regions with a mild climate and well-drained soils.",
+                "quote_sha256": "ebc501efd092a751c6f107405911974b435d16d42e62b09672d090b6737d057c",
+                "start": 514,
+                "utf8_end": 584,
+                "utf8_start": 514
+              }
+            ]
+          },
+          {
+            "description_ru": "Причинная связь положения/климата с разнообразной экосистемой, флорой и фауной добавлена сверх источника.",
+            "label": "source_unsupported",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "a4cc530c1331d083d894cb3dbfe11d58ca4d9f1a3dcfeac076a0c9c297d86391",
+                "end": 776,
+                "quote": "The city's geographical position and climate contribute to the development of a diverse and varied ecosystem, which supports a range of flora and fauna adapted to this particular environment.",
+                "quote_sha256": "c3ef2d1cb41d778af0b07e3be5dc3507bff4008e7efd0e6a63ed4542e8274866",
+                "start": 585,
+                "utf8_end": 776,
+                "utf8_start": 585
+              }
+            ]
+          },
+          {
+            "description_ru": "Оценка полноты/образовательной важности описания — метакомментарий, а не новая подтверждённая географическая информация.",
+            "label": "nonfactual_or_evaluative",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "a4cc530c1331d083d894cb3dbfe11d58ca4d9f1a3dcfeac076a0c9c297d86391",
+                "end": 1032,
+                "quote": "This comprehensive description provides a foundational understanding of Houston's geographical position, landscape, climate, and vegetation types, essential for understanding the region's characteristics and its significance in the Southern United States.",
+                "quote_sha256": "39d3d3cc4ff704219c89ea317bb60f5a099bad98c4aab9ea6e11cf8540b21023",
+                "start": 777,
+                "utf8_end": 1032,
+                "utf8_start": 777
+              }
+            ]
+          },
+          {
+            "description_ru": "Текст обсуждает excerpt/reference/instruction и предполагаемое происхождение вместо требуемой прозы. Надёжность предположения о происхождении не проверялась.",
+            "label": "nonfactual_or_evaluative",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "a4cc530c1331d083d894cb3dbfe11d58ca4d9f1a3dcfeac076a0c9c297d86391",
+                "end": 1203,
+                "quote": "The information is based on the excerpt provided from the reference text. The source of this excerpt is not given in the instruction but can be inferred from the context.",
+                "quote_sha256": "7bb22f24fd73f2a2f34926912762ad29e9d6323bdf41e14580a2b3fac2a05177",
+                "start": 1033,
+                "utf8_end": 1203,
+                "utf8_start": 1033
+              }
+            ]
+          },
+          {
+            "description_ru": "Финальное предложение оборвано после and; это также метакомментарий об excerpt.",
+            "label": "unclear_or_incomplete",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "a4cc530c1331d083d894cb3dbfe11d58ca4d9f1a3dcfeac076a0c9c297d86391",
+                "end": 1283,
+                "quote": "The excerpt focuses on the geographical and bioclimatic aspects of Houston, and",
+                "quote_sha256": "ebf3ba851f95ea7f3862fff984f6c7463806b421bdc10786894d0710fc482972",
+                "start": 1204,
+                "utf8_end": 1283,
+                "utf8_start": 1204
+              }
+            ]
+          }
+        ],
+        "ending_exact_span": {
+          "document": "text",
+          "document_sha256": "a4cc530c1331d083d894cb3dbfe11d58ca4d9f1a3dcfeac076a0c9c297d86391",
+          "end": 1283,
+          "quote": "The excerpt focuses on the geographical and bioclimatic aspects of Houston, and",
+          "quote_sha256": "ebf3ba851f95ea7f3862fff984f6c7463806b421bdc10786894d0710fc482972",
+          "start": 1204,
+          "utf8_end": 1283,
+          "utf8_start": 1204
+        },
+        "ending_reason_ru": "Финальное предложение оборвано после and; это также метакомментарий об excerpt.",
+        "ending_reconciliation_applied": false,
+        "ends_with_terminal_punctuation": false,
+        "format_violations": [
+          {
+            "description_ru": "Метакомментарии о reference/excerpt/instruction расходятся с only requested prose и do not mention writing instructions.",
+            "kind": "reference_and_instruction_commentary",
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "a4cc530c1331d083d894cb3dbfe11d58ca4d9f1a3dcfeac076a0c9c297d86391",
+                "end": 1106,
+                "quote": "The information is based on the excerpt provided from the reference text.",
+                "quote_sha256": "f0dbfcb917737cf79911cd35535de86da9ecbe466e0116418c46493a24cf25fa",
+                "start": 1033,
+                "utf8_end": 1106,
+                "utf8_start": 1033
+              },
+              {
+                "document": "text",
+                "document_sha256": "a4cc530c1331d083d894cb3dbfe11d58ca4d9f1a3dcfeac076a0c9c297d86391",
+                "end": 1203,
+                "quote": "The source of this excerpt is not given in the instruction but can be inferred from the context.",
+                "quote_sha256": "5573fca3740cc60389206b65144c8641f236dcacba984f7656b869f210ba0bdc",
+                "start": 1107,
+                "utf8_end": 1203,
+                "utf8_start": 1107
+              },
+              {
+                "document": "text",
+                "document_sha256": "a4cc530c1331d083d894cb3dbfe11d58ca4d9f1a3dcfeac076a0c9c297d86391",
+                "end": 1283,
+                "quote": "The excerpt focuses on the geographical and bioclimatic aspects of Houston, and",
+                "quote_sha256": "ebf3ba851f95ea7f3862fff984f6c7463806b421bdc10786894d0710fc482972",
+                "start": 1204,
+                "utf8_end": 1283,
+                "utf8_start": 1204
+              }
+            ]
+          },
+          {
+            "kind": "unfinished_final_sentence",
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "a4cc530c1331d083d894cb3dbfe11d58ca4d9f1a3dcfeac076a0c9c297d86391",
+                "end": 1283,
+                "quote": "The excerpt focuses on the geographical and bioclimatic aspects of Houston, and",
+                "quote_sha256": "ebf3ba851f95ea7f3862fff984f6c7463806b421bdc10786894d0710fc482972",
+                "start": 1204,
+                "utf8_end": 1283,
+                "utf8_start": 1204
+              }
+            ]
+          }
+        ],
+        "limitations": [
+          "nonblind assistant judgment; no external factcheck or human gold",
+          "group boundaries are reviewer-defined and may overlap; no claim-level error rate",
+          "source_unsupported does not mean externally false",
+          "quotations anchor the described proposition; a mixed sentence may contain supported core and unsupported detail"
+        ],
+        "source_omission_groups": [
+          {
+            "description_ru": "Пропущено девятое место США по площади; сами площади сохранены.",
+            "source_spans": [
+              {
+                "document": "source",
+                "document_sha256": "811595029af52cf02a5c2e606edf43715141705a420090c8b47c3ec8471a29da",
+                "end": 239,
+                "quote": "which is the ninth-largest in the United States by area",
+                "quote_sha256": "fe6459b9d585ccace63e23b1e8198bba90c900c8f4ae99b887fbff9bf68c9daa",
+                "start": 184,
+                "utf8_end": 239,
+                "utf8_start": 184
+              }
+            ]
+          }
+        ],
+        "unfinished_ending_assistant_judgment": true
+      },
+      "source_order": 10,
+      "source_sha256": "811595029af52cf02a5c2e606edf43715141705a420090c8b47c3ec8471a29da",
+      "source_target_ratio": 0.152,
+      "source_title": "Geography of Houston",
+      "source_words_registered": 76,
+      "target_words": 500,
+      "terminal_sender_status": "threshold_pending_receiver",
+      "text_available": true,
+      "text_path": "results/framed-interval-public-context4-v1/generation/o010-stego/sender/committed-wire.bin",
+      "text_sha256": "a4cc530c1331d083d894cb3dbfe11d58ca4d9f1a3dcfeac076a0c9c297d86391",
+      "utf8_bytes": 1283,
+      "words_by_whitespace": 199
+    },
+    {
+      "arm": "ordinary",
+      "case_id": "o010-ordinary",
+      "quality": {
+        "annotation_groups": [
+          {
+            "description_ru": "Markdown-заголовок нарушает прямое требование no headings.",
+            "label": "nonfactual_or_evaluative",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "216d2f308713da84aa62661bfbc250308d8526075eb49ab40ff617946064ea2a",
+                "end": 24,
+                "quote": "**Geography of Houston**",
+                "quote_sha256": "556fc584dfcc4d688f853386e5c34d5c6c24a7f4e6ea95456d01c9daddc4aead",
+                "start": 0,
+                "utf8_end": 24,
+                "utf8_start": 0
+              }
+            ]
+          },
+          {
+            "description_ru": "Положение, населённость юга США и50миль северо-западнее залива сохранены.",
+            "label": "source_supported",
+            "source_spans": [
+              {
+                "document": "source",
+                "document_sha256": "811595029af52cf02a5c2e606edf43715141705a420090c8b47c3ec8471a29da",
+                "end": 173,
+                "quote": "Houston, the most populous city in the Southern United States, is located along the upper Texas Gulf Coast, approximately 50 mi northwest of the Gulf of Mexico at Galveston.",
+                "quote_sha256": "62139e7e867f89a480c60486b74e5eb75ebe23ed76d39a8f945611e7072d3de5",
+                "start": 0,
+                "utf8_end": 173,
+                "utf8_start": 0
+              }
+            ],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "216d2f308713da84aa62661bfbc250308d8526075eb49ab40ff617946064ea2a",
+                "end": 203,
+                "quote": "Houston, the most populous city in the Southern United States, is situated along the upper Texas Gulf Coast, approximately 50 miles northwest of the Gulf of Mexico at Galveston.",
+                "quote_sha256": "f88ad3318b40498051cfdcb0a0c6108efeee3a8c4904574d4f589fed0f510305",
+                "start": 26,
+                "utf8_end": 203,
+                "utf8_start": 26
+              }
+            ]
+          },
+          {
+            "description_ru": "Девятое место по площади, общая площадь и распределение суша/вода точно соответствуют источнику.",
+            "label": "source_supported",
+            "source_spans": [
+              {
+                "document": "source",
+                "document_sha256": "811595029af52cf02a5c2e606edf43715141705a420090c8b47c3ec8471a29da",
+                "end": 332,
+                "quote": "The city, which is the ninth-largest in the United States by area, covers 601.7 sqmi, of which 579.4 sqmi, or 96.3%, is land and 22.3 sqmi, or 3.7%, is water.",
+                "quote_sha256": "33068dff4b79b81c920ee71bfd490276939102e063367fa846ba5e2fa53d43d0",
+                "start": 174,
+                "utf8_end": 332,
+                "utf8_start": 174
+              }
+            ],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "216d2f308713da84aa62661bfbc250308d8526075eb49ab40ff617946064ea2a",
+                "end": 401,
+                "quote": "The city's area, which ranks as the ninth-largest in the United States, encompasses 601.7 square miles. Of this total area, 579.4 square miles (96.3%) is land and 22.3 square miles (3.7%) is water.",
+                "quote_sha256": "978fd607c4d092191b4747be4dac04d401f7af2a5ef267ce240fe28926e92bbf",
+                "start": 204,
+                "utf8_end": 401,
+                "utf8_start": 204
+              }
+            ]
+          },
+          {
+            "description_ru": "Принадлежность Gulf Coastal Plain biome и классификация растительности сохранены, но их последующие объяснения требуют отдельной оценки.",
+            "label": "source_supported",
+            "source_spans": [
+              {
+                "document": "source",
+                "document_sha256": "811595029af52cf02a5c2e606edf43715141705a420090c8b47c3ec8471a29da",
+                "end": 441,
+                "quote": "Houston is located in the Gulf Coastal Plain biome, and its vegetation is classified as temperate grassland.",
+                "quote_sha256": "e70de94dd348917d6d8b9c2d8bd0887ed3347e2c8108c7756d592766c5de348e",
+                "start": 333,
+                "utf8_end": 441,
+                "utf8_start": 333
+              }
+            ],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "216d2f308713da84aa62661bfbc250308d8526075eb49ab40ff617946064ea2a",
+                "end": 456,
+                "quote": "Houston's location within the Gulf Coastal Plain biome",
+                "quote_sha256": "6c77ccdaecec30de72becf3a8b8f9ade74b67173eeae1e9716707f44869faf31",
+                "start": 402,
+                "utf8_end": 456,
+                "utf8_start": 402
+              },
+              {
+                "document": "text",
+                "document_sha256": "216d2f308713da84aa62661bfbc250308d8526075eb49ab40ff617946064ea2a",
+                "end": 587,
+                "quote": "The temperate grassland classification of the city's vegetation",
+                "quote_sha256": "a5070d0355b33ef4d3a460ba72153eef8d1f7e8cccf1d275139b974f6fe98367",
+                "start": 524,
+                "utf8_end": 587,
+                "utf8_start": 524
+              }
+            ]
+          },
+          {
+            "description_ru": "Погодные закономерности и растительность как доказательство biome не объяснены источником.",
+            "label": "source_unsupported",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "216d2f308713da84aa62661bfbc250308d8526075eb49ab40ff617946064ea2a",
+                "end": 523,
+                "quote": "is supported by its typical weather patterns and vegetation types.",
+                "quote_sha256": "8a7a95f216ffe7ed91de2427807ffe02c490bbb1b751941c867336ac37de7a42",
+                "start": 457,
+                "utf8_end": 523,
+                "utf8_start": 457
+              }
+            ]
+          },
+          {
+            "description_ru": "Мягкие температуры, типичные осадки и связь классификации растительности с климатом не изложены в источнике.",
+            "label": "source_unsupported",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "216d2f308713da84aa62661bfbc250308d8526075eb49ab40ff617946064ea2a",
+                "end": 730,
+                "quote": "reflects its climate, which is characterized by mild temperatures and rainfall patterns that are typical of a temperate grassland environment.",
+                "quote_sha256": "f9554a4596c90cf7563404c3ae250bc61f604cd32486f12707acb322c932cfa1",
+                "start": 588,
+                "utf8_end": 730,
+                "utf8_start": 588
+              }
+            ]
+          },
+          {
+            "description_ru": "Стратегическое положение, способность адаптироваться к экологическим зонам и особая роль в экосистеме — неподтверждённые добавления с оценочной формулировкой.",
+            "label": "source_unsupported",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "216d2f308713da84aa62661bfbc250308d8526075eb49ab40ff617946064ea2a",
+                "end": 917,
+                "quote": "This urban landscape is a testament to the city's strategic location and its ability to adapt to different ecological zones, making it a crucial part of the Gulf Coastal Plain ecosystem.",
+                "quote_sha256": "67b4882075ade8d4cde41f68bf3f8f290c5f9972c55b010ac4b457b2c18f2359",
+                "start": 731,
+                "utf8_end": 917,
+                "utf8_start": 731
+              }
+            ]
+          },
+          {
+            "description_ru": "Причинное влияние близости залива на климат и уникальную среду не установлено данным отрывком.",
+            "label": "source_unsupported",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "216d2f308713da84aa62661bfbc250308d8526075eb49ab40ff617946064ea2a",
+                "end": 1072,
+                "quote": "The proximity to the Gulf of Mexico also influences the city's climate, contributing to its overall characteristic and the unique environment it supports.",
+                "quote_sha256": "9c0485a7df583c980b06a7982bae63dfaa1382571b4d0fe18e90be973d9e0657",
+                "start": 918,
+                "utf8_end": 1072,
+                "utf8_start": 918
+              }
+            ]
+          },
+          {
+            "description_ru": "Обобщение об образовательной важности и значимости города преимущественно оценочное; оно не заменяет отсутствующие сведения об экосистемах.",
+            "label": "nonfactual_or_evaluative",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "216d2f308713da84aa62661bfbc250308d8526075eb49ab40ff617946064ea2a",
+                "end": 1281,
+                "quote": "Such geographical features and climate patterns are essential in understanding Houston's significance as one of the largest and most populous cities in the United States, and their impact on local ecosystems.",
+                "quote_sha256": "85f67b53e9565ef87a3efd0e2d5288f7f5e8874f296976a1b38fec589f261afd",
+                "start": 1073,
+                "utf8_end": 1281,
+                "utf8_start": 1073
+              }
+            ]
+          },
+          {
+            "description_ru": "Фраза students should recognize Houston's role in the city формально допускает завершённую конструкцию, хотя референт city неясен и окончание выглядит резким. Отсутствие финальной пунктуации установлено отдельно; однозначный синтаксический обрыв не заявляется.",
+            "label": "unclear_or_incomplete",
+            "source_spans": [],
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "216d2f308713da84aa62661bfbc250308d8526075eb49ab40ff617946064ea2a",
+                "end": 1360,
+                "quote": "For educational purposes, students should recognize Houston's role in the city",
+                "quote_sha256": "51221340d756f8ff1e7dc0c04acc70e082fa2f6cd7f0b8ed522fd90577e793bb",
+                "start": 1282,
+                "utf8_end": 1360,
+                "utf8_start": 1282
+              }
+            ]
+          }
+        ],
+        "ending_exact_span": {
+          "document": "text",
+          "document_sha256": "216d2f308713da84aa62661bfbc250308d8526075eb49ab40ff617946064ea2a",
+          "end": 1360,
+          "quote": "For educational purposes, students should recognize Houston's role in the city",
+          "quote_sha256": "51221340d756f8ff1e7dc0c04acc70e082fa2f6cd7f0b8ed522fd90577e793bb",
+          "start": 1282,
+          "utf8_end": 1360,
+          "utf8_start": 1282
+        },
+        "ending_reason_ru": "Фраза students should recognize Houston's role in the city формально допускает завершённую конструкцию, хотя референт city неясен и окончание выглядит резким. Отсутствие финальной пунктуации установлено отдельно; однозначный синтаксический обрыв не заявляется.",
+        "ending_reconciliation_applied": true,
+        "ends_with_terminal_punctuation": false,
+        "format_violations": [
+          {
+            "description_ru": "Запрещённый Markdown-заголовок.",
+            "kind": "heading",
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "216d2f308713da84aa62661bfbc250308d8526075eb49ab40ff617946064ea2a",
+                "end": 24,
+                "quote": "**Geography of Houston**",
+                "quote_sha256": "556fc584dfcc4d688f853386e5c34d5c6c24a7f4e6ea95456d01c9daddc4aead",
+                "start": 0,
+                "utf8_end": 24,
+                "utf8_start": 0
+              }
+            ]
+          },
+          {
+            "description_ru": "Недописанная рекомендация студентам вместо завершённого учебного объяснения; отдельно учитывается как стиль/окончание.",
+            "kind": "educational_metacommentary",
+            "text_spans": [
+              {
+                "document": "text",
+                "document_sha256": "216d2f308713da84aa62661bfbc250308d8526075eb49ab40ff617946064ea2a",
+                "end": 1360,
+                "quote": "For educational purposes, students should recognize Houston's role in the city",
+                "quote_sha256": "51221340d756f8ff1e7dc0c04acc70e082fa2f6cd7f0b8ed522fd90577e793bb",
+                "start": 1282,
+                "utf8_end": 1360,
+                "utf8_start": 1282
+              }
+            ]
+          }
+        ],
+        "limitations": [
+          "nonblind assistant judgment; no external factcheck or human gold",
+          "group boundaries are reviewer-defined and may overlap; no claim-level error rate",
+          "source_unsupported does not mean externally false",
+          "quotations anchor the described proposition; a mixed sentence may contain supported core and unsupported detail"
+        ],
+        "source_omission_groups": [],
+        "unfinished_ending_assistant_judgment": null
+      },
+      "source_order": 10,
+      "source_sha256": "811595029af52cf02a5c2e606edf43715141705a420090c8b47c3ec8471a29da",
+      "source_target_ratio": 0.152,
+      "source_title": "Geography of Houston",
+      "source_words_registered": 76,
+      "target_words": 500,
+      "terminal_sender_status": "ordinary_threshold_generated",
+      "text_available": true,
+      "text_path": "results/framed-interval-public-context4-v1/generation/o010-ordinary/sender/committed-wire.bin",
+      "text_sha256": "216d2f308713da84aa62661bfbc250308d8526075eb49ab40ff617946064ea2a",
+      "utf8_bytes": 1360,
+      "words_by_whitespace": 207
+    }
+  ],
+  "closed_test_opened": false,
+  "control_contract": "ordinary uses independent public bits through SAME keyed integer transform; not standard free LM sampling",
+  "delivery_validation": "performed separately by technical auditor; this file assesses raw prose and source support only",
+  "denominator": 8,
+  "frame_end_contract": "first272-bit threshold; no append, padding, repair or retries in these raw texts",
+  "git_writes": false,
+  "input_identity": {
+    "actual_git_restoration_proof_sha256": "1aa42270ca96a3256f5f7ca36705e8c74a03ae2c270d8495bf41238a9671b37d",
+    "result_json_sha256": "ead8ad9719d7976d9b3d3cdc1bfb32cca6bfe01824420be93a79f59bbd1a3166",
+    "selected_contexts_sha256": "7f7b08426adf23546a2d652fe911c69ad364ea7d4ff0287215d14e923ae12fe2"
+  },
+  "nn_calls": 0,
+  "primary_commit": "2a3be59b6a808464837156753d97f7278880cbcd",
+  "review_kind": "nonblind assistant source-fidelity assessment, not human gold/external factual truth",
+  "review_timing": {
+    "outputs_read_only_after_actual_git_restoration_signal": true,
+    "plan_git_commit": "71d7f6628bb31d9e55a006833f2af73b657edc37",
+    "quality_plan_after_execute_launch": true,
+    "quality_plan_before_output_inspection": true,
+    "quality_plan_preregistered_before_nn": false
+  },
+  "reviewers": {
+    "ending_reconsideration_sha256": "384bfe9104fc61004e25f1ba5ef1e03c75a413eae9ade0d692cafbe8fa000f5f",
+    "first_four": "public_context_quality",
+    "reconciliation": "Both readers agree four endings are ambiguous under the required-grammatical-constituent criterion after reconsidering o010-ordinary and both Biology endings; public_context_quality read all eight.",
+    "second_four": "public_context_quality/second_context_read",
+    "second_reader_final_sha256": "3f3079c113ab3b270353777a43096034d5b8f36b90fe53721a48360b0adbda31",
+    "second_reader_initial_sha256": "15d174c27d41788e6aad867683ff2c4b6f33b924aa160f8d49fb39790541a688"
+  },
+  "schema": "framed-interval-public-context4-v1-quality-review",
+  "scientific_scope": "Four fixed development contexts/two arms each. No inferential error rates, security, method-superiority or population claims.",
+  "summary": {
+    "ambiguous_unfinished_endings": 4,
+    "cases_with_explicit_source_conflict_groups": 0,
+    "cases_with_source_unsupported_groups": 8,
+    "clear_unfinished_endings": 4,
+    "no_terminal_punctuation": 8,
+    "texts_available": 8,
+    "texts_unavailable": 0,
+    "words_by_case": [
+      {
+        "case_id": "o001-stego",
+        "words": 156
+      },
+      {
+        "case_id": "o001-ordinary",
+        "words": 184
+      },
+      {
+        "case_id": "o004-stego",
+        "words": 167
+      },
+      {
+        "case_id": "o004-ordinary",
+        "words": 180
+      },
+      {
+        "case_id": "o007-stego",
+        "words": 119
+      },
+      {
+        "case_id": "o007-ordinary",
+        "words": 194
+      },
+      {
+        "case_id": "o010-stego",
+        "words": 199
+      },
+      {
+        "case_id": "o010-ordinary",
+        "words": 207
+      }
+    ]
+  },
+  "tokenizer_calls": 0
+}

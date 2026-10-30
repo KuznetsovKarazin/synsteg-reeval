@@ -1,0 +1,19 @@
+{
+  "bytes": 192208,
+  "params": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "inprop": "url",
+    "maxlag": "5",
+    "pageids": "66315|66491|66614|67227|67302|67318|67323|67337|67472|67542|67651|68140|68206|68272|68921|68934|68985|69000|69011|69671|70640|71627|72576|73010|73247|74007|77933|78203|78776|79186|79205|79285|79621|80356|80937|82490|82961|82991|83393|83754|84026|84639|87595|90138|90317|90815|91199|95838|97723|97830",
+    "ppprop": "disambiguation|wikibase_item",
+    "prop": "revisions|pageprops|info",
+    "rvprop": "ids|timestamp|sha1|content|contentmodel",
+    "rvsection": "0",
+    "rvslots": "main"
+  },
+  "retrieved_utc": "2026-10-23T23:40:06.192800+00:00",
+  "sha256": "d043f9dfc15c82e44b0fb2e13059f80b6fa5702a28113b5a574dd40b53d98647",
+  "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&inprop=url&maxlag=5&pageids=66315%7C66491%7C66614%7C67227%7C67302%7C67318%7C67323%7C67337%7C67472%7C67542%7C67651%7C68140%7C68206%7C68272%7C68921%7C68934%7C68985%7C69000%7C69011%7C69671%7C70640%7C71627%7C72576%7C73010%7C73247%7C74007%7C77933%7C78203%7C78776%7C79186%7C79205%7C79285%7C79621%7C80356%7C80937%7C82490%7C82961%7C82991%7C83393%7C83754%7C84026%7C84639%7C87595%7C90138%7C90317%7C90815%7C91199%7C95838%7C97723%7C97830&ppprop=disambiguation%7Cwikibase_item&prop=revisions%7Cpageprops%7Cinfo&rvprop=ids%7Ctimestamp%7Csha1%7Ccontent%7Ccontentmodel&rvsection=0&rvslots=main"
+}

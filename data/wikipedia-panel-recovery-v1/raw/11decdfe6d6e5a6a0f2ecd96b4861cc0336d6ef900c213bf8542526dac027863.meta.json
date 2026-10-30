@@ -1,0 +1,18 @@
+{
+  "bytes": 15331,
+  "params": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "list": "search",
+    "maxlag": "5",
+    "srlimit": "300",
+    "srnamespace": "0",
+    "srprop": "",
+    "srsearch": "music",
+    "srsort": "relevance"
+  },
+  "retrieved_utc": "2026-10-23T23:38:54.068218+00:00",
+  "sha256": "fcc71ecf8c26dbf0a863abfdb1918afbb2f2b2275b3c5bf3b3ddf76336d5f3e0",
+  "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&list=search&maxlag=5&srlimit=300&srnamespace=0&srprop=&srsearch=music&srsort=relevance"
+}

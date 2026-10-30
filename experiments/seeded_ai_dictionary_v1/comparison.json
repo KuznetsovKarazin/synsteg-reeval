@@ -1,0 +1,36 @@
+{
+  "both_json_parse_success": true,
+  "both_strict_structure_success": true,
+  "child_exits": [
+    {
+      "exit_code": 0,
+      "owned_child_pid": 5,
+      "run_number": 1
+    },
+    {
+      "exit_code": 0,
+      "owned_child_pid": 27,
+      "run_number": 2
+    }
+  ],
+  "elapsed_seconds": 42.25774264335632,
+  "fresh_processes_distinct": true,
+  "generated_text_exactly_equal": true,
+  "generated_token_ids_equal": true,
+  "input_token_ids_equal": true,
+  "limitations": [
+    "Two samples do not establish general or cross-platform determinism.",
+    "Structural validation cannot establish English vocabulary or semantic synonymy.",
+    "This is not an encryption key, security test, communication experiment, or deployment-ready codebook.",
+    "No prompt tuning, retries, valid-output selection, payload embedding, or attack fitting was performed."
+  ],
+  "parsed_json_exactly_equal": true,
+  "run_sha256": {
+    "run_01.json": "0786b5ca26b8633676842fc2e1aa173b4bba566318d95169c6e7616e597580f6",
+    "run_02.json": "1c721b0ca8b31a2b14da28c0a1fc5f902e226a5c73283e7443efea7edcd08802"
+  },
+  "runner_sha256": "c8f72d6f576d8f4ac717d8da53d0821b1553dd12a6b09ac4b75faa6c12c29fab",
+  "schema": "seeded-ai-dictionary-comparison-v1",
+  "scope": "One public seed and one prompt, same software/hardware environment only.",
+  "status": "complete"
+}

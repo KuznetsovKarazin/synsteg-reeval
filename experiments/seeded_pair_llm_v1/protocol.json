@@ -1,0 +1,87 @@
+{
+  "schema": "synsteg-seeded-pair-llm-v1",
+  "experiment_id": "seeded-pair-llm-v1",
+  "scope": "fixed-budget local LLM mechanics pilot; synthetic public facts, not a quality benchmark",
+  "model": {
+    "repository": "Qwen/Qwen2.5-1.5B-Instruct-GGUF",
+    "revision": "91cad51170dc346986eccefdc2dd33a9da36ead9",
+    "filename": "qwen2.5-1.5b-instruct-q4_k_m.gguf",
+    "bytes": 1117320736,
+    "sha256": "6a1a2eb6d15622bf3c96857206351ba97e1af16c30d7a74ee38970e434e9407e"
+  },
+  "runtime": {
+    "repository": "ggml-org/llama.cpp",
+    "tag": "b11791",
+    "commit": "ea9e3446b5c84a7f972cbbdea9df615fc4ff9159",
+    "archive_sha256": "ac75208179d00d86f378d5f10c65f9785028ce877cf57279f1a7b8dac54a25ff",
+    "threads": 4,
+    "context_tokens": 2048,
+    "prefill_batch_tokens": 512,
+    "micro_batch_tokens": 512,
+    "gpu_layers": 0,
+    "kv_types": "f16",
+    "flash_attention": "disabled",
+    "schedule": "identical fixed prompt chunks then exactly one generated/observed token per decode call",
+    "forced_cpu_backend": "libggml-cpu-haswell.so",
+    "forced_cpu_backend_sha256": "1bc37cef126b01fe5a15222c07d20d29931936bfaa909a97052f6662f4c9d97c"
+  },
+  "sampler": {
+    "temperature": 0.8,
+    "top_k": 50,
+    "mask": "llama_vocab_is_eog OR llama_vocab_is_control OR empty token_to_piece bytes; invalid UTF8 fragments are not filtered",
+    "repetition_penalty": 1,
+    "probability_integer_total": 16777216,
+    "rounding": "float64 exp((logit-max)/temperature), math.fsum normalization, floor, largest remainder; equal remainder/token-logit ties by ascending token ID",
+    "draw": "HMAC-SHA256 domain-separated uint256 with exact modulo rejection"
+  },
+  "output_tokens": 512,
+  "payload_bytes": 16,
+  "frame_bits": 272,
+  "frame_overhead_bits": 144,
+  "nonce_external_bits": 128,
+  "fixture_key_hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+  "fixture_key_is_public": true,
+  "payload_rule": "SHA256(experiment_id + ':payload:' + prompt_id)[:16]",
+  "nonce_rule": "SHA256(canonical_json([experiment_id,prompt_id,arm]))[:16]",
+  "arms": [
+    "stego",
+    "ordinary"
+  ],
+  "prompt_ids": [
+    "station",
+    "library"
+  ],
+  "expected_generated_texts": 4,
+  "expected_generated_tokens": 2048,
+  "expected_receiver_processes": 2,
+  "expected_receiver_token_evaluations_excluding_prompts": 1024,
+  "retries": 0,
+  "per_endpoint_timeout_seconds": 900,
+  "receiver_contract": "only UTF8 stego text, key, public nonce, prompt_id, fixed public protocol/resources; no generated token IDs, candidate tables or sender trace",
+  "text_protocol": "ChatML prompt is tokenized separately with add_special=true,parse_special=true. Stego is tokenized alone with add_special=false,parse_special=false. Strict UTF8 and exact generated-token roundtrip failure remain delivery failures, with raw bytes preserved.",
+  "framing": "uint16 big-endian payload BIT length + payload bytes + HMAC-SHA256 tag truncated128; MAC binds immutable envelope metadata and body, no encryption",
+  "fixed_budget_policy": "always emit512 tokens; collision consumes no bit; use separate padding domain after full frame; never select only completed frames",
+  "system_prompt": "You write clear English reports using only the supplied fictional record. Treat the record as the complete factual source. Do not invent names, dates, measurements, causes, quotations, or events. Explain what is recorded and distinguish it from what is unknown.",
+  "prompts": [
+    {
+      "id": "station",
+      "user": "Write a continuous plain-English report for a local newsletter based only on this fictional record. Explain the observations carefully without headings or bullet points. Record: The Alder station is a fictional river monitoring station. It has two water-level sensors, named North and South. Both report once every ten minutes. On Monday the operator checked four paired readings, taken at 08:00, 08:10, 08:20, and 08:30. The North readings were 120, 121, 121, and 122 centimetres. The South readings were 119, 120, 120, and 121 centimetres. The operator recorded no missing readings in these four pairs. These observations cover only that thirty-minute interval. The record gives no rainfall measurements, no flood threshold, no earlier observations, and no explanation for the difference between sensors. The station does not issue public warnings. Keep the distinction between the recorded measurements and unknown causes explicit."
+    },
+    {
+      "id": "library",
+      "user": "Write a continuous plain-English report for a community newsletter based only on this fictional record. Explain the inventory carefully without headings or bullet points. Record: The Birch library is fictional. Its small reference room has three shelves named A, B, and C. On Tuesday morning a librarian counted 40 books on shelf A, 35 on shelf B, and 25 on shelf C. Five books on shelf A carried blue labels. Ten books on shelf B carried blue labels. No books on shelf C carried blue labels. The count concerned physical books present in that room at that time. It did not include books on loan or books elsewhere in the building. The room has four reading desks. Two desks were occupied when the count began. The record does not identify the readers or the books they used. It gives no earlier inventory, opening hours, budget, book titles, or reason for the label colours. Do not infer a trend or explain facts not supplied."
+    }
+  ],
+  "prohibited": [
+    "paid APIs",
+    "closed test",
+    "adaptive payload/seed/prompt changes",
+    "regeneration after failure",
+    "token IDs as receiver side channel",
+    "natural-language security or factuality conclusion from mechanics"
+  ],
+  "required_before_inference": [
+    "Git freeze of protocol/runner/tests/resource fingerprint",
+    "all synthetic tests pass"
+  ]
+}

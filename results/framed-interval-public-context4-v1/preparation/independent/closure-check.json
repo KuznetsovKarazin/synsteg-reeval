@@ -1,0 +1,10 @@
+{
+  "schema": "public-context4-independent-closure-v1",
+  "status": "passed",
+  "source_files": 30,
+  "all_declared_files_exact": true,
+  "closure_sha256": "caf435fdb1c84e4515be84beaa2ecdf742a92b4799364255501601236da1f9b2",
+  "helper_sha256": "b97aa4ac71f6a2c6971ae72460d3b65275eff4db1539b34c05e39fb5c32367af",
+  "model_calls": 0,
+  "tokenizer_calls": 0
+}

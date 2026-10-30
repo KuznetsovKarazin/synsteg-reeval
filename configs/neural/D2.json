@@ -1,0 +1,8 @@
+{
+  "kind": "D2",
+  "model_id": "Hello-SimpleAI/chatgpt-detector-roberta",
+  "model_revision": "d2b342c61775d5dd0221808a79983ed3b86ffd86",
+  "tokenizer_id": "Hello-SimpleAI/chatgpt-detector-roberta",
+  "tokenizer_revision": "d2b342c61775d5dd0221808a79983ed3b86ffd86",
+  "cpu_threads": 3
+}

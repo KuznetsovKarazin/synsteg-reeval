@@ -1,0 +1,146 @@
+{
+  "schema": "qwen2-10-source-support-nonblind-v1-review-plan",
+  "experiment_id": "qwen2-10-source-support-nonblind-v1",
+  "created_at_utc": "2026-10-28T21:33:02.527046+00:00",
+  "reviewer_output_access_before_plan": false,
+  "registration_scope": "Prospective review criteria fixed before this reviewer inspects any Qwen orders2–10 output; generation may already have started. This is not a claim of pre-generation experiment preregistration.",
+  "planned_cover_denominator": 9,
+  "source_orders": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "primary_model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "generation_experiment_id": "development-qwen-sequential-v1",
+  "protocol_sha256": "86aaeca60dc6fd67341d8a047338c9444e0ec75a015868683e51e33b2e0a71aa",
+  "job_bindings": [
+    {
+      "identity": "8f479a6c75302cf09dc907f7d4ea4fe7b01563b94c1a9bd8beee6cb8249c9bbd",
+      "model_alias": "qwen05",
+      "original_prompt_sha256": "13700d59064bff7445184e1828bc083a727929c0a1053a4090ece9384ff041da",
+      "prompt_file_sha256": "44a06b308d1479be843d2318a87ed7ad7e6dac30f754580f1eff662ecfc504ec",
+      "prompt_path": "experiments/development-qwen-sequential-v1/prompts/order002.jsonl",
+      "record_id": "wikipedia-panel-recovery-v1-astronomy-encyclopedic-250-development-01",
+      "source_order": 2
+    },
+    {
+      "identity": "fb341b12300d1e3a1309b4b44adbdd830d0c859da6e5edc2e6cfe161d9dc5265",
+      "model_alias": "qwen05",
+      "original_prompt_sha256": "979fb65cd807dee7891c6e44f0d1de6436daba920b20e039265e68c00abbc020",
+      "prompt_file_sha256": "1fa7d30de5d190505592168cc4c788c3ed0a38c29344edc6ee1ec1237d1e278e",
+      "prompt_path": "experiments/development-qwen-sequential-v1/prompts/order003.jsonl",
+      "record_id": "wikipedia-panel-recovery-v1-astronomy-popular_science-250-development-01",
+      "source_order": 3
+    },
+    {
+      "identity": "55b33edb4e2b3e2ecf6a1f432b70be5e700127462eb54cfc9d45b3b1c504c88b",
+      "model_alias": "qwen05",
+      "original_prompt_sha256": "bec7c47e6d260c7c442a934d9eb00c7174208956527bfa531af054d4afcacf06",
+      "prompt_file_sha256": "41f001a53b3be11886e3745133c0ea425a603ed5b179f1661405d7e6b506e5d4",
+      "prompt_path": "experiments/development-qwen-sequential-v1/prompts/order004.jsonl",
+      "record_id": "wikipedia-panel-recovery-v1-biology-educational-250-development-01",
+      "source_order": 4
+    },
+    {
+      "identity": "7b25a85f6e972ecef2ce8fe14673097b248d242f097b7824af682004793adf53",
+      "model_alias": "qwen05",
+      "original_prompt_sha256": "24a80a3762eb8b247dba194901af6e7bee3e659d1dd7285f6a92630a11d2d801",
+      "prompt_file_sha256": "86f0b88cf1b03a4fe2cad9b9084337e0a6b18d6c1789c9e78dc56c0cd1831c00",
+      "prompt_path": "experiments/development-qwen-sequential-v1/prompts/order005.jsonl",
+      "record_id": "wikipedia-panel-recovery-v1-biology-magazine-500-development-01",
+      "source_order": 5
+    },
+    {
+      "identity": "77bdb52beb36df7d71cd9bba36348ad38489be484a37269bcf163938bcb5c926",
+      "model_alias": "qwen05",
+      "original_prompt_sha256": "05968e8773eb237bebbeb2d21ebe048ede8fe39270f1163caa14b07746202fc8",
+      "prompt_file_sha256": "8ef093f17a4794e5704e5532dd015cfbcbf05e46c36130768f42bfb38627d437",
+      "prompt_path": "experiments/development-qwen-sequential-v1/prompts/order006.jsonl",
+      "record_id": "wikipedia-panel-recovery-v1-biology-museum_label-500-development-01",
+      "source_order": 6
+    },
+    {
+      "identity": "b8bf48c268ac939abd9f12d0dfa7e0f93e801e18656ffd9ca451d09f03d8f696",
+      "model_alias": "qwen05",
+      "original_prompt_sha256": "114449ea2989802781ef6060c12a4af39a5fd2a7ff35fe2605a2371e9f9b2ac1",
+      "prompt_file_sha256": "a945e4e2c9acd08b08f915c5e79c018fa37efbd86154e3eb7b401f86362e5e4f",
+      "prompt_path": "experiments/development-qwen-sequential-v1/prompts/order007.jsonl",
+      "record_id": "wikipedia-panel-recovery-v1-chemistry-popular_science-250-development-01",
+      "source_order": 7
+    },
+    {
+      "identity": "192d3c28cdb252880a6cba8c6d285481b5c382f3fb01efa2396ad07418f66ac6",
+      "model_alias": "qwen05",
+      "original_prompt_sha256": "090dfa7e9946bd6f5f607753f90ee70dd0bb8f1c197bff7566717f008b2c8fa4",
+      "prompt_file_sha256": "58681c7b8e448fa52f717dcba788f32428673e97799569f43ec53fd1add274b8",
+      "prompt_path": "experiments/development-qwen-sequential-v1/prompts/order008.jsonl",
+      "record_id": "wikipedia-panel-recovery-v1-chemistry-educational-500-development-01",
+      "source_order": 8
+    },
+    {
+      "identity": "54cf7253358691a1074797cb2915245f4a8cc38993ec70fdbedb3776fdd91bca",
+      "model_alias": "qwen05",
+      "original_prompt_sha256": "715cb785d757509f4fe71fece2b976cde43f275f6019667e14cd8557cf9d3466",
+      "prompt_file_sha256": "8b4d28a8484a8d9cc57ceb05407130990252aea68602dd1767cee877b328941d",
+      "prompt_path": "experiments/development-qwen-sequential-v1/prompts/order009.jsonl",
+      "record_id": "wikipedia-panel-recovery-v1-chemistry-magazine-250-development-01",
+      "source_order": 9
+    },
+    {
+      "identity": "0fe4cd230b9dad66700f3a410d131f26afe785ac4e51bfd2181277d800ff1e09",
+      "model_alias": "qwen05",
+      "original_prompt_sha256": "d31ee818ce922936192a3a6383592bd6e5ab82afaa8bc5ecb0c4c9fb73b72dd9",
+      "prompt_file_sha256": "4b72bf2e377893f28d3cc5ebc37eb8364f0db910b1c0fbad60f367d172e052f0",
+      "prompt_path": "experiments/development-qwen-sequential-v1/prompts/order010.jsonl",
+      "record_id": "wikipedia-panel-recovery-v1-geography-educational-500-development-01",
+      "source_order": 10
+    }
+  ],
+  "criterion": "Mark source_support_failure when at least one substantive claim is absent from, or contradicts, the supplied excerpt. Record illustrative verbatim claims for every reviewed cover, without an external truth claim. Literal copied facts and faithful paraphrases count as source-supported. Aesthetic judgments, causal accounts, new names/dates/events, mechanisms and biographical motivations absent from the excerpt are recorded separately as unsupported additions.",
+  "criterion_source": "results/baseline92-source-support-nonblind-v1/report-after100.json",
+  "criterion_source_sha256": "e74718d03f0ea6ab19c90bd04a666847bb3ae5f6996bf9a655d934b1bd9d81a9",
+  "evaluation_unit": "whole completed cover; at least one substantive unsupported/contradicted claim yields failure",
+  "pending_or_missing_policy": "retain all9 source orders; missing output has reviewed=false and outcome=null, never counted as pass or failure",
+  "planned_fields": [
+    "generation_status",
+    "reviewed",
+    "source_support_outcome",
+    "unsupported_illustrative_quotes",
+    "source_support_rationale",
+    "contradictions",
+    "headings",
+    "hit_output_limit",
+    "stop_reason",
+    "requested_words",
+    "source_words_regex",
+    "cover_words_regex"
+  ],
+  "quote_policy": "Use exact substrings of each actual cover; quotations are diagnostic illustrations, not atomic-claim counts. Include direct source excerpts to justify support boundaries.",
+  "other_constraints": "Record headings/list markers and observed output cutoff separately from source-support; do not reclassify generation outcomes.",
+  "source_scope": "Only exact supplied source excerpt in the frozen prompt; no external truth search.",
+  "matched_tiny_optional": {
+    "allowed": true,
+    "condition": "Only saved Tiny2–10 attempts with identical source record and prompt SHA; no new Tiny inference.",
+    "status": "not_selected_or_read",
+    "model_ranking_allowed": false
+  },
+  "limitations": [
+    "One nonblind LLM reviewer; no independent human agreement estimate.",
+    "Source-support failure does not establish real-world falsehood.",
+    "Fixed9 records cannot estimate all100 development results or rank models.",
+    "Overlap and self-ratings are not evidence of factual support.",
+    "Review does not measure steganographic delivery or perceptual detectability."
+  ],
+  "model_calls": 0,
+  "tokenizer_calls": 0,
+  "encoder_calls": 0,
+  "decoder_calls": 0,
+  "paid_calls": 0,
+  "closed_test_opened": false
+}

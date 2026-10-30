@@ -1,0 +1,134 @@
+{
+  "schema": "capacity-inputs-v1",
+  "repository": "KuznetsovKarazin/synsteg-independent-reproduction",
+  "commit": "64860ac6dc7e7a36170e960b5256e550d12c0c9e",
+  "actual_git_readback": true,
+  "files": [
+    {
+      "path": "src/synsteg_audit/shared_dictionary.py",
+      "git_blob_sha1": "db88a3d9a751d3fb56e2fbe5526ab854585e3317",
+      "sha256": "21dc3dcfb2b0cd6396424280fc2a47695481eb815b29ab2381cfdcf7f2d47d2f",
+      "bytes": 18275
+    },
+    {
+      "path": "data/shared_dictionary_recovery_v1.json",
+      "git_blob_sha1": "7d599b3a2ce08bb8a3e83151feedd483063c4e71",
+      "sha256": "a6266ac3c120a081970e3b74024b8618f2d69c0c1ad98e812135f30d92343239",
+      "bytes": 208816
+    },
+    {
+      "path": "data/shared_dictionary_recovery_v2.json",
+      "git_blob_sha1": "64051c16f3ce149f72e237783c3b125423c4c763",
+      "sha256": "5dafba7b2179b40be560bacfd9ffa783ef98350d07e8d4ac7919c3a0865e6aa6",
+      "bytes": 29071
+    },
+    {
+      "path": "experiments/prospective-development-transport-v1/protocol.json",
+      "git_blob_sha1": "90e7557c5a5ba831e540c5093bfe5bead2432fa7",
+      "sha256": "1220950e061801e1aebeaf0c6773ef103618c2aa3c5689122b59daa3dde3f09b",
+      "bytes": 15207
+    },
+    {
+      "path": "results/baseline-single-record-recovery-v1-root/full300-after090.json",
+      "git_blob_sha1": "35562366b4c524fe496794cfc0112a40507c1e65",
+      "sha256": "b25f56576ec2c47898b80cb95a59e1d70a15e99037a78b6b96a3f430ca4aaac7",
+      "bytes": 94583
+    },
+    {
+      "path": "runs/baseline-single-record-recovery-v1/order083/run/attempts/3db20f50a779df5bbee959a466d3a7d7f1d4a43563b42a794e89bb47ef3bdfed.json",
+      "git_blob_sha1": "1ffce652a6ad2ee0bde1ffcc1ba5619de67cf3ba",
+      "sha256": "bd266a33ba9d7158158aaec08e19899df3c5c7a06b1e4af3c8dd38661b2c2910",
+      "bytes": 3670
+    },
+    {
+      "path": "runs/baseline-single-record-recovery-v1/order084/run/attempts/3273c7455a2574767c5b5e6d6e32dd7feecef4a39a5e230b2f59d0eb245a6d56.json",
+      "git_blob_sha1": "9b6b064e92ecfac8e1327039a866d1dfbae74814",
+      "sha256": "d320ed310f3d3c09eee17c38d4ea6b2f428ac10b6049092fbe625fae8a453af6",
+      "bytes": 5296
+    },
+    {
+      "path": "runs/baseline-single-record-recovery-v1/order085/run/attempts/401a2bef94858d95c0d16312a6eef03d36dfa52c4c511c86586118ac76e4fe92.json",
+      "git_blob_sha1": "b627a57f581d036df94f5440d66bdd8b88ab9b76",
+      "sha256": "b56816a38dc43d113943d376b3ef9fd0758f5aa3fee23606061098ac4cc04f26",
+      "bytes": 3501
+    },
+    {
+      "path": "runs/baseline-single-record-recovery-v1/order086/run/attempts/1edbc05b68ba1b5d88b76d1b8ae1d0ca2bf747bee85bb21f86b8bdbc5d40ce93.json",
+      "git_blob_sha1": "a4718ef6163a30ae19997e069a754b2af5b0c1c7",
+      "sha256": "5656c1a204b59ffc2b3080d04350bbc5356ee219b6539e24374777c552c6c315",
+      "bytes": 3250
+    },
+    {
+      "path": "runs/baseline-single-record-recovery-v1/order087/run/attempts/5b53ab4d5bd80bfe3a8cc9d043ecb55aab2e681621863320277cf0378e4ab65d.json",
+      "git_blob_sha1": "db3ff820e9562c90ec2c6c186ab8747656d1dabc",
+      "sha256": "3a76a87241150e8e35b613c8e60adb10a7a28729c3333e56413bd36058bd353e",
+      "bytes": 3257
+    },
+    {
+      "path": "runs/baseline-single-record-recovery-v1/order088/run/attempts/bdabbf10113abceb3d604469916861b2281b3d768dc8ade58887a1f81a3fa98f.json",
+      "git_blob_sha1": "ba88d9f2cb0b1e57db37a4364a840b79c3878983",
+      "sha256": "91f9d0d01cfd521cb1d11ac2d729f576eeb31b10304fed52f9acfa96eb17ff28",
+      "bytes": 3006
+    },
+    {
+      "path": "runs/baseline-single-record-recovery-v1/order089/run/attempts/6546001a9554bc8ac881146db6a3a4820576abce465e757035098fb1cafc4a02.json",
+      "git_blob_sha1": "ab367cd55eb079def96f789a0c75b66801688e59",
+      "sha256": "31107fc6803fac407c6efc8165219da68301615c99258a0ce0b1d4e5a3a8427a",
+      "bytes": 3514
+    },
+    {
+      "path": "runs/baseline-single-record-recovery-v1/order090/run/attempts/095a83f555da294ed631a41214386ea6352c9ac592307e274b6a0f8545c83879.json",
+      "git_blob_sha1": "7560c5d3bf1cb27ed4b42a222b328c30a5a3652c",
+      "sha256": "0c3f2ea130ee0aaaac961df8faa38fd26e3438507e0f42677e379ae178315e89",
+      "bytes": 3098
+    },
+    {
+      "path": "experiments/baseline-single-record-recovery-v1/inputs/prompts/order083.jsonl",
+      "git_blob_sha1": "26ae2654b58f7f6ac1bd69b9a2ea2f9639ca4a60",
+      "sha256": "fe602b9df8fab2177c42a35f6eedf99e99db0b3f12a52ec246f2b5ad0631fa0b",
+      "bytes": 2701
+    },
+    {
+      "path": "experiments/baseline-single-record-recovery-v1/inputs/prompts/order084.jsonl",
+      "git_blob_sha1": "c22e13d049de55081f18754f678609370cc9c493",
+      "sha256": "9acf01e945b83d0d4fa256e06dcc4d74c5f03401922b30f8bae59d921d2965c5",
+      "bytes": 2734
+    },
+    {
+      "path": "experiments/baseline-single-record-recovery-v1/inputs/prompts/order085.jsonl",
+      "git_blob_sha1": "6f848eb7ddaef63f9ee3373ea26fca2f93e25dd2",
+      "sha256": "1a479367e2d039681e4de6a7368eb18b5a123338c0f5e3f55f053bda04e6bf25",
+      "bytes": 2502
+    },
+    {
+      "path": "experiments/baseline-single-record-recovery-v1/inputs/prompts/order086.jsonl",
+      "git_blob_sha1": "ac03583a12362d9f619ffb18dc6644277a93dfbb",
+      "sha256": "a95c5ed2a3b9c85e8b2942415bbcbbbac8579dc65c641cd95f90cb016c8b16fd",
+      "bytes": 2880
+    },
+    {
+      "path": "experiments/baseline-single-record-recovery-v1/inputs/prompts/order087.jsonl",
+      "git_blob_sha1": "f718f813c18ccfddc55ef81751ba8ee655a497ca",
+      "sha256": "636d09dc160473b7a0322c639816376f2b9a6f69402ea94e9ddd47f4f352f37a",
+      "bytes": 2553
+    },
+    {
+      "path": "experiments/baseline-single-record-recovery-v1/inputs/prompts/order088.jsonl",
+      "git_blob_sha1": "a0ecf7f145334e29c208a2af147f79ae961b2c21",
+      "sha256": "1748222e13b0c878755b450ac8864550225311c7e570a00443f4291ca8df22da",
+      "bytes": 2772
+    },
+    {
+      "path": "experiments/baseline-single-record-recovery-v1/inputs/prompts/order089.jsonl",
+      "git_blob_sha1": "efde4121002cbfa52ccb7b3cf6dc252e744857eb",
+      "sha256": "8dbac3ffb73df11cb25d6126fad35247a604ae54d000b0063bb0b3840b4f0b1b",
+      "bytes": 2709
+    },
+    {
+      "path": "experiments/baseline-single-record-recovery-v1/inputs/prompts/order090.jsonl",
+      "git_blob_sha1": "f5f6597ba4fdda7c239aeee54411f70d6181973b",
+      "sha256": "5b8d684325f3632b87083209c622ebdd9dca456ecfa9ec6f961e5fdc78cae61b",
+      "bytes": 2858
+    }
+  ]
+}

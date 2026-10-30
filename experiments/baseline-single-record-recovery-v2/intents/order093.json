@@ -1,0 +1,16 @@
+{
+  "schema": "baseline-single-record-recovery-v2-intent",
+  "experiment_id": "baseline-single-record-recovery-v2",
+  "status": "reserved_intent_no_execution_claim",
+  "source_order": 93,
+  "record_id": "wikipedia-panel-recovery-v1-visual_arts-magazine-250-development-01",
+  "identity": "50f07bb7ad0f786181923ebce931a6e55e819d40e951dfe0887a15d9765dc15c",
+  "source_snapshot_commit": "4050291345c43776e9c93528b6afe292c062ba7a",
+  "protocol_sha256": "3f09df7d100527135deba9bdc3f308ce3aa8bb9ebb276183c66413a3e2ab7c62",
+  "helper_sha256": "89e94639fae9fef70e1b2662fccb92c73319234db55b237b246b6ba89fafd8bf",
+  "guard_request_sha256": "21aa34e73c91989608d962be7468c2d548e1675651ffffb9f7b941482cbd0e5d",
+  "predecessor_receipt_commit": "128e403477380f32c745002e6c74ad64e518f4b0",
+  "max_new_requests": 1,
+  "automatic_retries": 0,
+  "lost_execution_identity_policy": "Do not replay this saved intent after loss of execution identity; preserve unknown and use a new recovery decision."
+}

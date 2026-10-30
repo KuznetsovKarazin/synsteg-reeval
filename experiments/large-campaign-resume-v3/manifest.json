@@ -1,0 +1,23 @@
+{
+  "schema": "large-campaign-resume-utility-v3",
+  "generation_settings_changed": false,
+  "first_execution_manifest_sha256": "7b23df64b875799cc592640a9aadf7ea6bcd870b525335141169cf93a6003ff1",
+  "allowed_model_alias": "tinyllama11",
+  "max_new_attempts_per_invocation": 2,
+  "full_model_record_denominator": 300,
+  "tinyllama_records": 100,
+  "automatic_retries": 0,
+  "source_sha256": {
+    "scripts/resume_large_campaign_development_v3.py": "46cc6d8d4b0cfd3d876fb329a4eb25b0d638a73ac19908846134433f45ebd531",
+    "scripts/checkpoint_large_campaign_development_v3.py": "157d17339e142dad1d55f02cbae0f93ff10a0a4b8f9bf4ec75c5d8112f4764fd",
+    "tests/test_large_campaign_resume_v3.py": "bed2d47201abccd9252b6536650e78332a02ba790ebef4a6f8a6feabb88c7fa4"
+  },
+  "git_gate": "Caller must read back current Git files and supply exact run_files_sha256 with commit and expected_completed; local receipt is not a remote proof.",
+  "other_model_arms": "Require a separate launch freeze; no Qwen/Falcon execution in this utility.",
+  "limitations": [
+    "First-batch artifacts stay immutable. Cumulative run/ledger/summary advance; every batch stores immutable before/after copies.",
+    "Unknown/failed or interrupted batch requires review and is never automatically retried.",
+    "SIGKILL of the supervisor cannot be trapped; actual ledger reservations remain the source for unknown outcomes.",
+    "Completed generations are not factuality or steganographic success."
+  ]
+}

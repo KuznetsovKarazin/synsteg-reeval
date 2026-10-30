@@ -1,0 +1,32 @@
+{
+  "schema": "framed-interval-bounded-v1-native-prose-independent-review-v1",
+  "status": "passed_scientific_scope_with_explicit_pending_git_checkpoint",
+  "report_path": "docs/framed_interval_bounded_v1_native_results_ru.md",
+  "report_sha256": "eebd2093c300ca5bedc805f110d1be9374f26d53a2ccb01e488d66301dff38cc",
+  "saved_metrics_summary_sha256": "a571e9bdbb08b2a4a199342d287a7dca83a29da3c3b7c1901188ea582890c06b",
+  "quality_review_sha256": "fd1bdba9bc6d4c3922e3af9b90214d4a5ef6327fd458481cbb62b99cd5704b1a",
+  "table_consistency_checks": 48,
+  "table_failures": [],
+  "reviewed_scope": [
+    "All16 outcomes and8 pair table values copied accurately from independently checked metrics; full planned denominators retained.",
+    "8/8authenticated transport explicitly separated from factual fidelity, sentence completion, security, arbitrary message use and population reliability.",
+    "Payload1024/2388token and1024/9876wirebyte rates and128/30128byte envelope-inclusive fraction are consistent with saved metrics; metadata costs not hidden.",
+    "Nonce already included in envelope is not added twice; four32-bytekey setup is separated from wire/envelope and shared1.117GB model.",
+    "Quality descriptions match saved agent annotation summary:35supported,27unsupported,8hypotheses,8contradictions in6texts,2ambiguous;14incomplete endings and12format violations.",
+    "Quality labels clearly not human gold, exhaustive atomic annotations, validated error rates or causal embedding effects.",
+    "Receiver read scope distinguished fromOSsandbox; native bridge OS exit not claimed fromPythonworkerexit.",
+    "Message-dependent activation/fixture hash and need for separate arbitrary-message API are explicit practical limitations.",
+    "Prior1/2 andcurrent8/8 not pooled or attributed causally to stopping rule alone.",
+    "Saved-data arithmetic and restoration commands do not repeat model/tokenizer/decoder inference."
+  ],
+  "pending_editorial_item": "PrimaryGitcheckpoint is explicitly pending coordinator readback. Root must replace that placeholder with actual verified commit before claiming final preservation. This review SHA covers the current placeholder version.",
+  "not_repeated": [
+    "No arithmetic collector rerun",
+    "No NN/tokenizer/decoder invocation",
+    "No source fidelity reannotation",
+    "No remoteGitverification by this reviewer"
+  ],
+  "model_calls": 0,
+  "tokenizer_calls": 0,
+  "decoder_calls": 0
+}

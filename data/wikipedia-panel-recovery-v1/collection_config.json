@@ -1,0 +1,53 @@
+{
+  "api": "https://en.wikipedia.org/w/api.php",
+  "candidates_per_topic": 300,
+  "duplicate_jaccard": 0.7,
+  "genres": {
+    "educational": "an educational textbook passage for older students",
+    "encyclopedic": "an accessible encyclopedic explanation",
+    "magazine": "an informative magazine feature",
+    "museum_label": "a detailed museum or exhibition guide passage",
+    "popular_science": "a popular knowledge article for a general audience"
+  },
+  "lengths": [
+    250,
+    500
+  ],
+  "maximum_excerpt_sentences": 3,
+  "maximum_excerpt_words": 180,
+  "minimum_excerpt_words": 40,
+  "salt": "synsteg-wikipedia-panel-recovery-v1-2026-10-24",
+  "schema": "wikipedia-panel-recovery-v1",
+  "search_sort": "relevance",
+  "source_code_sha256": "f06e6282962c7f085bc64c95f83829e5053117c53ba9d8b2ce2d4833630555b4",
+  "splits": [
+    [
+      "development",
+      1
+    ],
+    [
+      "train",
+      4
+    ],
+    [
+      "validation",
+      1
+    ],
+    [
+      "test",
+      10
+    ]
+  ],
+  "topics": {
+    "astronomy": "astronomy",
+    "biology": "biology",
+    "chemistry": "chemistry",
+    "geography": "geography",
+    "history": "history",
+    "literature": "literature",
+    "music": "music",
+    "physics": "physics",
+    "technology": "technology",
+    "visual_arts": "visual art"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema": "development-qwen-sequential-v1-intent",
+  "experiment_id": "development-qwen-sequential-v1",
+  "source_order": 2,
+  "model_alias": "qwen05",
+  "identity": "8f479a6c75302cf09dc907f7d4ea4fe7b01563b94c1a9bd8beee6cb8249c9bbd",
+  "record_id": "wikipedia-panel-recovery-v1-astronomy-encyclopedic-250-development-01",
+  "status": "reserved_intent_no_execution_claim",
+  "protocol_sha256": "4097035cfdef9e10a4e92a171836686024eb159132322176f0615a339ed28fac",
+  "helper_sha256": "12492e8411eeec4d0e0d4f0a8c2e969b2fb055045213bb5c8d88a29a14c19e0e",
+  "predecessor_receipt_commit": "7cc316a43e0636a2d697183994d372a1e254d5db",
+  "guard_request_sha256": "340c288af5c3d99b67c03e7718c53f181ebae2581ce1d6b011d02963f0c95f0b",
+  "automatic_retries": 0,
+  "max_new_requests": 1,
+  "lost_execution_identity_policy": "Do not replay any saved intent after loss of execution identity."
+}

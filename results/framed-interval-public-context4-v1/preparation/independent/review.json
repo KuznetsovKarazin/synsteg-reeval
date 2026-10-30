@@ -1,0 +1,88 @@
+{
+  "schema": "framed-interval-public-context4-v1-independent-source-review",
+  "status": "no_remaining_source_only_launch_blocker",
+  "scope": "source, synthetic state-machine and gate contracts; not native or scientific validation",
+  "helper_sha256": "b97aa4ac71f6a2c6971ae72460d3b65275eff4db1539b34c05e39fb5c32367af",
+  "closure_sha256": "caf435fdb1c84e4515be84beaa2ecdf742a92b4799364255501601236da1f9b2",
+  "source_ref": "5205e2a0e37611d6dd6326cebd45c2c78f0ce90b",
+  "model_calls": 0,
+  "tokenizer_calls": 0,
+  "paid_calls": 0,
+  "git_writes": 0,
+  "tests": {
+    "initial_campaign": {
+      "passed": 3,
+      "failed": 2,
+      "log": "initial-campaign.stderr.log",
+      "initial_failures": [
+        "backend_error_continued",
+        "missing_status_continued"
+      ]
+    },
+    "final_campaign": {
+      "passed": 7,
+      "failed": 0,
+      "log": "final-campaign-relocatable.stderr.log"
+    },
+    "final_gate": {
+      "passed": 5,
+      "failed": 0,
+      "log": "final-gate-relocatable.stderr.log"
+    }
+  },
+  "fixed_findings": [
+    "unknown or absent terminal status now stops",
+    "backend/contract errors now stop",
+    "delivery_evidence_error now stops",
+    "worker error fields now stop",
+    "exact source closure and context-source binding checked"
+  ],
+  "selection": {
+    "full_development_source_rows": 100,
+    "orders": [
+      1,
+      4,
+      7,
+      10
+    ],
+    "full_four_rows_compared_with_fresh_Git": true,
+    "distinct_source_groups": 4,
+    "blind": false
+  },
+  "receiver": {
+    "fresh_exec_memory": true,
+    "public_only_install": true,
+    "input_contract": "wire + 32-byte key + public envelope/context/spec/profile + trusted resource/runtime",
+    "os_sandbox": false,
+    "same_host_hardlinks": true
+  },
+  "planned_denominators": {
+    "context_preparation_tokenizations": 4,
+    "senders": 8,
+    "fresh_receivers": 4,
+    "endpoints": 12,
+    "payload_delivery": 4
+  },
+  "known_limits": [
+    "32-byte fixture key and deterministic nonces are public reproducibility inputs, not deployed secrets",
+    "one fixed 16-byte payload and one key across four development contexts",
+    "ordinary controls use same keyed transform, not free sampling",
+    "public envelope discloses arm",
+    "272-bit threshold may truncate sentence",
+    "same host/runtime; no cross-host result",
+    "source fidelity and naturalness still require audit on all eight outputs",
+    "context preparation TOKENIZE count excludes additional endpoint TOKENIZE calls",
+    "300-second operational stratum differs from previous 1800-second pilot"
+  ],
+  "activation_requirements": [
+    "Root saves new helper/proposal/closure/fixtures and explicit tokenization activation to Git; reads actual committed bytes back",
+    "Root alone acquires canonical NN lease and executes one-shot four tokenizations",
+    "All four prompt-ID contexts and evidence must be saved/read back before separate execute activation",
+    "Preserve every reservation, journal, refusal, unknown and all twelve planned endpoints; no retry",
+    "After actual run independently audit fullwire/threshold/AEAD evidence and all eight texts before scientific conclusions"
+  ],
+  "reproduce_commands": [
+    "CONTEXT4_CHECKOUT=/absolute/path/to/restored-checkout python results/framed-interval-public-context4-v1/preparation/independent/check_campaign.py",
+    "CONTEXT4_CHECKOUT=/absolute/path/to/restored-checkout python results/framed-interval-public-context4-v1/preparation/independent/check_gate.py"
+  ]
+}

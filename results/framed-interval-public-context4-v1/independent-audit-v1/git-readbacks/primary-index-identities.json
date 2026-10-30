@@ -1,0 +1,20 @@
+[
+  {
+    "path": "artifacts/framed-interval-public-context4-v1/raw-v1/results/index.json",
+    "ref": "2a3be59b6a808464837156753d97f7278880cbcd",
+    "git_blob_sha": "449d0380f5da41dd09b183f92adf0b6d0db6a1eb",
+    "error": false
+  },
+  {
+    "path": "artifacts/framed-interval-public-context4-v1/raw-v1/sender-nonces/index.json",
+    "ref": "2a3be59b6a808464837156753d97f7278880cbcd",
+    "git_blob_sha": "80a8b20f39e59b46794932125f3e743f298c11f5",
+    "error": false
+  },
+  {
+    "path": "experiments/framed-interval-public-context4-v1/source-closure.json",
+    "ref": "2a3be59b6a808464837156753d97f7278880cbcd",
+    "git_blob_sha": "ccee840dcdb59c84b14bfad3989e67f24afdd6d1",
+    "error": false
+  }
+]

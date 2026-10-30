@@ -1,0 +1,8 @@
+{
+  "kind": "D1",
+  "model_id": "openai-community/roberta-base-openai-detector",
+  "model_revision": "6cba99c003b711c7fe94f8a3aa2be35a792cb6fa",
+  "tokenizer_id": "openai-community/roberta-base-openai-detector",
+  "tokenizer_revision": "6cba99c003b711c7fe94f8a3aa2be35a792cb6fa",
+  "cpu_threads": 3
+}

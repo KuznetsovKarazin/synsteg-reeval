@@ -1,0 +1,16 @@
+{
+  "schema": "development-qwen-sequential-v1-intent",
+  "experiment_id": "development-qwen-sequential-v1",
+  "source_order": 4,
+  "model_alias": "qwen05",
+  "identity": "55b33edb4e2b3e2ecf6a1f432b70be5e700127462eb54cfc9d45b3b1c504c88b",
+  "record_id": "wikipedia-panel-recovery-v1-biology-educational-250-development-01",
+  "status": "reserved_intent_no_execution_claim",
+  "protocol_sha256": "4097035cfdef9e10a4e92a171836686024eb159132322176f0615a339ed28fac",
+  "helper_sha256": "12492e8411eeec4d0e0d4f0a8c2e969b2fb055045213bb5c8d88a29a14c19e0e",
+  "predecessor_receipt_commit": "dab49c82b70ecdf985b7699752f3b267558d530f",
+  "guard_request_sha256": "d349411487856d0914d660acf7df59a72ec11e419bfd4d3ef4389aa3db48c2b1",
+  "automatic_retries": 0,
+  "max_new_requests": 1,
+  "lost_execution_identity_policy": "Do not replay any saved intent after loss of execution identity."
+}

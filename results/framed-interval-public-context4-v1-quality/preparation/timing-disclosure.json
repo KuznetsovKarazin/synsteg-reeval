@@ -1,0 +1,11 @@
+{
+  "schema": "framed-interval-public-context4-v1-quality-review-timing",
+  "quality_plan_git_commit": "71d7f6628bb31d9e55a006833f2af73b657edc37",
+  "quality_plan_prepared_after_execute_launch": true,
+  "quality_plan_prepared_before_reviewer_output_inspection": true,
+  "quality_plan_preregistered_before_nn": false,
+  "source_selection_and_eight_arms_frozen_before_nn": true,
+  "scope": "This is a pre-review plan, not an experimental preregistration before generation. The experiment separately froze source orders, arms, payload, key, nonces, stopping rule and budgets before generation.",
+  "output_inspection_gate": "Wait for root-provided actual Git primary and restored raw artifacts.",
+  "review_kind": "Nonblind assistant source-fidelity assessment; no external fact-check or human-gold claim."
+}

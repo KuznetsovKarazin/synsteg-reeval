@@ -1,0 +1,13 @@
+{
+  "kind": "ppl",
+  "model_id": "Qwen/Qwen2.5-1.5B",
+  "model_revision": "8faed761d45a263340a0528343f099c05c9a4323",
+  "tokenizer_id": "Qwen/Qwen2.5-1.5B",
+  "tokenizer_revision": "8faed761d45a263340a0528343f099c05c9a4323",
+  "cpu_threads": 3,
+  "ppl_policy": "sliding_window",
+  "context_length": 2048,
+  "stride": 1024,
+  "dtype": "bfloat16",
+  "precision_protocol": "crossmodel_qwen_base_bfloat16_full_text_v1"
+}

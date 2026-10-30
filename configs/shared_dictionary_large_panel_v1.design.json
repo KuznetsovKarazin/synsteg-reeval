@@ -1,0 +1,201 @@
+{
+  "schema": "synsteg-large-panel-design-v1",
+  "date": "2026-10-23",
+  "status": "design_pending_materialization_and_validation",
+  "execution_enabled": false,
+  "not_accepted_by_pilot_runner": true,
+  "new_generation_attempts": 0,
+  "purpose": "Estimate shared-dictionary trade-offs in receiver resources, capacity, quality and detectability.",
+  "prior_results_policy": "Earlier runs are development evidence; never add them to the new test.",
+  "source_groups": {
+    "total": 1600,
+    "development": 100,
+    "detector_train": 400,
+    "detector_validation": 100,
+    "test": 1000,
+    "same_groups_across_models": true,
+    "unit": "source/event near-duplicate component; derivatives, models, keys and payloads are dependent",
+    "manifest": null,
+    "manifest_sha256": null,
+    "sampling_frame": "One fixed official English Wikipedia content export; exact snapshot and attribution/license manifest to be materialized. Exclude redirects, lists, disambiguation pages and source/event duplicates before splitting. One source per component; header plus lead and up to three complete sentences, at most 180 words.",
+    "selection": "Freeze content-only eligibility, duplicate clustering and corpus coverage before model generation; choose sources by stable SHA-256 order with recorded salt. Do not select on capacity, detector score or output quality.",
+    "strata": "10 declared topic strata x 5 declared genres x 2 target lengths = 100 cells. Each cell: 1 development, 4 detector_train, 1 detector_validation, 10 test. Topic/genre definitions not yet materialized; one genre per source, no synthetic multiplication of groups."
+  },
+  "models": [
+    {
+      "alias": "qwen05",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "revision": "7ae557604adf67be50417f59c2c2f167def9a775"
+    },
+    {
+      "alias": "tinyllama11",
+      "model_id": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+      "revision": "fe8a4ea1ffedaf415f4da2f062534de366a451e6"
+    },
+    {
+      "alias": "falcon3_1b",
+      "model_id": "tiiuae/Falcon3-1B-Instruct",
+      "revision": "28ba2251970a01dd1edc7ba7dad2eb71216ccfdf"
+    }
+  ],
+  "planned_primary_generation_attempts": 4800,
+  "claude_extension": {
+    "status": "three_model_inference_smoke_verified_from_user_bundle",
+    "historical_repo": "KuznetsovKarazin/ei-faculty-motivation",
+    "credential_environment_variable": "ANTHROPIC_API_KEY",
+    "historical_default_model": "claude-sonnet-4-6",
+    "historical_default_is_not_execution_proof": true,
+    "exact_models": [
+      "claude-sonnet-4-6",
+      "claude-sonnet-5-5",
+      "claude-haiku-5-5"
+    ],
+    "budget_cap_usd": null,
+    "no_live_calls_performed": false,
+    "rule": "Freeze exact available model IDs, API version, provider request fields and spending cap after live preflight. Prefer direct Anthropic; OpenRouter needs a separately labeled, fixed provider route. Same full group panel; additions after test inspection are separately declared replications.",
+    "live_calls_scope": "Three development smoke requests executed on the user's PC; no Claude large-panel attempts executed.",
+    "smoke_evidence": "results/claude-smoke-v1-2026-10-24/",
+    "api_version": "2026-10-21",
+    "smoke_output_budget_tokens": 512,
+    "smoke_output_budget_is_not_large_panel_cap": true,
+    "balance_or_sustained_quota_verified": false,
+    "next_step": "Materialize the common source/prompt/split manifest, then execute the development subset with a separately frozen output cap and spending budget. Smoke prompts remain outside train/validation/test."
+  },
+  "length": {
+    "requested_words": [
+      250,
+      500
+    ],
+    "assignment": "50/50 in every split, shared across models",
+    "test_groups_per_target": 500,
+    "primary": "All planned attempts by requested length, with achieved word/token counts, stop reason, truncation and refusal. Requested length is not equal achieved length.",
+    "generation_cap": "Set on development and freeze; no output-dependent cap changes.",
+    "content_retries": 0,
+    "secondary": "Deterministic prefix ending at the last complete sentence at or below the assigned word ceiling, using a fixed segmenter. Retain shorter texts; no complete sentence is a reported category. Common-length windows across models are conditional sensitivity analyses with coverage."
+  },
+  "codec": {
+    "shared_dictionary": "data/shared_dictionary_ai_v2.json",
+    "dictionary_sha256": null,
+    "selectors": [
+      "canonical",
+      "quality"
+    ],
+    "primary_plain_payload_bits": 8,
+    "secondary_plain_payload_bits": [
+      16,
+      32,
+      64,
+      128
+    ],
+    "normalized_payload_fractions": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "normalized_payload_rule": "8*floor(rho*max(C-H,0)/8); below 8 is insufficient capacity, never an empty-message success. For method contrasts, use equal useful payload in the intersection of eligible capacities and report coverage.",
+    "plain_overhead_bits": 16,
+    "aes_siv_overhead_bits": 144,
+    "key_bytes": 32,
+    "primary_key": "One public experimental 32-byte fixture per source group, domain separated from payload/order seeds; paired selectors use identical key and payload.",
+    "sensitivity_key_replicates": 3,
+    "key_replicates_do_not_increase_n": true,
+    "baseline": "Old fixed_quality on identical covers and useful payload lengths; separately count serialized codebook, external length, public dictionary and model assets. Modern runnable matched baseline required before SOTA claims."
+  },
+  "aes_bundle": {
+    "group_size": 4,
+    "within_requested_length": true,
+    "order": "Manifest order, non-overlapping groups, same membership across models; no capacity selection",
+    "test_containers_per_model": 250,
+    "test_containers_per_length_per_model": 125,
+    "payload_bits": [
+      8,
+      32,
+      128
+    ],
+    "primary_selector": "canonical",
+    "missing_member_policy": "Unavailable container retained in planned denominator; no replacement subset.",
+    "inference_unit": "Four-source bundle, not its four texts",
+    "scope": "Secondary; precision is not n=1000 protected containers. A reliability claim at that scale needs a separate 4000-test-text/model phase."
+  },
+  "analysis": {
+    "primary_endpoints": [
+      "Full recovery of 8 useful bits with plain_length16 over all planned test attempts, per model and requested length.",
+      "Paired full-text NLL difference quality minus canonical on jointly deliverable 8-bit covers, using frozen independent scorer; report eligibility and conditional scope."
+    ],
+    "independent_scorer": "Qwen2.5-1.5B base from previous scorer; restore/freeze exact checkpoint, window, dtype and runtime hashes. Family overlap with Qwen generator remains a limitation.",
+    "selection_scorer": "Frozen GPT-2; its own PPL is a secondary non-independent measure.",
+    "quality_ratio": "exp(mean(NLL_quality-NLL_canonical)); same tokenizer/scorer only. Also compare quality to original and fixed_quality.",
+    "ci": "95% paired stratified source-group bootstrap, 10000 resamples with fixed seed; same sampled clusters across model/method comparisons. AES uses bundle clusters. Report topic-dependence sensitivity.",
+    "binomial_precision": {
+      "n1000_half_width_pp": 3.09304,
+      "n500_half_width_pp": 4.36587,
+      "n250_half_width_pp": 6.15087,
+      "n125_half_width_pp": 8.63357,
+      "scope": "Wilson planning illustration at p=0.5 for independent Bernoulli outcomes, not guaranteed power/precision for quality, AUC or residual clusters."
+    },
+    "multiplicity": "Holm correction over the three local-model primary quality contrasts. Other loads, length subgroups, keys and added models are declared secondary, with hypothesis families set before test.",
+    "failures": "Separate capacity failure, refusal, token cap, transport error, unknown interrupted attempt and decoding failure. Preserve all; no silent retries/replacement."
+  },
+  "steganalysis": {
+    "split": "400 train / 100 validation / 1000 test source groups; every derivative, sentence, key and model of one source stays together",
+    "fit": "Vocabulary and transforms train only; thresholds/hyperparameters validation only; freeze before opening test",
+    "detectors": [
+      "word TF-IDF + LR",
+      "character TF-IDF + LR",
+      "one pinned encoder detector"
+    ],
+    "controls": [
+      "length only",
+      "permuted labels",
+      "cover vs cover"
+    ],
+    "report": [
+      "ROC AUC",
+      "balanced accuracy at locked threshold",
+      "eligible-group coverage",
+      "generator-held-out transfer as secondary"
+    ],
+    "pairing": "Stego and control cover use the same deliverable groups for each method/load; failed delivery remains in the separate all-attempt analysis."
+  },
+  "human_evaluation": {
+    "status": "not_started",
+    "plan": "Blind paired ratings on a preselected stratified 150-group subset (50 per model, balanced requested lengths), at least three independent ratings per comparison; randomize order, retain source and rater clustering and missing ratings",
+    "dimensions": [
+      "meaning preservation",
+      "grammar",
+      "naturalness"
+    ],
+    "model_judges_are_not_human_raters": true
+  },
+  "execution": {
+    "status": "not_started",
+    "initial_timing_groups_per_model": 30,
+    "development_groups_per_model": 100,
+    "generation_batch_size": 16,
+    "requirements": [
+      "Actual waited exit status per child process",
+      "Append-only attempt record before each request",
+      "Hash raw input/output and complete model/config identity",
+      "Verified remote checkpoint after each batch; pause if persistence fails",
+      "No automatic retry of unknown paid outcome",
+      "One process owns run lock; completed attempts never rerun",
+      "Single locked test opening after code, transformations, detectors and analysis are fixed"
+    ],
+    "resource_plan": "Measure wall time, peak RAM, tokens and total-cost extrapolation using development only. GPU preferred for thousands of full-text scoring passes; CPU feasibility unconfirmed. No compute purchased.",
+    "launch_gate": [
+      "Recover and verify the previous complete pilot archive if a backup exists; otherwise document the evidence loss and reconstruct/validate required code and assets under a new run ID, without relabeling it as the old result.",
+      "Materialize source snapshot, exact prompts and audited split manifest",
+      "Implement/test scalable runner; this design is not accepted by old pilot runner",
+      "Freeze dictionary, algorithms, scorer and runtime identities",
+      "Verify statistics with known synthetic cases",
+      "For Claude, preserve the successful three-model inference smoke; freeze the large-panel settings and budget and measure sustained throughput on development. Account balance and quota remain unverified.",
+      "Commit final frozen protocol before test generation"
+    ]
+  },
+  "blockers": [
+    "Original completed shared-dictionary pilot archive remains absent from checked sources; exact old final results cannot be reconstructed from prose.",
+    "Common source manifest and scalable execution code are not materialized/validated.",
+    "Dictionary/algorithm/scorer identities and the large-panel Claude token cap, cost budget and throughput remain to be fixed."
+  ],
+  "updated_date": "2026-10-24"
+}

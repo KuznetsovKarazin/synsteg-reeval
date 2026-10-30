@@ -1,0 +1,19 @@
+{
+  "case_id": "o010-ordinary",
+  "final_unfinished_ending": null,
+  "initial_review_sha256": "15d174c27d41788e6aad867683ff2c4b6f33b924aa160f8d49fb39790541a688",
+  "initial_unfinished_ending": true,
+  "nn_or_tokenizer_calls": 0,
+  "no_raw_text_changes": true,
+  "quote": "For educational purposes, students should recognize Houston's role in the city",
+  "reason_ru": "Синтаксически фраза может быть законченной: students — подлежащее, should recognize — сказуемое, Houston's role — дополнение, in the city — уточнение. Референт city и роль Houston содержательно неясны/самореферентны, а терминальной пунктуации нет, но обязательный грамматический компонент не отсутствует. Поэтому явный синтаксический обрыв не заявляется.",
+  "reviewer_disagreement": "Parent reviewer challenged whether the ending lacks a required grammatical constituent; second reader independently reconsidered the literal clause and accepted the narrower ambiguity judgment.",
+  "schema": "public-context4-second-reader-ending-reconsideration-v1",
+  "text_sha256": "216d2f308713da84aa62661bfbc250308d8526075eb49ab40ff617946064ea2a",
+  "unchanged_observations": [
+    "exact raw text and hashes",
+    "no terminal punctuation",
+    "educational metacommentary",
+    "unclear or incomplete explanatory content"
+  ]
+}

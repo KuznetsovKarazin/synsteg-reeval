@@ -1,0 +1,102 @@
+{
+  "schema": "author-candidate-mask-first-v4-proposal-v1",
+  "experiment_id": "author-candidate-mask-first-v4",
+  "status": "pure_support_component_prepared_native_integration_not_implemented",
+  "execution_enabled": false,
+  "known_prior_outputs": true,
+  "blind_preregistration": false,
+  "native_calls_completed": 0,
+  "model": "Qwen2.5-1.5B-Instruct Q4_K_M",
+  "diagnostic_chunks": 2,
+  "fixed_request_sha256": [
+    "15f413e60449231fe505a45091d838f36155d15307bcdf16b27d1215ffa05104",
+    "d9f3597b716fb4fbb888a83ceccd881f94635537132ac5dc00c0748ddd14b4f4"
+  ],
+  "requests_path": "experiments/author-candidate-format-v2/requests.json",
+  "requests_sha256": "0cc5750f8251cb7b10bb29d00ec858d5b005d0df42fb7d2781152c807a4ae421",
+  "temperature": 0.7,
+  "top_k": 50,
+  "integer_total": 16777216,
+  "token_cap_per_attempt": 512,
+  "wall_seconds_per_attempt": 600,
+  "maximum_physical_attempts": 2,
+  "attempts_per_chunk": 1,
+  "same_prompt_and_exact8_or0_schema": true,
+  "key_fixture_recipe": {
+    "hash": "SHA256",
+    "canonical_json_array": [
+      "author-candidate-local-native-v3",
+      "fixed-public-diagnostic-key",
+      "REQUEST_SHA256"
+    ],
+    "purpose": "Preserve prior public fixture bytes despite a new experiment ID; not a secret or payload encoding."
+  },
+  "selection_rule": "Frozen schema-v3 select_token HMAC draw; future integration must bind compatible law and exact evidence. Law-hash-dependent draws may diverge after law changes; no same-draw or causal-estimate claim.",
+  "new_support_order": [
+    "genuine_EOS_special_masked_top50_logits_and_all_contextual_pieces",
+    "classify_all50_pieces_with_frozen_schema",
+    "refuse_whole_probe_on_any_parser_resource_refusal",
+    "keep_schema_eligible_finite_logits",
+    "center_softmax_on_maximum_eligible_logit",
+    "largest_remainder_quantization_to_2^24",
+    "preserve_all50_rows_including_rejected_and_zero_mass",
+    "sample_positive_support_using_fixed_rule"
+  ],
+  "no_new_policy_changes": [
+    "no_whitespace_ban_or_cutoff",
+    "no_top_k_widening",
+    "no_JSON_repair",
+    "no_forced_syntax_token_injection",
+    "no_per_token_mass_floor",
+    "no_candidate_quota_change",
+    "no_prompt_change",
+    "no_seed_search",
+    "no_retry_after_known_failure"
+  ],
+  "passive_progress_metrics": [
+    "structural_whitespace_selected_steps",
+    "longest_consecutive_structural_whitespace_run",
+    "per_probe_structural_whitespace_integer_mass",
+    "positive_support_structural_whitespace_only",
+    "nonempty_prefix_suffix_bytes_per_committed_STEP",
+    "terminal_prefix_state",
+    "remaining_token_budget"
+  ],
+  "structural_whitespace_definition": "Lexer outside JSON string before STEP and every byte of entire nonempty suffix belongs to ASCII space/tab/CR/LF; inside-string spaces are not structural whitespace.",
+  "finite_procedure_invariant": "Every committed STEP adds a nonempty suffix and consumes one of512 tokens. This bounds committed steps, not wall time or JSON completion; the future worker must separately enforce the declared deadline and preserve unknown in-flight outcomes.",
+  "primary_endpoint": "Exact schema completion among both fixed chunks; retain abstention[] and all failures.",
+  "separate_endpoints": {
+    "nonempty_candidate_strings": "descriptive_count_not_capacity",
+    "punctuation_preservation": "all emitted strings checked, including failed quota groups",
+    "POS_morphology_sense": "complete descriptive review; not human gold",
+    "usable_dictionary_rows": null,
+    "capacity_bits": null,
+    "payload_delivery": null,
+    "receiver_eligibility_invariance": null
+  },
+  "failure_accounting": {
+    "empty_schema_support": "record_failed_chunk_then_next_fixed_chunk_once",
+    "token_cap_refusal": "record_failed_chunk_then_next_fixed_chunk_once",
+    "resource_refusal": "stop_campaign_preserve_all_remaining_not_attempted",
+    "unknown_or_process_error": "stop_campaign_preserve_all_remaining_not_attempted_no_retry",
+    "all_statuses_in_denominator": true,
+    "old_native_v3_replayed": false
+  },
+  "native_gate_still_missing": [
+    "separate_new_native_worker_and_independent_auditor",
+    "one_shot_attempt_reservations_and_sealed_journal_adapter",
+    "current_resource_and_runtime_attestation_with_existing_inventory_caveats",
+    "source_protocol_and_intent_Git_freeze_actual_readback",
+    "root_exclusive_NN_lease",
+    "actual_Git_primary_restore_and_terminal_closure"
+  ],
+  "fixed_inherited_parser_sha256": "cb17dd1780f5ee737e6b53454c0c7a911eb7867a9c2d2779f82790201d0b695f",
+  "full_cover_chunks": 109,
+  "outside_diagnostic_chunks_not_authorized_by_this_proposal": 107,
+  "paid_calls_allowed": false,
+  "closed_test_allowed": false,
+  "user_PC_allowed": false,
+  "public_resources_and_fixed_key_are_not_security_evidence": true,
+  "additional_operational_difference_disclosed": "All50 parser budget checks, including formerly zero-mass rows, are stricter than old positive-only schema support; no pure causal success estimate claimed.",
+  "comparison_claim": "Known two-chunk mechanism diagnostic; same key bytes remove one avoidable confound, not a controlled population causal comparison."
+}

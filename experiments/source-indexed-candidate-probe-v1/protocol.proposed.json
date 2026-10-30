@@ -1,0 +1,157 @@
+{
+  "schema": "source-indexed-candidate-probe-v1-proposed-protocol",
+  "experiment_id": "source-indexed-candidate-probe-v1",
+  "status": "design_and_metadata_only",
+  "execution_enabled": false,
+  "codec_execution_enabled": false,
+  "not_a_registered_execution": "This proposal fixes cohort and raw messages, but a source-reviewed implementation, resource closure, tokenizer IDs and reviewer protocol must be frozen before any future model call.",
+  "scientific_question": "Do bounded one-token lexical proposals provide any individually source-preserving alternatives without the autoregressive JSON failure mode observed in native-v4?",
+  "receiver_contract_boundary": "Future source-indexed public template and candidate bank are shared document state, not a universal general dictionary or a compressed dictionary transmitted by the key.",
+  "known_development": true,
+  "blind_holdout": false,
+  "source": {
+    "path": "results/recovery-development-v1/linux_snapshot/development-prompts.jsonl",
+    "sha256": "3190e9b56e83762c5f47c41fc1605b5668d43426000814b8ffbaef47112393d1",
+    "source_denominator": 100,
+    "split": "development"
+  },
+  "length_input": {
+    "path": "results/public-dictionary-full-development-v3/final/capacity-package/lengths-0000-0099.jsonl",
+    "sha256": "2261e67e6d48f54370e70746991e57be936fbcc43cc3dbacbbd807db9f55708e",
+    "restored_commit": "232428f7e4884fd507e223accd4cc698e5f3adcf",
+    "word_count": "Python str.split"
+  },
+  "cohort": {
+    "source_orders": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "planned_slot_opportunities": 30,
+    "positions_per_source": 3,
+    "selection": "First3 maximal ASCII-letter runs with >=4letters, all lowercase, excluding the literal STOP list in the pinned metadata builder; no adjacent Unicodealnum, apostrophe, underscore or Unicode dash. These are proposal targets, not accepted semantic slots.",
+    "all100_metadata": "experiments/source-indexed-candidate-probe-v1/all100-metadata.json",
+    "jobs": "experiments/source-indexed-candidate-probe-v1/candidate-jobs.proposed.json",
+    "absent_positions": "Retain absent slot opportunities; no replacement source or position."
+  },
+  "proposed_model": {
+    "id": "Qwen/Qwen2.5-0.5B-Instruct",
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "dtype": "float32",
+    "device": "cpu",
+    "threads": 6,
+    "seed_fixture": 20261024,
+    "sampling": false,
+    "autoregressive_generated_tokens": 0,
+    "maximum_forward_calls": 30,
+    "maximum_model_loads": 10,
+    "mode": "eval/no_grad",
+    "one_process_per_source": true,
+    "forward_inputs": "Apply exact pinned chat template with add_generation_prompt=True to saved raw messages. Entire source precedes the completion point, so both original left and right contexts are observed.",
+    "top_k": 50,
+    "tie_break": "descending finite float32 logit, then ascending token ID",
+    "probability_claim": "Logits rank vocabulary-piece proposals; no full-word completion probability is claimed."
+  },
+  "candidate_pipeline": [
+    "Save all50 token IDs, logits and exact decoded bytes before any acceptance filtering; missing/invalid probe is a retained failure.",
+    "Decode each single token with pinned tokenizer, skip_special_tokens=False and clean_up_tokenization_spaces=False. Keep only exact ASCII lowercase letters optionally preceded by one ASCII space; remove only that one leading space.",
+    "Require resulting standalone word string to be in the publicv1 member alphabet (data/shared_dictionary_recovery_v1.json, sha256a6266ac3c120a081970e3b74024b8618f2d69c0c1ad98e812135f30d92343239). Original class membership is not reused as a synonym decision. This lexical spelling check excludes many subwords; it does not prove contextual validity.",
+    "Reject unchanged original and normalized duplicates; preserve every rejection and its earliest reason.",
+    "Review each mechanically surviving single replacement in the complete original source for contextual POS, morphology, entity/reference, temporal/numeric/modal/degree constraints and source-supported meaning. Reject uncertainty and reviewer disagreement. Never use NLI alone as acceptance.",
+    "Choose at most8 alternatives by original top50 rank from the provisionally agreed candidates; record candidates beyond the fixed cap. Code serializes the bank with original word included separately; model never generates JSON.",
+    "Freeze provisional public bank and all review labels before any payload/key-dependent selection. Single-candidate review does not approve simultaneous combinations."
+  ],
+  "review": {
+    "planned_independent_reads": 2,
+    "human_gold": false,
+    "external_truth_check": false,
+    "reviewer_protocol_pinned_before_launch": false,
+    "required_labels": [
+      "mechanical_accept",
+      "contextual_pos",
+      "inflection_features",
+      "source_support",
+      "meaning_strength_preserved",
+      "uncertainty",
+      "rejection_reason"
+    ],
+    "reference": "Full exact source excerpt; source-supported is not externally verified true.",
+    "prelaunch_gate": "Record evaluator identities/instructions and adjudication policy before candidate generation; no posthoc relaxation to increase acceptance."
+  },
+  "future_invariant": {
+    "parse": "MaximalASCIIletter runs plus exact intervening literal runs; use publictemplate word_run_index, never original byte offsets to index variable-length stego.",
+    "validation": "Same run count; exact literal runs and unselected cores; selected core belongs to publicposition-specificbank.",
+    "canonicalization": "C_i(s) restores the publictemplate original core at every selected run. Thus C_i(s)=T_i for every validated member of the Cartesian product.",
+    "eligibility": "E_i and ordering derive solely from frozen publictemplate/bank; neither candidate spelling nor secret payload chooses whether a slot exists.",
+    "key_role": "Key+nonce+sourceID+bankdigest+slotID deterministically permutes options and labels. It does not create options or compress document-specific public resources.",
+    "semantic_limit": "Canonicalization is a synchronization proof only. Joint semantic closure of slot combinations remains unproved and must be checked before a future codec."
+  },
+  "capacity": {
+    "maximum_alternatives_per_slot": 8,
+    "original_included": true,
+    "maximum_symbol_options_per_slot": 9,
+    "maximum_bits_per_slot": 3,
+    "maximum_raw_bits_per_text": 9,
+    "framed_plain8_requires_bits": 24,
+    "authenticated128_requires_bits": 272,
+    "delivery_endpoint": "not_attempted_by_design",
+    "actual_capacity_bits": null,
+    "actual_delivered_bits": null,
+    "warning": "Even the design upper bound cannot carry a framed8bit message; this pilot diagnoses lexical candidate quality, not practical delivery."
+  },
+  "accounting": {
+    "must_report": [
+      "all100 metadata rows",
+      "10source cohort",
+      "30slot opportunities",
+      "actual model loads/forward calls/tokenizer calls",
+      "all1500potentialtop50rows or explicit missingrows",
+      "mechanical and source-review refusals",
+      "0..8bank sizes",
+      "per-source observed raw capacity if banks exist",
+      "publictemplate UTF8 bytes",
+      "candidatebank canonicalJSON bytes",
+      "source/bank identifiers and header bytes",
+      "nonce bytes exactlyonce",
+      "key pre-shared32B amortized separately",
+      "model/tokenizer/runtime resource bytes",
+      "review provenance bytes"
+    ],
+    "known_template_text_bytes_sum_first10": 4148,
+    "public_bank_bytes": null,
+    "wire_bytes": null,
+    "header_bytes": null,
+    "nonce_bytes": null,
+    "key_bytes_if_future_codec": 32,
+    "nonce_planned_bytes_if_future_codec": 12,
+    "amortization": "Report M=1 and M=100 uses of the same frozen publicbank; reuse changes setup cost, not per-text capacity or semantic evidence.",
+    "notes": "No wire/header/nonce is produced in this diagnostic; those values remain null until a separately frozen codec exists."
+  },
+  "stop_rules": {
+    "automatic_retries": 0,
+    "unknown_or_backend_error": "Stop remaining model calls; preserve attempted/unknown/not_attempted counts.",
+    "mechanical_or_semantic_zero": "Record zero accepted alternatives and continue fixed cohort; do not replace source or raise topK.",
+    "paid_calls_allowed": false,
+    "closed_test_allowed": false,
+    "existing_baseline_prompts_changed": false
+  },
+  "implementation_ready": false,
+  "model_calls_completed": 0,
+  "tokenizer_calls_completed": 0,
+  "encoder_calls_completed": 0,
+  "decoder_calls_completed": 0,
+  "metadata_builder_sha256": "0a5416e5f97fcb650a133b5d533f861ddca60b47033ef8d2c64da292c9a07c0f",
+  "all100_metadata_sha256": "a154e8215371aa010b4ca3f194d3083a75b784c0ea383231b9cf8e78cd5e900c",
+  "raw_jobs_sha256": "a0d2a989e84a578da1ac2eb4ec66d18ba9151a19b7e06910480c58aa7b6eed91",
+  "postpilot_decision_rule": {
+    "zero_provisionally_supported_alternatives": "Retain the negative result; do not widen topK, replace sources or launch a codec under this ID.",
+    "positive_alternatives": "Report only individual-candidate support and observed bounded bank sizes. A separately preregistered all-position/joint-compatibility and public-setup-cost study is needed before any practical codec; do not select only successful sources."
+  }
+}

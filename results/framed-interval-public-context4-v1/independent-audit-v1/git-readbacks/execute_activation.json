@@ -1,0 +1,7 @@
+{
+  "tag": "execute_activation",
+  "ref": "1fc74126e4682ef4b40c809c67429417358b75c0",
+  "path": "experiments/framed-interval-public-context4-v1/execute-activation.json",
+  "git_blob_sha": "6599b07189850bdb95abb08fbb5113261674fbf9",
+  "content": "{\"automatic_retries\":0,\"closure_sha256\":\"caf435fdb1c84e4515be84beaa2ecdf742a92b4799364255501601236da1f9b2\",\"enabled\":true,\"proposal_sha256\":\"82cad2312c9eb43988a14a312bc3c5df574ec891866eaa5f8a7289825f6bde63\",\"schema\":\"framed-interval-public-context4-v1-activation\",\"stage\":\"execute\"}"
+}

@@ -1,0 +1,1525 @@
+{
+  "schema": "public-dictionary-full-development-v3-input",
+  "actual_git_readback": true,
+  "snapshot_commit": "9ea4f2641926f42afab038d83720c41450751a15",
+  "snapshot_path": "results/mixed-development-full300-20261028-v2/full300.json",
+  "files_sha256": {
+    "scripts/measure_recovery83_100_capacity_v1.py": "fa964002743e79a6fce3f3a008d95eab138387b695ea095e529f675c9022ff0f",
+    "data/shared_dictionary_recovery_v1.json": "a6266ac3c120a081970e3b74024b8618f2d69c0c1ad98e812135f30d92343239",
+    "data/shared_dictionary_recovery_v2.json": "5dafba7b2179b40be560bacfd9ffa783ef98350d07e8d4ac7919c3a0865e6aa6",
+    "results/current-git-status-audit-20261028-v1/no-replay-guard.json": "ed7c17d68df5cc524ec8e441f3febb2a96e6d8108eda6f22f2ac154fae74db0c",
+    "results/mixed-development-full300-20261028-v2/full300.json": "165079b8a4c992b75a5502e774bfbcef4668944db394361e98e3a55a5f15647e",
+    "results/recovery-development-v1/linux_snapshot/development-prompts.jsonl": "3190e9b56e83762c5f47c41fc1605b5668d43426000814b8ffbaef47112393d1",
+    "results/public-dictionary-full-development-v3/inputs/order081-original-attempt.json": "3d3dea87e568246a6cec8fabdf3cd216a625e7bc45fb1d3b1b785b619d314faa",
+    "runs/development-other-models-single-record-v1/qwen05/order001/run/attempts/0a84e1d786f3086691f0c25a18fb3a3cddd82bbd003e05937ce8e5d2ea777200.json": "ea7e56bc6757645fda6c8cfbdc7e30c320b825173fd4443a822e45f2d5db372c",
+    "runs/baseline-single-record-recovery-v2/order100/run/attempts/0b35fcc92405624c5967d043a42bfee9d54c8ff2b0d9580fa51139b6172cc02a.json": "6ce92731c59e4b8dcc5287293feddcf369fb55ea8e6ee7480736a0884c3f69fe",
+    "runs/baseline-single-record-recovery-v2/order093/run/attempts/50f07bb7ad0f786181923ebce931a6e55e819d40e951dfe0887a15d9765dc15c.json": "70c4d07dc5e9d362c084b895af4a90550ca079e1cc79d824684585d4aa1f3196",
+    "runs/baseline-single-record-recovery-v2/order096/run/attempts/b793ef1ee9be8b8edeccea848745ec9a114312c0ac1f8bb8e3c312ed979a45f0.json": "96656666e5b3920fa4bcd8b1c26e29c38b3e0ba1391589a4cf313a3030ef2b8f",
+    "runs/baseline-single-record-recovery-v2/order097/run/attempts/0ea3d93dd10890f02935f5921c07bdde466be3370d56ab5cba514374a8c5166b.json": "bae9681c7ad563276e4f94e8a62f5cf6881f3de48da1f430e4323b0c44daaf95",
+    "runs/baseline-single-record-recovery-v2/order098/run/attempts/1627e32e430110a051f1edca6d84fcb64c6ee9c706e15853d604ddc4859677a4.json": "9e8ec7c8ed7ae1f78b90c422c88d47ea556c752595a4d9ac8a5eab3c9428e8a3",
+    "runs/baseline-single-record-recovery-v2/order095/run/attempts/3edf37373161968c4a8ea18e59a737109f0c8e13c397a10e9fc0f7e1dfe5aa31.json": "70ee139ae43952bce40fef85a7941350bbed2a5c17326783a8b5e816e2c03ab5",
+    "runs/baseline-single-record-recovery-v2/order092/run/attempts/f7560c27fbe389bd70d3e6dd4e0a9b897735fe178605b0d7f052a6157082a518.json": "6a4faae87375c71b7ce077ad6d5b43f2f6131b46f6343961f453ef7f818fe7fe",
+    "runs/baseline-single-record-recovery-v2/order094/run/attempts/22017b11f3b7eea255029e03f34c6b10af7e2496738db254f446819d54c295cf.json": "750201e7adeaea55ba6374f7a71daa0216de9baa72448c649e133b55cf04d331",
+    "runs/baseline-single-record-recovery-v2/order099/run/attempts/b5359938d01d4ae9f7d23ba9ef1444588e61a5302ea8b1511e344b7104786bf7.json": "59cdbc3ac4ffabca570b1b13ba083bd101c2a0f883781d21e1a5d5b5b765f2ef",
+    "runs/baseline-single-record-recovery-v1/order090/run/attempts/095a83f555da294ed631a41214386ea6352c9ac592307e274b6a0f8545c83879.json": "0c3f2ea130ee0aaaac961df8faa38fd26e3438507e0f42677e379ae178315e89",
+    "runs/baseline-single-record-recovery-v1/order085/run/attempts/401a2bef94858d95c0d16312a6eef03d36dfa52c4c511c86586118ac76e4fe92.json": "b56816a38dc43d113943d376b3ef9fd0758f5aa3fee23606061098ac4cc04f26",
+    "runs/baseline-single-record-recovery-v1/order088/run/attempts/bdabbf10113abceb3d604469916861b2281b3d768dc8ade58887a1f81a3fa98f.json": "91f9d0d01cfd521cb1d11ac2d729f576eeb31b10304fed52f9acfa96eb17ff28",
+    "runs/baseline-single-record-recovery-v1/order086/run/attempts/1edbc05b68ba1b5d88b76d1b8ae1d0ca2bf747bee85bb21f86b8bdbc5d40ce93.json": "5656c1a204b59ffc2b3080d04350bbc5356ee219b6539e24374777c552c6c315",
+    "runs/baseline-single-record-recovery-v1/order083/run/attempts/3db20f50a779df5bbee959a466d3a7d7f1d4a43563b42a794e89bb47ef3bdfed.json": "bd266a33ba9d7158158aaec08e19899df3c5c7a06b1e4af3c8dd38661b2c2910",
+    "runs/baseline-single-record-recovery-v1/order087/run/attempts/5b53ab4d5bd80bfe3a8cc9d043ecb55aab2e681621863320277cf0378e4ab65d.json": "3a76a87241150e8e35b613c8e60adb10a7a28729c3333e56413bd36058bd353e",
+    "runs/baseline-single-record-recovery-v1/order089/run/attempts/6546001a9554bc8ac881146db6a3a4820576abce465e757035098fb1cafc4a02.json": "31107fc6803fac407c6efc8165219da68301615c99258a0ce0b1d4e5a3a8427a",
+    "runs/baseline-single-record-recovery-v1/order084/run/attempts/3273c7455a2574767c5b5e6d6e32dd7feecef4a39a5e230b2f59d0eb245a6d56.json": "d320ed310f3d3c09eee17c38d4ea6b2f428ac10b6049092fbe625fae8a453af6",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/5207d41f1abee8e39ea42082390827ada6aa433282e5969be34885a51c761121.json": "3c565692aaddca3174fe113f72c96736fbe3cb0e078f23a6f44555aaaff2be60",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/eaa70460f9004bbdf7043e18d4272015f6c94e627c84deaec6f885b33eb38b08.json": "1d85822551a291d84f49fab0a5d643a0c615a7082eeb2a5474847dd8cfbbd3bc",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/357d40b14bf9b522a3f68108a99a219fe4b5e47fce00200af99b1d43a46563de.json": "9a47c0f0c6ba0f0cee5a1b4424e194a3efec4028d3a5734c3bf2628b77e12a19",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/2ffc561b8a424c117ae63626e8b005fc54b82e92c6e6e79753eb6dc76bd39d78.json": "0bd469d29acc0205c76a356a2550ab85b90f53bb90bebb7eb63253db617dfdfd",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/94f456641a64ac3011d72ff29029b47515ca1a25262ac06bae1a96f6f11f9e85.json": "f00591467ed862c4e610baf5ab001324bd7862a1615f794f654fd85bc9de62ec",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/3658cf19a8f98292ac74dc0be883200af880cd98c49c4c9368cd86114f79b9bf.json": "135bdfc8a2940d2ec4cd82c3a1820370babe82bb718e2232fe192b8f271c898a",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/f2a286a1400242e18cb08d2755a379b6f32924e9ff9b05a4145747625f132a84.json": "bc46e436e879f56932c5d9fae8f76c77c82d62455a643fda4f8e2469c7d4f3d3",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/190485a48e912ac338c397edcb07c11c86fc7842e18dd7809fd49f4b9321d97e.json": "2dd33ed2bdb613160bdcbf04924d819001c1f557e219d5bb373c40179985cea2",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/73fcc4d31e8398f9fdc812ec28fea1165924d1da8239e4d77e00cc125c4fd7bb.json": "d639f4520e0dedca91a6253b737d57978bda6cd5b3c30946abbac2c5c96d7b09",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/1241963e99138a61c3e0036f1672db25d93c3b6628fa1d304ef35a84e3180bb6.json": "4ea9c504bcc713a64c1afd3b39705e64b413b10ddf1b861974d951f6c1b8d25a",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/0d371289e009843668ca744cdfd454ebbfddf301e1156946189c29d284581dd9.json": "63dee0656f0fa79c579fdf713c62bb3a4c3005486143a17bcb0a09e27577035d",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/62167928572d024f2784af56ab6e6c77e45b4f2c4d2dbd318578ad82c14c0285.json": "e30566f107a1a5c62c507af0f7416c4b5e9424e418d18310eb66911031b4e198",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/58bdade23667572ffcf424e3cbcee9e72b4f38615c66d2e6344aa6d192b35901.json": "df4e3647ced129197ef1aef1ed7dc445a20976ef05427e2c0d1901782dfaefe9",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/e9511da3cf80afc0829d0f3705be6d79a4ecb2e44cce421d601e0dd188e38de9.json": "5eaeedf368b4efbfece388c0a8573b2e0b969cb0d1db6fcb460e7f76d798dd44",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/cde4c2a873d6601cb9a8d9b4a7af7d5b2a9fb29ef2af9a0eac10f1605f56958d.json": "d2dbcc986236f3e717292ea94eab1c676d4cabd199967abb3b4b87b7c6887398",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/2686f0ef805959cf7f02e61c51993a172e510e5727ef0469dcdf9f2db7de7ead.json": "d123ae3881443be64689852d253422b00533370da30a6451bb27c05f82d30206",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/46222759157953dcad442931c3cbac7ac3fe8b38d3b81f59f60f4db51af15a77.json": "c80a4591346afed58fbe5eee2c40ac08e71f7bc9e14c015d70e26b9dd1695a42",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/72318edecdebb655c6328a3ddd1a6469ee42816759b98ce6a9a2fe72c680611c.json": "c77e78c464af2d943d16dbfaaf89cb8c99a6d359d348d996be602d80a75e705f",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/4acedab58f92772557e90be14b3772be8b902a9bcd248da4e13e60fb78056df5.json": "861b094913a35c067874ac2ce27f48c7deda207b7045ced6934a07d3dbc9c756",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/0b9fb8cb870fbd02bf206c3965a4e43ddc9cdaaac38a1a348f315e3b076e8296.json": "df40799bfc7519121563c957742c76a3cd648c8be3eeb5e2f9b0ff2934f982e8",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/00aa7b3f16a5cb5bdae92568abe0a82e1febbb09d03ba64fe2b97be39b728909.json": "f35785d8d7337df45d0bb444ec62fbcb3f5f03e31784769bbe0298c2856980a8",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/12f3c7c9e4949f4a770a3b87ea859b45502bc0d1fa5cc203b12b62aef5f0e47f.json": "7bcb9904ba908dcc23d4d1102b84eb797a8560d04c066b6492a6a1163bc67511",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/675d8d10da3065d3c0c2f57c3e2215932729cdeae973fe86017ad93eb4f00655.json": "d2fa5a620c0de426fd3b48ba60af0bfbc0ec340cad899920353d13a58ea8c8cc",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/280341cb8bc1531c27e3e514d974491d067e8715ad1b877cfd5382da14441cde.json": "de0037d815dc1818c464ed12307cb5c0cb49ef9bdaa089dc99433a9f6fc81c07",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/29574fdd8460e8d803d827ab2fcb57cd2776a8ddca3edffd59d9658a35869327.json": "f00d5586533829601f1efadc39fd6549ad367cc07fe79abd0cb7e898be80f459",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/c82843a3afd114eff330668dfa24591dce41850a2b1ab10aa9f4676d3daa4127.json": "65d7be72c5595a322a0eb77bd2918ed4b3e54a4fac87e5e197c7dbf01c5c85a6",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/e1dc5a3f2705bc69263464101387c74e3a5420603b4a24883bf1cd67167d8135.json": "be88ff839d41760fa85455a2784451190839a929725fc63b6413fcfeaba02c25",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/cc3796a8283abfa62bef0f0725725aa698d40cd16f68bf48a13fc12ad8062da2.json": "cf69e71c3f433eadf48b4d1c7123e750d668c6d3c398a01daa278cc6c1f09739",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/088f4488af578beeb80e7b6c6e57469f0a2e5228ab4586502baa2489bf339ae9.json": "2060fc01ed4d7e8fff63918f97c7b7bf6e6b2411f85f27afd06e081156536f0c",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/06f099c3492d4c02ebca8c4e903ecd6fd117b32c22120350eaf38caf8cf2f34b.json": "e1f30d6b46e601de0e4e7eef3e65ab52b39f22dfcde382869b5c1a77452fb22f",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/2230a7e40480e23b10ad146a90acb151cf8835534cafa6c3967a5035271c5368.json": "1e55310ff0c7fb1d7866ccfd7ae87f53dca4219a3685689232276ae8967ec179",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/ab6c0aa9dc8e261e92073379661280ddd3f185c9c8a6b03a419109c3cb2d34e9.json": "346b5fb333d50d3e06c8ca46d19d51302cf4116edb1e5bbcdab0b3039464ff31",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/1a1e059d80286ecab2bcb603fd4dd14c1a827e1c1688398a325adea021ac568f.json": "528cda2728e7448ad35fffeed14a2d413efef4aa70b30a44ac4b23ab99c6bce8",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/e6883738753118f4b88d23ed3504fd0f3bc4d3884a940dd077da4b882ad200b7.json": "1e83278c7d34b32532c870aea1aac9adf20edc9634103477fcab237aecf955ab",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/58ffb228ef1c9ab93006c2dedb2422f3c89e42c9a5fdb7918cbd9ed60499af39.json": "297a9e679c37cb7670e5ed7a6b3070e13387e41d8f0434788b37f231462b8c5d",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/71da495eedd164c2a06458d1ca5eb989208c46dafff97aa35caa06c6ea910146.json": "b1e3600208d8051794e78f411c8e3a9d09670fbcc09484a78784e18371017e40",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/c68c210a3870114681570269ade102e3183f8e721768239a1ed73cc3d8c5b13c.json": "ae273365879375a1f6b8f5abfc93925a8d2ed0fc7753c8a00e9a713f842bf935",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/c571e14937b6ab71f4ad701332f28c81488508626fde40b0faa1a9f62bcc4959.json": "1db0f1f08b5ca9b736b15ac7c357ed12de81c08fe33195ec0b9e0b4327ffd9b7",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/40227a6199bc3acdab29b85d30b8fd6f009f26e0a61801937ec1f2e9c5ba5537.json": "3630e10e885e31d4e7c849bdc29d13cc62271f81d63a5c597465a14325a98049",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/62c8fcc5a3da7e757ea914350e5e6b07acf8398dc44bb4282226f556455cfd7d.json": "be23910560d80e5bb185cbbdc08bae1efd00bda82ce7a62ca0730c79a97afc99",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/3a13c0dd9c717455a44e6d71906614668196fc22f459c8ad2b58738f7dc5cd28.json": "e487e1ad5976611151758bbb58566f5b61f1404d00ce967b992308157aad0c7a",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/66c58ab7bb1ae0a67b7127bbcc8e1fc07a3eaaa8ee3f365e778ba2601f0ccfbe.json": "eda1e0623438da6995949d32ab359e1ada134a37f17bd389e6ef5284a24fe0ce",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/ce0d7c98b0959e887dc0027fc2b3ba82114eaf250dc8e2cb4e38a322a02aee67.json": "7963398c68cdacc37adb40577fe6c10c2f267aebb1f367d5ec0cb803ad0ae42b",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/8b5f734b83488f29d8d221f32af0a618f470b362903c36d25b0d6a7085069728.json": "96a60b7efc632febc34276734ff531537dd0fb33685bca78e022969ad7917336",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/5d7dea06c7378a7a7702831ea365c60b6d52a7084dfa36e73d66928e59a2464d.json": "6da0aaf1ed84932e2e9178adb3e6e210521231e697817a4f765f4ae4c54e049a",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/e76a12bf7b47dc2ed7e410834df56291a6b8d630bf2012e920d0ec93b99dcbb3.json": "16f5d4f16bc476925b01ee8c535760f0cb42544795cf4f70b4933775dcc5a719",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/94e786fae4b9252b4e87f119811af798759a1b9705dc53b5ac9b725044fe65d4.json": "20719190ae78a618a827d339d33182ede5d2beadb2b1daaee02eff134796189f",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/56ca6d54ab3a1609971d5ff9700b136f6d9d7894f8563fbb9782d2b987649c0b.json": "7c43a7492060b9edcaac5ddd21f9f1c0e02a4a59f63da6ade2325aa41cf34361",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/860dd50df65e833a5a363e890768b99d1e8cab8e8348304b8b227fb901a35bb2.json": "66c25d67c35ca323feb1e18ae04c8830027d3dc6858b3492c28498117e03d197",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/ff914899054b27fd38a9b89ea9488556847646331dd868d6c6cfd47160dc361f.json": "7b45bd5cccb6f4970e2ffef8eb844e4de40129291fe2d614e87ede53f0052b7a",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/be82fa5a74dbc4b8586e3c4474dedd7721aa42ddb729055437807457af958d47.json": "1bd6c2af25cb4e989f78a2112f9d71c47379b2fe81930f0d954f995067dfa6cc",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/7c6a4fdd6fec04423f068ae8e901ec4240a25f3c0b865907adefc3014321a829.json": "b82a6b1d806394fa9c88354b18dc440fc78d920234e76339926cc4618cc93a06",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/a585aa76b9d4737ad05a01397453bf32b0c7ec203f1b6841206db4d4a7f7f251.json": "80e05814ec1259a2f22db3610b49226cfdd8cde4566be35428d87ecb62e3ed19",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/c6b2dcadbd67e1af783f2ee3f1d1ed501ed1a9f61e07fa81b2621e652c6840e8.json": "ad79a2a8e13bb4562f7563daf94e8666262a19c59c1a1236a1b6720b6036d992",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/5d9c684f25949a3ce1b99044426374e211476122000a9af149ccda5839937d1b.json": "ef723d0523648ad60913f528173c57c00c9718b8c45df767c231be2fef1317d6",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/3c9f22c6b6de3cf38bf82058680a9a47dbfadc83a0aa4d9c9763163bb0520281.json": "9979bb7becec64aa6d69e9fb5942a8df45bac609311c96a57e9dd26cbdf52b42",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/f7cfc5ec658a2f8d3c69954515ec22623ed29bbbf6c567f8a2895bd488eef180.json": "6b68eadafdfa2ed505a5392cff92153a3ecfe993ecb1bf9b9242cd6ebed65313",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/90502bb7188c058b75b4a3b34f269a42fd6be53075ae764514fb7948cd7a3f22.json": "d88ef7003a040470c9f488bd97aa4c197aa7690a9506be7ef9a584dfc0fa9fc9",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/b7669ca1dc4cd31842d00266c0f8f6200963aa3412487c9a944bb9f77e57ed25.json": "3c33176082416137fc86821c9ade1075caf5a9ae8e722a6ceaac47d69c22caea",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/178a9da261ab72d84d43c5c854e16d9f60efc74093d06c2f2fba7b549717528f.json": "33fba21f394a336378ff384663ca7cdede249aad1dd77c34280a0b12b513ec85",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/1942744f6721444574c54dc8ed2141ec35915d9a953bf7bbedbbaf27756db927.json": "9d02333330ea1702a69d1004c7b494cc9b402f56d02478c373a7e89293c54dd1",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/81738dec38acc1a269bddfb624f2be7f58e80ba528c25c257d03996a956d6711.json": "9c0f54b344b633d94d5efbdc89ae3937d83fac8aa540b8c47c05bd5a26cd1767",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/e5f34ae2852df00a511efd18bf3a514fa541523c65ef4ecfbe6a75169de3129f.json": "493984c3871923d89dcc31dbeaee6b670b63cb6076c5d43e62ae859aa048099c",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/35f4b228433b08276b2808721d7b4d0b1c92157d81d63281409ee02b9fa268e6.json": "1d5af835d749ac174f34e0c79da445a3801a6131d8569a9c827b5fe7fd5a1478",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/f0370457e502bf20c12888e5d95e74f961e623f87bed7f47134903e14ce39473.json": "e5a2eca8aaaf688630a02a885852af1db5601dddbe29536787732616c0259e0e",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/ab9c3195a347bb8df1a1f2938f55ed6c0a3789adc059b76ac3f949fb7aa82890.json": "a7b4d3282220bdb0c90f93989fce8eb5f73e8a65738f6a8f38771a40506afcdc",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/19c3c883f7b18d749f5e0cd161a5e1afa1d0917205785100f158d86f31959948.json": "16489d85574e131b4a9ec32cccc1bdd00df298827d9ccd9114ce16e47abb7516",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/1d2ea1bc2fe5783bccdc17d249f0b271b1da3afa4418274b7d6144f95a4cec8f.json": "bd4d1317edd7abc04ddfa76bc87a5bbe7545db463b4650444720afd22440f902",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/9d05f97b4a32f2a3cd9078a5224895db12016eb09d10f039e6e6bba30fb4d9cb.json": "3223bea62c7e8f0d7981d63034a31eefc195cca7a61b9bf3855cfb42eab6729e",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/497b18ef6d340e93b7fcd05c0cc68fe137c557de44f1fdc4e2df352ffa8a120e.json": "e31def168a8cf9168a9309137a6a25820669e96e38ed2a0a3d3df1acc750c823",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/d712e1676c6a47eaabab4ba24551b502a12b0e6088713aa212d40f2e7e234bf7.json": "cecee5c78ace81a715ad9237512d5e29a108b488313b631996b423288227d195",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/7842a70d4731b37e51836ffa6acac54e26841e9305cae598a7c963712575b52c.json": "5bd4de3ab29693a3d2763b4edf9ef53a298762d28ebe62b4a473a4a7282a18d4",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/c432ee3941dcc17153bd22ab1a107a423034a99422c3d0ef443dd56b8f2c865e.json": "aa28628de94d674f3a1d1f077f2ee40a20f9135babf12c6ca4b0dd25bbe985be",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/de924edabed6e2592b48152ec6003ab9e9b3a4affc6889f8a7f47ed3320da36a.json": "22cb62aabf70517b9a85e2b9c78eff6daf82b0cbaf89e5968e51870447290484",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/a022a052efbb15ed87e7c6fc6a980c4492d4a5f8983324e2f52adbf5880c237b.json": "648b45cda3fe74fda1be856cff97639239e8275db9a11251397a329361bf6183",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/73d94f51636e2c0b9f0a70cdc2e927cd21016ab151751ef9f026468f226f9223.json": "a77f4342526247422a95253d9521d832a60a0b12307aaae68d265bef0c26a296",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/8fe9dc20d8762b074520b168f40ffb8a1fdd8c6198673a182b6606d91664903b.json": "b5e8b81a636c4287483f90b45eceeaac765236350f292f03ac92e43f314e7188",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/1534a5836143e06ed1230a507be5a8ae684f44593767ed4d6211bb6b4200a9eb.json": "eb387e143405f3677be61a5ca4147947dcf841399dcd7ea5114fcc2fbda0fd3d",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/09335ef2cf5bf1946bbc38cdde50ee629708956ec3bc335a822e916351a7ab14.json": "0e6ea04a0aa2ff26f3086f5505f996fda6393aedc074deee95bb7b5c345182b4",
+    "runs/large-campaign-development-v2/models/tinyllama11/attempts/c4c64553e85fc329d02ee8a29f9e0d8751885b52e595a40d625cda06342696b9.json": "f765550c6223be23509d13b7b6d27ffc1c8769e55ad71a0f4dbcd16ac3f835da",
+    "src/synsteg_audit/shared_dictionary.py": "21dc3dcfb2b0cd6396424280fc2a47695481eb815b29ab2381cfdcf7f2d47d2f",
+    "experiments/prospective-development-transport-v1/protocol.json": "1220950e061801e1aebeaf0c6773ef103618c2aa3c5689122b59daa3dde3f09b"
+  },
+  "cover_sources": [
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 1,
+      "record_id": "wikipedia-panel-recovery-v1-astronomy-popular_science-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/ab6c0aa9dc8e261e92073379661280ddd3f185c9c8a6b03a419109c3cb2d34e9.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 2,
+      "record_id": "wikipedia-panel-recovery-v1-astronomy-encyclopedic-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/e76a12bf7b47dc2ed7e410834df56291a6b8d630bf2012e920d0ec93b99dcbb3.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 3,
+      "record_id": "wikipedia-panel-recovery-v1-astronomy-popular_science-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/2686f0ef805959cf7f02e61c51993a172e510e5727ef0469dcdf9f2db7de7ead.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 4,
+      "record_id": "wikipedia-panel-recovery-v1-biology-educational-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/4acedab58f92772557e90be14b3772be8b902a9bcd248da4e13e60fb78056df5.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 5,
+      "record_id": "wikipedia-panel-recovery-v1-biology-magazine-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/357d40b14bf9b522a3f68108a99a219fe4b5e47fce00200af99b1d43a46563de.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 6,
+      "record_id": "wikipedia-panel-recovery-v1-biology-museum_label-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/40227a6199bc3acdab29b85d30b8fd6f009f26e0a61801937ec1f2e9c5ba5537.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 7,
+      "record_id": "wikipedia-panel-recovery-v1-chemistry-popular_science-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/06f099c3492d4c02ebca8c4e903ecd6fd117b32c22120350eaf38caf8cf2f34b.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 8,
+      "record_id": "wikipedia-panel-recovery-v1-chemistry-educational-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/1d2ea1bc2fe5783bccdc17d249f0b271b1da3afa4418274b7d6144f95a4cec8f.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 9,
+      "record_id": "wikipedia-panel-recovery-v1-chemistry-magazine-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/71da495eedd164c2a06458d1ca5eb989208c46dafff97aa35caa06c6ea910146.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 10,
+      "record_id": "wikipedia-panel-recovery-v1-geography-educational-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/5207d41f1abee8e39ea42082390827ada6aa433282e5969be34885a51c761121.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 11,
+      "record_id": "wikipedia-panel-recovery-v1-geography-educational-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/280341cb8bc1531c27e3e514d974491d067e8715ad1b877cfd5382da14441cde.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 12,
+      "record_id": "wikipedia-panel-recovery-v1-geography-encyclopedic-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/1942744f6721444574c54dc8ed2141ec35915d9a953bf7bbedbbaf27756db927.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 13,
+      "record_id": "wikipedia-panel-recovery-v1-history-popular_science-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/cde4c2a873d6601cb9a8d9b4a7af7d5b2a9fb29ef2af9a0eac10f1605f56958d.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 14,
+      "record_id": "wikipedia-panel-recovery-v1-history-museum_label-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/3c9f22c6b6de3cf38bf82058680a9a47dbfadc83a0aa4d9c9763163bb0520281.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 15,
+      "record_id": "wikipedia-panel-recovery-v1-history-magazine-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/c6b2dcadbd67e1af783f2ee3f1d1ed501ed1a9f61e07fa81b2621e652c6840e8.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 16,
+      "record_id": "wikipedia-panel-recovery-v1-literature-popular_science-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/be82fa5a74dbc4b8586e3c4474dedd7721aa42ddb729055437807457af958d47.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 17,
+      "record_id": "wikipedia-panel-recovery-v1-literature-educational-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/58bdade23667572ffcf424e3cbcee9e72b4f38615c66d2e6344aa6d192b35901.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 18,
+      "record_id": "wikipedia-panel-recovery-v1-literature-educational-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/7c6a4fdd6fec04423f068ae8e901ec4240a25f3c0b865907adefc3014321a829.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 19,
+      "record_id": "wikipedia-panel-recovery-v1-music-educational-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/2230a7e40480e23b10ad146a90acb151cf8835534cafa6c3967a5035271c5368.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 20,
+      "record_id": "wikipedia-panel-recovery-v1-music-magazine-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/1a1e059d80286ecab2bcb603fd4dd14c1a827e1c1688398a325adea021ac568f.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 21,
+      "record_id": "wikipedia-panel-recovery-v1-music-magazine-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/81738dec38acc1a269bddfb624f2be7f58e80ba528c25c257d03996a956d6711.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 22,
+      "record_id": "wikipedia-panel-recovery-v1-physics-museum_label-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/d712e1676c6a47eaabab4ba24551b502a12b0e6088713aa212d40f2e7e234bf7.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 23,
+      "record_id": "wikipedia-panel-recovery-v1-physics-museum_label-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/8b5f734b83488f29d8d221f32af0a618f470b362903c36d25b0d6a7085069728.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 24,
+      "record_id": "wikipedia-panel-recovery-v1-physics-educational-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/8fe9dc20d8762b074520b168f40ffb8a1fdd8c6198673a182b6606d91664903b.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 25,
+      "record_id": "wikipedia-panel-recovery-v1-technology-encyclopedic-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/90502bb7188c058b75b4a3b34f269a42fd6be53075ae764514fb7948cd7a3f22.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 26,
+      "record_id": "wikipedia-panel-recovery-v1-technology-educational-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/190485a48e912ac338c397edcb07c11c86fc7842e18dd7809fd49f4b9321d97e.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 27,
+      "record_id": "wikipedia-panel-recovery-v1-technology-museum_label-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/eaa70460f9004bbdf7043e18d4272015f6c94e627c84deaec6f885b33eb38b08.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 28,
+      "record_id": "wikipedia-panel-recovery-v1-visual_arts-educational-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/e6883738753118f4b88d23ed3504fd0f3bc4d3884a940dd077da4b882ad200b7.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 29,
+      "record_id": "wikipedia-panel-recovery-v1-visual_arts-magazine-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/0b9fb8cb870fbd02bf206c3965a4e43ddc9cdaaac38a1a348f315e3b076e8296.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 30,
+      "record_id": "wikipedia-panel-recovery-v1-visual_arts-museum_label-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/19c3c883f7b18d749f5e0cd161a5e1afa1d0917205785100f158d86f31959948.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 31,
+      "record_id": "wikipedia-panel-recovery-v1-visual_arts-museum_label-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/5d9c684f25949a3ce1b99044426374e211476122000a9af149ccda5839937d1b.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 32,
+      "record_id": "wikipedia-panel-recovery-v1-music-museum_label-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/1534a5836143e06ed1230a507be5a8ae684f44593767ed4d6211bb6b4200a9eb.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 33,
+      "record_id": "wikipedia-panel-recovery-v1-visual_arts-encyclopedic-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/ff914899054b27fd38a9b89ea9488556847646331dd868d6c6cfd47160dc361f.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 34,
+      "record_id": "wikipedia-panel-recovery-v1-technology-educational-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/35f4b228433b08276b2808721d7b4d0b1c92157d81d63281409ee02b9fa268e6.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 35,
+      "record_id": "wikipedia-panel-recovery-v1-technology-magazine-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/72318edecdebb655c6328a3ddd1a6469ee42816759b98ce6a9a2fe72c680611c.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 36,
+      "record_id": "wikipedia-panel-recovery-v1-technology-popular_science-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/46222759157953dcad442931c3cbac7ac3fe8b38d3b81f59f60f4db51af15a77.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 37,
+      "record_id": "wikipedia-panel-recovery-v1-astronomy-encyclopedic-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/94e786fae4b9252b4e87f119811af798759a1b9705dc53b5ac9b725044fe65d4.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 38,
+      "record_id": "wikipedia-panel-recovery-v1-physics-popular_science-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/e9511da3cf80afc0829d0f3705be6d79a4ecb2e44cce421d601e0dd188e38de9.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 39,
+      "record_id": "wikipedia-panel-recovery-v1-geography-museum_label-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/62c8fcc5a3da7e757ea914350e5e6b07acf8398dc44bb4282226f556455cfd7d.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 40,
+      "record_id": "wikipedia-panel-recovery-v1-technology-encyclopedic-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/1241963e99138a61c3e0036f1672db25d93c3b6628fa1d304ef35a84e3180bb6.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 41,
+      "record_id": "wikipedia-panel-recovery-v1-technology-museum_label-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/f2a286a1400242e18cb08d2755a379b6f32924e9ff9b05a4145747625f132a84.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 42,
+      "record_id": "wikipedia-panel-recovery-v1-literature-popular_science-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/497b18ef6d340e93b7fcd05c0cc68fe137c557de44f1fdc4e2df352ffa8a120e.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 43,
+      "record_id": "wikipedia-panel-recovery-v1-visual_arts-popular_science-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/7842a70d4731b37e51836ffa6acac54e26841e9305cae598a7c963712575b52c.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 44,
+      "record_id": "wikipedia-panel-recovery-v1-technology-popular_science-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/3658cf19a8f98292ac74dc0be883200af880cd98c49c4c9368cd86114f79b9bf.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 45,
+      "record_id": "wikipedia-panel-recovery-v1-literature-magazine-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/2ffc561b8a424c117ae63626e8b005fc54b82e92c6e6e79753eb6dc76bd39d78.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 46,
+      "record_id": "wikipedia-panel-recovery-v1-biology-magazine-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/09335ef2cf5bf1946bbc38cdde50ee629708956ec3bc335a822e916351a7ab14.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 47,
+      "record_id": "wikipedia-panel-recovery-v1-physics-magazine-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/a022a052efbb15ed87e7c6fc6a980c4492d4a5f8983324e2f52adbf5880c237b.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 48,
+      "record_id": "wikipedia-panel-recovery-v1-chemistry-encyclopedic-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/ab9c3195a347bb8df1a1f2938f55ed6c0a3789adc059b76ac3f949fb7aa82890.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 49,
+      "record_id": "wikipedia-panel-recovery-v1-chemistry-museum_label-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/b7669ca1dc4cd31842d00266c0f8f6200963aa3412487c9a944bb9f77e57ed25.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 50,
+      "record_id": "wikipedia-panel-recovery-v1-astronomy-museum_label-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/56ca6d54ab3a1609971d5ff9700b136f6d9d7894f8563fbb9782d2b987649c0b.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 51,
+      "record_id": "wikipedia-panel-recovery-v1-visual_arts-educational-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/f0370457e502bf20c12888e5d95e74f961e623f87bed7f47134903e14ce39473.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 52,
+      "record_id": "wikipedia-panel-recovery-v1-history-encyclopedic-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/c571e14937b6ab71f4ad701332f28c81488508626fde40b0faa1a9f62bcc4959.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 53,
+      "record_id": "wikipedia-panel-recovery-v1-physics-magazine-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/c68c210a3870114681570269ade102e3183f8e721768239a1ed73cc3d8c5b13c.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 54,
+      "record_id": "wikipedia-panel-recovery-v1-biology-popular_science-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/de924edabed6e2592b48152ec6003ab9e9b3a4affc6889f8a7f47ed3320da36a.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 55,
+      "record_id": "wikipedia-panel-recovery-v1-biology-popular_science-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/62167928572d024f2784af56ab6e6c77e45b4f2c4d2dbd318578ad82c14c0285.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 56,
+      "record_id": "wikipedia-panel-recovery-v1-literature-magazine-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/66c58ab7bb1ae0a67b7127bbcc8e1fc07a3eaaa8ee3f365e778ba2601f0ccfbe.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 57,
+      "record_id": "wikipedia-panel-recovery-v1-biology-museum_label-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/c4c64553e85fc329d02ee8a29f9e0d8751885b52e595a40d625cda06342696b9.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 58,
+      "record_id": "wikipedia-panel-recovery-v1-history-magazine-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/088f4488af578beeb80e7b6c6e57469f0a2e5228ab4586502baa2489bf339ae9.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 59,
+      "record_id": "wikipedia-panel-recovery-v1-history-educational-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/ce0d7c98b0959e887dc0027fc2b3ba82114eaf250dc8e2cb4e38a322a02aee67.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 60,
+      "record_id": "wikipedia-panel-recovery-v1-chemistry-museum_label-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/94f456641a64ac3011d72ff29029b47515ca1a25262ac06bae1a96f6f11f9e85.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 61,
+      "record_id": "wikipedia-panel-recovery-v1-music-educational-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/5d7dea06c7378a7a7702831ea365c60b6d52a7084dfa36e73d66928e59a2464d.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 62,
+      "record_id": "wikipedia-panel-recovery-v1-astronomy-magazine-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/3a13c0dd9c717455a44e6d71906614668196fc22f459c8ad2b58738f7dc5cd28.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 63,
+      "record_id": "wikipedia-panel-recovery-v1-history-encyclopedic-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/73d94f51636e2c0b9f0a70cdc2e927cd21016ab151751ef9f026468f226f9223.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 64,
+      "record_id": "wikipedia-panel-recovery-v1-astronomy-magazine-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/e5f34ae2852df00a511efd18bf3a514fa541523c65ef4ecfbe6a75169de3129f.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 65,
+      "record_id": "wikipedia-panel-recovery-v1-geography-popular_science-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/c432ee3941dcc17153bd22ab1a107a423034a99422c3d0ef443dd56b8f2c865e.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 66,
+      "record_id": "wikipedia-panel-recovery-v1-physics-encyclopedic-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/12f3c7c9e4949f4a770a3b87ea859b45502bc0d1fa5cc203b12b62aef5f0e47f.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 67,
+      "record_id": "wikipedia-panel-recovery-v1-history-popular_science-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/c82843a3afd114eff330668dfa24591dce41850a2b1ab10aa9f4676d3daa4127.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 68,
+      "record_id": "wikipedia-panel-recovery-v1-music-encyclopedic-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/f7cfc5ec658a2f8d3c69954515ec22623ed29bbbf6c567f8a2895bd488eef180.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 69,
+      "record_id": "wikipedia-panel-recovery-v1-biology-educational-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/860dd50df65e833a5a363e890768b99d1e8cab8e8348304b8b227fb901a35bb2.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 70,
+      "record_id": "wikipedia-panel-recovery-v1-chemistry-educational-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/178a9da261ab72d84d43c5c854e16d9f60efc74093d06c2f2fba7b549717528f.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 71,
+      "record_id": "wikipedia-panel-recovery-v1-physics-encyclopedic-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/00aa7b3f16a5cb5bdae92568abe0a82e1febbb09d03ba64fe2b97be39b728909.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 72,
+      "record_id": "wikipedia-panel-recovery-v1-physics-educational-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/9d05f97b4a32f2a3cd9078a5224895db12016eb09d10f039e6e6bba30fb4d9cb.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 73,
+      "record_id": "wikipedia-panel-recovery-v1-geography-magazine-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/cc3796a8283abfa62bef0f0725725aa698d40cd16f68bf48a13fc12ad8062da2.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 74,
+      "record_id": "wikipedia-panel-recovery-v1-music-popular_science-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/58ffb228ef1c9ab93006c2dedb2422f3c89e42c9a5fdb7918cbd9ed60499af39.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 75,
+      "record_id": "wikipedia-panel-recovery-v1-geography-encyclopedic-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/e1dc5a3f2705bc69263464101387c74e3a5420603b4a24883bf1cd67167d8135.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 76,
+      "record_id": "wikipedia-panel-recovery-v1-literature-museum_label-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/73fcc4d31e8398f9fdc812ec28fea1165924d1da8239e4d77e00cc125c4fd7bb.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 77,
+      "record_id": "wikipedia-panel-recovery-v1-visual_arts-encyclopedic-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/29574fdd8460e8d803d827ab2fcb57cd2776a8ddca3edffd59d9658a35869327.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 78,
+      "record_id": "wikipedia-panel-recovery-v1-music-encyclopedic-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/a585aa76b9d4737ad05a01397453bf32b0c7ec203f1b6841206db4d4a7f7f251.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 79,
+      "record_id": "wikipedia-panel-recovery-v1-geography-magazine-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/675d8d10da3065d3c0c2f57c3e2215932729cdeae973fe86017ad93eb4f00655.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 80,
+      "record_id": "wikipedia-panel-recovery-v1-physics-popular_science-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/large-campaign-development-v2/models/tinyllama11/attempts/0d371289e009843668ca744cdfd454ebbfddf301e1156946189c29d284581dd9.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 81,
+      "record_id": "wikipedia-panel-recovery-v1-music-popular_science-500-development-01",
+      "status": "completed",
+      "attempt_path": "results/public-dictionary-full-development-v3/inputs/order081-original-attempt.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 82,
+      "record_id": "wikipedia-panel-recovery-v1-literature-encyclopedic-500-development-01",
+      "status": "reserved_outcome_unknown",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 83,
+      "record_id": "wikipedia-panel-recovery-v1-history-museum_label-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/baseline-single-record-recovery-v1/order083/run/attempts/3db20f50a779df5bbee959a466d3a7d7f1d4a43563b42a794e89bb47ef3bdfed.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 84,
+      "record_id": "wikipedia-panel-recovery-v1-chemistry-popular_science-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/baseline-single-record-recovery-v1/order084/run/attempts/3273c7455a2574767c5b5e6d6e32dd7feecef4a39a5e230b2f59d0eb245a6d56.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 85,
+      "record_id": "wikipedia-panel-recovery-v1-literature-encyclopedic-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/baseline-single-record-recovery-v1/order085/run/attempts/401a2bef94858d95c0d16312a6eef03d36dfa52c4c511c86586118ac76e4fe92.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 86,
+      "record_id": "wikipedia-panel-recovery-v1-astronomy-museum_label-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/baseline-single-record-recovery-v1/order086/run/attempts/1edbc05b68ba1b5d88b76d1b8ae1d0ca2bf747bee85bb21f86b8bdbc5d40ce93.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 87,
+      "record_id": "wikipedia-panel-recovery-v1-chemistry-encyclopedic-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/baseline-single-record-recovery-v1/order087/run/attempts/5b53ab4d5bd80bfe3a8cc9d043ecb55aab2e681621863320277cf0378e4ab65d.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 88,
+      "record_id": "wikipedia-panel-recovery-v1-technology-magazine-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/baseline-single-record-recovery-v1/order088/run/attempts/bdabbf10113abceb3d604469916861b2281b3d768dc8ade58887a1f81a3fa98f.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 89,
+      "record_id": "wikipedia-panel-recovery-v1-astronomy-educational-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/baseline-single-record-recovery-v1/order089/run/attempts/6546001a9554bc8ac881146db6a3a4820576abce465e757035098fb1cafc4a02.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 90,
+      "record_id": "wikipedia-panel-recovery-v1-history-educational-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/baseline-single-record-recovery-v1/order090/run/attempts/095a83f555da294ed631a41214386ea6352c9ac592307e274b6a0f8545c83879.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 91,
+      "record_id": "wikipedia-panel-recovery-v1-literature-museum_label-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 92,
+      "record_id": "wikipedia-panel-recovery-v1-astronomy-educational-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/baseline-single-record-recovery-v2/order092/run/attempts/f7560c27fbe389bd70d3e6dd4e0a9b897735fe178605b0d7f052a6157082a518.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 93,
+      "record_id": "wikipedia-panel-recovery-v1-visual_arts-magazine-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/baseline-single-record-recovery-v2/order093/run/attempts/50f07bb7ad0f786181923ebce931a6e55e819d40e951dfe0887a15d9765dc15c.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 94,
+      "record_id": "wikipedia-panel-recovery-v1-geography-popular_science-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/baseline-single-record-recovery-v2/order094/run/attempts/22017b11f3b7eea255029e03f34c6b10af7e2496738db254f446819d54c295cf.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 95,
+      "record_id": "wikipedia-panel-recovery-v1-biology-encyclopedic-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/baseline-single-record-recovery-v2/order095/run/attempts/3edf37373161968c4a8ea18e59a737109f0c8e13c397a10e9fc0f7e1dfe5aa31.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 96,
+      "record_id": "wikipedia-panel-recovery-v1-visual_arts-popular_science-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/baseline-single-record-recovery-v2/order096/run/attempts/b793ef1ee9be8b8edeccea848745ec9a114312c0ac1f8bb8e3c312ed979a45f0.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 97,
+      "record_id": "wikipedia-panel-recovery-v1-music-museum_label-250-development-01",
+      "status": "completed",
+      "attempt_path": "runs/baseline-single-record-recovery-v2/order097/run/attempts/0ea3d93dd10890f02935f5921c07bdde466be3370d56ab5cba514374a8c5166b.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 98,
+      "record_id": "wikipedia-panel-recovery-v1-biology-encyclopedic-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/baseline-single-record-recovery-v2/order098/run/attempts/1627e32e430110a051f1edca6d84fcb64c6ee9c706e15853d604ddc4859677a4.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 99,
+      "record_id": "wikipedia-panel-recovery-v1-geography-museum_label-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/baseline-single-record-recovery-v2/order099/run/attempts/b5359938d01d4ae9f7d23ba9ef1444588e61a5302ea8b1511e344b7104786bf7.json"
+    },
+    {
+      "model_alias": "tinyllama11",
+      "source_order": 100,
+      "record_id": "wikipedia-panel-recovery-v1-chemistry-magazine-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/baseline-single-record-recovery-v2/order100/run/attempts/0b35fcc92405624c5967d043a42bfee9d54c8ff2b0d9580fa51139b6172cc02a.json"
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 1,
+      "record_id": "wikipedia-panel-recovery-v1-astronomy-popular_science-500-development-01",
+      "status": "completed",
+      "attempt_path": "runs/development-other-models-single-record-v1/qwen05/order001/run/attempts/0a84e1d786f3086691f0c25a18fb3a3cddd82bbd003e05937ce8e5d2ea777200.json"
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 2,
+      "record_id": "wikipedia-panel-recovery-v1-astronomy-encyclopedic-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 3,
+      "record_id": "wikipedia-panel-recovery-v1-astronomy-popular_science-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 4,
+      "record_id": "wikipedia-panel-recovery-v1-biology-educational-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 5,
+      "record_id": "wikipedia-panel-recovery-v1-biology-magazine-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 6,
+      "record_id": "wikipedia-panel-recovery-v1-biology-museum_label-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 7,
+      "record_id": "wikipedia-panel-recovery-v1-chemistry-popular_science-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 8,
+      "record_id": "wikipedia-panel-recovery-v1-chemistry-educational-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 9,
+      "record_id": "wikipedia-panel-recovery-v1-chemistry-magazine-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 10,
+      "record_id": "wikipedia-panel-recovery-v1-geography-educational-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 11,
+      "record_id": "wikipedia-panel-recovery-v1-geography-educational-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 12,
+      "record_id": "wikipedia-panel-recovery-v1-geography-encyclopedic-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 13,
+      "record_id": "wikipedia-panel-recovery-v1-history-popular_science-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 14,
+      "record_id": "wikipedia-panel-recovery-v1-history-museum_label-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 15,
+      "record_id": "wikipedia-panel-recovery-v1-history-magazine-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 16,
+      "record_id": "wikipedia-panel-recovery-v1-literature-popular_science-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 17,
+      "record_id": "wikipedia-panel-recovery-v1-literature-educational-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 18,
+      "record_id": "wikipedia-panel-recovery-v1-literature-educational-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 19,
+      "record_id": "wikipedia-panel-recovery-v1-music-educational-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 20,
+      "record_id": "wikipedia-panel-recovery-v1-music-magazine-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 21,
+      "record_id": "wikipedia-panel-recovery-v1-music-magazine-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 22,
+      "record_id": "wikipedia-panel-recovery-v1-physics-museum_label-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 23,
+      "record_id": "wikipedia-panel-recovery-v1-physics-museum_label-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 24,
+      "record_id": "wikipedia-panel-recovery-v1-physics-educational-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 25,
+      "record_id": "wikipedia-panel-recovery-v1-technology-encyclopedic-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 26,
+      "record_id": "wikipedia-panel-recovery-v1-technology-educational-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 27,
+      "record_id": "wikipedia-panel-recovery-v1-technology-museum_label-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 28,
+      "record_id": "wikipedia-panel-recovery-v1-visual_arts-educational-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 29,
+      "record_id": "wikipedia-panel-recovery-v1-visual_arts-magazine-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 30,
+      "record_id": "wikipedia-panel-recovery-v1-visual_arts-museum_label-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 31,
+      "record_id": "wikipedia-panel-recovery-v1-visual_arts-museum_label-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 32,
+      "record_id": "wikipedia-panel-recovery-v1-music-museum_label-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 33,
+      "record_id": "wikipedia-panel-recovery-v1-visual_arts-encyclopedic-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 34,
+      "record_id": "wikipedia-panel-recovery-v1-technology-educational-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 35,
+      "record_id": "wikipedia-panel-recovery-v1-technology-magazine-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 36,
+      "record_id": "wikipedia-panel-recovery-v1-technology-popular_science-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 37,
+      "record_id": "wikipedia-panel-recovery-v1-astronomy-encyclopedic-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 38,
+      "record_id": "wikipedia-panel-recovery-v1-physics-popular_science-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 39,
+      "record_id": "wikipedia-panel-recovery-v1-geography-museum_label-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 40,
+      "record_id": "wikipedia-panel-recovery-v1-technology-encyclopedic-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 41,
+      "record_id": "wikipedia-panel-recovery-v1-technology-museum_label-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 42,
+      "record_id": "wikipedia-panel-recovery-v1-literature-popular_science-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 43,
+      "record_id": "wikipedia-panel-recovery-v1-visual_arts-popular_science-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 44,
+      "record_id": "wikipedia-panel-recovery-v1-technology-popular_science-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 45,
+      "record_id": "wikipedia-panel-recovery-v1-literature-magazine-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 46,
+      "record_id": "wikipedia-panel-recovery-v1-biology-magazine-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 47,
+      "record_id": "wikipedia-panel-recovery-v1-physics-magazine-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 48,
+      "record_id": "wikipedia-panel-recovery-v1-chemistry-encyclopedic-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 49,
+      "record_id": "wikipedia-panel-recovery-v1-chemistry-museum_label-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 50,
+      "record_id": "wikipedia-panel-recovery-v1-astronomy-museum_label-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 51,
+      "record_id": "wikipedia-panel-recovery-v1-visual_arts-educational-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 52,
+      "record_id": "wikipedia-panel-recovery-v1-history-encyclopedic-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 53,
+      "record_id": "wikipedia-panel-recovery-v1-physics-magazine-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 54,
+      "record_id": "wikipedia-panel-recovery-v1-biology-popular_science-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 55,
+      "record_id": "wikipedia-panel-recovery-v1-biology-popular_science-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 56,
+      "record_id": "wikipedia-panel-recovery-v1-literature-magazine-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 57,
+      "record_id": "wikipedia-panel-recovery-v1-biology-museum_label-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 58,
+      "record_id": "wikipedia-panel-recovery-v1-history-magazine-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 59,
+      "record_id": "wikipedia-panel-recovery-v1-history-educational-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 60,
+      "record_id": "wikipedia-panel-recovery-v1-chemistry-museum_label-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 61,
+      "record_id": "wikipedia-panel-recovery-v1-music-educational-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 62,
+      "record_id": "wikipedia-panel-recovery-v1-astronomy-magazine-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 63,
+      "record_id": "wikipedia-panel-recovery-v1-history-encyclopedic-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 64,
+      "record_id": "wikipedia-panel-recovery-v1-astronomy-magazine-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 65,
+      "record_id": "wikipedia-panel-recovery-v1-geography-popular_science-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 66,
+      "record_id": "wikipedia-panel-recovery-v1-physics-encyclopedic-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 67,
+      "record_id": "wikipedia-panel-recovery-v1-history-popular_science-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 68,
+      "record_id": "wikipedia-panel-recovery-v1-music-encyclopedic-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 69,
+      "record_id": "wikipedia-panel-recovery-v1-biology-educational-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 70,
+      "record_id": "wikipedia-panel-recovery-v1-chemistry-educational-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 71,
+      "record_id": "wikipedia-panel-recovery-v1-physics-encyclopedic-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 72,
+      "record_id": "wikipedia-panel-recovery-v1-physics-educational-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 73,
+      "record_id": "wikipedia-panel-recovery-v1-geography-magazine-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 74,
+      "record_id": "wikipedia-panel-recovery-v1-music-popular_science-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 75,
+      "record_id": "wikipedia-panel-recovery-v1-geography-encyclopedic-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 76,
+      "record_id": "wikipedia-panel-recovery-v1-literature-museum_label-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 77,
+      "record_id": "wikipedia-panel-recovery-v1-visual_arts-encyclopedic-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 78,
+      "record_id": "wikipedia-panel-recovery-v1-music-encyclopedic-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 79,
+      "record_id": "wikipedia-panel-recovery-v1-geography-magazine-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 80,
+      "record_id": "wikipedia-panel-recovery-v1-physics-popular_science-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 81,
+      "record_id": "wikipedia-panel-recovery-v1-music-popular_science-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 82,
+      "record_id": "wikipedia-panel-recovery-v1-literature-encyclopedic-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 83,
+      "record_id": "wikipedia-panel-recovery-v1-history-museum_label-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 84,
+      "record_id": "wikipedia-panel-recovery-v1-chemistry-popular_science-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 85,
+      "record_id": "wikipedia-panel-recovery-v1-literature-encyclopedic-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 86,
+      "record_id": "wikipedia-panel-recovery-v1-astronomy-museum_label-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 87,
+      "record_id": "wikipedia-panel-recovery-v1-chemistry-encyclopedic-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 88,
+      "record_id": "wikipedia-panel-recovery-v1-technology-magazine-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 89,
+      "record_id": "wikipedia-panel-recovery-v1-astronomy-educational-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 90,
+      "record_id": "wikipedia-panel-recovery-v1-history-educational-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 91,
+      "record_id": "wikipedia-panel-recovery-v1-literature-museum_label-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 92,
+      "record_id": "wikipedia-panel-recovery-v1-astronomy-educational-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 93,
+      "record_id": "wikipedia-panel-recovery-v1-visual_arts-magazine-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 94,
+      "record_id": "wikipedia-panel-recovery-v1-geography-popular_science-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 95,
+      "record_id": "wikipedia-panel-recovery-v1-biology-encyclopedic-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 96,
+      "record_id": "wikipedia-panel-recovery-v1-visual_arts-popular_science-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 97,
+      "record_id": "wikipedia-panel-recovery-v1-music-museum_label-250-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 98,
+      "record_id": "wikipedia-panel-recovery-v1-biology-encyclopedic-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 99,
+      "record_id": "wikipedia-panel-recovery-v1-geography-museum_label-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    },
+    {
+      "model_alias": "qwen05",
+      "source_order": 100,
+      "record_id": "wikipedia-panel-recovery-v1-chemistry-magazine-500-development-01",
+      "status": "not_attempted",
+      "attempt_path": null
+    }
+  ],
+  "provenance": {
+    "historical_attempts_source_commit": "4050291345c43776e9c93528b6afe292c062ba7a",
+    "new_attempt_readbacks": "results/public-dictionary-full-development-v3/final/new-attempts-git-readback.json",
+    "snapshot_git_readback_pending": false,
+    "preparation_freeze_commit": "9ea4f2641926f42afab038d83720c41450751a15",
+    "snapshot_git_readback_commit": "69036b5a9da19cf6f79d5646eea3f2c748c39e1e",
+    "historical_cover_inventory": "results/public-dictionary-full-development-v3-independent-review/historical-cover-inventory.json"
+  }
+}

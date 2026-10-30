@@ -1,0 +1,19 @@
+{
+  "schema": "public-context4-root-resource-check-v1",
+  "status": "passed",
+  "registered_hardlinks": 41,
+  "source": "/workspace/scratch/af7adce5db85/native-v4-readiness-v1/checkout/resources/seeded-pair-llm-v1",
+  "registered_named_bytes": 1213380452,
+  "verification": {
+    "schema": "framed-interval-public-v1-native-resource-check",
+    "verified_files": 41,
+    "public_profile_sha256": "e6127c1525c080c8af6bdb365c157ea93aa479fd76bab83352fe127a03abc934",
+    "model_calls": 0,
+    "tokenizer_calls": 0,
+    "scope": "current files/runtime only; no historical or resident attestation"
+  },
+  "elapsed_seconds": 2.5209531784057617,
+  "scope": "same-inode copies of named registered files; no provenance or cross-host claim",
+  "model_calls": 0,
+  "tokenizer_calls": 0
+}

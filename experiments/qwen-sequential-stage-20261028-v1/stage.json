@@ -1,0 +1,28 @@
+{
+  "schema": "qwen-sequential-stage-20261028-v1-plan",
+  "original_model_source_orders": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "new_requests_cap": 9,
+  "models": [
+    "Qwen/Qwen2.5-0.5B-Instruct"
+  ],
+  "selection": "all original orders2–10 sequentially; no quality/capacity selection",
+  "full_denominator": 300,
+  "qwen_denominator": 100,
+  "automatic_retries": 0,
+  "stop_on_unknown_or_failure": true,
+  "paid_calls_allowed": false,
+  "closed_test_allowed": false,
+  "require_predecessor_actual_git_readback": true,
+  "scientific_protocol": "experiments/development-qwen-sequential-v1/protocol.enabled.json",
+  "operational_helper": "scripts/orchestrate_qwen_sequential_stage_v1.py"
+}

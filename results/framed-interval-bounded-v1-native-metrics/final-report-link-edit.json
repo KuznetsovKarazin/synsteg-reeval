@@ -1,0 +1,9 @@
+{
+  "schema": "bounded-report-final-link-edit-v1",
+  "reviewed_source_sha256": "eebd2093c300ca5bedc805f110d1be9374f26d53a2ccb01e488d66301dff38cc",
+  "final_report_sha256": "f675ad16840f87c52440709309a30e536b53606de70dffdec8f8e1fac24cc7b9",
+  "only_change": "Replace one pending primary Git checkpoint sentence with actual verified commits/receipt; numerical tables unchanged",
+  "prior_reviewed_bytes": "results/framed-interval-bounded-v1-native-metrics/reviewed-report-before-git-link.md",
+  "primary_commit": "daf4ae8d343a25554bbfb0a31c321b7c767c542d",
+  "actual_primary_readback": true
+}

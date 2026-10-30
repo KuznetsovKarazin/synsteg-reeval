@@ -1,0 +1,8 @@
+{
+  "kind": "D3",
+  "model_id": "desklib/ai-text-detector-v1.01",
+  "model_revision": "5fdea974cd4287c61674951ec78803aa274e2fb7",
+  "tokenizer_id": "desklib/ai-text-detector-v1.01",
+  "tokenizer_revision": "5fdea974cd4287c61674951ec78803aa274e2fb7",
+  "cpu_threads": 3
+}

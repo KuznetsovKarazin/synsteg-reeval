@@ -1,0 +1,290 @@
+[
+  {
+    "config_id": "c00",
+    "envelope_canonical_json_bytes": {
+      "ordinary": 2560,
+      "stego": 2557,
+      "stego_minus_ordinary": -3
+    },
+    "envelope_saved_json_bytes": {
+      "ordinary": 4110,
+      "stego": 4107,
+      "stego_minus_ordinary": -3
+    },
+    "ordinary_run": "station-c00-ordinary",
+    "prompt_id": "station",
+    "sender_tokens": {
+      "ordinary": 418,
+      "stego": 389,
+      "stego_minus_ordinary": -29
+    },
+    "sender_whitespace_words": {
+      "ordinary": 212,
+      "stego": 239,
+      "stego_minus_ordinary": 27
+    },
+    "stego_run": "station-c00-stego",
+    "wire_bytes": {
+      "ordinary": 1318,
+      "stego": 1458,
+      "stego_minus_ordinary": 140
+    },
+    "wire_plus_canonical_envelope_bytes": {
+      "ordinary": 3878,
+      "stego": 4015,
+      "stego_minus_ordinary": 137
+    }
+  },
+  {
+    "config_id": "c01",
+    "envelope_canonical_json_bytes": {
+      "ordinary": 2560,
+      "stego": 2557,
+      "stego_minus_ordinary": -3
+    },
+    "envelope_saved_json_bytes": {
+      "ordinary": 4110,
+      "stego": 4107,
+      "stego_minus_ordinary": -3
+    },
+    "ordinary_run": "station-c01-ordinary",
+    "prompt_id": "station",
+    "sender_tokens": {
+      "ordinary": 287,
+      "stego": 302,
+      "stego_minus_ordinary": 15
+    },
+    "sender_whitespace_words": {
+      "ordinary": 201,
+      "stego": 195,
+      "stego_minus_ordinary": -6
+    },
+    "stego_run": "station-c01-stego",
+    "wire_bytes": {
+      "ordinary": 1322,
+      "stego": 1230,
+      "stego_minus_ordinary": -92
+    },
+    "wire_plus_canonical_envelope_bytes": {
+      "ordinary": 3882,
+      "stego": 3787,
+      "stego_minus_ordinary": -95
+    }
+  },
+  {
+    "config_id": "c02",
+    "envelope_canonical_json_bytes": {
+      "ordinary": 2560,
+      "stego": 2557,
+      "stego_minus_ordinary": -3
+    },
+    "envelope_saved_json_bytes": {
+      "ordinary": 4110,
+      "stego": 4107,
+      "stego_minus_ordinary": -3
+    },
+    "ordinary_run": "station-c02-ordinary",
+    "prompt_id": "station",
+    "sender_tokens": {
+      "ordinary": 328,
+      "stego": 294,
+      "stego_minus_ordinary": -34
+    },
+    "sender_whitespace_words": {
+      "ordinary": 185,
+      "stego": 183,
+      "stego_minus_ordinary": -2
+    },
+    "stego_run": "station-c02-stego",
+    "wire_bytes": {
+      "ordinary": 1240,
+      "stego": 1173,
+      "stego_minus_ordinary": -67
+    },
+    "wire_plus_canonical_envelope_bytes": {
+      "ordinary": 3800,
+      "stego": 3730,
+      "stego_minus_ordinary": -70
+    }
+  },
+  {
+    "config_id": "c03",
+    "envelope_canonical_json_bytes": {
+      "ordinary": 2560,
+      "stego": 2557,
+      "stego_minus_ordinary": -3
+    },
+    "envelope_saved_json_bytes": {
+      "ordinary": 4110,
+      "stego": 4107,
+      "stego_minus_ordinary": -3
+    },
+    "ordinary_run": "station-c03-ordinary",
+    "prompt_id": "station",
+    "sender_tokens": {
+      "ordinary": 377,
+      "stego": 299,
+      "stego_minus_ordinary": -78
+    },
+    "sender_whitespace_words": {
+      "ordinary": 229,
+      "stego": 182,
+      "stego_minus_ordinary": -47
+    },
+    "stego_run": "station-c03-stego",
+    "wire_bytes": {
+      "ordinary": 1475,
+      "stego": 1216,
+      "stego_minus_ordinary": -259
+    },
+    "wire_plus_canonical_envelope_bytes": {
+      "ordinary": 4035,
+      "stego": 3773,
+      "stego_minus_ordinary": -262
+    }
+  },
+  {
+    "config_id": "c00",
+    "envelope_canonical_json_bytes": {
+      "ordinary": 2509,
+      "stego": 2506,
+      "stego_minus_ordinary": -3
+    },
+    "envelope_saved_json_bytes": {
+      "ordinary": 3934,
+      "stego": 3931,
+      "stego_minus_ordinary": -3
+    },
+    "ordinary_run": "library-c00-ordinary",
+    "prompt_id": "library",
+    "sender_tokens": {
+      "ordinary": 313,
+      "stego": 336,
+      "stego_minus_ordinary": 23
+    },
+    "sender_whitespace_words": {
+      "ordinary": 213,
+      "stego": 231,
+      "stego_minus_ordinary": 18
+    },
+    "stego_run": "library-c00-stego",
+    "wire_bytes": {
+      "ordinary": 1273,
+      "stego": 1360,
+      "stego_minus_ordinary": 87
+    },
+    "wire_plus_canonical_envelope_bytes": {
+      "ordinary": 3782,
+      "stego": 3866,
+      "stego_minus_ordinary": 84
+    }
+  },
+  {
+    "config_id": "c01",
+    "envelope_canonical_json_bytes": {
+      "ordinary": 2509,
+      "stego": 2506,
+      "stego_minus_ordinary": -3
+    },
+    "envelope_saved_json_bytes": {
+      "ordinary": 3934,
+      "stego": 3931,
+      "stego_minus_ordinary": -3
+    },
+    "ordinary_run": "library-c01-ordinary",
+    "prompt_id": "library",
+    "sender_tokens": {
+      "ordinary": 263,
+      "stego": 275,
+      "stego_minus_ordinary": 12
+    },
+    "sender_whitespace_words": {
+      "ordinary": 212,
+      "stego": 234,
+      "stego_minus_ordinary": 22
+    },
+    "stego_run": "library-c01-stego",
+    "wire_bytes": {
+      "ordinary": 1259,
+      "stego": 1324,
+      "stego_minus_ordinary": 65
+    },
+    "wire_plus_canonical_envelope_bytes": {
+      "ordinary": 3768,
+      "stego": 3830,
+      "stego_minus_ordinary": 62
+    }
+  },
+  {
+    "config_id": "c02",
+    "envelope_canonical_json_bytes": {
+      "ordinary": 2509,
+      "stego": 2506,
+      "stego_minus_ordinary": -3
+    },
+    "envelope_saved_json_bytes": {
+      "ordinary": 3934,
+      "stego": 3931,
+      "stego_minus_ordinary": -3
+    },
+    "ordinary_run": "library-c02-ordinary",
+    "prompt_id": "library",
+    "sender_tokens": {
+      "ordinary": 288,
+      "stego": 261,
+      "stego_minus_ordinary": -27
+    },
+    "sender_whitespace_words": {
+      "ordinary": 221,
+      "stego": 178,
+      "stego_minus_ordinary": -43
+    },
+    "stego_run": "library-c02-stego",
+    "wire_bytes": {
+      "ordinary": 1282,
+      "stego": 1064,
+      "stego_minus_ordinary": -218
+    },
+    "wire_plus_canonical_envelope_bytes": {
+      "ordinary": 3791,
+      "stego": 3570,
+      "stego_minus_ordinary": -221
+    }
+  },
+  {
+    "config_id": "c03",
+    "envelope_canonical_json_bytes": {
+      "ordinary": 2509,
+      "stego": 2506,
+      "stego_minus_ordinary": -3
+    },
+    "envelope_saved_json_bytes": {
+      "ordinary": 3934,
+      "stego": 3931,
+      "stego_minus_ordinary": -3
+    },
+    "ordinary_run": "library-c03-ordinary",
+    "prompt_id": "library",
+    "sender_tokens": {
+      "ordinary": 280,
+      "stego": 232,
+      "stego_minus_ordinary": -48
+    },
+    "sender_whitespace_words": {
+      "ordinary": 244,
+      "stego": 179,
+      "stego_minus_ordinary": -65
+    },
+    "stego_run": "library-c03-stego",
+    "wire_bytes": {
+      "ordinary": 1373,
+      "stego": 1051,
+      "stego_minus_ordinary": -322
+    },
+    "wire_plus_canonical_envelope_bytes": {
+      "ordinary": 3882,
+      "stego": 3557,
+      "stego_minus_ordinary": -325
+    }
+  }
+]

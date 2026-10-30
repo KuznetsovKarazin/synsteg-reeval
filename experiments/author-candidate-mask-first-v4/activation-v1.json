@@ -1,0 +1,15 @@
+{
+  "automatic_retry": false,
+  "closed_test_allowed": false,
+  "enabled": true,
+  "execution_intent_sha256": "3dd16fec420297a2782aa73142625a03371caa9005320180f8da153c44665363",
+  "experiment_id": "author-candidate-mask-first-v4",
+  "logical_requests": 2,
+  "maximum_physical_attempts": 2,
+  "output": "results/author-candidate-mask-first-v4/native-diagnostic-v4",
+  "paid_calls_allowed": false,
+  "proposal_sha256": "b12ff46ff99e6d8038afc4f924b395e5807b831ba110f095142bc9f74e652b1a",
+  "root_exclusive_NN_lease_required": true,
+  "schema": "author-candidate-mask-first-v4-activation-v1",
+  "source_closure_sha256": "2dd32e5767eb0d3d4b9bdf567619aa042c0c2e30591459a67cb4b79ab71c4887"
+}

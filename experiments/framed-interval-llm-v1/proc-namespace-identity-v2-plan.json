@@ -1,0 +1,42 @@
+{
+  "schema": "proc-namespace-identity-v2-preflight-plan",
+  "experiment_id": "proc-namespace-identity-v2",
+  "prior_failed_attempts": [
+    {
+      "path": "results/framed-interval-llm-v1-tokenizer-preflight/native-v1/status-final.json",
+      "sha256": "20d587adb11207ccd0adb5c2e3ae682718db54a8f380205a337fa7d51df3e1fc"
+    },
+    {
+      "path": "results/framed-interval-llm-v1-tokenizer-preflight/native-proc-namespace-v1/status-final.json",
+      "sha256": "caafa9c3379dcfe097f8c8a7e981770b7646ae79892ec489b53662c9c255d40c"
+    }
+  ],
+  "activation": {
+    "path": "experiments/framed-interval-llm-v1/vocab-activation-after-build-v1.json",
+    "sha256": "3a559f3787af0042ece2be6b7186f2712d707e3948ca91c982115d9c1be49223"
+  },
+  "tokenizer_plan": {
+    "path": "experiments/framed-interval-llm-v1/tokenizer-preflight-proposal.json",
+    "sha256": "86d3c68c44a6ed35e3a9e39b05b4ec4047262bb549bf7934de98a969a026c9a5"
+  },
+  "harmless_integration": {
+    "path": "results/proc-namespace-identity-v2-integration/result.json",
+    "sha256": "dade6100be01764fbfbc86bf1d1617fb35ba8b29730a88557a51037fb030ba28"
+  },
+  "harmless_integration_plan": {
+    "path": "results/proc-namespace-identity-v2-integration/plan.json",
+    "sha256": "031ff30e54437fb33c337f7ce60a465d70a9b8fad7bf25ab25238b2724424778"
+  },
+  "output": "results/framed-interval-llm-v1-tokenizer-preflight/native-proc-namespace-v2",
+  "intent": "collect-frozen-qwen-vocabulary-proc-namespace-identity-v2",
+  "attempts": 1,
+  "planned_fixtures": 15,
+  "planned_prompts": 2,
+  "native_deadline_seconds": 120,
+  "forward_calls_allowed": 0,
+  "model_contexts_allowed": 0,
+  "selection_or_retry_allowed": false,
+  "identity_change": "Kernel pidfd from actual owned Popen child; mounted-procfs fdinfo provides proc PID. No task/children or process enumeration.",
+  "reuse": "Frozen v1 controller and owned transport mechanics; only capture provider is new v2. Capture JSON field shape remains v1; resident identity proof schema is v2.",
+  "failure_accounting": "Both earlier15+2 failures retained separately; this fixed new engineering attempt adds15+2 outcomes without replacing or selecting fixtures."
+}

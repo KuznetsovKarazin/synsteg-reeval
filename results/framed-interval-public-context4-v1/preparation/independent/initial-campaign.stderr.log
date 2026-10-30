@@ -1,0 +1,28 @@
+test_backend_error_stops (__main__.CampaignTests.test_backend_error_stops) ... FAIL
+test_fixed_fixtures_no_nonce_reuse (__main__.CampaignTests.test_fixed_fixtures_no_nonce_reuse) ... ok
+test_full_twelve_endpoint_flow (__main__.CampaignTests.test_full_twelve_endpoint_flow) ... ok
+test_missing_status_stops (__main__.CampaignTests.test_missing_status_stops) ... FAIL
+test_unknown_stops_first_retains_full_denominator (__main__.CampaignTests.test_unknown_stops_first_retains_full_denominator) ... ok
+
+======================================================================
+FAIL: test_backend_error_stops (__main__.CampaignTests.test_backend_error_stops)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/af7adce5db85/public-codec-generalization-v1-prepare/independent/check_campaign.py", line 62, in test_backend_error_stops
+    self.assertFalse(ok);self.assertEqual(len(calls),1)
+    ^^^^^^^^^^^^^^^^^^^^
+AssertionError: True is not false
+
+======================================================================
+FAIL: test_missing_status_stops (__main__.CampaignTests.test_missing_status_stops)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/af7adce5db85/public-codec-generalization-v1-prepare/independent/check_campaign.py", line 66, in test_missing_status_stops
+    self.assertFalse(ok);self.assertEqual(len(calls),1)
+    ^^^^^^^^^^^^^^^^^^^^
+AssertionError: True is not false
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.457s
+
+FAILED (failures=2)

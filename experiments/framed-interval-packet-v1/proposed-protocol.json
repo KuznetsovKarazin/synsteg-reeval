@@ -1,0 +1,230 @@
+{
+  "schema": "framed-interval-packet-v1-proposed-synthetic-protocol",
+  "experiment_id": "framed-interval-packet-v1",
+  "status_before_git_freeze": "implementation_and_unit_tests_only; fixed matrix and fresh receiver diagnostic not executed",
+  "scope": "Synthetic public finite codec; not an LLM result, language-quality evaluation or steganographic indistinguishability claim.",
+  "freeze_required_before_execution": true,
+  "cryptography_version": "50.0.2",
+  "dependency_commits": {
+    "canonical_packet_v3": "a24a7603e079d14fa72655554c0099f66c0a0f19",
+    "integer_interval_channel_v1": "7b18bbf802a1b3d88a1b94dd1e71d2ae1099e010"
+  },
+  "public_test_key_hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+  "keys_and_nonces": "All fixed values are PUBLIC disposable test vectors. Never use them for private messages. Distinct nonce per encryption in this matrix. No nonce/key search or retries.",
+  "frame": "ChaCha20Poly1305(HKDF-separated key, public96-bitnonce, plaintext=u16BE(payload_length)||payload||zero-padding-to-public32-byte-slot, AAD=version+exact canonical envelope). Ciphertext50bytes=400bits for every case.",
+  "overhead": {
+    "encrypted_length_bits": 16,
+    "aead_tag_bits": 128,
+    "padding_bits": "8*(32-actual_payload_bytes)",
+    "public_nonce_bits": 96,
+    "shared_master_key_bits": 256,
+    "public_envelope_and_resources": "Reported separately, not counted as zero and not transmitted within arithmetic frame."
+  },
+  "subkeys": "HKDF-SHA256 length96 with salt=nonce, info=version+subkeys domain+SHA256(canonicalenvelope); fixed split AEAD/order/tail32bytes each.",
+  "tail": "Explicit domain-separated HMAC-SHA256 counter blocks under separate key until public max_stream_bits; not zero fallback, not delivered payload.",
+  "symbol_order": "HMAC sort of length-delimited public prefix/packet descriptors under separate key; packet tuple tie-break; accepted positive packet weights unchanged.",
+  "receiver_contract": "Fresh subprocess request JSON exactly {wire_hex,key_hex,envelope}; public resource factory+frozenmodules only. No payload, sender trace, source bits or selected packet history in request. Minimal environment excludes caller credentials; worker denies network/process/NN imports.",
+  "success": "Authenticated plaintext equals planned payload AND full exact wire equals deterministic replay from recovered ciphertext and receiver-owned laws. No payload returned on any failure.",
+  "stopping": "First accepted packet that resolves complete public fixed-size ciphertext; reject any trailing packet/bytes; retain every budget/no-support/construction failure.",
+  "frame_replay_note": "A complete valid wire can be replayed to a stateless receiver; replay protection/nonce ledger is outside this prototype.",
+  "planned_case_denominator": 12,
+  "planned_nonempty_case_denominator": 11,
+  "receiver_variants": [
+    "original",
+    "wrong_key",
+    "wrong_nonce",
+    "wrong_aad",
+    "tamper_first_or_insert_if_empty",
+    "truncate_last_byte",
+    "append_A"
+  ],
+  "planned_receiver_run_denominator": 84,
+  "negative_variant_accounting": "Retain all72 negative runs; additionally report denominator limited to originally authenticated cases. Empty-wire no-op truncation is retained and marked wire_changed=false, not claimed as evidence of tamper detection.",
+  "expected_interventions": "Cases1-5 have adequate declared budgets in this artificial codec; cases6-12 explicitly probe insufficient/zero/refused capacity. Expectations are not measured outcomes. All retained regardless.",
+  "cases": [
+    {
+      "id": "empty_uniform",
+      "profile": "silent16",
+      "payload_hex": "",
+      "nonce_hex": "000000000000000000000001",
+      "max_payload_bytes": 32,
+      "max_wire_bytes": 65536,
+      "interval_config": {
+        "state_bits": 32,
+        "max_symbols": 512,
+        "max_pending_bits": 512,
+        "max_stream_bits": 16384
+      }
+    },
+    {
+      "id": "one_byte_uniform",
+      "profile": "silent16",
+      "payload_hex": "41",
+      "nonce_hex": "000000000000000000000002",
+      "max_payload_bytes": 32,
+      "max_wire_bytes": 65536,
+      "interval_config": {
+        "state_bits": 32,
+        "max_symbols": 512,
+        "max_pending_bits": 512,
+        "max_stream_bits": 16384
+      }
+    },
+    {
+      "id": "full_slot_uniform",
+      "profile": "silent16",
+      "payload_hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+      "nonce_hex": "000000000000000000000003",
+      "max_payload_bytes": 32,
+      "max_wire_bytes": 65536,
+      "interval_config": {
+        "state_bits": 32,
+        "max_symbols": 512,
+        "max_pending_bits": 512,
+        "max_stream_bits": 16384
+      }
+    },
+    {
+      "id": "utf8_uniform",
+      "profile": "silent16",
+      "payload_hex": "d09fd180d0b8d0b2d0b5d1822c20d0bcd0b8d18021",
+      "nonce_hex": "000000000000000000000004",
+      "max_payload_bytes": 32,
+      "max_wire_bytes": 65536,
+      "interval_config": {
+        "state_bits": 32,
+        "max_symbols": 512,
+        "max_pending_bits": 512,
+        "max_stream_bits": 16384
+      }
+    },
+    {
+      "id": "adaptive_weights",
+      "profile": "adaptive4",
+      "payload_hex": "53796e537465672070696c6f74",
+      "nonce_hex": "000000000000000000000005",
+      "max_payload_bytes": 32,
+      "max_wire_bytes": 65536,
+      "interval_config": {
+        "state_bits": 32,
+        "max_symbols": 512,
+        "max_pending_bits": 512,
+        "max_stream_bits": 16384
+      }
+    },
+    {
+      "id": "short_symbol_budget",
+      "profile": "silent16",
+      "payload_hex": "000102030405060708090a0b0c0d0e0f",
+      "nonce_hex": "000000000000000000000006",
+      "max_payload_bytes": 32,
+      "max_wire_bytes": 65536,
+      "interval_config": {
+        "state_bits": 32,
+        "max_symbols": 8,
+        "max_pending_bits": 512,
+        "max_stream_bits": 16384
+      }
+    },
+    {
+      "id": "singleton_zero_capacity",
+      "profile": "singleton",
+      "payload_hex": "000102030405060708090a0b0c0d0e0f",
+      "nonce_hex": "000000000000000000000007",
+      "max_payload_bytes": 32,
+      "max_wire_bytes": 65536,
+      "interval_config": {
+        "state_bits": 32,
+        "max_symbols": 64,
+        "max_pending_bits": 512,
+        "max_stream_bits": 16384
+      }
+    },
+    {
+      "id": "empty_support",
+      "profile": "empty_support",
+      "payload_hex": "000102030405060708090a0b0c0d0e0f",
+      "nonce_hex": "000000000000000000000008",
+      "max_payload_bytes": 32,
+      "max_wire_bytes": 65536,
+      "interval_config": {
+        "state_bits": 32,
+        "max_symbols": 512,
+        "max_pending_bits": 512,
+        "max_stream_bits": 16384
+      }
+    },
+    {
+      "id": "empty_input",
+      "profile": "empty_input",
+      "payload_hex": "000102030405060708090a0b0c0d0e0f",
+      "nonce_hex": "000000000000000000000009",
+      "max_payload_bytes": 32,
+      "max_wire_bytes": 65536,
+      "interval_config": {
+        "state_bits": 32,
+        "max_symbols": 512,
+        "max_pending_bits": 512,
+        "max_stream_bits": 16384
+      }
+    },
+    {
+      "id": "construction_refusal",
+      "profile": "construction_refusal",
+      "payload_hex": "000102030405060708090a0b0c0d0e0f",
+      "nonce_hex": "00000000000000000000000a",
+      "max_payload_bytes": 32,
+      "max_wire_bytes": 65536,
+      "interval_config": {
+        "state_bits": 32,
+        "max_symbols": 512,
+        "max_pending_bits": 512,
+        "max_stream_bits": 16384
+      }
+    },
+    {
+      "id": "wire_budget",
+      "profile": "silent16",
+      "payload_hex": "000102030405060708090a0b0c0d0e0f",
+      "nonce_hex": "00000000000000000000000b",
+      "max_payload_bytes": 32,
+      "max_wire_bytes": 4,
+      "interval_config": {
+        "state_bits": 32,
+        "max_symbols": 512,
+        "max_pending_bits": 512,
+        "max_stream_bits": 16384
+      }
+    },
+    {
+      "id": "stream_budget",
+      "profile": "silent16",
+      "payload_hex": "000102030405060708090a0b0c0d0e0f",
+      "nonce_hex": "00000000000000000000000c",
+      "max_payload_bytes": 32,
+      "max_wire_bytes": 65536,
+      "interval_config": {
+        "state_bits": 32,
+        "max_symbols": 512,
+        "max_pending_bits": 512,
+        "max_stream_bits": 32
+      }
+    }
+  ],
+  "no_adaptation_after_freeze": true,
+  "automatic_retries": 0,
+  "maximum_receiver_seconds_each": 30,
+  "neural_calls": 0,
+  "tokenizer_calls": 0,
+  "paid_calls": 0,
+  "closed_test_access": false,
+  "non_claims": [
+    "Natural text generation",
+    "LLM capacity",
+    "Source factuality",
+    "Steganographic indistinguishability",
+    "Finite delivery for every distribution/payload",
+    "Cross-platform neural reproducibility",
+    "Global nonce uniqueness or replay prevention"
+  ]
+}

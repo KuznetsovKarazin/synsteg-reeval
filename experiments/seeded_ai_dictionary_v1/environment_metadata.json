@@ -1,0 +1,85 @@
+{
+  "captured_at_utc": "2026-10-23T17:15:35.849177+00:00",
+  "config_file_sha256": {
+    "config.json": "98d2ff8cc47488d08a2b0b3acf4eb99ef210779b42bd48605f6b8e36acdbf670",
+    "generation_config.json": "e558847a8b4402616f1273797b015104dc266fe4b520056fca88823ba8f8ebe6",
+    "tokenizer_config.json": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583"
+  },
+  "independent_review": {
+    "blocking_issues": [],
+    "invalid_fixture_classes_rejected": [
+      "duplicate words",
+      "wrong group count",
+      "wrong group size",
+      "multiword entries",
+      "nonstring entries",
+      "Markdown fences",
+      "trailing prose"
+    ],
+    "limitations_confirmed": [
+      "English vocabulary unverified",
+      "Semantic synonymy unverified",
+      "Same-environment observation only"
+    ],
+    "reviewer": "/root/prospective_resume/dictionary_smoke_review",
+    "scope": "Read-only code review and structural fixture checks; no inference or file changes."
+  },
+  "inventory_sha256": "19c325e52df08300662f750149cf8c82755cf381e41e949d5a6fea075a5a977d",
+  "inventory_source": "/tmp/synsteg_crossmodel_model_inventory.json",
+  "model": {
+    "architecture": [
+      "Qwen2ForCausalLM"
+    ],
+    "has_chat_template": true,
+    "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "model_type": "qwen2",
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "snapshot_path": "/tmp/synsteg_hf/hub/models--Qwen--Qwen2.5-1.5B-Instruct/snapshots/989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "tokenizer_and_weights_present": true,
+    "weight_bytes": 3087467144
+  },
+  "model_config": {
+    "architectures": [
+      "Qwen2ForCausalLM"
+    ],
+    "attention_dropout": 0.0,
+    "bos_token_id": 151643,
+    "eos_token_id": 151645,
+    "hidden_act": "silu",
+    "hidden_size": 1536,
+    "initializer_range": 0.02,
+    "intermediate_size": 8960,
+    "max_position_embeddings": 32768,
+    "max_window_layers": 21,
+    "model_type": "qwen2",
+    "num_attention_heads": 12,
+    "num_hidden_layers": 28,
+    "num_key_value_heads": 2,
+    "rms_norm_eps": 1e-06,
+    "rope_theta": 1000000.0,
+    "sliding_window": 32768,
+    "tie_word_embeddings": true,
+    "torch_dtype": "bfloat16",
+    "transformers_version": "4.43.1",
+    "use_cache": true,
+    "use_sliding_window": false,
+    "vocab_size": 151936
+  },
+  "public_demo_seed": 20261023,
+  "resolved_weight_cache_blob_basename": "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee",
+  "runtime_audit": {
+    "affinity_visible_cpus": 9,
+    "captured_at_utc": "2026-10-23T17:03:37.526995+00:00",
+    "cpu_avx512_bf16": true,
+    "cpu_model": "AMD EPYC 9V74 80-Core Processor",
+    "cpu_quota": "800000 100000",
+    "cpu_quota_effective_cores": 8,
+    "memory_anon_bytes": 559181824,
+    "memory_current_bytes": 8589672448,
+    "memory_file_cache_bytes": 7596007424,
+    "memory_limit_bytes": 8589934592,
+    "note": "High current cgroup memory includes reclaimable file cache; it is not an active model resident set. No weights were loaded or inference performed in this audit."
+  },
+  "seed_is_secret": false,
+  "weight_bytes": 3087467144
+}

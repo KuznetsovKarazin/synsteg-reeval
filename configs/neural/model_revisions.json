@@ -1,0 +1,129 @@
+[
+  {
+    "model_id": "openai-community/gpt2",
+    "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+    "files": [
+      ".gitattributes",
+      "64-8bits.tflite",
+      "64-fp16.tflite",
+      "64.tflite",
+      "README.md",
+      "config.json",
+      "flax_model.msgpack",
+      "generation_config.json",
+      "merges.txt",
+      "model.safetensors",
+      "onnx/config.json",
+      "onnx/decoder_model.onnx",
+      "onnx/decoder_model_merged.onnx",
+      "onnx/decoder_with_past_model.onnx",
+      "onnx/generation_config.json",
+      "onnx/merges.txt",
+      "onnx/special_tokens_map.json",
+      "onnx/tokenizer.json",
+      "onnx/tokenizer_config.json",
+      "onnx/vocab.json",
+      "pytorch_model.bin",
+      "rust_model.ot",
+      "tf_model.h5",
+      "tokenizer.json",
+      "tokenizer_config.json",
+      "vocab.json"
+    ]
+  },
+  {
+    "model_id": "openai-community/roberta-base-openai-detector",
+    "revision": "6cba99c003b711c7fe94f8a3aa2be35a792cb6fa",
+    "files": [
+      ".gitattributes",
+      "README.md",
+      "config.json",
+      "flax_model.msgpack",
+      "merges.txt",
+      "model.safetensors",
+      "pytorch_model.bin",
+      "tf_model.h5",
+      "tokenizer.json",
+      "tokenizer_config.json",
+      "vocab.json"
+    ]
+  },
+  {
+    "model_id": "Hello-SimpleAI/chatgpt-detector-roberta",
+    "revision": "d2b342c61775d5dd0221808a79983ed3b86ffd86",
+    "files": [
+      ".gitattributes",
+      "README.md",
+      "config.json",
+      "merges.txt",
+      "pytorch_model.bin",
+      "special_tokens_map.json",
+      "tokenizer.json",
+      "tokenizer_config.json",
+      "vocab.json"
+    ]
+  },
+  {
+    "model_id": "desklib/ai-text-detector-v1.01",
+    "revision": "5fdea974cd4287c61674951ec78803aa274e2fb7",
+    "files": [
+      ".gitattributes",
+      "README.md",
+      "added_tokens.json",
+      "config.json",
+      "model.safetensors",
+      "special_tokens_map.json",
+      "spm.model",
+      "tokenizer.json",
+      "tokenizer_config.json"
+    ]
+  },
+  {
+    "model_id": "Qwen/Qwen2.5-1.5B",
+    "revision": "8faed761d45a263340a0528343f099c05c9a4323",
+    "files": [
+      ".gitattributes",
+      "LICENSE",
+      "README.md",
+      "config.json",
+      "generation_config.json",
+      "merges.txt",
+      "model.safetensors",
+      "tokenizer.json",
+      "tokenizer_config.json",
+      "vocab.json"
+    ]
+  },
+  {
+    "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "files": [
+      ".gitattributes",
+      "LICENSE",
+      "README.md",
+      "config.json",
+      "generation_config.json",
+      "merges.txt",
+      "model.safetensors",
+      "tokenizer.json",
+      "tokenizer_config.json",
+      "vocab.json"
+    ]
+  },
+  {
+    "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "files": [
+      ".gitattributes",
+      "LICENSE",
+      "README.md",
+      "config.json",
+      "generation_config.json",
+      "merges.txt",
+      "model.safetensors",
+      "tokenizer.json",
+      "tokenizer_config.json",
+      "vocab.json"
+    ]
+  }
+]

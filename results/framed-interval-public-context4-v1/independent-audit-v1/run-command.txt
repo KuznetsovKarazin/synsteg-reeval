@@ -1,0 +1,1 @@
+python scripts/audit_public_context4_postgit_v1.py --root /absolute/path/to/fresh-combined --download /absolute/path/to/fresh-download --restoration /absolute/path/to/actual-git-restoration.json --support /absolute/path/to/independent-audit-v1/git-readbacks --output /absolute/path/to/new-empty-audit-directory

@@ -1,0 +1,122 @@
+{
+  "luna": {
+    "n": 300,
+    "reencoded_exact": 300,
+    "full_exact": 300,
+    "prefix_exact": 300,
+    "stored_decoded_match": 300,
+    "decoded_bits": 89600,
+    "requested_bits": 89600,
+    "used_bits": 89600,
+    "by_length": {
+      "128": {
+        "n": 100,
+        "bpw_source": 2.73298645471101,
+        "bpw_stego": 2.1574575119971535,
+        "median_key_zlib9_bytes": 7522.0
+      },
+      "256": {
+        "n": 100,
+        "bpw_source": 2.636556724603727,
+        "bpw_stego": 2.042514388725625,
+        "median_key_zlib9_bytes": 14821.0
+      },
+      "512": {
+        "n": 100,
+        "bpw_source": 2.6091031973587664,
+        "bpw_stego": 2.0184138716025664,
+        "median_key_zlib9_bytes": 28702.0
+      }
+    }
+  },
+  "qwen": {
+    "n": 75,
+    "reencoded_exact": 75,
+    "full_exact": 75,
+    "prefix_exact": 75,
+    "stored_decoded_match": 75,
+    "decoded_bits": 22400,
+    "requested_bits": 22400,
+    "used_bits": 22400,
+    "by_length": {
+      "128": {
+        "n": 25,
+        "bpw_source": 1.4840319422152315,
+        "bpw_stego": 1.3832063278697084,
+        "median_key_zlib9_bytes": 3574
+      },
+      "256": {
+        "n": 25,
+        "bpw_source": 1.4359129338424712,
+        "bpw_stego": 1.3295162198002186,
+        "median_key_zlib9_bytes": 6255
+      },
+      "512": {
+        "n": 25,
+        "bpw_source": 1.4936250164858202,
+        "bpw_stego": 1.382733376747353,
+        "median_key_zlib9_bytes": 10899
+      }
+    }
+  },
+  "gpt4o": {
+    "n": 300,
+    "reencoded_exact": 300,
+    "full_exact": 0,
+    "prefix_exact": 299,
+    "stored_decoded_match": 300,
+    "decoded_bits": 48523,
+    "requested_bits": 89600,
+    "used_bits": 48600
+  },
+  "gpt4o_opt32": {
+    "n": 300,
+    "reencoded_exact": 300,
+    "full_exact": 0,
+    "prefix_exact": 300,
+    "stored_decoded_match": 300,
+    "decoded_bits": 48600,
+    "requested_bits": 89600,
+    "used_bits": 48600
+  },
+  "gpt4o_opt8": {
+    "n": 300,
+    "reencoded_exact": 300,
+    "full_exact": 0,
+    "prefix_exact": 300,
+    "stored_decoded_match": 300,
+    "decoded_bits": 48600,
+    "requested_bits": 89600,
+    "used_bits": 48600
+  },
+  "gpt4o_opt4": {
+    "n": 300,
+    "reencoded_exact": 300,
+    "full_exact": 0,
+    "prefix_exact": 300,
+    "stored_decoded_match": 300,
+    "decoded_bits": 48600,
+    "requested_bits": 89600,
+    "used_bits": 48600
+  },
+  "ds2023": {
+    "n": 300,
+    "reencoded_exact": 300,
+    "full_exact": 288,
+    "prefix_exact": 299,
+    "stored_decoded_match": 290,
+    "decoded_bits": 43631,
+    "requested_bits": 44800,
+    "used_bits": 43629
+  },
+  "ds2023_opt": {
+    "n": 300,
+    "reencoded_exact": 300,
+    "full_exact": 288,
+    "prefix_exact": 299,
+    "stored_decoded_match": 300,
+    "decoded_bits": 43631,
+    "requested_bits": 44800,
+    "used_bits": 43629
+  }
+}

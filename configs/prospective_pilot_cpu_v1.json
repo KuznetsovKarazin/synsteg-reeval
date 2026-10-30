@@ -1,0 +1,210 @@
+{
+  "schema": "synsteg-prospective-v1",
+  "execution_enabled": true,
+  "paid_api_allowed": false,
+  "claim_scope": "prospective_feasibility_pilot_not_publication_scale",
+  "fixture_only": false,
+  "adapter_file": "scripts/prospective_local_adapter.py",
+  "adapter_factory": "make_adapter",
+  "additional_code_files": [],
+  "model": {
+    "backend": "local_hf",
+    "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+    "model_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "tokenizer_id": "Qwen/Qwen2.5-0.5B-Instruct",
+    "tokenizer_revision": "7ae557604adf67be50417f59c2c2f167def9a775"
+  },
+  "generation": {
+    "local_files_only": true,
+    "max_new_tokens": 384,
+    "do_sample": true,
+    "temperature": 0.8,
+    "top_p": 0.95,
+    "dtype": "bfloat16",
+    "device": "cpu",
+    "cpu_threads": 2,
+    "top_k": 50
+  },
+  "variants": [
+    "fixed_canonical",
+    "fixed_quality"
+  ],
+  "method_config": {
+    "candidate_source": "WordNet first sense; base-form NN/JJ/RB/VB; lowercase single GPT2 token",
+    "framing": "external_length",
+    "external_length_bits": 32,
+    "description": "Fixed seed codebook; two selectors; external payload length costs 32 bits; full serialized codebook counted separately; no semantic guarantee",
+    "variants": [
+      "fixed_canonical",
+      "fixed_quality"
+    ],
+    "cpu_threads": 2,
+    "quality_model": {
+      "model_id": "openai-community/gpt2",
+      "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e"
+    }
+  },
+  "payload_bits": [
+    8,
+    16
+  ],
+  "repetitions": 1,
+  "maximum_attempts": 1,
+  "generation_seed": 2026102201,
+  "payload_seed": 2026102202,
+  "genres": [
+    {
+      "id": "explanation"
+    },
+    {
+      "id": "instructions"
+    },
+    {
+      "id": "narrative"
+    }
+  ],
+  "topics": {
+    "train": [
+      {
+        "id": "train_bicycle",
+        "text": "organizing a volunteer bicycle repair workshop"
+      },
+      {
+        "id": "train_seed",
+        "text": "storing vegetable seeds between growing seasons"
+      },
+      {
+        "id": "train_museum",
+        "text": "designing accessible audio guides for a local museum"
+      },
+      {
+        "id": "train_rain",
+        "text": "collecting rooftop rainwater for non-drinking uses"
+      }
+    ],
+    "development": [
+      {
+        "id": "dev_archive",
+        "text": "protecting old family photographs during archival storage"
+      },
+      {
+        "id": "dev_library",
+        "text": "managing a public library book reservation queue"
+      }
+    ],
+    "test": [
+      {
+        "id": "test_ceramics",
+        "text": "cooling handmade ceramic objects after firing in a kiln"
+      },
+      {
+        "id": "test_underwater",
+        "text": "balancing an underwater camera housing for shallow-water photography"
+      },
+      {
+        "id": "test_observatory",
+        "text": "preserving dark adaptation at a small astronomical observatory"
+      },
+      {
+        "id": "test_theatre",
+        "text": "coordinating safe backstage movement during a theatre performance"
+      }
+    ]
+  },
+  "prompts": {
+    "train": {
+      "explanation": {
+        "family_id": "train_expository_a",
+        "template": "Write an informative English explanation of {topic}. Use approximately 180 words of ordinary natural prose. Do not use headings, lists, or quotations."
+      },
+      "instructions": {
+        "family_id": "train_procedural_a",
+        "template": "Describe in fluent English prose how someone can approach {topic}. Explain the practical sequence and reasons in about 180 words without numbering or bullet points."
+      },
+      "narrative": {
+        "family_id": "train_narrative_a",
+        "template": "Write a realistic English short story about a person involved in {topic}. Use around 180 words, ordinary vocabulary, and continuous prose without a title."
+      }
+    },
+    "development": {
+      "explanation": {
+        "family_id": "development_expository_b",
+        "template": "Prepare an English educational passage, roughly 180 words long, focused on {topic}. Present ideas in connected paragraphs with no title or enumerated list."
+      },
+      "instructions": {
+        "family_id": "development_procedural_b",
+        "template": "Offer an English practical account of the steps and precautions relevant to {topic}. Aim for 180 words and express the guidance as connected prose, with no headings."
+      },
+      "narrative": {
+        "family_id": "development_narrative_b",
+        "template": "Tell a plausible English narrative of approximately 180 words whose central activity is {topic}. Make it a continuous short story rather than a list or titled article."
+      }
+    },
+    "test": {
+      "explanation": {
+        "family_id": "test_expository_c",
+        "template": "Compose about 180 words in English that help a general reader understand {topic}. Use flowing explanatory paragraphs and leave out titles, quotations, and bullet points."
+      },
+      "instructions": {
+        "family_id": "test_procedural_c",
+        "template": "In about 280 English words, guide a newcomer through {topic}, including reasons for the main actions. Write naturally in paragraphs instead of a numbered procedure."
+      },
+      "narrative": {
+        "family_id": "test_narrative_c",
+        "template": "Create a believable scene and short English story centered on {topic}, using approximately 180 words. Keep the writing in plain continuous prose and omit a heading."
+      }
+    }
+  },
+  "duplicate_policy": {
+    "normalization": "Unicode word tokens, casefold, whitespace join",
+    "bigram_jaccard": 0.9,
+    "action": "quarantine_as_failed_attempt_no_replacement"
+  },
+  "attack": {
+    "features": [
+      "word",
+      "char"
+    ],
+    "C": 1.0,
+    "target_fpr": 0.05,
+    "minimum_common_success_pairs": 4,
+    "fit": "train_only",
+    "score_direction": "development_only",
+    "cohort": "intersection_of_full_success_across_variants"
+  },
+  "statistics": {
+    "bootstrap_resamples": 1000,
+    "bootstrap_seed": 2026102203,
+    "cluster": "topic_family",
+    "confidence": 0.95
+  },
+  "interpretation": {
+    "test_pairs": 24,
+    "test_topic_clusters": 4,
+    "pilot_limitations": [
+      "Small capacity, only 8/16 payload bits.",
+      "Four test topic clusters cannot establish broad generalization.",
+      "External length framing requires accounting for 32 bits outside stegotext.",
+      "No superiority or security claim follows from a feasibility pilot.",
+      "Human semantic and grammatical evaluation is not part of this automated pilot."
+    ]
+  },
+  "external_resource_files": [
+    {
+      "path": "/tmp/synsteg_nltk/corpora/wordnet.zip",
+      "sha256": "cbda5ea6eef7f36a97a43d4a75f85e07fccbb4f23657d27b4ccbc93e2646ab59"
+    },
+    {
+      "path": "/tmp/synsteg_nltk/taggers/averaged_perceptron_tagger_eng/averaged_perceptron_tagger_eng.classes.json",
+      "sha256": "d152ffa69d45b8357276341a3d592c6c025911d52ec0d9068d4f382560dd48b6"
+    },
+    {
+      "path": "/tmp/synsteg_nltk/taggers/averaged_perceptron_tagger_eng/averaged_perceptron_tagger_eng.tagdict.json",
+      "sha256": "4c713731cb06727736962bc8cd94ad919217a040e76691059af99bc0c2c9c246"
+    },
+    {
+      "path": "/tmp/synsteg_nltk/taggers/averaged_perceptron_tagger_eng/averaged_perceptron_tagger_eng.weights.json",
+      "sha256": "789e8e35f6fac656d9b7eccea29ba4e8a137cbb5b525dd31f39e4291a9e80832"
+    }
+  ]
+}

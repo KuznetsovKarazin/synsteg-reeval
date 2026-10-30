@@ -1,0 +1,66 @@
+{
+  "actual_Git_readback_completed": false,
+  "allow_incomplete_reason": "results parent has no result.json; nested two-chunk result is preserved exactly",
+  "lease_scope": "v4 checkout only; no shared canonical lease and no baseline access",
+  "model_calls": 0,
+  "preservation": {
+    "archive_bytes": 453641,
+    "largest_part": 196608,
+    "model_calls": 0,
+    "parts": 3,
+    "primary_files": 46,
+    "status": "passed",
+    "upload_list": "/workspace/scratch/af7adce5db85/native-v4-readiness-v1/checkout/artifacts/author-candidate-mask-first-v4/native-diagnostic-v4/upload-files.json"
+  },
+  "previous_packaging_global_lock_refusal_retained": true,
+  "quiescence_scope": "Recorded owned-supervisor and root terminal observations, not independent OS attestation",
+  "root_authorized_completed_v4_read_only_during_separate_baseline": true,
+  "root_process": {
+    "automatic_retries": 0,
+    "elapsed_seconds": 84.59276461601257,
+    "exit_code": 0,
+    "finished_at_unix": 1793034143.029615,
+    "scope": "outer coordinator exit; inspect inner per-attempt supervisors for outcome"
+  },
+  "schema": "author-candidate-mask-first-v4-scoped-packaging-v2",
+  "scientific_acceptance_inferred": false,
+  "scientific_auditor_calls": 0,
+  "source_base": "results",
+  "status": "raw_results_preserved_locally_pending_Git",
+  "storage_helper_sha256": "7a791b2685220f58c6b637b3642bf6e46c5f5d08269592e31739914d1193ffa6",
+  "supervisor_quiescence_observations": [
+    {
+      "child_exit_code": 0,
+      "deadline_expired": false,
+      "elapsed_seconds": 13.640923986000416,
+      "group_shutdown_before_reap": true,
+      "observed_exit_before_reap": 0,
+      "owned_group_present_after_cleanup": false,
+      "pid": 7,
+      "retry_allowed": false,
+      "schema": "author-candidate-mask-first-v4-supervisor-result",
+      "session_verified_before_worker": true,
+      "shutdown_error": null,
+      "status": "completed_child",
+      "wait_status": 0,
+      "wall_seconds": 600
+    },
+    {
+      "child_exit_code": 0,
+      "deadline_expired": false,
+      "elapsed_seconds": 64.40159906500048,
+      "group_shutdown_before_reap": true,
+      "observed_exit_before_reap": 0,
+      "owned_group_present_after_cleanup": false,
+      "pid": 13,
+      "retry_allowed": false,
+      "schema": "author-candidate-mask-first-v4-supervisor-result",
+      "session_verified_before_worker": true,
+      "shutdown_error": null,
+      "status": "completed_child",
+      "wait_status": 0,
+      "wall_seconds": 600
+    }
+  ],
+  "tokenizer_calls": 0
+}

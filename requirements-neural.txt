@@ -1,0 +1,10 @@
+# Optional candidate inference environment, separate from the tested offline audit.
+# Freeze the resolved full environment and record it with each executed model run.
+# CPU checkpoint inference was exercised on 2026-10-22. These portable ranges
+# are not an exact execution lock; every run records actual package versions.
+torch>=2.6,<3
+transformers>=4.48,<5
+huggingface-hub>=0.28,<1
+safetensors>=0.5,<1
+sentencepiece>=0.2,<1
+protobuf>=5,<7

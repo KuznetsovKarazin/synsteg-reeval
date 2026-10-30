@@ -1,0 +1,33 @@
+{
+  "classifier_fits": 206,
+  "manifest_runs_checked": 96,
+  "train_validation_test_uuid_overlap": 0,
+  "test_pairs_have_both_arms": true,
+  "stored_labels_match_arm": true,
+  "error_counts_match_predictions": true,
+  "probabilities_finite_and_in_unit_interval": true,
+  "auc_matches_predictions": true,
+  "confusion_matrices_match_predictions": true,
+  "primary_normalized_train_test_overlap": {
+    "luna_pair_disjoint:0": 0,
+    "luna_pair_disjoint:1": 0,
+    "luna_pair_disjoint:2": 0,
+    "luna_pair_disjoint:3": 0,
+    "luna_pair_disjoint:4": 0,
+    "qwen_pair_disjoint:0": 0,
+    "qwen_pair_disjoint:1": 0,
+    "qwen_pair_disjoint:2": 0,
+    "qwen_pair_disjoint:3": 0,
+    "qwen_pair_disjoint:4": 0
+  },
+  "limitations": [
+    "Length-only and shuffled-label fits retain aggregate metrics, not per-text predictions.",
+    "Repeated random test splits overlap; their SD is not a confidence interval.",
+    "Themes are inferred from covers; exact historical generation prompt IDs are unavailable.",
+    "A fresh recomputation of saved corpora is not a new generation experiment."
+  ],
+  "source_unchanged": true,
+  "source_verified_against_original_archive": true,
+  "codec_reports_checked": 2175,
+  "codec_reencoded_exact": 2175
+}

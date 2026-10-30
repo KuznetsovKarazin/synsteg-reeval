@@ -1,0 +1,52 @@
+{{About|the generation and assessment of biomedical compounds|combinatorial [[Phylogenetics|phylogenetic]] modeling|Mathematical biology}}
+[[File:Combinatorial BiologyPic.jpg|thumb|Comparison of natural and synthetic selection processes for peptide generation.]]
+
+In [[biotechnology]], '''combinatorial biology''' is the creation of a large number of compounds (usually proteins or peptides) through technologies such as [[phage display]]. Similar to [[combinatorial chemistry]], compounds are produced by [[biosynthesis]] rather than [[organic chemistry]]. This process was developed independently by [[Richard A. Houghten]] and H. Mario Geysen in the 1980s.  Combinatorial biology allows the generation and selection of the large number of ligands for [[high-throughput screening]].<ref>
+
+{{cite book
+  | last = Nill
+  | first = Kimball R.
+  | authorlink = 
+  | title = Glossary of Biotechnological Terms
+  | publisher = CRC Press
+  | year = 2002
+  | location = 
+  | pages = 55, 56
+  | url = https://books.google.com/books?id=gRUywB1cqAEC
+  | doi = 
+  | id = 
+  | isbn = 1-58716-122-2}}
+
+</ref><ref>
+
+{{cite book
+  | last = Seethala 
+  | first = Ramakrishna 
+  | authorlink = 
+  |author2=Fernandes, Prabhavathi B. 
+  | title = Handbook of Drug Screening
+  | publisher = Informa Health Care
+  | year = 2001
+  | location = 
+  | pages = 357–383
+  | url = https://books.google.com/books?id=ouOK009WwykC
+  | doi = 
+  | id = 
+  | isbn = 0-8247-0562-9}}
+
+</ref>
+
+Combinatorial biology techniques generally begin with large numbers of peptides, which are generated and screened by physically linking a gene encoding a protein and a copy of said protein. This could involve the protein being fused to the [[M13 bacteriophage|M13]] minor coat protein pIII, with the gene encoding this protein being held within the phage particle. Large libraries of phages with different proteins on their surfaces can then be screened through automated selection and amplification for a protein that binds tightly to a particular target.<ref>{{cite journal |author=Pelletier J, Sidhu S |title=Mapping protein-protein interactions with combinatorial biology methods |journal=Curr. Opin. Biotechnol. |volume=12 |issue=4 |pages=340–7 |date=August 2001 |pmid=11551461 |doi=10.1016/S0958-1669(00)00225-1}}</ref>
+
+== Notes ==
+{{reflist}}
+
+==External links==
+*[https://web.archive.org/web/20080807165506/http://www.bio.anl.gov/combinatorialbiology/index.html Combinatorial Biology] Argonne National Laboratory: Biosciences Division
+
+[[Category:Biotechnology]]
+[[Category:Combinatorics|Biology]]
+
+
+{{combin-stub}}
+{{biotech-stub}}

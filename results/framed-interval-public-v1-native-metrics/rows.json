@@ -1,0 +1,156 @@
+[
+  {
+    "arm": "stego",
+    "first_threshold_token": 345,
+    "journals": {
+      "receiver": {
+        "committed_steps": 345,
+        "torn_last_record": false,
+        "unknown_native_step": false
+      },
+      "sender": {
+        "committed_steps": 345,
+        "torn_last_record": false,
+        "unknown_native_step": false
+      }
+    },
+    "pretty_envelope_bytes": 378,
+    "receiver_candidate_exact_authenticated": true,
+    "receiver_worker_status": "returned",
+    "resolved_bits": 274,
+    "run_id": "station-m00-stego",
+    "sender_core_emitted_tokens": 345,
+    "sender_core_status": "threshold_pending_receiver",
+    "sender_process_exit_code": 0,
+    "sender_worker_status": "returned",
+    "transport": {
+      "compact_envelope_bytes": 352,
+      "first_message_without_pre_shared_spec_context_bytes": 4017,
+      "key_in_transport_totals": false,
+      "key_once_bytes": 32,
+      "model_runtime_distribution_bytes": null,
+      "nonce_bytes_already_in_envelope": 12,
+      "payload_bytes": 16,
+      "per_message_with_pre_shared_spec_context_bytes": 1476,
+      "public_context_once_bytes": 1353,
+      "public_spec_once_bytes": 1188,
+      "wire_bytes": 1124
+    },
+    "wire_bytes": 1124,
+    "wire_sha256": "0a118d77a9e3d8483f416bee765eda01cca662b6b0cfd8669b793bdd0eb39d6b",
+    "words_regex": 178
+  },
+  {
+    "arm": "ordinary",
+    "first_threshold_token": 303,
+    "journals": {
+      "sender": {
+        "committed_steps": 303,
+        "torn_last_record": false,
+        "unknown_native_step": false
+      }
+    },
+    "pretty_envelope_bytes": 381,
+    "receiver_candidate_exact_authenticated": null,
+    "receiver_worker_status": null,
+    "resolved_bits": 277,
+    "run_id": "station-m00-ordinary",
+    "sender_core_emitted_tokens": 303,
+    "sender_core_status": "ordinary_threshold_generated",
+    "sender_process_exit_code": 0,
+    "sender_worker_status": "returned",
+    "transport": {
+      "compact_envelope_bytes": 355,
+      "first_message_without_pre_shared_spec_context_bytes": 4187,
+      "key_in_transport_totals": false,
+      "key_once_bytes": 32,
+      "model_runtime_distribution_bytes": null,
+      "nonce_bytes_already_in_envelope": 12,
+      "payload_bytes": 0,
+      "per_message_with_pre_shared_spec_context_bytes": 1646,
+      "public_context_once_bytes": 1353,
+      "public_spec_once_bytes": 1188,
+      "wire_bytes": 1291
+    },
+    "wire_bytes": 1291,
+    "wire_sha256": "d61015d644eeb17cecbe6daee110727a28e959e3143c9650b6d92f78c35c2d2d",
+    "words_regex": 207
+  },
+  {
+    "arm": "stego",
+    "first_threshold_token": 272,
+    "journals": {
+      "receiver": {
+        "committed_steps": 272,
+        "torn_last_record": false,
+        "unknown_native_step": false
+      },
+      "sender": {
+        "committed_steps": 272,
+        "torn_last_record": false,
+        "unknown_native_step": false
+      }
+    },
+    "pretty_envelope_bytes": 378,
+    "receiver_candidate_exact_authenticated": true,
+    "receiver_worker_status": "returned",
+    "resolved_bits": 279,
+    "run_id": "station-m01-stego",
+    "sender_core_emitted_tokens": 272,
+    "sender_core_status": "threshold_pending_receiver",
+    "sender_process_exit_code": 0,
+    "sender_worker_status": "returned",
+    "transport": {
+      "compact_envelope_bytes": 352,
+      "first_message_without_pre_shared_spec_context_bytes": 4024,
+      "key_in_transport_totals": false,
+      "key_once_bytes": 32,
+      "model_runtime_distribution_bytes": null,
+      "nonce_bytes_already_in_envelope": 12,
+      "payload_bytes": 16,
+      "per_message_with_pre_shared_spec_context_bytes": 1483,
+      "public_context_once_bytes": 1353,
+      "public_spec_once_bytes": 1188,
+      "wire_bytes": 1131
+    },
+    "wire_bytes": 1131,
+    "wire_sha256": "8b9161bacbfba738dd39b19e86a9ade6e82d40f025bc48ef4df1db3d15b2298c",
+    "words_regex": 181
+  },
+  {
+    "arm": "ordinary",
+    "first_threshold_token": 202,
+    "journals": {
+      "sender": {
+        "committed_steps": 202,
+        "torn_last_record": false,
+        "unknown_native_step": false
+      }
+    },
+    "pretty_envelope_bytes": 381,
+    "receiver_candidate_exact_authenticated": null,
+    "receiver_worker_status": null,
+    "resolved_bits": 279,
+    "run_id": "station-m01-ordinary",
+    "sender_core_emitted_tokens": 202,
+    "sender_core_status": "ordinary_threshold_generated",
+    "sender_process_exit_code": 0,
+    "sender_worker_status": "returned",
+    "transport": {
+      "compact_envelope_bytes": 355,
+      "first_message_without_pre_shared_spec_context_bytes": 3721,
+      "key_in_transport_totals": false,
+      "key_once_bytes": 32,
+      "model_runtime_distribution_bytes": null,
+      "nonce_bytes_already_in_envelope": 12,
+      "payload_bytes": 0,
+      "per_message_with_pre_shared_spec_context_bytes": 1180,
+      "public_context_once_bytes": 1353,
+      "public_spec_once_bytes": 1188,
+      "wire_bytes": 825
+    },
+    "wire_bytes": 825,
+    "wire_sha256": "0c67a5dc62b4128ec5ffa17388716adcfc9320facc2e194e696348f343058cac",
+    "words_regex": 141
+  }
+]

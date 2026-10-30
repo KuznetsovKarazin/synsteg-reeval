@@ -1,0 +1,11 @@
+Return one JSON object and nothing else. Its only top-level key must be "words".
+The value of "words" must be a list with one entry for each input token, in exactly the input order.
+Each entry must be an object with exactly one key: the corresponding input token copied exactly, including capitalization and punctuation.
+For b=3 and a=0, each value must be either an array of exactly 8 distinct candidate strings or an empty array [].
+The empty array is an explicit abstention: use it whenever you cannot supply all 8 defensible alternatives. Never fill a list with weak alternatives just to reach 8.
+For a nonempty list, do not include the input token itself, duplicates, case-only duplicates, or whitespace-only variants of another candidate.
+Use only substitutions that preserve the intended meaning, reference, part of speech, inflection, capitalization, punctuation and grammatical role in the supplied five-token context.
+Preserve proper names, named entities and technical terms. Abstain if substitution would change them, or if the intended sense or morphology cannot be determined from the limited context.
+Do not invent facts, names, explanations or extra keys. Do not return placeholders, Markdown fences, comments, introductory text or text after the JSON object.
+Candidate strings must not contain control characters, invisible format characters, or line/paragraph separators.
+An empty array is allowed for every token. Do not claim that a proposed alternative is semantically certified.

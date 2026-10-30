@@ -1,0 +1,80 @@
+{
+  "contexts": [
+    {
+      "context_id": "framed-interval-public-context4-v1-o001",
+      "context_order": 0,
+      "record_id": "wikipedia-panel-recovery-v1-astronomy-popular_science-500-development-01",
+      "source_excerpt": "According to traditional Chinese uranography, the modern constellation Perseus is located within the western quadrant of the sky, which is symbolized as the White Tiger of the West (西方白虎, Xī Fāng Bái Hǔ). The name of the western constellation in modern Chinese is 英仙座 (yīng xiān zuò), which means \"the brave god constellation\".",
+      "source_excerpt_sha256": "7c3c5f6d241f158ac875c50283f3ebe65684aea74ccc0b5d2a9931b6a9a39ca0",
+      "source_order": 1,
+      "source_revision_url": "https://en.wikipedia.org/w/index.php?oldid=1372201091",
+      "source_target_ratio": 0.106,
+      "source_word_count_method": "registered excerpt_words; not recomputed using a changed tokenizer",
+      "source_words_registered": 53,
+      "split": "development",
+      "target_words": 500,
+      "title": "Perseus in Chinese astronomy"
+    },
+    {
+      "context_id": "framed-interval-public-context4-v1-o004",
+      "context_order": 1,
+      "record_id": "wikipedia-panel-recovery-v1-biology-educational-250-development-01",
+      "source_excerpt": "In biotechnology, combinatorial biology is the creation of a large number of compounds (usually proteins or peptides) through technologies such as phage display. Similar to combinatorial chemistry, compounds are produced by biosynthesis rather than organic chemistry. This process was developed independently by Richard A. Houghten and H. Mario Geysen in the 1980s.",
+      "source_excerpt_sha256": "71daf2290d5b176175c24abfd2ad3fc9308e6e715feb96af78dc4a3a90aca4b4",
+      "source_order": 4,
+      "source_revision_url": "https://en.wikipedia.org/w/index.php?oldid=1169848924",
+      "source_target_ratio": 0.208,
+      "source_word_count_method": "registered excerpt_words; not recomputed using a changed tokenizer",
+      "source_words_registered": 52,
+      "split": "development",
+      "target_words": 250,
+      "title": "Combinatorial biology"
+    },
+    {
+      "context_id": "framed-interval-public-context4-v1-o007",
+      "context_order": 2,
+      "record_id": "wikipedia-panel-recovery-v1-chemistry-popular_science-250-development-01",
+      "source_excerpt": "Wine is a complex mixture of chemical compounds in a hydro-alcoholic solution with a pH around 4. The chemistry of wine and its resultant quality depend on achieving a balance between three aspects of the berries used to make the wine: their sugar content, acidity and the presence of secondary compounds. Vines store sugar in grapes through photosynthesis, and acids break down as grapes ripen.",
+      "source_excerpt_sha256": "298ad726bf087bd676b5a9dd4ce51573deec0569a2d16e5f67838f8a1ea570e1",
+      "source_order": 7,
+      "source_revision_url": "https://en.wikipedia.org/w/index.php?oldid=1334693839",
+      "source_target_ratio": 0.26,
+      "source_word_count_method": "registered excerpt_words; not recomputed using a changed tokenizer",
+      "source_words_registered": 65,
+      "split": "development",
+      "target_words": 250,
+      "title": "Wine chemistry"
+    },
+    {
+      "context_id": "framed-interval-public-context4-v1-o010",
+      "context_order": 3,
+      "record_id": "wikipedia-panel-recovery-v1-geography-educational-500-development-01",
+      "source_excerpt": "Houston, the most populous city in the Southern United States, is located along the upper Texas Gulf Coast, approximately 50 mi northwest of the Gulf of Mexico at Galveston. The city, which is the ninth-largest in the United States by area, covers 601.7 sqmi, of which 579.4 sqmi, or 96.3%, is land and 22.3 sqmi, or 3.7%, is water. Houston is located in the Gulf Coastal Plain biome, and its vegetation is classified as temperate grassland.",
+      "source_excerpt_sha256": "811595029af52cf02a5c2e606edf43715141705a420090c8b47c3ec8471a29da",
+      "source_order": 10,
+      "source_revision_url": "https://en.wikipedia.org/w/index.php?oldid=1317208322",
+      "source_target_ratio": 0.152,
+      "source_word_count_method": "registered excerpt_words; not recomputed using a changed tokenizer",
+      "source_words_registered": 76,
+      "split": "development",
+      "target_words": 500,
+      "title": "Geography of Houston"
+    }
+  ],
+  "frozen_input_sha256": {
+    "experiments/framed-interval-public-context4-v1/fixtures.json": "27ea74f8e593aedb7956b6af9deab6f6e251141cb2ea4acc5f3696fae5f869cb",
+    "experiments/framed-interval-public-context4-v1/protocol.proposed.json": "82cad2312c9eb43988a14a312bc3c5df574ec891866eaa5f8a7289825f6bde63",
+    "experiments/framed-interval-public-context4-v1/selected-context-texts.json": "7f7b08426adf23546a2d652fe911c69ad364ea7d4ff0287215d14e923ae12fe2"
+  },
+  "full_development_records": 100,
+  "full_development_source_sha256": "3190e9b56e83762c5f47c41fc1605b5668d43426000814b8ffbaef47112393d1",
+  "generation_outputs_read": false,
+  "schema": "framed-interval-public-context4-v1-quality-sources",
+  "selected_first_distinct_topic_orders": [
+    1,
+    4,
+    7,
+    10
+  ],
+  "tokenizer_or_nn_calls": 0
+}

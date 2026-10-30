@@ -1,0 +1,35 @@
+{
+  "schema": "baseline81-100-operations-v1",
+  "allowed_batch_numbers": [
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50
+  ],
+  "source_order_range": [
+    81,
+    100
+  ],
+  "max_new_attempts_per_invocation": 2,
+  "scientific_utility_freeze_commit": "a76efecfa9293c4d83d6bcd04cdfb11eaf610630",
+  "scientific_settings_changed": false,
+  "logical_archive_max_bytes": 16777216,
+  "git_part_max_bytes": 196608,
+  "files_sha256": {
+    "scripts/prepare_baseline81_100_v1.py": "b4c846f3ed6ed5f6f967aa07301ee46389084671e449345f539c1aa725df5d0e",
+    "scripts/package_baseline81_100_v1.py": "8eb0ad811f7396b08ae9e5c62ca16490df15dcd145ca7388c14ae7e3cd4c9225",
+    "scripts/close_baseline81_100_v1.py": "6f6ca2792fe3cf321299b2914a51a9f81f9f9a42afedcc1b48ad1839ba84974f",
+    "tests/test_baseline81_100_operations_v1.py": "443b1ab46b64b8dd9a0c9a4a5b8f38ed1496e933bfc12b8d373061e2f2544730",
+    "docs/baseline81_100_operations_v1_ru.md": "3b2feacf1897e5dbdd4faa104b93ea4e29769e82e7b2d9db5a33fc229ea60f90"
+  },
+  "new_model_calls": 0,
+  "no_historical_results_overwritten": true,
+  "requires_root_actual_git_readback_and_exclusive_NN_lease": true,
+  "new_outputs_known": false
+}

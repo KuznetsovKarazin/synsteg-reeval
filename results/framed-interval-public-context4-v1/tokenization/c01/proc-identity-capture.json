@@ -1,0 +1,32 @@
+{
+  "child": {
+    "namespace_pids": [
+      201459,
+      12
+    ],
+    "pid_namespace": "pid:[4026532277]",
+    "proc_pid": 201459,
+    "proc_ppid": 201455,
+    "starttime_ticks": 3909532
+  },
+  "executable": {
+    "bytes": 50976,
+    "device": 27,
+    "inode": 1314306,
+    "path": "/workspace/scratch/af7adce5db85/public-codec-generalization-v1-prepare/checkout/resources/seeded-pair-llm-v1/seeded_pair_llama_bridge",
+    "sha256": "7b37da550a10d8f0c457e838e574bcf8c97159e9717ba88bd536e7e208eefe77"
+  },
+  "parent": {
+    "namespace_pids": [
+      201455,
+      10
+    ],
+    "pid_namespace": "pid:[4026532277]",
+    "proc_pid": 201455,
+    "proc_ppid": 201444,
+    "starttime_ticks": 3909337
+  },
+  "popen_pid": 12,
+  "public_profile_sha256": "e6127c1525c080c8af6bdb365c157ea93aa479fd76bab83352fe127a03abc934",
+  "schema": "framed-interval-public-v1-owned-process"
+}

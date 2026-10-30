@@ -1,0 +1,129 @@
+{{Short description|American engineering firm}}
+{{Use mdy dates|date=April 2023}}
+{{Use American English|date=April 2023}}
+{{for|the medical college|Albert Einstein College of Medicine}}
+{{distinguish|Aecon|AKOM}}
+{{coord|32.929102|-96.818143|display=title}}
+{{Infobox company
+| name             = AECOM
+| logo             = AECOM logo.svg
+| image            = File:AECOMOffice.jpg
+| image_caption    = AECOM office building in [[Markham, Ontario]], Canada
+| former_name      = AECOM Technology Corporation (1990–2015)
+| type             = [[Public company|Public]]
+| traded_as        = {{Unbulleted list|{{NYSE|ACM}}|[[S&P 400]] component}}
+| founded          = {{Start date and age|1990}}
+| predecessor      = Ashland Technology
+| hq_location      = [[Dallas]], Texas, U.S.
+| area_served      = Worldwide
+| industry         = {{unbulleted list
+ |[[Architecture]]
+ |[[Urban Planning]]
+ |[[Engineering]]
+ |[[Construction]]
+}}
+| services         = {{flatlist|
+* [[Architectural engineering]]
+* [[Building design]]
+* [[Construction management]]}}
+| key_people       = Troy Rudd (CEO)
+| revenue          = {{nowrap|{{increase}} {{US$|16.1&nbsp;billion|link=yes}} (2025)}}
+| operating_income = {{nowrap|{{increase}} {{US$|1.03&nbsp;billion}} (2025}}
+| net_income       = {{increase}} {{US$|562&nbsp;million}} (2025)
+| assets           = {{increase}} {{US$|12.2&nbsp;billion}} (2025)
+| equity           = {{increase}} {{US$|2.49&nbsp;billion}} (2025)
+| num_employees    = 51,000 (2025)
+| website          = {{URL|https://aecom.com/}}
+| footnotes        = Financials {{as of|2025|09|30|lc=y|df=US}}.<ref name="10-K">{{Cite web |date=November 19, 2025 |title=Aecom FY 2025 Annual Report (Form 10-K) |url=https://www.sec.gov/ix?doc=/Archives/edgar/data/868857/000086885725000013/acm-20250930.htm |website=sec.gov |publisher=[[U.S. Securities and Exchange Commission]]}}</ref>
+}}
+'''AECOM''' ({{IPAc-en|eɪ|.|iː|ˈ|k|ɒ|m}}, {{respell|ay-ee|KOM|'}}; formerly '''AECOM Technology Corporation)''' is an American [[multinational corporation|multinational]] infrastructure consulting firm headquartered in Dallas, Texas.
+
+The company's official name from 1990 to 2015 was AECOM Technology Corporation, and is now AECOM.<ref>{{Cite web |title=AECOM Company Name: Stock Quote & Company Profile |url=http://investing.businessweek.com/research/stocks/snapshot/snapshot.asp?ticker=ACM |url-status=dead |archive-url=https://web.archive.org/web/20130810132814/http://investing.businessweek.com/research/stocks/snapshot/snapshot.asp?ticker=ACM |archive-date=August 10, 2013 |access-date=27 January 2015 |website=BusinessWeek}}</ref> The company is listed on the [[New York Stock Exchange]] (NYSE) under the [[ticker symbol]] ACM.
+
+As of 2023, AECOM had approximately 51,000 employees, and was number 291 on the 2023 [[Fortune 500|''Fortune'' 500]] list.<ref>{{Cite web |title=Fortune 500 |url=https://fortune.com/fortune500/2023/ |website=Fortune|access-date=2024-07-13}}</ref>
+
+== History ==
+===1910–1990===
+AECOM traces its origins to Kentucky-based [[Ashland Inc.|Ashland Oil & Refining Company]], which in turn grew out of Swiss Drilling Company, founded in Oklahoma in 1910 by J. Fred Miles. He gained control of some 200,000 acres and formed Swiss Oil Company in Lexington. In 1924, Miles launched a refining operation called Ashland Refining Company, headed by [[Paul G. Blazer|Paul Blazer]]. While the parent company struggled, leading to the ouster of Miles, Ashland prospered under Blazer's leadership, and in 1936, he was named chief executive officer of the reorganized company, Ashland Oil & Refining Company. In 1966, Ashland acquired Warren Brothers and became involved in [[highway construction]] and construction materials. The company was able to take advantage of refinery byproducts to produce [[Asphalt concrete|asphalt]]. Ashland grew into one of the nation's major road-construction firms, and laid a foundation for AECOM. Through a series of acquisitions and technological developments, Ashland grew to include chemical, [[petrochemical]], highway construction, and [[construction materials]] firms within its realm, laying the groundwork for a [[management buyout]] of Ashland Technology in 1985.<ref>{{Cite web |date=24 January 2007 |title=Aecom IPO back on after four-year wait |url=https://www.marketwatch.com/story/engineering-firm-aecom-bulks-up-eyes-ipo |access-date=2 June 2018 |publisher=Marketwatch}}</ref>
+
+In the 1970s, Ashland Oil & Refining became Ashland Oil, Inc. Five years later the company consolidated its construction assets into a construction division and also formed a [[coal company]] subsidiary, indicative of a changing focus at Ashland. Although it generated more than $1 billion a year in sales, Ashland was a small player in the [[oil industry]] at a time when the cost of exploration was prohibitively expensive. By 1980, Ashland sold its production assets, and a year later was reorganized as a modified holding company. A new corporate strategy was implemented as Ashland now focused on refining and marketing and sought to grow its non-refining businesses. 
+
+In 1984, Ashland acquired [[Daniel, Mann, Johnson & Mendenhall]] (DMJM), an architectural firm located in Los Angeles, California.<ref>{{Cite web |date=2004-09-17 |title=Architect Biographies: DMJM|url=https://www.laconservancy.org/learn/architect-biographies/dmjm/|access-date=2024-12-31 |website=Los Angeles Conservancy}}</ref> Originally focused on [[military architecture]] projects, after World War II it had become one of the first integrated engineering and architectural firms in the western United States. The acquisition of DMJM also included its president, [[Richard G. Newman]]. In 1985, DMJM became part of a new subsidiary, ''Ashland Technology Corporation''. Two years later Newman was named its new chief executive and president.<ref name="AECOM Technology Corporation - Company Profile, Information, Business Description, History, Background Information on AECOM Technology Corporation">{{Cite web |title=AECOM History, Date Dec 13, 2007 |url=http://www.referenceforbusiness.com/history2/12/AECOM-Technology-Corporation.html |access-date=Feb 16, 2016 |publisher=referenceforbusiness.com}}</ref>
+
+When Ashland chose to return to its core [[petroleum refining]] business in the late 1980s, Newman recommended an employee buyback proposal, resulting in the spin-off of Ashland Technology and the creation of AECOM (Architecture, Engineering, Construction, Operations, and Management) in 1990.<ref>{{Cite web |last=Dougherty |first=Conor |date=2002-03-03 |title=Aecom Planning IPO to Pay Debt On Acquisitions |url=https://labusinessjournal.com/news/aecom-planning-ipo-to-pay-debt-on-acquisitions/ |access-date=2024-07-13 |website=Los Angeles Business Journal}}</ref> The company went on to acquire a number of engineering, design and planning firms including urbanism/sustainability practice [[EDAW]], consultancy firm Economic Research Associates (ERA), environmental firms ENSR and The RETEC Group, architectural firm [[Ellerbe Becket]]<ref>{{Cite web |date=26 October 2009 |title=AECOM Technology buys Ellerbe Becket |url=https://www.bizjournals.com/kansascity/stories/2009/10/26/daily2.html |access-date=2 June 2018 |publisher=Biz Journals}}</ref> and construction consultants [[Davis Langdon]].<ref>{{Cite web |year=2013 |title=AECOM corporate website - press release on Davis Langdon merger |url=http://www.aecom.com/News/_news/AECOM+completes+Davis+Langdon+acquisition+in+Australia,+New+Zealand,+Europe,+Middle+East,+United+States |url-status=dead |archive-url=https://archive.today/20131127110108/http://www.aecom.com/News/_news/AECOM+completes+Davis+Langdon+acquisition+in+Australia,+New+Zealand,+Europe,+Middle+East,+United+States |archive-date=November 27, 2013 |access-date=November 13, 2013 |publisher=AECOM}}</ref>
+
+===2000–present===
+In 2000, AECOM acquired [[Metcalf and Eddy]], a water and [[wastewater engineering]] firm based in Massachusetts<ref>{{Cite web |last=<!--Not stated--> |date=2007-03-08 |title=AECOM filed this Form S-1 on 03/08/2007 |url=https://investors.aecom.com/mobile.view?c=131318&v=202&d=3&id=aHR0cDovL2FwaS50ZW5rd2l6YXJkLmNvbS9maWxpbmcueG1sP2lwYWdlPTQ3MzA5MTQmRFNFUT0xJlNFUT02MyZTUURFU0M9U0VDVElPTl9QQUdFJmV4cD0mc3Vic2lkPTU3 |url-status=dead |archive-url=https://web.archive.org/web/20180926123252/http://investors.aecom.com/Mobile.View?c=131318 |archive-date=2018-09-26 |access-date=2018-06-13 |website=SEC Filings |publisher=AECOM |id=[[Form S-1]] (U.S. Securities and Exchange Commission; Registration Statement Under The Securities Act of 1933)}}</ref> and London-based [[Guy Maunsell]] International, expanding the firm's reach in the United Kingdom, Hong Kong/China, Australia and the Middle East.<ref>{{Cite web |title=AECOM Technology Corporation {{!}} Encyclopedia.com |url=https://www.encyclopedia.com/books/politics-and-business-magazines/aecom-technology-corporation |access-date=2026-01-05 |website=www.encyclopedia.com}}</ref> In 2003, AECOM developed an award-winning landscape plan for [[Jinji Lake]] in [[Suzhou Industrial Park]]; the lake was developed from a shallow and marshy pond into one of the largest lake front parks in China.<ref name=":8">{{Cite book |last=Lin |first=Zhongjie |title=Constructing Utopias: China's New Town Movement in the 21st Century |date=2025 |publisher=[[Oxford University Press]] |isbn=978-0-19-779330-5 |location=New York, NY}}</ref>{{Reference page|pages=110-111}}
+
+In September 2004, it acquired the Canadian company, [[UMA Engineering]] Ltd.<ref>{{Cite web |date=2004-09-17 |title=UMA Group acquired by L.A.-based Aecom|url=https://canada.constructconnect.com/dcn/news/others/2004/09/uma-group-acquired-by-la-based-aecom-dcn029089w|access-date=2024-07-13 |website=Daily Commercial News}}</ref> ENSR<ref>{{Cite web |title=AECOM Merges with ENSR International |url=https://investors.aecom.com/news-releases/news-release-details/aecom-merges-ensr-international |website=aecom.com}}</ref> and EDAW<ref>{{Cite web |title=AECOM Merges with EDAW |url=https://investors.aecom.com/news-releases/news-release-details/aecom-merges-edaw |website=aecom.com}}</ref> joined AECOM in 2005.
+
+AECOM went public during May 2007 with an initial public offering on the NYSE, netting $468.3 million.<ref name="AECOM-Dec-2007-10-K">{{Cite web |title=AECOM, Form 10-K, Annual Report, Filing Date Dec 13, 2007 |url=http://edgar.secdatabase.com/105/104746907010009/filing-main.htm |access-date=Dec 30, 2012 |publisher=secdatabase.com}}</ref> In January 2008, AECOM acquired The Services Group, Inc., a provider of consulting services to the [[US Agency for International Development|US Agency for International Development (USAID)]] and other multi-lateral donor organizations. In July 2008, AECOM purchased Earth Tech Inc., a consulting and engineering firm, from [[Tyco International]] for $510 million.<ref name="AECOM-Feb-2008-8-K">{{Cite web |title=AECOM, Form 8-K, Current Report, Filing Date Feb 12, 2008 |url=http://edgar.secdatabase.com/2888/110465908009470/filing-main.htm |access-date=Dec 30, 2012 |publisher=secdatabase.com}}</ref><ref name="AECOM-Jul-2008-8-K">{{Cite web |title=AECOM, Form 8-K, Current Report, Filing Date Jul 31, 2008 |url=http://edgar.secdatabase.com/141/110465908048709/filing-main.htm |access-date=Dec 30, 2012 |publisher=secdatabase.com}}</ref> On July 14, 2010, AECOM announced its acquisition of [[Tishman (company)|Tishman Construction Corp.]], a leading provider of construction management services in the United States, whose projects include both the building of the original Twin Towers in New York City in 1973 and One World Trade Center ([[Freedom Tower]]) in the aftermath of 9/11.<ref>{{Cite web |title=One World Trade Center |url=https://aecom.com/projects/one-world-trade-center/ |website=aecom.com}}</ref>  On July 13, 2014, AECOM announced its acquisition of [[URS Corporation]], an engineering, construction, and technical services firm for US$56.31 per share in cash and stock, pegging the enterprise value of URS at approximately $6 billion.<ref>{{Cite news |date=2014-07-13 |title=AECOM to pay $4 billion for engineering firm URS Corp |language=en |work=Reuters |url=https://www.reuters.com/article/us-urs-aecom-tech-idUSKBN0FI0UA20140713 |access-date=2021-04-07}}</ref><ref name="AECOM-URS">{{Cite web |title=AECOM to acquire URS Corporation |url=http://aecom-urs.com/ |access-date=Jul 17, 2014 |publisher=AECOM}}</ref> Effective July 10, 2014, it acquired ACE International Consultants SL, a Madrid-based provider of consulting services. In July 2014, it acquired Hunt Construction Group, adding to AECOM's construction services business.<ref name="AECOM (Google Finance)">{{Cite web |title=ACM (NYSE) |url=https://www.google.com/finance/?cid=714984 |access-date=Feb 16, 2016}}</ref> In July 2017, AECOM acquired Shimmick Construction Company.<ref>{{Cite news |last=Phillips |first=Erica E. |date=6 July 2017 |title=Aecom to Buy Shimmick Construction for $175 Million |language=en-US |work=Wall Street Journal |url=https://www.wsj.com/articles/aecom-to-buy-shimmick-construction-for-175-million-1499374080 |access-date=2019-10-09}}</ref> Officials at the Golden Gate Bridge, Highway and Transportation District blamed the acquisition for delaying construction of a safety barrier at the bridge by 2 years.<ref>{{Cite web |last=Swan |first=Rachel |date=2019-12-12 |title=Golden Gate Bridge suicide nets delayed two years, as people keep jumping |url=https://www.sfchronicle.com/bayarea/article/Golden-Gate-Bridge-suicide-nets-delayed-two-14900278.php |access-date=2021-04-19 |website=San Francisco Chronicle |language=en-US}}</ref>
+
+In 2018, AECOM along with 91 additional [[Fortune 500|''Fortune'' 500]] companies had "paid an effective federal tax rate of 0% or less" as a result of Donald Trump's [[Tax Cuts and Jobs Act of 2017]].<ref name="cnbc">{{Cite news |last=Pound |first=Jesse |date=December 16, 2019 |title=These 91 companies paid no federal taxes in 2018 |url=https://www.cnbc.com/2019/12/16/these-91-fortune-500-companies-didnt-pay-federal-taxes-in-2018.html |access-date=2025-03-01 |work=[[CNBC]]}}</ref>
+
+In October 2019, AECOM announced plans to sell their Management Services division to private equity firm [[American Securities|American Securities LLC]] and [[Lindsay Goldberg]] for $2.405 billion.<ref>{{Cite news |date=14 October 2019 |title=AECOM accelerates value creation strategy with sale of its Management Services business for $2.405 billion |language=en |url=https://investors.aecom.com/news-releases/news-release-details/aecom-accelerates-value-creation-strategy-sale-its-management |access-date=30 January 2020 |archive-url=https://web.archive.org/web/20221129094150/https://investors.aecom.com/news-releases/news-release-details/aecom-accelerates-value-creation-strategy-sale-its-management |archive-date=November 29, 2022 |url-status=dead}}</ref><ref>{{Cite web |last=Cornell |first=Joe |title=AECOM Cancels Spin-Off; To Sell Management Services Business For ~$2.4 Billion |url=https://www.forbes.com/sites/joecornell/2019/10/15/aecom-cancels-spin-off-to-sell-management-services-business-for-24-billion/ |access-date=2021-04-07 |website=Forbes |language=en}}</ref> Management Services provides services and support to governmental clients including the [[United States Department of Energy|Department of Energy]] and [[United States Department of Defense|Department of Defense]]. On January 31, 2020, this transaction was completed with the new company being called [[Amentum Holdings|Amentum]].<ref>{{Cite web |title=Management Services Sale |url=https://aecom.com/management-services-sale/ |access-date=2021-04-07 |website=AECOM |language=en-US}}</ref>  In October 2020, AECOM announced the sale of its Power construction business to private equity firm CriticalPoint Capital.<ref name=":1">{{Cite web |title=AECOM announces sale of its Power construction business to CriticalPoint Capital |url=https://aecom.com/press-releases/aecom-announces-sale-of-its-power-construction-business-to-criticalpoint-capital/ |access-date=2021-04-19 |website=AECOM |language=en-US}}</ref>  In December 2020, AECOM announced the sale of its Civil construction business, including Shimmick Construction, to private equity firm Oroco Capital, which completed January 5, 2021.<ref>{{Cite web |date=5 January 2021 |title=Oroco Capital Closes Buy of AECOM's Civil Construction Unit; Troy Rudd Quoted |url=https://www.govconwire.com/2021/01/oroco-capital-closes-buy-of-aecoms-civil-construction-unit-troy-rudd-quoted/ |access-date=2021-04-19 |website=GovCon Wire |language=en-US}}</ref> AECOM explained these divestitures as a "transformation into a higher-margin, lower-risk Professional Services business".<ref name=":1" />
+
+In August 2021, AECOM announced plans to relocate its global headquarters from [[Los Angeles, California]] to [[Dallas, Texas]].<ref>{{Cite web |last=Hethcock |first=Bill |date=17 August 2021 |title=Infrastructure giant AECOM to relocate global headquarters to Dallas |url=https://www.bizjournals.com/dallas/news/2021/08/17/aecom-headquarters-relocation.html |access-date=17 August 2021 |website=Dallas Business Journal}}</ref>
+
+In 2025, AECOM acquired Norway-based artificial intelligence start-up company Consigli.<ref>{{Cite web |last=Magazine |first=A. E. C. |date=2025-11-25 |title=Aecom acquires AI start-up Consigli |url=https://aecmag.com/ai/aecom-acquires-ai-start-up-consigli/ |access-date=2026-01-05 |website=AEC Magazine |language=en-GB}}</ref>
+
+== Services ==
+AECOM provides Archaeology, Architecture & Design, Urban Planning, Landscape Architecture, Asset Management, Construction, Cost Management, Decommissioning & Closure, Economics, Engineering, Environmental Services, International Development, IT & Cyber Security, Operations & Maintenance, Planning & Consulting, Program Management/Construction Management, Risk Management & Resilience and Technical Services.<ref>{{Cite web |title=Services |url=https://aecom.com/services/ |access-date=14 April 2023 |website=AECOM}}</ref>
+
+== Management ==
+AECOM's first president and CEO was Richard G. Newman, who came to Ashland through its acquisition of Daniel, Mann, Johnson & Mendenhall (DMJM). Under Ashland Oil's ownership, he was president and chief operating officer of DMJM from October 1985 to December 1988. While president of Ashland Technology Corp. from December 1988 until May 1990, Newman was instrumental in taking it from a division of Ashland Oil to an independent company. He was president when the company changed its name to AECOM Technology Corporation in April 1990. Newman was president until 1993, and then chairman, president and CEO from May 1993 to October 2000, and chairman and CEO from 2000 to 2005.<ref name="Form 10-12G">AECOM Technology Corporation. SEC Form 10-12G, March 7, 2007.</ref>
+
+In October 2005, [[John Dionisio|John M. Dionisio]] succeeded Newman as president and CEO of AECOM.<ref name="Form 10-12G" /> In 2011, Dionisio became chairman of the company,<ref>{{Cite news |title=John M. Dionisio: Executive Profile & Biography |publisher=Bloomberg |url=https://www.bloomberg.com/research/stocks/people/person.asp?personId=24207806&ticker=ACM}}</ref> having been COO from October 2003 to October 2005 and president and CEO of the subsidiary DMJM+Harris from October 2000 to October 2003.<ref name="Form 10-12G" />
+
+In October 2011, Michael S. Burke succeeded Dionisio as president and then in March 2014 succeeded him as CEO.<ref name=":0">{{Cite news |last=Prior |first=Anna |date=2013-12-11 |title=Aecom Tech Names President Burke as CEO |language=en-US |work=Wall Street Journal |url=https://www.wsj.com/articles/aecom-tech-names-president-burke-as-ceo-1386793420 |access-date=2019-10-09 |issn=0099-9660}}</ref> Burke joined AECOM in 2005 and was appointed CFO in 2006.<ref>{{Cite web |last=Fahy |first=Michael |title=Aecom promotes Michael Burke to chairman - ConstructionWeekOnline.com |date=March 9, 2015 |url=http://www.constructionweekonline.com/article-32862-aecom-promotes-michael-burke-to-chairman/}}</ref>
+
+In 2011, Stephen M. Kadenacy was named chief financial officer, later promoted to president and COO.<ref>{{Cite news |title=Stephen M. Kadenacy: Executive Profile & Biography |publisher=Bloomberg |url=https://www.bloomberg.com/research/stocks/people/person.asp?personId=60297491&ticker=ACM}}</ref> In 2017, Kadenacy left the company and was succeeded as COO by Randy Wotring.<ref>Wilkers, Ross. WashingtonTechnology.com. [https://washingtontechnology.com/articles/2017/06/29/aecom-wotring-coo.aspx AECOM promotes Wotring to COO, Kadenacy exiting company]. June 29, 2017. <!-- archived at https://web.archive.org/web/20190302184629/https://washingtontechnology.com/articles/2017/06/29/aecom-wotring-coo.aspx --></ref>
+
+In November 2019, AECOM announced that Burke would retire as chairman and CEO. The change was announced to be effective after either the next annual meeting or completion of the search for a replacement. At the same time, AECOM said that the board of directors would be expanded to include representatives of [[activist shareholder|activist-shareholder]] [[Starboard Value]], the fifth largest shareholder.<ref>AECOM. [https://investors.aecom.com/news-releases/news-release-details/aecom-announces-governance-agreement-starboard-value AECOM Announces Governance Agreement with Starboard Value]. November 22, 2019.</ref><ref>Kilgore, Tomi. [https://www.marketwatch.com/story/aecom-ceo-to-retire-as-company-enters-governance-agreement-with-activist-investor-starboard-value-2019-11-22 Aecom CEO to retire, as company enters governance agreement with activist investor Starboard Value]. November 22, 2019.</ref> Amid market speculation that AECOM would be acquired by [[WSP Global]],<ref>Owusu, Tony. [https://www.thestreet.com/investing/aecom-talks-to-be-acquired-wsp-global Aecom Talks to Be Acquired by Canada's WSP Are Advancing]. March 4, 2020.</ref><ref>Korman, Richard. [https://www.enr.com/articles/49488-wsp-plans-new-stock-offering-reviving-speculation-about-deal WSP Plans New Stock Offering, Reviving Speculation About Deal]. '[[Engineering News Record|ENR]]'. June 2, 2020.</ref> AECOM announced the selection of W. Troy Rudd to be CEO. The change will be effective {{As of|2020|10|01|df=US|lc=y}}. Before his appointment as CEO, Rudd was CFO for the company. The announcement included naming Lara Poloni as the new president.<ref>AECOM. [https://aecom.com/press-releases/aecom-to-appoint-w-troy-rudd-as-chief-executive-officer/ AECOM to appoint W. Troy Rudd as Chief Executive Officer]. June 15, 2020.</ref> The announcement resulted in the resignation of the Starboard Value board member in protest over the selection.<ref>Herbst-Bayliss, Svea; Roumeliotis, Greg. [https://www.reuters.com/article/us-aecom-starboard-idUSKBN23M2RX Starboard's Feld quits AECOM's board over CEO pick]. 'Reuters'. June 15, 2020.</ref> AECOM was included on ''Fortune''<nowiki>'</nowiki>s list of the world's most admired companies in 2024.<ref>{{cite web|title=World's Most Admired Companies|url=https://fortune.com/ranking/worlds-most-admired-companies/|access-date=2024-07-13|website=Fortune}}</ref>
+
+As of April 2026, key leadership were:<ref>{{Cite web |title=Our leadership |url=https://aecom.com/about-us/our-leadership/ |access-date=2025-10-15 |website=AECOM |language=en-US}}</ref>
+
+* Troy Rudd, Chairman and Chief Executive Officer
+* Lara Poloni, President
+* Gaurav Kapoor, Chief Financial & Operations Officer
+* David Gan, Chief Legal Officer
+* Emily Gepner, Chief Human Resources Officer
+
+== Corporate affairs ==
+AECOM is headquartered in [[Dallas]],<ref>AECOM Contact Us. [https://aecom.com/contact-us/ AECOM Contact Us]</ref> Texas, United States, with clients in more than 150 countries. The company reported revenue of US$16.1 billion during the 12 months that ended September 30, 2025.<ref>{{Cite web |title=AECOM Reports Fourth Quarter and Full Year Fiscal 2025 Results |url=https://investors.aecom.com/news-releases/news-release-details/aecom-reports-fourth-quarter-and-full-year-fiscal-2025-results |website=AECOM}}</ref>
+
+==See also== 
+* [[List of S&P 400 companies]]
+
+== References ==
+{{Reflist}}
+
+== External links ==
+{{Commons category}}
+*{{Official}}
+{{Finance links
+| symbol = ACM
+| sec_cik = 868857
+| google = ACM:NYSE
+| yahoo = ACM
+| bloomberg = ACM:US
+| reuters = ACM.N
+}}
+* [https://www.amentum.com/ Amentum Website (formerly AECOM Management Services)]
+
+{{S&P 400 companies}}
+{{Authority control}}
+
+[[Category:Construction and civil engineering companies of the United States]]
+[[Category:International engineering consulting firms]]
+[[Category:Engineering consulting firms of the United States]]
+[[Category:Companies based in Dallas]]
+[[Category:American companies established in 1990]]
+[[Category:Construction and civil engineering companies established in 1990]]
+[[Category:Design companies established in 1990]]
+[[Category:1990 establishments in California]]
+[[Category:Companies listed on the New York Stock Exchange]]
+[[Category:2007 initial public offerings]]
+[[Category:Companies in the S&P 400]]
+[[Category:Tax avoidance in the United States]]
+[[Category:Corporate spin-offs]]

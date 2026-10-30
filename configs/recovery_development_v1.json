@@ -1,0 +1,33 @@
+{
+  "schema": "synsteg-recovery-development-campaign-v1",
+  "campaign_id": "recovery-development-v1",
+  "scope": "development_only",
+  "test_execution_enabled": false,
+  "dictionary": "data/shared_dictionary_recovery_v1.json",
+  "dictionary_file_sha256": "a6266ac3c120a081970e3b74024b8618f2d69c0c1ad98e812135f30d92343239",
+  "source_directory": "data/wikipedia-panel-recovery-v1",
+  "source_manifest_sha256": "a6c11e9702b78bdfe8e777fcb3509d4f4531ab11190188894037480531954b79",
+  "pricing": "configs/claude_pricing_recovery_v1.json",
+  "campaign_budget_usd": "20",
+  "local_max_output_tokens": 1024,
+  "claude_max_output_tokens": 2048,
+  "cpu_threads": 6,
+  "dtype": "float32",
+  "seed": 20261024,
+  "local_records_per_model": 30,
+  "claude_records_per_model": 30,
+  "haiku_development_records": 100,
+  "local_models": [
+    {"alias": "qwen05", "model_id": "Qwen/Qwen2.5-0.5B-Instruct", "revision": "7ae557604adf67be50417f59c2c2f167def9a775"},
+    {"alias": "tinyllama11", "model_id": "TinyLlama/TinyLlama-1.1B-Chat-v1.0", "revision": "fe8a4ea1ffedaf415f4da2f062534de366a451e6"},
+    {"alias": "falcon3_1b", "model_id": "tiiuae/Falcon3-1B-Instruct", "revision": "28ba2251970a01dd1edc7ba7dad2eb71216ccfdf"}
+  ],
+  "claude_models": [
+    "claude-fable-5-1", "claude-fable-5", "claude-opus-5", "claude-opus-4-8", "claude-opus-4-7", "claude-opus-4-6",
+    "claude-opus-5-5", "claude-opus-4-5-20251101", "claude-sonnet-4-6", "claude-sonnet-4-5-20250929",
+    "claude-sonnet-5-5", "claude-sonnet-5", "claude-haiku-4-5-20251001", "claude-haiku-5-5"
+  ],
+  "selection": "A content-only balanced 30-record prefix of the 100 development groups; identical prefix across models. No output-dependent retries or replacement.",
+  "budget_scope": "This campaign's reserved and settled API token estimates at the configured maximum rates; not an account-wide billing limit. Unknown outcomes keep their full reservation.",
+  "study_scope": "New WordNet baseline and new Wikipedia API snapshot; not recovery of the missing AI-reviewed dictionary or old completed pilot. No train/validation/test inference in this campaign."
+}

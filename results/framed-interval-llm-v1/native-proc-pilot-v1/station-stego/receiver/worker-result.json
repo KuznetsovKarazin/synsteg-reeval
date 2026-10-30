@@ -1,0 +1,23 @@
+{
+  "activation_sha256": "1978302778134592a7835c63be363932cc8b9c353500873b9e7c7aaadc57911b",
+  "core": {
+    "authenticated_delivery": false,
+    "committed_trace_matches_returned_prefix": true,
+    "first_frame_resolved_token": null,
+    "noncommitted_trace_suffix": [],
+    "payload_hex": null,
+    "pending_bits": 0,
+    "processed_tokens": 512,
+    "reason": "fixed512_without_complete_frame",
+    "resolved_bits": 265,
+    "status": "insufficient_capacity",
+    "trace_sha256": "1d5cb33363b510349e6393df976e0aa3947152e2c046bad8c8c4d880d13d7df2",
+    "wire_tokens": 512
+  },
+  "execution_kind": "native",
+  "retry_permitted": false,
+  "role": "receive",
+  "run_id": "station-stego",
+  "schema": "framed-interval-llm-v1-worker-result-v1",
+  "status": "returned"
+}

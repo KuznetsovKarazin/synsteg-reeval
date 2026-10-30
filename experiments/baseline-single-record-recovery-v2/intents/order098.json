@@ -1,0 +1,16 @@
+{
+  "schema": "baseline-single-record-recovery-v2-intent",
+  "experiment_id": "baseline-single-record-recovery-v2",
+  "status": "reserved_intent_no_execution_claim",
+  "source_order": 98,
+  "record_id": "wikipedia-panel-recovery-v1-biology-encyclopedic-500-development-01",
+  "identity": "1627e32e430110a051f1edca6d84fcb64c6ee9c706e15853d604ddc4859677a4",
+  "source_snapshot_commit": "4050291345c43776e9c93528b6afe292c062ba7a",
+  "protocol_sha256": "3f09df7d100527135deba9bdc3f308ce3aa8bb9ebb276183c66413a3e2ab7c62",
+  "helper_sha256": "89e94639fae9fef70e1b2662fccb92c73319234db55b237b246b6ba89fafd8bf",
+  "guard_request_sha256": "d20f6ca26533502dad7a05b604705651c35ba3791fcb6b97113ec719029f891e",
+  "predecessor_receipt_commit": "20b8a2b8a5779913f0c843f0241ddebb270f9e90",
+  "max_new_requests": 1,
+  "automatic_retries": 0,
+  "lost_execution_identity_policy": "Do not replay this saved intent after loss of execution identity; preserve unknown and use a new recovery decision."
+}

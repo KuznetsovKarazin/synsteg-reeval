@@ -1,0 +1,58 @@
+{
+  "schema": "candidate-journal-guard-v2-component-protocol",
+  "id": "candidate-journal-guard-v2",
+  "scope": "Standalone POSIX durable evidence component plus mock faults and one pinned historical negative control.",
+  "native_generation_enabled": false,
+  "native_adapter_integration_complete": false,
+  "new_native_attempts": 0,
+  "model_tokenizer_encoder_decoder_calls": 0,
+  "paid_calls": 0,
+  "closed_test_opened": false,
+  "original_v1_modified": false,
+  "journal_events": [
+    "opened",
+    "prompt_prepared",
+    "prompt_committed",
+    "step_prepared",
+    "step_committed",
+    "trace_complete"
+  ],
+  "known_trace_requires": [
+    "all prepared operations acknowledged",
+    "strict hash-chain and event-order replay from on-disk bytes",
+    "request/resource/protocol/attempt binding equality",
+    "exact producer IDs/response against on-disk replay",
+    "closed result/manifest equality with JSON types preserved",
+    "durable immutable-name files and atomic no-replace terminal publication",
+    "trusted external terminal digest and complete post-save readback"
+  ],
+  "acceptance_scope": "trace_complete is not format acceptance, semantic equivalence, sampling correctness or evidence of actual model execution; only returned verified bytes may be submitted to a separately frozen format validator.",
+  "failure_policy": "Any validation/I/O error leaves evidence UNKNOWN and forbids same-directory reopen/resume/retry. Preserve observed files.",
+  "files": {
+    "src/synsteg_audit/candidate_journal_guard_v2.py": "48b7536a28e623b2633616108dda3ea286cb7af562d6edd250ba8ece570a0477",
+    "tests/test_candidate_journal_guard_v2.py": "367d25558adfda08987e85e4ea627fb86257fb2f35a4553d56a9b0a420db857b",
+    "scripts/check_legacy_candidate_evidence_gap_v2.py": "76811f78f5db2cfe631e700dd729822e94b57cd28900915cde1b765baf846c3d"
+  },
+  "own_fault_tests": 40,
+  "independent_fault_checks": 65,
+  "actual_historical_negative_control": "results/candidate-journal-guard-v2/legacy-negative-control.json",
+  "origin_of_v1_gap": "unknown",
+  "unmeasured": [
+    "real native v2 delivery",
+    "cross-host behavior",
+    "power loss hardware persistence",
+    "malicious privileged filesystem mutation",
+    "race-free immutability after verification",
+    "candidate quality or capacity"
+  ],
+  "requirements_before_native_v2": [
+    "new runner and protocol integrating this gate with the separately identified format-v2 validator",
+    "pin all source/public resources and candidate requests in Git before generation",
+    "read back source/intent and record exactly one attempt outcome",
+    "freeze cohort, sampling, token/time bounds, failure/abstention policy",
+    "independent native trace/sampling and post-save audit",
+    "Coordinator must persist attempt-ID ownership and forbid creating a new directory to rerun the same physical attempt."
+  ],
+  "no_automatic_retry": true,
+  "global_attempt_id_registry": false
+}

@@ -1,0 +1,3 @@
+# Optional, separately versioned shared-dictionary codec; install after the base project.
+# Exact version used by the codec fixtures and prospective runtime.
+cryptography==50.0.2

@@ -1,0 +1,16 @@
+{
+  "schema": "baseline-single-record-recovery-v2-intent",
+  "experiment_id": "baseline-single-record-recovery-v2",
+  "status": "reserved_intent_no_execution_claim",
+  "source_order": 100,
+  "record_id": "wikipedia-panel-recovery-v1-chemistry-magazine-500-development-01",
+  "identity": "0b35fcc92405624c5967d043a42bfee9d54c8ff2b0d9580fa51139b6172cc02a",
+  "source_snapshot_commit": "4050291345c43776e9c93528b6afe292c062ba7a",
+  "protocol_sha256": "3f09df7d100527135deba9bdc3f308ce3aa8bb9ebb276183c66413a3e2ab7c62",
+  "helper_sha256": "89e94639fae9fef70e1b2662fccb92c73319234db55b237b246b6ba89fafd8bf",
+  "guard_request_sha256": "81584afa62b709a668409f445c82a69aacb282aabcff0b4e68c380678e371e28",
+  "predecessor_receipt_commit": "9c86e54ddb1e87a86393e525b5e0236a01856a0c",
+  "max_new_requests": 1,
+  "automatic_retries": 0,
+  "lost_execution_identity_policy": "Do not replay this saved intent after loss of execution identity; preserve unknown and use a new recovery decision."
+}

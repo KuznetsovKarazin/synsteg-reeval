@@ -1,0 +1,29 @@
+{
+  "decoder_calls": 0,
+  "input_files": 106,
+  "model_calls": 0,
+  "outputs": {
+    "inputs.json": {
+      "bytes": 22528,
+      "sha256": "7d49090f52a7bc55c7e0306530d74513572141d06bfc7d405d169fc234f616ec"
+    },
+    "paired-costs.json": {
+      "bytes": 6765,
+      "sha256": "4225884ca61f82b56a0c2a8991751a0d52fd0b3cfb8bbdfde896b1ada6de03f6"
+    },
+    "rows.json": {
+      "bytes": 19505,
+      "sha256": "dde58979819614e547433fbeda82a547b2140719730df6d7bdc116e5cd1981ed"
+    },
+    "summary.json": {
+      "bytes": 11527,
+      "sha256": "a571e9bdbb08b2a4a199342d287a7dca83a29da3c3b7c1901188ea582890c06b"
+    }
+  },
+  "paired_rows": 8,
+  "schema": "bounded-native-metrics-status-v1",
+  "script_sha256": "c390352207ab2e8e78ba247c30c8dc27dd1badb6830f86472bf4f40160a3b84d",
+  "sender_rows": 16,
+  "status": "completed",
+  "tokenizer_calls": 0
+}

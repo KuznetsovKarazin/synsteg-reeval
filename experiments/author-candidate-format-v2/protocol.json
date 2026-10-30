@@ -1,0 +1,120 @@
+{
+  "schema": "author-candidate-format-v2-protocol",
+  "id": "author-candidate-format-v2",
+  "component_scope": "offline prompt, exact coverage/count gate and whole-prefix grammar only",
+  "native_execution_enabled": false,
+  "native_calls": 0,
+  "future_native_variant_id": "author-candidate-local-native-v2",
+  "future_native_variant_is_not_implemented_or_authorized_by_this_file": true,
+  "not_original_provider_replication": true,
+  "original_author_source_zip_sha256": "793c419e19b09a038af439fceb0c8727f2d809e2e855444d66839fd8132ef790",
+  "adaptations_from_v1": [
+    "JSON-only unambiguous prompt with no fenced example or placeholder keys",
+    "exact ordered input keys and exactly eight distinct alternatives or explicit empty abstention",
+    "irreversibly invalid whole-JSON prefix stops after the current committed token",
+    "strict source identity/count/duplicate checks; no semantic certification"
+  ],
+  "causal_prompt_only_comparison": false,
+  "cohort": {
+    "selection": "unchanged first2chunks of first fixed baseline cover",
+    "source_requests_path": "experiments/author-candidate-local-native-v1/requests.json",
+    "source_requests_sha256": "e5256075993526101114f63ea37161d1d82369183e1758054ea924c74b522864",
+    "cover_sha256": "a2a51f6f45afb664e8f06d5ebc160b189785b781e80de3c8d01939a9ec5f3a95",
+    "whitespace_words_in_full_cover": 543,
+    "full_cover_chunks": 109,
+    "diagnostic_chunks": 2,
+    "outside_diagnostic_chunks": 107,
+    "same_five_token_context_as_v1": true,
+    "additional_context_supplied": false
+  },
+  "requests": {
+    "path": "experiments/author-candidate-format-v2/requests.json",
+    "sha256": "0cc5750f8251cb7b10bb29d00ec858d5b005d0df42fb7d2781152c807a4ae421"
+  },
+  "fixed_request_sha256": [
+    "15f413e60449231fe505a45091d838f36155d15307bcdf16b27d1215ffa05104",
+    "d9f3597b716fb4fbb888a83ceccd881f94635537132ac5dc00c0748ddd14b4f4"
+  ],
+  "bits_per_word": 3,
+  "additional_bits": 0,
+  "response_schema": {
+    "root": "one object with only words field",
+    "rows": "exactly one ordered singleton object per source word",
+    "keys": "exact source strings including capitalization/punctuation",
+    "values": "[] abstention or exactly8 nonempty unpadded strings",
+    "uniqueness": "casefold after collapsing whitespace, excluding source surface",
+    "no_silent_repair_or_filter": true,
+    "reject_duplicate_JSON_keys": true,
+    "forbidden_candidate_and_source_char_categories": [
+      "Cc",
+      "Cf",
+      "Zl",
+      "Zp"
+    ],
+    "unicode_rule_scope": "Conservative surface-format restriction for this English cohort; not a general multilingual linguistic rule",
+    "case_POS_morphology_sense_punctuation_candidate_correctness_verified": false
+  },
+  "abstention": {
+    "format_accepted": true,
+    "candidate_strings": 0,
+    "semantic_retry_allowed": false,
+    "usable_candidate_rows": null,
+    "capacity_bits": null,
+    "full_cover_complete_not_implied": true
+  },
+  "context_limitation": "Five tokens can underdetermine sense, reference and morphology; instruction compliance is not semantic proof.",
+  "proposed_native_settings": {
+    "profile_path": "experiments/framed-interval-public-v1/native-public-profile.json",
+    "profile_sha256": "f32097750dc898fce418a29146587a4229eae1dcb76e3cbcd374b692846adc8a",
+    "profile_scope": "resources/runtime/READY/resident identities only; inherited temperature0.8 is not proposed sampler",
+    "model": "Qwen2.5-1.5B-Instruct Q4_K_M",
+    "temperature": 0.7,
+    "top_k": 50,
+    "integer_total": 16777216,
+    "token_cap_per_attempt": 512,
+    "attempt_deadline_seconds": 600,
+    "physical_attempts_per_chunk_max": 3,
+    "diagnostic_physical_attempts_max": 6,
+    "reset": "fresh owned native process per attempt",
+    "EOS_policy": "same existing EOS/special mask; not vanilla EOS-terminated generation",
+    "seed_policy": "HMAC/draw implementation must be separately frozen under new native ID, bound to requestSHA and fixed attempt0..2; no seed search",
+    "all_settings_are_pending_native_integration": true
+  },
+  "prefix_policy": {
+    "input": "exact bytes of entire committed response, not a sliced convenience file",
+    "complete": "entire object plus only JSON whitespace; run strict response gate and stop",
+    "invalid_prefix": "stop and record known format refusal; no scanning, fence stripping, repair or token truncation",
+    "incomplete": "continue until complete/invalid/resource refusal or committed512token cap",
+    "incomplete_at_cap": "known format refusal",
+    "partial_UTF8": "wait conservatively without lossy decoding; invalid UTF8 is refused",
+    "resource_refusal": "known parser-limit refusal; stop campaign without automatic retry",
+    "max_raw_bytes": 262144,
+    "max_JSON_depth": 32,
+    "trailing_junk_within_final_token": "whole token retained, response refused",
+    "known_refusal_next_attempt": "only next predeclared attempt, maximum3, with complete verified journal",
+    "accepted_including_all_abstentions": "stop chunk; no semantic retry",
+    "unknown_incomplete_journal_or_transport_failure": "stop campaign; no retry or resume"
+  },
+  "journal_gate": {
+    "component": "candidate-journal-guard-v2",
+    "required_before_format_acceptance": "verify_bundle on the persisted sealed attempt; trusted terminal commitment and resource/request/protocol bindings; use verified response bytes",
+    "native_adapter_exists": false,
+    "post_save_check": "independent exact Git readback and sealed-bundle verification; later tampering/truncation must be recorded, never filled in",
+    "no_OS_immutability_claim": true
+  },
+  "next_native_requires": [
+    "new integrated native runner and source closure",
+    "independent source and fault-injection review",
+    "native activation and immutable execution intent",
+    "actual Git source/readback gate",
+    "root exclusive NN lease"
+  ],
+  "full_cover_policy": "All109 ordered chunks must be accounted for, including abstentions/refusals/unattempted. No original/fixed matched transport from a two-chunk diagnostic.",
+  "all50_workload_scope": "metadata-only counts from pinned first50 records; not native authorization or a runtime prediction",
+  "pay_api_allowed": false,
+  "closed_test_allowed": false,
+  "model_calls": 0,
+  "tokenizer_calls": 0,
+  "encoder_calls": 0,
+  "decoder_calls": 0
+}

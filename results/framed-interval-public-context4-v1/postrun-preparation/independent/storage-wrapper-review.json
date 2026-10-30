@@ -1,0 +1,30 @@
+{
+  "schema": "public-context4-storage-wrapper-independent-source-review-v1",
+  "status": "no_blocking_source_issue_found",
+  "wrapper_sha256": "ab2edf42fd817f8dfa10132901660c07c6424148e60142308676a27928269ae4",
+  "generic_storage_sha256": "7a791b2685220f58c6b637b3642bf6e46c5f5d08269592e31739914d1193ffa6",
+  "review_scope": "static source only; producer synthetic storage report inspected, not independently rerun",
+  "result_or_fidelity_reads": 0,
+  "model_calls": 0,
+  "tokenizer_calls": 0,
+  "source_bases": [
+    "results/framed-interval-public-context4-v1",
+    "runtime/framed-interval-public-context4-v1/sender-nonces"
+  ],
+  "checked": [
+    "exclusive output directory",
+    "canonical cooperative lease held; generic local lease distinct",
+    "generic helper exact source hash",
+    "bounded no-follow stable-file reads and source snapshots",
+    "full-tree inventories and byte-verified fresh restore",
+    "absent or empty nonce ledger recorded without success inference",
+    "resource installation excluded; public inventory retained"
+  ],
+  "condition": "root supplies receipt of this actual terminated outer invocation; exit_code type check alone does not prove invocation identity",
+  "limitations": [
+    "cooperative quiescence not OS isolation",
+    "no scientific acceptance inferred",
+    "actual Git readback still required",
+    "full archive bytes and parts must be independently restored from saved Git"
+  ]
+}

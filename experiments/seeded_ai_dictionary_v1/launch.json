@@ -1,0 +1,23 @@
+{
+  "design": "Two separate fresh subprocesses, sequential, fixed prompt/seed/settings; no retries or selection.",
+  "generation_settings": {
+    "do_sample": true,
+    "max_new_tokens": 192,
+    "repetition_penalty": 1.0,
+    "temperature": 0.8,
+    "top_k": 50,
+    "top_p": 0.95
+  },
+  "maximum_runs": 2,
+  "messages": [
+    {
+      "content": "Return only a JSON array containing exactly 4 arrays. Each inner array must contain exactly 4 distinct single lowercase English words that are synonyms of each other. No word may appear in more than one array. Use only letters a-z inside each word. Do not include explanations, Markdown, numbers, or additional text.",
+      "role": "user"
+    }
+  ],
+  "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+  "public_demo_seed": 20261023,
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "runner_sha256": "c8f72d6f576d8f4ac717d8da53d0821b1553dd12a6b09ac4b75faa6c12c29fab",
+  "started_at_unix": 1792775590.334154
+}

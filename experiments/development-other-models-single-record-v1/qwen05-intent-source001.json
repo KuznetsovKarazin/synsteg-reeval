@@ -1,0 +1,15 @@
+{
+  "automatic_retries": 0,
+  "experiment_id": "development-other-models-single-record-v1",
+  "helper_sha256": "cfc5e284381964db30037931ff9a7091f4fc7e28618b1f0da3374e369eeadcdd",
+  "identity": "0a84e1d786f3086691f0c25a18fb3a3cddd82bbd003e05937ce8e5d2ea777200",
+  "lost_execution_identity_policy": "Preserve unknown; do not replay this saved intent after scratch loss.",
+  "max_new_requests": 1,
+  "model_alias": "qwen05",
+  "protocol_sha256": "71f4451b4b6ce65aa8e715f736da124372b492488c7b3df6a3a5b7d1f1d37b66",
+  "record_id": "wikipedia-panel-recovery-v1-astronomy-popular_science-500-development-01",
+  "schema": "development-other-models-single-record-v1-intent",
+  "source_commit": "4050291345c43776e9c93528b6afe292c062ba7a",
+  "source_order": 1,
+  "status": "reserved_intent_no_execution_claim"
+}

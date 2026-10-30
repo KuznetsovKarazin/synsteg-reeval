@@ -1,0 +1,23 @@
+{
+  "schema": "public-context4-independent-source-readback-v1",
+  "ref": "5205e2a0e37611d6dd6326cebd45c2c78f0ce90b",
+  "files": [
+    {
+      "path": "src/synsteg_audit/framed_interval_public_v1.py",
+      "git_blob_sha": "879290663e4d1795cb892a64ece39b05377f1368",
+      "exact_local_utf8_copied": true
+    },
+    {
+      "path": "src/synsteg_audit/framed_interval_public_v1_orchestration.py",
+      "git_blob_sha": "f0d0a306341d865e9c23a35d41c54fd2701d3170",
+      "exact_local_utf8_copied": true
+    },
+    {
+      "path": "scripts/run_framed_interval_public_v1_native_pilot.py",
+      "git_blob_sha": "517577acfcec1b39d60fe58e34be998e118ce66c",
+      "exact_local_utf8_copied": true
+    }
+  ],
+  "model_calls": 0,
+  "tokenizer_calls": 0
+}

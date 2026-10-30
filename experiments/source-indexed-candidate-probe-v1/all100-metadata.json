@@ -1,0 +1,4002 @@
+[
+  {
+    "source_order": 1,
+    "record_id": "wikipedia-panel-recovery-v1-astronomy-popular_science-500-development-01",
+    "title": "Perseus in Chinese astronomy",
+    "source_words_whitespace": 53,
+    "original_target_words": 500,
+    "original_requested_expansion": 9.433962264150944,
+    "template_utf8_bytes": 348,
+    "template_sha256": "7c3c5f6d241f158ac875c50283f3ebe65684aea74ccc0b5d2a9931b6a9a39ca0",
+    "proposal_target_shape_count": 15,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 2,
+        "start_char": 13,
+        "end_char": 24,
+        "surface": "traditional"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 4,
+        "start_char": 33,
+        "end_char": 44,
+        "surface": "uranography"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 6,
+        "start_char": 50,
+        "end_char": 56,
+        "surface": "modern"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": true,
+    "future_request_status": "not_attempted",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 2,
+    "record_id": "wikipedia-panel-recovery-v1-astronomy-encyclopedic-250-development-01",
+    "title": "Astronomy and Astrophysics Decadal Survey",
+    "source_words_whitespace": 76,
+    "original_target_words": 250,
+    "original_requested_expansion": 3.289473684210526,
+    "template_utf8_bytes": 536,
+    "template_sha256": "2f89bae99d65d1a129a2feee3790262da57c3d160e80940aab9bfe4aee685390",
+    "proposal_target_shape_count": 33,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 8,
+        "start_char": 51,
+        "end_char": 57,
+        "surface": "review"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 10,
+        "start_char": 61,
+        "end_char": 70,
+        "surface": "astronomy"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 12,
+        "start_char": 75,
+        "end_char": 87,
+        "surface": "astrophysics"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": true,
+    "future_request_status": "not_attempted",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 3,
+    "record_id": "wikipedia-panel-recovery-v1-astronomy-popular_science-250-development-01",
+    "title": "Far-infrared astronomy",
+    "source_words_whitespace": 68,
+    "original_target_words": 250,
+    "original_requested_expansion": 3.676470588235294,
+    "template_utf8_bytes": 450,
+    "template_sha256": "9238d45e1e2f90addf20593f264a57e580ad71d9aa94d28cd0a9504fe7a63e3b",
+    "proposal_target_shape_count": 31,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 2,
+        "start_char": 13,
+        "end_char": 22,
+        "surface": "astronomy"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 5,
+        "start_char": 30,
+        "end_char": 36,
+        "surface": "branch"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 7,
+        "start_char": 40,
+        "end_char": 49,
+        "surface": "astronomy"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": true,
+    "future_request_status": "not_attempted",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 4,
+    "record_id": "wikipedia-panel-recovery-v1-biology-educational-250-development-01",
+    "title": "Combinatorial biology",
+    "source_words_whitespace": 52,
+    "original_target_words": 250,
+    "original_requested_expansion": 4.8076923076923075,
+    "template_utf8_bytes": 365,
+    "template_sha256": "71daf2290d5b176175c24abfd2ad3fc9308e6e715feb96af78dc4a3a90aca4b4",
+    "proposal_target_shape_count": 24,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 1,
+        "start_char": 3,
+        "end_char": 16,
+        "surface": "biotechnology"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 2,
+        "start_char": 18,
+        "end_char": 31,
+        "surface": "combinatorial"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 3,
+        "start_char": 32,
+        "end_char": 39,
+        "surface": "biology"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": true,
+    "future_request_status": "not_attempted",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 5,
+    "record_id": "wikipedia-panel-recovery-v1-biology-magazine-500-development-01",
+    "title": "Conservation Biology (journal)",
+    "source_words_whitespace": 48,
+    "original_target_words": 500,
+    "original_requested_expansion": 10.416666666666666,
+    "template_utf8_bytes": 353,
+    "template_sha256": "e944b8d8b4cd6e493711e58aeada387b6ef2ea4c9312e8766973187cc3bab1e4",
+    "proposal_target_shape_count": 16,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 4,
+        "start_char": 26,
+        "end_char": 35,
+        "surface": "bimonthly"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 7,
+        "start_char": 50,
+        "end_char": 60,
+        "surface": "scientific"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 8,
+        "start_char": 61,
+        "end_char": 68,
+        "surface": "journal"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": true,
+    "future_request_status": "not_attempted",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 6,
+    "record_id": "wikipedia-panel-recovery-v1-biology-museum_label-500-development-01",
+    "title": "Biology in fiction",
+    "source_words_whitespace": 97,
+    "original_target_words": 500,
+    "original_requested_expansion": 5.154639175257732,
+    "template_utf8_bytes": 688,
+    "template_sha256": "10883f3f179320e380957a522aca8945bc61b2d9522290ae0747cee908f8ea6d",
+    "proposal_target_shape_count": 57,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 1,
+        "start_char": 8,
+        "end_char": 15,
+        "surface": "appears"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 3,
+        "start_char": 19,
+        "end_char": 26,
+        "surface": "fiction"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 4,
+        "start_char": 28,
+        "end_char": 38,
+        "surface": "especially"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": true,
+    "future_request_status": "not_attempted",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 7,
+    "record_id": "wikipedia-panel-recovery-v1-chemistry-popular_science-250-development-01",
+    "title": "Wine chemistry",
+    "source_words_whitespace": 65,
+    "original_target_words": 250,
+    "original_requested_expansion": 3.8461538461538463,
+    "template_utf8_bytes": 395,
+    "template_sha256": "298ad726bf087bd676b5a9dd4ce51573deec0569a2d16e5f67838f8a1ea570e1",
+    "proposal_target_shape_count": 34,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 3,
+        "start_char": 10,
+        "end_char": 17,
+        "surface": "complex"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 4,
+        "start_char": 18,
+        "end_char": 25,
+        "surface": "mixture"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 6,
+        "start_char": 29,
+        "end_char": 37,
+        "surface": "chemical"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": true,
+    "future_request_status": "not_attempted",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 8,
+    "record_id": "wikipedia-panel-recovery-v1-chemistry-educational-500-development-01",
+    "title": "Advanced Chemistry",
+    "source_words_whitespace": 50,
+    "original_target_words": 500,
+    "original_requested_expansion": 10.0,
+    "template_utf8_bytes": 320,
+    "template_sha256": "2e188cb6068e3238b2ee5c2f9779df0a143412972833ab04ec7a449893a652bf",
+    "proposal_target_shape_count": 8,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 7,
+        "start_char": 39,
+        "end_char": 43,
+        "surface": "band"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 15,
+        "start_char": 87,
+        "end_char": 94,
+        "surface": "founded"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 32,
+        "start_char": 177,
+        "end_char": 183,
+        "surface": "member"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": true,
+    "future_request_status": "not_attempted",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 9,
+    "record_id": "wikipedia-panel-recovery-v1-chemistry-magazine-250-development-01",
+    "title": "Telluride (chemistry)",
+    "source_words_whitespace": 50,
+    "original_target_words": 250,
+    "original_requested_expansion": 5.0,
+    "template_utf8_bytes": 252,
+    "template_sha256": "37475f017d9a251be5baa62ddc455d47368b52a6e402b41b23150b9c1f8f6f8e",
+    "proposal_target_shape_count": 12,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 1,
+        "start_char": 4,
+        "end_char": 13,
+        "surface": "telluride"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 5,
+        "start_char": 25,
+        "end_char": 30,
+        "surface": "anion"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 9,
+        "start_char": 45,
+        "end_char": 56,
+        "surface": "derivatives"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": true,
+    "future_request_status": "not_attempted",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 10,
+    "record_id": "wikipedia-panel-recovery-v1-geography-educational-500-development-01",
+    "title": "Geography of Houston",
+    "source_words_whitespace": 76,
+    "original_target_words": 500,
+    "original_requested_expansion": 6.578947368421052,
+    "template_utf8_bytes": 441,
+    "template_sha256": "811595029af52cf02a5c2e606edf43715141705a420090c8b47c3ec8471a29da",
+    "proposal_target_shape_count": 21,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 3,
+        "start_char": 18,
+        "end_char": 26,
+        "surface": "populous"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 4,
+        "start_char": 27,
+        "end_char": 31,
+        "surface": "city"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 11,
+        "start_char": 66,
+        "end_char": 73,
+        "surface": "located"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": true,
+    "future_request_status": "not_attempted",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 11,
+    "record_id": "wikipedia-panel-recovery-v1-geography-educational-250-development-01",
+    "title": "Geographical feature",
+    "source_words_whitespace": 95,
+    "original_target_words": 250,
+    "original_requested_expansion": 2.6315789473684212,
+    "template_utf8_bytes": 629,
+    "template_sha256": "4f6962ebc610fa0b1772a258952e8cc0f066f1bc3f0b157f1e5711cf454c30ea",
+    "proposal_target_shape_count": 48,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 1,
+        "start_char": 3,
+        "end_char": 12,
+        "surface": "geography"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 3,
+        "start_char": 17,
+        "end_char": 29,
+        "surface": "particularly"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 5,
+        "start_char": 33,
+        "end_char": 43,
+        "surface": "geographic"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 12,
+    "record_id": "wikipedia-panel-recovery-v1-geography-encyclopedic-500-development-01",
+    "title": "Glade (geography)",
+    "source_words_whitespace": 59,
+    "original_target_words": 500,
+    "original_requested_expansion": 8.474576271186441,
+    "template_utf8_bytes": 356,
+    "template_sha256": "d2e5517f2133eb8032b3c81ce237c2491cd6941746595bc33007dfb1a219ebf9",
+    "proposal_target_shape_count": 30,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 3,
+        "start_char": 12,
+        "end_char": 19,
+        "surface": "general"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 4,
+        "start_char": 20,
+        "end_char": 25,
+        "surface": "sense"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 6,
+        "start_char": 29,
+        "end_char": 34,
+        "surface": "glade"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 13,
+    "record_id": "wikipedia-panel-recovery-v1-history-popular_science-500-development-01",
+    "title": "History of Amazon",
+    "source_words_whitespace": 60,
+    "original_target_words": 500,
+    "original_requested_expansion": 8.333333333333334,
+    "template_utf8_bytes": 376,
+    "template_sha256": "10e26dcc5706def12f25dd85659c03fd0d7fd1f568090601cf569ca2010ef93d",
+    "proposal_target_shape_count": 19,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 4,
+        "start_char": 22,
+        "end_char": 35,
+        "surface": "multinational"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 5,
+        "start_char": 36,
+        "end_char": 46,
+        "surface": "technology"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 6,
+        "start_char": 47,
+        "end_char": 54,
+        "surface": "company"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 14,
+    "record_id": "wikipedia-panel-recovery-v1-history-museum_label-250-development-01",
+    "title": "Pseudohistory",
+    "source_words_whitespace": 56,
+    "original_target_words": 250,
+    "original_requested_expansion": 4.464285714285714,
+    "template_utf8_bytes": 419,
+    "template_sha256": "f6f1534a5ec64c101bf6a6bcac46f6d04de2199d4f0dbc1e0dd6215090331739",
+    "proposal_target_shape_count": 31,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 3,
+        "start_char": 19,
+        "end_char": 23,
+        "surface": "form"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 5,
+        "start_char": 27,
+        "end_char": 44,
+        "surface": "pseudoscholarship"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 7,
+        "start_char": 50,
+        "end_char": 58,
+        "surface": "attempts"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 15,
+    "record_id": "wikipedia-panel-recovery-v1-history-magazine-250-development-01",
+    "title": "The History of Concrete",
+    "source_words_whitespace": 64,
+    "original_target_words": 250,
+    "original_requested_expansion": 3.90625,
+    "template_utf8_bytes": 408,
+    "template_sha256": "e91e51b1d3ce7a80f1469a2d368b9e5660d958b4a9108c4762d6c953c42514ee",
+    "proposal_target_shape_count": 17,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 7,
+        "start_char": 43,
+        "end_char": 54,
+        "surface": "documentary"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 8,
+        "start_char": 55,
+        "end_char": 59,
+        "surface": "film"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 9,
+        "start_char": 60,
+        "end_char": 68,
+        "surface": "directed"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 16,
+    "record_id": "wikipedia-panel-recovery-v1-literature-popular_science-500-development-01",
+    "title": "Indian literature",
+    "source_words_whitespace": 45,
+    "original_target_words": 500,
+    "original_requested_expansion": 11.11111111111111,
+    "template_utf8_bytes": 310,
+    "template_sha256": "9a6daba8ab97faba1fcea39bec3b5549c06a2bca5d6396dfd3c103ff22423338",
+    "proposal_target_shape_count": 16,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 1,
+        "start_char": 7,
+        "end_char": 17,
+        "surface": "literature"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 2,
+        "start_char": 18,
+        "end_char": 24,
+        "surface": "refers"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 5,
+        "start_char": 32,
+        "end_char": 42,
+        "surface": "literature"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 17,
+    "record_id": "wikipedia-panel-recovery-v1-literature-educational-250-development-01",
+    "title": "Venezuelan literature",
+    "source_words_whitespace": 74,
+    "original_target_words": 250,
+    "original_requested_expansion": 3.3783783783783785,
+    "template_utf8_bytes": 480,
+    "template_sha256": "9dfb2d2d68b40320c941499c114227b268a4dbf0c950af7b5c60799397f62ebc",
+    "proposal_target_shape_count": 27,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 1,
+        "start_char": 11,
+        "end_char": 21,
+        "surface": "literature"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 4,
+        "start_char": 29,
+        "end_char": 39,
+        "surface": "literature"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 5,
+        "start_char": 40,
+        "end_char": 47,
+        "surface": "written"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 18,
+    "record_id": "wikipedia-panel-recovery-v1-literature-educational-500-development-01",
+    "title": "Macedonian literature",
+    "source_words_whitespace": 43,
+    "original_target_words": 500,
+    "original_requested_expansion": 11.627906976744185,
+    "template_utf8_bytes": 305,
+    "template_sha256": "51e08c29fa27e0bd08c1142e8f3cb2491699b1587d8b03e8db0c5021290faf31",
+    "proposal_target_shape_count": 10,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 1,
+        "start_char": 11,
+        "end_char": 21,
+        "surface": "literature"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 2,
+        "start_char": 46,
+        "end_char": 52,
+        "surface": "begins"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 13,
+        "start_char": 115,
+        "end_char": 123,
+        "surface": "nowadays"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 19,
+    "record_id": "wikipedia-panel-recovery-v1-music-educational-250-development-01",
+    "title": "Music to Be Murdered By",
+    "source_words_whitespace": 61,
+    "original_target_words": 250,
+    "original_requested_expansion": 4.098360655737705,
+    "template_utf8_bytes": 383,
+    "template_sha256": "bc289b9ab646e0cec14b731072daa7561a89e95e8b29626a1e7cbad3ad2915ab",
+    "proposal_target_shape_count": 15,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 6,
+        "start_char": 30,
+        "end_char": 38,
+        "surface": "referred"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 12,
+        "start_char": 59,
+        "end_char": 67,
+        "surface": "eleventh"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 13,
+        "start_char": 68,
+        "end_char": 74,
+        "surface": "studio"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 20,
+    "record_id": "wikipedia-panel-recovery-v1-music-magazine-500-development-01",
+    "title": "Celtic music",
+    "source_words_whitespace": 55,
+    "original_target_words": 500,
+    "original_requested_expansion": 9.090909090909092,
+    "template_utf8_bytes": 347,
+    "template_sha256": "0bbc018a6b0dd2c1473872cf72ca8cdb92884f16ae6a71b81b991fbe3b6291c9",
+    "proposal_target_shape_count": 27,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 1,
+        "start_char": 7,
+        "end_char": 12,
+        "surface": "music"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 4,
+        "start_char": 18,
+        "end_char": 23,
+        "surface": "broad"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 5,
+        "start_char": 24,
+        "end_char": 32,
+        "surface": "grouping"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 21,
+    "record_id": "wikipedia-panel-recovery-v1-music-magazine-250-development-01",
+    "title": "AllMusic",
+    "source_words_whitespace": 48,
+    "original_target_words": 250,
+    "original_requested_expansion": 5.208333333333333,
+    "template_utf8_bytes": 292,
+    "template_sha256": "89dbaff48c0e1cf8bdd6e3ae9d9a5d062a92ee1e5bd7ac8fb23c602c0f073aa5",
+    "proposal_target_shape_count": 21,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 1,
+        "start_char": 10,
+        "end_char": 18,
+        "surface": "formerly"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 2,
+        "start_char": 19,
+        "end_char": 24,
+        "surface": "known"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 12,
+        "start_char": 68,
+        "end_char": 74,
+        "surface": "online"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 22,
+    "record_id": "wikipedia-panel-recovery-v1-physics-museum_label-500-development-01",
+    "title": "Force",
+    "source_words_whitespace": 62,
+    "original_target_words": 500,
+    "original_requested_expansion": 8.064516129032258,
+    "template_utf8_bytes": 355,
+    "template_sha256": "8982147ef2fb6f9b4f67505ef85ec006d2068141c01ec3698fd28ee2cbc458c6",
+    "proposal_target_shape_count": 32,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 1,
+        "start_char": 3,
+        "end_char": 10,
+        "surface": "physics"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 3,
+        "start_char": 14,
+        "end_char": 19,
+        "surface": "force"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 6,
+        "start_char": 26,
+        "end_char": 32,
+        "surface": "action"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 23,
+    "record_id": "wikipedia-panel-recovery-v1-physics-museum_label-250-development-01",
+    "title": "Scintillation (physics)",
+    "source_words_whitespace": 44,
+    "original_target_words": 250,
+    "original_requested_expansion": 5.681818181818182,
+    "template_utf8_bytes": 323,
+    "template_sha256": "1bbf9847dd2750bdc92f7b718ed269231516f8bc6011e70f9146a8618cf6e42a",
+    "proposal_target_shape_count": 28,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 1,
+        "start_char": 3,
+        "end_char": 12,
+        "surface": "condensed"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 2,
+        "start_char": 13,
+        "end_char": 19,
+        "surface": "matter"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 3,
+        "start_char": 20,
+        "end_char": 27,
+        "surface": "physics"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 24,
+    "record_id": "wikipedia-panel-recovery-v1-physics-educational-500-development-01",
+    "title": "Coalescence (physics)",
+    "source_words_whitespace": 57,
+    "original_target_words": 500,
+    "original_requested_expansion": 8.771929824561404,
+    "template_utf8_bytes": 360,
+    "template_sha256": "39d2d39b721552b8e44804ad33ad3bb343714af1a1039bb71e7bd17d60effede",
+    "proposal_target_shape_count": 28,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 3,
+        "start_char": 19,
+        "end_char": 26,
+        "surface": "process"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 9,
+        "start_char": 48,
+        "end_char": 56,
+        "surface": "droplets"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 10,
+        "start_char": 58,
+        "end_char": 65,
+        "surface": "bubbles"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 25,
+    "record_id": "wikipedia-panel-recovery-v1-technology-encyclopedic-500-development-01",
+    "title": "Deception technology",
+    "source_words_whitespace": 70,
+    "original_target_words": 500,
+    "original_requested_expansion": 7.142857142857143,
+    "template_utf8_bytes": 500,
+    "template_sha256": "8f56b27557f13512bc3a80afd7576d86c0daf0039c8a0e88e74b93545083b3cf",
+    "proposal_target_shape_count": 43,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 1,
+        "start_char": 10,
+        "end_char": 20,
+        "surface": "technology"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 3,
+        "start_char": 27,
+        "end_char": 36,
+        "surface": "deception"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 5,
+        "start_char": 41,
+        "end_char": 51,
+        "surface": "disruption"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 26,
+    "record_id": "wikipedia-panel-recovery-v1-technology-educational-250-development-01",
+    "title": "AECOM",
+    "source_words_whitespace": 48,
+    "original_target_words": 250,
+    "original_requested_expansion": 5.208333333333333,
+    "template_utf8_bytes": 324,
+    "template_sha256": "fe689aa41487b5a681a44a67297831dace0fcc5fb1543e8471937ccd618cc151",
+    "proposal_target_shape_count": 12,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 1,
+        "start_char": 7,
+        "end_char": 15,
+        "surface": "formerly"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 8,
+        "start_char": 61,
+        "end_char": 74,
+        "surface": "multinational"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 9,
+        "start_char": 75,
+        "end_char": 89,
+        "surface": "infrastructure"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 27,
+    "record_id": "wikipedia-panel-recovery-v1-technology-museum_label-250-development-01",
+    "title": "Technology roadmap",
+    "source_words_whitespace": 63,
+    "original_target_words": 250,
+    "original_requested_expansion": 3.9682539682539684,
+    "template_utf8_bytes": 417,
+    "template_sha256": "5780c0d17357591fe4f4c84fbe3095e6a7f0caf949941bd6994d06762afcfc26",
+    "proposal_target_shape_count": 33,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 1,
+        "start_char": 2,
+        "end_char": 12,
+        "surface": "technology"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 2,
+        "start_char": 13,
+        "end_char": 20,
+        "surface": "roadmap"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 5,
+        "start_char": 26,
+        "end_char": 34,
+        "surface": "flexible"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 28,
+    "record_id": "wikipedia-panel-recovery-v1-visual_arts-educational-250-development-01",
+    "title": "Aesthetic interpretation",
+    "source_words_whitespace": 91,
+    "original_target_words": 250,
+    "original_requested_expansion": 2.7472527472527473,
+    "template_utf8_bytes": 600,
+    "template_sha256": "dc5828e6c48a0341d7c405388fe79a193649965a80392c327da1b46dcf579199",
+    "proposal_target_shape_count": 43,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 2,
+        "start_char": 7,
+        "end_char": 17,
+        "surface": "philosophy"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 6,
+        "start_char": 29,
+        "end_char": 43,
+        "surface": "interpretation"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 9,
+        "start_char": 50,
+        "end_char": 61,
+        "surface": "explanation"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 29,
+    "record_id": "wikipedia-panel-recovery-v1-visual_arts-magazine-500-development-01",
+    "title": "Portland Institute for Contemporary Art",
+    "source_words_whitespace": 67,
+    "original_target_words": 500,
+    "original_requested_expansion": 7.462686567164179,
+    "template_utf8_bytes": 465,
+    "template_sha256": "45d29a6e84dab18e28a9f79e9ab334c8971b6da37a74ebbceb5bc45b095eb753",
+    "proposal_target_shape_count": 26,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 9,
+        "start_char": 56,
+        "end_char": 68,
+        "surface": "contemporary"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 10,
+        "start_char": 69,
+        "end_char": 80,
+        "surface": "performance"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 12,
+        "start_char": 85,
+        "end_char": 91,
+        "surface": "visual"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 30,
+    "record_id": "wikipedia-panel-recovery-v1-visual_arts-museum_label-500-development-01",
+    "title": "Mormon art",
+    "source_words_whitespace": 61,
+    "original_target_words": 500,
+    "original_requested_expansion": 8.19672131147541,
+    "template_utf8_bytes": 405,
+    "template_sha256": "88f977ccaa25631256b056e7992e123523ba7518e922868c2ef1d5fb025e8884",
+    "proposal_target_shape_count": 25,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 2,
+        "start_char": 11,
+        "end_char": 20,
+        "surface": "comprises"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 4,
+        "start_char": 25,
+        "end_char": 31,
+        "surface": "visual"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 6,
+        "start_char": 36,
+        "end_char": 43,
+        "surface": "created"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 31,
+    "record_id": "wikipedia-panel-recovery-v1-visual_arts-museum_label-250-development-01",
+    "title": "Art movement",
+    "source_words_whitespace": 102,
+    "original_target_words": 250,
+    "original_requested_expansion": 2.450980392156863,
+    "template_utf8_bytes": 598,
+    "template_sha256": "974fa9b3b6bf7bf188aff33d3e15e8ded382baf98045bb80fb3b73ced8b09214",
+    "proposal_target_shape_count": 42,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 2,
+        "start_char": 7,
+        "end_char": 15,
+        "surface": "movement"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 5,
+        "start_char": 21,
+        "end_char": 29,
+        "surface": "tendency"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 7,
+        "start_char": 33,
+        "end_char": 38,
+        "surface": "style"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 32,
+    "record_id": "wikipedia-panel-recovery-v1-music-museum_label-500-development-01",
+    "title": "Drop (music)",
+    "source_words_whitespace": 70,
+    "original_target_words": 500,
+    "original_requested_expansion": 7.142857142857143,
+    "template_utf8_bytes": 374,
+    "template_sha256": "31a6744e772364e5ef06566e3e2f831799fa93e2a57db23781c343ed738c4c64",
+    "proposal_target_shape_count": 33,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 1,
+        "start_char": 2,
+        "end_char": 6,
+        "surface": "drop"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 3,
+        "start_char": 10,
+        "end_char": 14,
+        "surface": "beat"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 4,
+        "start_char": 15,
+        "end_char": 19,
+        "surface": "drop"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 33,
+    "record_id": "wikipedia-panel-recovery-v1-visual_arts-encyclopedic-250-development-01",
+    "title": "English art",
+    "source_words_whitespace": 56,
+    "original_target_words": 250,
+    "original_requested_expansion": 4.464285714285714,
+    "template_utf8_bytes": 369,
+    "template_sha256": "5f2a91fbb205b7aa32fd0ab3bbb63deea5012155dd98d5eb2cb1a43f5064ddb2",
+    "proposal_target_shape_count": 21,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 4,
+        "start_char": 19,
+        "end_char": 23,
+        "surface": "body"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 6,
+        "start_char": 27,
+        "end_char": 33,
+        "surface": "visual"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 7,
+        "start_char": 34,
+        "end_char": 38,
+        "surface": "arts"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 34,
+    "record_id": "wikipedia-panel-recovery-v1-technology-educational-500-development-01",
+    "title": "Tiger Global Management",
+    "source_words_whitespace": 48,
+    "original_target_words": 500,
+    "original_requested_expansion": 10.416666666666666,
+    "template_utf8_bytes": 325,
+    "template_sha256": "573095de190b8d01488a3adfab7865111442df13c9504e3396d7f3604e2be96f",
+    "proposal_target_shape_count": 17,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 4,
+        "start_char": 30,
+        "end_char": 35,
+        "surface": "often"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 5,
+        "start_char": 36,
+        "end_char": 44,
+        "surface": "referred"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 11,
+        "start_char": 68,
+        "end_char": 76,
+        "surface": "formerly"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 35,
+    "record_id": "wikipedia-panel-recovery-v1-technology-magazine-250-development-01",
+    "title": "Allwinner Technology",
+    "source_words_whitespace": 58,
+    "original_target_words": 250,
+    "original_requested_expansion": 4.310344827586207,
+    "template_utf8_bytes": 395,
+    "template_sha256": "581cdff99b6c19dfb6923c9f8350ce8c9b0913d639b9ac8288a464c3fc2bde84",
+    "proposal_target_shape_count": 21,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 7,
+        "start_char": 43,
+        "end_char": 50,
+        "surface": "fabless"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 8,
+        "start_char": 51,
+        "end_char": 64,
+        "surface": "semiconductor"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 9,
+        "start_char": 65,
+        "end_char": 72,
+        "surface": "company"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 36,
+    "record_id": "wikipedia-panel-recovery-v1-technology-popular_science-500-development-01",
+    "title": "Gas Technology Institute",
+    "source_words_whitespace": 42,
+    "original_target_words": 500,
+    "original_requested_expansion": 11.904761904761905,
+    "template_utf8_bytes": 291,
+    "template_sha256": "3e33efdfe0d7925ff84ffe8fc1d37759b33fb4b3c8223aa11ac3bc04acba8dc6",
+    "proposal_target_shape_count": 16,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 10,
+        "start_char": 61,
+        "end_char": 69,
+        "surface": "research"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 12,
+        "start_char": 74,
+        "end_char": 85,
+        "surface": "development"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 13,
+        "start_char": 86,
+        "end_char": 98,
+        "surface": "organization"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 37,
+    "record_id": "wikipedia-panel-recovery-v1-astronomy-encyclopedic-500-development-01",
+    "title": "Astronomy in the medieval Islamic world",
+    "source_words_whitespace": 82,
+    "original_target_words": 500,
+    "original_requested_expansion": 6.097560975609756,
+    "template_utf8_bytes": 554,
+    "template_sha256": "cb95026729e31bceff4565e6d117ded2189701b43bd9899a83cd749e5d500064",
+    "proposal_target_shape_count": 31,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 2,
+        "start_char": 17,
+        "end_char": 26,
+        "surface": "astronomy"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 3,
+        "start_char": 27,
+        "end_char": 36,
+        "surface": "comprises"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 5,
+        "start_char": 41,
+        "end_char": 53,
+        "surface": "astronomical"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 38,
+    "record_id": "wikipedia-panel-recovery-v1-physics-popular_science-500-development-01",
+    "title": "Morse/Long-range potential",
+    "source_words_whitespace": 68,
+    "original_target_words": 500,
+    "original_requested_expansion": 7.352941176470588,
+    "template_utf8_bytes": 444,
+    "template_sha256": "17de8fd9190cf243871a03d2c5a848fe33d550b897c112d5a16a6d518992a092",
+    "proposal_target_shape_count": 29,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 4,
+        "start_char": 21,
+        "end_char": 30,
+        "surface": "potential"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 6,
+        "start_char": 36,
+        "end_char": 45,
+        "surface": "potential"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 9,
+        "start_char": 53,
+        "end_char": 64,
+        "surface": "interatomic"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 39,
+    "record_id": "wikipedia-panel-recovery-v1-geography-museum_label-250-development-01",
+    "title": "Geography of Kiribati",
+    "source_words_whitespace": 58,
+    "original_target_words": 250,
+    "original_requested_expansion": 4.310344827586207,
+    "template_utf8_bytes": 357,
+    "template_sha256": "1e0dabf197c730ed613f636c647a92ad22740448329f68bab6c02ca6cbf82de9",
+    "proposal_target_shape_count": 18,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 1,
+        "start_char": 9,
+        "end_char": 17,
+        "surface": "consists"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 3,
+        "start_char": 24,
+        "end_char": 30,
+        "surface": "atolls"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 6,
+        "start_char": 39,
+        "end_char": 45,
+        "surface": "island"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 40,
+    "record_id": "wikipedia-panel-recovery-v1-technology-encyclopedic-250-development-01",
+    "title": "Brooktrout Technology",
+    "source_words_whitespace": 66,
+    "original_target_words": 250,
+    "original_requested_expansion": 3.787878787878788,
+    "template_utf8_bytes": 465,
+    "template_sha256": "4998b6dcf21cdfb142cbf690640a7f3a034edf3b116f1ce202033176e66a468c",
+    "proposal_target_shape_count": 28,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 3,
+        "start_char": 29,
+        "end_char": 34,
+        "surface": "later"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 9,
+        "start_char": 69,
+        "end_char": 87,
+        "surface": "telecommunications"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 10,
+        "start_char": 88,
+        "end_char": 95,
+        "surface": "company"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 41,
+    "record_id": "wikipedia-panel-recovery-v1-technology-museum_label-500-development-01",
+    "title": "Viva Technology",
+    "source_words_whitespace": 56,
+    "original_target_words": 500,
+    "original_requested_expansion": 8.928571428571429,
+    "template_utf8_bytes": 347,
+    "template_sha256": "1ac24f6e2fd832b4f2876a56dfb0daca454d10402a026018848de9d5de4cb32d",
+    "proposal_target_shape_count": 19,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 6,
+        "start_char": 36,
+        "end_char": 42,
+        "surface": "annual"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 7,
+        "start_char": 43,
+        "end_char": 53,
+        "surface": "technology"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 8,
+        "start_char": 54,
+        "end_char": 64,
+        "surface": "conference"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 42,
+    "record_id": "wikipedia-panel-recovery-v1-literature-popular_science-250-development-01",
+    "title": "Jèrriais literature",
+    "source_words_whitespace": 90,
+    "original_target_words": 250,
+    "original_requested_expansion": 2.7777777777777777,
+    "template_utf8_bytes": 564,
+    "template_sha256": "63716db1f88fa85aa6a0bdca4a11a0fffd2e3dd27f7118bcc1f58cf3c9948aa1",
+    "proposal_target_shape_count": 32,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 2,
+        "start_char": 9,
+        "end_char": 19,
+        "surface": "literature"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 4,
+        "start_char": 23,
+        "end_char": 33,
+        "surface": "literature"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 10,
+        "start_char": 58,
+        "end_char": 65,
+        "surface": "dialect"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 43,
+    "record_id": "wikipedia-panel-recovery-v1-visual_arts-popular_science-250-development-01",
+    "title": "Estonian art",
+    "source_words_whitespace": 48,
+    "original_target_words": 250,
+    "original_requested_expansion": 5.208333333333333,
+    "template_utf8_bytes": 299,
+    "template_sha256": "9bd6219cf13cc26808a77cf851c68269c9db2251f4daaa96b677e6c0d07eeb96",
+    "proposal_target_shape_count": 13,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 5,
+        "start_char": 25,
+        "end_char": 30,
+        "surface": "comes"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 10,
+        "start_char": 59,
+        "end_char": 66,
+        "surface": "artists"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 13,
+        "start_char": 74,
+        "end_char": 80,
+        "surface": "pieces"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 44,
+    "record_id": "wikipedia-panel-recovery-v1-technology-popular_science-250-development-01",
+    "title": "NASA spin-off technologies",
+    "source_words_whitespace": 95,
+    "original_target_words": 250,
+    "original_requested_expansion": 2.6315789473684212,
+    "template_utf8_bytes": 650,
+    "template_sha256": "229791c9cf203a5f8ded76705f988a4ebf5a06180bb84b7eaf1852a1f5c93d18",
+    "proposal_target_shape_count": 35,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 3,
+        "start_char": 14,
+        "end_char": 26,
+        "surface": "technologies"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 5,
+        "start_char": 31,
+        "end_char": 41,
+        "surface": "commercial"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 6,
+        "start_char": 42,
+        "end_char": 50,
+        "surface": "products"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 45,
+    "record_id": "wikipedia-panel-recovery-v1-literature-magazine-250-development-01",
+    "title": "Restoration literature",
+    "source_words_whitespace": 97,
+    "original_target_words": 250,
+    "original_requested_expansion": 2.577319587628866,
+    "template_utf8_bytes": 619,
+    "template_sha256": "4aafc291cb65f3399f39d1671dfbca9d8a4793b19f9e7358c39c2e3cfd1aacbf",
+    "proposal_target_shape_count": 33,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 1,
+        "start_char": 12,
+        "end_char": 22,
+        "surface": "literature"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 5,
+        "start_char": 38,
+        "end_char": 48,
+        "surface": "literature"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 6,
+        "start_char": 49,
+        "end_char": 56,
+        "surface": "written"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 46,
+    "record_id": "wikipedia-panel-recovery-v1-biology-magazine-250-development-01",
+    "title": "Class (taxonomy)",
+    "source_words_whitespace": 53,
+    "original_target_words": 250,
+    "original_requested_expansion": 4.716981132075472,
+    "template_utf8_bytes": 321,
+    "template_sha256": "83df1f448800a07f5495a819a9b7ac4a7f63daa4cd48bd9f55bf68b8d7e24393",
+    "proposal_target_shape_count": 30,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 1,
+        "start_char": 3,
+        "end_char": 13,
+        "surface": "biological"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 2,
+        "start_char": 14,
+        "end_char": 22,
+        "surface": "taxonomy"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 3,
+        "start_char": 24,
+        "end_char": 29,
+        "surface": "class"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 47,
+    "record_id": "wikipedia-panel-recovery-v1-physics-magazine-250-development-01",
+    "title": "Bangladesh Physics Olympiad",
+    "source_words_whitespace": 47,
+    "original_target_words": 250,
+    "original_requested_expansion": 5.319148936170213,
+    "template_utf8_bytes": 312,
+    "template_sha256": "d73cf0638c6e6fa2d6f82f8ab6f8d7967ed79fddc462cdd065ba99fc72592801",
+    "proposal_target_shape_count": 17,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 7,
+        "start_char": 45,
+        "end_char": 49,
+        "surface": "high"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 8,
+        "start_char": 50,
+        "end_char": 56,
+        "surface": "school"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 9,
+        "start_char": 57,
+        "end_char": 64,
+        "surface": "physics"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 48,
+    "record_id": "wikipedia-panel-recovery-v1-chemistry-encyclopedic-500-development-01",
+    "title": "Organovanadium chemistry",
+    "source_words_whitespace": 46,
+    "original_target_words": 500,
+    "original_requested_expansion": 10.869565217391305,
+    "template_utf8_bytes": 311,
+    "template_sha256": "bb81ae07c7e1d18a35db41e3cb045347473bbe83786922b31cc28ed59a7f449e",
+    "proposal_target_shape_count": 21,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 1,
+        "start_char": 15,
+        "end_char": 24,
+        "surface": "chemistry"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 4,
+        "start_char": 32,
+        "end_char": 41,
+        "surface": "chemistry"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 6,
+        "start_char": 45,
+        "end_char": 59,
+        "surface": "organometallic"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 49,
+    "record_id": "wikipedia-panel-recovery-v1-chemistry-museum_label-500-development-01",
+    "title": "Microwave chemistry",
+    "source_words_whitespace": 54,
+    "original_target_words": 500,
+    "original_requested_expansion": 9.25925925925926,
+    "template_utf8_bytes": 381,
+    "template_sha256": "512efe47906da96f02de372f5f16356ad9c44422b06a57c8d3826382fcab7f82",
+    "proposal_target_shape_count": 32,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 1,
+        "start_char": 10,
+        "end_char": 19,
+        "surface": "chemistry"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 4,
+        "start_char": 27,
+        "end_char": 34,
+        "surface": "science"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 6,
+        "start_char": 38,
+        "end_char": 46,
+        "surface": "applying"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 50,
+    "record_id": "wikipedia-panel-recovery-v1-astronomy-museum_label-500-development-01",
+    "title": "Midnight sun",
+    "source_words_whitespace": 87,
+    "original_target_words": 500,
+    "original_requested_expansion": 5.747126436781609,
+    "template_utf8_bytes": 514,
+    "template_sha256": "8a4907aa12d79ffdbb0cf91be21ec4f49a79b03f4f4a8426fb5203e5d9273fd7",
+    "proposal_target_shape_count": 35,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 3,
+        "start_char": 19,
+        "end_char": 24,
+        "surface": "known"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 5,
+        "start_char": 28,
+        "end_char": 33,
+        "surface": "polar"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 9,
+        "start_char": 44,
+        "end_char": 51,
+        "surface": "natural"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 51,
+    "record_id": "wikipedia-panel-recovery-v1-visual_arts-educational-500-development-01",
+    "title": "Spanish art",
+    "source_words_whitespace": 114,
+    "original_target_words": 500,
+    "original_requested_expansion": 4.385964912280702,
+    "template_utf8_bytes": 750,
+    "template_sha256": "f25fbb75ba11eaea03708e6e60f14dd6b9fb902afd11d266396fafbef69f06b1",
+    "proposal_target_shape_count": 35,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 5,
+        "start_char": 24,
+        "end_char": 33,
+        "surface": "important"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 6,
+        "start_char": 34,
+        "end_char": 45,
+        "surface": "contributor"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 13,
+        "start_char": 75,
+        "end_char": 83,
+        "surface": "produced"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 52,
+    "record_id": "wikipedia-panel-recovery-v1-history-encyclopedic-500-development-01",
+    "title": "The Personal History of David Copperfield",
+    "source_words_whitespace": 98,
+    "original_target_words": 500,
+    "original_requested_expansion": 5.1020408163265305,
+    "template_utf8_bytes": 620,
+    "template_sha256": "2610dc0bfea8121b070b512f6074a4d2957950554fe7e94bafba1f7d4cb6f73b",
+    "proposal_target_shape_count": 14,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 8,
+        "start_char": 52,
+        "end_char": 62,
+        "surface": "historical"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 11,
+        "start_char": 76,
+        "end_char": 80,
+        "surface": "film"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 12,
+        "start_char": 81,
+        "end_char": 88,
+        "surface": "written"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 53,
+    "record_id": "wikipedia-panel-recovery-v1-physics-magazine-500-development-01",
+    "title": "AP Physics 2",
+    "source_words_whitespace": 40,
+    "original_target_words": 500,
+    "original_requested_expansion": 12.5,
+    "template_utf8_bytes": 292,
+    "template_sha256": "737e11cc8b60bfaaba2f762c6e83c21367752cf7c0b95a295dea35a05c319df6",
+    "proposal_target_shape_count": 15,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 8,
+        "start_char": 49,
+        "end_char": 61,
+        "surface": "introductory"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 9,
+        "start_char": 62,
+        "end_char": 69,
+        "surface": "physics"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 10,
+        "start_char": 70,
+        "end_char": 76,
+        "surface": "course"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 54,
+    "record_id": "wikipedia-panel-recovery-v1-biology-popular_science-250-development-01",
+    "title": "TERRA (biology)",
+    "source_words_whitespace": 40,
+    "original_target_words": 250,
+    "original_requested_expansion": 6.25,
+    "template_utf8_bytes": 282,
+    "template_sha256": "fa1f6df6da7f15fcc6e31656b5cd7139e77a92e0bff7f3eaeff75609406ebeb3",
+    "proposal_target_shape_count": 15,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 2,
+        "start_char": 9,
+        "end_char": 16,
+        "surface": "biology"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 5,
+        "start_char": 23,
+        "end_char": 35,
+        "surface": "abbreviation"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 16,
+        "start_char": 96,
+        "end_char": 107,
+        "surface": "transcribed"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 55,
+    "record_id": "wikipedia-panel-recovery-v1-biology-popular_science-500-development-01",
+    "title": "UNC (biology)",
+    "source_words_whitespace": 53,
+    "original_target_words": 500,
+    "original_requested_expansion": 9.433962264150944,
+    "template_utf8_bytes": 331,
+    "template_sha256": "3e01002f38a19a9795022bb09af07a805ca22b2f049530970a80dc4af77f08b7",
+    "proposal_target_shape_count": 20,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 5,
+        "start_char": 16,
+        "end_char": 24,
+        "surface": "proteins"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 6,
+        "start_char": 25,
+        "end_char": 30,
+        "surface": "first"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 7,
+        "start_char": 31,
+        "end_char": 41,
+        "surface": "identified"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 56,
+    "record_id": "wikipedia-panel-recovery-v1-literature-magazine-500-development-01",
+    "title": "History of literature",
+    "source_words_whitespace": 74,
+    "original_target_words": 500,
+    "original_requested_expansion": 6.756756756756757,
+    "template_utf8_bytes": 474,
+    "template_sha256": "204dad7df939bf60f56ca422ccd609a4e7725e25e24b224a18a0da82eee85baf",
+    "proposal_target_shape_count": 36,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 1,
+        "start_char": 4,
+        "end_char": 11,
+        "surface": "history"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 3,
+        "start_char": 15,
+        "end_char": 25,
+        "surface": "literature"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 6,
+        "start_char": 33,
+        "end_char": 43,
+        "surface": "historical"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 57,
+    "record_id": "wikipedia-panel-recovery-v1-biology-museum_label-250-development-01",
+    "title": "Floral biology",
+    "source_words_whitespace": 66,
+    "original_target_words": 250,
+    "original_requested_expansion": 3.787878787878788,
+    "template_utf8_bytes": 483,
+    "template_sha256": "d9a0983ef20d1d4b73bd6e5980f0096c83ee103927f0b46ac04dfa0362274111",
+    "proposal_target_shape_count": 40,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 1,
+        "start_char": 7,
+        "end_char": 14,
+        "surface": "biology"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 4,
+        "start_char": 21,
+        "end_char": 25,
+        "surface": "area"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 6,
+        "start_char": 29,
+        "end_char": 39,
+        "surface": "ecological"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 58,
+    "record_id": "wikipedia-panel-recovery-v1-history-magazine-500-development-01",
+    "title": "Primeval history",
+    "source_words_whitespace": 147,
+    "original_target_words": 500,
+    "original_requested_expansion": 3.401360544217687,
+    "template_utf8_bytes": 820,
+    "template_sha256": "ac1e4d057adfcb0f1b2f9745fcb5342de048640b9d4de0bb774843a4fb16dcc8",
+    "proposal_target_shape_count": 57,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 1,
+        "start_char": 4,
+        "end_char": 12,
+        "surface": "primeval"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 2,
+        "start_char": 13,
+        "end_char": 20,
+        "surface": "history"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 5,
+        "start_char": 28,
+        "end_char": 32,
+        "surface": "name"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 59,
+    "record_id": "wikipedia-panel-recovery-v1-history-educational-250-development-01",
+    "title": "History of the Jews in Russia",
+    "source_words_whitespace": 70,
+    "original_target_words": 250,
+    "original_requested_expansion": 3.5714285714285716,
+    "template_utf8_bytes": 475,
+    "template_sha256": "4759d10806a045555f81b3d63ded79789e6ddd74ec36227589a429e8656c196b",
+    "proposal_target_shape_count": 33,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 1,
+        "start_char": 4,
+        "end_char": 11,
+        "surface": "history"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 7,
+        "start_char": 34,
+        "end_char": 38,
+        "surface": "goes"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 8,
+        "start_char": 39,
+        "end_char": 43,
+        "surface": "back"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 60,
+    "record_id": "wikipedia-panel-recovery-v1-chemistry-museum_label-250-development-01",
+    "title": "Organofluorine chemistry",
+    "source_words_whitespace": 51,
+    "original_target_words": 250,
+    "original_requested_expansion": 4.901960784313726,
+    "template_utf8_bytes": 388,
+    "template_sha256": "0eb888d0afdea030f7f27da0d4073011bd78399f36f8f08d1aa97907c34be2d4",
+    "proposal_target_shape_count": 25,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 1,
+        "start_char": 15,
+        "end_char": 24,
+        "surface": "chemistry"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 2,
+        "start_char": 25,
+        "end_char": 34,
+        "surface": "describes"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 4,
+        "start_char": 39,
+        "end_char": 48,
+        "surface": "chemistry"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 61,
+    "record_id": "wikipedia-panel-recovery-v1-music-educational-500-development-01",
+    "title": "Fill (music)",
+    "source_words_whitespace": 90,
+    "original_target_words": 500,
+    "original_requested_expansion": 5.555555555555555,
+    "template_utf8_bytes": 521,
+    "template_sha256": "b9c7da6f4ce9a6c4e5df4deb243a0be3f8ca13b061edb48e33b18450e226f8c9",
+    "proposal_target_shape_count": 50,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 1,
+        "start_char": 3,
+        "end_char": 10,
+        "surface": "popular"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 2,
+        "start_char": 11,
+        "end_char": 16,
+        "surface": "music"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 4,
+        "start_char": 20,
+        "end_char": 24,
+        "surface": "fill"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 62,
+    "record_id": "wikipedia-panel-recovery-v1-astronomy-magazine-500-development-01",
+    "title": "Regulus",
+    "source_words_whitespace": 60,
+    "original_target_words": 500,
+    "original_requested_expansion": 8.333333333333334,
+    "template_utf8_bytes": 351,
+    "template_sha256": "97e450ecdabb98c5919763ca27868dca6ef60e0b993422722ae9de9288825025",
+    "proposal_target_shape_count": 20,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 3,
+        "start_char": 15,
+        "end_char": 24,
+        "surface": "brightest"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 4,
+        "start_char": 25,
+        "end_char": 31,
+        "surface": "object"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 7,
+        "start_char": 39,
+        "end_char": 52,
+        "surface": "constellation"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 63,
+    "record_id": "wikipedia-panel-recovery-v1-history-encyclopedic-250-development-01",
+    "title": "A History of God",
+    "source_words_whitespace": 61,
+    "original_target_words": 250,
+    "original_requested_expansion": 4.098360655737705,
+    "template_utf8_bytes": 340,
+    "template_sha256": "12846e8ad1f1121a38e2b17ba3270e1308249f0e4d79bf30ddf8d1e5cd6ad4b7",
+    "proposal_target_shape_count": 16,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 6,
+        "start_char": 22,
+        "end_char": 26,
+        "surface": "book"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 12,
+        "start_char": 55,
+        "end_char": 64,
+        "surface": "published"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 17,
+        "start_char": 86,
+        "end_char": 93,
+        "surface": "details"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 64,
+    "record_id": "wikipedia-panel-recovery-v1-astronomy-magazine-250-development-01",
+    "title": "Andromeda in Chinese astronomy",
+    "source_words_whitespace": 64,
+    "original_target_words": 250,
+    "original_requested_expansion": 3.90625,
+    "template_utf8_bytes": 414,
+    "template_sha256": "d8c6165e472dc9a8496cee9be32f79c3f626f2eebed1405c1fc738086d92e74c",
+    "proposal_target_shape_count": 18,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 1,
+        "start_char": 4,
+        "end_char": 10,
+        "surface": "modern"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 2,
+        "start_char": 11,
+        "end_char": 24,
+        "surface": "constellation"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 4,
+        "start_char": 35,
+        "end_char": 39,
+        "surface": "lies"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 65,
+    "record_id": "wikipedia-panel-recovery-v1-geography-popular_science-500-development-01",
+    "title": "Physical geography",
+    "source_words_whitespace": 81,
+    "original_target_words": 500,
+    "original_requested_expansion": 6.172839506172839,
+    "template_utf8_bytes": 558,
+    "template_sha256": "a0a2d7c5ac2ddd0aebf5befb4909150e8e4f134ce875ae542a2d733b92bbf883",
+    "proposal_target_shape_count": 42,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 1,
+        "start_char": 9,
+        "end_char": 18,
+        "surface": "geography"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 3,
+        "start_char": 25,
+        "end_char": 30,
+        "surface": "known"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 5,
+        "start_char": 34,
+        "end_char": 46,
+        "surface": "physiography"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 66,
+    "record_id": "wikipedia-panel-recovery-v1-physics-encyclopedic-500-development-01",
+    "title": "United States Physics Olympiad",
+    "source_words_whitespace": 76,
+    "original_target_words": 500,
+    "original_requested_expansion": 6.578947368421052,
+    "template_utf8_bytes": 467,
+    "template_sha256": "1e28027c1d8fef353dfe12d1c2511fe8bd1602abf713743e60da35edff4227f2",
+    "proposal_target_shape_count": 21,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 8,
+        "start_char": 49,
+        "end_char": 53,
+        "surface": "high"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 9,
+        "start_char": 54,
+        "end_char": 60,
+        "surface": "school"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 10,
+        "start_char": 61,
+        "end_char": 68,
+        "surface": "physics"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 67,
+    "record_id": "wikipedia-panel-recovery-v1-history-popular_science-250-development-01",
+    "title": "The World of Ice & Fire",
+    "source_words_whitespace": 85,
+    "original_target_words": 250,
+    "original_requested_expansion": 2.9411764705882355,
+    "template_utf8_bytes": 503,
+    "template_sha256": "343a16722e529ee83bd8ff2b94b93ddb6be9b73fa72361ffe5f11f765c795a43",
+    "proposal_target_shape_count": 23,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 17,
+        "start_char": 85,
+        "end_char": 94,
+        "surface": "companion"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 18,
+        "start_char": 95,
+        "end_char": 99,
+        "surface": "book"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 31,
+        "start_char": 149,
+        "end_char": 156,
+        "surface": "fantasy"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 68,
+    "record_id": "wikipedia-panel-recovery-v1-music-encyclopedic-250-development-01",
+    "title": "Blues Music Awards",
+    "source_words_whitespace": 68,
+    "original_target_words": 250,
+    "original_requested_expansion": 3.676470588235294,
+    "template_utf8_bytes": 414,
+    "template_sha256": "fe3438cd36e88c006646ac32ffd7ac9ca454a604d267625fa9d0d9c5da5370b6",
+    "proposal_target_shape_count": 24,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 4,
+        "start_char": 24,
+        "end_char": 32,
+        "surface": "formerly"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 5,
+        "start_char": 33,
+        "end_char": 38,
+        "surface": "known"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 16,
+        "start_char": 88,
+        "end_char": 94,
+        "surface": "awards"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 69,
+    "record_id": "wikipedia-panel-recovery-v1-biology-educational-500-development-01",
+    "title": "Crosstalk (biology)",
+    "source_words_whitespace": 55,
+    "original_target_words": 500,
+    "original_requested_expansion": 9.090909090909092,
+    "template_utf8_bytes": 364,
+    "template_sha256": "4b84bf5ca12d1debb4fbe8817681986a6fd3aa5236a7f7438db0c574257fdf42",
+    "proposal_target_shape_count": 27,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 1,
+        "start_char": 11,
+        "end_char": 20,
+        "surface": "crosstalk"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 2,
+        "start_char": 21,
+        "end_char": 27,
+        "surface": "refers"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 4,
+        "start_char": 31,
+        "end_char": 40,
+        "surface": "instances"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 70,
+    "record_id": "wikipedia-panel-recovery-v1-chemistry-educational-250-development-01",
+    "title": "Oasis (band)",
+    "source_words_whitespace": 57,
+    "original_target_words": 250,
+    "original_requested_expansion": 4.385964912280702,
+    "template_utf8_bytes": 362,
+    "template_sha256": "53b63b4f319cdd824d8652eb66f51c9e7effc7d2607c81d854772be5db455fcc",
+    "proposal_target_shape_count": 25,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 4,
+        "start_char": 21,
+        "end_char": 25,
+        "surface": "rock"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 5,
+        "start_char": 26,
+        "end_char": 30,
+        "surface": "band"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 6,
+        "start_char": 31,
+        "end_char": 37,
+        "surface": "formed"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 71,
+    "record_id": "wikipedia-panel-recovery-v1-physics-encyclopedic-250-development-01",
+    "title": "Technical Physics Letters",
+    "source_words_whitespace": 69,
+    "original_target_words": 250,
+    "original_requested_expansion": 3.6231884057971016,
+    "template_utf8_bytes": 514,
+    "template_sha256": "a6b7fd5cee1b0741bfe008b1e747dd623f828f0952af896aece8bce009eef472",
+    "proposal_target_shape_count": 21,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 7,
+        "start_char": 45,
+        "end_char": 55,
+        "surface": "scientific"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 8,
+        "start_char": 56,
+        "end_char": 63,
+        "surface": "journal"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 11,
+        "start_char": 77,
+        "end_char": 84,
+        "surface": "monthly"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 72,
+    "record_id": "wikipedia-panel-recovery-v1-physics-educational-250-development-01",
+    "title": "Charge (physics)",
+    "source_words_whitespace": 44,
+    "original_target_words": 250,
+    "original_requested_expansion": 5.681818181818182,
+    "template_utf8_bytes": 296,
+    "template_sha256": "157c2f140e0df999108d0892645303a9ea24033a3813e1b8c6de4cf7825acf68",
+    "proposal_target_shape_count": 19,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 1,
+        "start_char": 3,
+        "end_char": 10,
+        "surface": "physics"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 3,
+        "start_char": 14,
+        "end_char": 20,
+        "surface": "charge"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 7,
+        "start_char": 31,
+        "end_char": 35,
+        "surface": "many"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 73,
+    "record_id": "wikipedia-panel-recovery-v1-geography-magazine-250-development-01",
+    "title": "Geography of Kyrgyzstan",
+    "source_words_whitespace": 58,
+    "original_target_words": 250,
+    "original_requested_expansion": 4.310344827586207,
+    "template_utf8_bytes": 320,
+    "template_sha256": "d21cab1167e1ebe978f49fe927e58fc633769c2457db13dd5c421f81dbf2df7b",
+    "proposal_target_shape_count": 16,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 3,
+        "start_char": 16,
+        "end_char": 26,
+        "surface": "landlocked"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 4,
+        "start_char": 27,
+        "end_char": 33,
+        "surface": "nation"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 10,
+        "start_char": 59,
+        "end_char": 63,
+        "surface": "area"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 74,
+    "record_id": "wikipedia-panel-recovery-v1-music-popular_science-250-development-01",
+    "title": "Review",
+    "source_words_whitespace": 95,
+    "original_target_words": 250,
+    "original_requested_expansion": 2.6315789473684212,
+    "template_utf8_bytes": 575,
+    "template_sha256": "8805c51dff1900e1eb8e16fb2e4cf62ff665fd2860856510bb77370ffc49cec2",
+    "proposal_target_shape_count": 54,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 1,
+        "start_char": 2,
+        "end_char": 8,
+        "surface": "review"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 4,
+        "start_char": 15,
+        "end_char": 25,
+        "surface": "evaluation"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 7,
+        "start_char": 31,
+        "end_char": 42,
+        "surface": "publication"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 75,
+    "record_id": "wikipedia-panel-recovery-v1-geography-encyclopedic-250-development-01",
+    "title": "Geography of Uzbekistan",
+    "source_words_whitespace": 55,
+    "original_target_words": 250,
+    "original_requested_expansion": 4.545454545454546,
+    "template_utf8_bytes": 342,
+    "template_sha256": "2ecaaa66ff83f42c1c5f81c7f1c5e99a952ea35749dc8a2a644d4978e1123953",
+    "proposal_target_shape_count": 17,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 3,
+        "start_char": 16,
+        "end_char": 23,
+        "surface": "country"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 7,
+        "start_char": 41,
+        "end_char": 48,
+        "surface": "located"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 8,
+        "start_char": 49,
+        "end_char": 54,
+        "surface": "north"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 76,
+    "record_id": "wikipedia-panel-recovery-v1-literature-museum_label-250-development-01",
+    "title": "Mozambican literature",
+    "source_words_whitespace": 78,
+    "original_target_words": 250,
+    "original_requested_expansion": 3.2051282051282053,
+    "template_utf8_bytes": 544,
+    "template_sha256": "f06a33858e9da65e135131dfe5bcaf469bb8cf48c551b0c267a641a119c02908",
+    "proposal_target_shape_count": 34,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 1,
+        "start_char": 11,
+        "end_char": 21,
+        "surface": "literature"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 2,
+        "start_char": 22,
+        "end_char": 28,
+        "surface": "refers"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 5,
+        "start_char": 36,
+        "end_char": 40,
+        "surface": "body"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 77,
+    "record_id": "wikipedia-panel-recovery-v1-visual_arts-encyclopedic-500-development-01",
+    "title": "African art",
+    "source_words_whitespace": 92,
+    "original_target_words": 500,
+    "original_requested_expansion": 5.434782608695652,
+    "template_utf8_bytes": 650,
+    "template_sha256": "33a8f9601f2614c23b710ae04db55d73062222c5a3d59e38fd705cb1c760b0e4",
+    "proposal_target_shape_count": 54,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 2,
+        "start_char": 12,
+        "end_char": 18,
+        "surface": "refers"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 4,
+        "start_char": 22,
+        "end_char": 27,
+        "surface": "works"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 6,
+        "start_char": 31,
+        "end_char": 37,
+        "surface": "visual"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 78,
+    "record_id": "wikipedia-panel-recovery-v1-music-encyclopedic-500-development-01",
+    "title": "Music television",
+    "source_words_whitespace": 101,
+    "original_target_words": 500,
+    "original_requested_expansion": 4.9504950495049505,
+    "template_utf8_bytes": 706,
+    "template_sha256": "cc9980be57be4c082dfbb5a1cbec5ff7fcf71ae4e567fdae13b4b8cc5cf6f15a",
+    "proposal_target_shape_count": 43,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 1,
+        "start_char": 6,
+        "end_char": 16,
+        "surface": "television"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 4,
+        "start_char": 22,
+        "end_char": 26,
+        "surface": "type"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 6,
+        "start_char": 30,
+        "end_char": 40,
+        "surface": "television"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 79,
+    "record_id": "wikipedia-panel-recovery-v1-geography-magazine-500-development-01",
+    "title": "Geography of Korea",
+    "source_words_whitespace": 45,
+    "original_target_words": 500,
+    "original_requested_expansion": 11.11111111111111,
+    "template_utf8_bytes": 283,
+    "template_sha256": "00f740997e8c18764dbca95794edc09b08c4f8dc0fcc8693b7ed720c86d29ef3",
+    "proposal_target_shape_count": 10,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 1,
+        "start_char": 6,
+        "end_char": 15,
+        "surface": "comprises"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 6,
+        "start_char": 42,
+        "end_char": 50,
+        "surface": "mainland"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 8,
+        "start_char": 62,
+        "end_char": 68,
+        "surface": "nearby"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 80,
+    "record_id": "wikipedia-panel-recovery-v1-physics-popular_science-250-development-01",
+    "title": "Physics Reports",
+    "source_words_whitespace": 47,
+    "original_target_words": 250,
+    "original_requested_expansion": 5.319148936170213,
+    "template_utf8_bytes": 278,
+    "template_sha256": "d61e4a32877f4a4e545cab2fad8f1902916bfe9d513e85d6d207ad8e1beb56e5",
+    "proposal_target_shape_count": 18,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 6,
+        "start_char": 35,
+        "end_char": 45,
+        "surface": "scientific"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 7,
+        "start_char": 46,
+        "end_char": 53,
+        "surface": "journal"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 9,
+        "start_char": 57,
+        "end_char": 63,
+        "surface": "review"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 81,
+    "record_id": "wikipedia-panel-recovery-v1-music-popular_science-500-development-01",
+    "title": "Mambo (music)",
+    "source_words_whitespace": 92,
+    "original_target_words": 500,
+    "original_requested_expansion": 5.434782608695652,
+    "template_utf8_bytes": 539,
+    "template_sha256": "cdaacd4e951126b94965823d325bbe92cf2b788c3f19b78d42bc5955f3d7242a",
+    "proposal_target_shape_count": 37,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 3,
+        "start_char": 11,
+        "end_char": 16,
+        "surface": "genre"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 6,
+        "start_char": 26,
+        "end_char": 31,
+        "surface": "dance"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 7,
+        "start_char": 32,
+        "end_char": 37,
+        "surface": "music"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 82,
+    "record_id": "wikipedia-panel-recovery-v1-literature-encyclopedic-500-development-01",
+    "title": "Literature of Moldova",
+    "source_words_whitespace": 71,
+    "original_target_words": 500,
+    "original_requested_expansion": 7.042253521126761,
+    "template_utf8_bytes": 547,
+    "template_sha256": "e4ab02f0b126a00fb9c6d8dcb9f07e8c5468d7110805a4ac185abd0312e7a61d",
+    "proposal_target_shape_count": 23,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 3,
+        "start_char": 22,
+        "end_char": 31,
+        "surface": "comprises"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 5,
+        "start_char": 36,
+        "end_char": 46,
+        "surface": "literature"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 8,
+        "start_char": 54,
+        "end_char": 66,
+        "surface": "principality"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 83,
+    "record_id": "wikipedia-panel-recovery-v1-history-museum_label-500-development-01",
+    "title": "Henry V (play)",
+    "source_words_whitespace": 80,
+    "original_target_words": 500,
+    "original_requested_expansion": 6.25,
+    "template_utf8_bytes": 435,
+    "template_sha256": "3fa2d4a6198a68de640e95341bdf2bb5b215a92a43f7c28ef067147217fc6d08",
+    "proposal_target_shape_count": 17,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 6,
+        "start_char": 29,
+        "end_char": 34,
+        "surface": "often"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 7,
+        "start_char": 35,
+        "end_char": 44,
+        "surface": "shortened"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 13,
+        "start_char": 62,
+        "end_char": 69,
+        "surface": "history"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 84,
+    "record_id": "wikipedia-panel-recovery-v1-chemistry-popular_science-500-development-01",
+    "title": "Chemical compound",
+    "source_words_whitespace": 65,
+    "original_target_words": 500,
+    "original_requested_expansion": 7.6923076923076925,
+    "template_utf8_bytes": 435,
+    "template_sha256": "78aa73c94e41955ee285a69feff1eba2dd534af82d769f1ac757ee43a44cb242",
+    "proposal_target_shape_count": 36,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 1,
+        "start_char": 2,
+        "end_char": 10,
+        "surface": "chemical"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 2,
+        "start_char": 11,
+        "end_char": 19,
+        "surface": "compound"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 5,
+        "start_char": 25,
+        "end_char": 33,
+        "surface": "chemical"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 85,
+    "record_id": "wikipedia-panel-recovery-v1-literature-encyclopedic-250-development-01",
+    "title": "Jain literature",
+    "source_words_whitespace": 46,
+    "original_target_words": 250,
+    "original_requested_expansion": 5.434782608695652,
+    "template_utf8_bytes": 329,
+    "template_sha256": "e003b0f3be4b9098188d086d9c1c7202048de9eabcda7b2a44bd935764133e70",
+    "proposal_target_shape_count": 18,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 1,
+        "start_char": 5,
+        "end_char": 15,
+        "surface": "literature"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 2,
+        "start_char": 30,
+        "end_char": 36,
+        "surface": "refers"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 5,
+        "start_char": 44,
+        "end_char": 54,
+        "surface": "literature"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 86,
+    "record_id": "wikipedia-panel-recovery-v1-astronomy-museum_label-250-development-01",
+    "title": "Arecibo Telescope",
+    "source_words_whitespace": 76,
+    "original_target_words": 250,
+    "original_requested_expansion": 3.289473684210526,
+    "template_utf8_bytes": 515,
+    "template_sha256": "bf012830ab6675c4122ed415b6c7c13c6414b6c8534f05da19e4478c76a56858",
+    "proposal_target_shape_count": 24,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 6,
+        "start_char": 34,
+        "end_char": 43,
+        "surface": "spherical"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 7,
+        "start_char": 44,
+        "end_char": 53,
+        "surface": "reflector"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 8,
+        "start_char": 54,
+        "end_char": 59,
+        "surface": "radio"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 87,
+    "record_id": "wikipedia-panel-recovery-v1-chemistry-encyclopedic-250-development-01",
+    "title": "ChemistryOpen",
+    "source_words_whitespace": 54,
+    "original_target_words": 250,
+    "original_requested_expansion": 4.62962962962963,
+    "template_utf8_bytes": 356,
+    "template_sha256": "ad00ee8510a646ebc6153f1fd20352141b312133fd517058193e2142854f7e18",
+    "proposal_target_shape_count": 18,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 3,
+        "start_char": 19,
+        "end_char": 26,
+        "surface": "monthly"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 6,
+        "start_char": 42,
+        "end_char": 46,
+        "surface": "open"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 7,
+        "start_char": 47,
+        "end_char": 53,
+        "surface": "access"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 88,
+    "record_id": "wikipedia-panel-recovery-v1-technology-magazine-500-development-01",
+    "title": "Rockstar Advanced Game Engine",
+    "source_words_whitespace": 72,
+    "original_target_words": 500,
+    "original_requested_expansion": 6.944444444444445,
+    "template_utf8_bytes": 446,
+    "template_sha256": "aa3cde79bfeab029cfb42958ed33aee7909afadf352c409dcd93950fb594e757",
+    "proposal_target_shape_count": 21,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 8,
+        "start_char": 46,
+        "end_char": 57,
+        "surface": "proprietary"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 9,
+        "start_char": 58,
+        "end_char": 62,
+        "surface": "game"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 10,
+        "start_char": 63,
+        "end_char": 69,
+        "surface": "engine"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 89,
+    "record_id": "wikipedia-panel-recovery-v1-astronomy-educational-250-development-01",
+    "title": "Bad Astronomy",
+    "source_words_whitespace": 69,
+    "original_target_words": 250,
+    "original_requested_expansion": 3.6231884057971016,
+    "template_utf8_bytes": 427,
+    "template_sha256": "2a60b6cd699b98c9633e07b3ba1ef1d83acc587f7e8d72996cdbc447146aa17a",
+    "proposal_target_shape_count": 19,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 17,
+        "start_char": 111,
+        "end_char": 115,
+        "surface": "book"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 21,
+        "start_char": 132,
+        "end_char": 142,
+        "surface": "astronomer"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 27,
+        "start_char": 167,
+        "end_char": 172,
+        "surface": "known"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 90,
+    "record_id": "wikipedia-panel-recovery-v1-history-educational-500-development-01",
+    "title": "The History of Cardenio",
+    "source_words_whitespace": 89,
+    "original_target_words": 500,
+    "original_requested_expansion": 5.617977528089888,
+    "template_utf8_bytes": 494,
+    "template_sha256": "316ea64fd612e8c3c722c097123dd30029ba3a818cdf2be77dbe65345fa624bb",
+    "proposal_target_shape_count": 23,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 4,
+        "start_char": 25,
+        "end_char": 30,
+        "surface": "often"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 5,
+        "start_char": 31,
+        "end_char": 39,
+        "surface": "referred"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 8,
+        "start_char": 46,
+        "end_char": 52,
+        "surface": "simply"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 91,
+    "record_id": "wikipedia-panel-recovery-v1-literature-museum_label-500-development-01",
+    "title": "Burmese literature",
+    "source_words_whitespace": 40,
+    "original_target_words": 500,
+    "original_requested_expansion": 12.5,
+    "template_utf8_bytes": 303,
+    "template_sha256": "ef5c26cdeda7d3f44c2d3a5b3fae11669436c6d8ce815eb8df8b6d3d2c38ee1d",
+    "proposal_target_shape_count": 17,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 1,
+        "start_char": 4,
+        "end_char": 14,
+        "surface": "literature"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 4,
+        "start_char": 39,
+        "end_char": 44,
+        "surface": "spans"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 7,
+        "start_char": 52,
+        "end_char": 62,
+        "surface": "millennium"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 92,
+    "record_id": "wikipedia-panel-recovery-v1-astronomy-educational-500-development-01",
+    "title": "Astronomy Domine",
+    "source_words_whitespace": 55,
+    "original_target_words": 500,
+    "original_requested_expansion": 9.090909090909092,
+    "template_utf8_bytes": 337,
+    "template_sha256": "c8e0394409988fc1f414d896a170b8f707d21a09228cd74cc40250791580963e",
+    "proposal_target_shape_count": 19,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 2,
+        "start_char": 20,
+        "end_char": 33,
+        "surface": "alternatively"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 7,
+        "start_char": 59,
+        "end_char": 63,
+        "surface": "song"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 11,
+        "start_char": 79,
+        "end_char": 83,
+        "surface": "rock"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 93,
+    "record_id": "wikipedia-panel-recovery-v1-visual_arts-magazine-250-development-01",
+    "title": "Art of the United Kingdom",
+    "source_words_whitespace": 103,
+    "original_target_words": 250,
+    "original_requested_expansion": 2.4271844660194173,
+    "template_utf8_bytes": 614,
+    "template_sha256": "4c79ecf52a2cb2d82d40f163f354e07d63f6565b5ada443601dd8c62d292ae78",
+    "proposal_target_shape_count": 34,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 6,
+        "start_char": 30,
+        "end_char": 36,
+        "surface": "refers"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 9,
+        "start_char": 44,
+        "end_char": 49,
+        "surface": "forms"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 11,
+        "start_char": 53,
+        "end_char": 59,
+        "surface": "visual"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 94,
+    "record_id": "wikipedia-panel-recovery-v1-geography-popular_science-250-development-01",
+    "title": "Sound (geography)",
+    "source_words_whitespace": 63,
+    "original_target_words": 250,
+    "original_requested_expansion": 3.9682539682539684,
+    "template_utf8_bytes": 311,
+    "template_sha256": "0d0c7fca87b70fc8c938641d6a06ef8ec0a76e49221a7b20697671acd7869606",
+    "proposal_target_shape_count": 25,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 1,
+        "start_char": 3,
+        "end_char": 12,
+        "surface": "geography"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 3,
+        "start_char": 16,
+        "end_char": 21,
+        "surface": "sound"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 6,
+        "start_char": 27,
+        "end_char": 34,
+        "surface": "smaller"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 95,
+    "record_id": "wikipedia-panel-recovery-v1-biology-encyclopedic-250-development-01",
+    "title": "Lerp (biology)",
+    "source_words_whitespace": 51,
+    "original_target_words": 250,
+    "original_requested_expansion": 4.901960784313726,
+    "template_utf8_bytes": 303,
+    "template_sha256": "08f5412bf6a82f8b6577f4c2a2be4f5fc709717b49a943f26e01cb28a07c0207",
+    "proposal_target_shape_count": 24,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 1,
+        "start_char": 3,
+        "end_char": 10,
+        "surface": "biology"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 3,
+        "start_char": 14,
+        "end_char": 18,
+        "surface": "lerp"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 6,
+        "start_char": 24,
+        "end_char": 33,
+        "surface": "structure"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 96,
+    "record_id": "wikipedia-panel-recovery-v1-visual_arts-popular_science-500-development-01",
+    "title": "New Zealand art",
+    "source_words_whitespace": 96,
+    "original_target_words": 500,
+    "original_requested_expansion": 5.208333333333333,
+    "template_utf8_bytes": 681,
+    "template_sha256": "9af4bbc40ae78d535df8018c771fa9bd6e571985464889077cf7c26b68a5a9fb",
+    "proposal_target_shape_count": 50,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 3,
+        "start_char": 16,
+        "end_char": 24,
+        "surface": "consists"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 6,
+        "start_char": 32,
+        "end_char": 38,
+        "surface": "visual"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 8,
+        "start_char": 43,
+        "end_char": 50,
+        "surface": "plastic"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 97,
+    "record_id": "wikipedia-panel-recovery-v1-music-museum_label-250-development-01",
+    "title": "Country music",
+    "source_words_whitespace": 67,
+    "original_target_words": 250,
+    "original_requested_expansion": 3.7313432835820897,
+    "template_utf8_bytes": 438,
+    "template_sha256": "b1145475015e3eba668938f4daaa781df1eaf42ec1e15234ac0f175dcf23bf48",
+    "proposal_target_shape_count": 38,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 1,
+        "start_char": 8,
+        "end_char": 13,
+        "surface": "music"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 3,
+        "start_char": 20,
+        "end_char": 25,
+        "surface": "known"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 5,
+        "start_char": 29,
+        "end_char": 36,
+        "surface": "country"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 98,
+    "record_id": "wikipedia-panel-recovery-v1-biology-encyclopedic-500-development-01",
+    "title": "Intersex (biology)",
+    "source_words_whitespace": 57,
+    "original_target_words": 500,
+    "original_requested_expansion": 8.771929824561404,
+    "template_utf8_bytes": 355,
+    "template_sha256": "3f36923d9d7305bee470ddcc1b23c49f7e86de86ada1f0824e0eab34a37af8b2",
+    "proposal_target_shape_count": 25,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 3,
+        "start_char": 14,
+        "end_char": 21,
+        "surface": "general"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 4,
+        "start_char": 22,
+        "end_char": 26,
+        "surface": "term"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 7,
+        "start_char": 34,
+        "end_char": 42,
+        "surface": "organism"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 99,
+    "record_id": "wikipedia-panel-recovery-v1-geography-museum_label-500-development-01",
+    "title": "Geography of Zimbabwe",
+    "source_words_whitespace": 66,
+    "original_target_words": 500,
+    "original_requested_expansion": 7.575757575757576,
+    "template_utf8_bytes": 411,
+    "template_sha256": "07a3aa19d885bd59d3f45b71ecd87319f4aa17182a9053db27f91b77b165e62c",
+    "proposal_target_shape_count": 28,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 3,
+        "start_char": 14,
+        "end_char": 24,
+        "surface": "landlocked"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 4,
+        "start_char": 25,
+        "end_char": 32,
+        "surface": "country"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 6,
+        "start_char": 36,
+        "end_char": 44,
+        "surface": "southern"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  },
+  {
+    "source_order": 100,
+    "record_id": "wikipedia-panel-recovery-v1-chemistry-magazine-500-development-01",
+    "title": "Analytical and Bioanalytical Chemistry",
+    "source_words_whitespace": 60,
+    "original_target_words": 500,
+    "original_requested_expansion": 8.333333333333334,
+    "template_utf8_bytes": 445,
+    "template_sha256": "8ed5212592ea2ce7cab3b1449e6263c84245521072e128188b50bf95585f43be",
+    "proposal_target_shape_count": 25,
+    "planned_slots": [
+      {
+        "slot_index": 0,
+        "word_run_index": 9,
+        "start_char": 64,
+        "end_char": 74,
+        "surface": "scientific"
+      },
+      {
+        "slot_index": 1,
+        "word_run_index": 10,
+        "start_char": 75,
+        "end_char": 82,
+        "surface": "journal"
+      },
+      {
+        "slot_index": 2,
+        "word_run_index": 11,
+        "start_char": 83,
+        "end_char": 93,
+        "surface": "publishing"
+      }
+    ],
+    "absent_of3_slots": 0,
+    "pilot_selected_by_source_order": false,
+    "future_request_status": "outside_fixed_pilot",
+    "max_raw_bits_under3slot_design": 9,
+    "observed_candidate_bank_bits": null,
+    "semantic_eligibility_evaluated": false
+  }
+]

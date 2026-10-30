@@ -1,0 +1,16 @@
+{
+  "bytes": 453214,
+  "params": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "maxlag": "5",
+    "prop": "revisions",
+    "revids": "1373315271|1375248634|1376458536|1377361334|1378433482|1379228655|1379858185|1380202365|1380845966|1380871476",
+    "rvprop": "ids|timestamp|sha1|content|contentmodel|slotsha1",
+    "rvslots": "main"
+  },
+  "retrieved_utc": "2026-10-24T00:31:30.238267+00:00",
+  "sha256": "61d1be1ca4c9161f73b095d0ac02d517b2cc6d22111e62769d43226879f2fe0e",
+  "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&maxlag=5&prop=revisions&revids=1373315271%7C1375248634%7C1376458536%7C1377361334%7C1378433482%7C1379228655%7C1379858185%7C1380202365%7C1380845966%7C1380871476&rvprop=ids%7Ctimestamp%7Csha1%7Ccontent%7Ccontentmodel%7Cslotsha1&rvslots=main"
+}

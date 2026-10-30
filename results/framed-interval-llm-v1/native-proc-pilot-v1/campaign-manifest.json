@@ -1,0 +1,39 @@
+{
+  "activation_sha256": "1978302778134592a7835c63be363932cc8b9c353500873b9e7c7aaadc57911b",
+  "attempts_per_endpoint": 1,
+  "execution_kind": "native",
+  "planned_cases": 4,
+  "planned_fresh_stego_receivers": 2,
+  "public_runs": [
+    {
+      "arm": "stego",
+      "nonce_hex": "3f7207401b4567ca646c20b1",
+      "output_tokens": 512,
+      "prompt_id": "station",
+      "run_id": "station-stego"
+    },
+    {
+      "arm": "ordinary",
+      "nonce_hex": "026c5a9bb7527d7470ffe41d",
+      "output_tokens": 512,
+      "prompt_id": "station",
+      "run_id": "station-ordinary"
+    },
+    {
+      "arm": "stego",
+      "nonce_hex": "f00386a039a0d86aedffde20",
+      "output_tokens": 512,
+      "prompt_id": "library",
+      "run_id": "library-stego"
+    },
+    {
+      "arm": "ordinary",
+      "nonce_hex": "7a1832097afcd95f4758a0a8",
+      "output_tokens": 512,
+      "prompt_id": "library",
+      "run_id": "library-ordinary"
+    }
+  ],
+  "retry_permitted": false,
+  "schema": "framed-interval-llm-v1-four-case-manifest-v1"
+}

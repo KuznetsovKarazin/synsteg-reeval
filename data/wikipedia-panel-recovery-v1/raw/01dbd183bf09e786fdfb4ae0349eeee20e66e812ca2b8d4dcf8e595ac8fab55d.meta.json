@@ -1,0 +1,18 @@
+{
+  "bytes": 17032,
+  "params": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "list": "search",
+    "maxlag": "5",
+    "srlimit": "300",
+    "srnamespace": "0",
+    "srprop": "",
+    "srsearch": "physics",
+    "srsort": "relevance"
+  },
+  "retrieved_utc": "2026-10-23T23:38:10.172589+00:00",
+  "sha256": "c688c6ba2bd0acf0acfd739669f1caceaae51ec98bbb0c61198d40b0f93c2113",
+  "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&list=search&maxlag=5&srlimit=300&srnamespace=0&srprop=&srsearch=physics&srsort=relevance"
+}

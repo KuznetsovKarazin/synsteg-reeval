@@ -1,0 +1,20 @@
+{
+  "schema": "baseline-failure-preservation-v1-source-freeze",
+  "scope": "Terminal unsuccessful/unknown evidence preservation only; no scientific replay or success closure",
+  "scientific_settings_changed": false,
+  "operational_dependency_source_commit": "ffc30cea",
+  "files_sha256": {
+    "docs/baseline_failure_preservation_v1_ru.md": "2d9740d4daf49124da515e3a8ae6650b3f45143a7994f87f848839a356bc3858",
+    "scripts/preserve_baseline_failure_v1.py": "271ab4a9aaf5a05b21361e3460a57fde208ea5f2526bad300031c8889112e61b",
+    "tests/test_preserve_baseline_failure_v1.py": "378aa01db3b277259348853aff1bef27b537a86379ee3a29c47e2aac1df4e8e7"
+  },
+  "frozen_dependencies_sha256": {
+    "scripts/package_baseline81_100_v1.py": "8eb0ad811f7396b08ae9e5c62ca16490df15dcd145ca7388c14ae7e3cd4c9225",
+    "scripts/reassemble_baseline_primary_chunks_v1.py": "dcea5c193b04620749c0c161202d27a1bc8efe0aa835b1029a91c2d6af17fe55",
+    "scripts/restore_native_continuation_artifact_v1.py": "612260031d56dec54a6bee71319ef78acd7a9b43705003b8ef1b80c4551d05e3"
+  },
+  "model_calls": 0,
+  "codec_calls": 0,
+  "scientific_auditor_calls": 0,
+  "actual_preservation_executed": false
+}

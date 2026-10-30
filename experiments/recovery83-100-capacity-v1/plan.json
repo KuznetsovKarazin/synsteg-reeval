@@ -1,0 +1,96 @@
+{
+  "schema": "recovery-capacity-plan-v1",
+  "experiment_id": "recovery83-100-capacity-v1",
+  "analysis_type": "posthoc_saved_output_capacity_diagnostic",
+  "blind_preregistration": false,
+  "prior_outputs_and_source_reviews_known": true,
+  "input_commit": "64860ac6dc7e7a36170e960b5256e550d12c0c9e",
+  "source_orders": [
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100
+  ],
+  "available_orders": [
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90
+  ],
+  "selection": "All saved completed recovery83..100 outputs at fixed commit; no quality or capacity based selection",
+  "model_alias": "tinyllama11",
+  "input_manifest_sha256": "8827d952d210f0ce5f6204e1f043a6decb25d43e019ed426aa679a1cee8c78ad",
+  "input_manifest_path": "experiments/recovery83-100-capacity-v1/input-manifest.json",
+  "runtime": {
+    "python": "3.12.14",
+    "cryptography": "50.0.2"
+  },
+  "protocol": {
+    "min_group_size": 1,
+    "max_bits_per_slot": 2,
+    "dictionary_ids": [
+      "v1",
+      "v2"
+    ],
+    "framings": {
+      "plain_length16": 16,
+      "aes_siv": 144
+    },
+    "payload_bits": [
+      16,
+      128,
+      256,
+      512
+    ]
+  },
+  "denominators": {
+    "source_orders": 18,
+    "available_covers": 8,
+    "missing_covers": 10,
+    "dictionary_rows": 36,
+    "measured_dictionary_rows": 16,
+    "null_dictionary_rows": 20,
+    "frame_conditions": 288,
+    "measured_frame_conditions": 128,
+    "null_frame_conditions": 160
+  },
+  "word_count": "Whitespace split on saved source excerpt and literal cover; no new tokenization",
+  "missing_policy": "capacity/slots/feasibility null; no cover generation, no capacity refusal assigned",
+  "order91": "unavailable in saved baseline snapshot; this diagnostic does not authorize replay of its saved intent",
+  "baseline_snapshot": "results/baseline-single-record-recovery-v1-root/full300-after090.json",
+  "frozen_source": "src/synsteg_audit/shared_dictionary.py",
+  "frozen_protocol": "experiments/prospective-development-transport-v1/protocol.json",
+  "output_path": "results/recovery83-100-capacity-v1/diagnostic.json",
+  "model_calls": 0,
+  "encoder_calls": 0,
+  "decoder_calls": 0,
+  "paid_calls": 0,
+  "closed_test_opened": false,
+  "claims_excluded": [
+    "delivery success",
+    "semantic preservation",
+    "security",
+    "causal explanation of hallucinations",
+    "complete model comparison",
+    "practical key-controlled generation"
+  ],
+  "execution_gate": "Root saves plan, manifest and script in Git before production measurement. This is a pre-measurement freeze of a posthoc diagnostic, not a blinded prospective study."
+}

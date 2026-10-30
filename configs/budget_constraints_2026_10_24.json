@@ -1,0 +1,24 @@
+{
+  "schema": "synsteg-recovered-user-constraints-v1",
+  "date": "2026-10-24",
+  "execution_enabled": false,
+  "reported_claude_balance_usd": 24.09,
+  "planned_campaign_cap_usd": 20.0,
+  "balance_source": "User statement in the previous conversation; not independently checked against billing.",
+  "spending_cap_enforced_by_this_file": false,
+  "previous_development_reserve_estimate_usd": 12.98,
+  "reserve_estimate_status": "Reported in the previous conversation; no corresponding executable budget package recovered. Not a verified price or charge.",
+  "hardware": {
+    "os": "Windows 11 Home",
+    "cpu": "AMD Ryzen 7 7840HS",
+    "ram_gib_reported": 64,
+    "gpu": "AMD Radeon 780M integrated",
+    "user_repository": "E:\\synsteg-independent-reproduction"
+  },
+  "direction_from_previous_conversation": {
+    "local_panel": ["Qwen/Qwen2.5-0.5B-Instruct", "TinyLlama/TinyLlama-1.1B-Chat-v1.0", "tiiuae/Falcon3-1B-Instruct"],
+    "claude": "Broad Haiku panel and bounded development coverage of other available models; exact scope requires a validated runner, rates, token limits and durable spending ledger.",
+    "large_expensive_panel_rejected": true
+  },
+  "next_execution_rule": "Preserve completed smoke records. Before any new paid call, validate source/split manifests, pin code and resources, and implement one campaign-wide ledger with reservations for unknown interrupted calls and no automatic paid retries. Do not treat this constraints file as an executable protocol."
+}

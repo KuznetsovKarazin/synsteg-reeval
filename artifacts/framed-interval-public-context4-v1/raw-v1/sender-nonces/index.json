@@ -1,0 +1,98 @@
+{
+  "all_regular_files_and_empty_directories_preserved": true,
+  "allow_incomplete_requested": true,
+  "archive": {
+    "bytes": 4318,
+    "compression": "ZIP_LZMA",
+    "full_zip_local_only_upload_parts": true,
+    "name": "full.zip",
+    "sha256": "c3edb92169892a6ce2a6c104fb94177d2d8462584a8064d67d20411c3dcc56da"
+  },
+  "campaign_files": {
+    "1b1c19154f10bbff6dd5fbd40fc009da5faf22988eb2287bf7c79df7ba5ba589.json": {
+      "bytes": 233,
+      "sha256": "08fb55fc1ef83f132e41afa9bd9d815b2ec6e9b5d748525fbdf48b0055c93632"
+    },
+    "4642716c4ebd01e8aae517548685bc959ce92fa64e3ea008cfaf0dbab7440f8f.json": {
+      "bytes": 233,
+      "sha256": "5e5f75b7da72507bd7f953db1d0a3ca002315dd73d3154553fb876c96267a880"
+    },
+    "62aa6887ac22cd38c7095311724f91ada487183937b7804f97a180da5c26cf67.json": {
+      "bytes": 233,
+      "sha256": "30e712532e9edec7947064c47ad319493e62557845a4bde59bb27a52f4286fe7"
+    },
+    "673c069e771b6c576184ab7970f6c9bf3345be41d5f6b8f81ac79ccdc86bbd62.json": {
+      "bytes": 233,
+      "sha256": "07de6e9c06d13939d73513ec453ce01a072e46ed5c88b2609318c641bfaf3c34"
+    },
+    "89cdede1548f231eedc0992fbb2696b2c024e762e33c84ac8f5c75bfa1186d37.json": {
+      "bytes": 233,
+      "sha256": "4322f149b0e870a69243e7f05ce858ccecfa6bb4ad95c3213f0fb96f837161a3"
+    },
+    "b2fc1c8043eca99fe04e1ad0fb9418501595d848ad503831d24d863ad1f89f61.json": {
+      "bytes": 233,
+      "sha256": "77fbbf826037a9680aec20b1a1e38c4acf9515b56543085cb3a7a3f318ec8667"
+    },
+    "cbb067ff69295820cfc2a98c10d7ebd3680ecdc536013482b0e00b87a5dd39b7.json": {
+      "bytes": 233,
+      "sha256": "9bb849d2d655dbbd27de40ad18bc505540a304cc189b9f9cfdcf17d7546afeba"
+    },
+    "d6633b2f9f1e79b22a1eb953f3f34b32c7a3a6ae64f36c0c9a071a78becec38c.json": {
+      "bytes": 233,
+      "sha256": "fd7de5fcfba4eda3564e9f3239b6bb7440b566804d908205e922c21f852dec26"
+    }
+  },
+  "directories": [
+    "runtime/framed-interval-public-context4-v1/sender-nonces"
+  ],
+  "files": {
+    "runtime/framed-interval-public-context4-v1/sender-nonces/1b1c19154f10bbff6dd5fbd40fc009da5faf22988eb2287bf7c79df7ba5ba589.json": {
+      "bytes": 233,
+      "sha256": "08fb55fc1ef83f132e41afa9bd9d815b2ec6e9b5d748525fbdf48b0055c93632"
+    },
+    "runtime/framed-interval-public-context4-v1/sender-nonces/4642716c4ebd01e8aae517548685bc959ce92fa64e3ea008cfaf0dbab7440f8f.json": {
+      "bytes": 233,
+      "sha256": "5e5f75b7da72507bd7f953db1d0a3ca002315dd73d3154553fb876c96267a880"
+    },
+    "runtime/framed-interval-public-context4-v1/sender-nonces/62aa6887ac22cd38c7095311724f91ada487183937b7804f97a180da5c26cf67.json": {
+      "bytes": 233,
+      "sha256": "30e712532e9edec7947064c47ad319493e62557845a4bde59bb27a52f4286fe7"
+    },
+    "runtime/framed-interval-public-context4-v1/sender-nonces/673c069e771b6c576184ab7970f6c9bf3345be41d5f6b8f81ac79ccdc86bbd62.json": {
+      "bytes": 233,
+      "sha256": "07de6e9c06d13939d73513ec453ce01a072e46ed5c88b2609318c641bfaf3c34"
+    },
+    "runtime/framed-interval-public-context4-v1/sender-nonces/89cdede1548f231eedc0992fbb2696b2c024e762e33c84ac8f5c75bfa1186d37.json": {
+      "bytes": 233,
+      "sha256": "4322f149b0e870a69243e7f05ce858ccecfa6bb4ad95c3213f0fb96f837161a3"
+    },
+    "runtime/framed-interval-public-context4-v1/sender-nonces/b2fc1c8043eca99fe04e1ad0fb9418501595d848ad503831d24d863ad1f89f61.json": {
+      "bytes": 233,
+      "sha256": "77fbbf826037a9680aec20b1a1e38c4acf9515b56543085cb3a7a3f318ec8667"
+    },
+    "runtime/framed-interval-public-context4-v1/sender-nonces/cbb067ff69295820cfc2a98c10d7ebd3680ecdc536013482b0e00b87a5dd39b7.json": {
+      "bytes": 233,
+      "sha256": "9bb849d2d655dbbd27de40ad18bc505540a304cc189b9f9cfdcf17d7546afeba"
+    },
+    "runtime/framed-interval-public-context4-v1/sender-nonces/d6633b2f9f1e79b22a1eb953f3f34b32c7a3a6ae64f36c0c9a071a78becec38c.json": {
+      "bytes": 233,
+      "sha256": "fd7de5fcfba4eda3564e9f3239b6bb7440b566804d908205e922c21f852dec26"
+    }
+  },
+  "model_calls": 0,
+  "part_bytes": 196608,
+  "parts": [
+    {
+      "bytes": 4318,
+      "name": "full.zip.part000",
+      "sha256": "c3edb92169892a6ce2a6c104fb94177d2d8462584a8064d67d20411c3dcc56da"
+    }
+  ],
+  "primary_bytes": 1864,
+  "primary_files": 8,
+  "schema": "framed-interval-public-context4-v1-raw-artifacts-v1",
+  "scientific_acceptance_inferred": false,
+  "source_base": "runtime/framed-interval-public-context4-v1/sender-nonces",
+  "terminal_result_present": false,
+  "tokenizer_calls": 0
+}

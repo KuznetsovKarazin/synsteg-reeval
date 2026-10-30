@@ -1,0 +1,67 @@
+{
+  "schema": "author-candidate-schema-v3-source-closure",
+  "base_git_commit": "3495354ac9b6951cd259b3d325b007d649e51772",
+  "native_enabled": false,
+  "files": [
+    {
+      "path": "src/synsteg_audit/author_candidate_schema_v3.py",
+      "bytes": 18459,
+      "sha256": "cb17dd1780f5ee737e6b53454c0c7a911eb7867a9c2d2779f82790201d0b695f",
+      "new_component_file": true
+    },
+    {
+      "path": "tests/test_author_candidate_schema_v3.py",
+      "bytes": 5401,
+      "sha256": "8df7eca2c146505fe7380baef0c9c1ee1f15b1b35e701ea44c1886abe1dfa401",
+      "new_component_file": true
+    },
+    {
+      "path": "tests/test_author_candidate_schema_v3_independent.py",
+      "bytes": 20672,
+      "sha256": "1130c09fc3ceb4acf61401f901dd609f483f31d64dbaed79d933f2f4936f93f5",
+      "new_component_file": true
+    },
+    {
+      "path": "scripts/prepare_author_candidate_schema_v3.py",
+      "bytes": 9151,
+      "sha256": "bc35f4256b15c55170c62d6351e564bff96928c1d16e3c82bd521fcc635962cc",
+      "new_component_file": true
+    },
+    {
+      "path": "docs/author_candidate_schema_v3_ru.md",
+      "bytes": 9440,
+      "sha256": "4dc24a4ce5b29e898760b3bf49236cfa59e2646da60cc68e9fef0919163c86de",
+      "new_component_file": true
+    },
+    {
+      "path": "experiments/author-candidate-schema-v3/protocol.json",
+      "bytes": 5509,
+      "sha256": "c522f99d6f45f141441a5531adde8ddfbbaa45b53995681ac0741eff33414aa1",
+      "new_component_file": true
+    },
+    {
+      "path": "experiments/author-candidate-schema-v3/cohort.json",
+      "bytes": 5234,
+      "sha256": "8df09948806b311a91ba1bf1b1a668fb24b5820892a4cb8568f742e1efa4e3d9",
+      "new_component_file": true
+    },
+    {
+      "path": "experiments/author-candidate-schema-v3/activation.disabled.json",
+      "bytes": 162,
+      "sha256": "99c062dc4abe7246e37c0af049f9aac6a8de9c5947092ce4ed1579fa5eb6850e",
+      "new_component_file": true
+    },
+    {
+      "path": "src/synsteg_audit/author_candidate_format_v2.py",
+      "bytes": 13355,
+      "sha256": "20f70a75be1a7ab12825a00714b72e96e11c2fc8ae24a09d85af78508fc62273",
+      "new_component_file": false
+    },
+    {
+      "path": "experiments/author-candidate-format-v2/requests.json",
+      "bytes": 5079,
+      "sha256": "0cc5750f8251cb7b10bb29d00ec858d5b005d0df42fb7d2781152c807a4ae421",
+      "new_component_file": false
+    }
+  ]
+}

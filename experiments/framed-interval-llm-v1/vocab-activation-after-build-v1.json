@@ -1,0 +1,82 @@
+{
+  "binary": {
+    "path": "resources/framed-interval-llm-v1-vocab/framed_interval_llm_vocab_bridge",
+    "sha256": "2e68682b77953d70297e2d09dd9642089c9b471da4283c1e9871bc78972d851a"
+  },
+  "build_receipt": {
+    "path": "results/framed-interval-llm-v1-vocab-build/build-receipt.json",
+    "sha256": "6662a6e62362ea4b796770db564a2f0fa06b9241406e7b817ff8f0522f52dafe"
+  },
+  "coordinator_readback": {
+    "all_files_exact": true,
+    "commit": "b1f5b53a4bf1a5b9fc449f963a5d1705f26b1d90"
+  },
+  "enabled": true,
+  "freeze_commit": "b1f5b53a4bf1a5b9fc449f963a5d1705f26b1d90",
+  "native_system_libraries_sha256": {
+    "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2": "6222a16be7f2d458d6870efe6e715fc0c8d45766fb79cf7dcc3125538d703e28",
+    "/usr/lib/x86_64-linux-gnu/libc.so.6": "511f825ee075610ac9c0f7f91e2c13de2000d0f7b859f6461137e809a0a009d0",
+    "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1": "d93224d2b0dab4247598be683adca02f5cf00586f99c187579cd7e92058fb7cb",
+    "/usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0": "135f3c8f006d2fe5e68e51281c7974cb991a03de3bfb3593d68d174dfcf854d1",
+    "/usr/lib/x86_64-linux-gnu/libm.so.6": "f06f2ce1f1833df5f41cf13b6447ff07bea993ad9b27297d3428c2f70ab3f0e7",
+    "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33": "1fd75fe70354a416d75aef22bcae68c47bd25d20e2d0568c30b1a9838cf62f11"
+  },
+  "plan": {
+    "path": "experiments/framed-interval-llm-v1/tokenizer-preflight-proposal.json",
+    "sha256": "86d3c68c44a6ed35e3a9e39b05b4ec4047262bb549bf7934de98a969a026c9a5"
+  },
+  "public_protocol": {
+    "path": "experiments/framed-interval-llm-v1/receiver-public-protocol.json",
+    "sha256": "4cab7dd3035ac1ad298952814c12b12ecbe2d021f4b9cd14b35692a2c300d6ff"
+  },
+  "resource_identity_sha256": "a5a389e25ba057b7d965f8bc6dffb0988b2290fb38562bd3958d3ac37d02a4f5",
+  "runtime": {
+    "cryptography": "50.0.2",
+    "file_sha256": {
+      "cryptography_rust": {
+        "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust.abi3.so",
+        "sha256": "1e5d23fa66915204b9b67202a46993844d81cda56f6ad52cead2def37617ee29"
+      },
+      "python": {
+        "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+        "sha256": "fa67443527ed9647f760d807e2a38f26340757123e643c4639cf273ed15d5ea7"
+      }
+    },
+    "historical_system_library_byte_hashes_available": false,
+    "libc": [
+      "glibc",
+      "2.39"
+    ],
+    "machine": "x86_64",
+    "module_identities": {
+      "math": {
+        "kind": "builtin",
+        "origin": "built-in",
+        "python_identity_reference": "file_sha256.python",
+        "scope": "registered built-in module; no independently addressable math module file",
+        "separate_module_file": null
+      }
+    },
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "runtime_identity_schema": "runtime-identity-compat-v1"
+  },
+  "schema": "framed-interval-llm-v1-vocab-activation-v1",
+  "sources_sha256": {
+    "experiments/framed-interval-llm-v1/collect_vocab_preflight.py": "20d049280d5bc4f63d76785ebed44b124405cd44a139999eb5c3eabc59f77fd0",
+    "scripts/framed_interval_llm_vocab_bridge.cpp": "1103814e20296f2cdc9136028a36261ba0be428fb62ca9bb8c855568d24aa8a1",
+    "scripts/restore_framed_interval_llm_v1_resources.py": "284904969e2663472bfcb8caa19b776801771120b4156911b8dafb77c01c97f9",
+    "src/synsteg_audit/__init__.py": "18ab6e0e8c68a1394d26158039f3a4f647fe701f5f5062b628a359a2c4c96ef8",
+    "src/synsteg_audit/canonical_channel_v2.py": "ae50caf00e0240e48f5fe53a67bd22a49a5f878a057c93c24c4950438741baa4",
+    "src/synsteg_audit/framed_interval_llm_v1.py": "64ebbfe07b526d62789ae27a4f55feb717e83abf9e0a2ca72bb593ff9f30ff00",
+    "src/synsteg_audit/framed_interval_llm_v1_activation.py": "262f9aff1f12e421031ef5e9c961229df986bf6bb4c69f96e0557129d830340d",
+    "src/synsteg_audit/framed_interval_llm_v1_journal.py": "c80518a5838c6be9b0de10eb103ef70270a6826194708a566439fc99e7828e00",
+    "src/synsteg_audit/framed_interval_llm_v1_orchestration.py": "c17f0c1b537a562a4187192a8d7785489afdd17a7f17d97cbd9eb40c9ad0779c",
+    "src/synsteg_audit/framed_interval_llm_v1_preflight.py": "e4a316cf42048e0ec2ea3799c9fa8f465883564c729e0ccefc102f3d7bef87a8",
+    "src/synsteg_audit/framed_interval_llm_v1_qwen.py": "5ced911eb6929785d2602bebf19d1be298b8faaa6aec5f4900ee102f98fd364d",
+    "src/synsteg_audit/framed_interval_llm_v1_vocab_collect.py": "0ee0aa5b4631cb6750f7a9084cba81234626d9de42be9d3a14efe66814863ab4",
+    "src/synsteg_audit/integer_interval_channel_v1.py": "9c056724563069db3690e3b5df6fef0c639d528d2dd5e0df44ecd2ff80ba71df",
+    "src/synsteg_audit/seeded_pair_llm.py": "687e5c74b7b3f6675e2d057d13146f3ffa716a58fbf77522830b58b023ba89f0"
+  },
+  "timeout_seconds": 120
+}

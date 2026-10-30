@@ -1,0 +1,18 @@
+{
+  "bytes": 17008,
+  "params": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "list": "search",
+    "maxlag": "5",
+    "srlimit": "300",
+    "srnamespace": "0",
+    "srprop": "",
+    "srsearch": "technology",
+    "srsort": "relevance"
+  },
+  "retrieved_utc": "2026-10-23T23:38:44.976180+00:00",
+  "sha256": "1ed801dd970f7430a131246323dba0f21470da51e575dd39e26b8ee7085b1bae",
+  "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&list=search&maxlag=5&srlimit=300&srnamespace=0&srprop=&srsearch=technology&srsort=relevance"
+}

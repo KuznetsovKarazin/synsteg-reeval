@@ -1,0 +1,67 @@
+{
+  "automatic_retries": 0,
+  "canonical_nn_lock": "results/project-nn.lock",
+  "closed_test_allowed": false,
+  "core_pins": {
+    "experiments/development-other-models-single-record-v1/public-resource-manifest.json": "741711fb21acd08db2a81fbcdb857f17bd1f0bdb53f819a9dd859a1bf220513f",
+    "experiments/large-campaign-development-v2/execution-manifest.json": "7b23df64b875799cc592640a9aadf7ea6bcd870b525335141169cf93a6003ff1",
+    "results/current-git-status-audit-20261028-v1/no-replay-guard.json": "ed7c17d68df5cc524ec8e441f3febb2a96e6d8108eda6f22f2ac154fae74db0c",
+    "results/recovery-development-v1/linux_snapshot/development-prompts.jsonl": "3190e9b56e83762c5f47c41fc1605b5668d43426000814b8ffbaef47112393d1",
+    "scripts/baseline_single_record_recovery_v1.py": "12e7356d990242f7f09eaea88d045b16019f734956025ec86cfb5005bdf96294",
+    "scripts/check_claude_access.py": "1161cc279f126f2305fafc18cdd451d9a84eb1c9e925c768ecdec90bda6c0843",
+    "scripts/continuation_replay_guard_v1.py": "fae8a6f191582dcf0d64a36ce6784cfe38495b3e3da38946723ea0fbebf8584c",
+    "scripts/run_budget_generation.py": "4d5ab74c78c58214c1b5e11a346b4339eb0c6d08e713e8909d0d5fd9947c7e02",
+    "scripts/run_claude_smoke.py": "98411ed6af23a4fce6693c978e44617e3a6f6904cc5d7cd8547da2eb73bd6655",
+    "src/synsteg_audit/budget_ledger.py": "c04ca4e3141a9b9873054ab71c38545705353c8609c12ec0536eaabcd2e0b19b"
+  },
+  "dtype": "float32",
+  "execution_enabled": true,
+  "execution_root": "/workspace/scratch/af7adce5db85/baseline92-continuation-v2/checkout",
+  "execution_stratum": "development-other-models-single-record-v1",
+  "experiment_id": "development-other-models-single-record-v1",
+  "full_denominator": 300,
+  "helper_sha256": "cfc5e284381964db30037931ff9a7091f4fc7e28618b1f0da3374e369eeadcdd",
+  "historical_outputs_imported": 0,
+  "job": {
+    "identity": "0a84e1d786f3086691f0c25a18fb3a3cddd82bbd003e05937ce8e5d2ea777200",
+    "model_alias": "qwen05",
+    "original_prompt_sha256": "bcb0e1acea165b65cccc9e80077bceeb0037fcb46a525a1b8857d6879a0685e6",
+    "prompt_file_sha256": "24719e9dca7cf68ca4488906c6cbaff31d6c495e81bd75ef3fd46f4b21137090",
+    "prompt_path": "experiments/development-other-models-single-record-v1/qwen05-source001.jsonl",
+    "record_id": "wikipedia-panel-recovery-v1-astronomy-popular_science-500-development-01",
+    "source_order": 1
+  },
+  "max_new_requests": 1,
+  "model_alias": "qwen05",
+  "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+  "output": "runs/development-other-models-single-record-v1/qwen05/order001",
+  "paid_calls_allowed": false,
+  "per_model_denominator": 100,
+  "preflight_pins": {
+    "results/development-other-models-single-record-v1/qwen05-preflight/all100-context.json": "8b93522b5b6dbffa1686427852b15989dc7327471b09af1d333af00c4d9bfee1",
+    "results/development-other-models-single-record-v1/qwen05-preflight/config.json": "18e18afcaccafade98daf13a54092927904649e1dd4eba8299ab717d5d94ff45",
+    "results/development-other-models-single-record-v1/qwen05-preflight/model-contract.json": "ab83944075dc5c5f297039a440c604ade5e7cffab129e397b46dd25fb79f4d9b",
+    "results/development-other-models-single-record-v1/qwen05-preflight/resources.json": "240943dfc6d53b2dd365207154829c1e52952fdca7f755669f1171ca02faee11",
+    "results/development-other-models-single-record-v1/qwen05-preflight/runtime.json": "b9902f9a50d45933b0797788814ce9793347197c2c4b52bd517a0e0d8427f03a",
+    "results/development-other-models-single-record-v1/qwen05-preflight/started.json": "931b92ae4d3c064d5d9cac805c1de1c64dbedd003e3e5bea94b25d78b0e20e23"
+  },
+  "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "schema": "development-other-models-single-record-v1-protocol",
+  "settings": {
+    "api_version": null,
+    "cpu_threads": 6,
+    "max_output_tokens": 1024,
+    "request_options": null,
+    "seed": 20261024,
+    "system": "Write clear English prose. Return only the requested text, without a heading or commentary.",
+    "temperature": 0.8,
+    "top_k": 50,
+    "top_p": 0.95
+  },
+  "source_commit": "4050291345c43776e9c93528b6afe292c062ba7a",
+  "source_orders": [
+    1
+  ],
+  "stop_after_request_pending_git_and_independent_audit": true,
+  "timeout_seconds_including_model_load": 1200
+}

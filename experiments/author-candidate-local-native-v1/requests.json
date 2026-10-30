@@ -1,0 +1,43 @@
+{
+  "schema": "author-candidate-local-native-v1-requests",
+  "source_plan_path": "results/comparison-candidate-unblock-20261025/first-cover-request-plan.json",
+  "source_plan_sha256": "38ba09d3a26c96bea2857b1b32b23e5294181b9fb2a610d0b3cf4cf0d7a68333",
+  "cover_sha256": "a2a51f6f45afb664e8f06d5ebc160b189785b781e80de3c8d01939a9ec5f3a95",
+  "full_cover_chunks": 109,
+  "diagnostic_chunks": 2,
+  "selection_rule": "first2chunks_of_first_fixed_baseline_cover",
+  "requests": [
+    {
+      "chunk_order": 0,
+      "word_start": 0,
+      "words": [
+        "Popular",
+        "Knowledge",
+        "Article:",
+        "Understanding",
+        "Chinese"
+      ],
+      "system": "\nAct as a professional linguist with 30 years of experience in this field.\nYou will be given a context (list of words). \n\nEg: [\"A\", \"simple\", \"example\" \"of\" \"the\", \"input\"]\n\nYour current task is to create a list of synonyms or replacement words for each word so that:\n - For each word, there should be strictly 8 synonyms or replacement words.\n - Ensure that synonyms or replacement words perfectly match the context (previous and next words).\n - Maintain the capitalization of synonyms or replacement words like in original word.\n - Created list of synonyms or replacement words for specific word should not contain that specific word.\n - No need to create synonyms or replacement words for numbers.\n\nAlways return your response in JSON format:\n```json\n{\n    \"words\": [\n        {\"word_1\": [\"synonym_1\", \"synonym_2\", \"synonym_3\", ..., \"synonym_16\"]}, \n        {\"word_2\": [\"synonym_1\", \"synonym_2\", \"synonym_3\", \"synonym_4\"]},\n        ...,\n        {\"word_n\": [\"synonym_1\", \"synonym_2\"]}\n    ]\n}\n```\n",
+      "user": "Text: ['Popular', 'Knowledge', 'Article:', 'Understanding', 'Chinese']",
+      "temperature_argument": 0.7,
+      "json_shape_attempt_limit": 3,
+      "request_sha256": "2a510a01e1b7ee830f393c97bce447889f28ff24e251f9c6ee82231259bc2247"
+    },
+    {
+      "chunk_order": 1,
+      "word_start": 5,
+      "words": [
+        "Astronomy",
+        "For",
+        "a",
+        "general",
+        "audience,"
+      ],
+      "system": "\nAct as a professional linguist with 30 years of experience in this field.\nYou will be given a context (list of words). \n\nEg: [\"A\", \"simple\", \"example\" \"of\" \"the\", \"input\"]\n\nYour current task is to create a list of synonyms or replacement words for each word so that:\n - For each word, there should be strictly 8 synonyms or replacement words.\n - Ensure that synonyms or replacement words perfectly match the context (previous and next words).\n - Maintain the capitalization of synonyms or replacement words like in original word.\n - Created list of synonyms or replacement words for specific word should not contain that specific word.\n - No need to create synonyms or replacement words for numbers.\n\nAlways return your response in JSON format:\n```json\n{\n    \"words\": [\n        {\"word_1\": [\"synonym_1\", \"synonym_2\", \"synonym_3\", ..., \"synonym_16\"]}, \n        {\"word_2\": [\"synonym_1\", \"synonym_2\", \"synonym_3\", \"synonym_4\"]},\n        ...,\n        {\"word_n\": [\"synonym_1\", \"synonym_2\"]}\n    ]\n}\n```\n",
+      "user": "Text: ['Astronomy', 'For', 'a', 'general', 'audience,']",
+      "temperature_argument": 0.7,
+      "json_shape_attempt_limit": 3,
+      "request_sha256": "ec61d91995330841f842969e930c996004214e8822b6511c8f81383ae860d328"
+    }
+  ]
+}

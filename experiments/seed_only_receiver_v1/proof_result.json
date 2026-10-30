@@ -1,0 +1,83 @@
+{
+  "scope": "Functional synchronization toy only; no semantic, confidentiality, authentication, or steganographic-security claim",
+  "dictionary_origin": "Manually specified toy classes; NOT AI-generated",
+  "cover_origin": "Synthetic repeated words with punctuation and whitespace; NOT natural-text feasibility data",
+  "keys_and_nonces": "Public deterministic fixtures only, NOT production secrets or a production nonce policy",
+  "shared_public_assets": [
+    "receiver code/protocol",
+    "global disjoint dictionary"
+  ],
+  "receiver_input_keys": [
+    "key_hex",
+    "stego_text"
+  ],
+  "receiver_cover_or_codebook_provided": false,
+  "receiver_length_or_nonce_provided_outside_text": false,
+  "receiver_process": "fresh Python -I -S subprocess, empty cwd and minimal environment; external file/socket/subprocess I/O blocked by audit hook after public imports",
+  "receiver_io_guard_policy_self_checks_passed": true,
+  "receiver_isolation_limit": "Python audit-hook guard for this inspected toy program, not an operating-system security sandbox",
+  "header_overhead_bits": 160,
+  "cases": [
+    {
+      "payload_bits": 0,
+      "sender_choices_tested": 2,
+      "roundtrips_exact": true
+    },
+    {
+      "payload_bits": 1,
+      "sender_choices_tested": 2,
+      "roundtrips_exact": true
+    },
+    {
+      "payload_bits": 7,
+      "sender_choices_tested": 2,
+      "roundtrips_exact": true
+    },
+    {
+      "payload_bits": 32,
+      "sender_choices_tested": 2,
+      "roundtrips_exact": true
+    },
+    {
+      "payload_bits": 64,
+      "sender_choices_tested": 2,
+      "roundtrips_exact": true
+    },
+    {
+      "payload_bits": 127,
+      "sender_choices_tested": 2,
+      "roundtrips_exact": true
+    }
+  ],
+  "roundtrips_passed": 12,
+  "sender_choice_independence_verified": true,
+  "repeated_encoding_same_inputs_exact": true,
+  "wrong_key_not_detected_but_payload_wrong": true,
+  "payload_corruption_not_detected": true,
+  "production_requirements_missing": [
+    "AEAD authentication/encryption",
+    "vetted context-invariant synonym classes",
+    "nonce lifecycle",
+    "channel error policy",
+    "blind detection/quality evaluation"
+  ],
+  "current_codec_counterexample": {
+    "scope": "Separate synthetic 32-bit unit counterexample; not an original v3 closed-test attempt or reevaluation",
+    "source_path": "src/synsteg_audit/fixed_codebook.py",
+    "source_sha256": "78511265fead183096e04841ee771903454894c6db7326cef7752242e878829a",
+    "source_freeze_commit": "674b370c79093f8218adeed09a07bf16f250e143",
+    "seed_fixture": "private-seed-example (public literal fixture, despite its name)",
+    "original_book_roundtrip_exact": true,
+    "same_seed_and_candidate_sets": true,
+    "original_cover_hash": "601cc62e4b960c225645114fe847fefe1014f8accbc1bda7f4ccf803ce388b68",
+    "stego_cover_hash": "c947c77f3ca223f81ba8ad8bcd109ce26f9c08c5c9c360926be3c933b76432fb",
+    "payload_bits": "10110010101100101011001010110010",
+    "recovered_bits": "10000000000000110001010000011010",
+    "bit_errors": 14,
+    "external_length_decode_raised": false
+  },
+  "proof_files_sha256": {
+    "receiver_proof.py": "462dc0addbc917c05006243b3927c51c47b0f65137fb65c425af32fe3e8bcce1",
+    "run_proof.py": "1ad432d20eeee402df07c847f970a3e498422413616c3540267723ed595e2b39"
+  }
+}

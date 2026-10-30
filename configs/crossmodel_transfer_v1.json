@@ -1,0 +1,258 @@
+{
+  "schema": "synsteg-crossmodel-transfer-v1",
+  "execution_enabled": true,
+  "paid_api_allowed": false,
+  "claim_scope": "cross_generator_transfer_feasibility_not_within_generator_security",
+  "models": [
+    {
+      "alias": "qwen05",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+      "cpu_threads": 3
+    },
+    {
+      "alias": "qwen15",
+      "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+      "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+      "cpu_threads": 4
+    },
+    {
+      "alias": "smol360",
+      "model_id": "HuggingFaceTB/SmolLM2-360M-Instruct",
+      "revision": "a10cc1512eabd3dde888204e902eca88bddb4951",
+      "cpu_threads": 3
+    }
+  ],
+  "generation": {
+    "max_new_tokens": 384,
+    "temperature": 0.8,
+    "top_p": 0.95,
+    "top_k": 50
+  },
+  "samples": [
+    {
+      "id": "cm1-seed_exchange-explanation-8",
+      "topic_id": "cm1_seed_exchange",
+      "genre_id": "explanation",
+      "prompt": "Write a self-contained English explanation for a general reader about organizing a neighborhood exchange of vegetable seeds. Aim for approximately 180 words. Connect the practical details with their reasons in ordinary paragraphs. Return only the prose, with no title, headings, lists, or dialogue.",
+      "payload_bits": 8,
+      "generation_seed": 442758456
+    },
+    {
+      "id": "cm1-seed_exchange-explanation-16",
+      "topic_id": "cm1_seed_exchange",
+      "genre_id": "explanation",
+      "prompt": "Write a self-contained English explanation for a general reader about organizing a neighborhood exchange of vegetable seeds. Aim for approximately 180 words. Connect the practical details with their reasons in ordinary paragraphs. Return only the prose, with no title, headings, lists, or dialogue.",
+      "payload_bits": 16,
+      "generation_seed": 3467282278
+    },
+    {
+      "id": "cm1-seed_exchange-narrative-8",
+      "topic_id": "cm1_seed_exchange",
+      "genre_id": "narrative",
+      "prompt": "Write an English short story about an ordinary adult facing a small unexpected difficulty while organizing a neighborhood exchange of vegetable seeds. Aim for approximately 180 words and give the event a clear resolution. Return only the narrative paragraphs, with no title, headings, lists, or dialogue.",
+      "payload_bits": 8,
+      "generation_seed": 2184468883
+    },
+    {
+      "id": "cm1-seed_exchange-narrative-16",
+      "topic_id": "cm1_seed_exchange",
+      "genre_id": "narrative",
+      "prompt": "Write an English short story about an ordinary adult facing a small unexpected difficulty while organizing a neighborhood exchange of vegetable seeds. Aim for approximately 180 words and give the event a clear resolution. Return only the narrative paragraphs, with no title, headings, lists, or dialogue.",
+      "payload_bits": 16,
+      "generation_seed": 1931354970
+    },
+    {
+      "id": "cm1-kettle-explanation-8",
+      "topic_id": "cm1_kettle",
+      "genre_id": "explanation",
+      "prompt": "Write a self-contained English explanation for a general reader about removing mineral deposits from an electric kettle. Aim for approximately 180 words. Connect the practical details with their reasons in ordinary paragraphs. Return only the prose, with no title, headings, lists, or dialogue.",
+      "payload_bits": 8,
+      "generation_seed": 1169955100
+    },
+    {
+      "id": "cm1-kettle-explanation-16",
+      "topic_id": "cm1_kettle",
+      "genre_id": "explanation",
+      "prompt": "Write a self-contained English explanation for a general reader about removing mineral deposits from an electric kettle. Aim for approximately 180 words. Connect the practical details with their reasons in ordinary paragraphs. Return only the prose, with no title, headings, lists, or dialogue.",
+      "payload_bits": 16,
+      "generation_seed": 3760586403
+    },
+    {
+      "id": "cm1-kettle-narrative-8",
+      "topic_id": "cm1_kettle",
+      "genre_id": "narrative",
+      "prompt": "Write an English short story about an ordinary adult facing a small unexpected difficulty while removing mineral deposits from an electric kettle. Aim for approximately 180 words and give the event a clear resolution. Return only the narrative paragraphs, with no title, headings, lists, or dialogue.",
+      "payload_bits": 8,
+      "generation_seed": 3940924634
+    },
+    {
+      "id": "cm1-kettle-narrative-16",
+      "topic_id": "cm1_kettle",
+      "genre_id": "narrative",
+      "prompt": "Write an English short story about an ordinary adult facing a small unexpected difficulty while removing mineral deposits from an electric kettle. Aim for approximately 180 words and give the event a clear resolution. Return only the narrative paragraphs, with no title, headings, lists, or dialogue.",
+      "payload_bits": 16,
+      "generation_seed": 143356029
+    },
+    {
+      "id": "cm1-bicycle_saddle-explanation-8",
+      "topic_id": "cm1_bicycle_saddle",
+      "genre_id": "explanation",
+      "prompt": "Write a self-contained English explanation for a general reader about adjusting a bicycle saddle for a comfortable daily commute. Aim for approximately 180 words. Connect the practical details with their reasons in ordinary paragraphs. Return only the prose, with no title, headings, lists, or dialogue.",
+      "payload_bits": 8,
+      "generation_seed": 2905240637
+    },
+    {
+      "id": "cm1-bicycle_saddle-explanation-16",
+      "topic_id": "cm1_bicycle_saddle",
+      "genre_id": "explanation",
+      "prompt": "Write a self-contained English explanation for a general reader about adjusting a bicycle saddle for a comfortable daily commute. Aim for approximately 180 words. Connect the practical details with their reasons in ordinary paragraphs. Return only the prose, with no title, headings, lists, or dialogue.",
+      "payload_bits": 16,
+      "generation_seed": 3093711643
+    },
+    {
+      "id": "cm1-bicycle_saddle-narrative-8",
+      "topic_id": "cm1_bicycle_saddle",
+      "genre_id": "narrative",
+      "prompt": "Write an English short story about an ordinary adult facing a small unexpected difficulty while adjusting a bicycle saddle for a comfortable daily commute. Aim for approximately 180 words and give the event a clear resolution. Return only the narrative paragraphs, with no title, headings, lists, or dialogue.",
+      "payload_bits": 8,
+      "generation_seed": 1043739076
+    },
+    {
+      "id": "cm1-bicycle_saddle-narrative-16",
+      "topic_id": "cm1_bicycle_saddle",
+      "genre_id": "narrative",
+      "prompt": "Write an English short story about an ordinary adult facing a small unexpected difficulty while adjusting a bicycle saddle for a comfortable daily commute. Aim for approximately 180 words and give the event a clear resolution. Return only the narrative paragraphs, with no title, headings, lists, or dialogue.",
+      "payload_bits": 16,
+      "generation_seed": 989715926
+    },
+    {
+      "id": "cm1-shadow_photos-explanation-8",
+      "topic_id": "cm1_shadow_photos",
+      "genre_id": "explanation",
+      "prompt": "Write a self-contained English explanation for a general reader about photographing the changing shadows of buildings during an afternoon. Aim for approximately 180 words. Connect the practical details with their reasons in ordinary paragraphs. Return only the prose, with no title, headings, lists, or dialogue.",
+      "payload_bits": 8,
+      "generation_seed": 3377744949
+    },
+    {
+      "id": "cm1-shadow_photos-explanation-16",
+      "topic_id": "cm1_shadow_photos",
+      "genre_id": "explanation",
+      "prompt": "Write a self-contained English explanation for a general reader about photographing the changing shadows of buildings during an afternoon. Aim for approximately 180 words. Connect the practical details with their reasons in ordinary paragraphs. Return only the prose, with no title, headings, lists, or dialogue.",
+      "payload_bits": 16,
+      "generation_seed": 3693279929
+    },
+    {
+      "id": "cm1-shadow_photos-narrative-8",
+      "topic_id": "cm1_shadow_photos",
+      "genre_id": "narrative",
+      "prompt": "Write an English short story about an ordinary adult facing a small unexpected difficulty while photographing the changing shadows of buildings during an afternoon. Aim for approximately 180 words and give the event a clear resolution. Return only the narrative paragraphs, with no title, headings, lists, or dialogue.",
+      "payload_bits": 8,
+      "generation_seed": 3769230775
+    },
+    {
+      "id": "cm1-shadow_photos-narrative-16",
+      "topic_id": "cm1_shadow_photos",
+      "genre_id": "narrative",
+      "prompt": "Write an English short story about an ordinary adult facing a small unexpected difficulty while photographing the changing shadows of buildings during an afternoon. Aim for approximately 180 words and give the event a clear resolution. Return only the narrative paragraphs, with no title, headings, lists, or dialogue.",
+      "payload_bits": 16,
+      "generation_seed": 2798619301
+    }
+  ],
+  "payload_seed": 2026102502,
+  "method_config": {
+    "candidate_source": "WordNet first sense; base-form NN/JJ/RB/VB; lowercase lexical core in one GPT2 token in the exact rendered context; verified original causal prefix",
+    "framing": "external_length",
+    "external_length_bits": 32,
+    "description": "Fixed seed codebook; two selectors; external payload length costs 32 bits; full serialized codebook counted separately; no semantic guarantee",
+    "variants": [
+      "fixed_canonical",
+      "fixed_quality"
+    ],
+    "cpu_threads": 2,
+    "quality_model": {
+      "model_id": "openai-community/gpt2",
+      "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e"
+    },
+    "candidate_filter_id": "wordnet-first-sense-base-pos-rendered-single-gpt2-token-v2",
+    "scorer_id": "gpt2-verified-cover-prefix-next-token-nll-v2",
+    "token_alignment": {
+      "rendering": "Original cover prefix + candidate + original suffix, preserving actual whitespace and punctuation.",
+      "candidate_span": "The full lowercase alphabetic core must occupy exactly one token ending at the core end; no suffix absorption.",
+      "causal_prefix": "Candidate token index and every preceding token ID must match the original cover tokenization before reusing original-cover logits.",
+      "first_token": "Reject the first token because this protocol supplies no BOS conditioning token.",
+      "rejection": "Reject unaligned or multi-token candidates before constructing payload-independent groups; count considered/admitted/rejected candidate pairs."
+    }
+  },
+  "external_resource_files": [
+    {
+      "path": "/tmp/synsteg_nltk/corpora/wordnet.zip",
+      "sha256": "cbda5ea6eef7f36a97a43d4a75f85e07fccbb4f23657d27b4ccbc93e2646ab59"
+    },
+    {
+      "path": "/tmp/synsteg_nltk/taggers/averaged_perceptron_tagger_eng/averaged_perceptron_tagger_eng.classes.json",
+      "sha256": "d152ffa69d45b8357276341a3d592c6c025911d52ec0d9068d4f382560dd48b6"
+    },
+    {
+      "path": "/tmp/synsteg_nltk/taggers/averaged_perceptron_tagger_eng/averaged_perceptron_tagger_eng.tagdict.json",
+      "sha256": "4c713731cb06727736962bc8cd94ad919217a040e76691059af99bc0c2c9c246"
+    },
+    {
+      "path": "/tmp/synsteg_nltk/taggers/averaged_perceptron_tagger_eng/averaged_perceptron_tagger_eng.weights.json",
+      "sha256": "789e8e35f6fac656d9b7eccea29ba4e8a137cbb5b525dd31f39e4291a9e80832"
+    }
+  ],
+  "source_run": "/tmp/synsteg_runs/prospective-pilot-cpu-v3",
+  "source_attack_lock_sha256": "7e05df0d27adbec0d6a152d95d1f317bf26df3dec07eaaced8318a19f48ec21d",
+  "duplicate_policy": {
+    "bigram_jaccard": 0.9
+  },
+  "interpretation": [
+    "All three generators use identical new semantic prompts, sample IDs, payloads and numeric generation seeds; native chat templates and tokenizers remain model-specific.",
+    "Four topics, two genres, two payload sizes produce16attempts permodel. Differentpayloadsizes use differentcoverseeds, as declared, not pairedsamecoverratecurves.",
+    "Qwen0.5 is rerun onthismatchedgrid asreference. Historicalv3results are not pooled.",
+    "The existing four v3 attacks and developmentthresholds are transferred unchanged. This is crossgenerator attacktransfer, not strong withinmodel securityevaluation.",
+    "Failures count againstall16attempts. Detectionqualityconditional oncommonfullsuccess isreported alongsideintersectionmatchedacrossmodels.",
+    "Generation andcodecsettings are frozen beforeanypaneloutput. No retries ormodelreplacements basedonoutcomes.",
+    "SecondaryfulltextPPL is measuredbyGPT2(sameselector) andQwen2.5-1.5Bbase(independentfromselector,butsharesgeneratorfamilywithQwenarms); document-levelpairedNLLwithinmodel only,no rawcross-tokenizerPPLcomparison.",
+    "The seed-only globaldictionary proof is separate exploratorywork andwillnotalterthisfrozenexistingcodec experiment."
+  ],
+  "additional_identity_files": [
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/scripts/crossmodel_quality.py",
+      "sha256": "73ae3e2c7a679e702434b21a862fc180fc07313f1a291c004ec9a6e679deb201"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/configs/neural/gpt2-full.json",
+      "sha256": "fb4226263121b308dda26c819704e02cc526905c38ad9b74a6cdaac35241c13e"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/configs/neural/crossmodel-qwen-base-ppl.json",
+      "sha256": "10115663f9bdfed1b855c44e79a6998bc6c5a68f45af3ab4b2ed78dbbed4cb65"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/scripts/rescore_models.py",
+      "sha256": "26ba5ead1dc38b3dee4ad672d3b8f032e04e0e0765db4b2deb9589e27a867a54"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/scripts/summarize_prospective_results.py",
+      "sha256": "6bae7406e9ddb659539f29ca559d27d19df57f574b881514ef5c873fc19c10b4"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/docs/crossmodel_transfer_v1.md",
+      "sha256": "4cb47d6a411161b622bca8daa6b9321e10b72e67e0351ba5422e44566960bb4e"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/crossmodel-transfer-v1-2026-10-23/model_inventory.json",
+      "sha256": "19c325e52df08300662f750149cf8c82755cf381e41e949d5a6fea075a5a977d"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/crossmodel-transfer-v1-2026-10-23/model_templates.json",
+      "sha256": "0c04bba1b1121ae6573c0654867c732bfbd706d1b5f38c5da7df8da771c080ca"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/crossmodel-transfer-v1-2026-10-23/runtime_calibration.json",
+      "sha256": "8886fad0e72975df4ed108bfb4a42fbf852245e09d2992d131c59d4d9c91b105"
+    }
+  ]
+}

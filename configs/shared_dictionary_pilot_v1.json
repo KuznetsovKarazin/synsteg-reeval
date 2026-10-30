@@ -1,0 +1,410 @@
+{
+  "execution_enabled": true,
+  "paid_api_allowed": false,
+  "source_run": "/tmp/synsteg_runs/prospective-pilot-cpu-v3",
+  "source_attack_lock_sha256": "7e05df0d27adbec0d6a152d95d1f317bf26df3dec07eaaced8318a19f48ec21d",
+  "external_resource_files": [
+    {
+      "path": "/tmp/synsteg_nltk/corpora/wordnet.zip",
+      "sha256": "cbda5ea6eef7f36a97a43d4a75f85e07fccbb4f23657d27b4ccbc93e2646ab59"
+    },
+    {
+      "path": "/tmp/synsteg_nltk/taggers/averaged_perceptron_tagger_eng/averaged_perceptron_tagger_eng.classes.json",
+      "sha256": "d152ffa69d45b8357276341a3d592c6c025911d52ec0d9068d4f382560dd48b6"
+    },
+    {
+      "path": "/tmp/synsteg_nltk/taggers/averaged_perceptron_tagger_eng/averaged_perceptron_tagger_eng.tagdict.json",
+      "sha256": "4c713731cb06727736962bc8cd94ad919217a040e76691059af99bc0c2c9c246"
+    },
+    {
+      "path": "/tmp/synsteg_nltk/taggers/averaged_perceptron_tagger_eng/averaged_perceptron_tagger_eng.weights.json",
+      "sha256": "789e8e35f6fac656d9b7eccea29ba4e8a137cbb5b525dd31f39e4291a9e80832"
+    }
+  ],
+  "duplicate_policy": {
+    "bigram_jaccard": 0.9
+  },
+  "schema": "synsteg-shared-dictionary-pilot-v1",
+  "claim_scope": "public-dictionary-transport-feasibility-and-frozen-attack-transfer-not-security",
+  "dictionary_file": "data/shared_dictionary_ai_v2.json",
+  "framings": [
+    "plain_length16",
+    "aes_siv"
+  ],
+  "selectors": [
+    "canonical",
+    "quality"
+  ],
+  "payload_bits": [
+    8,
+    16
+  ],
+  "include_fixed_quality_baseline": true,
+  "bundle_policy": "all-declared-covers-in-order-double-newline-aes-siv-canonical-v1",
+  "payload_seed": 2026102601,
+  "public_demo_key_seed": "shared-dictionary-v1-public-fixture-2026-10-23",
+  "shared_method": {
+    "min_group_size": 1,
+    "max_bits_per_slot": 1,
+    "quality_cost": "gpt2-original-cover-single-replacement-full-text-mean-nll-v1"
+  },
+  "baseline_method_config": {
+    "candidate_source": "WordNet first sense; base-form NN/JJ/RB/VB; lowercase lexical core in one GPT2 token in the exact rendered context; verified original causal prefix",
+    "framing": "external_length",
+    "external_length_bits": 32,
+    "description": "Fixed seed codebook; two selectors; external payload length costs 32 bits; full serialized codebook counted separately; no semantic guarantee",
+    "variants": [
+      "fixed_canonical",
+      "fixed_quality"
+    ],
+    "cpu_threads": 2,
+    "quality_model": {
+      "model_id": "openai-community/gpt2",
+      "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e"
+    },
+    "candidate_filter_id": "wordnet-first-sense-base-pos-rendered-single-gpt2-token-v2",
+    "scorer_id": "gpt2-verified-cover-prefix-next-token-nll-v2",
+    "token_alignment": {
+      "rendering": "Original cover prefix + candidate + original suffix, preserving actual whitespace and punctuation.",
+      "candidate_span": "The full lowercase alphabetic core must occupy exactly one token ending at the core end; no suffix absorption.",
+      "causal_prefix": "Candidate token index and every preceding token ID must match the original cover tokenization before reusing original-cover logits.",
+      "first_token": "Reject the first token because this protocol supplies no BOS conditioning token.",
+      "rejection": "Reject unaligned or multi-token candidates before constructing payload-independent groups; count considered/admitted/rejected candidate pairs."
+    }
+  },
+  "generation": {
+    "max_new_tokens": 512,
+    "temperature": 0.8,
+    "top_p": 0.95,
+    "top_k": 50
+  },
+  "additional_identity_files": [
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/data/shared_dictionary_ai_v1.json",
+      "sha256": "87729ad76648403062773d6d61db56fc1895766a9b576d62dc8818762d33babf"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/data/shared_dictionary_v1.json",
+      "sha256": "0883ba951cf1434b75a7e4de7f839b2aa878f8231b5ae507861b052837661dea"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/docs/shared_dictionary_codec_v1_design.md",
+      "sha256": "13c5975a5da68de7a8c08699646b367ea802ff7d0f6a9ac9a5f38fdee24c26ed"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/docs/shared_dictionary_pilot_v1.md",
+      "sha256": "a281febfbdb778da2e386fba714b0118802cccc6c21aad3587e6ab5f5be11837"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/requirements-neural-cpu-tested.txt",
+      "sha256": "dcb4c463b8d03360c9736241879a0e1e27412f9e6d2941ef954b92609f959b4a"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/requirements-shared-dictionary.txt",
+      "sha256": "6249889ae857a7c2ebdc9a34ae9b866e062ce1f55bbd1bfd0ad28eb09f30f8cc"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/crossmodel-transfer-v1-2026-10-23/model_inventory.json",
+      "sha256": "19c325e52df08300662f750149cf8c82755cf381e41e949d5a6fea075a5a977d"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/crossmodel-transfer-v1-2026-10-23/model_templates.json",
+      "sha256": "0c04bba1b1121ae6573c0654867c732bfbd706d1b5f38c5da7df8da771c080ca"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/shared-model-assets-2026-10-23.json",
+      "sha256": "8bacb790c56fa1f500ba301c530b97acb44a45cea42dd63ceda9bfdaaa721b7e"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/shared-model-license-snapshots-2026-10-23.json",
+      "sha256": "6139e8e653e6a44141b147f3dab0fbbc72601a8555fbdbfac90e6c57f659ff3b"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/shared-model-preflight-2026-10-23.json",
+      "sha256": "a5f4523b38a4239fd3b52d3dc5c7f8beabfb92ef503fb8adb12bb4b8da71cbbe"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/shared-selector-preflight-2026-10-23.json",
+      "sha256": "0d6b8eef4c73f60ad847d37efe8e6172176ce9b383bfbde66b58d2f74c7122ab"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/shared_dictionary_ai_replay_v2/ai_v2_development_capacity_final_codec.json",
+      "sha256": "7ccb6fc7222f8d7d614b91e5f0a5453338d92186c9c0b932181ad18150e25079"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/shared_dictionary_ai_replay_v2/baseline_development_capacity_final_codec.json",
+      "sha256": "12ef79936222cf19b05f17926c1bc27f701c887825bd7a7591d2a61b3ed689a8"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/shared_dictionary_ai_replay_v2/mapping_diff.json",
+      "sha256": "0558f85951085ad5c3a562fb9e111b266a3450addd5623330a345577795b3bca"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/shared_dictionary_ai_replay_v2/parser_tests.json",
+      "sha256": "2242e920fc5c7ea3750d7eef3f50775c91e4d797e243e2ddbc48b619dc8bc1d6"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/shared_dictionary_ai_replay_v2/plan.json",
+      "sha256": "1de6d4b4547724e2b6c43f3f7097f62faf59e7e3dff773c105e2ea349dd3c5ea"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/shared_dictionary_ai_replay_v2/replay-00.json",
+      "sha256": "6f2eec82f1ea268678b3a2bef6021ddbd45202972cc50e5b6ee310489f173a65"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/shared_dictionary_ai_replay_v2/replay-01.json",
+      "sha256": "dee04f0c41aa0a5715e3bcf7b1b9bb93060a9e76d97b877fa205c5e12667a043"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/shared_dictionary_ai_replay_v2/replay-02.json",
+      "sha256": "1893281db42c352a44db0031a8170f41b3de36bdf23aa7e66c53bd040045cb14"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/shared_dictionary_ai_replay_v2/replay-03.json",
+      "sha256": "a1961c09148f910b4b4bddfc6ea1b826b1d318aa7db649e5ee431855e70cba56"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/shared_dictionary_ai_replay_v2/replay_reproducibility_verification.json",
+      "sha256": "f46d853451c8922a7aea1024491ba6d0b0880a77d8abf2d27a224405052a8234"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/shared_dictionary_ai_replay_v2/summary.json",
+      "sha256": "37c8c665da0100ddde98e857cd51a2075edb6fdeb1e55fd36f767affc32d3e1a"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/shared_dictionary_ai_review_v1/ai_development_capacity_exact.json",
+      "sha256": "cef623aad96d498101a98368837a5d08972c3b846d9f86666973eb57bcf760c9"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/shared_dictionary_ai_review_v1/ai_development_capacity_final_codec.json",
+      "sha256": "cef623aad96d498101a98368837a5d08972c3b846d9f86666973eb57bcf760c9"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/shared_dictionary_ai_review_v1/baseline_development_capacity_exact.json",
+      "sha256": "12ef79936222cf19b05f17926c1bc27f701c887825bd7a7591d2a61b3ed689a8"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/shared_dictionary_ai_review_v1/baseline_development_capacity_final_codec.json",
+      "sha256": "12ef79936222cf19b05f17926c1bc27f701c887825bd7a7591d2a61b3ed689a8"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/shared_dictionary_ai_review_v1/batch-00-started.json",
+      "sha256": "c0a051713fbc99ad9f7aa8c4065464fca11ee58815d5c6f107bab371e6c76272"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/shared_dictionary_ai_review_v1/batch-00.json",
+      "sha256": "5f58dc1bc279e43df5f7092ccf4661e020a029779c1d462c7ee476972a28323c"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/shared_dictionary_ai_review_v1/batch-01-started.json",
+      "sha256": "100bb822877f1a63cea29faa969ee7a69ed4ab3ab8e511ffb2cbd751ddc7414a"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/shared_dictionary_ai_review_v1/batch-01.json",
+      "sha256": "57f577a3d6a76f114d77cb924ae27c2b301240a1bfa799e9e39756a360e40951"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/shared_dictionary_ai_review_v1/batch-02-started.json",
+      "sha256": "15d47aee9b11bebf13a0b974511a78b468f874654ad018f03975d40abf4fed4a"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/shared_dictionary_ai_review_v1/batch-02.json",
+      "sha256": "b2c51474380901db45c55a04c32d832edc0fa95fb9966d5297f05b3359557b9d"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/shared_dictionary_ai_review_v1/batch-03-started.json",
+      "sha256": "b19ef855b7f7ab7f3cbee6e62f260cf4beebba69a2fb5af1fdb41b57663ed103"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/shared_dictionary_ai_review_v1/batch-03.json",
+      "sha256": "db2a4dadeba3d080e812e0d00258944d6f124412cfb525d255c3559775860be3"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/shared_dictionary_ai_review_v1/completion.json",
+      "sha256": "5795e2c8407fcf54233cc01e9340f8cfbefc2c7079eaa7db2138bec3e1bfc770"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/shared_dictionary_ai_review_v1/fresh_codec_capacity_verification.json",
+      "sha256": "a6f0e921a1d4e19a14210d2407021f6b3554c4e708ca264b3228d9f71eae8064"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/shared_dictionary_ai_review_v1/plan.json",
+      "sha256": "9edc9f779c877629189b0e500458246eb394915aa0f406d11eb214653eae0937"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/shared_dictionary_build_v1/development_capacity.json",
+      "sha256": "7442f3d851dbb9f9b4513e00fa614c5fbdde71174455b13e34ebc0947a966d5d"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/shared_dictionary_build_v1/provenance.jsonl.gz",
+      "sha256": "5f4ef5618feaa02667a92b0201619eaf6f30db3d3d34cef5036c807d4bc680de"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/shared_dictionary_build_v1/rebuild_verification.json",
+      "sha256": "e35e7a760fb26a9b706a459500a723a2811c93a69fe0b490e78ac75913f2ad81"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/shared_dictionary_build_v1/review_validator_tests.json",
+      "sha256": "190d963a371645a88b31596cb2eec868f134c00930f2b76ccf948f27d4e53c41"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/shared_dictionary_build_v1/source_integrity_verification.json",
+      "sha256": "69fa14748c34383ea34610ec18b7fabb02846a7a3ab0be5919b8aef133ed90dd"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/shared_dictionary_build_v1/summary.json",
+      "sha256": "47021148ef9c7670b5e79e90c06815c8709d6dda3dc1384b3ceac7ca622f2729"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/shared_dictionary_codec_v1/independent_protocol_review.json",
+      "sha256": "83b02aa17e94cbfb0d2703f7d69abeb7de52b4b4ef6c052b83eff04c90c2e753"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/results/shared_dictionary_codec_v1/pilot_prefreeze_review.json",
+      "sha256": "5890391e18c23b4059addaba115f48c43a334f434a2872ec48e841908452bf00"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/scripts/audit_shared_dictionary_pilot.py",
+      "sha256": "27faee2120c75c951dd4fcf6b42e0c6d52d36a8df8c18ecc79bbde52c69b8071"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/scripts/build_shared_dictionary.py",
+      "sha256": "8272c2582cdac087d37e483b5f5e0a279bab25f7c621d523f475e76537f5699a"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/scripts/execute_shared_dictionary_panel.py",
+      "sha256": "a2fafd02d9708efb9571dada20594e767f32362a39bdef3a809aa68c8ca4b3ea"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/scripts/replay_shared_dictionary_ai_v2.py",
+      "sha256": "cbd07f248d295b00675e98b4e15ed7196d6825a5a93a8d73dfdef413ed2ee1bc"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/scripts/review_shared_dictionary_ai.py",
+      "sha256": "0b9deb91b34f813e358d4e87bab1e41e18270d71f07e6aeced7749ba223e4ab5"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/scripts/shared_dictionary_audit_core.py",
+      "sha256": "bc27946f50310e20abef9d37edabbb191b9f37a0efcb8d7805237c6de742e599"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/scripts/shared_dictionary_prediction_audit.py",
+      "sha256": "fd887aec704dcd39c9bbf73650761c458bca8b6822a37c95504a4a964c5842f4"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/tests/fixtures/shared_dictionary_v1_vectors.json",
+      "sha256": "3741ff274e2fcc41a7207588bc52b615afaee50db85f83ef6c960937fd3a1fd4"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/tests/test_audit_shared_dictionary_pilot.py",
+      "sha256": "9a8fe0592da149e24521cc5c6ccd33e0b7e31b52b3e4e13d74dcda85a6dd06f0"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/tests/test_shared_dictionary.py",
+      "sha256": "aa4a087ac997cbbda09f3fc99dd53cceb2692cc70f53e46e78be1f66433ec388"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/tests/test_shared_dictionary_audit_core.py",
+      "sha256": "fe583988daa8ce4d8c94d2c5a121b308a38ddb79d2b78864df9add961ca045a3"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/tests/test_shared_dictionary_pilot.py",
+      "sha256": "69d13c0309fbae68c6e36f34aa98c7fb9582dd52fcba2257e097463d64090a18"
+    },
+    {
+      "path": "/workspace/scratch/dde0f88bebcc/synsteg-independent-reproduction/tests/test_shared_dictionary_prediction_audit.py",
+      "sha256": "8b63230af0f0c9615f9ff0a8acd5d46d0b725349db5ba310d3670f0e484dae3c"
+    }
+  ],
+  "models": [
+    {
+      "alias": "qwen05",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+      "cpu_threads": 3
+    },
+    {
+      "alias": "tinyllama11",
+      "model_id": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+      "revision": "fe8a4ea1ffedaf415f4da2f062534de366a451e6",
+      "cpu_threads": 3
+    },
+    {
+      "alias": "falcon3_1b",
+      "model_id": "tiiuae/Falcon3-1B-Instruct",
+      "revision": "28ba2251970a01dd1edc7ba7dad2eb71216ccfdf",
+      "cpu_threads": 3
+    }
+  ],
+  "samples": [
+    {
+      "id": "sd1-community_tool_repair-explanation",
+      "topic_id": "sd1_community_tool_repair",
+      "genre_id": "explanation",
+      "prompt": "Write a self-contained English explanation for a general reader about organizing a community session to repair ordinary household tools. Aim for approximately 250 words. Connect practical details with their reasons in ordinary paragraphs. Return only the prose, with no title, headings, lists, or dialogue.",
+      "generation_seed": 111653359
+    },
+    {
+      "id": "sd1-community_tool_repair-narrative",
+      "topic_id": "sd1_community_tool_repair",
+      "genre_id": "narrative",
+      "prompt": "Write an English short story about an ordinary adult facing a small unexpected difficulty while organizing a community session to repair ordinary household tools. Aim for approximately 250 words and give the event a clear resolution. Return only the narrative paragraphs, with no title, headings, lists, or dialogue.",
+      "generation_seed": 123410605
+    },
+    {
+      "id": "sd1-night_window_heat_loss-explanation",
+      "topic_id": "sd1_night_window_heat_loss",
+      "genre_id": "explanation",
+      "prompt": "Write a self-contained English explanation for a general reader about reducing heat loss through a household window on a cold night. Aim for approximately 250 words. Connect practical details with their reasons in ordinary paragraphs. Return only the prose, with no title, headings, lists, or dialogue.",
+      "generation_seed": 4096551857
+    },
+    {
+      "id": "sd1-night_window_heat_loss-narrative",
+      "topic_id": "sd1_night_window_heat_loss",
+      "genre_id": "narrative",
+      "prompt": "Write an English short story about an ordinary adult facing a small unexpected difficulty while reducing heat loss through a household window on a cold night. Aim for approximately 250 words and give the event a clear resolution. Return only the narrative paragraphs, with no title, headings, lists, or dialogue.",
+      "generation_seed": 782404232
+    },
+    {
+      "id": "sd1-packing_picnic-explanation",
+      "topic_id": "sd1_packing_picnic",
+      "genre_id": "explanation",
+      "prompt": "Write a self-contained English explanation for a general reader about packing a picnic for a group with limited carrying space. Aim for approximately 250 words. Connect practical details with their reasons in ordinary paragraphs. Return only the prose, with no title, headings, lists, or dialogue.",
+      "generation_seed": 2289194521
+    },
+    {
+      "id": "sd1-packing_picnic-narrative",
+      "topic_id": "sd1_packing_picnic",
+      "genre_id": "narrative",
+      "prompt": "Write an English short story about an ordinary adult facing a small unexpected difficulty while packing a picnic for a group with limited carrying space. Aim for approximately 250 words and give the event a clear resolution. Return only the narrative paragraphs, with no title, headings, lists, or dialogue.",
+      "generation_seed": 1136484228
+    },
+    {
+      "id": "sd1-home_book_sorting-explanation",
+      "topic_id": "sd1_home_book_sorting",
+      "genre_id": "explanation",
+      "prompt": "Write a self-contained English explanation for a general reader about sorting a mixed collection of books at home. Aim for approximately 250 words. Connect practical details with their reasons in ordinary paragraphs. Return only the prose, with no title, headings, lists, or dialogue.",
+      "generation_seed": 2057702195
+    },
+    {
+      "id": "sd1-home_book_sorting-narrative",
+      "topic_id": "sd1_home_book_sorting",
+      "genre_id": "narrative",
+      "prompt": "Write an English short story about an ordinary adult facing a small unexpected difficulty while sorting a mixed collection of books at home. Aim for approximately 250 words and give the event a clear resolution. Return only the narrative paragraphs, with no title, headings, lists, or dialogue.",
+      "generation_seed": 1305446965
+    }
+  ],
+  "interpretation": [
+    "24 fresh covers: 3 models times 4 new topics times 2 genres. Same numeric seeds and prompts across native model chat templates.",
+    "192 shared-method attempts pair 8/16 bits, 2 selectors and 2 framing modes on each cover. All capacity failures remain in denominator.",
+    "48 fixed_quality baseline attempts use old document-specific codebooks and 32 external length bits.",
+    "6 separate canonical AES-SIV bundle attempts use every cover per generator in fixed sample order with two newline separators; 3 dependent long containers, no subset selection.",
+    "Public AI-pruned WordNet dictionary is frozen before test generation; the language model can change sender ranking only, never receiver slot eligibility.",
+    "Plain length16 framing is unauthenticated diagnostic transport. AES-SIV incurs 144 overhead bits and may fail on every short cover.",
+    "Keys and synthetic payloads are public fixtures. This pilot cannot establish confidentiality or steganographic security.",
+    "No classifier refitting or threshold selection. Old four attacks transfer from a different method and generator distribution.",
+    "GPT2 full-text mean-NLL candidate costs use original cover only and are computed before payload; two-member classes have singleton groups and cost zero bookkeeping.",
+    "GPT2 and Qwen2.5-1.5B-base secondary PPL use complete sliding windows; within-scorer paired effects only; no raw cross-tokenizer PPL comparison.",
+    "Claude is not part of this local-only run; its access adapter and prerequisites are documented separately."
+  ]
+}

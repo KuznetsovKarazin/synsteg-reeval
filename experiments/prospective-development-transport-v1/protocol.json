@@ -1,0 +1,301 @@
+{
+  "schema": "prospective-development-transport-plan-v1",
+  "experiment_id": "prospective-development-transport-v1",
+  "status": "proposal_feasibility_only_not_executed",
+  "execution_enabled": false,
+  "scope": "New immutable development covers, same frozen mechanical arms/parameters as matched-archive-v1. Only public-dictionary arms are resource-feasible without a new candidate-model stage; original/fixed cells explicitly blocked.",
+  "prior_information": {
+    "first_eight_ordinary_covers_already_observed": true,
+    "all100_source_titles_excerpts_reviewed": true,
+    "source_topic_audit_known": true,
+    "not_pure_pre_data_preregistration": true,
+    "scope_of_freeze": "Analysis choices before encoding new covers; observed ordinary prefix at execution freeze must be recorded exactly in execution manifest, potentially greater than8."
+  },
+  "inherited_protocol": {
+    "path": "experiments/matched_archive_v1/protocol.json",
+    "sha256": "e289d0128f6b7eedc1193e751e98de3e0a241b572e9bdb0b1d8385aab05c3005",
+    "freeze_commit": "c3fd4fad402bfdfc0e23fde9931d8b9d706c73ff"
+  },
+  "cover_cohort": {
+    "plan": "configs/large_campaign_resume_v2.json",
+    "plan_sha256": "3712de70551637f9d973d7e5fe507b30478de2472e1db87596b7fd8c0a4680b0",
+    "source_prompts_sha256": "3190e9b56e83762c5f47c41fc1605b5668d43426000814b8ffbaef47112393d1",
+    "source_groups": 100,
+    "model_record_pairs": 300,
+    "models": [
+      "qwen05",
+      "tinyllama11",
+      "falcon3_1b"
+    ],
+    "input": "explicit immutable completed batch after-snapshot plus complete300 checkpoint, never live runs",
+    "milestone": "May evaluate a completed first30/100 TinyLlama prefix while preserving remaining rows as cover_not_attempted; output eligibility never changes cover selection.",
+    "reuse_completed_rows": "Later cumulative milestones reuse exact prior keyed analysis rows by input hash; no duplicate inference, replacement, rerun or fabricated extra observation."
+  },
+  "payloads": {
+    "primary_lengths": [
+      128,
+      256,
+      512
+    ],
+    "assignment": "All3 inherited lengths per source. At each length sort100 archived luna_missing member paths lexicographically and map nth payload to nth frozen development source; all3 models share the same payload for that source and length.",
+    "map": "experiments/prospective-development-transport-v1/payload-map.json",
+    "map_sha256": "aa3a13d1629b38628782da973e5c240372751e73baf5014560e3fe787bd04622",
+    "archive_sha256": "793c419e19b09a038af439fceb0c8727f2d809e2e855444d66839fd8132ef790",
+    "secondary": "first16 bits of EACH primary payload; retain parent_payload_length, even if16-bit values coincide; no original arm in secondary",
+    "public_reused_synthetic_inputs_not_confidential": true,
+    "change_from_old_assignment": "Old375 archival records each carried one archived message; new covers have no embedded original message. Fully crossed3length grid is an explicit new data assignment, never presented as identical375 design."
+  },
+  "arms": {
+    "original": {
+      "id": "original_native",
+      "primary_only": true,
+      "status": "BLOCKED_RESOURCE_OR_STAGE_NOT_RUN",
+      "missing": "No author-compatible LLM-generated per-cover candidate table. Historical original_archived replay also required stored encoded_message and payload-shortened key; new covers have neither.",
+      "nominal_candidate_builder_settings": "Must be frozen separately if activated: historical luna b5/a0 versus qwen b3/a0 are not automatically mapped to these3new cover generators.",
+      "activation": "Not authorized by this protocol; requires separately reviewed candidate-stage/version/provider freeze. Do not fabricate a zero-capacity result or silently substitute public WordNet dictionary."
+    },
+    "fixed": [
+      {
+        "id": "strict_b1_g2",
+        "max_bits_per_position": 1,
+        "min_group_size": 2,
+        "status": "BLOCKED_RESOURCE_OR_STAGE_NOT_RUN"
+      },
+      {
+        "id": "strict_b2_g2",
+        "max_bits_per_position": 2,
+        "min_group_size": 2,
+        "status": "BLOCKED_RESOURCE_OR_STAGE_NOT_RUN"
+      },
+      {
+        "id": "lowrate_b1_g1",
+        "max_bits_per_position": 1,
+        "min_group_size": 1,
+        "status": "BLOCKED_RESOURCE_OR_STAGE_NOT_RUN"
+      },
+      {
+        "id": "ceiling_b5_g1",
+        "max_bits_per_position": 5,
+        "min_group_size": 1,
+        "status": "BLOCKED_RESOURCE_OR_STAGE_NOT_RUN"
+      }
+    ],
+    "fixed_common": {
+      "protect_capitalized": true,
+      "candidate_filter_id": "none",
+      "scorer_id": "none",
+      "selection": "canonical",
+      "framing": "external_length",
+      "external_metadata_bits": 32,
+      "seed": "matched-archive-v1",
+      "missing": "Frozen per-cover candidate values; cannot call candidates_from_legacy_key without absent new-cover key."
+    },
+    "public_common": {
+      "min_group_size": 1,
+      "max_bits_per_slot": 2,
+      "selector": "canonical",
+      "framings": [
+        "plain_length16",
+        "aes_siv"
+      ],
+      "fixture_key_hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f"
+    },
+    "public_arms": [
+      "public_v1_plain_length16",
+      "public_v1_aes_siv",
+      "public_v2_plain_length16",
+      "public_v2_aes_siv"
+    ],
+    "public_status": "IMPLEMENTATION_AND_GIT_FREEZE_REQUIRED_BEFORE_NEW_COVER_ENCODING"
+  },
+  "denominators": {
+    "base_model_record_pairs": 300,
+    "source_groups": 100,
+    "primary_cells": 8100,
+    "secondary16_cells": 7200,
+    "total_planned_cells": 15300,
+    "public_executable_cells_if_all300covers_ready": 7200,
+    "original_fixed_blocked_cells_if_all300covers_ready": 8100,
+    "cells_are_not_independent_texts": true
+  },
+  "statuses": {
+    "no_cover": [
+      "cover_not_attempted",
+      "cover_failed_or_unknown"
+    ],
+    "no_resources": [
+      "BLOCKED_RESOURCE_OR_STAGE_NOT_RUN"
+    ],
+    "executed": [
+      "full_exact",
+      "insufficient_capacity",
+      "decoder_mismatch",
+      "implementation_error"
+    ],
+    "numeric_missing_policy": "For missing/blocked cells use null for capacity/delivered bits/book bytes; never zero or insufficient_capacity. Executed insufficient_capacity has delivered0 and retained requested length; zero capacity is preserved explicitly.",
+    "no_automatic_retry": true,
+    "no_post_result_filter": true,
+    "no_semantic_success_from_roundtrip": true,
+    "independent_axes": {
+      "cover_status": [
+        "completed",
+        "not_attempted",
+        "failed",
+        "unknown"
+      ],
+      "resource_status": [
+        "ready",
+        "BLOCKED_RESOURCE_OR_STAGE_NOT_RUN"
+      ],
+      "execution_status": [
+        "not_run_cover_unavailable",
+        "not_run_resource_blocked",
+        "full_exact",
+        "insufficient_capacity",
+        "decoder_mismatch",
+        "implementation_error"
+      ],
+      "precedence": "If cover_status is not completed, execution_status=not_run_cover_unavailable. Otherwise if resource_status is blocked, execution_status=not_run_resource_blocked. Always retain both independent input-status axes, so blocked resource counts are not hidden by missing covers.",
+      "planned_resource_counts": "Original900+fixed7200=8100 cells have blocked resources across all300 regardless of cover availability; only four public arms can become ready after whole-run resource validation.",
+      "public_resource_restore_failure": "Abort before executing cells if any pinned public implementation/resource/runtime fails validation; never silently reduce available arms."
+    }
+  },
+  "endpoints": [
+    "complete_exact_delivery_on_all_requested_records",
+    "capacity_refusals_and_other_errors",
+    "requested_and_delivered_bits",
+    "source_and_stego_words",
+    "codebook_utf8_and_zlib9_bytes",
+    "external_metadata_bits",
+    "public_resource_bytes_once",
+    "frame_overhead_bits"
+  ],
+  "receiver": {
+    "public": "Fresh subprocess receives only stego bytes, declared public32-byte fixture key, pinned dictionary and Protocol; no cover, requested payload or sender traces.",
+    "fixed_and_original": "Not executed until missing per-cover resources exist under separate candidate freeze.",
+    "check": "Exact full byte payload equality/length outside receiver by evaluator; independent decoder/checker, complete source/output/hash/row counts."
+  },
+  "resource_accounting": {
+    "native_framing": "Keep inherited16/32/144-bit contracts distinct. Actual public overhead via frozen Protocol.frame_overhead_bits; identifiers/transport packaging separately itemized.",
+    "public_installation": [
+      {
+        "dictionary_sha256": "03973c86cbea8755835bc88544b38250301c9e55d195b3d165126c8a6038b54d",
+        "file_sha256": "a6266ac3c120a081970e3b74024b8618f2d69c0c1ad98e812135f30d92343239",
+        "id": "v1",
+        "one_time_file_bytes": 208816,
+        "one_time_file_zlib9_bytes": 32169,
+        "path": "data/shared_dictionary_recovery_v1.json"
+      },
+      {
+        "dictionary_sha256": "172f89693c8df0401578128f7919410e9d4d93229c3614b3e1bfc63c2e8ca384",
+        "file_sha256": "5dafba7b2179b40be560bacfd9ffa783ef98350d07e8d4ac7919c3a0865e6aa6",
+        "id": "v2",
+        "one_time_file_bytes": 29071,
+        "one_time_file_zlib9_bytes": 5807,
+        "path": "data/shared_dictionary_recovery_v2.json"
+      }
+    ],
+    "per_public_receiver_key_bytes": 32,
+    "codebook_bytes": "null for blocked original/fixed, never zero",
+    "costs": "Public stage stdlib/cryptography only. Original candidate model calls, token usage/time/retries are separate costs and are not covered by ordinary generation timing."
+  },
+  "resource_pins": [
+    {
+      "path": "scripts/run_matched_archive_v1.py",
+      "sha256": "3dfcfd6eab7056ab2d8c14110365407611b3fbb1aa0501e81b7cbcb75c95aea7",
+      "git_blob_sha1": "9a2e626391d2d63c25f76b0fdc4aa4edad19f903",
+      "commit": "c24ecdeb3e019b70c4d520b2f9c19748dad36389",
+      "repository": "KuznetsovKarazin/synsteg-independent-reproduction"
+    },
+    {
+      "path": "scripts/audit_matched_archive_v1.py",
+      "sha256": "23abcd9bdd44988f4c660cfe8fb052202d6573bf837eb8409a0ac68f6000491d",
+      "git_blob_sha1": "9699cc7323ef793b42f89a62292f14f85e67ff64",
+      "commit": "c24ecdeb3e019b70c4d520b2f9c19748dad36389",
+      "repository": "KuznetsovKarazin/synsteg-independent-reproduction"
+    },
+    {
+      "path": "src/synsteg_audit/shared_dictionary.py",
+      "sha256": "21dc3dcfb2b0cd6396424280fc2a47695481eb815b29ab2381cfdcf7f2d47d2f",
+      "git_blob_sha1": "db88a3d9a751d3fb56e2fbe5526ab854585e3317",
+      "commit": "c24ecdeb3e019b70c4d520b2f9c19748dad36389",
+      "repository": "KuznetsovKarazin/synsteg-independent-reproduction"
+    },
+    {
+      "path": "src/synsteg_audit/fixed_codebook.py",
+      "sha256": "78511265fead183096e04841ee771903454894c6db7326cef7752242e878829a",
+      "git_blob_sha1": "bc6360575b9b4c4bb247a9ed42019486b207d71a",
+      "commit": "c24ecdeb3e019b70c4d520b2f9c19748dad36389",
+      "repository": "KuznetsovKarazin/synsteg-independent-reproduction"
+    },
+    {
+      "path": "tests/test_shared_dictionary.py",
+      "sha256": "aa4a087ac997cbbda09f3fc99dd53cceb2692cc70f53e46e78be1f66433ec388",
+      "git_blob_sha1": "fb082383ae8156a0ea3ec82369572e0d4e15f0ea",
+      "commit": "c24ecdeb3e019b70c4d520b2f9c19748dad36389",
+      "repository": "KuznetsovKarazin/synsteg-independent-reproduction"
+    },
+    {
+      "path": "tests/test_matched_archive_v1.py",
+      "sha256": "a35229ec06300f17891b5c1ab2e4bca2e2aa8b2d70e916b143a9c56258d55af4",
+      "git_blob_sha1": "1a007361c95519c86f0ac003fd5b17bf68ac525b",
+      "commit": "c24ecdeb3e019b70c4d520b2f9c19748dad36389",
+      "repository": "KuznetsovKarazin/synsteg-independent-reproduction"
+    },
+    {
+      "path": "experiments/matched_archive_v1/protocol.json",
+      "sha256": "e289d0128f6b7eedc1193e751e98de3e0a241b572e9bdb0b1d8385aab05c3005",
+      "git_blob_sha1": "ef63f7bb8fb808b606464ac7cc827261db03707f",
+      "commit": "c24ecdeb3e019b70c4d520b2f9c19748dad36389",
+      "repository": "KuznetsovKarazin/synsteg-independent-reproduction"
+    },
+    {
+      "path": "data/shared_dictionary_recovery_v1.json",
+      "sha256": "a6266ac3c120a081970e3b74024b8618f2d69c0c1ad98e812135f30d92343239",
+      "git_blob_sha1": "7d599b3a2ce08bb8a3e83151feedd483063c4e71",
+      "commit": "c24ecdeb3e019b70c4d520b2f9c19748dad36389",
+      "repository": "KuznetsovKarazin/synsteg-independent-reproduction"
+    },
+    {
+      "path": "data/shared_dictionary_recovery_v2.json",
+      "sha256": "5dafba7b2179b40be560bacfd9ffa783ef98350d07e8d4ac7919c3a0865e6aa6",
+      "git_blob_sha1": "64051c16f3ce149f72e237783c3b125423c4c763",
+      "commit": "c24ecdeb3e019b70c4d520b2f9c19748dad36389",
+      "repository": "KuznetsovKarazin/synsteg-independent-reproduction"
+    }
+  ],
+  "restore_policy": "Fetch exact immutable Git refs and verify SHA256 before use. Missing destinations may be restored; existing differing files cause refusal. Never edit frozen codecs/protocol/results. Verify full ZIP or its Git chunk manifest; no secret lookup.",
+  "implementation_plan": [
+    "Write a new thin immutable-snapshot runner, not edits to run_matched_archive_v1.py (it hardcodes375 archival replay).",
+    "Validate exact config, payload map, resource/source hashes, environment and all300record IDs; create full15300 state grid before any encoder call.",
+    "Emit blocked original/fixed rows with null metrics. Run only four frozen public variants on available covers at128/256/512 and corresponding16-bit prefixes; preserve every zero/refusal/error.",
+    "Fresh-process receiver and independent oracle check every executed row; package full traces and metrics with source identities; exclusive milestone output and remote Git readback.",
+    "Synthetic fixtures verify missing versus zero/insufficient, complete300/15300 counts, payload map, immutability, no-clobber and fresh receiver. Git-freeze implementation/runtime before actual new-cover encoding."
+  ],
+  "runtime_feasibility": {
+    "observed_python": "3.12.14",
+    "observed_cryptography": "50.0.2",
+    "historical_cryptography_exact_version": "not recorded in matched provenance read",
+    "execution_runtime_must_be_frozen": true,
+    "no_model_imports_required_for_public_stage": true
+  },
+  "candidate_stage_minimum": "See docs/prospective_development_transport_v1_feasibility_ru.md and results/prospective-development-transport-v1-feasibility/author-candidate-inspection.json. No API/LLM candidate generation executed or authorized here.",
+  "prohibited": [
+    "LLM/API calls for candidates or metrics",
+    "opening closed test",
+    "regeneration or output-based selection",
+    "claiming all300 generation tasks completed without checkpoint",
+    "calling unavailable original/fixed cells capacity failures",
+    "changing inherited public/fixed hyperparameters after seeing outputs",
+    "passing sender payload/cover to receiver",
+    "claiming pure prospective pre-data registration",
+    "neural quality/security inference from roundtrip"
+  ],
+  "execution_so_far": {
+    "new_cover_encode_calls": 0,
+    "new_cover_decode_calls": 0,
+    "model_calls": 0,
+    "paid_calls": 0,
+    "closed_test_opened": false
+  }
+}

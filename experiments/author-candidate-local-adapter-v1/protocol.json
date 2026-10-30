@@ -1,0 +1,97 @@
+{
+  "schema": "author-candidate-local-adapter-v1-protocol",
+  "id": "author-candidate-local-adapter-v1",
+  "stage": "offline_adapter_complete_native_not_implemented",
+  "execution_enabled": false,
+  "scope": "New local-provider condition of current ZIP candidate construction, not exact historical provider replication.",
+  "archive_sha256": "793c419e19b09a038af439fceb0c8727f2d809e2e855444d66839fd8132ef790",
+  "base_git_commit": "b5cd33dcec49d45e4a5eb8b4049e0fad72dd58ab",
+  "completed_work": {
+    "offline_checks": 36,
+    "model_calls": 0,
+    "tokenizer_calls": 0,
+    "encode_decode_calls": 0,
+    "initial_offline_checks": 35,
+    "parser_fix_validation": "results/comparison-candidate-unblock-20261025/parser-fix-validation.json"
+  },
+  "source_contract": {
+    "chunk_words": 5,
+    "bits_per_word": 3,
+    "additional_bits": 0,
+    "temperature_argument": 0.7,
+    "author_pure_functions": "hash-verified AST selected binarize/clean/align; no API or module imports",
+    "new_deviations": [
+      "Full closed JSON schema and duplicate-key rejection instead of only testing first item.",
+      "Sequential external replies, no multiprocessing/network-retry behavior.",
+      "Missing/failed/UNKNOWN chunk yields incomplete resource, no silently substituted candidates.",
+      "Unknown usage remains null; original hardcoded345token offset not counted as measured usage."
+    ]
+  },
+  "next_smallest_native_diagnostic": {
+    "fixed_cover_order": 1,
+    "fixed_model_alias": "tinyllama11",
+    "fixed_chunk_orders": [
+      0,
+      1
+    ],
+    "selection": "First two chunks of earliest fixed development cover; not selected for semantic quality or capacity.",
+    "requests": [
+      {
+        "chunk_order": 0,
+        "request_sha256": "2a510a01e1b7ee830f393c97bce447889f28ff24e251f9c6ee82231259bc2247"
+      },
+      {
+        "chunk_order": 1,
+        "request_sha256": "ec61d91995330841f842969e930c996004214e8822b6511c8f81383ae860d328"
+      }
+    ],
+    "max_shape_attempts_per_chunk": 3,
+    "max_requests": 6,
+    "no_automatic_transport_or_unknown_retry": true,
+    "full_cover_candidate_resource": false,
+    "author_stego_comparison_completed": false,
+    "before_execution": [
+      "Native adapter implementation plus tests and independent review.",
+      "Exact model/runtime/sampling and timeout/resource policy manifest.",
+      "Git source freeze, immutable intent, actual readback and one-heavy-NN-process lease."
+    ]
+  },
+  "proposed_local_resource": {
+    "model": "Qwen2.5-1.5B-Instruct Q4_K_M",
+    "hf_revision": "91cad51170dc346986eccefdc2dd33a9da36ead9",
+    "model_bytes": 1117320736,
+    "model_sha256": "6a1a2eb6d15622bf3c96857206351ba97e1af16c30d7a74ee38970e434e9407e",
+    "llama_cpp_release": "b11791",
+    "llama_cpp_commit": "ea9e3446b5c84a7f972cbbdea9df615fc4ff9159",
+    "runtime_download_bytes": 22302292,
+    "restorer": "scripts/restore_framed_interval_llm_v1_resources.py",
+    "fresh_availability_checked_here": false,
+    "native_resource_bytes_verified_here": false,
+    "new_paid_api_calls": 0
+  },
+  "minimum_full_same_cover_stage": {
+    "cover_order": 1,
+    "chunks": 109,
+    "shape_attempt_upper_bound": 327,
+    "all_original_payloads": [
+      128,
+      256,
+      512
+    ],
+    "pre_payload_pool_fixed_once": true,
+    "failure_rule": "Incomplete candidate pool remains resource-blocked; not insufficient_capacity or zero.",
+    "must_preserve": [
+      "raw responses and attempts",
+      "usage/time/nulls",
+      "pre-payload raw+binarized+aligned pools",
+      "copied original embed per payload and its actual post-embed key",
+      "fixed variants from same pre-payload pool"
+    ]
+  },
+  "remaining_blocks": [
+    "Original GPT4o API unavailable and prohibited in this free stage.",
+    "Exact historical683e8cb tree absent from author ZIP.",
+    "Native local candidate provider adapter not implemented or run.",
+    "36offline checks do not validate linguistic synonymy, full-cover transport, quality or steganographic security."
+  ]
+}

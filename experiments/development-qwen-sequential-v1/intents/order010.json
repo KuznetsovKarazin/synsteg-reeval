@@ -1,0 +1,16 @@
+{
+  "schema": "development-qwen-sequential-v1-intent",
+  "experiment_id": "development-qwen-sequential-v1",
+  "source_order": 10,
+  "model_alias": "qwen05",
+  "identity": "0fe4cd230b9dad66700f3a410d131f26afe785ac4e51bfd2181277d800ff1e09",
+  "record_id": "wikipedia-panel-recovery-v1-geography-educational-500-development-01",
+  "status": "reserved_intent_no_execution_claim",
+  "protocol_sha256": "4097035cfdef9e10a4e92a171836686024eb159132322176f0615a339ed28fac",
+  "helper_sha256": "12492e8411eeec4d0e0d4f0a8c2e969b2fb055045213bb5c8d88a29a14c19e0e",
+  "predecessor_receipt_commit": "a020ad8925a640fa5f7d3203e03d2dd8b023d99c",
+  "guard_request_sha256": "b218d92025547e958ba564917aef1036f5a1e09a4d577bf4235920b2b657498a",
+  "automatic_retries": 0,
+  "max_new_requests": 1,
+  "lost_execution_identity_policy": "Do not replay any saved intent after loss of execution identity."
+}

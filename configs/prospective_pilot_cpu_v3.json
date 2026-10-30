@@ -1,0 +1,250 @@
+{
+  "schema": "synsteg-prospective-v1",
+  "execution_enabled": true,
+  "paid_api_allowed": false,
+  "claim_scope": "prospective_feasibility_pilot_not_publication_scale",
+  "fixture_only": false,
+  "adapter_file": "scripts/prospective_local_adapter.py",
+  "adapter_factory": "make_adapter",
+  "additional_code_files": [
+    "scripts/run_prospective_stages.py"
+  ],
+  "model": {
+    "backend": "local_hf",
+    "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+    "model_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "tokenizer_id": "Qwen/Qwen2.5-0.5B-Instruct",
+    "tokenizer_revision": "7ae557604adf67be50417f59c2c2f167def9a775"
+  },
+  "generation": {
+    "local_files_only": true,
+    "max_new_tokens": 384,
+    "do_sample": true,
+    "temperature": 0.8,
+    "top_p": 0.95,
+    "dtype": "bfloat16",
+    "device": "cpu",
+    "cpu_threads": 2,
+    "top_k": 50
+  },
+  "variants": [
+    "fixed_canonical",
+    "fixed_quality"
+  ],
+  "method_config": {
+    "candidate_source": "WordNet first sense; base-form NN/JJ/RB/VB; lowercase lexical core in one GPT2 token in the exact rendered context; verified original causal prefix",
+    "framing": "external_length",
+    "external_length_bits": 32,
+    "description": "Fixed seed codebook; two selectors; external payload length costs 32 bits; full serialized codebook counted separately; no semantic guarantee",
+    "variants": [
+      "fixed_canonical",
+      "fixed_quality"
+    ],
+    "cpu_threads": 2,
+    "quality_model": {
+      "model_id": "openai-community/gpt2",
+      "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e"
+    },
+    "candidate_filter_id": "wordnet-first-sense-base-pos-rendered-single-gpt2-token-v2",
+    "scorer_id": "gpt2-verified-cover-prefix-next-token-nll-v2",
+    "token_alignment": {
+      "rendering": "Original cover prefix + candidate + original suffix, preserving actual whitespace and punctuation.",
+      "candidate_span": "The full lowercase alphabetic core must occupy exactly one token ending at the core end; no suffix absorption.",
+      "causal_prefix": "Candidate token index and every preceding token ID must match the original cover tokenization before reusing original-cover logits.",
+      "first_token": "Reject the first token because this protocol supplies no BOS conditioning token.",
+      "rejection": "Reject unaligned or multi-token candidates before constructing payload-independent groups; count considered/admitted/rejected candidate pairs."
+    }
+  },
+  "payload_bits": [
+    8,
+    16
+  ],
+  "repetitions": 1,
+  "maximum_attempts": 1,
+  "generation_seed": 2026102401,
+  "payload_seed": 2026102402,
+  "genres": [
+    {
+      "id": "explanation"
+    },
+    {
+      "id": "instructions"
+    },
+    {
+      "id": "narrative"
+    }
+  ],
+  "topics": {
+    "train": [
+      {
+        "id": "v2_train_fruit",
+        "text": "judging the ripeness of fruit at an open-air market"
+      },
+      {
+        "id": "v2_train_drum",
+        "text": "tuning a hand drum before a small music session"
+      },
+      {
+        "id": "v2_train_chess",
+        "text": "arranging simple chess positions for a beginner lesson"
+      },
+      {
+        "id": "v2_train_picnic",
+        "text": "insulating a picnic box for an afternoon outdoors"
+      }
+    ],
+    "development": [
+      {
+        "id": "v2_dev_map",
+        "text": "laying out a neighborhood walking map for visitors"
+      },
+      {
+        "id": "v2_dev_stitch",
+        "text": "choosing stitches to mend a torn cotton sleeve"
+      }
+    ],
+    "test": [
+      {
+        "id": "v2_test_phone",
+        "text": "arranging shortcuts on a phone home screen for everyday use"
+      },
+      {
+        "id": "v2_test_packaging",
+        "text": "sorting recyclable packaging after unpacking household supplies"
+      },
+      {
+        "id": "v2_test_train",
+        "text": "sharing limited table space with other passengers on a long train journey"
+      },
+      {
+        "id": "v2_test_collage",
+        "text": "mixing colors for a handmade paper collage"
+      }
+    ]
+  },
+  "prompts": {
+    "train": {
+      "explanation": {
+        "family_id": "v2_train_reader_question",
+        "template": "A reader has asked what matters when {topic}. Write an English explanation of approximately 180 words that connects the main ideas in ordinary prose. Give no title, dialogue, bullet points, or numbered list."
+      },
+      "instructions": {
+        "family_id": "v2_train_action_sequence",
+        "template": "Describe a sensible beginning, middle, and end for {topic}. Write approximately 180 English words as connected paragraphs, explaining why actions are ordered that way. Omit headings and list formatting."
+      },
+      "narrative": {
+        "family_id": "v2_train_person_event",
+        "template": "Follow one ordinary person through a small event involving {topic}. Tell the event in approximately 180 English words, with a clear beginning and ending and no title or dialogue."
+      }
+    },
+    "development": {
+      "explanation": {
+        "family_id": "v2_dev_explanatory_memo",
+        "template": "Draft a short explanatory memo for a community group about {topic}. In approximately 180 English words, connect the purpose, main ideas, and likely consequences. Use prose paragraphs without a title, salutation, or list."
+      },
+      "instructions": {
+        "family_id": "v2_dev_handover_note",
+        "template": "Write a handover note for a colleague who will take responsibility for {topic}. Explain the preparation and practical sequence in approximately 180 English words of connected prose, without headings, bullet points, or numbering."
+      },
+      "narrative": {
+        "family_id": "v2_dev_incident_account",
+        "template": "Write a fictional incident account describing a small complication during {topic} and its resolution. Use a neutral observer viewpoint and approximately 180 English words of narrative prose, without headings, lists, or dialogue."
+      }
+    },
+    "test": {
+      "explanation": {
+        "family_id": "v2_test_explanatory_letter",
+        "template": "Write the body of a friendly letter explaining {topic} to someone curious about it. Develop the ideas and reasons in approximately 180 English words of flowing prose. Omit addresses, greetings, signatures, headings, and lists."
+      },
+      "instructions": {
+        "family_id": "v2_test_advice_letter",
+        "template": "Write the body of a letter advising a friend who is about to try {topic}. Give the preparation, main actions, and reasons in approximately 180 English words of natural prose, with no greeting, signature, title, bullet points, or numbered steps."
+      },
+      "narrative": {
+        "family_id": "v2_test_personal_journal",
+        "template": "Write a fictional personal journal entry recalling an ordinary episode involving {topic}. Describe what happened and bring the episode to a definite close in approximately 180 English words of narrative prose. Omit a date line, title, lists, and dialogue."
+      }
+    }
+  },
+  "duplicate_policy": {
+    "normalization": "Unicode word tokens, casefold, whitespace join",
+    "bigram_jaccard": 0.9,
+    "action": "quarantine_as_failed_attempt_no_replacement"
+  },
+  "attack": {
+    "features": [
+      "word",
+      "char"
+    ],
+    "C": 1.0,
+    "target_fpr": 0.05,
+    "minimum_common_success_pairs": 4,
+    "fit": "train_only",
+    "score_direction": "development_only",
+    "cohort": "intersection_of_full_success_across_variants"
+  },
+  "statistics": {
+    "bootstrap_resamples": 1000,
+    "bootstrap_seed": 2026102403,
+    "cluster": "topic_family",
+    "confidence": 0.95
+  },
+  "interpretation": {
+    "test_pairs": 24,
+    "test_topic_clusters": 4,
+    "pilot_limitations": [
+      "Small capacity, only 8/16 payload bits.",
+      "Four test topic clusters cannot establish broad generalization.",
+      "External length framing requires accounting for 32 bits outside stegotext.",
+      "No superiority or security claim follows from a feasibility pilot.",
+      "Human semantic and grammatical evaluation is not part of this automated pilot.",
+      "v1 completed but its raw artifacts were lost; v3 does not replace or pool those observations.",
+      "v2 stayed at the initial remote-checkpoint gate with zero generation attempts in the last verified state; no initial receipt was issued. Its unused topics and prompts are reused openly.",
+      "All nine prompt templates request approximately 180 words; a common 384-token ceiling may still truncate outputs.",
+      "Prompt templates and topic families are disjoint by design; unique IDs do not by themselves prove semantic independence.",
+      "The corrected quality selector uses a local original-cover-context next-token proxy, not actual stegotext perplexity or a semantic-quality guarantee.",
+      "Verified prefix alignment fixes the artificial leading-space error; interactions between multiple substitutions remain unmodeled and rejected alignments can reduce capacity."
+    ]
+  },
+  "external_resource_files": [
+    {
+      "path": "/tmp/synsteg_nltk/corpora/wordnet.zip",
+      "sha256": "cbda5ea6eef7f36a97a43d4a75f85e07fccbb4f23657d27b4ccbc93e2646ab59"
+    },
+    {
+      "path": "/tmp/synsteg_nltk/taggers/averaged_perceptron_tagger_eng/averaged_perceptron_tagger_eng.classes.json",
+      "sha256": "d152ffa69d45b8357276341a3d592c6c025911d52ec0d9068d4f382560dd48b6"
+    },
+    {
+      "path": "/tmp/synsteg_nltk/taggers/averaged_perceptron_tagger_eng/averaged_perceptron_tagger_eng.tagdict.json",
+      "sha256": "4c713731cb06727736962bc8cd94ad919217a040e76691059af99bc0c2c9c246"
+    },
+    {
+      "path": "/tmp/synsteg_nltk/taggers/averaged_perceptron_tagger_eng/averaged_perceptron_tagger_eng.weights.json",
+      "sha256": "789e8e35f6fac656d9b7eccea29ba4e8a137cbb5b525dd31f39e4291a9e80832"
+    }
+  ],
+  "run_identity": {
+    "version": "prospective-pilot-cpu-v3",
+    "planned_run_directory": "/tmp/synsteg_runs/prospective-pilot-cpu-v3",
+    "reason": "Fresh frozen run after transient environment reset, with a pre-generation correction to rendered candidate tokenization and new seeds.",
+    "prior_v1_status": "Observed completed by executing agent; raw artifacts lost and observations not independently verifiable.",
+    "prior_v2_status": "Zero generation attempts in the last verified state; initial remote receipt never issued; local freeze artifacts lost in the subsequent environment reset.",
+    "method_change_from_v1": true,
+    "method_change_from_v2": "Exact rendered candidate tokenization, verified original causal prefix, and explicit rejection of unaligned candidates replace the artificial leading-space tokenization.",
+    "reuse_of_v2_design": "All ten unused topic texts/IDs and nine unused prompt templates/family IDs are intentionally identical to v2. No v2 generated text or outcome was observed.",
+    "new_seed_values": {
+      "generation": 2026102401,
+      "payload": 2026102402,
+      "bootstrap": 2026102403
+    },
+    "requires_new_frozen_manifest": true
+  },
+  "prompt_design": {
+    "train_form": "General reader explanation, procedural account, and third-person story.",
+    "development_form": "Explanatory memo, handover note, and neutral incident account.",
+    "test_form": "Explanatory letter, advice letter, and personal journal entry.",
+    "guarantee": "Distinct exact templates and declared communicative families; no claim of absolute semantic independence.",
+    "origin": "Unexecuted v2 design; original v2 identifiers retained to make reuse explicit."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "licenses": {
+    "package": "MIT, complete text in LICENSE.base64 and output LEMMINFLECT-LICENSE.txt",
+    "upstream_terms": "https://lhncbc.nlm.nih.gov/LSG/Projects/lexicon/current/web/termsAndConditions.html"
+  },
+  "members": {
+    "lemminflect-0.2.3.dist-info/LICENSE": {
+      "bytes": 1078,
+      "file": "LICENSE.base64",
+      "sha256": "8e69f1c68fc9f23bd5065a6266f6febb5aaa83a43b41070276760807037abc85"
+    },
+    "lemminflect/resources/infl_lu.csv.gz": {
+      "bytes": 274600,
+      "file": "infl_lu.csv.gz.base64",
+      "sha256": "8c44bd5bec62488bef043f98b0cab022a431d6cb03954864ea70334530908ba7"
+    },
+    "lemminflect/resources/infl_overrides.csv": {
+      "bytes": 1490,
+      "file": "infl_overrides.csv.base64",
+      "sha256": "c6ccfd2f17d706cf259c6cf96cbb89b5a641a584c2456755808425821c7652e8"
+    },
+    "lemminflect/resources/lemma_lu.csv.gz": {
+      "bytes": 326767,
+      "file": "lemma_lu.csv.gz.base64",
+      "sha256": "fd6f807e796da07f2a430d073cefae17004f7147abda065bb48b129dc29a850f"
+    },
+    "lemminflect/resources/lemma_overrides.csv": {
+      "bytes": 1662,
+      "file": "lemma_overrides.csv.base64",
+      "sha256": "f9968d1cc7689350d738c85ee59490cc23efe8cf4ad5a7d5092f070b5fc46c9f"
+    }
+  },
+  "modification": "No modifications to consumed member bytes; base64 transport only",
+  "package": "lemminflect",
+  "schema": "synsteg-lemminflect-static-source-v1",
+  "source_kind": "Exact static lookup and override bytes extracted from pinned wheel; model pickle members excluded",
+  "upstream": "NIH SPECIALIST Lexicon-derived via LemmInflect; underlying original SPECIALIST release not identified by this wheel",
+  "version": "0.2.3",
+  "wheel_bytes": 769698,
+  "wheel_sha256": "1cf470efa783733ca5654cc1a6ee1de774e59031e61bf6210467625e84a8cf1c",
+  "wheel_url": "https://files.pythonhosted.org/packages/9e/98/9fac8cc177474ddd8d1725d5cae052098662d5e4a6756633335f4393673b/lemminflect-0.2.3-py3-none-any.whl"
+}
