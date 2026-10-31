@@ -1,16 +1,54 @@
 {
-  "title": "Re-evaluation of LLM synonym-substitution steganography: code, data and results",
-  "description": "Code, saved SynSteg series and results for the article \"Is LLM Synonym-Substitution Steganography Undetectable? A Re-Evaluation of Steganalysis, Decoding and Key Cost\" (submitted to Computers, MDPI). Includes the decoding audit of 2175 saved stego texts, protocol A/B steganalysis results, the replacement-rate sweep, interpretable detectors, key-cost estimates, detectors of machine-generated text and the seed-key pilots. No API keys or keys of live channels are included.",
+  "title": "Trade-offs in LLM synonym-substitution steganography: code, data and results",
+  "description": "Code, saved SynSteg series and results for the article \"Trade-Offs in LLM Synonym-Substitution Steganography: Steganalysis, Machine-Text Detectors, Adaptive Key Selection and Key Cost\" (submitted to Computers, MDPI). Includes the decoding audit of 2175 saved stego texts, protocol A/B steganalysis results, the replacement-rate sweep, interpretable detectors, key-cost estimates, the corpus and scores of detectors of machine-generated text, the detector-guided key-selection study and the seed-key pilots. No API keys or keys of live channels are included.",
   "upload_type": "software",
   "creators": [
-    {"name": "Kuznetsov, Oleksandr", "affiliation": "eCampus University; V.N. Karazin Kharkiv National University", "orcid": "0000-0003-2331-6326"},
-    {"name": "Chernov, Kyrylo", "affiliation": "V.N. Karazin Kharkiv National University", "orcid": "0000-0003-2417-3793"},
-    {"name": "Smirnov, Oleksii", "affiliation": "Central Ukrainian National Technical University", "orcid": "0000-0001-9543-874X"},
-    {"name": "Ienina, Iryna", "affiliation": "Ukrainian State Flight Academy", "orcid": "0000-0002-2122-7808"}
+    {
+      "name": "Kuznetsov, Oleksandr",
+      "affiliation": "eCampus University; V.N. Karazin Kharkiv National University",
+      "orcid": "0000-0003-2331-6326"
+    },
+    {
+      "name": "Chernov, Kyrylo",
+      "affiliation": "V.N. Karazin Kharkiv National University",
+      "orcid": "0000-0003-2417-3793"
+    },
+    {
+      "name": "Smirnov, Oleksii",
+      "affiliation": "Central Ukrainian National Technical University",
+      "orcid": "0000-0001-9543-874X"
+    },
+    {
+      "name": "Ienina, Iryna",
+      "affiliation": "Ukrainian State Flight Academy",
+      "orcid": "0000-0002-2122-7808"
+    },
+    {
+      "name": "Chernushevych, Valentyn",
+      "affiliation": "V.N. Karazin Kharkiv National University",
+      "orcid": "0009-0007-4186-1981"
+    }
   ],
-  "keywords": ["linguistic steganography", "large language models", "synonym substitution", "steganalysis", "reproducibility"],
+  "keywords": [
+    "linguistic steganography",
+    "large language models",
+    "synonym substitution",
+    "steganalysis",
+    "machine-generated text detection",
+    "adaptive steganography",
+    "reproducibility"
+  ],
   "related_identifiers": [
-    {"identifier": "https://github.com/po3na4skld/synsteg", "relation": "isSupplementTo", "scheme": "url"},
-    {"identifier": "10.3390/computers14050165", "relation": "references", "scheme": "doi"}
-  ]
+    {
+      "identifier": "https://github.com/po3na4skld/synsteg",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.3390/computers14050165",
+      "relation": "references",
+      "scheme": "doi"
+    }
+  ],
+  "version": "1.0.0"
 }
