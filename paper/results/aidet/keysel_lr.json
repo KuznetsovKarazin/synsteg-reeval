@@ -1,0 +1,176 @@
+{
+ "0": {
+  "random key (k=0)": [
+   0.9935794901623025,
+   0.9548494983277592
+  ],
+  "LR-selected, same warden": [
+   0.9818346550933436,
+   0.8812709030100334
+  ],
+  "LR-selected, retrained warden": [
+   0.9798548114674333,
+   0.9331103678929766
+  ],
+  "AI-ensemble-selected, retrained warden": [
+   0.9935794901623024,
+   0.9565217391304348
+  ],
+  "D1 AUC vs human, random": [
+   0.9267793425129474,
+   null
+  ],
+  "D1 AUC vs human, LR-selected": [
+   0.9329985123208913,
+   null
+  ],
+  "D2 AUC vs human, random": [
+   0.2545720965089876,
+   null
+  ],
+  "D2 AUC vs human, LR-selected": [
+   0.2683303318754824,
+   null
+  ],
+  "D3 AUC vs human, random": [
+   0.9156161564188321,
+   null
+  ],
+  "D3 AUC vs human, LR-selected": [
+   0.9215556872965628,
+   null
+  ],
+  "D4 AUC vs human, random": [
+   0.06778447668370599,
+   null
+  ],
+  "D4 AUC vs human, LR-selected": [
+   0.0571358262211832,
+   null
+  ],
+  "D5 AUC vs human, random": [
+   0.07640854129148443,
+   null
+  ],
+  "D5 AUC vs human, LR-selected": [
+   0.06200154360689476,
+   null
+  ]
+ },
+ "1": {
+  "random key (k=0)": [
+   0.9938479435353073,
+   0.9581939799331104
+  ],
+  "LR-selected, same warden": [
+   0.9844632610373486,
+   0.8729096989966555
+  ],
+  "LR-selected, retrained warden": [
+   0.9794521314079262,
+   0.9264214046822743
+  ],
+  "AI-ensemble-selected, retrained warden": [
+   0.9937920157492645,
+   0.9581939799331104
+  ],
+  "D1 AUC vs human, random": [
+   0.9267793425129474,
+   null
+  ],
+  "D1 AUC vs human, LR-selected": [
+   0.9307054730931422,
+   null
+  ],
+  "D2 AUC vs human, random": [
+   0.2545720965089876,
+   null
+  ],
+  "D2 AUC vs human, LR-selected": [
+   0.2761825930358721,
+   null
+  ],
+  "D3 AUC vs human, random": [
+   0.9156161564188321,
+   null
+  ],
+  "D3 AUC vs human, LR-selected": [
+   0.9168241965973535,
+   null
+  ],
+  "D4 AUC vs human, random": [
+   0.06778447668370599,
+   null
+  ],
+  "D4 AUC vs human, LR-selected": [
+   0.05600608494312143,
+   null
+  ],
+  "D5 AUC vs human, random": [
+   0.07640854129148443,
+   null
+  ],
+  "D5 AUC vs human, LR-selected": [
+   0.06164360577622174,
+   null
+  ]
+ },
+ "2": {
+  "random key (k=0)": [
+   0.9931768101027953,
+   0.9615384615384616
+  ],
+  "LR-selected, same warden": [
+   0.9818682117649691,
+   0.8779264214046822
+  ],
+  "LR-selected, retrained warden": [
+   0.9798100692385991,
+   0.9230769230769231
+  ],
+  "AI-ensemble-selected, retrained warden": [
+   0.9938032013064731,
+   0.9565217391304348
+  ],
+  "D1 AUC vs human, random": [
+   0.9267793425129474,
+   null
+  ],
+  "D1 AUC vs human, LR-selected": [
+   0.9328531000771804,
+   null
+  ],
+  "D2 AUC vs human, random": [
+   0.2545720965089876,
+   null
+  ],
+  "D2 AUC vs human, LR-selected": [
+   0.2771109942841803,
+   null
+  ],
+  "D3 AUC vs human, random": [
+   0.9156161564188321,
+   null
+  ],
+  "D3 AUC vs human, LR-selected": [
+   0.9160076509211306,
+   null
+  ],
+  "D4 AUC vs human, random": [
+   0.06778447668370599,
+   null
+  ],
+  "D4 AUC vs human, LR-selected": [
+   0.05914922651871901,
+   null
+  ],
+  "D5 AUC vs human, random": [
+   0.07640854129148443,
+   null
+  ],
+  "D5 AUC vs human, LR-selected": [
+   0.06495453070994732,
+   null
+  ]
+ }
+}
