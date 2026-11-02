@@ -14,9 +14,6 @@ authors:
   - family-names: Ienina
     given-names: Iryna
     orcid: "https://orcid.org/0000-0002-2122-7808"
-  - family-names: Chernushevych
-    given-names: Valentyn
-    orcid: "https://orcid.org/0009-0007-4186-1981"
 version: "1.0.0"
 date-released: "2026-10-31"
 repository-code: "https://github.com/KuznetsovKarazin/synsteg-reeval"
